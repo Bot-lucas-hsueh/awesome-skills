@@ -382,12 +382,12 @@ Brief description of changes
 
 ## 💬 Questions? <!-- 有问题？-->
 
-- **General questions**: Open a [Discussion](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
-  <!-- **一般问题**：开 [Discussion](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions) -->
-- **Bug reports**: Open an [Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
-  <!-- **Bug 报告**：开 [Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues) -->
-- **Skill ideas**: Open a [Discussion](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions) with "Idea" label
-  <!-- **技能想法**：开 [Discussion](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions) 并标注 "Idea" -->
+- **General questions**: Open a [Discussion](https://github.com/theneoai/awesome-skills/discussions)
+  <!-- **一般问题**：开 [Discussion](https://github.com/theneoai/awesome-skills/discussions) -->
+- **Bug reports**: Open an [Issue](https://github.com/theneoai/awesome-skills/issues)
+  <!-- **Bug 报告**：开 [Issue](https://github.com/theneoai/awesome-skills/issues) -->
+- **Skill ideas**: Open a [Discussion](https://github.com/theneoai/awesome-skills/discussions) with "Idea" label
+  <!-- **技能想法**：开 [Discussion](https://github.com/theneoai/awesome-skills/discussions) 并标注 "Idea" -->
 
 ---
 

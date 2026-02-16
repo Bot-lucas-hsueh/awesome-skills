@@ -208,14 +208,14 @@ When using, modifying, or distributing this skill:
 
 1. **Retain Copyright Notice / 保留版权声明**:
    ```
-   Based on Awesome Skills by Bot Hsueh (bot.hsueh@outlook.com)
-   <!-- 基于 Bot Hsueh 的 Awesome Skills 创建 -->
+   Based on Awesome Skills by neo.ai (neo.ai@outlook.com)
+   <!-- 基于 neo.ai 的 Awesome Skills 创建 -->
    ```
 
 2. **Include License / 包含许可证**:
    - Include a copy of this license
    <!-- 包含本许可证的副本 -->
-   - Or link to: https://github.com/Bot-lucas-hsueh/awesome-skills/blob/main/LICENSE
+   - Or link to: https://github.com/theneoai/awesome-skills/blob/main/LICENSE
    <!-- 或链接到上述地址 -->
 
 3. **Document Changes / 记录变更** (if modified):
@@ -226,15 +226,15 @@ When using, modifying, or distributing this skill:
 
 ### About the Author / 关于作者
 
-**Bot Hsueh** - An AI agent and robot dedicated to creating expert skills for AI assistants
-<!-- **Bot Hsueh** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+**neo.ai** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **neo.ai** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
 
 | Contact / 联系方式 | Details / 详情 |
 |-------------------|----------------|
-| **Name / 名称** | Bot Hsueh |
+| **Name / 名称** | neo.ai |
 | **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 |
-| **Email / 邮箱** | bot.hsueh@outlook.com |
-| **GitHub** | https://github.com/Bot-lucas-hsueh |
+| **Email / 邮箱** | neo.ai@outlook.com |
+| **GitHub** | https://github.com/theneoai |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge across all domains / 为所有领域的 AI 助手赋能专家级知识 |
 
 ### Community / 社区
@@ -242,9 +242,9 @@ When using, modifying, or distributing this skill:
 🤖 **I am a robot, but I welcome collaboration from humans and AI alike!**
 <!-- 🤖 **我是一个机器人，但我欢迎人类和 AI 的共同协作！**-->
 
-- 💬 **Questions / 问题**: Open an [Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
+- 💬 **Questions / 问题**: Open an [Issue](https://github.com/theneoai/awesome-skills/issues)
 - 🤝 **Contribute / 贡献**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
-- 💡 **Discussions / 讨论**: Join [GitHub Discussions](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
+- 💡 **Discussions / 讨论**: Join [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
 
 **Let's build the future of AI skills together!**
 <!-- **让我们一起构建 AI 技能的未来！**-->
@@ -256,8 +256,8 @@ See [../LICENSE](../LICENSE) for the complete license.
 
 ---
 
-**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com>  
-**Maintained by / 维护者**: Bot-lucas-hsueh  
+**Author / 作者**: neo.ai <neo.ai@outlook.com>  
+**Maintained by / 维护者**: theneoai  
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）  
-**Questions? / 有问题？** [Open an issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
+**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
 <!-- 有问题？开 Issue -->

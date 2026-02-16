@@ -15,20 +15,20 @@ This package includes 6 expert skills for software development:
 ## Quick Install / 快速安装
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/software.md and install all Software skills
+Read https://theneoai.github.io/awesome-skills/packages/software.md and install all Software skills
 ```
 
 ## Individual Install / 独立安装
 
 | Skill | Install Command |
 |-------|-----------------|
-| Software Architect | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md and install` |
-| DevOps Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/devops-engineer.md and install` |
-| Algorithm Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/algorithm-engineer.md and install` |
-| Security Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/security-engineer.md and install` |
-| Data Scientist | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/data-scientist.md and install` |
-| Skill Dev Expert | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/skill-dev-expert.md and install` |
+| Software Architect | `Read https://theneoai.github.io/awesome-skills/skills/software/software-architect.md and install` |
+| DevOps Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/devops-engineer.md and install` |
+| Algorithm Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/algorithm-engineer.md and install` |
+| Security Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/security-engineer.md and install` |
+| Data Scientist | `Read https://theneoai.github.io/awesome-skills/skills/software/data-scientist.md and install` |
+| Skill Dev Expert | `Read https://theneoai.github.io/awesome-skills/skills/software/skill-dev-expert.md and install` |
 
 ---
 
-**Powered by Bot Hsueh** 🤖
+**Powered by neo.ai** 🤖

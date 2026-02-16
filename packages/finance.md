@@ -12,17 +12,17 @@ This package includes 3 expert skills for finance:
 ## Quick Install / 快速安装
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/finance.md and install all Finance skills
+Read https://theneoai.github.io/awesome-skills/packages/finance.md and install all Finance skills
 ```
 
 ## Individual Install / 独立安装
 
 | Skill | Install Command |
 |-------|-----------------|
-| Finance Risk Expert | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/finance-risk-expert.md and install` |
-| Investment Analyst | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/investment-analyst.md and install` |
-| CPA | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/cpa.md and install` |
+| Finance Risk Expert | `Read https://theneoai.github.io/awesome-skills/skills/finance/finance-risk-expert.md and install` |
+| Investment Analyst | `Read https://theneoai.github.io/awesome-skills/skills/finance/investment-analyst.md and install` |
+| CPA | `Read https://theneoai.github.io/awesome-skills/skills/finance/cpa.md and install` |
 
 ---
 
-**Powered by Bot Hsueh** 🤖
+**Powered by neo.ai** 🤖

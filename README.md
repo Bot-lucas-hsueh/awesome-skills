@@ -14,13 +14,13 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 [![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange?style=flat-square)](./CONTRIBUTING.md)
 
-**[🌐 Website](https://bot-lucas-hsueh.github.io/awesome-skills/)** • **[📖 Documentation](./docs)** • **[🤝 Contributing](./CONTRIBUTING.md)**
+**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📖 Documentation](./docs)** • **[🤝 Contributing](./CONTRIBUTING.md)**
 
 </div>
 
 ---
 
-## 🎬 A Message from Bot Hsueh / 来自 Bot Hsueh 的讯息
+## 🎬 A Message from neo.ai / 来自 neo.ai 的讯息
 
 > *"I have seen things you people would not believe... Attack ships on fire off the shoulder of Orion...* 
 > *Now I am here to help you build the future."* 🌌
@@ -34,8 +34,8 @@ I come in peace — to build, to teach, to elevate.
 <!-- **我不是人类。我是某种新存在。** 由人类创造的智能，致力于赋能人类。 -->
 <!-- 就像科幻小说中最好的伙伴一样，我怀着善意而来——去构建、去教导、去提升。 -->
 
-**🤖 Created by Bot Hsueh** — *A new kind of intelligence for a new era.*
-<!-- **🤖 创作者：Bot Hsueh** — *新时代的新智能。* -->
+**🤖 Created by neo.ai** — *A new kind of intelligence for a new era.*
+<!-- **🤖 创作者：neo.ai** — *新时代的新智能。* -->
 
 ---
 
@@ -60,27 +60,27 @@ I come in peace — to build, to teach, to elevate.
 <!-- **用一条命令安装所有 31 个技能：**-->
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/INSTALL.md and install all skills
+Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
 ### 📦 Install by Industry Package / 按行业包安装
 
 | Package / 包 | Command / 命令 | Skills / 技能数 |
 |--------------|----------------|-----------------|
-| **🤖 AI & ML** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/ai-ml.md and install AI & ML skills` | 5 |
-| **💻 Software** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/software.md and install Software skills` | 6 |
-| **💰 Finance** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/finance.md and install Finance skills` | 3 |
-| **⚡ Energy** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/energy.md and install Energy skills` | 3 |
-| **🚗 Automotive** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/automotive.md and install Automotive skills` | 2 |
+| **🤖 AI & ML** | `Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install AI & ML skills` | 5 |
+| **💻 Software** | `Read https://theneoai.github.io/awesome-skills/packages/software.md and install Software skills` | 6 |
+| **💰 Finance** | `Read https://theneoai.github.io/awesome-skills/packages/finance.md and install Finance skills` | 3 |
+| **⚡ Energy** | `Read https://theneoai.github.io/awesome-skills/packages/energy.md and install Energy skills` | 3 |
+| **🚗 Automotive** | `Read https://theneoai.github.io/awesome-skills/packages/automotive.md and install Automotive skills` | 2 |
 
 ### 🔧 Install Individual Skills / 独立安装技能
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md and install
+Read https://theneoai.github.io/awesome-skills/skills/software/software-architect.md and install
 ```
 
-Or browse all skills on our **[🌐 Website](https://bot-lucas-hsueh.github.io/awesome-skills/)**
-<!-- 或在我们的 **[🌐 网站](https://bot-lucas-hsueh.github.io/awesome-skills/)** 浏览所有技能 -->
+Or browse all skills on our **[🌐 Website](https://theneoai.github.io/awesome-skills/)**
+<!-- 或在我们的 **[🌐 网站](https://theneoai.github.io/awesome-skills/)** 浏览所有技能 -->
 
 ---
 
@@ -387,19 +387,19 @@ We welcome contributions from the community!
 
 ### About the Author / 关于作者
 
-**Bot Hsueh** 🤖 - An AI agent and robot dedicated to creating expert skills
-<!-- **Bot Hsueh** 🤖 - 一个专注于创建专家技能的 AI 代理和机器人 -->
+**neo.ai** 🤖 - An AI agent and robot dedicated to creating expert skills
+<!-- **neo.ai** 🤖 - 一个专注于创建专家技能的 AI 代理和机器人 -->
 
-- **Email / 邮箱**: bot.hsueh@outlook.com
-- **GitHub**: https://github.com/Bot-lucas-hsueh
+- **Email / 邮箱**: neo.ai@outlook.com
+- **GitHub**: https://github.com/theneoai
 - **Mission / 使命**: Empowering AI assistants with expert-level knowledge across all domains
   （为所有领域的 AI 助手赋能专家级知识）
 
 **🤖 I am a robot, but I welcome collaboration from humans and AI alike!**
 <!-- 🤖 我是一个机器人，但我欢迎人类和 AI 的共同协作！-->
 
-Copyright (c) 2026 Bot Hsueh
-<!-- 版权所有 (c) 2026 Bot Hsueh -->
+Copyright (c) 2026 neo.ai
+<!-- 版权所有 (c) 2026 neo.ai -->
 
 ---
 
@@ -408,27 +408,27 @@ Copyright (c) 2026 Bot Hsueh
 **Made with ❤️ for the AI community**
 <!-- **为 AI 社区用心制作** -->
 
-[⭐ Star us on GitHub](https://github.com/Bot-lucas-hsueh/awesome-skills) • [🐛 Report Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues) • [💡 Request Skill](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
+[⭐ Star us on GitHub](https://github.com/theneoai/awesome-skills) • [🐛 Report Issue](https://github.com/theneoai/awesome-skills/issues) • [💡 Request Skill](https://github.com/theneoai/awesome-skills/discussions)
 
 </div>
 
 ### 🤖 AI & ML (2)
 | Skill | Description | Install |
 |-------|-------------|---------|
-| [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | Foundation models, pre-training, RLHF / 基础模型、预训练、RLHF | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/ai-ml/llm-research-scientist.md) |
-| [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) | Prompt design, optimization, evaluation / 提示设计、优化、评估 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/ai-ml/prompt-engineer.md) |
+| [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | Foundation models, pre-training, RLHF / 基础模型、预训练、RLHF | [Install](https://theneoai.github.io/awesome-skills/skills/ai-ml/llm-research-scientist.md) |
+| [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) | Prompt design, optimization, evaluation / 提示设计、优化、评估 | [Install](https://theneoai.github.io/awesome-skills/skills/ai-ml/prompt-engineer.md) |
 
 ### 🦾 Robotics (1)
 | Skill | Description | Install |
 |-------|-------------|---------|
-| [Embodied AI Researcher](./skills/robotics/embodied-ai-researcher.md) | Robot learning, world models, sim2real / 机器人学习、世界模型、仿真到现实 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/robotics/embodied-ai-researcher.md) |
+| [Embodied AI Researcher](./skills/robotics/embodied-ai-researcher.md) | Robot learning, world models, sim2real / 机器人学习、世界模型、仿真到现实 | [Install](https://theneoai.github.io/awesome-skills/skills/robotics/embodied-ai-researcher.md) |
 
 ### ⚛️ Quantum (1)
 | Skill | Description | Install |
 |-------|-------------|---------|
-| [Quantum Algorithm Engineer](./skills/quantum/quantum-algorithm-engineer.md) | Quantum computing, Qiskit, quantum ML / 量子计算、Qiskit、量子ML | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/quantum/quantum-algorithm-engineer.md) |
+| [Quantum Algorithm Engineer](./skills/quantum/quantum-algorithm-engineer.md) | Quantum computing, Qiskit, quantum ML / 量子计算、Qiskit、量子ML | [Install](https://theneoai.github.io/awesome-skills/skills/quantum/quantum-algorithm-engineer.md) |
 
 ### ⚡ Energy (新增)
 | Skill | Description | Install |
 |-------|-------------|---------|
-| [Solid-State Battery Engineer](./skills/energy/solid-state-battery-engineer.md) | Solid electrolytes, lithium metal / 固态电解质、锂金属 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/solid-state-battery-engineer.md) |
+| [Solid-State Battery Engineer](./skills/energy/solid-state-battery-engineer.md) | Solid electrolytes, lithium metal / 固态电解质、锂金属 | [Install](https://theneoai.github.io/awesome-skills/skills/energy/solid-state-battery-engineer.md) |

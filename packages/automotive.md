@@ -11,16 +11,16 @@ This package includes 2 expert skills for automotive:
 ## Quick Install / 快速安装
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/automotive.md and install all Automotive skills
+Read https://theneoai.github.io/awesome-skills/packages/automotive.md and install all Automotive skills
 ```
 
 ## Individual Install / 独立安装
 
 | Skill | Install Command |
 |-------|-----------------|
-| Automotive Design Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/automotive/automotive-design-engineer.md and install` |
-| Autonomous Driving Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/automotive/autonomous-driving-engineer.md and install` |
+| Automotive Design Engineer | `Read https://theneoai.github.io/awesome-skills/skills/automotive/automotive-design-engineer.md and install` |
+| Autonomous Driving Engineer | `Read https://theneoai.github.io/awesome-skills/skills/automotive/autonomous-driving-engineer.md and install` |
 
 ---
 
-**Powered by Bot Hsueh** 🤖
+**Powered by neo.ai** 🤖

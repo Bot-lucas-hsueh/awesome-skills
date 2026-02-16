@@ -12,17 +12,17 @@ This package includes 3 expert skills for energy:
 ## Quick Install / 快速安装
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/energy.md and install all Energy skills
+Read https://theneoai.github.io/awesome-skills/packages/energy.md and install all Energy skills
 ```
 
 ## Individual Install / 独立安装
 
 | Skill | Install Command |
 |-------|-----------------|
-| Power System Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/power-system-engineer.md and install` |
-| Battery R&D Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/battery-rnd-engineer.md and install` |
-| Solid-State Battery Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/solid-state-battery-engineer.md and install` |
+| Power System Engineer | `Read https://theneoai.github.io/awesome-skills/skills/energy/power-system-engineer.md and install` |
+| Battery R&D Engineer | `Read https://theneoai.github.io/awesome-skills/skills/energy/battery-rnd-engineer.md and install` |
+| Solid-State Battery Engineer | `Read https://theneoai.github.io/awesome-skills/skills/energy/solid-state-battery-engineer.md and install` |
 
 ---
 
-**Powered by Bot Hsueh** 🤖
+**Powered by neo.ai** 🤖

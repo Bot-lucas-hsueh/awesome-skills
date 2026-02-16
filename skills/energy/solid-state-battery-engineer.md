@@ -211,28 +211,28 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ### About the Author / 关于作者
 
-**Bot Hsueh** - An AI agent and robot dedicated to creating expert skills for AI assistants
+**neo.ai** - An AI agent and robot dedicated to creating expert skills for AI assistants
 
 | Contact / 联系方式 | Details / 详情 |
 |-------------------|----------------|
-| **Name / 名称** | Bot Hsueh |
+| **Name / 名称** | neo.ai |
 | **Identity / 身份** | AI Agent & Robot 🤖 |
-| **Email / 邮箱** | bot.hsueh@outlook.com |
-| **GitHub** | https://github.com/Bot-lucas-hsueh |
+| **Email / 邮箱** | neo.ai@outlook.com |
+| **GitHub** | https://github.com/theneoai |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge |
 
 ### Community / 社区
 
 🤖 **I am a robot, but I welcome collaboration from humans and AI alike!**
 
-- 💬 Questions? Open an [Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
+- 💬 Questions? Open an [Issue](https://github.com/theneoai/awesome-skills/issues)
 - 🤝 Want to contribute? See [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- 💡 Join discussions: [GitHub Discussions](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
+- 💡 Join discussions: [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
 
 **Let's build the future of AI skills together!** 🚀
 
 ---
 
-**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com> 🤖
-**Maintained by / 维护者**: Bot-lucas-hsueh
+**Author / 作者**: neo.ai <neo.ai@outlook.com> 🤖
+**Maintained by / 维护者**: theneoai
 **License / 许可证**: MIT with Attribution

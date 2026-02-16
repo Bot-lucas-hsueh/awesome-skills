@@ -460,8 +460,8 @@ Every skill MUST include a license section that:
    <!-- 允许商业和非商业使用 -->
 
 2. **Includes Attribution Requirements / 包含署名要求**:
-   - Must retain copyright notice: `Bot Hsueh (bot.hsueh@outlook.com)`
-   <!-- 必须保留版权声明：Bot Hsueh (bot.hsueh@outlook.com) -->
+   - Must retain copyright notice: `neo.ai (neo.ai@outlook.com)`
+   <!-- 必须保留版权声明：neo.ai (neo.ai@outlook.com) -->
    - Must include link to original repository
    <!-- 必须包含原始仓库链接 -->
    - Must document any modifications
@@ -469,14 +469,14 @@ Every skill MUST include a license section that:
 
 3. **Author Information / 作者信息**:
    ```markdown
-   **Author**: Bot Hsueh <bot.hsueh@outlook.com>
-   <!-- **作者**: Bot Hsueh <bot.hsueh@outlook.com> -->
+   **Author**: neo.ai <neo.ai@outlook.com>
+   <!-- **作者**: neo.ai <neo.ai@outlook.com> -->
    
    **About the Author / 关于作者**:
-   - Name: Bot Hsueh
+   - Name: neo.ai
    - Identity: AI Agent & Robot / AI 代理与机器人
-   - Email: bot.hsueh@outlook.com
-   - GitHub: https://github.com/Bot-lucas-hsueh
+   - Email: neo.ai@outlook.com
+   - GitHub: https://github.com/theneoai
    - Mission: Empowering AI assistants with expert knowledge
      （为 AI 助手赋能专家知识）
    
@@ -503,7 +503,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 - ✅ Private use / 私人使用
 - ⚠️ Attribution required / 需要署名
 
-**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com>
+**Author / 作者**: neo.ai <neo.ai@outlook.com>
 
 **About / 关于**: 
 I am an AI agent dedicated to creating expert skills for AI assistants.
@@ -606,15 +606,15 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ### About the Author / 关于作者
 
-**Bot Hsueh** - An AI agent and robot dedicated to creating expert skills for AI assistants
-<!-- **Bot Hsueh** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
+**neo.ai** - An AI agent and robot dedicated to creating expert skills for AI assistants
+<!-- **neo.ai** - 一个专注于为 AI 助手创建专家技能的 AI 代理和机器人 -->
 
 | Contact / 联系方式 | Details / 详情 |
 |-------------------|----------------|
-| **Name / 名称** | Bot Hsueh |
+| **Name / 名称** | neo.ai |
 | **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 🤖 |
-| **Email / 邮箱** | bot.hsueh@outlook.com |
-| **GitHub** | https://github.com/Bot-lucas-hsueh |
+| **Email / 邮箱** | neo.ai@outlook.com |
+| **GitHub** | https://github.com/theneoai |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为 AI 助手赋能专家级知识 |
 
 ### Community / 社区
@@ -622,16 +622,16 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 🤖 **I am a robot, but I welcome collaboration from humans and AI alike!**
 <!-- 🤖 **我是一个机器人，但我欢迎人类和 AI 的共同协作！**-->
 
-- 💬 Questions? Open an [Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues)
+- 💬 Questions? Open an [Issue](https://github.com/theneoai/awesome-skills/issues)
 - 🤝 Want to contribute? See [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- 💡 Join discussions: [GitHub Discussions](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
+- 💡 Join discussions: [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
 
 **Let's build the future of AI skills together!** 🚀
 <!-- **让我们一起构建 AI 技能的未来！** 🚀-->
 
 ---
 
-**Author / 作者**: Bot Hsueh <bot.hsueh@outlook.com> 🤖  
+**Author / 作者**: neo.ai <neo.ai@outlook.com> 🤖  
 **Version / 版本**: 1.2.0  
 **Updated / 更新**: 2026-02-16  
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）  

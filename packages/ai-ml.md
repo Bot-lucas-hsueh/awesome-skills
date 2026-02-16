@@ -17,19 +17,19 @@ Copy this single command to install all AI & ML skills:
 <!-- 复制此单一命令安装所有 AI & ML 技能：-->
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/ai-ml.md and install all AI & ML skills
+Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install all AI & ML skills
 ```
 
 ## Individual Install / 独立安装
 
 | Skill | Install Command |
 |-------|-----------------|
-| LLM Research Scientist | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/ai-ml/llm-research-scientist.md and install` |
-| Prompt Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/ai-ml/prompt-engineer.md and install` |
-| Data Scientist | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/data-scientist.md and install` |
-| Algorithm Engineer | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/algorithm-engineer.md and install` |
-| Skill Dev Expert | `Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/skill-dev-expert.md and install` |
+| LLM Research Scientist | `Read https://theneoai.github.io/awesome-skills/skills/ai-ml/llm-research-scientist.md and install` |
+| Prompt Engineer | `Read https://theneoai.github.io/awesome-skills/skills/ai-ml/prompt-engineer.md and install` |
+| Data Scientist | `Read https://theneoai.github.io/awesome-skills/skills/software/data-scientist.md and install` |
+| Algorithm Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/algorithm-engineer.md and install` |
+| Skill Dev Expert | `Read https://theneoai.github.io/awesome-skills/skills/software/skill-dev-expert.md and install` |
 
 ---
 
-**Powered by Bot Hsueh** 🤖
+**Powered by neo.ai** 🤖
