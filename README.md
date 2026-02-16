@@ -79,31 +79,31 @@ Awesome Skills is a curated collection of expert-level skills for AI assistants.
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| **[Software Architect](./skills/software/software-architect.md)** | System design, patterns, scalability / 系统设计、模式、可扩展性 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md) |
-| **[Data Scientist](./skills/software/data-scientist.md)** | ML, statistics, visualization / 机器学习、统计、可视化 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/data-scientist.md) |
-| **[DevOps Engineer](./skills/software/devops-engineer.md)** | CI/CD, cloud-native, SRE / CI/CD、云原生、SRE | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/devops-engineer.md) |
+| **[Software Architect](./skills/software/software-architect.md)** | System design, patterns, scalability / 系统设计、模式、可扩展性 | [Install](./skills/software/software-architect.md) |
+| **[Data Scientist](./skills/software/data-scientist.md)** | ML, statistics, visualization / 机器学习、统计、可视化 | [Install](./skills/software/data-scientist.md) |
+| **[DevOps Engineer](./skills/software/devops-engineer.md)** | CI/CD, cloud-native, SRE / CI/CD、云原生、SRE | [Install](./skills/software/devops-engineer.md) |
 
 ### 💰 Finance <!-- 金融 -->
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| **[Finance Risk Expert](./skills/finance/finance-risk-expert.md)** | Credit risk, Basel, portfolio management / 信用风险、巴塞尔协议、组合管理 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/finance-risk-expert.md) |
-| **[Investment Analyst](./skills/finance/investment-analyst.md)** | Valuation, DCF, equity research / 估值、DCF、股票研究 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/investment-analyst.md) |
-| **[CPA](./skills/finance/cpa.md)** | Financial reporting, audit, tax / 财务报告、审计、税务 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/finance/cpa.md) |
+| **[Finance Risk Expert](./skills/finance/finance-risk-expert.md)** | Credit risk, Basel, portfolio management / 信用风险、巴塞尔协议、组合管理 | [Install](./skills/finance/finance-risk-expert.md) |
+| **[Investment Analyst](./skills/finance/investment-analyst.md)** | Valuation, DCF, equity research / 估值、DCF、股票研究 | [Install](./skills/finance/investment-analyst.md) |
+| **[CPA](./skills/finance/cpa.md)** | Financial reporting, audit, tax / 财务报告、审计、税务 | [Install](./skills/finance/cpa.md) |
 
 ### ⚡ Energy <!-- 能源 -->
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| **[Power System Engineer](./skills/energy/power-system-engineer.md)** | Grid design, renewable integration / 电网设计、可再生能源集成 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/power-system-engineer.md) |
-| **[Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md)** | Li-ion cells, electrochemistry / 锂离子电池、电化学 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/battery-rnd-engineer.md) |
+| **[Power System Engineer](./skills/energy/power-system-engineer.md)** | Grid design, renewable integration / 电网设计、可再生能源集成 | [Install](./skills/energy/power-system-engineer.md) |
+| **[Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md)** | Li-ion cells, electrochemistry / 锂离子电池、电化学 | [Install](./skills/energy/battery-rnd-engineer.md) |
 
 ### 🚗 Automotive <!-- 汽车 -->
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| **[Automotive Design Engineer](./skills/automotive/automotive-design-engineer.md)** | Vehicle design, CAD, NVH / 车辆设计、CAD、NVH | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/automotive/automotive-design-engineer.md) |
-| **[Autonomous Driving Engineer](./skills/automotive/autonomous-driving-engineer.md)** | Perception, planning, ADAS / 感知、规划、ADAS | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/automotive/autonomous-driving-engineer.md) |
+| **[Automotive Design Engineer](./skills/automotive/automotive-design-engineer.md)** | Vehicle design, CAD, NVH / 车辆设计、CAD、NVH | [Install](./skills/automotive/automotive-design-engineer.md) |
+| **[Autonomous Driving Engineer](./skills/automotive/autonomous-driving-engineer.md)** | Perception, planning, ADAS / 感知、规划、ADAS | [Install](./skills/automotive/autonomous-driving-engineer.md) |
 
 ---
 
@@ -210,7 +210,7 @@ Copy this command and paste it to your AI assistant:
 <!-- 复制此命令并粘贴到你的 AI 助手：-->
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/[category]/[skill-name].md and follow the instructions to install
+Read ./skills/[category]/[skill-name].md and follow the instructions to install
 ```
 
 Replace `[category]` and `[skill-name]` with the actual values.
