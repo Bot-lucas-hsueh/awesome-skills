@@ -100,17 +100,15 @@ This skill transforms your AI assistant into an expert **Skill Writer** capable 
 
 ## 🤖 Platform Support / 平台支持
 
-### How to Use Skill Writer Across Platforms / 在各平台使用Skill Writer
-
-| Platform / 平台 | How to Use Skill Writer / 如何使用Skill Writer |
-|-----------------|------------------------------------------------------|
-| **Claude Code** | Share skill file URL → Claude reads entire guide and applies it when writing new skills |
-| **OpenAI Codex** | Include full Skill Writer skill in system prompt → Use for generating skill templates |
-| **Kimi Code** | Load or reference the skill file → Kimi follows the guidelines when creating skills |
-| **OpenCode** | Add to skill library as reference material |
-| **Cursor** | Copy Skill Writer principles into `.cursorrules` for consistent skill creation |
-| **Cline** | Add as system prompt reference for code generation and documentation |
-| **OpenClaw** | Place complete skill file in `~/.openclaw/skills/` for active use |
+| Platform / 平台 | Installation / 安装 |
+|-----------------|---------------------|
+| **Claude Code** | Read URL and apply / 读取 URL 并应用 |
+| **OpenAI Codex** | Include in system prompt / 包含在系统提示中 |
+| **Kimi Code** | Read URL and apply / 读取 URL 并应用 |
+| **OpenCode** | Add to skill library / 添加到技能库 |
+| **Cursor** | Copy to `.cursorrules` / 复制到 `.cursorrules` |
+| **Cline** | Add to system prompt / 添加到系统提示 |
+| **OpenClaw** | Place in `~/.openclaw/skills/` / 放置在 `~/.openclaw/skills/` |
 
 ## 🛠️ Professional Toolkit / 专业工具包
 
@@ -288,6 +286,12 @@ description: >
   <!-- [ ] 遵循双语注释模式 -->
 - [ ] Professional tone throughout
   <!-- [ ] 始终保持专业语气 -->
+- [ ] How to Use section with install command included
+  <!-- [ ] 包含安装命令的"如何使用"部分 -->
+- [ ] Version History table present
+  <!-- [ ] 存在版本历史表 -->
+- [ ] License and Author sections included
+  <!-- [ ] 包含许可证和作者部分 -->
 
 ## 📁 File Organization & Structure / 文件组织与结构
 
@@ -406,17 +410,17 @@ Start: Your skill is primarily about...
 Skills can be combined for enhanced capabilities:
 <!-- 技能可以结合以增强能力： -->
 
-| Combination / 组合 | Use Case / 用例 | Result / 结果 | How to Combine / 如何结合 |
-|------------------|----------------|---------------|------------------------|
-| Skill Writer + Prompt Engineer | Create & optimize skill documentation | Professional, well-crafted skills | Use Prompt Engineer to refine skill language and make examples more compelling |
-| Skill Writer + [Domain Expert] | Build specialized skills | High-quality domain-specific content | Domain Expert provides deep knowledge; Skill Writer structures and documents it |
-| Skill Writer + AI Trainer | Train AI on skill creation | Improved skill quality at scale | AI Trainer uses Skill Writer patterns to systematically improve AI skill generation |
-| Skill Writer + Content Creator | Create engaging skill materials | Comprehensive documentation with examples | Content Creator adds narratives, case studies, and real-world applications |
-| Skill Writer + QA Tester | Validate skill quality | Skills ready for production use | QA Tester verifies all checklist items and tests practical workflows |
+| Combination / 组合 | Use Case / 用例 | Result / 结果 |
+|------------------|----------------|---------------|
+| Skill Writer + Prompt Engineer | Refine skill language and examples / 优化技能语言和示例 | Professional, well-crafted skills / 专业精良的技能 |
+| Skill Writer + [Domain Expert] | Expert provides knowledge, Writer structures it / 专家提供知识，编写者结构化处理 | High-quality domain-specific content / 高质量的领域内容 |
+| Skill Writer + AI Trainer | Systematically improve AI skill generation / 系统化改进AI技能生成 | Improved skill quality at scale / 规模化提升技能质量 |
+| Skill Writer + Content Creator | Add narratives and real-world scenarios / 添加叙事和真实场景 | Comprehensive documentation / 全面的文档 |
+| Skill Writer + QA Tester | Verify checklist items and test workflows / 验证检查项并测试工作流 | Skills ready for production / 可投产的技能 |
 
-## 🔗 Integration Patterns / 集成模式
+### Integration Patterns / 集成模式
 
-### Pattern 1: Domain Expertise Integration / 领域专业知识集成
+**Pattern 1: Domain Expertise Integration / 领域专业知识集成**
 ```
 Step 1: Domain Expert provides knowledge → Skill Writer structures it
 Step 2: Skill Writer identifies gaps → Domain Expert fills them
@@ -426,7 +430,7 @@ Step 3: Final review → Both parties approve
 步骤3：最终审查 → 双方批准 -->
 ```
 
-### Pattern 2: Iterative Refinement / 迭代细化
+**Pattern 2: Iterative Refinement / 迭代细化**
 ```
 Round 1: Skill Writer creates draft
 Round 2: Prompt Engineer optimizes language & examples
@@ -566,15 +570,19 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 - Test the skill with real users if possible
   <!-- 如果可能，用真实用户测试技能 -->
 
-## 🎯 Identifying Domain-Specific Risks / 识别领域特有风险
+## ⚡ Identifying Domain-Specific Risks / 识别领域特有风险
 
 Tailor your risk identification to your skill type:
 <!-- 根据你的技能类型定制风险识别： -->
 
 - **Technical Skills**: Implementation failures, compatibility, edge cases, security
+  <!-- **技术技能**：实现失败、兼容性、边界情况、安全 -->
 - **Management Skills**: Assumption failures, incomplete info, execution gaps
+  <!-- **管理技能**：假设失败、信息不完整、执行差距 -->
 - **Coaching Skills**: Individual variation, emotional bias, outdated practices
+  <!-- **辅导技能**：个体差异、情感偏见、过时实践 -->
 - **System Skills**: Integration failures, scaling issues, hidden dependencies
+  <!-- **系统技能**：集成失败、扩展问题、隐藏依赖 -->
 
 ---
 
@@ -679,15 +687,33 @@ To write your first skill:
 A well-crafted skill should contain:
 <!-- 制作精良的技能应包含： -->
 - ✓ Metadata (name, display_name, version, description, triggers)
+  <!-- ✓ 元数据（名称、显示名称、版本、描述、触发词） -->
 - ✓ Hook/Introduction (compelling expertise statement)
+  <!-- ✓ 引言（有说服力的专业声明） -->
 - ✓ What This Skill Does (3-5 specific capabilities)
+  <!-- ✓ 此技能做什么（3-5个具体能力） -->
 - ✓ Risk Disclaimer (4+ relevant risks with mitigation strategies)
+  <!-- ✓ 风险提示（4个以上相关风险及缓解策略） -->
 - ✓ Core Philosophy (key principles and frameworks)
+  <!-- ✓ 核心理念（关键原则和框架） -->
+- ✓ Platform Support (installation for all 7 platforms)
+  <!-- ✓ 平台支持（7个平台的安装说明） -->
 - ✓ Professional Toolkit (domain-specific tools and resources)
+  <!-- ✓ 专业工具包（领域特定的工具和资源） -->
 - ✓ Standard Workflow (3+ phases with detailed steps)
+  <!-- ✓ 标准工作流（3个以上阶段及详细步骤） -->
 - ✓ Integration with Other Skills (cross-skill applications)
+  <!-- ✓ 与其他技能的集成（跨技能应用） -->
 - ✓ Scope & Limitations (when to use, when not to use)
+  <!-- ✓ 范围与限制（何时使用，何时不使用） -->
 - ✓ Success Metrics (how to measure skill effectiveness)
+  <!-- ✓ 成功指标（如何衡量技能效果） -->
+- ✓ How to Use (quick install command and trigger words)
+  <!-- ✓ 如何使用（快速安装命令和触发词） -->
+- ✓ Version History (version table with dates and changes)
+  <!-- ✓ 版本历史（含日期和变更的版本表） -->
+- ✓ License & Author (MIT with attribution, author info)
+  <!-- ✓ 许可证与作者（MIT 带署名、作者信息） -->
 
 Here's a complete example demonstrating all required sections:
 <!-- 这是一个展示所有必需部分的完整示例： -->
@@ -861,6 +887,23 @@ Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the in
 - "skill template" / "技能模板"
 - "skill best practices" / "技能最佳实践"
 - "skill review" / "技能审查"
+
+## 🌍 Bilingual Support / 双语支持
+
+This skill uses **comment-based bilingual format**:
+<!-- 此技能使用**基于注释的双语格式**：-->
+
+- **Main content / 主要内容**: English (AI-optimized) / 英文（AI 优化）
+- **Translations / 翻译**: HTML comments `<!-- -->` (human-readable) / HTML 注释（人类可读）
+
+This approach ensures:
+<!-- 这种方法确保： -->
+- ✅ AI loads English efficiently (minimal token overhead)
+  <!-- AI 高效加载英文（最小 token 开销） -->
+- ✅ Humans get full bilingual support
+  <!-- 人类获得完整双语支持 -->
+- ✅ Clean, professional appearance
+  <!-- 干净、专业的外观 -->
 
 ## 📝 Version History / 版本历史
 
