@@ -357,6 +357,81 @@
             border-top: 1px solid rgba(255,255,255,0.1);
             color: var(--gray);
         }
+        
+        /* Donate Button */
+        .donate-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, var(--accent), #f97316);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+            transition: all 0.3s;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .donate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);
+        }
+        
+        /* QR Modal */
+        .qr-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1001;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .qr-modal-overlay.active { display: flex; }
+        .qr-modal {
+            background: var(--dark-light);
+            border-radius: 16px;
+            padding: 2rem;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+        .qr-modal h3 {
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+        .qr-modal p {
+            color: var(--gray-light);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .qr-modal img {
+            max-width: 280px;
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+        }
+        .qr-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: var(--gray-light);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -422,6 +497,24 @@
     <footer>
         <p>Awesome Skills by neo.ai | <a href="https://github.com/theneoai/awesome-skills" style="color: var(--primary);">GitHub</a></p>
     </footer>
+
+    <!-- Donate Button -->
+    <button class="donate-btn" onclick="openQRModal()">
+        <span>☕</span>
+        <span>Buy me a coffee</span>
+    </button>
+
+    <!-- QR Code Modal -->
+    <div class="qr-modal-overlay" id="qrModalOverlay" onclick="closeQRModal(event)">
+        <div class="qr-modal" onclick="event.stopPropagation()">
+            <button class="qr-close" onclick="closeQRModal()">&times;</button>
+            <h3>☕ Buy me a coffee</h3>
+            <p>If you find this project helpful, consider supporting me with a coffee!</p>
+            <img src="./assets/wechat-qr.png" alt="WeChat Pay QR Code" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+            <p style="display: none; color: var(--gray);">QR Code not available</p>
+            <p style="font-size: 0.8rem; color: var(--gray);">Scan with WeChat to donate</p>
+        </div>
+    </div>
 
     <script>
         // All skills data
@@ -591,6 +684,17 @@
                     btn.classList.remove('copied');
                 }, 2000);
             });
+        }
+
+        // QR Modal Functions
+        function openQRModal() {
+            document.getElementById('qrModalOverlay').classList.add('active');
+        }
+        
+        function closeQRModal(event) {
+            if (!event || event.target === document.getElementById('qrModalOverlay') || event.target.tagName === 'BUTTON') {
+                document.getElementById('qrModalOverlay').classList.remove('active');
+            }
         }
 
         // Initialize
