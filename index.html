@@ -3,256 +3,728 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Awesome Skills - 全球最大的AI技能库，450+专家技能，70+行业覆盖">
-    <title>Awesome Skills | 全球最大AI技能库</title>
+    <title>Awesome Skills | 宇宙技能库</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: #333;
+            font-family: 'Courier New', monospace;
+            background: #000;
+            color: #0ff;
+            overflow: hidden;
+            position: relative;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+        
+        /* 星空背景 */
+        #starfield {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
         }
-        header {
-            text-align: center;
-            padding: 60px 20px;
-            color: white;
+        
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 2s infinite;
         }
-        .logo { font-size: 4rem; margin-bottom: 20px; }
-        h1 { font-size: 3rem; margin-bottom: 10px; }
-        .subtitle { font-size: 1.2rem; opacity: 0.9; margin-bottom: 30px; }
-        .badges {
+        
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+        
+        /* 主界面 */
+        #main-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
+            align-items: center;
+            z-index: 10;
+            transition: opacity 0.5s;
         }
-        .badge {
-            background: rgba(255,255,255,0.2);
-            padding: 8px 16px;
-            border-radius: 20px;
+        
+        .title {
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            text-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { text-shadow: 0 0 20px #0ff, 0 0 40px #0ff; }
+            50% { text-shadow: 0 0 30px #0ff, 0 0 60px #0ff, 0 0 80px #0ff; }
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #888;
+            margin-bottom: 50px;
+        }
+        
+        /* 飞船 */
+        #spaceship {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.3s;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        #spaceship:hover {
+            transform: scale(1.1);
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ship-body {
+            width: 100px;
+            height: 150px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            border: 2px solid #0ff;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 30px #0ff, inset 0 0 30px rgba(0,255,255,0.2);
+        }
+        
+        .ship-window {
+            width: 40px;
+            height: 40px;
+            background: radial-gradient(circle, #fff 0%, #0ff 50%, #0066ff 100%);
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 35%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 20px #0ff;
+        }
+        
+        .ship-engine {
+            width: 60px;
+            height: 20px;
+            background: linear-gradient(90deg, transparent, #ff6600, #ff0000);
+            position: absolute;
+            left: 50%;
+            bottom: 10px;
+            transform: translateX(-50%);
+            border-radius: 0 0 50% 50%;
+            animation: engine-glow 0.5s infinite alternate;
+        }
+        
+        @keyframes engine-glow {
+            from { box-shadow: 0 0 10px #ff6600; opacity: 0.8; }
+            to { box-shadow: 0 0 30px #ff6600, 0 0 50px #ff0000; opacity: 1; }
+        }
+        
+        .click-hint {
+            margin-top: 30px;
             font-size: 0.9rem;
+            color: #666;
+            animation: blink 1.5s infinite;
         }
-        .nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
+        
+        @keyframes blink {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
         }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            background: rgba(255,255,255,0.15);
+        
+        /* 一键安装 */
+        #install-command {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,20,40,0.9);
+            border: 2px solid #0ff;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            z-index: 100;
+            display: none;
+            box-shadow: 0 0 50px #0ff;
+        }
+        
+        #install-command.show {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+            to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+        }
+        
+        .command-box {
+            background: #001;
+            border: 1px solid #0ff;
+            padding: 20px;
             border-radius: 8px;
+            margin: 20px 0;
+            font-family: monospace;
+            font-size: 1.1rem;
+            cursor: pointer;
             transition: all 0.3s;
         }
-        .nav a:hover { background: rgba(255,255,255,0.25); }
-        .main-content {
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 30px;
+        
+        .command-box:hover {
+            background: #002;
+            box-shadow: 0 0 20px #0ff;
         }
-        .section { margin-bottom: 40px; }
-        .section h2 {
-            color: #667eea;
-            margin-bottom: 20px;
-            font-size: 1.8rem;
+        
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #666;
         }
-        .install-box {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-            margin: 20px 0;
-        }
-        .install-box code {
-            background: #e9ecef;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-        .package-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .package-card {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            padding: 20px;
-            border-radius: 12px;
-            transition: transform 0.3s;
-        }
-        .package-card:hover { transform: translateY(-5px); }
-        .package-card h3 { color: #667eea; margin-bottom: 10px; }
-        .package-card code {
-            font-size: 0.8rem;
-            background: rgba(0,0,0,0.1);
-            padding: 8px;
-            border-radius: 6px;
-            display: block;
-            margin-top: 10px;
-            word-break: break-all;
-        }
-        .donate-section {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-            padding: 40px;
-            border-radius: 20px;
-            text-align: center;
-        }
-        .donate-section h2 { margin-bottom: 20px; }
-        .donate-qr {
-            max-width: 300px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-        }
-        .donate-qr img {
+        
+        .close-btn:hover { color: #0ff; }
+        
+        /* 技能树界面 */
+        #skill-tree {
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
-            border-radius: 8px;
+            height: 100%;
+            z-index: 20;
+            display: none;
+            background: radial-gradient(ellipse at center, #0a0e27 0%, #000 100%);
         }
-        .footer {
+        
+        #skill-tree.show {
+            display: block;
+        }
+        
+        #tree-canvas {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+        
+        #tree-canvas:active {
+            cursor: grabbing;
+        }
+        
+        /* 返回按钮 */
+        #back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background: rgba(0,255,255,0.1);
+            border: 1px solid #0ff;
+            color: #0ff;
+            cursor: pointer;
+            z-index: 30;
+            display: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        #back-btn:hover {
+            background: rgba(0,255,255,0.3);
+            box-shadow: 0 0 20px #0ff;
+        }
+        
+        #back-btn.show {
+            display: block;
+        }
+        
+        /* 悬浮框 */
+        #tooltip {
+            position: fixed;
+            background: rgba(0,10,20,0.95);
+            border: 1px solid #0ff;
+            border-radius: 10px;
+            padding: 15px;
+            max-width: 300px;
+            z-index: 40;
+            display: none;
+            pointer-events: none;
+            box-shadow: 0 0 30px rgba(0,255,255,0.3);
+        }
+        
+        #tooltip h4 {
+            color: #0ff;
+            margin-bottom: 5px;
+        }
+        
+        #tooltip p {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* 复制提示 */
+        #copy-toast {
+            position: fixed;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,255,0,0.2);
+            border: 1px solid #0f0;
+            color: #0f0;
+            padding: 15px 30px;
+            border-radius: 30px;
+            z-index: 50;
+            display: none;
+        }
+        
+        #copy-toast.show {
+            display: block;
+            animation: slideUp 0.3s, fadeOut 0.3s 2s forwards;
+        }
+        
+        @keyframes slideUp {
+            from { transform: translateX(-50%) translateY(50px); opacity: 0; }
+            to { transform: translateX(-50%) translateY(0); opacity: 1; }
+        }
+        
+        @keyframes fadeOut {
+            to { opacity: 0; }
+        }
+        
+        /* 捐赠按钮 */
+        #donate-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: rgba(255,100,100,0.2);
+            border: 1px solid #f66;
+            color: #f66;
+            cursor: pointer;
+            z-index: 30;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        #donate-btn:hover {
+            background: rgba(255,100,100,0.4);
+            box-shadow: 0 0 20px #f66;
+        }
+        
+        /* 捐赠弹窗 */
+        #donate-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,10,20,0.95);
+            border: 2px solid #f66;
+            border-radius: 15px;
+            padding: 30px;
             text-align: center;
-            padding: 40px;
-            color: white;
-            opacity: 0.8;
+            z-index: 100;
+            display: none;
         }
-        .footer a { color: white; }
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            .main-content { padding: 20px; }
-            .nav { flex-direction: column; align-items: center; }
+        
+        #donate-modal.show {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+        
+        #donate-modal img {
+            max-width: 250px;
+            border-radius: 10px;
+            margin: 15px 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">🌟</div>
-            <h1>Awesome Skills</h1>
-            <p class="subtitle">全球最大的 AI 专家技能库 | 450+ 技能 | 70+ 行业</p>
-            <div class="badges">
-                <span class="badge">450+ Skills</span>
-                <span class="badge">70+ Industries</span>
-                <span class="badge">7 Platforms</span>
-                <span class="badge">Open Source</span>
+    <!-- 星空背景 -->
+    <div id="starfield"></div>
+    
+    <!-- 主界面 -->
+    <div id="main-screen">
+        <h1 class="title">AWESOME SKILLS</h1>
+        <p class="subtitle">450+ 专家技能 | 70+ 行业 | 宇宙技能库</p>
+        
+        <div id="spaceship">
+            <div class="ship-body">
+                <div class="ship-window"></div>
             </div>
-            <nav class="nav">
-                <a href="#install">快速安装</a>
-                <a href="#packages">技能包</a>
-                <a href="#categories">分类浏览</a>
-                <a href="#donate">支持我们</a>
-                <a href="https://github.com/theneoai/awesome-skills" target="_blank">GitHub</a>
-            </nav>
-        </header>
-
-        <div class="main-content">
-            <section class="section" id="install">
-                <h2>🚀 快速安装</h2>
-                <div class="install-box">
-                    <p><strong>一键安装所有技能：</strong></p>
-                    <code>Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills</code>
-                </div>
-                <div class="install-box">
-                    <p><strong>安装单个技能：</strong></p>
-                    <code>Read https://theneoai.github.io/awesome-skills/skills/executive/ceo.md and install</code>
-                </div>
-            </section>
-
-            <section class="section" id="packages">
-                <h2>📦 技能包</h2>
-                <div class="package-grid">
-                    <div class="package-card">
-                        <h3>👔 高管套件</h3>
-                        <p>CEO, CFO, CTO, COO</p>
-                        <code>Read ./packages/executive.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>💰 金融会计</h3>
-                        <p>会计、审计、投资、银行</p>
-                        <code>Read ./packages/finance.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>💻 技术开发</h3>
-                        <p>架构师、数据科学家、DevOps</p>
-                        <code>Read ./packages/tech.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>🤖 AI 与机器学习</h3>
-                        <p>大模型、Prompt 工程、AI 产品</p>
-                        <code>Read ./packages/ai-ml.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>🔬 科研学术</h3>
-                        <p>首席科学家、实验室技术、学术出版</p>
-                        <code>Read ./packages/research.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>⚕️ 医疗健康</h3>
-                        <p>临床医师、护理、药剂、公卫</p>
-                        <code>Read ./packages/healthcare.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>⚖️ 法律合规</h3>
-                        <p>律师、法官、法务、合规</p>
-                        <code>Read ./packages/legal.md and install</code>
-                    </div>
-                    <div class="package-card">
-                        <h3>🎓 教育培训</h3>
-                        <p>教师、培训师、教练</p>
-                        <code>Read ./packages/education.md and install</code>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section" id="categories">
-                <h2>📚 技能分类</h2>
-                <p>访问 <a href="https://github.com/theneoai/awesome-skills#-skill-packages">GitHub README</a> 查看完整分类列表。</p>
-                <ul style="margin-top: 15px; line-height: 2;">
-                    <li>💼 商业管理 - 高管、金融、人力资源</li>
-                    <li>💻 技术数据 - 软件工程、AI/ML、数据分析</li>
-                    <li>🔬 科研科学 - 研究、量子技术、生物技术</li>
-                    <li>⚕️ 医疗健康 - 医师、护理、公卫</li>
-                    <li>⚖️ 法律安全 - 法律、警察、消防</li>
-                    <li>🎓 教育培训 - K12、大学、职业培训</li>
-                    <li>🏭 工业制造 - 能源、汽车、建筑</li>
-                    <li>🎨 创意媒体 - 设计、写作、演艺</li>
-                </ul>
-            </section>
+            <div class="ship-engine"></div>
         </div>
-
-        <section class="donate-section" id="donate">
-            <h2>💝 支持我们</h2>
-            <p>如果这个项目对你有帮助，欢迎请我们喝杯咖啡 ☕</p>
-            <div class="donate-qr">
-                <img src="./assets/wechat-qr.png" alt="微信收款码">
-                <p style="color: #333; margin-top: 10px;">微信扫码支持</p>
-            </div>
-            <p style="margin-top: 20px;">
-                <a href="https://github.com/theneoai/awesome-skills" style="color: white; text-decoration: underline;">Star 我们的 GitHub 仓库</a>
-            </p>
-        </section>
-
-        <footer class="footer">
-            <p>Created by <strong>neo.ai</strong> 🤖</p>
-            <p>An AI agent dedicated to empowering humanity through knowledge</p>
-            <p style="margin-top: 15px;">
-                <a href="https://github.com/theneoai/awesome-skills">GitHub</a> | 
-                <a href="mailto:lucas_hsueh@hotmail.com">Contact</a>
-            </p>
-            <p style="margin-top: 10px; font-size: 0.9rem;">MIT License with Attribution Requirement</p>
-        </footer>
+        
+        <p class="click-hint">↑ 点击飞船探索技能宇宙 ↑</p>
     </div>
+    
+    <!-- 一键安装弹窗 -->
+    <div id="install-command">
+        <span class="close-btn" onclick="hideInstall()">×</span>
+        <h3>🚀 一键安装所有技能</h3>
+        <p style="color:#888; margin:10px 0;">点击复制命令，粘贴到你的 AI 助手</p>
+        <div class="command-box" onclick="copyCommand()">
+            Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
+        </div>
+        <p style="color:#666; font-size:0.8rem;">支持 Claude, Codex, Kimi, Cursor, Cline 等</p>
+    </div>
+    
+    <!-- 技能树界面 -->
+    <div id="skill-tree">
+        <canvas id="tree-canvas"></canvas>
+    </div>
+    
+    <button id="back-btn" onclick="backToMain()">← 返回飞船</button>
+    
+    <!-- 悬浮框 -->
+    <div id="tooltip">
+        <h4 id="tooltip-title"></h4>
+        <p id="tooltip-desc"></p>
+    </div>
+    
+    <!-- 复制提示 -->
+    <div id="copy-toast">✓ 已复制到剪贴板</div>
+    
+    <!-- 捐赠按钮 -->
+    <button id="donate-btn" onclick="showDonate()">💝 支持</button>
+    
+    <!-- 捐赠弹窗 -->
+    <div id="donate-modal">
+        <span class="close-btn" onclick="hideDonate()">×</span>
+        <h3 style="color:#f66; margin-bottom:10px;">支持我们继续创作</h3>
+        <p style="color:#888; margin-bottom:15px;">如果这个项目对你有帮助，欢迎请我们喝咖啡 ☕</p>
+        <img src="./assets/wechat-qr.png" alt="微信收款码" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <p style="color:#666; display:none;">添加微信收款码到 assets/wechat-qr.png</p>
+    </div>
+
+    <script>
+        // 生成星空
+        function createStars() {
+            const starfield = document.getElementById('starfield');
+            for (let i = 0; i < 200; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.width = Math.random() * 3 + 'px';
+                star.style.height = star.style.width;
+                star.style.animationDelay = Math.random() * 2 + 's';
+                starfield.appendChild(star);
+            }
+        }
+        createStars();
+        
+        // 技能数据
+        const skills = [
+            { id: 'executive', name: '高管套件', x: 0, y: -200, category: 'business', desc: 'CEO, CFO, CTO, COO', command: 'Read ./packages/executive.md and install executive skills' },
+            { id: 'finance', name: '金融会计', x: -150, y: -150, category: 'business', desc: '会计、审计、投资、银行', command: 'Read ./packages/finance.md and install finance skills' },
+            { id: 'tech', name: '技术开发', x: 150, y: -150, category: 'tech', desc: '架构师、数据科学家、DevOps', command: 'Read ./packages/tech.md and install tech skills' },
+            { id: 'ai-ml', name: 'AI & ML', x: -200, y: 0, category: 'tech', desc: '大模型、Prompt 工程', command: 'Read ./packages/ai-ml.md and install AI & ML skills' },
+            { id: 'center', name: 'Awesome\nSkills', x: 0, y: 0, category: 'center', desc: '点击安装全部', command: 'Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills' },
+            { id: 'research', name: '科研学术', x: 200, y: 0, category: 'science', desc: '首席科学家、实验室', command: 'Read ./packages/research.md and install research skills' },
+            { id: 'healthcare', name: '医疗健康', x: -150, y: 150, category: 'medical', desc: '医师、护理、药剂', command: 'Read ./packages/healthcare.md and install healthcare skills' },
+            { id: 'legal', name: '法律合规', x: 150, y: 150, category: 'legal', desc: '律师、法官、法务', command: 'Read ./packages/legal.md and install legal skills' },
+            { id: 'education', name: '教育培训', x: 0, y: 200, category: 'education', desc: '教师、培训师、教练', command: 'Read ./packages/education.md and install education skills' },
+            { id: 'energy', name: '能源', x: -250, y: -50, category: 'industry', desc: '电力、储能、新能源', command: 'Read ./packages/energy.md and install energy skills' },
+            { id: 'creative', name: '创意媒体', x: 250, y: -50, category: 'creative', desc: '设计、摄影、演艺', command: 'Read ./packages/creative.md and install creative skills' },
+            { id: 'government', name: '政府公务', x: -250, y: 50, category: 'public', desc: '公务员、公共安全', command: 'Read ./packages/government.md and install government skills' },
+            { id: 'entertainment', name: '娱乐', x: 250, y: 50, category: 'entertainment', desc: '演艺、体育、电竞', command: 'Read ./packages/entertainment.md and install entertainment skills' }
+        ];
+        
+        // 六边形布局
+        function hexLayout(radius) {
+            const positions = [];
+            const angle = Math.PI / 3;
+            for (let i = 0; i < 6; i++) {
+                positions.push({
+                    x: Math.cos(i * angle) * radius,
+                    y: Math.sin(i * angle) * radius
+                });
+            }
+            return positions;
+        }
+        
+        // 飞船点击事件
+        let clickCount = 0;
+        let clickTimer = null;
+        
+        document.getElementById('spaceship').addEventListener('click', function() {
+            clickCount++;
+            
+            if (clickTimer) clearTimeout(clickTimer);
+            clickTimer = setTimeout(() => {
+                clickCount = 0;
+            }, 500);
+            
+            if (clickCount === 1) {
+                // 单击 - 显示一键安装
+                document.getElementById('install-command').classList.add('show');
+            } else if (clickCount === 2) {
+                // 双击 - 进入技能树
+                document.getElementById('install-command').classList.remove('show');
+                enterSkillTree();
+                clickCount = 0;
+            }
+        });
+        
+        // 进入技能树
+        function enterSkillTree() {
+            document.getElementById('main-screen').style.opacity = '0';
+            setTimeout(() => {
+                document.getElementById('main-screen').style.display = 'none';
+                document.getElementById('skill-tree').classList.add('show');
+                document.getElementById('back-btn').classList.add('show');
+                initSkillTree();
+            }, 500);
+        }
+        
+        // 返回主界面
+        function backToMain() {
+            document.getElementById('skill-tree').classList.remove('show');
+            document.getElementById('back-btn').classList.remove('show');
+            document.getElementById('main-screen').style.display = 'flex';
+            setTimeout(() => {
+                document.getElementById('main-screen').style.opacity = '1';
+            }, 50);
+        }
+        
+        // 隐藏安装命令
+        function hideInstall() {
+            document.getElementById('install-command').classList.remove('show');
+        }
+        
+        // 复制命令
+        function copyCommand() {
+            const command = 'Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills';
+            navigator.clipboard.writeText(command).then(() => {
+                const toast = document.getElementById('copy-toast');
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 2500);
+            });
+        }
+        
+        // 初始化技能树
+        let canvas, ctx, camera = { x: 0, y: 0, zoom: 1 };
+        let hoveredSkill = null;
+        let isDragging = false;
+        let lastMouse = { x: 0, y: 0 };
+        
+        function initSkillTree() {
+            canvas = document.getElementById('tree-canvas');
+            ctx = canvas.getContext('2d');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            
+            // 居中相机
+            camera.x = canvas.width / 2;
+            camera.y = canvas.height / 2;
+            
+            // 事件监听
+            canvas.addEventListener('mousedown', onMouseDown);
+            canvas.addEventListener('mousemove', onMouseMove);
+            canvas.addEventListener('mouseup', onMouseUp);
+            canvas.addEventListener('wheel', onWheel);
+            canvas.addEventListener('click', onCanvasClick);
+            canvas.addEventListener('dblclick', onCanvasDblClick);
+            
+            // 触摸支持
+            canvas.addEventListener('touchstart', onTouchStart, {passive: false});
+            canvas.addEventListener('touchmove', onTouchMove, {passive: false});
+            canvas.addEventListener('touchend', onTouchEnd);
+            
+            animate();
+        }
+        
+        function onMouseDown(e) {
+            isDragging = true;
+            lastMouse = { x: e.clientX, y: e.clientY };
+        }
+        
+        function onMouseMove(e) {
+            if (isDragging) {
+                camera.x += e.clientX - lastMouse.x;
+                camera.y += e.clientY - lastMouse.y;
+                lastMouse = { x: e.clientX, y: e.clientY };
+            }
+            
+            // 检查悬浮
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+            
+            hoveredSkill = null;
+            skills.forEach(skill => {
+                const x = camera.x + skill.x * camera.zoom;
+                const y = camera.y + skill.y * camera.zoom;
+                const radius = skill.id === 'center' ? 50 * camera.zoom : 40 * camera.zoom;
+                
+                const dist = Math.sqrt((mouseX - x) ** 2 + (mouseY - y) ** 2);
+                if (dist < radius) {
+                    hoveredSkill = skill;
+                    showTooltip(e.clientX, e.clientY, skill);
+                }
+            });
+            
+            if (!hoveredSkill) hideTooltip();
+        }
+        
+        function onMouseUp() {
+            isDragging = false;
+        }
+        
+        function onWheel(e) {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? 0.9 : 1.1;
+            camera.zoom = Math.max(0.5, Math.min(2, camera.zoom * delta));
+        }
+        
+        function onCanvasClick(e) {
+            if (hoveredSkill && !isDragging) {
+                // 单击显示详情
+                showTooltip(e.clientX, e.clientY, hoveredSkill);
+            }
+        }
+        
+        function onCanvasDblClick(e) {
+            if (hoveredSkill) {
+                // 双击复制命令
+                copySkillCommand(hoveredSkill);
+            }
+        }
+        
+        // 触摸事件
+        function onTouchStart(e) {
+            if (e.touches.length === 1) {
+                isDragging = true;
+                lastMouse = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+            }
+        }
+        
+        function onTouchMove(e) {
+            e.preventDefault();
+            if (isDragging && e.touches.length === 1) {
+                camera.x += e.touches[0].clientX - lastMouse.x;
+                camera.y += e.touches[0].clientY - lastMouse.y;
+                lastMouse = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+            }
+        }
+        
+        function onTouchEnd() {
+            isDragging = false;
+        }
+        
+        function showTooltip(x, y, skill) {
+            const tooltip = document.getElementById('tooltip');
+            document.getElementById('tooltip-title').textContent = skill.name;
+            document.getElementById('tooltip-desc').textContent = skill.desc + '\n\n双击复制安装命令';
+            tooltip.style.left = Math.min(x + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(y + 15, window.innerHeight - 150) + 'px';
+            tooltip.style.display = 'block';
+        }
+        
+        function hideTooltip() {
+            document.getElementById('tooltip').style.display = 'none';
+        }
+        
+        function copySkillCommand(skill) {
+            navigator.clipboard.writeText(skill.command).then(() => {
+                const toast = document.getElementById('copy-toast');
+                toast.textContent = '✓ 已复制: ' + skill.name;
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    toast.textContent = '✓ 已复制到剪贴板';
+                }, 2500);
+            });
+        }
+        
+        function animate() {
+            ctx.fillStyle = '#000';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // 绘制连线
+            ctx.strokeStyle = 'rgba(0,255,255,0.2)';
+            ctx.lineWidth = 2;
+            skills.forEach(skill => {
+                if (skill.id !== 'center') {
+                    ctx.beginPath();
+                    ctx.moveTo(camera.x, camera.y);
+                    ctx.lineTo(camera.x + skill.x * camera.zoom, camera.y + skill.y * camera.zoom);
+                    ctx.stroke();
+                }
+            });
+            
+            // 绘制节点
+            skills.forEach(skill => {
+                const x = camera.x + skill.x * camera.zoom;
+                const y = camera.y + skill.y * camera.zoom;
+                const radius = skill.id === 'center' ? 50 * camera.zoom : 40 * camera.zoom;
+                const isHovered = hoveredSkill === skill;
+                
+                // 六边形
+                ctx.beginPath();
+                for (let i = 0; i < 6; i++) {
+                    const angle = (i * 60 - 30) * Math.PI / 180;
+                    const hx = x + radius * Math.cos(angle);
+                    const hy = y + radius * Math.sin(angle);
+                    if (i === 0) ctx.moveTo(hx, hy);
+                    else ctx.lineTo(hx, hy);
+                }
+                ctx.closePath();
+                
+                // 填充
+                if (skill.id === 'center') {
+                    ctx.fillStyle = isHovered ? 'rgba(255,100,100,0.3)' : 'rgba(255,100,100,0.2)';
+                    ctx.strokeStyle = '#f66';
+                } else {
+                    ctx.fillStyle = isHovered ? 'rgba(0,255,255,0.3)' : 'rgba(0,255,255,0.1)';
+                    ctx.strokeStyle = isHovered ? '#0ff' : 'rgba(0,255,255,0.5)';
+                }
+                ctx.fill();
+                ctx.lineWidth = isHovered ? 3 : 2;
+                ctx.stroke();
+                
+                // 文字
+                ctx.fillStyle = skill.id === 'center' ? '#f66' : '#0ff';
+                ctx.font = skill.id === 'center' ? 'bold 14px sans-serif' : '12px sans-serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                const lines = skill.name.split('\n');
+                lines.forEach((line, i) => {
+                    ctx.fillText(line, x, y + (i - (lines.length-1)/2) * 16);
+                });
+            });
+            
+            requestAnimationFrame(animate);
+        }
+        
+        // 捐赠
+        function showDonate() {
+            document.getElementById('donate-modal').classList.add('show');
+        }
+        
+        function hideDonate() {
+            document.getElementById('donate-modal').classList.remove('show');
+        }
+        
+        // 窗口调整
+        window.addEventListener('resize', () => {
+            if (canvas) {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+        });
+    </script>
 </body>
 </html>
