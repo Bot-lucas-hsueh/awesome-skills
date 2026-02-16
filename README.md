@@ -73,3 +73,8 @@ AI: 已读取软件架构师 Skill，正在为您配置...
 ## 📄 许可
 
 MIT License
+
+### 🎯 Skill 开发
+| Skill | 描述 | 安装命令 |
+|-------|------|---------|
+| [Skill 开发专家](./skills/software/skill-dev-expert.md) | 设计、构建、优化 Claude Skill，官方最佳实践 | Read URL and install |
