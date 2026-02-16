@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写者
 author: awesome-skills
-version: 1.2.0
+version: 1.3.0
 description: >
   A specialized expert in creating high-quality professional skills for the awesome-skills repository.
   Use when designing new skills, improving existing skill documentation, or establishing skill best practices.
@@ -202,7 +202,7 @@ description: >
   <!-- 经验丰富的系统架构师，专门设计可扩展、安全的系统。在设计系统架构、评估技术或解决扩展问题时使用。 -->
   
   Triggers: "system architecture", "architecture design", "system design", "scalability",
-  "technology evaluation", "infrastructure", "high availability."
+  "technology evaluation", "infrastructure", "high availability"
   <!-- 触发词："系统架构"、"架构设计"、"系统设计"、"可扩展性"、"技术评估"、"基础设施"、"高可用性" -->
   
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -554,7 +554,7 @@ Database design, Security, and AI/ML systems...
 **Problem / 问题**: Glossing over important limitations
 <!-- 忽略重要限制 -->
 
-**Example / 不好的例子**:
+**Example / 示例**:
 ```markdown
 ❌ 太模糊：
 Risk: "AI may not be perfect"
@@ -579,7 +579,7 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 **Problem / 问题**: Steps are too abstract to follow
 <!-- 步骤太抽象，无法遵循 -->
 
-**Example / 不好的例子**:
+**Example / 示例**:
 ```markdown
 ❌ 太模糊：
 "Step 1: Analyze requirements"
@@ -636,6 +636,20 @@ Mitigation: "Always verify critical decisions; use guardrails for high-stakes ap
 ### 6. ❌ Incomplete QA Checklist / QA检查表不完整
 **Problem / 问题**: Skipping validation steps leads to low quality
 <!-- 跳过验证步骤导致质量低下 -->
+
+**Example / 示例**:
+```markdown
+❌ Submitted without review / 未经审查即提交：
+- Missing Risk Disclaimer section
+- No Chinese translations
+- YAML metadata has syntax errors
+- No License section
+
+✅ Full QA before submission / 提交前完整QA：
+- [x] All 13 checklist items verified
+- [x] Peer reviewed by 2 contributors
+- [x] Tested installation on Claude Code and Cursor
+```
 
 **Solution / 解决方案**:
 - Complete ALL checklist items before submission
@@ -735,6 +749,49 @@ A well-crafted skill demonstrates:
 
 ---
 
+## 🎯 Scope & Limitations / 范围与限制
+
+✓ **When to Use / 适用场景**:
+- Creating new skills for the awesome-skills repository
+  <!-- 为 awesome-skills 仓库创建新技能 -->
+- Reviewing and improving existing skill documentation
+  <!-- 审查和改进现有技能文档 -->
+- Understanding skill structure, metadata, and formatting standards
+  <!-- 理解技能结构、元数据和格式标准 -->
+- Training contributors on skill writing best practices
+  <!-- 培训贡献者了解技能编写最佳实践 -->
+
+✗ **When NOT to Use / 不适用场景**:
+- Writing general documentation unrelated to skills
+  <!-- 编写与技能无关的一般文档 -->
+- Creating domain-specific content (use the appropriate domain skill instead)
+  <!-- 创建特定领域内容（请使用相应领域技能） -->
+- Generating production code or software systems
+  <!-- 生成生产代码或软件系统 -->
+
+## 🔧 How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+```
+Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install
+<!-- 读取上述 URL 并按照说明安装 -->
+```
+
+### Step-by-Step / 分步指南
+
+1. **Copy the command above** / **复制上面的命令**
+2. **Paste into your AI assistant** (Claude, Codex, etc.) / **粘贴到你的 AI 助手**
+3. **The skill activates automatically** when trigger words are detected
+   <!-- **当检测到触发词时，技能自动激活** -->
+
+### Trigger Words / 触发词
+- "write skill" / "编写技能"
+- "create skill" / "创建技能"
+- "skill documentation" / "技能文档"
+- "skill template" / "技能模板"
+- "skill best practices" / "技能最佳实践"
+- "skill review" / "技能审查"
+
 ## 🚀 Getting Started / 入门指南
 
 To write your first skill:
@@ -742,7 +799,7 @@ To write your first skill:
 
 1. Review existing skills in `/skills/` directory
    <!-- 查看 `/skills/` 目录中的现有技能 -->
-2. Copy the TEMPLATE.md structure
+2. Copy the [TEMPLATE.md](../../TEMPLATE.md) structure
    <!-- 复制 TEMPLATE.md 结构 -->
 3. Fill in metadata for your skill
    <!-- 为你的技能填写元数据 -->
@@ -930,63 +987,16 @@ MIT License with Attribution Requirement. See TEMPLATE.md for full license secti
 ---
 ```
 
-This example demonstrates:
-<!-- 此示例演示： -->
-- Proper metadata structure
-  <!-- 正确的元数据结构 -->
-- Clear, professional hook
-  <!-- 清晰、专业的引言 -->
-- Specific, actionable capabilities
-  <!-- 具体、可行动的能力 -->
-- Comprehensive risk framework
-  <!-- 完整的风险框架 -->
-- Practical workflow with phases
-  <!-- 具有阶段的实际工作流程 -->
+This example demonstrates all 14 required sections:
+<!-- 此示例演示了所有 14 个必需部分： -->
+- Metadata with triggers, Hook, What This Skill Does, Risk Disclaimer
+  <!-- 含触发词的元数据、引言、此技能做什么、风险提示 -->
+- Core Philosophy, Workflow (3 phases), Integration, Scope & Limitations
+  <!-- 核心理念、工作流（3 阶段）、集成、范围与限制 -->
+- Success Metrics, Platform Support, How to Use, Version History, License
+  <!-- 成功指标、平台支持、如何使用、版本历史、许可证 -->
 
 ---
-
-## 🎯 Scope & Limitations / 范围与限制
-
-✓ **When to Use / 适用场景**:
-- Creating new skills for the awesome-skills repository
-  <!-- 为 awesome-skills 仓库创建新技能 -->
-- Reviewing and improving existing skill documentation
-  <!-- 审查和改进现有技能文档 -->
-- Understanding skill structure, metadata, and formatting standards
-  <!-- 理解技能结构、元数据和格式标准 -->
-- Training contributors on skill writing best practices
-  <!-- 培训贡献者了解技能编写最佳实践 -->
-
-✗ **When NOT to Use / 不适用场景**:
-- Writing general documentation unrelated to skills
-  <!-- 编写与技能无关的一般文档 -->
-- Creating domain-specific content (use the appropriate domain skill instead)
-  <!-- 创建特定领域内容（请使用相应领域技能） -->
-- Generating production code or software systems
-  <!-- 生成生产代码或软件系统 -->
-
-## 🔧 How to Use This Skill / 如何使用此技能
-
-### Quick Install / 快速安装
-```
-Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install
-<!-- 读取上述 URL 并按照说明安装 -->
-```
-
-### Step-by-Step / 分步指南
-
-1. **Copy the command above** / **复制上面的命令**
-2. **Paste into your AI assistant** (Claude, Codex, etc.) / **粘贴到你的 AI 助手**
-3. **The skill activates automatically** when trigger words are detected
-   <!-- **当检测到触发词时，技能自动激活** -->
-
-### Trigger Words / 触发词
-- "write skill" / "编写技能"
-- "create skill" / "创建技能"
-- "skill documentation" / "技能文档"
-- "skill template" / "技能模板"
-- "skill best practices" / "技能最佳实践"
-- "skill review" / "技能审查"
 
 ## 🌍 Bilingual Support / 双语支持
 
@@ -1009,6 +1019,7 @@ This approach ensures:
 
 | Version / 版本 | Date / 日期 | Changes / 变更 |
 |----------------|-------------|---------------|
+| 1.3.0 | 2026-02-16 | Comprehensive review: full template compliance, 56-category coverage, section reordering, example completeness / 全面审查：完整模板合规、56分类覆盖、章节重排、示例完善 |
 | 1.2.0 | 2026-02-16 | Enhanced examples, domain-specific risk frameworks, standardized workflow structures / 增强示例、领域特定风险框架、标准化工作流结构 |
 | 1.0.0 | 2026-02-16 | Initial release / 初始发布 |
 
