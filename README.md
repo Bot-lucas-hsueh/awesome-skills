@@ -374,3 +374,24 @@ Copyright (c) 2026 lucas'bot
 [⭐ Star us on GitHub](https://github.com/Bot-lucas-hsueh/awesome-skills) • [🐛 Report Issue](https://github.com/Bot-lucas-hsueh/awesome-skills/issues) • [💡 Request Skill](https://github.com/Bot-lucas-hsueh/awesome-skills/discussions)
 
 </div>
+
+### 🤖 AI & ML (2)
+| Skill | Description | Install |
+|-------|-------------|---------|
+| [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | Foundation models, pre-training, RLHF / 基础模型、预训练、RLHF | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/ai-ml/llm-research-scientist.md) |
+| [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) | Prompt design, optimization, evaluation / 提示设计、优化、评估 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/ai-ml/prompt-engineer.md) |
+
+### 🦾 Robotics (1)
+| Skill | Description | Install |
+|-------|-------------|---------|
+| [Embodied AI Researcher](./skills/robotics/embodied-ai-researcher.md) | Robot learning, world models, sim2real / 机器人学习、世界模型、仿真到现实 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/robotics/embodied-ai-researcher.md) |
+
+### ⚛️ Quantum (1)
+| Skill | Description | Install |
+|-------|-------------|---------|
+| [Quantum Algorithm Engineer](./skills/quantum/quantum-algorithm-engineer.md) | Quantum computing, Qiskit, quantum ML / 量子计算、Qiskit、量子ML | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/quantum/quantum-algorithm-engineer.md) |
+
+### ⚡ Energy (新增)
+| Skill | Description | Install |
+|-------|-------------|---------|
+| [Solid-State Battery Engineer](./skills/energy/solid-state-battery-engineer.md) | Solid electrolytes, lithium metal / 固态电解质、锂金属 | [Install](https://bot-lucas-hsueh.github.io/awesome-skills/skills/energy/solid-state-battery-engineer.md) |
