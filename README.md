@@ -48,7 +48,7 @@
 Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
-### [📖 View Install Commands](./INSTALL-COMMANDS.md)
+### [📖 View Install Commands](./INSTALL-COMMANDS.md) | [📚 Install Guide](./INSTALL-GUIDE.md)
 Copy-paste commands for your AI assistant (auto-detects platform & converts format)
 
 ### Install Single Skill
