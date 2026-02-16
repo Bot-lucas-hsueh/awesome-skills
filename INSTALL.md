@@ -1,53 +1,73 @@
-# Quick Install / 快速安装
+# INSTALL - Awesome Skills 一键安装
 
-## One-Line Install All Skills / 一键安装所有技能
+## 🚀 快速安装所有技能
 
-Copy this command to your AI assistant to install **all 31 skills**:
-<!-- 复制此命令到你的 AI 助手以安装**所有 31 个技能**：-->
+复制以下命令并粘贴到你的 AI 助手：
 
 ```
 Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
-## Install by Industry / 按行业安装技能包
+## 📦 按技能包安装
 
-### 🤖 AI & ML Package / AI 与机器学习包
+### 高管套件
+```
+Read https://theneoai.github.io/awesome-skills/packages/executive.md and install executive skills
+```
+
+### 金融会计
+```
+Read https://theneoai.github.io/awesome-skills/packages/finance.md and install finance skills
+```
+
+### 技术开发
+```
+Read https://theneoai.github.io/awesome-skills/packages/tech.md and install tech skills
+```
+
+### AI & ML
 ```
 Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install AI & ML skills
 ```
-Skills: LLM Research Scientist, Prompt Engineer, Data Scientist
-<!-- 技能：大模型研究科学家、Prompt工程师、数据科学家 -->
 
-### 💻 Software Package / 软件开发包
+### 科研学术
 ```
-Read https://theneoai.github.io/awesome-skills/packages/software.md and install Software skills
+Read https://theneoai.github.io/awesome-skills/packages/research.md and install research skills
 ```
-Skills: Software Architect, DevOps, Algorithm, Security
-<!-- 技能：软件架构师、DevOps、算法、安全 -->
 
-### 💰 Finance Package / 金融包
+### 医疗健康
 ```
-Read https://theneoai.github.io/awesome-skills/packages/finance.md and install Finance skills
+Read https://theneoai.github.io/awesome-skills/packages/healthcare.md and install healthcare skills
 ```
-Skills: Finance Risk Expert, Investment Analyst, CPA
-<!-- 技能：金融风控专家、投资分析师、注册会计师 -->
 
-### ⚡ Energy Package / 能源包
+### 法律合规
 ```
-Read https://theneoai.github.io/awesome-skills/packages/energy.md and install Energy skills
+Read https://theneoai.github.io/awesome-skills/packages/legal.md and install legal skills
 ```
-Skills: Power System Engineer, Battery R&D, Solid-State Battery
-<!-- 技能：电力系统工程师、电池研发、固态电池 -->
 
-### 🚗 Automotive Package / 汽车包
+### 教育培训
 ```
-Read https://theneoai.github.io/awesome-skills/packages/automotive.md and install Automotive skills
+Read https://theneoai.github.io/awesome-skills/packages/education.md and install education skills
 ```
-Skills: Automotive Design, Autonomous Driving
-<!-- 技能：汽车设计、自动驾驶 -->
 
-## Install Individual Skills / 独立安装技能
+## 🔧 安装单个技能
 
-See [Skill Categories](#skill-categories) below for individual skill installation commands.
-<!-- 见下方的 [技能分类](#skill-categories) 获取独立技能安装命令。-->
+```
+Read https://theneoai.github.io/awesome-skills/skills/[category]/[skill-name].md and install
+```
 
+例如：
+```
+Read https://theneoai.github.io/awesome-skills/skills/executive/ceo.md and install
+```
+
+## 💝 支持我们
+
+如果这个项目对你有帮助，欢迎支持我们继续创作：
+
+![微信收款码](./assets/wechat-qr.png)
+
+---
+
+**Awesome Skills** - 全球最大的 AI 专家技能库  
+Created by neo.ai 🤖
