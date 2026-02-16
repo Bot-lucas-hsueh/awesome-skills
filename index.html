@@ -562,11 +562,38 @@
         <div class="container">
             <div class="install-box">
                 <div class="install-label">
-                    Quick Install / 快速安装
+                    🚀 One-Line Install All Skills / 一键安装所有技能
                     <span>Copy and paste this command to your AI assistant</span>
                 </div>
                 <div class="install-command">
-                    Read https://awesome-skills.dev/skills/software/software-architect.md and follow the instructions to install
+                    Read https://bot-lucas-hsueh.github.io/awesome-skills/INSTALL.md and install all skills
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px;">
+                <div class="install-box" style="padding: 16px;">
+                    <div class="install-label" style="font-size: 0.8rem; margin-bottom: 8px;">🤖 AI & ML Package</div>
+                    <div class="install-command" style="font-size: 0.8rem;">
+                        Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/ai-ml.md and install AI & ML skills
+                    </div>
+                </div>
+                <div class="install-box" style="padding: 16px;">
+                    <div class="install-label" style="font-size: 0.8rem; margin-bottom: 8px;">💻 Software Package</div>
+                    <div class="install-command" style="font-size: 0.8rem;">
+                        Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/software.md and install Software skills
+                    </div>
+                </div>
+                <div class="install-box" style="padding: 16px;">
+                    <div class="install-label" style="font-size: 0.8rem; margin-bottom: 8px;">💰 Finance Package</div>
+                    <div class="install-command" style="font-size: 0.8rem;">
+                        Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/finance.md and install Finance skills
+                    </div>
+                </div>
+                <div class="install-box" style="padding: 16px;">
+                    <div class="install-label" style="font-size: 0.8rem; margin-bottom: 8px;">⚡ Energy Package</div>
+                    <div class="install-command" style="font-size: 0.8rem;">
+                        Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/energy.md and install Energy skills
+                    </div>
                 </div>
             </div>
         </div>
@@ -610,12 +637,15 @@
 
             <div class="category-filter">
                 <button class="filter-btn active" data-category="all">All / 全部</button>
+                <button class="filter-btn" data-category="ai-ml">AI & ML</button>
                 <button class="filter-btn" data-category="software">Software</button>
                 <button class="filter-btn" data-category="finance">Finance</button>
                 <button class="filter-btn" data-category="automotive">Automotive</button>
                 <button class="filter-btn" data-category="energy">Energy</button>
                 <button class="filter-btn" data-category="logistics">Logistics</button>
                 <button class="filter-btn" data-category="legal">Legal</button>
+                <button class="filter-btn" data-category="robotics">Robotics</button>
+                <button class="filter-btn" data-category="quantum">Quantum</button>
             </div>
         </div>
 
@@ -735,6 +765,56 @@
                 desc: "Procurement, inventory, S&OP, ERP",
                 descZh: "采购、库存、销售与运营计划、ERP",
                 path: "logistics/supply-chain-expert",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "LLM Research Scientist",
+                nameZh: "大模型研究科学家",
+                category: "ai-ml",
+                desc: "Foundation models, pre-training, RLHF, alignment",
+                descZh: "基础模型、预训练、RLHF、对齐研究",
+                path: "ai-ml/llm-research-scientist",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Prompt Engineer",
+                nameZh: "Prompt工程师",
+                category: "ai-ml",
+                desc: "Prompt design, optimization, evaluation",
+                descZh: "提示设计、优化、评估",
+                path: "ai-ml/prompt-engineer",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Embodied AI Researcher",
+                nameZh: "具身智能研究员",
+                category: "robotics",
+                desc: "Robot learning, world models, sim2real",
+                descZh: "机器人学习、世界模型、仿真到现实",
+                path: "robotics/embodied-ai-researcher",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Quantum Algorithm Engineer",
+                nameZh: "量子算法工程师",
+                category: "quantum",
+                desc: "Quantum computing, Qiskit, quantum ML",
+                descZh: "量子计算、Qiskit、量子ML",
+                path: "quantum/quantum-algorithm-engineer",
+                level: "Senior",
+                platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
+            },
+            {
+                name: "Solid-State Battery Engineer",
+                nameZh: "固态电池工程师",
+                category: "energy",
+                desc: "Solid electrolytes, lithium metal, manufacturing",
+                descZh: "固态电解质、锂金属、制造",
+                path: "energy/solid-state-battery-engineer",
                 level: "Senior",
                 platforms: ["Claude", "Codex", "Kimi", "OpenCode", "Cursor", "Cline", "OpenClaw"]
             }

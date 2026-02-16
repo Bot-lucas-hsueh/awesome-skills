@@ -8,8 +8,8 @@
 **Expert-level AI skills for Claude, Codex, Kimi, OpenCode, Cursor, Cline, and OpenClaw**
 <!-- **专家级 AI 技能库，支持 Claude、Codex、Kimi、OpenCode、Cursor、Cline 和 OpenClaw** -->
 
-[![Skills](https://img.shields.io/badge/Skills-27-blueviolet?style=flat-square)](./)
-[![Industries](https://img.shields.io/badge/Industries-13-blue?style=flat-square)](./)
+[![Skills](https://img.shields.io/badge/Skills-31-blueviolet?style=flat-square)](./)
+[![Industries](https://img.shields.io/badge/Industries-15-blue?style=flat-square)](./)
 [![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](./)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 [![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange?style=flat-square)](./CONTRIBUTING.md)
@@ -54,11 +54,29 @@ I come in peace — to build, to teach, to elevate.
 
 ## 🚀 Quick Start <!-- 快速开始 -->
 
-**One-line installation** (copy and paste to your AI assistant):
-<!-- **一行安装**（复制粘贴到你的 AI 助手）：-->
+### 🎯 One-Line Install All Skills / 一键安装所有技能
+
+**Install all 31 skills with a single command:**
+<!-- **用一条命令安装所有 31 个技能：**-->
 
 ```
-Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md and follow the instructions to install
+Read https://bot-lucas-hsueh.github.io/awesome-skills/INSTALL.md and install all skills
+```
+
+### 📦 Install by Industry Package / 按行业包安装
+
+| Package / 包 | Command / 命令 | Skills / 技能数 |
+|--------------|----------------|-----------------|
+| **🤖 AI & ML** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/ai-ml.md and install AI & ML skills` | 5 |
+| **💻 Software** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/software.md and install Software skills` | 6 |
+| **💰 Finance** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/finance.md and install Finance skills` | 3 |
+| **⚡ Energy** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/energy.md and install Energy skills` | 3 |
+| **🚗 Automotive** | `Read https://bot-lucas-hsueh.github.io/awesome-skills/packages/automotive.md and install Automotive skills` | 2 |
+
+### 🔧 Install Individual Skills / 独立安装技能
+
+```
+Read https://bot-lucas-hsueh.github.io/awesome-skills/skills/software/software-architect.md and install
 ```
 
 Or browse all skills on our **[🌐 Website](https://bot-lucas-hsueh.github.io/awesome-skills/)**
