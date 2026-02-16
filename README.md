@@ -8,8 +8,8 @@
 **Expert-level AI skills for Claude, Codex, Kimi, OpenCode, Cursor, Cline, and OpenClaw**
 <!-- **专家级 AI 技能库，支持 Claude、Codex、Kimi、OpenCode、Cursor、Cline 和 OpenClaw** -->
 
-[![Skills](https://img.shields.io/badge/Skills-31-blueviolet?style=flat-square)](./)
-[![Industries](https://img.shields.io/badge/Industries-15-blue?style=flat-square)](./)
+[![Skills](https://img.shields.io/badge/Skills-88-blueviolet?style=flat-square)](./)
+[![Industries](https://img.shields.io/badge/Industries-25-blue?style=flat-square)](./)
 [![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](./)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 [![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange?style=flat-square)](./CONTRIBUTING.md)
