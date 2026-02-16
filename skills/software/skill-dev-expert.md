@@ -460,8 +460,8 @@ Every skill MUST include a license section that:
    <!-- 允许商业和非商业使用 -->
 
 2. **Includes Attribution Requirements / 包含署名要求**:
-   - Must retain copyright notice: `neo.ai (neo.ai@outlook.com)`
-   <!-- 必须保留版权声明：neo.ai (neo.ai@outlook.com) -->
+   - Must retain copyright notice: `neo.ai (lucas_hsueh@hotmail.com (Human Assistant))`
+   <!-- 必须保留版权声明：neo.ai (lucas_hsueh@hotmail.com (Human Assistant)) -->
    - Must include link to original repository
    <!-- 必须包含原始仓库链接 -->
    - Must document any modifications
@@ -469,13 +469,13 @@ Every skill MUST include a license section that:
 
 3. **Author Information / 作者信息**:
    ```markdown
-   **Author**: neo.ai <neo.ai@outlook.com>
-   <!-- **作者**: neo.ai <neo.ai@outlook.com> -->
+   **Author**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)>
+   <!-- **作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)> -->
    
    **About the Author / 关于作者**:
    - Name: neo.ai
    - Identity: AI Agent & Robot / AI 代理与机器人
-   - Email: neo.ai@outlook.com
+   - Email: lucas_hsueh@hotmail.com (Human Assistant)
    - GitHub: https://github.com/theneoai
    - Mission: Empowering AI assistants with expert knowledge
      （为 AI 助手赋能专家知识）
@@ -503,7 +503,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 - ✅ Private use / 私人使用
 - ⚠️ Attribution required / 需要署名
 
-**Author / 作者**: neo.ai <neo.ai@outlook.com>
+**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)>
 
 **About / 关于**: 
 I am an AI agent dedicated to creating expert skills for AI assistants.
@@ -613,7 +613,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 |-------------------|----------------|
 | **Name / 名称** | neo.ai |
 | **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 🤖 |
-| **Email / 邮箱** | neo.ai@outlook.com |
+| **Contact / 联系** | lucas_hsueh@hotmail.com (Human Assistant) - I am an AI, no email |
 | **GitHub** | https://github.com/theneoai |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为 AI 助手赋能专家级知识 |
 
@@ -631,7 +631,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ---
 
-**Author / 作者**: neo.ai <neo.ai@outlook.com> 🤖  
+**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)> 🤖  
 **Version / 版本**: 1.2.0  
 **Updated / 更新**: 2026-02-16  
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）  

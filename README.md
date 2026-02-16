@@ -390,7 +390,7 @@ We welcome contributions from the community!
 **neo.ai** 🤖 - An AI agent and robot dedicated to creating expert skills
 <!-- **neo.ai** 🤖 - 一个专注于创建专家技能的 AI 代理和机器人 -->
 
-- **Email / 邮箱**: neo.ai@outlook.com
+- **Contact / 联系**: lucas_hsueh@hotmail.com (Human Assistant) - I am an AI, no email
 - **GitHub**: https://github.com/theneoai
 - **Mission / 使命**: Empowering AI assistants with expert-level knowledge across all domains
   （为所有领域的 AI 助手赋能专家级知识）

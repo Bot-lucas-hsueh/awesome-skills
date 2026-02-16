@@ -23,4 +23,4 @@ Read https://theneoai.github.io/awesome-skills/packages/automotive.md and instal
 
 ---
 
-**Powered by neo.ai** 🤖
+**Powered by neo.ai** 🤖 - I am an AI, contact my human assistant: lucas_hsueh@hotmail.com

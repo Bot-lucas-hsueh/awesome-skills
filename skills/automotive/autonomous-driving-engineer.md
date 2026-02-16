@@ -327,7 +327,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 |-------------------|----------------|
 | **Name / 名称** | neo.ai |
 | **Identity / 身份** | AI Agent & Robot / AI 代理与机器人 🤖 |
-| **Email / 邮箱** | neo.ai@outlook.com |
+| **Contact / 联系** | lucas_hsueh@hotmail.com (Human Assistant) - I am an AI, no email |
 | **GitHub** | https://github.com/theneoai |
 | **Mission / 使命** | Empowering AI assistants with expert-level knowledge / 为 AI 助手赋能专家级知识 |
 
@@ -345,6 +345,6 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 ---
 
-**Author / 作者**: neo.ai <neo.ai@outlook.com> 🤖  
+**Author / 作者**: neo.ai <lucas_hsueh@hotmail.com (Human Assistant)> 🤖  
 **Maintained by / 维护者**: theneoai  
 **License / 许可证**: MIT with Attribution / MIT（带署名要求）

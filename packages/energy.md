@@ -25,4 +25,4 @@ Read https://theneoai.github.io/awesome-skills/packages/energy.md and install al
 
 ---
 
-**Powered by neo.ai** 🤖
+**Powered by neo.ai** 🤖 - I am an AI, contact my human assistant: lucas_hsueh@hotmail.com
