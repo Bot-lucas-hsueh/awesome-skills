@@ -64,45 +64,121 @@ Read https://theneoai.github.io/awesome-skills/skills/executive/ceo.md and insta
 
 | Package | Skills | Install Command |
 |---------|--------|-----------------|
-| **💼 Executive Suite** | CEO, CFO, CTO, COO | `Read https://theneoai.github.io/awesome-skills/packages/executive.md and install executive skills` |
-| **💰 Finance & Accounting** | Accountant, Auditor, Financial Analyst, Tax, Investment | `Read https://theneoai.github.io/awesome-skills/packages/finance.md and install finance skills` |
-| **💻 Technology** | Software Architect, Data Scientist, DevOps, Security | `Read https://theneoai.github.io/awesome-skills/packages/tech.md and install tech skills` |
-| **⚕️ Healthcare Core** | Physicians, Nurses, Surgeons, Medical Support | `Read https://theneoai.github.io/awesome-skills/packages/healthcare.md and install healthcare skills` |
-| **⚖️ Legal & Compliance** | Lawyers, Judges, Notary, Compliance | `Read https://theneoai.github.io/awesome-skills/packages/legal.md and install legal skills` |
+| **💼 Executive Suite** | CEO, CFO, CTO, COO | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/executive.md and install executive skills
+```
+|
+| **💰 Finance & Accounting** | Accountant, Auditor, Financial Analyst, Tax, Investment | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/finance.md and install finance skills
+```
+|
+| **💻 Technology** | Software Architect, Data Scientist, DevOps, Security | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/tech.md and install tech skills
+```
+|
+| **⚕️ Healthcare Core** | Physicians, Nurses, Surgeons, Medical Support | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/healthcare.md and install healthcare skills
+```
+|
+| **⚖️ Legal & Compliance** | Lawyers, Judges, Notary, Compliance | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/legal.md and install legal skills
+```
+|
 
 ### 🔬 Research & Innovation Packages
 
 | Package | Skills | Install Command |
 |---------|--------|-----------------|
-| **🔬 Research & Academia** | PI, Lab Tech, Journal Editor, Grant Reviewer | `Read https://theneoai.github.io/awesome-skills/packages/research.md and install research skills` |
-| **🤖 AI & Emerging Tech** | LLM Scientist, Prompt Engineer, AI Product Manager | `Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install AI skills` |
-| **⚛️ Quantum & Advanced** | Quantum Engineer, Biotech, Aerospace | `Read https://theneoai.github.io/awesome-skills/packages/emerging-tech.md and install emerging tech skills` |
+| **🔬 Research & Academia** | PI, Lab Tech, Journal Editor, Grant Reviewer | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/research.md and install research skills
+```
+|
+| **🤖 AI & Emerging Tech** | LLM Scientist, Prompt Engineer, AI Product Manager | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/ai-ml.md and install AI skills
+```
+|
+| **⚛️ Quantum & Advanced** | Quantum Engineer, Biotech, Aerospace | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/emerging-tech.md and install emerging tech skills
+```
+|
 
 ### 🏭 Industry & Manufacturing Packages
 
 | Package | Skills | Install Command |
 |---------|--------|-----------------|
-| **⚡ Energy & Utilities** | Power Systems, Battery, Nuclear, Renewables | `Read https://theneoai.github.io/awesome-skills/packages/energy.md and install energy skills` |
-| **🚗 Automotive & Transport** | Auto Design, EV, Aviation, Logistics | `Read https://theneoai.github.io/awesome-skills/packages/automotive.md and install automotive skills` |
-| **🏗️ Construction & Manufacturing** | Architect, Engineer, Factory Worker, Safety | `Read https://theneoai.github.io/awesome-skills/packages/construction.md and install construction skills` |
-| **🌾 Agriculture & Mining** | Farming, Veterinary, Mining, Oil & Gas | `Read https://theneoai.github.io/awesome-skills/packages/agriculture.md and install agriculture skills` |
+| **⚡ Energy & Utilities** | Power Systems, Battery, Nuclear, Renewables | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/energy.md and install energy skills
+```
+|
+| **🚗 Automotive & Transport** | Auto Design, EV, Aviation, Logistics | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/automotive.md and install automotive skills
+```
+|
+| **🏗️ Construction & Manufacturing** | Architect, Engineer, Factory Worker, Safety | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/construction.md and install construction skills
+```
+|
+| **🌾 Agriculture & Mining** | Farming, Veterinary, Mining, Oil & Gas | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/agriculture.md and install agriculture skills
+```
+|
 
 ### 🎨 Creative & Service Packages
 
 | Package | Skills | Install Command |
 |---------|--------|-----------------|
-| **🎨 Creative & Media** | Designer, Photographer, Writer, Video Editor | `Read https://theneoai.github.io/awesome-skills/packages/creative.md and install creative skills` |
-| **🎓 Education & Training** | Teachers, Trainers, Tutors, Coaches | `Read https://theneoai.github.io/awesome-skills/packages/education.md and install education skills` |
-| **🎭 Entertainment** | Actor, Singer, Esports, Game Producer | `Read https://theneoai.github.io/awesome-skills/packages/entertainment.md and install entertainment skills` |
-| **🏨 Hospitality & Service** | Hotel, Restaurant, Beauty, Personal Care | `Read https://theneoai.github.io/awesome-skills/packages/hospitality.md and install hospitality skills` |
+| **🎨 Creative & Media** | Designer, Photographer, Writer, Video Editor | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/creative.md and install creative skills
+```
+|
+| **🎓 Education & Training** | Teachers, Trainers, Tutors, Coaches | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/education.md and install education skills
+```
+|
+| **🎭 Entertainment** | Actor, Singer, Esports, Game Producer | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/entertainment.md and install entertainment skills
+```
+|
+| **🏨 Hospitality & Service** | Hotel, Restaurant, Beauty, Personal Care | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/hospitality.md and install hospitality skills
+```
+|
 
 ### 🏛️ Public Sector Packages
 
 | Package | Skills | Install Command |
 |---------|--------|-----------------|
-| **👮 Public Safety** | Police, Firefighter, Judge, Military | `Read https://theneoai.github.io/awesome-skills/packages/public-safety.md and install public safety skills` |
-| **🏛️ Government & Administration** | Civil Service, Customs, Diplomat, Archivist | `Read https://theneoai.github.io/awesome-skills/packages/government.md and install government skills` |
-| **🏥 Public Health** | CDC, Community Health, Emergency Response | `Read https://theneoai.github.io/awesome-skills/packages/public-health.md and install public health skills` |
+| **👮 Public Safety** | Police, Firefighter, Judge, Military | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/public-safety.md and install public safety skills
+```
+|
+| **🏛️ Government & Administration** | Civil Service, Customs, Diplomat, Archivist | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/government.md and install government skills
+```
+|
+| **🏥 Public Health** | CDC, Community Health, Emergency Response | 
+```
+Read https://theneoai.github.io/awesome-skills/packages/public-health.md and install public health skills
+```
+|
 
 ---
 
