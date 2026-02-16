@@ -173,10 +173,12 @@ Awesome Skills is a curated collection of expert-level skills for AI assistants.
 </details>
 
 <details>
-<summary><b>⚡ Energy (2)</b> - 能源</summary>
+<summary><b>⚡ Energy (4)</b> - 能源</summary>
 
 - [Power System Engineer](./skills/energy/power-system-engineer.md) / 电力系统工程师
 - [Battery R&D Engineer](./skills/energy/battery-rnd-engineer.md) / 电池研发工程师
+- [Solid-State Battery Engineer](./skills/energy/solid-state-battery-engineer.md) / 固态电池工程师
+- [Hydrogen Fuel Cell Engineer](./skills/energy/hydrogen-fuel-cell-engineer.md) / 氢燃料电池工程师
 </details>
 
 <details>
