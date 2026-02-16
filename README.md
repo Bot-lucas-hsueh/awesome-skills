@@ -48,6 +48,9 @@
 Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
+### [📖 View Install Commands](./INSTALL-COMMANDS.md)
+Copy-paste commands for your AI assistant (auto-detects platform & converts format)
+
 ### Install Single Skill
 ```
 Read https://theneoai.github.io/awesome-skills/skills/executive/ceo.md and install
