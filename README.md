@@ -492,8 +492,8 @@ Read ./skills/[category]/[skill-name].md and follow the instructions to install
 
 ## 💝 Support / 支持
 
-If you find this project helpful, feel free to share it with others.
-<!-- 如果觉得这个项目有帮助，欢迎分享给更多人。-->
+If you find this project helpful, you can [buy us a coffee ☕](./assets/wechat-qr.png)
+<!-- 如果觉得这个项目有帮助，可以请我们喝杯咖啡 ☕ -->
 
 ---
 
