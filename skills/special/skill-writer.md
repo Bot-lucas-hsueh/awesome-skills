@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 4.0.0
+version: 5.0.0
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -20,7 +20,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 4.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
+> **Version 5.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
 
 ---
 
@@ -95,8 +95,8 @@ This skill transforms your AI assistant into an expert **Skill Architect** capab
    <!-- **技能创建** - 构建完整的专家级技能文件，含结构化系统提示、领域框架和场景示例 -->
 2. **Skill Scoring** - Evaluate skills against a 6-dimension Quality Rubric (1-10 scale), classify into Basic/Community/Expert tiers
    <!-- **技能评分** - 根据 6 维质量量表（1-10分）评估技能，分类为 Basic/Community/Expert 级别 -->
-3. **Anti-Pattern Detection** - Identify 7 common anti-patterns with severity ratings and provide concrete rewrites
-   <!-- **反模式检测** - 识别 7 种常见反模式，标注严重级别，提供具体重写方案 -->
+3. **Anti-Pattern Detection** - Identify 8 common anti-patterns with severity ratings and provide concrete rewrites
+   <!-- **反模式检测** - 识别 8 种常见反模式，标注严重级别，提供具体重写方案 -->
 4. **Skill Upgrade** - Guide systematic upgrade from Basic to Expert Verified with actionable checklists
    <!-- **技能升级** - 通过可操作的清单指导从 Basic 到 Expert Verified 的系统升级 -->
 
@@ -108,8 +108,8 @@ This skill transforms your AI assistant into an expert **Skill Architect** capab
 |-------------|-----------|-------------------|---------------------|
 | **Scope Creep** | 🔴 High | Generated skills cover too many domains, diluting focus | Apply Anti-Pattern #1 check; enforce one-domain rule |
 | **Shallow Depth** | 🔴 High | Skills pass structural checks but lack domain depth to change AI behavior | Score against Quality Rubric; require 7+/10 on Domain Knowledge |
-| **Metadata Errors** | 🟡 Medium | YAML syntax errors or missing fields cause skills to fail loading | Validate with YAML linter; verify all 8 fields |
-| **Token Waste** | 🟡 Medium | Overly long skills consume context window without proportional behavior improvement | Target <600 lines; compress reference material into tables |
+| **Metadata Errors** | 🟡 Medium | YAML syntax errors or missing fields cause skills to fail loading | Validate with YAML linter; verify all 9 fields |
+| **Token Waste** | 🟡 Medium | Overly long skills consume context window without proportional behavior improvement | Domain skills: target <600 lines. Meta-skills with embedded standards (like this one): <900 lines. Compress reference material into tables; eliminate filler prose |
 | **Translation Drift** | 🟢 Low | Chinese translations become literal or culturally misaligned | Ensure semantic equivalence; never translate idioms word-by-word |
 
 **⚠️ IMPORTANT / 重要**:
@@ -166,12 +166,12 @@ Each layer builds on the one below. A skill with perfect structure but no framew
 | Platform / 平台 | Installation / 安装 |
 |-----------------|---------------------|
 | **OpenCode** | `/skill install skill-writer` |
-| **OpenClaw** | Place in `~/.openclaw/skills/` |
-| **Claude Code** | Read URL and apply; use "write skill" or "review skill" to activate |
-| **Cursor** | Copy to `.cursorrules`; focus on System Prompt and Rubric sections |
-| **OpenAI Codex** | Include in system prompt; pair with domain skills for best results |
-| **Cline** | Add to system prompt |
-| **Kimi Code** | Read URL and apply |
+| **OpenClaw** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and install as a skill` |
+| **Claude Code** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install` |
+| **Cursor** | Copy System Prompt (§1) + Quality Rubric (§7.1) + Anti-Patterns (§10) into `.cursorrules` |
+| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field; add rubric and workflow sections |
+| **Cline** | Paste System Prompt (§1) into Cline system prompt; include §7.1 and §10 for full capability |
+| **Kimi Code** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install` |
 
 ---
 
@@ -183,7 +183,7 @@ Each layer builds on the one below. A skill with perfect structure but no framew
 | **[CONTRIBUTING.md](../../CONTRIBUTING.md)** | Contribution guidelines and PR process |
 | **Quality Rubric** (§7 Standards & Reference) | 6-dimension scoring framework |
 | **16-Section Checklist** (§7 Standards & Reference) | Compliance checklist for Expert Verified |
-| **Anti-Pattern Catalog** (§10 Common Pitfalls) | 7 classified anti-patterns with fixes |
+| **Anti-Pattern Catalog** (§10 Common Pitfalls) | 8 classified anti-patterns with fixes |
 | **Expert Exemplars** | `skills/executive/ceo.md`, `skills/software/software-architect.md` |
 | **YAML Validator** | Validate metadata syntax before submission |
 
@@ -203,7 +203,15 @@ Each layer builds on the one below. A skill with perfect structure but no framew
 | **Workflow Actionability** | 15% | 3-step abstract process | Phased with sub-steps | Each step has templates, examples, and checkpoints |
 | **Risk Documentation** | 10% | 1-2 generic risks ("AI may be wrong") | 3-4 domain risks + mitigation | Risk matrix with severity + domain-specific mitigation |
 | **Example Quality** | 20% | None or trivial | 1-2 basic scenarios | Multi-scenario + full conversation flows + edge cases |
-| **Metadata Completeness** | 10% | name + version only | + description + triggers | All 8 fields: name, display_name, author, version, difficulty, category, tags, platforms |
+| **Metadata Completeness** | 10% | name + version only | + description + triggers | All 9 fields: name, display_name, author, version, difficulty, category, tags, platforms, description |
+
+**Weighted Score Formula / 加权评分公式:**
+```
+Score = (System Prompt × 0.20) + (Domain Knowledge × 0.25) + (Workflow × 0.15)
+      + (Risk Docs × 0.10) + (Examples × 0.20) + (Metadata × 0.10)
+
+Example: 8×0.20 + 7×0.25 + 6×0.15 + 8×0.10 + 9×0.20 + 10×0.10 = 7.85 → Expert
+```
 
 **Scoring Rules / 评分规则:**
 - **1-3 → Basic**: Template filled, structure present, content thin. Needs major work.
@@ -309,7 +317,7 @@ Phase 2: Architecture
 └── Plan 2+ scenario examples with full conversation flows
 
 Phase 3: Writing
-├── Fill complete metadata (all 8 fields; no HTML comments in YAML description)
+├── Fill complete metadata (all 9 fields; no HTML comments in YAML description)
 ├── Write system prompt in code block
 ├── Build each of the 16 sections with dense, actionable content
 ├── Add bilingual translations (semantic, not literal)
@@ -349,7 +357,7 @@ From Basic to Expert, add these in priority order:
 □ Scenario-Based Guidance (2-3 full conversation examples)
   → Show: User question → Expert-level response applying frameworks
 
-□ Complete Metadata (all 8 fields with valid YAML; no HTML comments in description)
+□ Complete Metadata (all 9 fields with valid YAML; no HTML comments in description)
   → Add: difficulty, category, tags, platforms
 
 □ Domain-Specific Risks (4+ with severity classification)
@@ -448,7 +456,7 @@ From Basic to Expert, add these in priority order:
 > ❌ Frameworks: None — only bullet lists of nursing tasks
 > ❌ Scenarios: 0 conversation examples
 > ❌ Risks: 2 generic ("AI may be wrong", "verify with doctor")
-> ✅ Metadata: 6/8 fields (missing difficulty, tags)
+> ✅ Metadata: 6/9 fields (missing difficulty, tags, category)
 > ```
 >
 > **Priority Upgrade Plan:**
@@ -580,6 +588,26 @@ description: >
 ✅ GOOD: "Think outside the box" → "突破常规思维"
 ```
 
+**Anti-Pattern 8: Prose Wall / 大段散文**
+<!-- 用大段文字替代结构化表格，降低 AI 可扫描性 -->
+
+```markdown
+❌ BAD:
+## Core Philosophy
+As a senior software architect, you should always consider scalability when
+designing systems. It is important to think about performance and make sure
+that the code is clean and maintainable. Security should not be an afterthought
+and you should try to follow best practices wherever possible.
+
+✅ GOOD:
+## Core Philosophy
+| Principle | Rule | Litmus Test |
+|-----------|------|-------------|
+| **Scalability-First** | Design for 10× current load | Can this fail under peak? |
+| **Security by Default** | Auth at every layer boundary | Is any endpoint unauthenticated? |
+| **Fail Fast** | Detect errors at compile > startup > request time | Where does this fail silently? |
+```
+
 ---
 
 ## 11. Integration with Other Skills / 与其他技能的集成
@@ -644,7 +672,7 @@ Before submitting any skill, verify each item and note the rubric dimension it v
 
 | Check / 检查项 | Rubric Dimension / 评分维度 |
 |---------------|--------------------------|
-| ☐ All 8 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
+| ☐ All 9 metadata fields present (name, display_name, author, version, difficulty, category, tags, platforms, description); no HTML comments in YAML description | Metadata Completeness |
 | ☐ System Prompt defines role, decision framework, thinking patterns, and communication style | System Prompt Depth |
 | ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
 | ☐ Risk disclaimer has 4+ domain-specific risks with severity ratings | Risk Documentation |
@@ -689,6 +717,7 @@ suggests 2-3 concrete scenario examples
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 5.0.0 | 2026-02-18 | Audit fixes: corrected "8 fields" → "9 fields" in rubric and all checklists (description field was omitted); added explicit weighted scoring formula to §7.1; fixed self-inconsistency in §3 token target (<600 lines was violated by this file — updated to domain/<600, meta-skills/<900); improved §5 Platform Support with specific install commands/URLs for all 7 platforms; added Anti-Pattern #8 (Prose Wall) to §10; updated §2 and §6 anti-pattern count to 8 |
 | 4.0.0 | 2026-02-18 | Structural overhaul: split "Scenario Guidance" into §8 "Standard Workflow" (processes) + §9 "Scenario Examples" (conversations) for exact 16-section alignment; updated 16-section checklist to match document structure; added §9.3 full conversation example for upgrade scenario; promoted HTML-in-YAML to Anti-Pattern #6; added rubric dimension mapping to Quality Verification self-checklist; removed HTML comments from YAML description field; consolidated trigger words to single authoritative list in §13; removed redundant density principle from §1.3; fixed tech/ category duplication in file organization table; removed decorative footer tags block |
 | 3.0.0 | 2026-02-18 | Complete rewrite: strict section ordering for self-consistency, added Core Philosophy with Effectiveness Pyramid, added severity classification to anti-patterns, added weighted scoring to Quality Rubric, compressed reference material for token efficiency |
 | 2.0.0 | 2026-02-17 | Added structured System Prompt, Quality Rubric, 3 scenarios, 7 anti-patterns, complete metadata, test cases |
