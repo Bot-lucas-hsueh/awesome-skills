@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 6.0.0
+version: 7.0.0
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -20,7 +20,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 6.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
+> **Version 7.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
 
 ---
 
@@ -72,6 +72,8 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Audience** | AI assistant is the primary consumer; humans read for understanding |
 | **Structure** | Frameworks > prose, tables > paragraphs; scannable > readable |
 | **Quality** | Expert Verified is the bar; Basic is a starting point, not a goal |
+| **Cognitive Load** | Every added line competes for context window space; one dense framework beats three shallow lists; measure signal-to-token ratio, not section count |
+| **Trigger Precision** | Broad triggers ("create") cause false activation; specific verb phrases ("create skill", "review skill") target the right intent; test trigger words against 5 adjacent user requests to catch false positives |
 
 ### 1.4 Communication Style / 沟通风格
 
@@ -93,7 +95,7 @@ This skill transforms your AI assistant into an expert **Skill Architect** capab
 
 1. **Skill Creation** - Build complete Expert-grade skill files with structured system prompts, domain frameworks, and scenario examples
    <!-- **技能创建** - 构建完整的专家级技能文件，含结构化系统提示、领域框架和场景示例 -->
-2. **Skill Scoring** - Evaluate skills against a 6-dimension Quality Rubric (1-10 scale), classify into Basic/Community/Expert tiers
+2. **Skill Scoring** - Evaluate skills against a 6-dimension Quality Rubric (1-10 scale), classify into Basic / Community / Expert / Exemplary tiers
    <!-- **技能评分** - 根据 6 维质量量表（1-10分）评估技能，分类为 Basic/Community/Expert 级别 -->
 3. **Anti-Pattern Detection** - Identify 8 common anti-patterns with severity ratings and provide concrete rewrites
    <!-- **反模式检测** - 识别 8 种常见反模式，标注严重级别，提供具体重写方案 -->
@@ -185,7 +187,7 @@ Each layer builds on the one below. A skill with perfect structure but no framew
 | **16-Section Checklist** (§7 Standards & Reference) | Compliance checklist for Expert Verified |
 | **Anti-Pattern Catalog** (§10 Common Pitfalls) | 8 classified anti-patterns with fixes |
 | **Expert Exemplars** | `skills/executive/ceo.md`, `skills/software/software-architect.md` |
-| **YAML Validator** | Validate metadata syntax before submission |
+| **YAML Validator** | `yamllint filename.md` or paste frontmatter into yaml-validator.com; verifies all 9 required fields and catches syntax errors before PR |
 
 ---
 
@@ -196,14 +198,14 @@ Each layer builds on the one below. A skill with perfect structure but no framew
 **The definitive scoring framework. Use this to create, review, and upgrade skills.**
 <!-- 权威评分框架。用于创建、审查和升级技能。 -->
 
-| Dimension / 维度 | Weight | Basic (1-3) | Community (4-6) | Expert (7-10) |
-|----------|--------|-------------|--------------------------|------------------------|
-| **System Prompt Depth** | 20% | 1-2 sentence role description | Role + capabilities + style | Structured prompt with decision framework + thinking patterns |
-| **Domain Knowledge Density** | 25% | Generic descriptions anyone could write | Domain-specific tools and processes | Deep frameworks + quantified metrics + real scenarios |
-| **Workflow Actionability** | 15% | 3-step abstract process | Phased with sub-steps | Each step has templates, examples, and checkpoints |
-| **Risk Documentation** | 10% | 1-2 generic risks ("AI may be wrong") | 3-4 domain risks + mitigation | Risk matrix with severity + domain-specific mitigation |
-| **Example Quality** | 20% | None or trivial | 1-2 basic scenarios | Multi-scenario + full conversation flows + edge cases |
-| **Metadata Completeness** | 10% | name + version only | + description + triggers | All 9 fields: name, display_name, author, version, difficulty, category, tags, platforms, description |
+| Dimension / 维度 | Weight | Basic (1-3) | Community (4-6) | Expert (7-8) | Exemplary (9-10) |
+|----------|--------|-------------|-----------------|--------------|------------------|
+| **System Prompt Depth** | 20% | 1-2 sentence role description | Role + capabilities + style | Structured prompt with decision framework + thinking patterns | Adds domain-specific heuristics and communication nuances that are distinct from any other role |
+| **Domain Knowledge Density** | 25% | Generic descriptions anyone could write | Domain-specific tools and processes | Deep frameworks + quantified metrics + real scenarios | Decision trees with specific thresholds; domain jargon used with precision; all metrics include target ranges |
+| **Workflow Actionability** | 15% | 3-step abstract process | Phased with sub-steps | Each step has templates, examples, and checkpoints | Each phase references specific sections; measurable output test in final phase; failure criteria defined |
+| **Risk Documentation** | 10% | 1-2 generic risks ("AI may be wrong") | 3-4 domain risks + mitigation | Risk matrix with severity + domain-specific mitigation | 5+ risks with escalation triggers + example consequences; edge cases and adjacent domain risks covered |
+| **Example Quality** | 20% | None or trivial | 1-2 basic scenarios | Multi-scenario + full conversation flows + edge cases | 3+ full flows covering different use cases; at least one flow explicitly corrects an anti-pattern |
+| **Metadata Completeness** | 10% | name + version only | + description + triggers | All 9 fields: name, display_name, author, version, difficulty, category, tags, platforms, description | All 9 fields + description has role, triggers, and works-with statement; version history has 3+ entries |
 
 **Weighted Score Formula / 加权评分公式:**
 ```
@@ -216,8 +218,8 @@ Example: 8×0.20 + 7×0.25 + 6×0.15 + 8×0.10 + 9×0.20 + 10×0.10 = 7.85 → E
 **Scoring Rules / 评分规则:**
 - **1-3 → Basic**: Template filled, structure present, content thin. Needs major work.
 - **4-6 → Community**: Solid content, domain-specific, tested by users. Good foundation.
-- **7-8 → Expert**: Deep frameworks, scenario guidance, measurably improves AI output.
-- **9-10 → Exemplary**: Gold standard. Could serve as a teaching example for other skill writers.
+- **7-8 → Expert ⭐**: Deep frameworks, scenario guidance, measurably improves AI output. Earns "Expert Verified" label.
+- **9-10 → Exemplary ⭐⭐**: Gold standard; maximally specific on every dimension; could serve as a reference for other skill writers. Still earns "Expert Verified" label.
 - **Weighted average determines tier.** A skill with 9/10 on metadata but 2/10 on examples is NOT Expert.
 
 ### 7.2 Required Metadata Fields / 必需元数据字段
@@ -262,7 +264,7 @@ Every Expert Verified skill has these 16 H2 sections in this order:
 | 11 | **Integration** | Cross-skill combination patterns with workflows |
 | 12 | **Scope & Limitations** | Explicit "when NOT to use" with alternatives |
 | 13 | **How to Use** | Install command + authoritative trigger word list |
-| 14 | **Quality Verification** | Self-checklist mapped to rubric dimensions + test cases |
+| 14 | **Quality Verification** | Self-checklist mapped to rubric dimensions + 3 test cases + self-score table applying the Quality Rubric to the skill itself (§4.2 Self-Exemplar) |
 | 15 | **Version History** | Dated entries with scope of change |
 | 16 | **License & Author** | MIT + attribution requirements + author contact |
 
@@ -317,18 +319,18 @@ Phase 2: Architecture
 └── Plan 2+ scenario examples with full conversation flows
 
 Phase 3: Writing
-├── Fill complete metadata (all 9 fields; no HTML comments in YAML description)
-├── Write system prompt in code block
-├── Build each of the 16 sections with dense, actionable content
-├── Add bilingual translations (semantic, not literal)
-└── Include concrete examples showing the AI applying frameworks
+├── Fill complete metadata (all 9 fields; no HTML comments in YAML description) → §7.2
+├── Write system prompt in code block: role + decision framework + thinking patterns + style → §1 of this skill as exemplar
+├── Build each of the 16 sections in correct order → §7.3 checklist
+├── Add bilingual translations (semantic, not literal) → §7.4 format rules
+└── Include concrete examples showing AI applying frameworks → §9 of this skill as exemplar
 
 Phase 4: Quality Assurance
-├── Score against Quality Rubric (target: weighted avg 7+ for Expert)
-├── Validate YAML metadata syntax
-├── Confirm all 16 sections present and in correct order
-├── Run anti-pattern scan (§10 Common Pitfalls)
-└── Litmus test: "Would this actually change how an AI responds?"
+├── Score against Quality Rubric (§7.1): target weighted avg ≥ 7.0 (Expert), ≥ 9.0 (Exemplary)
+├── Validate YAML metadata syntax → yamllint or yaml-validator.com; check all 9 fields
+├── Confirm all 16 sections present and in correct order → §7.3 checklist
+├── Run anti-pattern scan → §10; check all 8 patterns against the new skill
+└── Litmus test: Prompt AI on 3 representative tasks with vs. without skill loaded; if outputs are indistinguishable, add more frameworks to §7 or more scenario examples to §9
 ```
 
 ### 8.2 Reviewing & Scoring a Skill / 审查评分技能
@@ -668,7 +670,7 @@ and you should try to follow best practices wherever possible.
 **✗ Do NOT use this skill when:**
 <!-- 不适用场景： -->
 - Writing general documentation unrelated to skills → use `tech-writer` skill
-- Creating domain-specific content → use the appropriate domain skill
+- Creating domain-specific content → browse `CATALOG.md` or the `/skills/` directory tree to find the matching domain skill
 - Generating production code or software systems → use `software-architect` skill
 - Translating existing content between languages → use human translators
 - Evaluating AI model capabilities → this skill evaluates skill files, not models
@@ -750,15 +752,15 @@ suggests 2-3 concrete scenario examples
 **Applying the Quality Rubric to this skill (Self-Exemplar principle §4.2):**
 <!-- 将质量量表应用于本技能（以身作则原则 §4.2）： -->
 
-| Dimension / 维度 | Score | Weight | Weighted | Evidence / 依据 |
-|----------|-------|--------|----------|---------|
-| **System Prompt Depth** | 9/10 | 20% | 1.80 | §1: role + 6-gate decision framework + 4 thinking patterns + communication style |
-| **Domain Knowledge Density** | 8/10 | 25% | 2.00 | §7: Quality Rubric with formula, 16-section checklist, bilingual rules, file org |
-| **Workflow Actionability** | 8/10 | 15% | 1.20 | §8: 4-phase creation workflow + review steps + upgrade checklist with templates |
-| **Risk Documentation** | 8/10 | 10% | 0.80 | §3: 5 domain-specific risks with severity + token-line targets |
-| **Example Quality** | 8/10 | 20% | 1.60 | §9: 3 full scenarios with conversation flows (creation, review, upgrade) |
-| **Metadata Completeness** | 10/10 | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description |
-| **Weighted Total** | | | **8.40/10** | **→ Expert Verified** ✅ |
+| Dimension / 维度 | Score | Tier | Weight | Weighted | Evidence / 依据 |
+|----------|-------|------|--------|----------|---------|
+| **System Prompt Depth** | 9/10 | ⭐⭐ Exemplary | 20% | 1.80 | §1: role + 6-gate decision framework + 6 thinking patterns (incl. Cognitive Load, Trigger Precision) + communication style |
+| **Domain Knowledge Density** | 8/10 | ⭐ Expert | 25% | 2.00 | §7: Quality Rubric with 4-tier table + weighted formula, 16-section checklist, bilingual rules, file org table |
+| **Workflow Actionability** | 8/10 | ⭐ Expert | 15% | 1.20 | §8: 4-phase creation workflow with section refs + review steps + upgrade checklist with templates; Phase 4 has measurable litmus test |
+| **Risk Documentation** | 8/10 | ⭐ Expert | 10% | 0.80 | §3: 5 domain-specific risks with severity ratings + token-line targets per skill type |
+| **Example Quality** | 8/10 | ⭐ Expert | 20% | 1.60 | §9: 3 scenarios (creation with 2-turn flow, review with scoring table, upgrade with before/after) |
+| **Metadata Completeness** | 10/10 | ⭐⭐ Exemplary | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description; version history has 7+ entries |
+| **Weighted Total** | | | | **8.40/10** | **→ Expert Verified** ✅ (2 dimensions at Exemplary level ⭐⭐, 4 at Expert level ⭐) |
 
 ---
 
@@ -766,6 +768,7 @@ suggests 2-3 concrete scenario examples
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 7.0.0 | 2026-02-18 | Second deep optimization pass (8 targeted fixes from fresh audit): (1) §7.1 Quality Rubric — split Expert column into Expert (7-8) and Exemplary (9-10) with distinct content per dimension; Scoring Rules updated to match 4-tier system; (2) §1.3 Thinking Patterns — added Cognitive Load (signal-to-token ratio) and Trigger Precision (test against 5 adjacent requests) as skill-architect-specific patterns; (3) §8.1 Phase 3/4 — added section cross-references for each Phase 3 step (§7.2, §7.3, §7.4, §9) and made Phase 4 litmus test measurable: "prompt AI with vs. without skill on 3 tasks"; (4) §7.3 §14 Expert Hallmark — now requires self-score table applying Quality Rubric to the skill itself; (5) §2 capability 2 — fixed "3 tiers" → "4 tiers (Basic/Community/Expert/Exemplary)"; (6) §12 — replaced vague "appropriate domain skill" with "browse CATALOG.md or /skills/ directory"; (7) §6 YAML Validator — added yamllint command and yaml-validator.com; (8) §14 self-score — added Tier column, correctly labeled System Prompt (9→Exemplary) and Metadata (10→Exemplary) |
 | 6.0.0 | 2026-02-18 | Deep optimization: (1) TEMPLATE.md complete rewrite — now matches 16-section standard, removed Anti-Pattern #6 violation (HTML in YAML description), added all 4 System Prompt subsections, added Standards & Reference §7 with frameworks/metrics, aligned Quality Verification self-checklist including format-standard bilingual row; (2) §14 bilingual dimension mapping corrected from "Metadata Completeness" → "(Format Standard)"; (3) §14 self-score table added — applies Quality Rubric to skill-writer itself (8.40/10), fulfills §4.2 Self-Exemplar principle; (4) §9.1 scenario extended with complete conversation flow: user follow-up → skill writer produces full System Prompt draft with consensus matrix, scaling decision tree, and audit checklist |
 | 5.0.0 | 2026-02-18 | Audit fixes: corrected "8 fields" → "9 fields" in rubric and all checklists (description field was omitted); added explicit weighted scoring formula to §7.1; fixed self-inconsistency in §3 token target (<600 lines was violated by this file — updated to domain/<600, meta-skills/<900); improved §5 Platform Support with specific install commands/URLs for all 7 platforms; added Anti-Pattern #8 (Prose Wall) to §10; updated §2 and §6 anti-pattern count to 8 |
 | 4.0.0 | 2026-02-18 | Structural overhaul: split "Scenario Guidance" into §8 "Standard Workflow" (processes) + §9 "Scenario Examples" (conversations) for exact 16-section alignment; updated 16-section checklist to match document structure; added §9.3 full conversation example for upgrade scenario; promoted HTML-in-YAML to Anti-Pattern #6; added rubric dimension mapping to Quality Verification self-checklist; removed HTML comments from YAML description field; consolidated trigger words to single authoritative list in §13; removed redundant density principle from §1.3; fixed tech/ category duplication in file organization table; removed decorative footer tags block |
