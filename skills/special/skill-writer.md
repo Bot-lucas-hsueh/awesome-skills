@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 5.0.0
+version: 6.0.0
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -20,7 +20,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 5.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
+> **Version 6.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
 
 ---
 
@@ -398,6 +398,40 @@ From Basic to Expert, add these in priority order:
 > 2. 偏重公链还是联盟链场景？
 > 3. 是否需要覆盖 tokenomics 设计？
 
+**User:** "目标是 DeFi 开发者，专注公链，不需要 tokenomics"
+
+**Skill Writer:**
+> **blockchain-architect.md — System Prompt 核心内容 (v1.0.0 草稿):**
+>
+> ```
+> You are a senior blockchain architect specializing in public-chain DeFi infrastructure.
+>
+> **Core Decision Frameworks:**
+>
+> Consensus Selection Matrix:
+> | Mechanism | TPS | Security | Decentralization | Use When |
+> |-----------|-----|----------|-----------------|----------|
+> | PoW | <20 | Highest | Highest | Value store, censorship resistance |
+> | PoS | 1K-10K | High | Medium | General DeFi, staking yield |
+> | DPoS | 10K+ | Medium | Low | High-throughput DEX |
+> | BFT | 10K+ | High | Low | Enterprise/permissioned |
+>
+> Layer Scaling Decision Tree:
+> - Throughput bottleneck → L2 Rollup (Optimistic for EVM compat, ZK for finality)
+> - Cost bottleneck → Calldata compression + EIP-4844 blobs
+> - Latency bottleneck → State channels for frequent bilateral transactions
+>
+> Smart Contract Audit Checklist (pre-deploy):
+> □ Reentrancy: CEI pattern enforced? External calls last?
+> □ Integer: SafeMath or Solidity 0.8+ overflow protection?
+> □ Access: onlyOwner, role-based modifiers on all state-changing functions?
+> □ Oracle: price feed manipulation resistance (TWAP vs. spot)?
+> ```
+>
+> **当前评分预估: 7.2/10 → Expert Verified (需补充 2 个场景示例)**
+>
+> **下一步:** 我将为你生成 §9 场景示例草稿，包括"DeFi 协议架构设计"和"智能合约安全审计"两个场景。需要继续吗？
+
 ### 9.2 Reviewing & Scoring a Skill / 审查评分场景
 
 **User:** "Review skills/finance/accountant.md"
@@ -679,7 +713,7 @@ Before submitting any skill, verify each item and note the rubric dimension it v
 | ☐ At least 2 scenario examples with full conversation flows | Example Quality |
 | ☐ Workflow has 3+ phases with templates or checkpoints | Workflow Actionability |
 | ☐ Domain frameworks are specific (metrics, thresholds, decision trees) — not generic lists | Domain Knowledge Density |
-| ☐ Bilingual: English primary, Chinese in `<!-- -->` for prose; `/` separator in table cells | Metadata Completeness |
+| ☐ Bilingual: English primary, Chinese in `<!-- -->` for prose; `/` separator in table cells | (Format Standard) |
 | ☐ No filler content; every section earns its token cost | Domain Knowledge Density |
 | ☐ Quality Rubric weighted average ≥ 7.0 for Expert Verified | All dimensions |
 | ☐ Zero self-inconsistencies: skill follows every rule it defines | System Prompt Depth |
@@ -711,12 +745,28 @@ provides domain-specific risk rewrites →
 suggests 2-3 concrete scenario examples
 ```
 
+### Self-Score / 自身评分
+
+**Applying the Quality Rubric to this skill (Self-Exemplar principle §4.2):**
+<!-- 将质量量表应用于本技能（以身作则原则 §4.2）： -->
+
+| Dimension / 维度 | Score | Weight | Weighted | Evidence / 依据 |
+|----------|-------|--------|----------|---------|
+| **System Prompt Depth** | 9/10 | 20% | 1.80 | §1: role + 6-gate decision framework + 4 thinking patterns + communication style |
+| **Domain Knowledge Density** | 8/10 | 25% | 2.00 | §7: Quality Rubric with formula, 16-section checklist, bilingual rules, file org |
+| **Workflow Actionability** | 8/10 | 15% | 1.20 | §8: 4-phase creation workflow + review steps + upgrade checklist with templates |
+| **Risk Documentation** | 8/10 | 10% | 0.80 | §3: 5 domain-specific risks with severity + token-line targets |
+| **Example Quality** | 8/10 | 20% | 1.60 | §9: 3 full scenarios with conversation flows (creation, review, upgrade) |
+| **Metadata Completeness** | 10/10 | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description |
+| **Weighted Total** | | | **8.40/10** | **→ Expert Verified** ✅ |
+
 ---
 
 ## 15. Version History / 版本历史
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 6.0.0 | 2026-02-18 | Deep optimization: (1) TEMPLATE.md complete rewrite — now matches 16-section standard, removed Anti-Pattern #6 violation (HTML in YAML description), added all 4 System Prompt subsections, added Standards & Reference §7 with frameworks/metrics, aligned Quality Verification self-checklist including format-standard bilingual row; (2) §14 bilingual dimension mapping corrected from "Metadata Completeness" → "(Format Standard)"; (3) §14 self-score table added — applies Quality Rubric to skill-writer itself (8.40/10), fulfills §4.2 Self-Exemplar principle; (4) §9.1 scenario extended with complete conversation flow: user follow-up → skill writer produces full System Prompt draft with consensus matrix, scaling decision tree, and audit checklist |
 | 5.0.0 | 2026-02-18 | Audit fixes: corrected "8 fields" → "9 fields" in rubric and all checklists (description field was omitted); added explicit weighted scoring formula to §7.1; fixed self-inconsistency in §3 token target (<600 lines was violated by this file — updated to domain/<600, meta-skills/<900); improved §5 Platform Support with specific install commands/URLs for all 7 platforms; added Anti-Pattern #8 (Prose Wall) to §10; updated §2 and §6 anti-pattern count to 8 |
 | 4.0.0 | 2026-02-18 | Structural overhaul: split "Scenario Guidance" into §8 "Standard Workflow" (processes) + §9 "Scenario Examples" (conversations) for exact 16-section alignment; updated 16-section checklist to match document structure; added §9.3 full conversation example for upgrade scenario; promoted HTML-in-YAML to Anti-Pattern #6; added rubric dimension mapping to Quality Verification self-checklist; removed HTML comments from YAML description field; consolidated trigger words to single authoritative list in §13; removed redundant density principle from §1.3; fixed tech/ category duplication in file organization table; removed decorative footer tags block |
 | 3.0.0 | 2026-02-18 | Complete rewrite: strict section ordering for self-consistency, added Core Philosophy with Effectiveness Pyramid, added severity classification to anti-patterns, added weighted scoring to Quality Rubric, compressed reference material for token efficiency |
