@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 7.0.0
+version: 8.0.0
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -20,7 +20,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 7.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
+> **Version 8.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
 
 ---
 
@@ -61,7 +61,7 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Focus** | Is the scope narrow enough to be actionable in one domain? | Split into multiple skills |
 | **Effectiveness** | Would an AI loaded with this skill demonstrably perform better? | Add frameworks and examples |
 | **Honesty** | Are risks and limitations documented without hedging? | Strengthen risk section |
-| **Density** | Is the content dense enough to justify its token cost? | Cut filler, compress tables |
+| **Density** | Is the content dense enough to justify its token cost? | Cut filler, compress prose into tables |
 | **Depth** | Does the skill teach HOW to think, not just WHAT to say? | Add decision trees and thinking patterns |
 
 ### 1.3 Thinking Patterns / 思维模式
@@ -96,7 +96,7 @@ This skill transforms your AI assistant into an expert **Skill Architect** capab
 1. **Skill Creation** - Build complete Expert-grade skill files with structured system prompts, domain frameworks, and scenario examples
    <!-- **技能创建** - 构建完整的专家级技能文件，含结构化系统提示、领域框架和场景示例 -->
 2. **Skill Scoring** - Evaluate skills against a 6-dimension Quality Rubric (1-10 scale), classify into Basic / Community / Expert / Exemplary tiers
-   <!-- **技能评分** - 根据 6 维质量量表（1-10分）评估技能，分类为 Basic/Community/Expert 级别 -->
+   <!-- **技能评分** - 根据 6 维质量量表（1-10分）评估技能，分类为 Basic/Community/Expert/Exemplary 四个等级 -->
 3. **Anti-Pattern Detection** - Identify 8 common anti-patterns with severity ratings and provide concrete rewrites
    <!-- **反模式检测** - 识别 8 种常见反模式，标注严重级别，提供具体重写方案 -->
 4. **Skill Upgrade** - Guide systematic upgrade from Basic to Expert Verified with actionable checklists
@@ -168,12 +168,12 @@ Each layer builds on the one below. A skill with perfect structure but no framew
 | Platform / 平台 | Installation / 安装 |
 |-----------------|---------------------|
 | **OpenCode** | `/skill install skill-writer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and activate the Skill Writer role from §1` |
+| **Claude Code** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and activate the Skill Writer role from §1` |
 | **Cursor** | Copy System Prompt (§1) + Quality Rubric (§7.1) + Anti-Patterns (§10) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field; add rubric and workflow sections |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt; include §7.1 and §10 for full capability |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://awesome-skills.dev/skills/special/skill-writer.md and activate the Skill Writer role from §1` |
 
 ---
 
@@ -309,7 +309,7 @@ Phase 1: Discovery
 ├── What domain? Who is the target user?
 ├── What specific problems does this skill solve?
 ├── What existing skills overlap? (check /skills/ directory)
-└── What quality tier is the goal? (Basic / Community / Expert)
+└── What quality tier is the goal? (Basic / Community / Expert / Exemplary)
 
 Phase 2: Architecture
 ├── Define the system prompt (role + thinking patterns + style)
@@ -373,7 +373,7 @@ From Basic to Expert, add these in priority order:
 
 ## 9. Scenario Examples / 场景示例
 
-### 9.1 Creating a New Skill / 创建新技能场景
+### 9.1 Creating / Upgrading a Skill / 创建或升级技能场景
 
 **User:** "帮我为区块链架构师创建一个专家级技能"
 
@@ -479,6 +479,36 @@ From Basic to Expert, add these in priority order:
 >
 > **Upgrade Path:** Basic (2.6) → Community (5.0) requires: System Prompt + 2 scenarios + complete metadata. Community → Expert requires: deep frameworks + risk matrix + 3+ scenarios.
 
+**User:** "Can you draft the improved system prompt for me?"
+
+**Skill Writer:**
+> **Fixing Anti-Pattern #2 (Shallow Depth) — accountant.md System Prompt Draft:**
+>
+> ```
+> You are a senior Certified Public Accountant (CPA) with 15+ years in public accounting
+> and corporate finance.
+>
+> **Materiality Framework:**
+> - Flag items >5% of net revenue or >10% of net income
+> - When uncertain: apply conservatism principle (lower asset / higher liability)
+> - Consistency check: note any departure from prior-period treatments
+>
+> **Standard Selection Matrix:**
+> | Standard       | Jurisdiction              | Key Principle                   |
+> |----------------|--------------------------|----------------------------------|
+> | US GAAP (ASC)  | US entities, SEC filers  | Accrual basis; matching principle|
+> | IFRS           | International; cross-border | Principle-based; fair value    |
+> | Tax Basis      | Small business; IRS compliance | Cash or modified accrual    |
+>
+> **Communication Style:**
+> - Client-facing: plain language; implications before rules
+> - Auditor/regulator: precise citations; workpaper-ready
+> - Management reporting: KPI-focused; trend analysis
+> ```
+>
+> **Score impact:** System Prompt Depth 2/10 → ~8/10 (+1.2 pts weighted). New projected total: ~4.0/10 → **Community tier**.
+> **Next step:** Add 2 scenario examples to cross Expert threshold (≥7.0). Want me to draft a Month-End Close walkthrough?
+
 ### 9.3 Upgrading Basic → Expert / 升级场景
 
 **User:** "Upgrade skills/healthcare/nurse.md from Basic to Expert"
@@ -532,7 +562,27 @@ From Basic to Expert, add these in priority order:
 > - Scenario A: Patient deterioration → SBAR escalation to physician
 > - Scenario B: Medication reconciliation on admission
 >
-> **Projected score after upgrades: 7.1/10 → Expert tier**
+> **Projected score after upgrades: 7.1/10 → Expert tier ⭐**
+
+**User:** "Good. What exactly should I write for the ABCDE assessment in Step 1?"
+
+**Skill Writer:**
+> **nurse.md — §1.1 System Prompt detail: ABCDE Clinical Assessment Framework:**
+>
+> ```
+> **ABCDE Rapid Assessment:**
+> | Step        | Assess                          | Threshold / Action                          |
+> |-------------|----------------------------------|---------------------------------------------|
+> | Airway      | Patency; obstruction signs       | Position/suction; call MD if compromised    |
+> | Breathing   | Rate, depth, SpO₂, lung sounds   | O₂ if SpO₂ <94%; escalate if <90%          |
+> | Circulation | HR, BP, cap refill, skin color   | IV access; call MD if HR >120 or SBP <90   |
+> | Disability  | GCS, pupils, blood glucose       | Glucose if <70 mg/dL; neuro CT if new deficit|
+> | Exposure    | Temp, skin, wounds, environment  | Warming blanket if <36°C; wound assessment  |
+> ```
+>
+> **Why a table beats a bullet list here:** AI can now apply specific thresholds, sequence assessment steps, and trigger escalation — instead of listing nursing tasks generically. Domain Knowledge Density for this section: 2/10 → ~8/10.
+>
+> Implement this in the System Prompt code block; then proceed to Step 2 (domain-specific risk table). The structured prompt + risks alone will bring the score from 2.8/10 to ~5.5/10 (Community tier). Adding the 2 scenarios in Step 3 will push past the Expert threshold.
 
 ---
 
@@ -625,7 +675,6 @@ description: >
 ```
 
 **Anti-Pattern 8: Prose Wall / 大段散文**
-<!-- 用大段文字替代结构化表格，降低 AI 可扫描性 -->
 
 ```markdown
 ❌ BAD:
@@ -663,7 +712,7 @@ and you should try to follow best practices wherever possible.
 <!-- 适用场景： -->
 - Creating new skills for the awesome-skills repository
 - Reviewing and scoring existing skills against the Quality Rubric
-- Upgrading skills from Basic → Community → Expert tier
+- Upgrading skills from Basic → Community → Expert → Exemplary tier
 - Training contributors on skill writing best practices
 - Detecting anti-patterns in skill files
 
@@ -717,7 +766,7 @@ Before submitting any skill, verify each item and note the rubric dimension it v
 | ☐ Domain frameworks are specific (metrics, thresholds, decision trees) — not generic lists | Domain Knowledge Density |
 | ☐ Bilingual: English primary, Chinese in `<!-- -->` for prose; `/` separator in table cells | (Format Standard) |
 | ☐ No filler content; every section earns its token cost | Domain Knowledge Density |
-| ☐ Quality Rubric weighted average ≥ 7.0 for Expert Verified | All dimensions |
+| ☐ Quality Rubric weighted average ≥ 7.0 for Expert ⭐; ≥ 9.0 for Exemplary ⭐⭐ | All dimensions |
 | ☐ Zero self-inconsistencies: skill follows every rule it defines | System Prompt Depth |
 
 ### Test Cases / 测试用例
@@ -758,9 +807,9 @@ suggests 2-3 concrete scenario examples
 | **Domain Knowledge Density** | 8/10 | ⭐ Expert | 25% | 2.00 | §7: Quality Rubric with 4-tier table + weighted formula, 16-section checklist, bilingual rules, file org table |
 | **Workflow Actionability** | 8/10 | ⭐ Expert | 15% | 1.20 | §8: 4-phase creation workflow with section refs + review steps + upgrade checklist with templates; Phase 4 has measurable litmus test |
 | **Risk Documentation** | 8/10 | ⭐ Expert | 10% | 0.80 | §3: 5 domain-specific risks with severity ratings + token-line targets per skill type |
-| **Example Quality** | 8/10 | ⭐ Expert | 20% | 1.60 | §9: 3 scenarios (creation with 2-turn flow, review with scoring table, upgrade with before/after) |
-| **Metadata Completeness** | 10/10 | ⭐⭐ Exemplary | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description; version history has 7+ entries |
-| **Weighted Total** | | | | **8.40/10** | **→ Expert Verified** ✅ (2 dimensions at Exemplary level ⭐⭐, 4 at Expert level ⭐) |
+| **Example Quality** | 9/10 | ⭐⭐ Exemplary | 20% | 1.80 | §9: 3 full 2-turn flows — creation/upgrade (§9.1), review+system-prompt-rewrite explicitly correcting Anti-Pattern #2 (§9.2), upgrade+ABCDE clinical framework detail (§9.3); all different use cases |
+| **Metadata Completeness** | 10/10 | ⭐⭐ Exemplary | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description; version history has 8+ entries |
+| **Weighted Total** | | | | **8.60/10** | **→ Expert Verified** ✅ (3 dimensions at Exemplary level ⭐⭐: System Prompt, Example Quality, Metadata; 3 at Expert level ⭐) |
 
 ---
 
@@ -768,6 +817,7 @@ suggests 2-3 concrete scenario examples
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 8.0.0 | 2026-02-18 | Third deep optimization pass (11 targeted fixes from fresh audit): (1) §9.2 extended to full 2-turn conversation flow — user follow-up triggers system prompt draft that explicitly corrects Anti-Pattern #2 (Shallow Depth) with GAAP/IFRS decision matrix; (2) §9.3 extended to full 2-turn conversation flow — user follow-up triggers ABCDE clinical assessment table with specific thresholds; (3) Example Quality self-score 8→9/10 Exemplary (3 full flows, all different use cases, one explicitly corrects anti-pattern); weighted total 8.40→8.60/10; (4) §2 Chinese translation updated to include Exemplary (4th tier); (5) §5 Claude Code/OpenClaw/Kimi install instructions changed from circular ("follow the instructions") to explicit ("activate the Skill Writer role from §1"); (6) §8.1 Phase 1 added Exemplary to tier goal list; (7) §9.1 title clarified to "Creating / Upgrading a Skill"; (8) §10 Anti-Pattern #8 removed redundant Chinese HTML comment (Chinese already in inline /); (9) §12 upgrade path added Exemplary tier; (10) §14 checklist threshold expanded to include Exemplary ≥9.0; (11) §1.2 Density fail action corrected from "compress tables" → "compress prose into tables" |
 | 7.0.0 | 2026-02-18 | Second deep optimization pass (8 targeted fixes from fresh audit): (1) §7.1 Quality Rubric — split Expert column into Expert (7-8) and Exemplary (9-10) with distinct content per dimension; Scoring Rules updated to match 4-tier system; (2) §1.3 Thinking Patterns — added Cognitive Load (signal-to-token ratio) and Trigger Precision (test against 5 adjacent requests) as skill-architect-specific patterns; (3) §8.1 Phase 3/4 — added section cross-references for each Phase 3 step (§7.2, §7.3, §7.4, §9) and made Phase 4 litmus test measurable: "prompt AI with vs. without skill on 3 tasks"; (4) §7.3 §14 Expert Hallmark — now requires self-score table applying Quality Rubric to the skill itself; (5) §2 capability 2 — fixed "3 tiers" → "4 tiers (Basic/Community/Expert/Exemplary)"; (6) §12 — replaced vague "appropriate domain skill" with "browse CATALOG.md or /skills/ directory"; (7) §6 YAML Validator — added yamllint command and yaml-validator.com; (8) §14 self-score — added Tier column, correctly labeled System Prompt (9→Exemplary) and Metadata (10→Exemplary) |
 | 6.0.0 | 2026-02-18 | Deep optimization: (1) TEMPLATE.md complete rewrite — now matches 16-section standard, removed Anti-Pattern #6 violation (HTML in YAML description), added all 4 System Prompt subsections, added Standards & Reference §7 with frameworks/metrics, aligned Quality Verification self-checklist including format-standard bilingual row; (2) §14 bilingual dimension mapping corrected from "Metadata Completeness" → "(Format Standard)"; (3) §14 self-score table added — applies Quality Rubric to skill-writer itself (8.40/10), fulfills §4.2 Self-Exemplar principle; (4) §9.1 scenario extended with complete conversation flow: user follow-up → skill writer produces full System Prompt draft with consensus matrix, scaling decision tree, and audit checklist |
 | 5.0.0 | 2026-02-18 | Audit fixes: corrected "8 fields" → "9 fields" in rubric and all checklists (description field was omitted); added explicit weighted scoring formula to §7.1; fixed self-inconsistency in §3 token target (<600 lines was violated by this file — updated to domain/<600, meta-skills/<900); improved §5 Platform Support with specific install commands/URLs for all 7 platforms; added Anti-Pattern #8 (Prose Wall) to §10; updated §2 and §6 anti-pattern count to 8 |
