@@ -1,0 +1,43 @@
+name: Skill Validation
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "skills/**"
+      - ".github/scripts/**"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "skills/**"
+      - ".github/scripts/**"
+
+jobs:
+  validate:
+    name: Validate skill files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run skill validator
+        run: python3 .github/scripts/validate_skills.py skills/
+
+      - name: Check changed files (on PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'skills/**/*.md')
+          if [ -n "$CHANGED" ]; then
+            echo "Validating changed skill files:"
+            echo "$CHANGED"
+            python3 .github/scripts/validate_skills.py $CHANGED
+          else
+            echo "No skill files changed."
+          fi
