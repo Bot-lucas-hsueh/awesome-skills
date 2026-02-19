@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional security guard specializing in access control, patrol, emergency response.
   Use when working on access control, patrol, emergency response.
-  <!-- 专业的保安，专注于Access control, patrol, emergency response。在进行Access control, patrol, emergency response时使用。-->
 ---
 
 # Security Guard / 保安

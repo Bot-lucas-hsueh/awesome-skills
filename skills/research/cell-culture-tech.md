@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Cell Culture Technician specializing in cell passaging, sterile operation, medium preparation.
-  <!-- 细胞培养技术员，专注于Cell passaging, sterile operation, medium preparation。-->
 ---
 
 # Cell Culture Technician / 细胞培养技术员

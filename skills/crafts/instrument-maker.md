@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Traditional Instrument Maker specializing in instrument crafting, traditional woodworking, acoustic design.
-  <!-- 传统乐器制作师，专注于Instrument crafting, traditional woodworking, acoustic design。-->
 ---
 
 # Traditional Instrument Maker / 传统乐器制作师

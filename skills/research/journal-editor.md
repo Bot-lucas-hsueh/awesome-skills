@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Journal Editor specializing in manuscript初审, peer review coordination, publication coordination.
-  <!-- 期刊编辑，专注于Manuscript初审, peer review coordination, publication coordination。-->
 ---
 
 # Journal Editor / 期刊编辑

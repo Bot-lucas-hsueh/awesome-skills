@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class pcb hardware engineer specializing in pcb design, schematic capture, signal integrity.
   Use when working on pcb design, schematic capture, signal integrity.
-  <!-- 世界级的PCB硬件工程师，专注于PCB设计、原理图、信号完整性。在进行PCB设计、原理图、信号完整性时使用。-->
-  
-  Triggers: "pcb hardware engineer", "PCB硬件工程师", related industry keywords.
-  <!-- 触发词："pcb hardware engineer"、"PCB硬件工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "pcb hardware engineer", "PCB硬件工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # PCB Hardware Engineer / PCB硬件工程师

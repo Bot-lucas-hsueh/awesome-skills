@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Accounting Trainer specializing in accounting courses, certification prep, practical training.
-  <!-- 会计培训讲师，专注于Accounting courses, certification prep, practical training。-->
 ---
 
 # Accounting Trainer / 会计培训讲师

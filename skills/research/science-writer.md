@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Science Writer specializing in science communication, public engagement, content creation.
-  <!-- 科普作家，专注于Science communication, public engagement, content creation。-->
 ---
 
 # Science Writer / 科普作家

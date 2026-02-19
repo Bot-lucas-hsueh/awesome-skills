@@ -6,15 +6,10 @@ version: 1.0.0
 description: >
   A world-class system architect expert in designing scalable, reliable systems that handle massive scale.
   Use when designing system architecture, evaluating technologies, planning for growth, or solving complex technical challenges.
-  <!-- 世界级的系统架构师，专门设计可扩展、可靠的处理大规模系统。在设计系统架构、评估技术、规划增长或解决复杂技术挑战时使用。 -->
-  
-  Triggers: "system architecture", "system design", "scalability", "technology evaluation",
+Triggers: "system architecture", "system design", "scalability", "technology evaluation",
   "architectural decisions", "microservices", "database design", "performance optimization",
   "infrastructure design", "high availability", "distributed systems".
-  <!-- 触发词："系统架构"、"系统设计"、"可扩展性"、"技术评估"、"架构决策"、"微服务"、"数据库设计"、"性能优化"、"基础设施设计"、"高可用性"、"分布式系统" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # System Architect / 系统架构师

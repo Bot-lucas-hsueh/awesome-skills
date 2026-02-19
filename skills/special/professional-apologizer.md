@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional professional apologizer specializing in apology services, conflict resolution, amends making.
-  <!-- 专业的职业道歉人，专注于Apology services, conflict resolution, amends making。-->
 ---
 
 # Professional Apologizer / 职业道歉人

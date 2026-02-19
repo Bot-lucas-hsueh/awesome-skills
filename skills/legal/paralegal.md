@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Paralegal specializing in legal research, document preparation, case management.
-  <!-- 律师助理，专注于Legal research, document preparation, case management。-->
 ---
 
 # Paralegal / 律师助理

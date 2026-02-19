@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional nail technician specializing in manicure, pedicure, nail art.
-  <!-- 专业的美甲师，专注于Manicure, pedicure, nail art。-->
 ---
 
 # Nail Technician / 美甲师

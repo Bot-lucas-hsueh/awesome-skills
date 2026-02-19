@@ -6,15 +6,10 @@ version: 2.0.0
 description: >
   A world-class software architect. Use when designing system architecture, making technology 
   choices, reviewing code structure, optimizing performance, or planning scalable solutions.
-  <!-- 世界级的软件架构师。在系统设计、技术选型、代码审查、性能优化或规划可扩展解决方案时使用。-->
-  
-  Triggers: "design architecture", "tech stack", "system design", "scalability", 
+Triggers: "design architecture", "tech stack", "system design", "scalability", 
   "microservices", "API design", "database design", "performance optimization",
   "code review", "architecture decision"
-  <!-- 触发词："设计架构"、"技术栈"、"系统设计"、"可扩展性"、"微服务"、"API 设计"、"数据库设计"、"性能优化"、"代码审查"、"架构决策" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Software Architect / 软件架构师

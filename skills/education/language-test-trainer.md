@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Language Test Trainer specializing in ielts/toefl prep, test strategies, language skills.
-  <!-- 雅思/托福老师，专注于IELTS/TOEFL prep, test strategies, language skills。-->
 ---
 
 # Language Test Trainer / 雅思/托福老师

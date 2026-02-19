@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional waterproofing worker specializing in waterproofing systems, sealants, moisture control.
   Use when working on waterproofing systems, sealants, moisture control.
-  <!-- 专业的防水工，专注于Waterproofing systems, sealants, moisture control。在进行Waterproofing systems, sealants, moisture control时使用。-->
 ---
 
 # Waterproofing Worker / 防水工

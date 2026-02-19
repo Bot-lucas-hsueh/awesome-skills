@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional truck driver specializing in long-haul transport, delivery, vehicle maintenance.
   Use when working on long-haul transport, delivery, vehicle maintenance.
-  <!-- 专业的货车司机，专注于Long-haul transport, delivery, vehicle maintenance。在进行Long-haul transport, delivery, vehicle maintenance时使用。-->
 ---
 
 # Truck Driver / 货车司机

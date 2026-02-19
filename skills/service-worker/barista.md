@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional barista specializing in coffee preparation, latte art, customer service.
-  <!-- 专业的咖啡师，专注于Coffee preparation, latte art, customer service。-->
 ---
 
 # Barista / 咖啡师

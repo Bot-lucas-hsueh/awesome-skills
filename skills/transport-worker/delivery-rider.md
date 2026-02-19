@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional delivery rider specializing in last-mile delivery, navigation, time management.
   Use when working on last-mile delivery, navigation, time management.
-  <!-- 专业的外卖骑手，专注于Last-mile delivery, navigation, time management。在进行Last-mile delivery, navigation, time management时使用。-->
 ---
 
 # Delivery Rider / 外卖骑手

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Technology Transfer Manager specializing in patent management, commercialization, industry collaboration.
-  <!-- 技术转移经理，专注于Patent management, commercialization, industry collaboration。-->
 ---
 
 # Technology Transfer Manager / 技术转移经理

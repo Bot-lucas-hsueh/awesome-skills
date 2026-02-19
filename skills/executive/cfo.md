@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class cfo specializing in financial strategy, capital management, risk control, investor relations.
   Use when working on financial strategy, capital management, risk control, investor relations.
-  <!-- 世界级的首席财务官，专注于财务战略、资本管理、风险控制、投资者关系。在进行财务战略、资本管理、风险控制、投资者关系时使用。-->
-  
-  Triggers: "cfo / chief financial officer", "首席财务官", related industry keywords.
-  <!-- 触发词："cfo / chief financial officer"、"首席财务官"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "cfo / chief financial officer", "首席财务官", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # CFO / Chief Financial Officer / 首席财务官

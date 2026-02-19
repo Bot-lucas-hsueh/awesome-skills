@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Village Doctor specializing in rural healthcare, basic medicine, community service.
-  <!-- 乡村医生，专注于Rural healthcare, basic medicine, community service。-->
 ---
 
 # Village Doctor / 乡村医生

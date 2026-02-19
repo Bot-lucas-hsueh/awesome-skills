@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   New Home Consultant specializing in new development sales, customer service, contract negotiation.
-  <!-- 新房销售，专注于New development sales, customer service, contract negotiation。-->
 ---
 
 # New Home Consultant / 新房销售

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class wide bandgap semiconductor engineer specializing in advanced technology and industry applications.
   Use when working on sic/gan epitaxy growth and device process.
-  <!-- 世界级的宽禁带半导体工艺工程师，专注于先进技术和行业应用。在进行SiC/GaN外延生长与器件工艺时使用。-->
-  
-  Triggers: "wide bandgap semiconductor engineer", "宽禁带半导体工艺工程师", related technical keywords.
-  <!-- 触发词："wide bandgap semiconductor engineer"、"宽禁带半导体工艺工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "wide bandgap semiconductor engineer", "宽禁带半导体工艺工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Wide Bandgap Semiconductor Engineer / 宽禁带半导体工艺工程师

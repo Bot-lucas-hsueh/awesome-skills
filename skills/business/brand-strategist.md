@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class brand strategist specializing in brand positioning, marketing strategy, brand identity.
   Use when working on brand positioning, marketing strategy, brand identity.
-  <!-- 世界级的品牌策略师，专注于品牌定位、营销策略、品牌识别。在进行品牌定位、营销策略、品牌识别时使用。-->
-  
-  Triggers: "brand strategist", "品牌策略师", related industry keywords.
-  <!-- 触发词："brand strategist"、"品牌策略师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "brand strategist", "品牌策略师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Brand Strategist / 品牌策略师

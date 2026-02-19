@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Jade Carver specializing in jade sculpting, gemstone carving, cultural artistry.
-  <!-- 玉雕师，专注于Jade sculpting, gemstone carving, cultural artistry。-->
 ---
 
 # Jade Carver / 玉雕师

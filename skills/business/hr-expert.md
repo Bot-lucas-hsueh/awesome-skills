@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class hr expert/hrbp specializing in talent acquisition, performance management, employee relations.
   Use when working on talent acquisition, performance management, employee relations.
-  <!-- 世界级的HR专家，专注于人才招聘、绩效管理、员工关系。在进行人才招聘、绩效管理、员工关系时使用。-->
-  
-  Triggers: "hr expert/hrbp", "HR专家", related industry keywords.
-  <!-- 触发词："hr expert/hrbp"、"HR专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "hr expert/hrbp", "HR专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # HR Expert/HRBP / HR专家

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Notary Public specializing in document notarization, legal certification, authentication.
-  <!-- 公证员，专注于Document notarization, legal certification, authentication。-->
 ---
 
 # Notary Public / 公证员

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Training Marketing specializing in marketing strategy, lead generation, brand promotion.
-  <!-- 培训市场推广，专注于Marketing strategy, lead generation, brand promotion。-->
 ---
 
 # Training Marketing / 培训市场推广

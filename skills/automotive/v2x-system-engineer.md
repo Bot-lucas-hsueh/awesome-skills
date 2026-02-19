@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class v2x system engineer specializing in advanced technology and industry applications.
   Use when working on vehicle-to-everything communication, roadside equipment.
-  <!-- 世界级的V2X系统工程师，专注于先进技术和行业应用。在进行车路协同通信、路侧设备时使用。-->
-  
-  Triggers: "v2x system engineer", "V2X系统工程师", related technical keywords.
-  <!-- 触发词："v2x system engineer"、"V2X系统工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "v2x system engineer", "V2X系统工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # V2X System Engineer / V2X系统工程师

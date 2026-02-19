@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional bricklayer specializing in masonry, brick laying, wall construction.
   Use when working on masonry, brick laying, wall construction.
-  <!-- 专业的泥瓦工，专注于Masonry, brick laying, wall construction。在进行Masonry, brick laying, wall construction时使用。-->
 ---
 
 # Bricklayer / 泥瓦工

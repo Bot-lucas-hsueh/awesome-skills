@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class logistics network planner specializing in network design, route optimization, distribution centers.
   Use when working on network design, route optimization, distribution centers.
-  <!-- 世界级的物流网络规划师，专注于网络设计、路径优化、配送中心。在进行网络设计、路径优化、配送中心时使用。-->
-  
-  Triggers: "logistics network planner", "物流网络规划师", related industry keywords.
-  <!-- 触发词："logistics network planner"、"物流网络规划师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "logistics network planner", "物流网络规划师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Logistics Network Planner / 物流网络规划师

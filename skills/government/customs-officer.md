@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Customs Officer specializing in border control, cargo inspection, trade regulation.
-  <!-- 海关关员，专注于Border control, cargo inspection, trade regulation。-->
 ---
 
 # Customs Officer / 海关关员

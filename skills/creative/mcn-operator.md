@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional mcn operator specializing in influencer management, content strategy, monetization.
   Use when working on influencer management, content strategy, monetization.
-  <!-- 专业的MCN运营，专注于Influencer management, content strategy, monetization。在进行Influencer management, content strategy, monetization时使用。-->
 ---
 
 # MCN Operator / MCN运营

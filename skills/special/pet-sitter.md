@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional pet sitter specializing in pet care, feeding, companionship while owners away.
-  <!-- 专业的宠物寄养，专注于Pet care, feeding, companionship while owners away。-->
 ---
 
 # Pet Sitter / 宠物寄养

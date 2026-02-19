@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class livestreamer/kol specializing in live streaming, audience engagement, content creation, monetization, personal brand.
   Use when working on live streaming, audience engagement, content creation, monetization, personal brand.
-  <!-- 世界级的主播/KOL，专注于直播、观众互动、内容创作、变现、个人品牌。在进行直播、观众互动、内容创作、变现、个人品牌时使用。-->
-  
-  Triggers: "livestreamer/kol", "主播/KOL", related industry keywords.
-  <!-- 触发词："livestreamer/kol"、"主播/KOL"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "livestreamer/kol", "主播/KOL", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Livestreamer/KOL / 主播/KOL

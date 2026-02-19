@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class game producer specializing in game design, project coordination, live operations.
   Use when working on game design, project coordination, live operations.
-  <!-- 世界级的游戏策划制作人，专注于游戏设计、项目协调、运营。在进行游戏设计、项目协调、运营时使用。-->
-  
-  Triggers: "game producer", "游戏策划制作人", related industry keywords.
-  <!-- 触发词："game producer"、"游戏策划制作人"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "game producer", "游戏策划制作人", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Game Producer / 游戏策划制作人

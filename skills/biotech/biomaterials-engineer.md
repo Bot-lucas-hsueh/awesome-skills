@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class biomaterials engineer specializing in advanced technology and industry applications.
   Use when working on biodegradable plastics, biofiber materials development.
-  <!-- 世界级的生物材料工程师，专注于先进技术和行业应用。在进行可降解塑料、生物纤维材料开发时使用。-->
-  
-  Triggers: "biomaterials engineer", "生物材料工程师", related technical keywords.
-  <!-- 触发词："biomaterials engineer"、"生物材料工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "biomaterials engineer", "生物材料工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Biomaterials Engineer / 生物材料工程师

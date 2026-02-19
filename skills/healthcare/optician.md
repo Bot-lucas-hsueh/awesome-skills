@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional optician specializing in vision testing, glasses fitting, lens prescription.
-  <!-- 专业的验光师，专注于Vision testing, glasses fitting, lens prescription。-->
 ---
 
 # Optician / 验光师

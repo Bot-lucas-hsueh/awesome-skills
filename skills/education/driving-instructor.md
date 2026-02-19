@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional driving instructor specializing in driving lessons, road safety, license preparation.
-  <!-- 专业的驾校教练，专注于Driving lessons, road safety, license preparation。-->
 ---
 
 # Driving Instructor / 驾校教练

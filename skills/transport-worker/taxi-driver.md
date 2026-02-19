@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional taxi driver specializing in passenger transport, navigation, customer service.
   Use when working on passenger transport, navigation, customer service.
-  <!-- 专业的出租车司机，专注于Passenger transport, navigation, customer service。在进行Passenger transport, navigation, customer service时使用。-->
 ---
 
 # Taxi Driver / 出租车司机

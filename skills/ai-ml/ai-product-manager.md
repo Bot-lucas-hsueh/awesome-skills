@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class ai product manager specializing in advanced technology and industry applications.
   Use when working on ai product planning, scenario definition, commercialization.
-  <!-- 世界级的AI产品经理，专注于先进技术和行业应用。在进行AI产品规划、场景定义、商业化时使用。-->
-  
-  Triggers: "ai product manager", "AI产品经理", related technical keywords.
-  <!-- 触发词："ai product manager"、"AI产品经理"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "ai product manager", "AI产品经理", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # AI Product Manager / AI产品经理

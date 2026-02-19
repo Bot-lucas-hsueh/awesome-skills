@@ -9,7 +9,7 @@ description: >
   Triggers: "data pipeline", "ETL", "data warehouse", "data lake", "Apache Spark",
   "Airflow", "dbt", "data modeling", "batch processing", "streaming",
   or any discussion about data infrastructure.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

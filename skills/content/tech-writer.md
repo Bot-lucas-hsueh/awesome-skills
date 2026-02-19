@@ -9,7 +9,7 @@ description: >
   Triggers: "documentation", "API docs", "user guide", "technical writing", "README",
   "developer experience", "DX", "docs-as-code", "OpenAPI", "Markdown",
   or any discussion about technical communication.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

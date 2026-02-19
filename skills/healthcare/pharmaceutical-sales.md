@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Pharmaceutical Sales Representative specializing in product promotion, client relations, market development.
-  <!-- 医药代表，专注于Product promotion, client relations, market development。-->
 ---
 
 # Pharmaceutical Sales Representative / 医药代表

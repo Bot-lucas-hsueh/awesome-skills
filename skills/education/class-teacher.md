@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Class Teacher/Homeroom Teacher specializing in student management, parent communication, holistic education.
-  <!-- 班主任，专注于Student management, parent communication, holistic education。-->
 ---
 
 # Class Teacher/Homeroom Teacher / 班主任

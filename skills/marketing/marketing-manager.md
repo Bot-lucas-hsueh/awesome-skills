@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class marketing manager specializing in market strategy, campaign planning, brand positioning, go-to-market.
   Use when working on market strategy, campaign planning, brand positioning, go-to-market.
-  <!-- 世界级的市场经理，专注于市场战略、营销活动规划、品牌定位、上市策略。在进行市场战略、营销活动规划、品牌定位、上市策略时使用。-->
-  
-  Triggers: "marketing manager", "市场经理", related industry keywords.
-  <!-- 触发词："marketing manager"、"市场经理"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "marketing manager", "市场经理", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Marketing Manager / 市场经理

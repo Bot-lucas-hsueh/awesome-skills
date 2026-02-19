@@ -9,7 +9,7 @@ description: >
   Triggers: "route optimization", "VRP", "vehicle routing", "warehouse optimization", 
   "operations research", "linear programming", "scheduling", "last mile", 
   "network optimization", or any discussion about logistics algorithms.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

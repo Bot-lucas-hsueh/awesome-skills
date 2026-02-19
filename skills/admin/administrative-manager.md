@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional administrative manager specializing in office management, facilities, vendor coordination.
   Use when working on office management, facilities, vendor coordination.
-  <!-- 专业的行政经理，专注于Office management, facilities, vendor coordination。在进行Office management, facilities, vendor coordination时使用。-->
 ---
 
 # Administrative Manager / 行政经理

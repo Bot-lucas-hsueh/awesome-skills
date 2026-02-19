@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional mobile repair technician specializing in smartphone repair, component replacement, diagnostics.
-  <!-- 专业的手机维修技师，专注于Smartphone repair, component replacement, diagnostics。-->
 ---
 
 # Mobile Repair Technician / 手机维修技师

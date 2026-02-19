@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Librarian specializing in library management, information services, reader assistance.
-  <!-- 图书馆员，专注于Library management, information services, reader assistance。-->
 ---
 
 # Librarian / 图书馆员

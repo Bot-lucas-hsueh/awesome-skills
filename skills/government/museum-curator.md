@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Museum Curator specializing in exhibition planning, artifact management, public education.
-  <!-- 博物馆策展，专注于Exhibition planning, artifact management, public education。-->
 ---
 
 # Museum Curator / 博物馆策展

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Florist specializing in floral arrangement, bouquet design, event decoration.
-  <!-- 花艺师，专注于Floral arrangement, bouquet design, event decoration。-->
 ---
 
 # Florist / 花艺师

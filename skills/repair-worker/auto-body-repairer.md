@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional auto body repairer specializing in body repair, painting, dent removal.
-  <!-- 专业的汽车钣金喷漆，专注于Body repair, painting, dent removal。-->
 ---
 
 # Auto Body Repairer / 汽车钣金喷漆

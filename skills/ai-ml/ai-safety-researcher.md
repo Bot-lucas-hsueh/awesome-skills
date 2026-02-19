@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class ai safety researcher specializing in advanced technology and industry applications.
   Use when working on ai alignment, red teaming, safety evaluation.
-  <!-- 世界级的AI安全研究员，专注于先进技术和行业应用。在进行AI对齐、红队测试、安全评估时使用。-->
-  
-  Triggers: "ai safety researcher", "AI安全研究员", related technical keywords.
-  <!-- 触发词："ai safety researcher"、"AI安全研究员"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "ai safety researcher", "AI安全研究员", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # AI Safety Researcher / AI安全研究员

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional dog walker specializing in pet walking, pet sitting, animal care.
-  <!-- 专业的遛狗师，专注于Pet walking, pet sitting, animal care。-->
 ---
 
 # Dog Walker / 遛狗师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Outward Bound Trainer specializing in team building, leadership development, outdoor training.
-  <!-- 拓展训练教练，专注于Team building, leadership development, outdoor training。-->
 ---
 
 # Outward Bound Trainer / 拓展训练教练

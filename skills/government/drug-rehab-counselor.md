@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Drug Rehab Counselor specializing in addiction treatment, rehabilitation, psychological support.
-  <!-- 戒毒所管教，专注于Addiction treatment, rehabilitation, psychological support。-->
 ---
 
 # Drug Rehab Counselor / 戒毒所管教

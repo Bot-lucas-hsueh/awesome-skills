@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class housekeeping trainer specializing in training programs, service standards, career development.
   Use when working on training programs, service standards, career development.
-  <!-- 世界级的家政培训师，专注于培训项目、服务标准、职业发展。在进行培训项目、服务标准、职业发展时使用。-->
-  
-  Triggers: "housekeeping trainer", "家政培训师", related industry keywords.
-  <!-- 触发词："housekeeping trainer"、"家政培训师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "housekeeping trainer", "家政培训师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Housekeeping Trainer / 家政培训师

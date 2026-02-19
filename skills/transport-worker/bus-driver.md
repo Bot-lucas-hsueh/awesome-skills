@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional bus driver specializing in public transport, route driving, passenger safety.
   Use when working on public transport, route driving, passenger safety.
-  <!-- 专业的公交司机，专注于Public transport, route driving, passenger safety。在进行Public transport, route driving, passenger safety时使用。-->
 ---
 
 # Bus Driver / 公交司机

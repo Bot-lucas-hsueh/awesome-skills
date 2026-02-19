@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Pawn Broker specializing in collateral appraisal, loan issuance, item valuation.
-  <!-- 典当师，专注于Collateral appraisal, loan issuance, item valuation。-->
 ---
 
 # Pawn Broker / 典当师

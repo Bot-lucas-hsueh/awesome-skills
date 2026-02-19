@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class brain-computer interface engineer specializing in advanced technology and industry applications.
   Use when working on neural signal acquisition and decoding system development.
-  <!-- 世界级的脑机接口工程师，专注于先进技术和行业应用。在进行神经信号采集与解码系统开发时使用。-->
-  
-  Triggers: "brain-computer interface engineer", "脑机接口工程师", related technical keywords.
-  <!-- 触发词："brain-computer interface engineer"、"脑机接口工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "brain-computer interface engineer", "脑机接口工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Brain-Computer Interface Engineer / 脑机接口工程师

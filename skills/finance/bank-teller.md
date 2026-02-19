@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Bank Teller specializing in customer service, transaction processing, cash handling.
-  <!-- 银行柜员，专注于Customer service, transaction processing, cash handling。-->
 ---
 
 # Bank Teller / 银行柜员

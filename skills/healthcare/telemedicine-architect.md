@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class telemedicine architect specializing in advanced technology and industry applications.
   Use when working on internet medical platform, remote diagnosis system.
-  <!-- 世界级的远程医疗系统架构师，专注于先进技术和行业应用。在进行互联网医疗平台、远程诊断系统时使用。-->
-  
-  Triggers: "telemedicine architect", "远程医疗系统架构师", related technical keywords.
-  <!-- 触发词："telemedicine architect"、"远程医疗系统架构师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "telemedicine architect", "远程医疗系统架构师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Telemedicine Architect / 远程医疗系统架构师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Music Instructor specializing in instrument teaching, music theory, performance skills.
-  <!-- 音乐培训老师，专注于Instrument teaching, music theory, performance skills。-->
 ---
 
 # Music Instructor / 音乐培训老师

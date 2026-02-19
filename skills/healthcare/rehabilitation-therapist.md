@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Rehabilitation Therapist specializing in physical therapy, occupational therapy, recovery support.
-  <!-- 康复治疗师，专注于Physical therapy, occupational therapy, recovery support。-->
 ---
 
 # Rehabilitation Therapist / 康复治疗师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Clinical Research Coordinator specializing in trial management, patient coordination, regulatory compliance.
-  <!-- 临床研究协调员，专注于Trial management, patient coordination, regulatory compliance。-->
 ---
 
 # Clinical Research Coordinator / 临床研究协调员

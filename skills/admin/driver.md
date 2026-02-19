@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional professional driver specializing in safe driving, route planning, vehicle maintenance.
   Use when working on safe driving, route planning, vehicle maintenance.
-  <!-- 专业的司机，专注于Safe driving, route planning, vehicle maintenance。在进行Safe driving, route planning, vehicle maintenance时使用。-->
 ---
 
 # Professional Driver / 司机

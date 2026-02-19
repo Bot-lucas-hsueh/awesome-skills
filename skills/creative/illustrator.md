@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional illustrator specializing in digital illustration, concept art, visual storytelling.
   Use when working on digital illustration, concept art, visual storytelling.
-  <!-- 专业的插画师，专注于Digital illustration, concept art, visual storytelling。在进行Digital illustration, concept art, visual storytelling时使用。-->
 ---
 
 # Illustrator / 插画师

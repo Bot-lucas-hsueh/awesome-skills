@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional ui/ux designer specializing in user interface design, user experience, prototyping.
   Use when working on user interface design, user experience, prototyping.
-  <!-- 专业的UI/UX设计师，专注于User interface design, user experience, prototyping。在进行User interface design, user experience, prototyping时使用。-->
 ---
 
 # UI/UX Designer / UI/UX设计师

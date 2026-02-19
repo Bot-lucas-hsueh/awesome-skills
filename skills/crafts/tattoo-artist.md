@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Tattoo Artist specializing in tattoo design, skin artistry, safety protocols.
-  <!-- 纹身师，专注于Tattoo design, skin artistry, safety protocols。-->
 ---
 
 # Tattoo Artist / 纹身师

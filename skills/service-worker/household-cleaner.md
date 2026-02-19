@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional household cleaner specializing in appliance cleaning, maintenance, sanitization.
-  <!-- 专业的家电清洗，专注于Appliance cleaning, maintenance, sanitization。-->
 ---
 
 # Household Cleaner / 家电清洗

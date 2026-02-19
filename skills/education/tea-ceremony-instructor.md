@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Tea Ceremony Instructor specializing in tea culture, brewing techniques, traditional arts.
-  <!-- 茶艺培训师，专注于Tea culture, brewing techniques, traditional arts。-->
 ---
 
 # Tea Ceremony Instructor / 茶艺培训师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Jewelry Designer specializing in jewelry design, metalwork, gemstone setting.
-  <!-- 珠宝设计师，专注于Jewelry design, metalwork, gemstone setting。-->
 ---
 
 # Jewelry Designer / 珠宝设计师

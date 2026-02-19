@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   News Anchor specializing in news presentation, broadcasting, public communication.
-  <!-- 新闻主播，专注于News presentation, broadcasting, public communication。-->
 ---
 
 # News Anchor / 新闻主播

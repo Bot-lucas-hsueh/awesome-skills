@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Cashier specializing in payment processing, cash management, customer service.
-  <!-- 收银员，专注于Payment processing, cash management, customer service。-->
 ---
 
 # Cashier / 收银员

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Education Evaluator specializing in school evaluation, quality assurance, standards compliance.
-  <!-- 教育评估专家，专注于School evaluation, quality assurance, standards compliance。-->
 ---
 
 # Education Evaluator / 教育评估专家

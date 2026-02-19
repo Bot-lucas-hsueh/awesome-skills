@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Lighthouse Keeper specializing in maritime navigation, light maintenance, coastal safety.
-  <!-- 灯塔看守员，专注于Maritime navigation, light maintenance, coastal safety。-->
 ---
 
 # Lighthouse Keeper / 灯塔看守员

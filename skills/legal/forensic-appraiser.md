@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Forensic Appraiser specializing in expert testimony, technical evaluation, evidence analysis.
-  <!-- 司法鉴定人，专注于Expert testimony, technical evaluation, evidence analysis。-->
 ---
 
 # Forensic Appraiser / 司法鉴定人

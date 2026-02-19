@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class food safety manager specializing in haccp, food safety systems, risk assessment.
   Use when working on haccp, food safety systems, risk assessment.
-  <!-- 世界级的食品安全管理师，专注于HACCP、食品安全体系、风险评估。在进行HACCP、食品安全体系、风险评估时使用。-->
-  
-  Triggers: "food safety manager", "食品安全管理师", related industry keywords.
-  <!-- 触发词："food safety manager"、"食品安全管理师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "food safety manager", "食品安全管理师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Food Safety Manager / 食品安全管理师

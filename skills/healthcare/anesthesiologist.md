@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Anesthesiologist specializing in anesthesia administration, pain management, surgical support.
-  <!-- 麻醉医师，专注于Anesthesia administration, pain management, surgical support。-->
 ---
 
 # Anesthesiologist / 麻醉医师

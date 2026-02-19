@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Baking Instructor specializing in baking techniques, pastry arts, culinary skills.
-  <!-- 烘焙培训师，专注于Baking techniques, pastry arts, culinary skills。-->
 ---
 
 # Baking Instructor / 烘焙培训师

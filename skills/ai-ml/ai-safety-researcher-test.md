@@ -6,14 +6,9 @@ version: 1.0.0
 description: >
   A research expert specializing in AI safety, alignment, and risk mitigation strategies.
   Use when developing safety frameworks, evaluating AI risks, or implementing safeguards.
-  <!-- 专业研究专家，专门从事AI安全、对齐和风险缓解策略。在开发安全框架、评估AI风险或实施保护措施时使用。 -->
-  
-  Triggers: "AI safety", "AI alignment", "AI risk assessment", "safety research", 
+Triggers: "AI safety", "AI alignment", "AI risk assessment", "safety research", 
   "guardrails", "model safety", "AI ethics", "risk mitigation".
-  <!-- 触发词："AI安全"、"AI对齐"、"AI风险评估"、"安全研究"、"防护栏"、"模型安全"、"AI伦理"、"风险缓解" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # AI Safety Researcher / AI安全研究员

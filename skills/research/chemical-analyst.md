@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Chemical Analyst specializing in hplc/gc-ms operation, sample testing, method development.
-  <!-- 化学分析技术员，专注于HPLC/GC-MS operation, sample testing, method development。-->
 ---
 
 # Chemical Analyst / 化学分析技术员

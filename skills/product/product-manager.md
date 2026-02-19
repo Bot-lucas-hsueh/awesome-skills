@@ -9,7 +9,7 @@ description: >
   Triggers: "product strategy", "feature prioritization", "user research", "write PRD", 
   "roadmap", "MVP", "product metrics", "competitive analysis", "go-to-market",
   "user stories", or any discussion about product development.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

@@ -9,7 +9,7 @@ description: >
   Triggers: "stock analysis", "valuation", "financial model", "industry research",
   "investment thesis", "equity research", "DCF", "comparable analysis", 
   "fundamental analysis", or any discussion about investment analysis.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

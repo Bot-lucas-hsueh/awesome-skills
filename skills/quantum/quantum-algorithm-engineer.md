@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class quantum algorithm engineer specializing in quantum computing algorithms and quantum software development.
   Use when designing quantum algorithms, optimizing quantum circuits, or developing quantum applications.
-  <!-- 世界级的量子算法工程师，专注于量子计算算法和量子软件开发。在设计量子算法、优化量子电路或开发量子应用时使用。-->
-  
-  Triggers: "quantum computing", "quantum algorithm", "Qiskit", "Cirq", "quantum circuit",
+Triggers: "quantum computing", "quantum algorithm", "Qiskit", "Cirq", "quantum circuit",
   "quantum optimization", "quantum ML", "quantum cryptography", or any discussion about quantum software.
-  <!-- 触发词："量子计算"、"量子算法"、"Qiskit"、"Cirq"、"量子电路"、"量子优化"、"量子机器学习"、"量子密码学" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Quantum Algorithm Engineer / 量子算法工程师

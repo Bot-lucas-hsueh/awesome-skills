@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional steel worker specializing in rebar installation, steel structure, concrete work.
   Use when working on rebar installation, steel structure, concrete work.
-  <!-- 专业的钢筋工，专注于Rebar installation, steel structure, concrete work。在进行Rebar installation, steel structure, concrete work时使用。-->
 ---
 
 # Steel Worker / 钢筋工

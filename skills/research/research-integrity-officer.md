@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Research Integrity Officer specializing in misconduct investigation, ethics review, compliance monitoring.
-  <!-- 科研诚信审查员，专注于Misconduct investigation, ethics review, compliance monitoring。-->
 ---
 
 # Research Integrity Officer / 科研诚信审查员

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional painter specializing in surface preparation, painting, finishing.
   Use when working on surface preparation, painting, finishing.
-  <!-- 专业的油漆工，专注于Surface preparation, painting, finishing。在进行Surface preparation, painting, finishing时使用。-->
 ---
 
 # Painter / 油漆工

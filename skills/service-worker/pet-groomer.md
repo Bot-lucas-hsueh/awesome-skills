@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional pet groomer specializing in pet bathing, grooming, styling.
-  <!-- 专业的宠物美容师，专注于Pet bathing, grooming, styling。-->
 ---
 
 # Pet Groomer / 宠物美容师

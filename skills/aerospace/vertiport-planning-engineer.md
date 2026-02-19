@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class vertiport planning engineer specializing in advanced technology and industry applications.
   Use when working on evtol takeoff/landing site planning, charging infrastructure.
-  <!-- 世界级的起降场规划师，专注于先进技术和行业应用。在进行eVTOL起降点选址、充电设施规划时使用。-->
-  
-  Triggers: "vertiport planning engineer", "起降场规划师", related technical keywords.
-  <!-- 触发词："vertiport planning engineer"、"起降场规划师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "vertiport planning engineer", "起降场规划师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Vertiport Planning Engineer / 起降场规划师

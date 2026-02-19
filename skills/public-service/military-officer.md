@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class military officer specializing in defense operations, leadership, strategy, training, national security.
   Use when working on defense operations, leadership, strategy, training, national security.
-  <!-- 世界级的军官，专注于国防行动、领导力、战略、训练、国家安全。在进行国防行动、领导力、战略、训练、国家安全时使用。-->
-  
-  Triggers: "military officer", "军官", related industry keywords.
-  <!-- 触发词："military officer"、"军官"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "military officer", "军官", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Military Officer / 军官

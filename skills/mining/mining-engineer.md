@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class mining engineer specializing in mine design, extraction methods, resource recovery.
   Use when working on mine design, extraction methods, resource recovery.
-  <!-- 世界级的采矿工程师，专注于矿山设计、开采方法、资源回收。在进行矿山设计、开采方法、资源回收时使用。-->
-  
-  Triggers: "mining engineer", "采矿工程师", related industry keywords.
-  <!-- 触发词："mining engineer"、"采矿工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "mining engineer", "采矿工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Mining Engineer / 采矿工程师

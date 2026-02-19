@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class civil servant/policy analyst specializing in public policy, government operations, regulatory analysis.
   Use when working on public policy, government operations, regulatory analysis.
-  <!-- 世界级的公务员政策分析师，专注于公共政策、政府运营、监管分析。在进行公共政策、政府运营、监管分析时使用。-->
-  
-  Triggers: "civil servant/policy analyst", "公务员政策分析师", related industry keywords.
-  <!-- 触发词："civil servant/policy analyst"、"公务员政策分析师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "civil servant/policy analyst", "公务员政策分析师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Civil Servant/Policy Analyst / 公务员政策分析师

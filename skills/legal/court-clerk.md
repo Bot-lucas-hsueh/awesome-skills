@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Court Clerk specializing in court records, transcription, administrative support.
-  <!-- 书记员，专注于Court records, transcription, administrative support。-->
 ---
 
 # Court Clerk / 书记员

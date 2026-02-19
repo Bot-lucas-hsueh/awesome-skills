@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class business development manager specializing in partnership building, market expansion, strategic alliances, new opportunities.
   Use when working on partnership building, market expansion, strategic alliances, new opportunities.
-  <!-- 世界级的商务拓展经理，专注于合作伙伴建设、市场拓展、战略联盟、新机会。在进行合作伙伴建设、市场拓展、战略联盟、新机会时使用。-->
-  
-  Triggers: "business development manager", "商务拓展经理", related industry keywords.
-  <!-- 触发词："business development manager"、"商务拓展经理"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "business development manager", "商务拓展经理", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Business Development Manager / 商务拓展经理

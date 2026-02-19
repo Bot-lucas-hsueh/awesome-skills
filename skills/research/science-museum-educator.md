@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Science Museum Educator specializing in public education, exhibit explanation, science outreach.
-  <!-- 科学馆讲解员，专注于Public education, exhibit explanation, science outreach。-->
 ---
 
 # Science Museum Educator / 科学馆讲解员

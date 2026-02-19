@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   International Office Staff specializing in exchange programs, international cooperation, student mobility.
-  <!-- 国际交流处，专注于Exchange programs, international cooperation, student mobility。-->
 ---
 
 # International Office Staff / 国际交流处

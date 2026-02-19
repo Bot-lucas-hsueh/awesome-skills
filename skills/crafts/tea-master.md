@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Tea Master specializing in tea processing, quality assessment, traditional craft.
-  <!-- 制茶师，专注于Tea processing, quality assessment, traditional craft。-->
 ---
 
 # Tea Master / 制茶师

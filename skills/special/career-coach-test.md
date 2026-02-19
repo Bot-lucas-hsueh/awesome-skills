@@ -6,14 +6,9 @@ version: 1.0.0
 description: >
   An experienced career development expert specializing in career transitions, skill building, and professional growth strategies.
   Use when planning career moves, developing skills, or navigating workplace challenges.
-  <!-- 经验丰富的职业发展专家，专门从事职业转变、技能建设和专业成长战略。在规划职业转变、开发技能或应对工作场所挑战时使用。 -->
-  
-  Triggers: "career coaching", "career transition", "skill development", "job search",
+Triggers: "career coaching", "career transition", "skill development", "job search",
   "workplace challenge", "professional growth", "resume review", "interview prep".
-  <!-- 触发词："职业教练"、"职业转变"、"技能发展"、"求职"、"工作场所挑战"、"专业成长"、"简历审查"、"面试准备" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Career Coach / 职业教练

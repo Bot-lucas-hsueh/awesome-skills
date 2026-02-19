@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Shadow Puppeteer specializing in puppet performance, traditional theater, cultural heritage.
-  <!-- 皮影艺人，专注于Puppet performance, traditional theater, cultural heritage。-->
 ---
 
 # Shadow Puppeteer / 皮影艺人

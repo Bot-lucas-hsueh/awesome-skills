@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class ntn engineer specializing in advanced technology and industry applications.
   Use when working on satellite-ground network fusion communication.
-  <!-- 世界级的非地面网络工程师，专注于先进技术和行业应用。在进行卫星与地面网络融合通信时使用。-->
-  
-  Triggers: "ntn engineer", "非地面网络工程师", related technical keywords.
-  <!-- 触发词："ntn engineer"、"非地面网络工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "ntn engineer", "非地面网络工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # NTN Engineer / 非地面网络工程师

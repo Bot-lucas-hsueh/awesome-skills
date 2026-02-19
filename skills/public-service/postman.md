@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional postman specializing in mail delivery, package distribution, route service.
-  <!-- 专业的邮递员，专注于Mail delivery, package distribution, route service。-->
 ---
 
 # Postman / 邮递员

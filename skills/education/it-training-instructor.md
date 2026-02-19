@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   IT Training Instructor specializing in technology training, coding courses, software education.
-  <!-- IT培训讲师，专注于Technology training, coding courses, software education。-->
 ---
 
 # IT Training Instructor / IT培训讲师

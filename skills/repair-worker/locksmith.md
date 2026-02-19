@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional locksmith specializing in lock installation, key cutting, emergency unlocking.
-  <!-- 专业的锁匠，专注于Lock installation, key cutting, emergency unlocking。-->
 ---
 
 # Locksmith / 锁匠

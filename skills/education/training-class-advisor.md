@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Training Class Advisor specializing in student management, progress tracking, parent communication.
-  <!-- 班主任(培训)，专注于Student management, progress tracking, parent communication。-->
 ---
 
 # Training Class Advisor / 班主任(培训)

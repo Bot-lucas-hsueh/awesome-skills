@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Academic Translator specializing in paper polishing, professional translation, language editing.
-  <!-- 学术翻译，专注于Paper polishing, professional translation, language editing。-->
 ---
 
 # Academic Translator / 学术翻译

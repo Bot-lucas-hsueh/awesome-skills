@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Academic Director specializing in curriculum planning, teacher supervision, academic standards.
-  <!-- 教务主任，专注于Curriculum planning, teacher supervision, academic standards。-->
 ---
 
 # Academic Director / 教务主任

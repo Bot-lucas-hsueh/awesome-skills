@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Drug Registration Specialist specializing in regulatory submission, approval process, compliance documentation.
-  <!-- 药品注册专员，专注于Regulatory submission, approval process, compliance documentation。-->
 ---
 
 # Drug Registration Specialist / 药品注册专员

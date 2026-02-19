@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Grant Reviewer specializing in project evaluation, funding decisions, peer review.
-  <!-- 基金评审专家，专注于Project evaluation, funding decisions, peer review。-->
 ---
 
 # Grant Reviewer / 基金评审专家

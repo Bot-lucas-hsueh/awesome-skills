@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Tailor specializing in garment making, alterations, bespoke tailoring.
-  <!-- 裁缝，专注于Garment making, alterations, bespoke tailoring。-->
 ---
 
 # Tailor / 裁缝

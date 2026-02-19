@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional flight attendant specializing in passenger service, safety procedures, in-flight care.
   Use when working on passenger service, safety procedures, in-flight care.
-  <!-- 专业的空乘，专注于Passenger service, safety procedures, in-flight care。在进行Passenger service, safety procedures, in-flight care时使用。-->
 ---
 
 # Flight Attendant / 空乘

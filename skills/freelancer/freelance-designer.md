@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional freelance designer specializing in graphic design, branding, freelance projects.
-  <!-- 专业的自由设计师，专注于Graphic design, branding, freelance projects。-->
 ---
 
 # Freelance Designer / 自由设计师

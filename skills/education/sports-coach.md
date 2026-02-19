@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Sports Coach specializing in athletic training, skill development, fitness coaching.
-  <!-- 体育教练，专注于Athletic training, skill development, fitness coaching。-->
 ---
 
 # Sports Coach / 体育教练

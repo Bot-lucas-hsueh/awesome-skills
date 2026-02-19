@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Attending Physician specializing in clinical practice, patient management, medical supervision.
-  <!-- 主治医师，专注于Clinical practice, patient management, medical supervision。-->
 ---
 
 # Attending Physician / 主治医师

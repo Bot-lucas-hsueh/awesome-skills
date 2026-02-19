@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional diplomat specializing in international relations, negotiation, foreign policy.
-  <!-- 专业的外交官，专注于International relations, negotiation, foreign policy。-->
 ---
 
 # Diplomat / 外交官

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Insurance Agent specializing in policy sales, client consultation, coverage planning.
-  <!-- 保险代理人，专注于Policy sales, client consultation, coverage planning。-->
 ---
 
 # Insurance Agent / 保险代理人

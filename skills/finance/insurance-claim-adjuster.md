@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Insurance Claim Adjuster specializing in claim evaluation, damage assessment, settlement negotiation.
-  <!-- 保险理赔员，专注于Claim evaluation, damage assessment, settlement negotiation。-->
 ---
 
 # Insurance Claim Adjuster / 保险理赔员

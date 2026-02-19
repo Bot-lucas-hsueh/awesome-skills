@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Disease Investigator specializing in case investigation, contact tracing, outbreak response.
-  <!-- 疾控中心流调员，专注于Case investigation, contact tracing, outbreak response。-->
 ---
 
 # Disease Investigator / 疾控中心流调员

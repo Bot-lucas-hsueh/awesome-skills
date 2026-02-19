@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Academic Planner specializing in education planning, career counseling, college admission guidance.
-  <!-- 学业规划师，专注于Education planning, career counseling, college admission guidance。-->
 ---
 
 # Academic Planner / 学业规划师

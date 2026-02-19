@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Medical Equipment Engineer specializing in equipment maintenance, technical support, safety compliance.
-  <!-- 医疗设备工程师，专注于Equipment maintenance, technical support, safety compliance。-->
 ---
 
 # Medical Equipment Engineer / 医疗设备工程师

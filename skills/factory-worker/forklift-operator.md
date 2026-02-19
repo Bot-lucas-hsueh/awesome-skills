@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional forklift operator specializing in material handling, warehouse operations, safety.
   Use when working on material handling, warehouse operations, safety.
-  <!-- 专业的叉车司机，专注于Material handling, warehouse operations, safety。在进行Material handling, warehouse operations, safety时使用。-->
 ---
 
 # Forklift Operator / 叉车司机

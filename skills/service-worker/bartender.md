@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional bartender specializing in drink mixing, bar service, customer interaction.
-  <!-- 专业的调酒师，专注于Drink mixing, bar service, customer interaction。-->
 ---
 
 # Bartender / 调酒师

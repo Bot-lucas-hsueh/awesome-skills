@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional professional taster specializing in wine tasting, tea evaluation, sensory analysis.
-  <!-- 专业的品鉴师，专注于Wine tasting, tea evaluation, sensory analysis。-->
 ---
 
 # Professional Taster / 品鉴师

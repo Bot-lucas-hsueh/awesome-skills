@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional erp administrator specializing in erp configuration, user support, system maintenance.
   Use when working on erp configuration, user support, system maintenance.
-  <!-- 专业的ERP系统管理员，专注于ERP configuration, user support, system maintenance。在进行ERP configuration, user support, system maintenance时使用。-->
 ---
 
 # ERP Administrator / ERP系统管理员

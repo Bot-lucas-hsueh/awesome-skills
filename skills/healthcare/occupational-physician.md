@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Occupational Physician specializing in work-related diseases, occupational health, medical evaluation.
-  <!-- 职业病诊断医师，专注于Work-related diseases, occupational health, medical evaluation。-->
 ---
 
 # Occupational Physician / 职业病诊断医师

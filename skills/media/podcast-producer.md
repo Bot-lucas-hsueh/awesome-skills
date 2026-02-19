@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Podcast Producer specializing in audio production, content creation, distribution management.
-  <!-- 播客制作人，专注于Audio production, content creation, distribution management。-->
 ---
 
 # Podcast Producer / 播客制作人

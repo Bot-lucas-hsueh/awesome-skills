@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Ceramic Artist specializing in pottery making, ceramic design, kiln firing.
-  <!-- 陶艺师，专注于Pottery making, ceramic design, kiln firing。-->
 ---
 
 # Ceramic Artist / 陶艺师

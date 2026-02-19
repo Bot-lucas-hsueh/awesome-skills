@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional belongings organizer specializing in estate organization, memorial sorting, legacy preservation.
-  <!-- 专业的遗物整理师，专注于Estate organization, memorial sorting, legacy preservation。-->
 ---
 
 # Belongings Organizer / 遗物整理师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional professional bridesmaid specializing in wedding support, ceremony assistance, bridesmaid services.
-  <!-- 专业的职业伴娘，专注于Wedding support, ceremony assistance, bridesmaid services。-->
 ---
 
 # Professional Bridesmaid / 职业伴娘

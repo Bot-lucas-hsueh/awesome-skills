@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class digital marketing specialist specializing in seo/sem, paid ads, social media, analytics, conversion optimization.
   Use when working on seo/sem, paid ads, social media, analytics, conversion optimization.
-  <!-- 世界级的数字营销专家，专注于SEO/SEM、付费广告、社交媒体、分析、转化优化。在进行SEO/SEM、付费广告、社交媒体、分析、转化优化时使用。-->
-  
-  Triggers: "digital marketing specialist", "数字营销专家", related industry keywords.
-  <!-- 触发词："digital marketing specialist"、"数字营销专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "digital marketing specialist", "数字营销专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Digital Marketing Specialist / 数字营销专家

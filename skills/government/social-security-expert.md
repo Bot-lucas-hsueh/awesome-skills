@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class social security expert specializing in social insurance, benefits administration, policy implementation.
   Use when working on social insurance, benefits administration, policy implementation.
-  <!-- 世界级的社保经办专家，专注于社会保险、福利管理、政策执行。在进行社会保险、福利管理、政策执行时使用。-->
-  
-  Triggers: "social security expert", "社保经办专家", related industry keywords.
-  <!-- 触发词："social security expert"、"社保经办专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "social security expert", "社保经办专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Social Security Expert / 社保经办专家

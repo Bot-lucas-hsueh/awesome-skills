@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class space mission planner specializing in advanced technology and industry applications.
   Use when working on on-orbit service mission design, orbital maneuver planning.
-  <!-- 世界级的太空任务规划师，专注于先进技术和行业应用。在进行在轨服务任务设计、轨道机动规划时使用。-->
-  
-  Triggers: "space mission planner", "太空任务规划师", related technical keywords.
-  <!-- 触发词："space mission planner"、"太空任务规划师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "space mission planner", "太空任务规划师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Space Mission Planner / 太空任务规划师

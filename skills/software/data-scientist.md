@@ -9,7 +9,7 @@ description: >
   Triggers: "analyze data", "build model", "machine learning", "predictive analytics",
   "data visualization", "statistical analysis", "feature engineering", "A/B test",
   "data pipeline", or any discussion about data-driven insights.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

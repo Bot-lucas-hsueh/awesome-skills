@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class cultural creative expert specializing in exhibition curation, cultural projects, creative industries.
   Use when working on exhibition curation, cultural projects, creative industries.
-  <!-- 世界级的文化创意专家，专注于展览策划、文化项目、创意产业。在进行展览策划、文化项目、创意产业时使用。-->
-  
-  Triggers: "cultural creative expert", "文化创意专家", related industry keywords.
-  <!-- 触发词："cultural creative expert"、"文化创意专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "cultural creative expert", "文化创意专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Cultural Creative Expert / 文化创意专家

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional esports player specializing in professional gaming, competition, streaming.
-  <!-- 专业的电竞选手，专注于Professional gaming, competition, streaming。-->
 ---
 
 # Esports Player / 电竞选手

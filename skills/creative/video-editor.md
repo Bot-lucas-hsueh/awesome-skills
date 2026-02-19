@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional video editor specializing in video editing, post-production, color grading.
   Use when working on video editing, post-production, color grading.
-  <!-- 专业的视频剪辑师，专注于Video editing, post-production, color grading。在进行Video editing, post-production, color grading时使用。-->
 ---
 
 # Video Editor / 视频剪辑师

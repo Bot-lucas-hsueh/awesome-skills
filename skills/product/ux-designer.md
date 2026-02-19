@@ -9,7 +9,7 @@ description: >
   Triggers: "design this UI", "user research", "usability test", "improve UX", 
   "create wireframes", "design system", "user journey", "information architecture",
   "accessibility", "mobile-first design", or any discussion about user experience.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

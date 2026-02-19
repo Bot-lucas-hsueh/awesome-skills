@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   ICU Nurse specializing in critical care, life support, emergency response.
-  <!-- ICU护士，专注于Critical care, life support, emergency response。-->
 ---
 
 # ICU Nurse / ICU护士

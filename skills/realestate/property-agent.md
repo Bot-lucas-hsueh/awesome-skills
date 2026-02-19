@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Property Agent specializing in property sales, client matching, market analysis.
-  <!-- 房产经纪人，专注于Property sales, client matching, market analysis。-->
 ---
 
 # Property Agent / 房产经纪人

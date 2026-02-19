@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class simulation platform engineer specializing in advanced technology and industry applications.
   Use when working on autonomous driving simulation, scenario generation.
-  <!-- 世界级的仿真平台工程师，专注于先进技术和行业应用。在进行自动驾驶仿真、场景生成时使用。-->
-  
-  Triggers: "simulation platform engineer", "仿真平台工程师", related technical keywords.
-  <!-- 触发词："simulation platform engineer"、"仿真平台工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "simulation platform engineer", "仿真平台工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Simulation Platform Engineer / 仿真平台工程师

@@ -9,7 +9,7 @@ description: >
   Triggers: "supply chain", "procurement", "logistics", "inventory management", "S&OP",
   "supplier management", "demand planning", "ERP", "lean logistics", "resilience",
   or any discussion about supply chain management.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

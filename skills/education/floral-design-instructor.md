@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Floral Design Instructor specializing in flower arrangement, design principles, artistic expression.
-  <!-- 花艺培训师，专注于Flower arrangement, design principles, artistic expression。-->
 ---
 
 # Floral Design Instructor / 花艺培训师

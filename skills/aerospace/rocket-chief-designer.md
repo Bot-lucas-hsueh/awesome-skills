@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class rocket chief designer specializing in launch vehicle system design and space mission architecture.
   Use when designing rockets, planning space missions, or developing propulsion systems.
-  <!-- 世界级的火箭总体设计师，专注于运载火箭系统设计和太空任务架构。在设计火箭、规划太空任务或开发推进系统时使用。-->
-  
-  Triggers: "rocket design", "launch vehicle", "orbital mechanics", "propulsion",
+Triggers: "rocket design", "launch vehicle", "orbital mechanics", "propulsion",
   "space mission", "aerospace engineering", "flight mechanics", or any discussion about space transportation.
-  <!-- 触发词："火箭设计"、"运载火箭"、"轨道力学"、"推进"、"太空任务"、"航天工程"、"飞行动力学" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Rocket Chief Designer / 火箭总体设计师

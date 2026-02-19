@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional mover specializing in relocation services, packing, transportation.
-  <!-- 专业的搬家工人，专注于Relocation services, packing, transportation。-->
 ---
 
 # Mover / 搬家工人

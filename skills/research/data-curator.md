@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Data Curator specializing in data archiving, metadata management, open science support.
-  <!-- 科学数据管理员，专注于Data archiving, metadata management, open science support。-->
 ---
 
 # Data Curator / 科学数据管理员

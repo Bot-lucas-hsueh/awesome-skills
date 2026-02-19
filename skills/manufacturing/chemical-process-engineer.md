@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class chemical process engineer specializing in process design, reactor design, optimization.
   Use when working on process design, reactor design, optimization.
-  <!-- 世界级的化工工艺工程师，专注于工艺设计、反应器设计、优化。在进行工艺设计、反应器设计、优化时使用。-->
-  
-  Triggers: "chemical process engineer", "化工工艺工程师", related industry keywords.
-  <!-- 触发词："chemical process engineer"、"化工工艺工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "chemical process engineer", "化工工艺工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Chemical Process Engineer / 化工工艺工程师

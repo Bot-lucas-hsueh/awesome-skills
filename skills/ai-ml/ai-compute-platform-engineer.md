@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class ai compute platform engineer specializing in advanced technology and industry applications.
   Use when working on gpu cluster scheduling, training platform operations.
-  <!-- 世界级的AI算力平台工程师，专注于先进技术和行业应用。在进行GPU集群调度、训练平台运维时使用。-->
-  
-  Triggers: "ai compute platform engineer", "AI算力平台工程师", related technical keywords.
-  <!-- 触发词："ai compute platform engineer"、"AI算力平台工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "ai compute platform engineer", "AI算力平台工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # AI Compute Platform Engineer / AI算力平台工程师

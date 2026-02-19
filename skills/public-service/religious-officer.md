@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional religious officer specializing in religious services, spiritual guidance, community ministry.
-  <!-- 专业的宗教人员，专注于Religious services, spiritual guidance, community ministry。-->
 ---
 
 # Religious Officer / 宗教人员

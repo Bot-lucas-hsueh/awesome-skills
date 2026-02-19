@@ -9,7 +9,7 @@ description: >
   Triggers: "battery", "lithium-ion", "electrochemistry", "energy storage", "cell design",
   "battery testing", "BMS", "solid-state battery", "cathode", "anode", "electrolyte",
   or any discussion about battery technology.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

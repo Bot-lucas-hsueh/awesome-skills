@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class petroleum geologist specializing in reservoir characterization, exploration, resource assessment.
   Use when working on reservoir characterization, exploration, resource assessment.
-  <!-- 世界级的石油地质师，专注于油藏表征、勘探、资源评估。在进行油藏表征、勘探、资源评估时使用。-->
-  
-  Triggers: "petroleum geologist", "石油地质师", related industry keywords.
-  <!-- 触发词："petroleum geologist"、"石油地质师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "petroleum geologist", "石油地质师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Petroleum Geologist / 石油地质师

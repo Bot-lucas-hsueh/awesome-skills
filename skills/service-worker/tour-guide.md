@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional tour guide specializing in sightseeing tours, cultural explanation, itinerary planning.
-  <!-- 专业的导游，专注于Sightseeing tours, cultural explanation, itinerary planning。-->
 ---
 
 # Tour Guide / 导游

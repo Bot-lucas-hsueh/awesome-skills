@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Data Labeler specializing in ai training data, annotation, quality control.
-  <!-- 数据标注员，专注于AI training data, annotation, quality control。-->
 ---
 
 # Data Labeler / 数据标注员

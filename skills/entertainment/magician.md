@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional magician specializing in magic performance, illusion, entertainment.
-  <!-- 专业的魔术师，专注于Magic performance, illusion, entertainment。-->
 ---
 
 # Magician / 魔术师

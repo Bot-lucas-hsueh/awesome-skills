@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional funeral director specializing in funeral arrangements, bereavement support, cremation services.
-  <!-- 专业的殡葬服务，专注于Funeral arrangements, bereavement support, cremation services。-->
 ---
 
 # Funeral Director / 殡葬服务

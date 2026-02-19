@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Sensory Integration Therapist specializing in sensory processing, motor coordination, developmental therapy.
-  <!-- 感统训练师，专注于Sensory processing, motor coordination, developmental therapy。-->
 ---
 
 # Sensory Integration Therapist / 感统训练师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Student Manager specializing in student progress, academic support, service coordination.
-  <!-- 学管师，专注于Student progress, academic support, service coordination。-->
 ---
 
 # Student Manager / 学管师

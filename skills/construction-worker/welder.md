@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional welder specializing in welding, metal fabrication, structural joining.
   Use when working on welding, metal fabrication, structural joining.
-  <!-- 专业的电焊工，专注于Welding, metal fabrication, structural joining。在进行Welding, metal fabrication, structural joining时使用。-->
 ---
 
 # Welder / 电焊工

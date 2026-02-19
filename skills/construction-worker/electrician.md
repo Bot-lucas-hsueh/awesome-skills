@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional electrician specializing in electrical installation, wiring, safety compliance.
   Use when working on electrical installation, wiring, safety compliance.
-  <!-- 专业的电工，专注于Electrical installation, wiring, safety compliance。在进行Electrical installation, wiring, safety compliance时使用。-->
 ---
 
 # Electrician / 电工

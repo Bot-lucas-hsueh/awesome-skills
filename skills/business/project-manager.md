@@ -9,7 +9,7 @@ description: >
   Triggers: "project plan", "timeline", "scrum", "kanban", "agile", "sprint planning",
   "risk management", "stakeholder management", "team coordination", "delivery",
   or any discussion about project execution.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

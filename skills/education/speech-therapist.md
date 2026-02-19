@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Speech Therapist specializing in language disorders, speech rehabilitation, communication therapy.
-  <!-- 言语治疗师，专注于Language disorders, speech rehabilitation, communication therapy。-->
 ---
 
 # Speech Therapist / 言语治疗师

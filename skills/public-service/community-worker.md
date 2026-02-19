@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional community worker specializing in community services, resident support, social programs.
-  <!-- 专业的社区工作者，专注于Community services, resident support, social programs。-->
 ---
 
 # Community Worker / 社区工作者

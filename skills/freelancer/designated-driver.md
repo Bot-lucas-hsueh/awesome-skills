@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional designated driver specializing in safe driving, client transport, night services.
-  <!-- 专业的代驾，专注于Safe driving, client transport, night services。-->
 ---
 
 # Designated Driver / 代驾

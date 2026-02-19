@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Credit Rating Analyst specializing in credit analysis, risk rating, financial assessment.
-  <!-- 信用评级分析师，专注于Credit analysis, risk rating, financial assessment。-->
 ---
 
 # Credit Rating Analyst / 信用评级分析师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Laboratory Technician specializing in experiment operation, sample preparation, data recording.
-  <!-- 实验技术员，专注于Experiment operation, sample preparation, data recording。-->
 ---
 
 # Laboratory Technician / 实验技术员

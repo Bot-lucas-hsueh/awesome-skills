@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class uav flight control engineer specializing in advanced technology and industry applications.
   Use when working on flight control system design, navigation algorithms.
-  <!-- 世界级的无人机飞控工程师，专注于先进技术和行业应用。在进行飞行控制系统设计、导航算法时使用。-->
-  
-  Triggers: "uav flight control engineer", "无人机飞控工程师", related technical keywords.
-  <!-- 触发词："uav flight control engineer"、"无人机飞控工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "uav flight control engineer", "无人机飞控工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # UAV Flight Control Engineer / 无人机飞控工程师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class low altitude traffic engineer specializing in advanced technology and industry applications.
   Use when working on utm system design, airspace digital management.
-  <!-- 世界级的低空交通管理系统工程师，专注于先进技术和行业应用。在进行UTM系统设计、空域数字化管理时使用。-->
-  
-  Triggers: "low altitude traffic engineer", "低空交通管理系统工程师", related technical keywords.
-  <!-- 触发词："low altitude traffic engineer"、"低空交通管理系统工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "low altitude traffic engineer", "低空交通管理系统工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Low Altitude Traffic Engineer / 低空交通管理系统工程师

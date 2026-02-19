@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Admissions Officer specializing in student recruitment, application review, enrollment management.
-  <!-- 招生办工作人员，专注于Student recruitment, application review, enrollment management。-->
 ---
 
 # Admissions Officer / 招生办工作人员

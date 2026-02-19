@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Academic Counselor specializing in student affairs, career guidance, mental health support.
-  <!-- 辅导员，专注于Student affairs, career guidance, mental health support。-->
 ---
 
 # Academic Counselor / 辅导员

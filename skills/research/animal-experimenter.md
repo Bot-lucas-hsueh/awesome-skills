@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Animal Experiment Technician specializing in animal handling, surgical operations, ethics compliance.
-  <!-- 动物实验技术员，专注于Animal handling, surgical operations, ethics compliance。-->
 ---
 
 # Animal Experiment Technician / 动物实验技术员

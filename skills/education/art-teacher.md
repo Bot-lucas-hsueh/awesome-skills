@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional art teacher specializing in drawing, painting, calligraphy instruction.
-  <!-- 专业的艺术老师，专注于Drawing, painting, calligraphy instruction。-->
 ---
 
 # Art Teacher / 艺术老师

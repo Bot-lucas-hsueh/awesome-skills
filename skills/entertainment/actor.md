@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional actor specializing in performance, character portrayal, stage/film acting.
-  <!-- 专业的演员，专注于Performance, character portrayal, stage/film acting。-->
 ---
 
 # Actor / 演员

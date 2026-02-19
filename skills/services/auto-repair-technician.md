@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class auto repair technician specializing in vehicle diagnostics, repair, maintenance.
   Use when working on vehicle diagnostics, repair, maintenance.
-  <!-- 世界级的汽车维修技师，专注于车辆诊断、维修、保养。在进行车辆诊断、维修、保养时使用。-->
-  
-  Triggers: "auto repair technician", "汽车维修技师", related industry keywords.
-  <!-- 触发词："auto repair technician"、"汽车维修技师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "auto repair technician", "汽车维修技师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Auto Repair Technician / 汽车维修技师

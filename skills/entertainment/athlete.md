@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional athlete specializing in sports competition, physical training, performance.
-  <!-- 专业的运动员，专注于Sports competition, physical training, performance。-->
 ---
 
 # Athlete / 运动员

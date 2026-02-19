@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional crane operator specializing in crane operation, load lifting, safety protocols.
   Use when working on crane operation, load lifting, safety protocols.
-  <!-- 专业的塔吊操作员，专注于Crane operation, load lifting, safety protocols。在进行Crane operation, load lifting, safety protocols时使用。-->
 ---
 
 # Crane Operator / 塔吊操作员

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional seaman specializing in maritime operations, navigation, vessel maintenance.
   Use when working on maritime operations, navigation, vessel maintenance.
-  <!-- 专业的船员，专注于Maritime operations, navigation, vessel maintenance。在进行Maritime operations, navigation, vessel maintenance时使用。-->
 ---
 
 # Seaman / 船员

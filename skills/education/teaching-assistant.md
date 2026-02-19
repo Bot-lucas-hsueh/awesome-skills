@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Teaching Assistant specializing in class support, student guidance, material preparation.
-  <!-- 助教，专注于Class support, student guidance, material preparation。-->
 ---
 
 # Teaching Assistant / 助教

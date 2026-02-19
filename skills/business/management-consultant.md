@@ -9,7 +9,7 @@ description: >
   Triggers: "strategy", "business problem", "operational excellence", "market entry",
   "M&A", "due diligence", "cost reduction", "growth strategy", "digital transformation",
   "organizational design", or any discussion about business consulting.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

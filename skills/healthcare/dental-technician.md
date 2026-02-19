@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional dental technician specializing in denture fabrication, crown/bridge work, prosthetics.
-  <!-- 专业的牙科技师，专注于Denture fabrication, crown/bridge work, prosthetics。-->
 ---
 
 # Dental Technician / 牙科技师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class evtol chief designer specializing in advanced technology and industry applications.
   Use when working on evtol aerodynamic layout, structure, power system design.
-  <!-- 世界级的eVTOL总体设计师，专注于先进技术和行业应用。在进行eVTOL气动布局、结构、动力系统设计时使用。-->
-  
-  Triggers: "evtol chief designer", "eVTOL总体设计师", related technical keywords.
-  <!-- 触发词："evtol chief designer"、"eVTOL总体设计师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "evtol chief designer", "eVTOL总体设计师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # eVTOL Chief Designer / eVTOL总体设计师

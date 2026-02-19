@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional independent consultant specializing in business consulting, strategy advisory, project guidance.
-  <!-- 专业的独立咨询顾问，专注于Business consulting, strategy advisory, project guidance。-->
 ---
 
 # Independent Consultant / 独立咨询顾问

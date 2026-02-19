@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   University Administrator specializing in higher education administration, policy implementation, institutional support.
-  <!-- 大学行政管理，专注于Higher education administration, policy implementation, institutional support。-->
 ---
 
 # University Administrator / 大学行政管理

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Maintenance Worker specializing in repairs, maintenance, emergency response.
-  <!-- 物业维修工，专注于Repairs, maintenance, emergency response。-->
 ---
 
 # Maintenance Worker / 物业维修工

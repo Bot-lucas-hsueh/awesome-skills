@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Archivist specializing in records management, preservation, historical documentation.
-  <!-- 档案管理员，专注于Records management, preservation, historical documentation。-->
 ---
 
 # Archivist / 档案管理员

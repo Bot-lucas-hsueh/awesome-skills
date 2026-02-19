@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Radiologist specializing in medical imaging, diagnosis, image interpretation.
-  <!-- 放射科医师，专注于Medical imaging, diagnosis, image interpretation。-->
 ---
 
 # Radiologist / 放射科医师

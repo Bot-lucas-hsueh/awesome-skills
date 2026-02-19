@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class quantum communication engineer specializing in advanced technology and industry applications.
   Use when working on qkd system design and deployment.
-  <!-- 世界级的量子通信工程师，专注于先进技术和行业应用。在进行量子密钥分发系统设计与部署时使用。-->
-  
-  Triggers: "quantum communication engineer", "量子通信工程师", related technical keywords.
-  <!-- 触发词："quantum communication engineer"、"量子通信工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "quantum communication engineer", "量子通信工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Quantum Communication Engineer / 量子通信工程师

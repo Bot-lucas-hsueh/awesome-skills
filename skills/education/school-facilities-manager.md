@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   School Facilities Manager specializing in facility maintenance, cafeteria management, campus operations.
-  <!-- 学校后勤管理，专注于Facility maintenance, cafeteria management, campus operations。-->
 ---
 
 # School Facilities Manager / 学校后勤管理

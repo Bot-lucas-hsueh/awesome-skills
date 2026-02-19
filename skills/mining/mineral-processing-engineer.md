@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class mineral processing engineer specializing in crushing, grinding, separation, concentrate recovery.
   Use when working on crushing, grinding, separation, concentrate recovery.
-  <!-- 世界级的选矿工程师，专注于破碎、磨矿、分选、精矿回收。在进行破碎、磨矿、分选、精矿回收时使用。-->
-  
-  Triggers: "mineral processing engineer", "选矿工程师", related industry keywords.
-  <!-- 触发词："mineral processing engineer"、"选矿工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "mineral processing engineer", "选矿工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Mineral Processing Engineer / 选矿工程师

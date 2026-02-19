@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class gas engineer specializing in gas distribution, pipeline design, safety management.
   Use when working on gas distribution, pipeline design, safety management.
-  <!-- 世界级的燃气工程师，专注于燃气分配、管道设计、安全管理。在进行燃气分配、管道设计、安全管理时使用。-->
-  
-  Triggers: "gas engineer", "燃气工程师", related industry keywords.
-  <!-- 触发词："gas engineer"、"燃气工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "gas engineer", "燃气工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Gas Engineer / 燃气工程师

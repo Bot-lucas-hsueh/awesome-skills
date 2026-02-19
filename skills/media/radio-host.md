@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Radio Host specializing in broadcasting, audience engagement, content presentation.
-  <!-- 电台主持人，专注于Broadcasting, audience engagement, content presentation。-->
 ---
 
 # Radio Host / 电台主持人

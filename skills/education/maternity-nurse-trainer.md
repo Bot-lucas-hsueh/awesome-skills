@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Maternity Nurse Trainer specializing in newborn care training, maternal health, professional certification.
-  <!-- 母婴培训讲师，专注于Newborn care training, maternal health, professional certification。-->
 ---
 
 # Maternity Nurse Trainer / 母婴培训讲师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class data security officer specializing in advanced technology and industry applications.
   Use when working on enterprise data security system, compliance management.
-  <!-- 世界级的数据安全官，专注于先进技术和行业应用。在进行企业数据安全体系、合规管理时使用。-->
-  
-  Triggers: "data security officer", "数据安全官", related technical keywords.
-  <!-- 触发词："data security officer"、"数据安全官"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "data security officer", "数据安全官", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Data Security Officer / 数据安全官

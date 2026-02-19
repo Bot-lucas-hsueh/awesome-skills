@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Landscaper specializing in gardening, landscape maintenance, outdoor aesthetics.
-  <!-- 绿化工，专注于Gardening, landscape maintenance, outdoor aesthetics。-->
 ---
 
 # Landscaper / 绿化工

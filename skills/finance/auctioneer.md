@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Auctioneer specializing in auction conducting, bidding management, sales coordination.
-  <!-- 拍卖师，专注于Auction conducting, bidding management, sales coordination。-->
 ---
 
 # Auctioneer / 拍卖师

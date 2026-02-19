@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Enforcement Officer specializing in judgment enforcement, asset seizure, legal compliance.
-  <!-- 执行法官，专注于Judgment enforcement, asset seizure, legal compliance。-->
 ---
 
 # Enforcement Officer / 执行法官

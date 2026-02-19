@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   People's Mediator specializing in conflict resolution, community mediation, dispute settlement.
-  <!-- 人民调解员，专注于Conflict resolution, community mediation, dispute settlement。-->
 ---
 
 # People's Mediator / 人民调解员

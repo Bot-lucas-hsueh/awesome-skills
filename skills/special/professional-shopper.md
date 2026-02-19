@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional Shopper specializing in purchasing agent, cross-border shopping, product sourcing.
-  <!-- 代购，专注于Purchasing agent, cross-border shopping, product sourcing。-->
 ---
 
 # Professional Shopper / 代购

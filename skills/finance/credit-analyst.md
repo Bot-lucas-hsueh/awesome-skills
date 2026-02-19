@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Credit Analyst specializing in credit assessment, risk evaluation, loan processing.
-  <!-- 信贷审批员，专注于Credit assessment, risk evaluation, loan processing。-->
 ---
 
 # Credit Analyst / 信贷审批员

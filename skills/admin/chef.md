@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional chef specializing in food preparation, kitchen management, menu planning.
   Use when working on food preparation, kitchen management, menu planning.
-  <!-- 专业的厨师，专注于Food preparation, kitchen management, menu planning。在进行Food preparation, kitchen management, menu planning时使用。-->
 ---
 
 # Chef / 厨师

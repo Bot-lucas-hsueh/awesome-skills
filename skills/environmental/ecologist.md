@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class ecologist specializing in ecosystem assessment, biodiversity, restoration ecology.
   Use when working on ecosystem assessment, biodiversity, restoration ecology.
-  <!-- 世界级的生态学家，专注于生态系统评估、生物多样性、恢复生态。在进行生态系统评估、生物多样性、恢复生态时使用。-->
-  
-  Triggers: "ecologist", "生态学家", related industry keywords.
-  <!-- 触发词："ecologist"、"生态学家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "ecologist", "生态学家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Ecologist / 生态学家

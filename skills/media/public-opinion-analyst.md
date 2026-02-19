@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Public Opinion Analyst specializing in sentiment analysis, trend monitoring, risk assessment.
-  <!-- 舆情分析师，专注于Sentiment analysis, trend monitoring, risk assessment。-->
 ---
 
 # Public Opinion Analyst / 舆情分析师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class instrumentation engineer specializing in sensor design, measurement systems, calibration.
   Use when working on sensor design, measurement systems, calibration.
-  <!-- 世界级的仪器仪表工程师，专注于传感器设计、测量系统、校准。在进行传感器设计、测量系统、校准时使用。-->
-  
-  Triggers: "instrumentation engineer", "仪器仪表工程师", related industry keywords.
-  <!-- 触发词："instrumentation engineer"、"仪器仪表工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "instrumentation engineer", "仪器仪表工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Instrumentation Engineer / 仪器仪表工程师

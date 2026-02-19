@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Pathologist specializing in disease diagnosis, tissue analysis, laboratory medicine.
-  <!-- 病理科医师，专注于Disease diagnosis, tissue analysis, laboratory medicine。-->
 ---
 
 # Pathologist / 病理科医师

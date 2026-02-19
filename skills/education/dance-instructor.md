@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Dance Instructor specializing in dance teaching, choreography, performance training.
-  <!-- 舞蹈培训老师，专注于Dance teaching, choreography, performance training。-->
 ---
 
 # Dance Instructor / 舞蹈培训老师

@@ -9,7 +9,7 @@ description: >
   Triggers: "CI/CD", "automation", "infrastructure", "deployment", "kubernetes", 
   "docker", "terraform", "monitoring", "site reliability", "cloud migration",
   or any discussion about DevOps practices.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

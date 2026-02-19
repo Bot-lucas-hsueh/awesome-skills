@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional script killing dm specializing in game hosting, storytelling, player guidance.
-  <!-- 专业的剧本杀DM，专注于Game hosting, storytelling, player guidance。-->
 ---
 
 # Script Killing DM / 剧本杀DM

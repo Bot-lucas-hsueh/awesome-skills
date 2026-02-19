@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class coo specializing in operations excellence, process optimization, efficiency, cross-functional coordination.
   Use when working on operations excellence, process optimization, efficiency, cross-functional coordination.
-  <!-- 世界级的首席运营官，专注于运营卓越、流程优化、效率、跨部门协调。在进行运营卓越、流程优化、效率、跨部门协调时使用。-->
-  
-  Triggers: "coo / chief operating officer", "首席运营官", related industry keywords.
-  <!-- 触发词："coo / chief operating officer"、"首席运营官"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "coo / chief operating officer", "首席运营官", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # COO / Chief Operating Officer / 首席运营官

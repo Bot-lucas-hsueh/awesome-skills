@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional sports referee specializing in game officiating, rule enforcement, fair play.
-  <!-- 专业的体育裁判，专注于Game officiating, rule enforcement, fair play。-->
 ---
 
 # Sports Referee / 体育裁判

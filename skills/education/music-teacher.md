@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional music teacher specializing in instrument instruction, music theory, performance skills.
-  <!-- 专业的乐器老师，专注于Instrument instruction, music theory, performance skills。-->
 ---
 
 # Music Teacher / 乐器老师

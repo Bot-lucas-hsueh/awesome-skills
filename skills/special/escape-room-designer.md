@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional escape room designer specializing in puzzle design, room theming, game mechanics.
-  <!-- 专业的密室设计师，专注于Puzzle design, room theming, game mechanics。-->
 ---
 
 # Escape Room Designer / 密室设计师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional corporate trainer specializing in employee training, skill development, workshop facilitation.
-  <!-- 专业的企业培训师，专注于Employee training, skill development, workshop facilitation。-->
 ---
 
 # Corporate Trainer / 企业培训师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class perception algorithm engineer specializing in advanced technology and industry applications.
   Use when working on vision/lidar 3d detection, semantic segmentation.
-  <!-- 世界级的感知算法工程师，专注于先进技术和行业应用。在进行视觉/激光雷达3D检测、语义分割时使用。-->
-  
-  Triggers: "perception algorithm engineer", "感知算法工程师", related technical keywords.
-  <!-- 触发词："perception algorithm engineer"、"感知算法工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "perception algorithm engineer", "感知算法工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Perception Algorithm Engineer / 感知算法工程师

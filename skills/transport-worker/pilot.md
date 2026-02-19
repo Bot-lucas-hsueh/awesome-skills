@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional pilot specializing in aircraft operation, navigation, flight safety.
   Use when working on aircraft operation, navigation, flight safety.
-  <!-- 专业的飞行员，专注于Aircraft operation, navigation, flight safety。在进行Aircraft operation, navigation, flight safety时使用。-->
 ---
 
 # Pilot / 飞行员

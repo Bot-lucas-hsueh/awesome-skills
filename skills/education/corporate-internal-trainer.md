@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Corporate Internal Trainer specializing in employee training, skill development, organizational learning.
-  <!-- 企业内训师，专注于Employee training, skill development, organizational learning。-->
 ---
 
 # Corporate Internal Trainer / 企业内训师

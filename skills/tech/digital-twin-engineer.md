@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class digital twin engineer specializing in advanced technology and industry applications.
   Use when working on physical entity digital mirror modeling and simulation.
-  <!-- 世界级的数字孪生工程师，专注于先进技术和行业应用。在进行物理实体数字镜像建模与仿真时使用。-->
-  
-  Triggers: "digital twin engineer", "数字孪生工程师", related technical keywords.
-  <!-- 触发词："digital twin engineer"、"数字孪生工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "digital twin engineer", "数字孪生工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Digital Twin Engineer / 数字孪生工程师

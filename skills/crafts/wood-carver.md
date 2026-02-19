@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Wood Carver specializing in wood sculpting, traditional carving, artistic creation.
-  <!-- 木雕师，专注于Wood sculpting, traditional carving, artistic creation。-->
 ---
 
 # Wood Carver / 木雕师

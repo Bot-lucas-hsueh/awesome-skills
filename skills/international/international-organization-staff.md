@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class international organization staff specializing in diplomacy, international cooperation, multilateral relations.
   Use when working on diplomacy, international cooperation, multilateral relations.
-  <!-- 世界级的国际组织职员，专注于外交、国际合作、多边关系。在进行外交、国际合作、多边关系时使用。-->
-  
-  Triggers: "international organization staff", "国际组织职员", related industry keywords.
-  <!-- 触发词："international organization staff"、"国际组织职员"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "international organization staff", "国际组织职员", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # International Organization Staff / 国际组织职员

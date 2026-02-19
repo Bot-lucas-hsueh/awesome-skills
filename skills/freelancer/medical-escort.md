@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional medical escort specializing in hospital accompaniment, appointment assistance, patient support.
-  <!-- 专业的陪诊员，专注于Hospital accompaniment, appointment assistance, patient support。-->
 ---
 
 # Medical Escort / 陪诊员

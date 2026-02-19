@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Intellectual Property Attorney specializing in ip protection, patent law, trademark disputes.
-  <!-- 知识产权律师，专注于IP protection, patent law, trademark disputes。-->
 ---
 
 # Intellectual Property Attorney / 知识产权律师

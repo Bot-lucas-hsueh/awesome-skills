@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional voice actor specializing in voice acting, dubbing, narration.
   Use when working on voice acting, dubbing, narration.
-  <!-- 专业的配音员，专注于Voice acting, dubbing, narration。在进行Voice acting, dubbing, narration时使用。-->
 ---
 
 # Voice Actor / 配音员

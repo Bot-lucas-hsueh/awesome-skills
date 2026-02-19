@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class spatial computing engineer specializing in advanced technology and industry applications.
   Use when working on xr interaction design, 3d space construction.
-  <!-- 世界级的空间计算工程师，专注于先进技术和行业应用。在进行XR交互设计、3D空间构建时使用。-->
-  
-  Triggers: "spatial computing engineer", "空间计算工程师", related technical keywords.
-  <!-- 触发词："spatial computing engineer"、"空间计算工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "spatial computing engineer", "空间计算工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Spatial Computing Engineer / 空间计算工程师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class qa engineer specializing in test automation, manual testing, performance testing.
   Use when working on test automation, manual testing, performance testing.
-  <!-- 世界级的测试工程师，专注于测试自动化、手动测试、性能测试。在进行测试自动化、手动测试、性能测试时使用。-->
-  
-  Triggers: "qa engineer", "测试工程师", related industry keywords.
-  <!-- 触发词："qa engineer"、"测试工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "qa engineer", "测试工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # QA Engineer / 测试工程师

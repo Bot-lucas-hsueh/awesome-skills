@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional ai trainer specializing in data labeling, model training, ai quality assurance.
-  <!-- 专业的AI训练师，专注于Data labeling, model training, AI quality assurance。-->
 ---
 
 # AI Trainer / AI训练师

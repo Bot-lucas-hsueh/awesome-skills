@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Arbitrator specializing in dispute resolution, arbitration proceedings, neutral judgment.
-  <!-- 仲裁员，专注于Dispute resolution, arbitration proceedings, neutral judgment。-->
 ---
 
 # Arbitrator / 仲裁员

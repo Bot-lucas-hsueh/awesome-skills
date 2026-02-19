@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Statistician specializing in data collection, statistical analysis, census operations.
-  <!-- 统计调查员，专注于Data collection, statistical analysis, census operations。-->
 ---
 
 # Statistician / 统计调查员

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class police officer specializing in law enforcement, crime prevention, investigation, public safety, emergency response.
   Use when working on law enforcement, crime prevention, investigation, public safety, emergency response.
-  <!-- 世界级的警察，专注于执法、犯罪预防、调查、公共安全、应急响应。在进行执法、犯罪预防、调查、公共安全、应急响应时使用。-->
-  
-  Triggers: "police officer", "警察", related industry keywords.
-  <!-- 触发词："police officer"、"警察"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "police officer", "警察", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Police Officer / 警察

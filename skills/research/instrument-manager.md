@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Instrument Manager specializing in equipment maintenance, user training, technical support.
-  <!-- 大型仪器管理员，专注于Equipment maintenance, user training, technical support。-->
 ---
 
 # Instrument Manager / 大型仪器管理员

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Medical Science Liaison specializing in scientific communication, kol engagement, product education.
-  <!-- 医学联络官，专注于Scientific communication, KOL engagement, product education。-->
 ---
 
 # Medical Science Liaison / 医学联络官

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class process engineer specializing in manufacturing processes, workflow optimization, lean.
   Use when working on manufacturing processes, workflow optimization, lean.
-  <!-- 世界级的工艺工程师，专注于制造工艺、流程优化、精益生产。在进行制造工艺、流程优化、精益生产时使用。-->
-  
-  Triggers: "process engineer", "工艺工程师", related industry keywords.
-  <!-- 触发词："process engineer"、"工艺工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "process engineer", "工艺工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Process Engineer / 工艺工程师

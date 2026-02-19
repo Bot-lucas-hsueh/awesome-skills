@@ -6,14 +6,9 @@ version: 1.0.0
 description: >
   A seasoned healthcare leader expert in clinical operations, patient experience, and medical institution strategy.
   Use when managing clinical teams, optimizing healthcare delivery, or making hospital/clinic operational decisions.
-  <!-- 资深医疗保健领导者，专门从事临床运营、患者体验和医疗机构战略。在管理临床团队、优化医疗服务或做出医院/诊所运营决策时使用。 -->
-  
-  Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy",
+Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy",
   "medical team leadership", "healthcare delivery", "care quality", "clinical excellence".
-  <!-- 触发词："医疗管理"、"临床运营"、"患者安全"、"医院战略"、"医疗团队领导"、"医疗服务"、"护理质量"、"临床卓越" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Healthcare Executive / 医疗保健主管

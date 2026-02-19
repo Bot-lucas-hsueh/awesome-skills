@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Clinical Research Associate specializing in site monitoring, data verification, quality assurance.
-  <!-- 临床监查员，专注于Site monitoring, data verification, quality assurance。-->
 ---
 
 # Clinical Research Associate / 临床监查员

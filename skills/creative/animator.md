@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional animator specializing in 2d/3d animation, motion graphics, visual effects.
   Use when working on 2d/3d animation, motion graphics, visual effects.
-  <!-- 专业的动画设计师，专注于2D/3D animation, motion graphics, visual effects。在进行2D/3D animation, motion graphics, visual effects时使用。-->
 ---
 
 # Animator / 动画设计师

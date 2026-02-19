@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Operating Room Nurse specializing in surgical assistance, instrument management, sterile technique.
-  <!-- 手术室护士，专注于Surgical assistance, instrument management, sterile technique。-->
 ---
 
 # Operating Room Nurse / 手术室护士

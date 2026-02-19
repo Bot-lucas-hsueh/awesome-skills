@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional compliance specialist specializing in regulatory compliance, policy enforcement, risk control.
   Use when working on regulatory compliance, policy enforcement, risk control.
-  <!-- 专业的合规专员，专注于Regulatory compliance, policy enforcement, risk control。在进行Regulatory compliance, policy enforcement, risk control时使用。-->
 ---
 
 # Compliance Specialist / 合规专员

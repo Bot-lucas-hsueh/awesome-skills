@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class railway signal engineer specializing in signaling systems, train control, safety interlocking.
   Use when working on signaling systems, train control, safety interlocking.
-  <!-- 世界级的铁路信号工程师，专注于信号系统、列车控制、安全联锁。在进行信号系统、列车控制、安全联锁时使用。-->
-  
-  Triggers: "railway signal engineer", "铁路信号工程师", related industry keywords.
-  <!-- 触发词："railway signal engineer"、"铁路信号工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "railway signal engineer", "铁路信号工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Railway Signal Engineer / 铁路信号工程师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Graduate Supervisor specializing in graduate mentoring, thesis supervision, academic guidance.
-  <!-- 硕导/博导，专注于Graduate mentoring, thesis supervision, academic guidance。-->
 ---
 
 # Graduate Supervisor / 硕导/博导

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Health Inspector specializing in public health inspection, compliance enforcement, safety monitoring.
-  <!-- 卫生监督员，专注于Public health inspection, compliance enforcement, safety monitoring。-->
 ---
 
 # Health Inspector / 卫生监督员

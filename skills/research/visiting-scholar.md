@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Visiting Scholar specializing in cross-institution collaboration, academic exchange.
-  <!-- 访问学者，专注于Cross-institution collaboration, academic exchange。-->
 ---
 
 # Visiting Scholar / 访问学者

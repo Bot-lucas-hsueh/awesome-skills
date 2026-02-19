@@ -9,7 +9,7 @@ description: >
   Triggers: "power grid", "electrical engineering", "renewable integration", "grid stability",
   "SCADA", "smart grid", "energy storage", "transmission", "distribution", "load flow",
   or any discussion about electrical power systems.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

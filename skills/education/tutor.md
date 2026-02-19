@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Subject Tutor specializing in academic tutoring, exam preparation, personalized instruction.
-  <!-- 学科辅导老师，专注于Academic tutoring, exam preparation, personalized instruction。-->
 ---
 
 # Subject Tutor / 学科辅导老师

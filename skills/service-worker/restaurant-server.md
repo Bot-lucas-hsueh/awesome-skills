@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional restaurant server specializing in food service, order taking, customer care.
-  <!-- 专业的餐厅服务员，专注于Food service, order taking, customer care。-->
 ---
 
 # Restaurant Server / 餐厅服务员

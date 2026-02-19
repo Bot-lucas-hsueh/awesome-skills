@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional farm machinery operator specializing in tractor operation, harvester use, equipment maintenance.
   Use when working on tractor operation, harvester use, equipment maintenance.
-  <!-- 专业的农机操作手，专注于Tractor operation, harvester use, equipment maintenance。在进行Tractor operation, harvester use, equipment maintenance时使用。-->
 ---
 
 # Farm Machinery Operator / 农机操作手

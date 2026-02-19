@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional crop farmer specializing in crop cultivation, planting, harvesting.
   Use when working on crop cultivation, planting, harvesting.
-  <!-- 专业的种植户，专注于Crop cultivation, planting, harvesting。在进行Crop cultivation, planting, harvesting时使用。-->
 ---
 
 # Crop Farmer / 种植户

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Childcare Worker specializing in child care, daily routines, early development support.
-  <!-- 托育师/保育员，专注于Child care, daily routines, early development support。-->
 ---
 
 # Childcare Worker / 托育师/保育员

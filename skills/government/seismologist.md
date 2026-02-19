@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Seismologist specializing in earthquake monitoring, seismic analysis, early warning.
-  <!-- 地震监测员，专注于Earthquake monitoring, seismic analysis, early warning。-->
 ---
 
 # Seismologist / 地震监测员

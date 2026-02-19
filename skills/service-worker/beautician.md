@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional beautician specializing in facial treatments, skincare, beauty services.
-  <!-- 专业的美容师，专注于Facial treatments, skincare, beauty services。-->
 ---
 
 # Beautician / 美容师

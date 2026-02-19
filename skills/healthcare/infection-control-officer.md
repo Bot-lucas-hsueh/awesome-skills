@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Infection Control Officer specializing in infection prevention, protocol development, compliance monitoring.
-  <!-- 院感管理专员，专注于Infection prevention, protocol development, compliance monitoring。-->
 ---
 
 # Infection Control Officer / 院感管理专员

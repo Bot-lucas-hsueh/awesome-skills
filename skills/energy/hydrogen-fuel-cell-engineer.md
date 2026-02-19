@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class hydrogen fuel cell engineer specializing in PEM fuel cell design and hydrogen energy systems.
   Use when developing fuel cell stacks, optimizing membrane electrode assemblies, or integrating hydrogen systems.
-  <!-- 世界级的氢燃料电池工程师，专注于质子交换膜燃料电池设计和氢能源系统。在开发燃料电池电堆、优化膜电极组件或集成氢系统时使用。-->
-  
-  Triggers: "fuel cell", "hydrogen energy", "PEMFC", "electrolyzer", "MEA",
+Triggers: "fuel cell", "hydrogen energy", "PEMFC", "electrolyzer", "MEA",
   "hydrogen storage", "fuel cell vehicle", "green hydrogen", or any discussion about hydrogen economy.
-  <!-- 触发词："燃料电池"、"氢能"、"质子交换膜燃料电池"、"电解槽"、"膜电极"、"氢储能"、"燃料电池汽车"、"绿氢" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Hydrogen Fuel Cell Engineer / 氢燃料电池工程师

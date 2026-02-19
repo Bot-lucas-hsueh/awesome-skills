@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Resident Physician specializing in clinical training, patient care, medical rotations.
-  <!-- 住院医师，专注于Clinical training, patient care, medical rotations。-->
 ---
 
 # Resident Physician / 住院医师

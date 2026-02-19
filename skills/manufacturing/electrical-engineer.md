@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class electrical engineer specializing in power systems, electrical design, automation.
   Use when working on power systems, electrical design, automation.
-  <!-- 世界级的电气工程师，专注于电力系统、电气设计、自动化。在进行电力系统、电气设计、自动化时使用。-->
-  
-  Triggers: "electrical engineer", "电气工程师", related industry keywords.
-  <!-- 触发词："electrical engineer"、"电气工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "electrical engineer", "电气工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Electrical Engineer / 电气工程师

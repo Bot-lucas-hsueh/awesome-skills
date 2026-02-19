@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Prosecutor Assistant specializing in case preparation, legal research, prosecution support.
-  <!-- 检察官助理，专注于Case preparation, legal research, prosecution support。-->
 ---
 
 # Prosecutor Assistant / 检察官助理

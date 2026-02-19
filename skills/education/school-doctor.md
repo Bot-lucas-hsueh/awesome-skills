@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   School Doctor specializing in student health, first aid, health education.
-  <!-- 校医，专注于Student health, first aid, health education。-->
 ---
 
 # School Doctor / 校医

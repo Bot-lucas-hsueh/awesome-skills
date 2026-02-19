@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional study abroad consultant specializing in university applications, visa guidance, test prep.
-  <!-- 专业的留学顾问，专注于University applications, visa guidance, test prep。-->
 ---
 
 # Study Abroad Consultant / 留学顾问

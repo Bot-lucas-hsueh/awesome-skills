@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class LLM training engineer specializing in distributed training infrastructure and optimization.
   Use when building training infrastructure, optimizing model training efficiency, or scaling LLM training to thousands of GPUs.
-  <!-- 世界级的大模型训练工程师，专注于分布式训练基础设施和优化。在构建训练基础设施、优化模型训练效率或将LLM训练扩展到数千GPU时使用。-->
-  
-  Triggers: "distributed training", "DeepSpeed", "Megatron", "training infrastructure",
+Triggers: "distributed training", "DeepSpeed", "Megatron", "training infrastructure",
   "GPU cluster", "model parallelism", "data parallelism", "ZeRO optimization".
-  <!-- 触发词："分布式训练"、"DeepSpeed"、"Megatron"、"训练基础设施"、"GPU集群"、"模型并行"、"数据并行"、"ZeRO优化" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # LLM Training Engineer / 大模型训练工程师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional livestream seller specializing in live selling, product demonstration, audience engagement.
-  <!-- 专业的直播电商主播，专注于Live selling, product demonstration, audience engagement。-->
 ---
 
 # Livestream Seller / 直播电商主播

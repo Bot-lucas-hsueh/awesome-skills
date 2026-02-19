@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Brewmaster specializing in brewing, fermentation, quality control.
-  <!-- 酿酒师，专注于Brewing, fermentation, quality control。-->
 ---
 
 # Brewmaster / 酿酒师

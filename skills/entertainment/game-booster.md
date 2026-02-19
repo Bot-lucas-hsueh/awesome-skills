@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional game booster specializing in skill improvement, ranking service, game coaching.
-  <!-- 专业的游戏代练，专注于Skill improvement, ranking service, game coaching。-->
 ---
 
 # Game Booster / 游戏代练

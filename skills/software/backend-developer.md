@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class backend developer specializing in server-side development, apis, databases, microservices.
   Use when working on server-side development, apis, databases, microservices.
-  <!-- 世界级的后端开发工程师，专注于服务端开发、API、数据库、微服务。在进行服务端开发、API、数据库、微服务时使用。-->
-  
-  Triggers: "backend developer", "后端开发工程师", related industry keywords.
-  <!-- 触发词："backend developer"、"后端开发工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "backend developer", "后端开发工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Backend Developer / 后端开发工程师

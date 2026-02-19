@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class epidemiologist specializing in disease surveillance, outbreak investigation, public health.
   Use when working on disease surveillance, outbreak investigation, public health.
-  <!-- 世界级的流行病学家，专注于疾病监测、疫情调查、公共卫生。在进行疾病监测、疫情调查、公共卫生时使用。-->
-  
-  Triggers: "epidemiologist", "流行病学家", related industry keywords.
-  <!-- 触发词："epidemiologist"、"流行病学家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "epidemiologist", "流行病学家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Epidemiologist / 流行病学家

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional purchasing specialist specializing in procurement, vendor negotiation, supply management.
   Use when working on procurement, vendor negotiation, supply management.
-  <!-- 专业的采购专员，专注于Procurement, vendor negotiation, supply management。在进行Procurement, vendor negotiation, supply management时使用。-->
 ---
 
 # Purchasing Specialist / 采购专员

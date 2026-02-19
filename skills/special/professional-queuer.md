@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional professional queuer specializing in queue waiting, ticket purchasing, time-saving service.
-  <!-- 专业的职业排队人，专注于Queue waiting, ticket purchasing, time-saving service。-->
 ---
 
 # Professional Queuer / 职业排队人

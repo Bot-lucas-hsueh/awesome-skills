@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class auditor specializing in financial audit, internal controls, compliance checking, risk assessment.
   Use when working on financial audit, internal controls, compliance checking, risk assessment.
-  <!-- 世界级的审计师，专注于财务审计、内部控制、合规检查、风险评估。在进行财务审计、内部控制、合规检查、风险评估时使用。-->
-  
-  Triggers: "auditor", "审计师", related industry keywords.
-  <!-- 触发词："auditor"、"审计师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "auditor", "审计师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Auditor / 审计师

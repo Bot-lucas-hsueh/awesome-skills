@@ -9,7 +9,7 @@ description: >
   Triggers: "patent", "intellectual property", "IP", "prior art", "patent application",
   "claims", "patent prosecution", "invention disclosure", "freedom to operate",
   or any discussion about patent law and strategy.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

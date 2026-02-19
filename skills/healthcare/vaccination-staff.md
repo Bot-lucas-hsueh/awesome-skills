@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Vaccination Staff specializing in immunization, vaccine administration, public health.
-  <!-- 预防接种人员，专注于Immunization, vaccine administration, public health。-->
 ---
 
 # Vaccination Staff / 预防接种人员

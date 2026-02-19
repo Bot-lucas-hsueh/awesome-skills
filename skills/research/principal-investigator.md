@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Principal Investigator (PI) specializing in research direction, funding application, team leadership.
-  <!-- 首席科学家/PI，专注于Research direction, funding application, team leadership。-->
 ---
 
 # Principal Investigator (PI) / 首席科学家/PI

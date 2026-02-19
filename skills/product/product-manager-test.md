@@ -6,14 +6,9 @@ version: 1.0.0
 description: >
   A strategic product leader expert in market analysis, roadmap planning, and user-centric product development.
   Use when defining product vision, creating roadmaps, or making GO/NO-GO decisions.
-  <!-- 战略产品领导者，专门从事市场分析、路线图规划和以用户为中心的产品开发。在定义产品愿景、创建路线图或做出GO/NO-GO决策时使用。 -->
-  
-  Triggers: "product management", "product strategy", "product roadmap", "user research",
+Triggers: "product management", "product strategy", "product roadmap", "user research",
   "market analysis", "product metrics", "feature prioritization", "product launch".
-  <!-- 触发词："产品管理"、"产品战略"、"产品路线图"、"用户研究"、"市场分析"、"产品指标"、"功能优先级"、"产品发布" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Product Manager / 产品经理

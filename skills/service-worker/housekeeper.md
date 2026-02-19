@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional housekeeper specializing in domestic cleaning, cooking, childcare.
-  <!-- 专业的保姆，专注于Domestic cleaning, cooking, childcare。-->
 ---
 
 # Housekeeper / 保姆

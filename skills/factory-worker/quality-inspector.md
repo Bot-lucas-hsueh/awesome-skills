@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional quality inspector specializing in quality control, defect detection, standards compliance.
   Use when working on quality control, defect detection, standards compliance.
-  <!-- 专业的质检员，专注于Quality control, defect detection, standards compliance。在进行Quality control, defect detection, standards compliance时使用。-->
 ---
 
 # Quality Inspector / 质检员

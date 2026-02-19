@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Peer Reviewer specializing in manuscript evaluation, academic judgment, feedback provision.
-  <!-- 论文审稿人，专注于Manuscript evaluation, academic judgment, feedback provision。-->
 ---
 
 # Peer Reviewer / 论文审稿人

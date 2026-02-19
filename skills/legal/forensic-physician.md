@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Forensic Physician specializing in medical investigation, cause of death, legal medicine.
-  <!-- 法医，专注于Medical investigation, cause of death, legal medicine。-->
 ---
 
 # Forensic Physician / 法医

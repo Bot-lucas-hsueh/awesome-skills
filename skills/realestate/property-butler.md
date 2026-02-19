@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Property Butler specializing in resident services, facility management, community relations.
-  <!-- 物业管家，专注于Resident services, facility management, community relations。-->
 ---
 
 # Property Butler / 物业管家

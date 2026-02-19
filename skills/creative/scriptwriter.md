@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional scriptwriter specializing in screenwriting, story development, dialogue writing.
   Use when working on screenwriting, story development, dialogue writing.
-  <!-- 专业的编剧，专注于Screenwriting, story development, dialogue writing。在进行Screenwriting, story development, dialogue writing时使用。-->
 ---
 
 # Scriptwriter / 编剧

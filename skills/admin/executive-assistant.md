@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional executive assistant specializing in calendar management, travel coordination, executive support.
   Use when working on calendar management, travel coordination, executive support.
-  <!-- 专业的总裁助理，专注于Calendar management, travel coordination, executive support。在进行Calendar management, travel coordination, executive support时使用。-->
 ---
 
 # Executive Assistant / 总裁助理

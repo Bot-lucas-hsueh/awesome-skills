@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional nursing assistant specializing in patient care, daily assistance, bedside support.
-  <!-- 专业的护工，专注于Patient care, daily assistance, bedside support。-->
 ---
 
 # Nursing Assistant / 护工

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional compensation & benefits manager specializing in salary structure, benefits design, payroll management.
   Use when working on salary structure, benefits design, payroll management.
-  <!-- 专业的薪酬福利经理，专注于Salary structure, benefits design, payroll management。在进行Salary structure, benefits design, payroll management时使用。-->
 ---
 
 # Compensation & Benefits Manager / 薪酬福利经理

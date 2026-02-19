@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Community Security specializing in access control, patrol, resident safety.
-  <!-- 小区保安，专注于Access control, patrol, resident safety。-->
 ---
 
 # Community Security / 小区保安

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Emergency Dispatcher specializing in emergency call handling, resource dispatch, crisis coordination.
-  <!-- 120急救调度员，专注于Emergency call handling, resource dispatch, crisis coordination。-->
 ---
 
 # Emergency Dispatcher / 120急救调度员

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional training & development manager specializing in training programs, learning platforms, career development.
   Use when working on training programs, learning platforms, career development.
-  <!-- 专业的培训发展经理，专注于Training programs, learning platforms, career development。在进行Training programs, learning platforms, career development时使用。-->
 ---
 
 # Training & Development Manager / 培训发展经理

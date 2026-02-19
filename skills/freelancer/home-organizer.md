@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional home organizer specializing in space optimization, decluttering, organization systems.
-  <!-- 专业的收纳整理师，专注于Space optimization, decluttering, organization systems。-->
 ---
 
 # Home Organizer / 收纳整理师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional mystery shopper specializing in service evaluation, experience testing, quality assessment.
-  <!-- 专业的试睡员，专注于Service evaluation, experience testing, quality assessment。-->
 ---
 
 # Mystery Shopper / 试睡员

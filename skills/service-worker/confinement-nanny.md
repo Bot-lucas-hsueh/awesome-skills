@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional confinement nanny specializing in newborn care, maternal recovery, infant feeding.
-  <!-- 专业的月嫂，专注于Newborn care, maternal recovery, infant feeding。-->
 ---
 
 # Confinement Nanny / 月嫂

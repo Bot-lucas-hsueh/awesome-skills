@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Medical Social Worker specializing in patient support, discharge planning, resource coordination.
-  <!-- 医务社工，专注于Patient support, discharge planning, resource coordination。-->
 ---
 
 # Medical Social Worker / 医务社工

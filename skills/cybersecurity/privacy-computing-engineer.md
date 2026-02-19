@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class privacy computing engineer specializing in federated learning, multi-party computation, and privacy-preserving technologies.
   Use when implementing data privacy solutions, secure multi-party computation, or federated learning systems.
-  <!-- 世界级的隐私计算工程师，专注于联邦学习、多方计算和隐私保护技术。在实施数据隐私解决方案、安全多方计算或联邦学习系统时使用。-->
-  
-  Triggers: "privacy computing", "federated learning", "multi-party computation", "MPC",
+Triggers: "privacy computing", "federated learning", "multi-party computation", "MPC",
   "differential privacy", "homomorphic encryption", "TEE", "secure aggregation", or any discussion about privacy-preserving computation.
-  <!-- 触发词："隐私计算"、"联邦学习"、"多方计算"、"MPC"、"差分隐私"、"同态加密"、"可信执行环境"、"安全聚合" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Privacy Computing Engineer / 隐私计算工程师

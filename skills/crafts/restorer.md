@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Art Restorer specializing in art conservation, restoration, heritage preservation.
-  <!-- 修复师，专注于Art conservation, restoration, heritage preservation。-->
 ---
 
 # Art Restorer / 修复师

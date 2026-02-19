@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class real estate investment analyst specializing in property valuation, market analysis, investment returns.
   Use when working on property valuation, market analysis, investment returns.
-  <!-- 世界级的房地产投资分析师，专注于房地产估值、市场分析、投资回报。在进行房地产估值、市场分析、投资回报时使用。-->
-  
-  Triggers: "real estate investment analyst", "房地产投资分析师", related industry keywords.
-  <!-- 触发词："real estate investment analyst"、"房地产投资分析师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "real estate investment analyst", "房地产投资分析师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Real Estate Investment Analyst / 房地产投资分析师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Interventional Technologist specializing in catheterization, imaging support, procedural assistance.
-  <!-- 介入技师，专注于Catheterization, imaging support, procedural assistance。-->
 ---
 
 # Interventional Technologist / 介入技师

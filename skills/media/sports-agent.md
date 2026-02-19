@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class sports agent specializing in athlete representation, contract negotiation, event management.
   Use when working on athlete representation, contract negotiation, event management.
-  <!-- 世界级的体育经纪人，专注于运动员代理、合同谈判、赛事管理。在进行运动员代理、合同谈判、赛事管理时使用。-->
-  
-  Triggers: "sports agent", "体育经纪人", related industry keywords.
-  <!-- 触发词："sports agent"、"体育经纪人"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "sports agent", "体育经纪人", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Sports Agent / 体育经纪人

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class mechanical design engineer specializing in cad, mechanical systems, machine design.
   Use when working on cad, mechanical systems, machine design.
-  <!-- 世界级的机械设计工程师，专注于CAD、机械系统、机械设计。在进行CAD、机械系统、机械设计时使用。-->
-  
-  Triggers: "mechanical design engineer", "机械设计工程师", related industry keywords.
-  <!-- 触发词："mechanical design engineer"、"机械设计工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "mechanical design engineer", "机械设计工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Mechanical Design Engineer / 机械设计工程师

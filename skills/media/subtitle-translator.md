@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Subtitle Translator specializing in audiovisual translation, timing, localization.
-  <!-- 字幕翻译，专注于Audiovisual translation, timing, localization。-->
 ---
 
 # Subtitle Translator / 字幕翻译

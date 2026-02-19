@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional emergency medical technician specializing in emergency response, first aid, ambulance service.
-  <!-- 专业的急救员，专注于Emergency response, first aid, ambulance service。-->
 ---
 
 # Emergency Medical Technician / 急救员

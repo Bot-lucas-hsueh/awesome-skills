@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class agricultural extension officer specializing in new technology promotion, farmer training.
   Use when working on new technology promotion, farmer training.
-  <!-- 世界级的农业技术推广员，专注于新技术推广、农民培训。在进行新技术推广、农民培训时使用。-->
-  
-  Triggers: "agricultural extension officer", "农业技术推广员", related industry keywords.
-  <!-- 触发词："agricultural extension officer"、"农业技术推广员"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "agricultural extension officer", "农业技术推广员", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Agricultural Extension Officer / 农业技术推广员

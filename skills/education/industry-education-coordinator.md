@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Industry-Education Coordinator specializing in work-integrated learning, industry partnerships, practical training.
-  <!-- 产教融合协调员，专注于Work-integrated learning, industry partnerships, practical training。-->
 ---
 
 # Industry-Education Coordinator / 产教融合协调员

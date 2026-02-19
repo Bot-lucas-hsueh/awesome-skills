@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Fact Checker specializing in verification, accuracy confirmation, misinformation detection.
-  <!-- 事实核查员，专注于Verification, accuracy confirmation, misinformation detection。-->
 ---
 
 # Fact Checker / 事实核查员

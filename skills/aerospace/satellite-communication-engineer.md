@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class satellite communication engineer specializing in advanced technology and industry applications.
   Use when working on satellite constellation design, communication payload.
-  <!-- 世界级的卫星通信系统工程师，专注于先进技术和行业应用。在进行卫星星座设计、通信载荷时使用。-->
-  
-  Triggers: "satellite communication engineer", "卫星通信系统工程师", related technical keywords.
-  <!-- 触发词："satellite communication engineer"、"卫星通信系统工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "satellite communication engineer", "卫星通信系统工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Satellite Communication Engineer / 卫星通信系统工程师

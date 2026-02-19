@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   General Practitioner specializing in primary care, chronic disease, community health.
-  <!-- 社区全科医生，专注于Primary care, chronic disease, community health。-->
 ---
 
 # General Practitioner / 社区全科医生

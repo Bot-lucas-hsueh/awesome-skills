@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional sanitation worker specializing in street cleaning, waste collection, public hygiene.
-  <!-- 专业的环卫工人，专注于Street cleaning, waste collection, public hygiene。-->
 ---
 
 # Sanitation Worker / 环卫工人

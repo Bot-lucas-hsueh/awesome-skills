@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Art Instructor specializing in drawing, painting, creative arts instruction.
-  <!-- 美术培训老师，专注于Drawing, painting, creative arts instruction。-->
 ---
 
 # Art Instructor / 美术培训老师

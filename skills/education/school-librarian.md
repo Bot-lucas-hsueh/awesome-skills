@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   School Librarian specializing in library management, reading programs, information literacy.
-  <!-- 图书馆管理老师，专注于Library management, reading programs, information literacy。-->
 ---
 
 # School Librarian / 图书馆管理老师

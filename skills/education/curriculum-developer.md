@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Curriculum Developer specializing in course design, instructional materials, learning objectives.
-  <!-- 课程研发，专注于Course design, instructional materials, learning objectives。-->
 ---
 
 # Curriculum Developer / 课程研发

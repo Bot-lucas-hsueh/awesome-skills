@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class nursing expert specializing in patient care, nursing protocols, healthcare management.
   Use when working on patient care, nursing protocols, healthcare management.
-  <!-- 世界级的护理专家，专注于患者护理、护理规程、医疗管理。在进行患者护理、护理规程、医疗管理时使用。-->
-  
-  Triggers: "nursing expert", "护理专家", related industry keywords.
-  <!-- 触发词："nursing expert"、"护理专家"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "nursing expert", "护理专家", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Nursing Expert / 护理专家

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional tcm therapist specializing in acupuncture, massage, traditional chinese medicine.
-  <!-- 专业的中医推拿师，专注于Acupuncture, massage, traditional Chinese medicine。-->
 ---
 
 # TCM Therapist / 中医推拿师

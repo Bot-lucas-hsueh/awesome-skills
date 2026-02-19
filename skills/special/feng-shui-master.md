@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional feng shui master specializing in space harmonization, energy flow, traditional wisdom.
-  <!-- 专业的风水师，专注于Space harmonization, energy flow, traditional wisdom。-->
 ---
 
 # Feng Shui Master / 风水师

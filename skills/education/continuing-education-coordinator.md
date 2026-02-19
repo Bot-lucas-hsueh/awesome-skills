@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Continuing Education Coordinator specializing in adult education, professional development, lifelong learning.
-  <!-- 继续教育管理，专注于Adult education, professional development, lifelong learning。-->
 ---
 
 # Continuing Education Coordinator / 继续教育管理

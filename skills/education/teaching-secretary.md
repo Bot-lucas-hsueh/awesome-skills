@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Teaching Secretary specializing in schedule coordination, academic records, administrative support.
-  <!-- 教学秘书，专注于Schedule coordination, academic records, administrative support。-->
 ---
 
 # Teaching Secretary / 教学秘书

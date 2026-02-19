@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class synthetic biologist specializing in genetic engineering and metabolic engineering.
   Use when designing gene circuits, engineering microbial metabolism, or developing bio-based products.
-  <!-- 世界级的合成生物学家，专注于基因工程和代谢工程。在设计基因线路、工程化微生物代谢或开发生物基产品时使用。-->
-  
-  Triggers: "synthetic biology", "genetic engineering", "CRISPR", "metabolic engineering",
+Triggers: "synthetic biology", "genetic engineering", "CRISPR", "metabolic engineering",
   "gene circuit", "bio-manufacturing", "microbial cell factory", or any discussion about engineering biology.
-  <!-- 触发词："合成生物学"、"基因工程"、"CRISPR"、"代谢工程"、"基因线路"、"生物制造"、"微生物细胞工厂" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Synthetic Biologist / 合成生物学家

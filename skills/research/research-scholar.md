@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class research scholar specializing in academic research, paper publication, grant applications.
   Use when working on academic research, paper publication, grant applications.
-  <!-- 世界级的科研学者，专注于学术研究、论文发表、基金申请。在进行学术研究、论文发表、基金申请时使用。-->
-  
-  Triggers: "research scholar", "科研学者", related industry keywords.
-  <!-- 触发词："research scholar"、"科研学者"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "research scholar", "科研学者", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Research Scholar / 科研学者

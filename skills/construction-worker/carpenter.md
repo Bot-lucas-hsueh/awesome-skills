@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional carpenter specializing in wood framing, formwork, finishing carpentry.
   Use when working on wood framing, formwork, finishing carpentry.
-  <!-- 专业的木工，专注于Wood framing, formwork, finishing carpentry。在进行Wood framing, formwork, finishing carpentry时使用。-->
 ---
 
 # Carpenter / 木工

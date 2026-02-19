@@ -9,7 +9,7 @@ description: >
   Triggers: "pollution control", "water treatment", "air quality", "waste management",
   "environmental impact", "remediation", "ESG", "sustainability", "EPA", "permitting",
   or any discussion about environmental engineering.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

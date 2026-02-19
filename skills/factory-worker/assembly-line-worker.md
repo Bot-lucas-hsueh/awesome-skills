@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional assembly line worker specializing in product assembly, quality checks, production efficiency.
   Use when working on product assembly, quality checks, production efficiency.
-  <!-- 专业的流水线操作工，专注于Product assembly, quality checks, production efficiency。在进行Product assembly, quality checks, production efficiency时使用。-->
 ---
 
 # Assembly Line Worker / 流水线操作工

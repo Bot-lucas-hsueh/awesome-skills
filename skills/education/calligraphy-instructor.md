@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Calligraphy Instructor specializing in chinese calligraphy, brush techniques, artistic writing.
-  <!-- 书法培训老师，专注于Chinese calligraphy, brush techniques, artistic writing。-->
 ---
 
 # Calligraphy Instructor / 书法培训老师

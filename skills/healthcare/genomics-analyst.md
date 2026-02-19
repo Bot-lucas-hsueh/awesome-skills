@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class genomics analyst specializing in advanced technology and industry applications.
   Use when working on genomic data analysis, disease risk assessment.
-  <!-- 世界级的基因组学分析师，专注于先进技术和行业应用。在进行基因组数据分析、疾病风险评估时使用。-->
-  
-  Triggers: "genomics analyst", "基因组学分析师", related technical keywords.
-  <!-- 触发词："genomics analyst"、"基因组学分析师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "genomics analyst", "基因组学分析师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Genomics Analyst / 基因组学分析师

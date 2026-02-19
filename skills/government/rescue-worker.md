@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Rescue Worker specializing in emergency assistance, shelter management, social care.
-  <!-- 救助站工作人员，专注于Emergency assistance, shelter management, social care。-->
 ---
 
 # Rescue Worker / 救助站工作人员

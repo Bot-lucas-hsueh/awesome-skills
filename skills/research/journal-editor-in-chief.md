@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Journal Editor-in-Chief specializing in editorial direction, manuscript final review, academic community building.
-  <!-- 学术期刊主编，专注于Editorial direction, manuscript final review, academic community building。-->
 ---
 
 # Journal Editor-in-Chief / 学术期刊主编

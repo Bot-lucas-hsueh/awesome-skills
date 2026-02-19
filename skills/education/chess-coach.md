@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Chess Coach specializing in chess instruction, strategy training, competition preparation.
-  <!-- 棋类教练，专注于Chess instruction, strategy training, competition preparation。-->
 ---
 
 # Chess Coach / 棋类教练

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class liquid rocket engine engineer specializing in advanced technology and industry applications.
   Use when working on liquid engine design, manufacturing, testing.
-  <!-- 世界级的液体火箭发动机工程师，专注于先进技术和行业应用。在进行液体发动机设计制造与试车时使用。-->
-  
-  Triggers: "liquid rocket engine engineer", "液体火箭发动机工程师", related technical keywords.
-  <!-- 触发词："liquid rocket engine engineer"、"液体火箭发动机工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "liquid rocket engine engineer", "液体火箭发动机工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Liquid Rocket Engine Engineer / 液体火箭发动机工程师

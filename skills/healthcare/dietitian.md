@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional dietitian specializing in nutritional planning, diet counseling, health optimization.
-  <!-- 专业的营养师，专注于Nutritional planning, diet counseling, health optimization。-->
 ---
 
 # Dietitian / 营养师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class brand manager specializing in brand strategy, visual identity, brand communications, brand equity.
   Use when working on brand strategy, visual identity, brand communications, brand equity.
-  <!-- 世界级的品牌经理，专注于品牌战略、视觉识别、品牌传播、品牌资产。在进行品牌战略、视觉识别、品牌传播、品牌资产时使用。-->
-  
-  Triggers: "brand manager", "品牌经理", related industry keywords.
-  <!-- 触发词："brand manager"、"品牌经理"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "brand manager", "品牌经理", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Brand Manager / 品牌经理

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional warehouse manager specializing in inventory control, logistics coordination, stock management.
   Use when working on inventory control, logistics coordination, stock management.
-  <!-- 专业的仓库管理员，专注于Inventory control, logistics coordination, stock management。在进行Inventory control, logistics coordination, stock management时使用。-->
 ---
 
 # Warehouse Manager / 仓库管理员

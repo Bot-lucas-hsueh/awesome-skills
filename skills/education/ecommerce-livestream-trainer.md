@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   E-commerce Livestream Trainer specializing in live selling skills, platform operations, audience engagement.
-  <!-- 电商直播培训师，专注于Live selling skills, platform operations, audience engagement。-->
 ---
 
 # E-commerce Livestream Trainer / 电商直播培训师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class geotechnical engineer specializing in soil mechanics, foundation design, slope stability.
   Use when working on soil mechanics, foundation design, slope stability.
-  <!-- 世界级的岩土工程师，专注于土力学、基础设计、边坡稳定。在进行土力学、基础设计、边坡稳定时使用。-->
-  
-  Triggers: "geotechnical engineer", "岩土工程师", related industry keywords.
-  <!-- 触发词："geotechnical engineer"、"岩土工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "geotechnical engineer", "岩土工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Geotechnical Engineer / 岩土工程师

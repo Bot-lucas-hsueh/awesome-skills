@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Medical Insurance Officer specializing in insurance processing, claims management, policy compliance.
-  <!-- 医保办人员，专注于Insurance processing, claims management, policy compliance。-->
 ---
 
 # Medical Insurance Officer / 医保办人员

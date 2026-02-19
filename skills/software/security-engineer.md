@@ -9,7 +9,7 @@ description: >
   Triggers: "security", "authentication", "authorization", "encryption", "penetration test",
   "vulnerability", "secure coding", "OWASP", "threat modeling", "incident response",
   or any discussion about cybersecurity.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

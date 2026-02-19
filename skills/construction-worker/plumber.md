@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional plumber specializing in pipe installation, drainage, hvac systems.
   Use when working on pipe installation, drainage, hvac systems.
-  <!-- 专业的水暖工，专注于Pipe installation, drainage, HVAC systems。在进行Pipe installation, drainage, HVAC systems时使用。-->
 ---
 
 # Plumber / 水暖工

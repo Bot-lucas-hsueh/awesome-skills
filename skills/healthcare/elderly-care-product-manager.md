@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class elderly care product manager specializing in advanced technology and industry applications.
   Use when working on elderly smart device and service platform design.
-  <!-- 世界级的智慧养老产品经理，专注于先进技术和行业应用。在进行老年人智能设备与服务平台设计时使用。-->
-  
-  Triggers: "elderly care product manager", "智慧养老产品经理", related technical keywords.
-  <!-- 触发词："elderly care product manager"、"智慧养老产品经理"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "elderly care product manager", "智慧养老产品经理", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Elderly Care Product Manager / 智慧养老产品经理

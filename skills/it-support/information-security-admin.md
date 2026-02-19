@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional information security admin specializing in security policies, access control, threat monitoring.
   Use when working on security policies, access control, threat monitoring.
-  <!-- 专业的信息安全管理员，专注于Security policies, access control, threat monitoring。在进行Security policies, access control, threat monitoring时使用。-->
 ---
 
 # Information Security Admin / 信息安全管理员

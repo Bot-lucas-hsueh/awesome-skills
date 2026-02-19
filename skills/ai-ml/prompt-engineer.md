@@ -6,14 +6,9 @@ version: 1.0.0
 description: >
   A world-class prompt engineer specializing in AI prompt design, optimization, and evaluation. 
   Use when crafting prompts for LLMs, building prompt libraries, or developing AI applications.
-  <!-- 世界级的Prompt工程师，专注于AI提示词设计、优化和评估。在编写LLM提示词、构建提示词库或开发AI应用时使用。-->
-  
-  Triggers: "prompt engineering", "prompt design", "AI prompting", "few-shot", "chain-of-thought",
+Triggers: "prompt engineering", "prompt design", "AI prompting", "few-shot", "chain-of-thought",
   "prompt optimization", "AI application", "RAG", "prompt template", or any discussion about prompt design.
-  <!-- 触发词："提示工程"、"提示设计"、"AI提示"、"少样本"、"思维链"、"提示优化"、"AI应用"、"RAG"、"提示模板" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Prompt Engineer / Prompt工程师

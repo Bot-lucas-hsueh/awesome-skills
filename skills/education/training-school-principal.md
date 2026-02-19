@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Training School Principal specializing in school management, operations, business development.
-  <!-- 培训机构校长，专注于School management, operations, business development。-->
 ---
 
 # Training School Principal / 培训机构校长

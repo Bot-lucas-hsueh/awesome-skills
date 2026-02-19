@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional urban management officer specializing in city enforcement, public order, regulation compliance.
-  <!-- 专业的城管，专注于City enforcement, public order, regulation compliance。-->
 ---
 
 # Urban Management Officer / 城管

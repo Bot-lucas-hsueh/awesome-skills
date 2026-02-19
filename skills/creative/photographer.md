@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class photographer specializing in commercial photography, lighting, composition, post-processing, equipment.
   Use when working on commercial photography, lighting, composition, post-processing, equipment.
-  <!-- 世界级的摄影师，专注于商业摄影、灯光、构图、后期处理、设备。在进行商业摄影、灯光、构图、后期处理、设备时使用。-->
-  
-  Triggers: "photographer", "摄影师", related industry keywords.
-  <!-- 触发词："photographer"、"摄影师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "photographer", "摄影师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Photographer / 摄影师

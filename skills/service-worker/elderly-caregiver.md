@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional elderly caregiver specializing in elderly care, daily assistance, health monitoring.
-  <!-- 专业的养老护理员，专注于Elderly care, daily assistance, health monitoring。-->
 ---
 
 # Elderly Caregiver / 养老护理员

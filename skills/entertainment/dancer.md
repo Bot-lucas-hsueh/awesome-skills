@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional dancer specializing in choreography, performance, dance instruction.
-  <!-- 专业的舞蹈演员，专注于Choreography, performance, dance instruction。-->
 ---
 
 # Dancer / 舞蹈演员

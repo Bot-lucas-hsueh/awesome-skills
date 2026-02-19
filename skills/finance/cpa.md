@@ -9,7 +9,7 @@ description: >
   Triggers: "financial statement", "audit", "tax planning", "GAAP", "IFRS", 
   "bookkeeping", "financial reporting", "tax return", "compliance", "CFO advisory",
   or any discussion about accounting and financial matters.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

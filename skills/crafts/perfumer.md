@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Perfumer specializing in fragrance creation, scent composition, olfactory art.
-  <!-- 调香师，专注于Fragrance creation, scent composition, olfactory art。-->
 ---
 
 # Perfumer / 调香师

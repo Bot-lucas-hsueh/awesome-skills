@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional organization development specialist specializing in org design, change management, culture building.
   Use when working on org design, change management, culture building.
-  <!-- 专业的组织发展专家，专注于Org design, change management, culture building。在进行Org design, change management, culture building时使用。-->
 ---
 
 # Organization Development Specialist / 组织发展专家

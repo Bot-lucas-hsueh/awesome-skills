@@ -9,7 +9,7 @@ description: >
   Triggers: "contract review", "legal advice", "compliance", "terms of service",
   "privacy policy", "employment agreement", "NDA", "intellectual property",
   "litigation", "regulatory", or any discussion about legal matters.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

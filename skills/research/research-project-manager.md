@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Research Project Manager specializing in grant application, budget management, project coordination.
-  <!-- 科研项目管理，专注于Grant application, budget management, project coordination。-->
 ---
 
 # Research Project Manager / 科研项目管理

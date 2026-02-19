@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Embroiderer specializing in embroidery, needlework, textile art.
-  <!-- 刺绣艺人，专注于Embroidery, needlework, textile art。-->
 ---
 
 # Embroiderer / 刺绣艺人

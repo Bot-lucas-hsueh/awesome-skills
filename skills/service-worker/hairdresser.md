@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional hairdresser specializing in hair cutting, styling, coloring.
-  <!-- 专业的美发师，专注于Hair cutting, styling, coloring。-->
 ---
 
 # Hairdresser / 美发师

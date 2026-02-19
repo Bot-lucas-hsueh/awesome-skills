@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional e-commerce seller specializing in online selling, product sourcing, customer service.
-  <!-- 专业的个体电商，专注于Online selling, product sourcing, customer service。-->
 ---
 
 # E-commerce Seller / 个体电商

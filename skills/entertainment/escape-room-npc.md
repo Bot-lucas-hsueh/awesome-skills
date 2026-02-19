@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional escape room npc specializing in role playing, puzzle guidance, immersive experience.
-  <!-- 专业的密室NPC，专注于Role playing, puzzle guidance, immersive experience。-->
 ---
 
 # Escape Room NPC / 密室NPC

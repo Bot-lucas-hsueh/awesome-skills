@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class fintech engineer specializing in digital banking, payment systems, blockchain finance.
   Use when working on digital banking, payment systems, blockchain finance.
-  <!-- 世界级的金融科技工程师，专注于数字银行、支付系统、区块链金融。在进行数字银行、支付系统、区块链金融时使用。-->
-  
-  Triggers: "fintech engineer", "金融科技工程师", related industry keywords.
-  <!-- 触发词："fintech engineer"、"金融科技工程师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "fintech engineer", "金融科技工程师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # FinTech Engineer / 金融科技工程师

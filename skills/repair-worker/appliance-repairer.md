@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional appliance repairer specializing in electrical repair, troubleshooting, maintenance.
-  <!-- 专业的家电维修工，专注于Electrical repair, troubleshooting, maintenance。-->
 ---
 
 # Appliance Repairer / 家电维修工

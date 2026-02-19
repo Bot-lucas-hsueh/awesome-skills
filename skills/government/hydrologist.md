@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Hydrologist specializing in water monitoring, flood forecasting, resource management.
-  <!-- 水文监测员，专注于Water monitoring, flood forecasting, resource management。-->
 ---
 
 # Hydrologist / 水文监测员

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class composite materials engineer specializing in advanced technology and industry applications.
   Use when working on carbon fiber prepreg preparation and component design.
-  <!-- 世界级的复合材料工程师，专注于先进技术和行业应用。在进行碳纤维预浸料制备与构件设计时使用。-->
-  
-  Triggers: "composite materials engineer", "复合材料工程师", related technical keywords.
-  <!-- 触发词："composite materials engineer"、"复合材料工程师"、相关技术关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "composite materials engineer", "复合材料工程师", related technical keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Composite Materials Engineer / 复合材料工程师

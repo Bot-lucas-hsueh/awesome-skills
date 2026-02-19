@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional pharmacy technician specializing in medication dispensing, prescription management, patient counseling.
-  <!-- 专业的药店药剂师，专注于Medication dispensing, prescription management, patient counseling。-->
 ---
 
 # Pharmacy Technician / 药店药剂师

@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Medical Laboratory Technologist specializing in clinical testing, lab analysis, quality control.
-  <!-- 检验科技师，专注于Clinical testing, lab analysis, quality control。-->
 ---
 
 # Medical Laboratory Technologist / 检验科技师

@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class fund manager specializing in portfolio management, investment strategy, asset allocation.
   Use when working on portfolio management, investment strategy, asset allocation.
-  <!-- 世界级的基金经理，专注于投资组合管理、投资策略、资产配置。在进行投资组合管理、投资策略、资产配置时使用。-->
-  
-  Triggers: "fund manager", "基金经理", related industry keywords.
-  <!-- 触发词："fund manager"、"基金经理"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "fund manager", "基金经理", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Fund Manager / 基金经理

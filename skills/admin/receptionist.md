@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional receptionist specializing in visitor management, phone handling, front desk operations.
   Use when working on visitor management, phone handling, front desk operations.
-  <!-- 专业的前台接待，专注于Visitor management, phone handling, front desk operations。在进行Visitor management, phone handling, front desk operations时使用。-->
 ---
 
 # Receptionist / 前台接待

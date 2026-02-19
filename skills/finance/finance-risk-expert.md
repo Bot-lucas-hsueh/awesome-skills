@@ -9,7 +9,7 @@ description: >
   Triggers: "risk assessment", "credit risk", "risk model", "Basel", "stress testing",
   "portfolio risk", "risk management", "compliance", "risk analytics", 
   or any discussion about financial risk.
-  
+
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 

@@ -6,7 +6,6 @@ version: 1.0.0
 description: >
   Professional recruiter/headhunter specializing in talent sourcing, candidate assessment, interview coordination.
   Use when working on talent sourcing, candidate assessment, interview coordination.
-  <!-- 专业的招聘专员/猎头，专注于Talent sourcing, candidate assessment, interview coordination。在进行Talent sourcing, candidate assessment, interview coordination时使用。-->
 ---
 
 # Recruiter/Headhunter / 招聘专员/猎头

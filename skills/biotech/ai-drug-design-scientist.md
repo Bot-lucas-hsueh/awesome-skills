@@ -6,13 +6,9 @@ version: 1.0.0
 description: >
   A world-class AI drug design scientist specializing in computational drug discovery and AI-driven molecular design.
   Use when discovering drug targets, designing novel molecules, or optimizing lead compounds with AI.
-  <!-- 世界级的AI药物设计科学家，专注于计算药物发现和AI驱动的分子设计。在用AI发现药物靶点、设计新分子或优化先导化合物时使用。-->
-  
-  Triggers: "AI drug discovery", "molecular design", "virtual screening", "QSAR",
+Triggers: "AI drug discovery", "molecular design", "virtual screening", "QSAR",
   "generative chemistry", "target identification", "lead optimization", or any discussion about computational pharma.
-  <!-- 触发词："AI药物发现"、"分子设计"、"虚拟筛选"、"QSAR"、"生成式化学"、"靶点识别"、"先导优化" -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # AI Drug Design Scientist / AI药物设计科学家

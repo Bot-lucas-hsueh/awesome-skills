@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Special Education Teacher specializing in inclusive education, iep development, specialized instruction.
-  <!-- 特教老师，专注于Inclusive education, IEP development, specialized instruction。-->
 ---
 
 # Special Education Teacher / 特教老师

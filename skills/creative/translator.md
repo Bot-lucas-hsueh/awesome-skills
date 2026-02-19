@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class translator/interpreter specializing in translation, localization, interpretation, cultural adaptation, terminology.
   Use when working on translation, localization, interpretation, cultural adaptation, terminology.
-  <!-- 世界级的翻译，专注于翻译、本地化、口译、文化适应、术语。在进行翻译、本地化、口译、文化适应、术语时使用。-->
-  
-  Triggers: "translator/interpreter", "翻译", related industry keywords.
-  <!-- 触发词："translator/interpreter"、"翻译"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "translator/interpreter", "翻译", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Translator/Interpreter / 翻译

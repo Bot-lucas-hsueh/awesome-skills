@@ -6,12 +6,8 @@ version: 1.0.0
 description: >
   A world-class engineering consultant specializing in technical consulting, feasibility studies, project assessment.
   Use when working on technical consulting, feasibility studies, project assessment.
-  <!-- 世界级的工程咨询师，专注于技术咨询、可行性研究、项目评估。在进行技术咨询、可行性研究、项目评估时使用。-->
-  
-  Triggers: "engineering consultant", "工程咨询师", related industry keywords.
-  <!-- 触发词："engineering consultant"、"工程咨询师"、相关行业关键词 -->
-  
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+Triggers: "engineering consultant", "工程咨询师", related industry keywords.
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Engineering Consultant / 工程咨询师

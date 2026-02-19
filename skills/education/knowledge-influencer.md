@@ -5,7 +5,6 @@ author: awesome-skills
 version: 1.0.0
 description: >
   Professional knowledge influencer specializing in online courses, content creation, knowledge monetization.
-  <!-- 专业的知识付费讲师，专注于Online courses, content creation, knowledge monetization。-->
 ---
 
 # Knowledge Influencer / 知识付费讲师
