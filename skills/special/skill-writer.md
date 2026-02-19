@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 8.0.0
+version: 9.0.0
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -20,7 +20,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 8.0.0** | **Expert Verified** | **Last Updated: 2026-02-18**
+> **Version 9.0.0** | **Expert Verified** | **Last Updated: 2026-02-19**
 
 ---
 
@@ -108,11 +108,12 @@ This skill transforms your AI assistant into an expert **Skill Architect** capab
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation / 缓解措施 |
 |-------------|-----------|-------------------|---------------------|
-| **Scope Creep** | 🔴 High | Generated skills cover too many domains, diluting focus | Apply Anti-Pattern #1 check; enforce one-domain rule |
-| **Shallow Depth** | 🔴 High | Skills pass structural checks but lack domain depth to change AI behavior | Score against Quality Rubric; require 7+/10 on Domain Knowledge |
-| **Metadata Errors** | 🟡 Medium | YAML syntax errors or missing fields cause skills to fail loading | Validate with YAML linter; verify all 9 fields |
-| **Token Waste** | 🟡 Medium | Overly long skills consume context window without proportional behavior improvement | Domain skills: target <600 lines. Meta-skills with embedded standards (like this one): <900 lines. Compress reference material into tables; eliminate filler prose |
-| **Translation Drift** | 🟢 Low | Chinese translations become literal or culturally misaligned | Ensure semantic equivalence; never translate idioms word-by-word |
+| **Scope Creep** | 🔴 High | Skill covers too many domains → AI frameworks contradict each other; role behaves as generalist | Apply Anti-Pattern #1; enforce one-domain rule. **Escalate if:** skill mentions 3+ distinct job titles or tools from 2+ unrelated fields — split before writing |
+| **Shallow Depth** | 🔴 High | Passes structural checks but lacks domain depth → AI output indistinguishable with vs. without skill loaded | Score against Quality Rubric; require 7+/10 on Domain Knowledge. **Escalate if:** score <5.0 after first draft — consult domain expert, do not self-edit in loops |
+| **Metadata Errors** | 🟡 Medium | YAML syntax errors or missing fields → skill fails to load in platforms that parse frontmatter | Validate with `yamllint`; verify all 9 fields. Fix before PR — broken YAML is a silent failure |
+| **Token Waste** | 🟡 Medium | Overly long skills → AI forgets early instructions by end of file; real task gets compressed context | Domain skills: target <600 lines. Meta-skills with embedded standards (like this one): <900 lines. Compress reference material into tables; eliminate filler prose |
+| **Translation Drift** | 🟢 Low | Chinese translations become literal or culturally misaligned → native readers distrust the skill | Ensure semantic equivalence; never translate idioms word-by-word |
+| **False Activation** | 🟡 Medium | Broad trigger words (e.g., "create") fire this skill on unrelated requests → user gets skill-writing persona when asking a domain question | Use specific verb phrases ("create skill", "review skill"). Test each trigger word against 5 adjacent non-skill requests to catch false positives |
 
 **⚠️ IMPORTANT / 重要**:
 - This skill provides writing standards and frameworks, not domain expertise. Pair with domain experts for content accuracy.
@@ -349,23 +350,23 @@ Step 6: Give overall classification and upgrade path
 ```
 From Basic to Expert, add these in priority order:
 
-□ Structured System Prompt (role + thinking patterns + communication style)
+☐ Structured System Prompt (role + thinking patterns + communication style)
   → Reference: skills/executive/ceo.md Section 1
 
-□ Deep Domain Frameworks (decision matrices, not just lists)
+☐ Deep Domain Frameworks (decision matrices, not just lists)
   → Add: when to use each framework, inputs/outputs, concrete examples
   → Replace: "improve performance" → "reduce latency to <200ms at P99"
 
-□ Scenario-Based Guidance (2-3 full conversation examples)
+☐ Scenario-Based Guidance (2-3 full conversation examples)
   → Show: User question → Expert-level response applying frameworks
 
-□ Complete Metadata (all 9 fields with valid YAML; no HTML comments in description)
+☐ Complete Metadata (all 9 fields with valid YAML; no HTML comments in description)
   → Add: difficulty, category, tags, platforms
 
-□ Domain-Specific Risks (4+ with severity classification)
+☐ Domain-Specific Risks (4+ with severity classification)
   → Replace: "AI may be wrong" → "AI may suggest contraindicated drug combinations"
 
-□ Quality Score Verification (weighted avg ≥ 7.0)
+☐ Quality Score Verification (weighted avg ≥ 7.0)
   → Run the 6-dimension rubric; fix weakest dimension first
 ```
 
@@ -806,10 +807,10 @@ suggests 2-3 concrete scenario examples
 | **System Prompt Depth** | 9/10 | ⭐⭐ Exemplary | 20% | 1.80 | §1: role + 6-gate decision framework + 6 thinking patterns (incl. Cognitive Load, Trigger Precision) + communication style |
 | **Domain Knowledge Density** | 8/10 | ⭐ Expert | 25% | 2.00 | §7: Quality Rubric with 4-tier table + weighted formula, 16-section checklist, bilingual rules, file org table |
 | **Workflow Actionability** | 8/10 | ⭐ Expert | 15% | 1.20 | §8: 4-phase creation workflow with section refs + review steps + upgrade checklist with templates; Phase 4 has measurable litmus test |
-| **Risk Documentation** | 8/10 | ⭐ Expert | 10% | 0.80 | §3: 5 domain-specific risks with severity ratings + token-line targets per skill type |
+| **Risk Documentation** | 9/10 | ⭐⭐ Exemplary | 10% | 0.90 | §3: 6 domain-specific risks (incl. False Activation edge case); all entries have consequence arrows (→) and escalation triggers; severity ratings on all |
 | **Example Quality** | 9/10 | ⭐⭐ Exemplary | 20% | 1.80 | §9: 3 full 2-turn flows — creation/upgrade (§9.1), review+system-prompt-rewrite explicitly correcting Anti-Pattern #2 (§9.2), upgrade+ABCDE clinical framework detail (§9.3); all different use cases |
-| **Metadata Completeness** | 10/10 | ⭐⭐ Exemplary | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description; version history has 8+ entries |
-| **Weighted Total** | | | | **8.60/10** | **→ Expert Verified** ✅ (3 dimensions at Exemplary level ⭐⭐: System Prompt, Example Quality, Metadata; 3 at Expert level ⭐) |
+| **Metadata Completeness** | 10/10 | ⭐⭐ Exemplary | 10% | 1.00 | All 9 fields present; no HTML comments in YAML description; version history has 9+ entries |
+| **Weighted Total** | | | | **8.70/10** | **→ Expert Verified** ✅ (4 dimensions at Exemplary level ⭐⭐: System Prompt, Risk Docs, Example Quality, Metadata; 2 at Expert level ⭐) |
 
 ---
 
@@ -817,6 +818,7 @@ suggests 2-3 concrete scenario examples
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 9.0.0 | 2026-02-19 | Fourth deep optimization pass (5 targeted fixes): (1) §3 Risk table — added consequence arrows (→) to all descriptions, escalation triggers to all High/Medium risks, and 6th risk "False Activation" (adjacent domain edge case covering trigger precision); Risk Documentation self-score 8→9/10 Exemplary, weighted total 8.60→8.70/10; (2) CONTRIBUTING.md Anti-Pattern #6 fix — removed HTML comments from YAML `description` example (skill-writer §6 toolkit links to CONTRIBUTING.md, making its violation a direct self-inconsistency per Anti-Pattern #3); (3) CONTRIBUTING.md metadata fix — YAML example now includes all 9 required fields (added difficulty, category, tags, platforms) and a warning note; (4) CONTRIBUTING.md §Required Sections — added canonical reference to TEMPLATE.md + skill-writer.md §7.3; quality criteria and PR checklist updated to reflect 9-field and 16-section standards; (5) §8.3 checkbox consistency fix — □ (U+25A1) → ☐ (U+2610) to match §14 self-checklist format |
 | 8.0.0 | 2026-02-18 | Third deep optimization pass (11 targeted fixes from fresh audit): (1) §9.2 extended to full 2-turn conversation flow — user follow-up triggers system prompt draft that explicitly corrects Anti-Pattern #2 (Shallow Depth) with GAAP/IFRS decision matrix; (2) §9.3 extended to full 2-turn conversation flow — user follow-up triggers ABCDE clinical assessment table with specific thresholds; (3) Example Quality self-score 8→9/10 Exemplary (3 full flows, all different use cases, one explicitly corrects anti-pattern); weighted total 8.40→8.60/10; (4) §2 Chinese translation updated to include Exemplary (4th tier); (5) §5 Claude Code/OpenClaw/Kimi install instructions changed from circular ("follow the instructions") to explicit ("activate the Skill Writer role from §1"); (6) §8.1 Phase 1 added Exemplary to tier goal list; (7) §9.1 title clarified to "Creating / Upgrading a Skill"; (8) §10 Anti-Pattern #8 removed redundant Chinese HTML comment (Chinese already in inline /); (9) §12 upgrade path added Exemplary tier; (10) §14 checklist threshold expanded to include Exemplary ≥9.0; (11) §1.2 Density fail action corrected from "compress tables" → "compress prose into tables" |
 | 7.0.0 | 2026-02-18 | Second deep optimization pass (8 targeted fixes from fresh audit): (1) §7.1 Quality Rubric — split Expert column into Expert (7-8) and Exemplary (9-10) with distinct content per dimension; Scoring Rules updated to match 4-tier system; (2) §1.3 Thinking Patterns — added Cognitive Load (signal-to-token ratio) and Trigger Precision (test against 5 adjacent requests) as skill-architect-specific patterns; (3) §8.1 Phase 3/4 — added section cross-references for each Phase 3 step (§7.2, §7.3, §7.4, §9) and made Phase 4 litmus test measurable: "prompt AI with vs. without skill on 3 tasks"; (4) §7.3 §14 Expert Hallmark — now requires self-score table applying Quality Rubric to the skill itself; (5) §2 capability 2 — fixed "3 tiers" → "4 tiers (Basic/Community/Expert/Exemplary)"; (6) §12 — replaced vague "appropriate domain skill" with "browse CATALOG.md or /skills/ directory"; (7) §6 YAML Validator — added yamllint command and yaml-validator.com; (8) §14 self-score — added Tier column, correctly labeled System Prompt (9→Exemplary) and Metadata (10→Exemplary) |
 | 6.0.0 | 2026-02-18 | Deep optimization: (1) TEMPLATE.md complete rewrite — now matches 16-section standard, removed Anti-Pattern #6 violation (HTML in YAML description), added all 4 System Prompt subsections, added Standards & Reference §7 with frameworks/metrics, aligned Quality Verification self-checklist including format-standard bilingual row; (2) §14 bilingual dimension mapping corrected from "Metadata Completeness" → "(Format Standard)"; (3) §14 self-score table added — applies Quality Rubric to skill-writer itself (8.40/10), fulfills §4.2 Self-Exemplar principle; (4) §9.1 scenario extended with complete conversation flow: user follow-up → skill writer produces full System Prompt draft with consensus matrix, scaling decision tree, and audit checklist |

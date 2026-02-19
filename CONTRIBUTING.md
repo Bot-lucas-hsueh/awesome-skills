@@ -101,25 +101,32 @@ skills/
 
 ### Required Sections <!-- 必需部分 -->
 
-Every skill must include these sections:
-<!-- 每个技能必须包含以下部分：-->
+Every skill must include all **16 standard H2 sections** in the correct order. The canonical structure is defined in [TEMPLATE.md](./TEMPLATE.md) and the authoritative checklist is in [skill-writer.md §7.3](./skills/special/skill-writer.md).
+<!-- 每个技能必须按正确顺序包含所有 **16 个标准 H2 章节**。规范结构在 [TEMPLATE.md](./TEMPLATE.md) 中定义，权威清单在 [skill-writer.md §7.3](./skills/special/skill-writer.md) 中。-->
+
+The sections below describe the most critical ones:
+<!-- 以下章节描述最关键的部分：-->
 
 #### 1. Frontmatter (YAML) <!-- 1. 前言（YAML）-->
 
 ```yaml
 ---
-name: skill-name                  # Unique identifier / 唯一标识符
-display_name: Skill Display Name # Human-readable name / 人类可读名称
-author: your-github-username      # Contributor / 贡献者
-version: 1.0.0                   # Semantic versioning / 语义化版本
-description: >                   # Trigger conditions / 触发条件
+name: skill-name                             # Unique identifier / 唯一标识符
+display_name: Skill Display Name / 技能名称  # Bilingual display name
+author: your-github-username                 # Contributor / 贡献者
+version: 1.0.0                              # Semantic versioning / 语义化版本
+difficulty: expert|intermediate|beginner     # Skill complexity level
+category: category-name                      # Must match a /skills/ subdirectory
+tags: [tag1, tag2, tag3]                    # 3-5 searchable tags
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
   A world-class expert in [domain]. Use when [triggers].
-  <!-- 世界级的 [领域] 专家。在 [触发条件] 时使用。-->
-  
+  Triggers: "keyword1", "keyword2"
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-  <!-- 支持：Claude Code、OpenAI Codex、Kimi Code、OpenCode、Cursor、Cline、OpenClaw -->
 ---
 ```
+
+> **⚠️ Important**: Do NOT include `<!-- HTML comments -->` inside the YAML `description` field. YAML does not parse them — they become literal string content polluting machine-readable metadata. Keep bilingual content in the Markdown body only.
 
 #### 2. What This Skill Does <!-- 2. 此技能做什么 -->
 
@@ -183,11 +190,11 @@ Before submitting, ensure your skill meets these criteria:
 | Criterion / 标准 | Requirement / 要求 |
 |-----------------|-------------------|
 | **Accuracy / 准确性** | Content is factually correct / 内容事实正确 |
-| **Completeness / 完整性** | All required sections included / 包含所有必需部分 |
-| **Clarity / 清晰性** | Easy to understand / 易于理解 |
-| **Practicality / 实用性** | Actionable advice / 可操作的建议 |
-| **Safety / 安全性** | Appropriate risk warnings / 适当的风险警告 |
-| **Bilingual / 双语** | English + Chinese comments / 英文 + 中文注释 |
+| **Completeness / 完整性** | All 9 metadata fields + all 16 H2 sections in correct order; see TEMPLATE.md / 所有 9 个元数据字段 + 按正确顺序排列的 16 个 H2 章节 |
+| **Clarity / 清晰性** | Easy to understand; tables over prose / 易于理解；表格优于散文 |
+| **Practicality / 实用性** | Actionable advice with frameworks and examples / 含框架和示例的可操作建议 |
+| **Safety / 安全性** | 4+ domain-specific risk warnings with severity ratings / 4+ 条带严重度评级的领域特定风险警告 |
+| **Bilingual / 双语** | English primary; Chinese in `<!-- -->` for prose; `/` separator in table headers / 英文为主；散文中文用 `<!-- -->`；表头用 `/` 分隔 |
 
 ## 🌏 Bilingual Format Guide <!-- 双语格式指南 -->
 
@@ -343,9 +350,10 @@ Brief description of changes
 
 ## Checklist
 <!-- 检查清单 -->
-- [ ] Followed TEMPLATE.md structure
-- [ ] Included risk disclaimer
-- [ ] Added bilingual comments
+- [ ] Followed TEMPLATE.md structure (all 16 H2 sections in correct order)
+- [ ] All 9 YAML metadata fields present; no HTML comments in YAML `description`
+- [ ] Included 4+ domain-specific risk warnings with severity ratings
+- [ ] Added bilingual comments (English primary, Chinese in `<!-- -->`)
 - [ ] Tested installation command
 - [ ] Updated index.html (if new category)
 
