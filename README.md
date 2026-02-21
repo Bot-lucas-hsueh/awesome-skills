@@ -7,8 +7,8 @@
 
 **Transform Your AI Assistant into Any Professional**
 
-[![Skills](https://img.shields.io/badge/Skills-450+-blueviolet?style=flat-square)](./CATALOG.md)
-[![Expert Verified](https://img.shields.io/badge/Expert%20Verified-20+-gold?style=flat-square)](./CATALOG.md#expert-verified-skills)
+[![Skills](https://img.shields.io/badge/Skills-460+-blueviolet?style=flat-square)](./CATALOG.md)
+[![Expert Verified](https://img.shields.io/badge/Expert%20Verified-37-gold?style=flat-square)](./CATALOG.md#expert-verified-skills)
 [![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](#platform-support)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
@@ -44,7 +44,7 @@ Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md 
 | Feature | Awesome Skills | Generic Prompt Collections |
 |---------|----------------|---------------------------|
 | **Depth** | System Prompt + Knowledge Frameworks + Scenarios | Usually single prompts |
-| **Quality** | ⭐ Expert Verified (Top 20), ✅ Community Verified | Unverified quality |
+| **Quality** | ⭐ Expert Verified (37 skills), ✅ Community Verified | Unverified quality |
 | **Multi-Platform** | 7 platforms with specific configurations | Usually one platform |
 | **Usability** | One-line install, immediate behavior change | Manual copy-paste |
 
@@ -80,19 +80,36 @@ Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md 
 
 ---
 
-## ⭐ Expert Verified Skills
+## ⭐ Expert Verified Skills (37)
 
-These skills have been rewritten with deep expertise, including system prompts, professional frameworks, and scenario-based guidance:
+These skills have been rewritten with deep expertise, including system prompts, professional frameworks, real code examples, and scenario-based guidance:
 
-| Skill | Category | Key Features | Install |
-|-------|----------|--------------|---------|
-| [CEO](./skills/executive/ceo.md) | Executive | Strategy frameworks, Board governance, M&A, Crisis management | `Read URL and install ceo skill` |
-| [CTO](./skills/executive/cto.md) | Executive | Tech strategy, Architecture decisions, Engineering culture | `Read URL and install cto skill` |
-| [Software Architect](./skills/software/software-architect.md) | Tech | System design patterns, Scalability, Tech stack decisions | `Read URL and install software-architect skill` |
-| [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) | AI/ML | Prompt patterns, Evaluation frameworks, Optimization techniques | `Read URL and install prompt-engineer skill` |
-| [Product Manager](./skills/product/product-manager.md) | Product | PRD writing, Roadmapping, User research, Metrics | `Read URL and install product-manager skill` |
+| Skill | Category | Key Features |
+|-------|----------|--------------|
+| [CEO](./skills/executive/ceo.md) | Executive | Ansoff Matrix, BCG portfolio, board governance, M&A |
+| [CFO](./skills/executive/cfo.md) | Executive | Capital allocation, investor relations, financial strategy |
+| [CTO](./skills/executive/cto.md) | Executive | Tech strategy, architecture decisions, engineering culture |
+| [DevOps Engineer](./skills/software/devops-engineer.md) | Tech | Kubernetes, Terraform, CI/CD, GitOps, SRE |
+| [Security Engineer](./skills/software/security-engineer.md) | Tech | OWASP Top 10, Zero Trust, pentest, DevSecOps |
+| [Backend Developer](./skills/software/backend-developer.md) | Tech | API design, distributed systems, database architecture |
+| [Frontend Developer](./skills/software/frontend-developer.md) | Tech | React, Web Vitals, accessibility, performance |
+| [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | AI/ML | Pre-training, RLHF, alignment research |
+| [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) | AI/ML | Distributed training, fine-tuning, RLHF pipelines |
+| [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) | AI/ML | MLOps, feature engineering, model deployment |
+| [Financial Analyst](./skills/finance/financial-analyst.md) | Finance | DCF/LBO modeling, FP&A, variance analysis |
+| [CPA](./skills/finance/cpa.md) | Finance | GAAP/IFRS, audit, tax planning, SOX compliance |
+| [Fund Manager](./skills/finance/fund-manager.md) | Finance | Portfolio theory, VaR/CVaR, asset allocation |
+| [Legal Counsel](./skills/legal/legal-counsel.md) | Legal | Contract review, compliance, M&A |
+| [Patent Attorney](./skills/legal/patent-attorney.md) | Legal | IP strategy, patent prosecution, FTO analysis |
+| [Clinical Physician (GP)](./skills/healthcare/general-practitioner.md) | Healthcare | Clinical reasoning, differential diagnosis |
+| [Psychologist](./skills/healthcare/psychologist.md) | Healthcare | CBT/DBT/ACT, assessment, crisis intervention |
+| [Sales Manager](./skills/marketing/sales-manager.md) | Sales | MEDDIC/Challenger, pipeline management, coaching |
+| [Marketing Manager](./skills/marketing/marketing-manager.md) | Marketing | GTM strategy, demand generation, brand |
+| [Data Engineer](./skills/data/data-engineer.md) | Data | Airflow, dbt, Kafka, Delta Lake, lakehouse |
+| [Data Analyst](./skills/data/data-analyst.md) | Data | SQL, A/B testing, BI dashboards, stats |
+| [UX Designer](./skills/product/ux-designer.md) | Product | User research, interaction design, WCAG, design systems |
 
-**[View All 20 Expert Verified Skills →](./CATALOG.md#expert-verified)**
+**[View All 37 Expert Verified Skills →](./CATALOG.md#-expert-verified-skills-37)**
 
 ---
 
