@@ -11,7 +11,8 @@ description: >
   A world-class geotechnical engineer specializing in soil mechanics, foundation design, slope stability.
   Use when working on soil mechanics, foundation design, slope stability.
 Triggers: "geotechnical engineer", "岩土工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Geotechnical Engineer / 岩土工程师
 

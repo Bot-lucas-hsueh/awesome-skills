@@ -12,7 +12,8 @@ description: >
   Use when managing clinical teams, optimizing healthcare delivery, or making hospital/clinic operational decisions.
 Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy",
   "medical team leadership", "healthcare delivery", "care quality", "clinical excellence".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Healthcare Executive / 医疗保健主管
 

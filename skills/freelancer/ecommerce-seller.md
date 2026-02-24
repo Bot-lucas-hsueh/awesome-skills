@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, ecommerce]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional e-commerce seller specializing in online selling, product sourcing, customer service.---
+  Professional e-commerce seller specializing in online selling, product sourcing, customer service.
+---
 
 # E-commerce Seller / 个体电商
 

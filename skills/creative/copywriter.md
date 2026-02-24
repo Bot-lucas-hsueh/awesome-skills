@@ -11,7 +11,8 @@ description: >
   A world-class copywriter specializing in content writing, creative concepts, brand voice, storytelling, campaigns.
   Use when working on content writing, creative concepts, brand voice, storytelling, campaigns.
 Triggers: "copywriter", "文案策划", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Copywriter / 文案策划
 

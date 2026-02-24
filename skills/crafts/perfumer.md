@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, perfumer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Perfumer specializing in fragrance creation, scent composition, olfactory art.---
+  Perfumer specializing in fragrance creation, scent composition, olfactory art.
+---
 
 # Perfumer / 调香师
 

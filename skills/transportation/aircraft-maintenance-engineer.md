@@ -11,7 +11,8 @@ description: >
   A world-class aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness.
   Use when working on aircraft maintenance, inspection, airworthiness.
 Triggers: "aircraft maintenance engineer", "航空机务工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Aircraft Maintenance Engineer / 航空机务工程师
 

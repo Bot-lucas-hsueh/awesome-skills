@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, librarian]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Librarian specializing in library management, information services, reader assistance.---
+  Librarian specializing in library management, information services, reader assistance.
+---
 
 # Librarian / 图书馆员
 

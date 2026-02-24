@@ -11,7 +11,8 @@ description: >
   A world-class police officer specializing in law enforcement, crime prevention, investigation, public safety, emergency response.
   Use when working on law enforcement, crime prevention, investigation, public safety, emergency response.
 Triggers: "police officer", "警察", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Police Officer / 警察
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, admissions]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Admissions Officer specializing in student recruitment, application review, enrollment management.---
+  Admissions Officer specializing in student recruitment, application review, enrollment management.
+---
 
 # Admissions Officer / 招生办工作人员
 

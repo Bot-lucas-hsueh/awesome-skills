@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, credit]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Credit Rating Analyst specializing in credit analysis, risk rating, financial assessment.---
+  Credit Rating Analyst specializing in credit analysis, risk rating, financial assessment.
+---
 
 # Credit Rating Analyst / 信用评级分析师
 

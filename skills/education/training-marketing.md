@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, training]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Training Marketing specializing in marketing strategy, lead generation, brand promotion.---
+  Training Marketing specializing in marketing strategy, lead generation, brand promotion.
+---
 
 # Training Marketing / 培训市场推广
 

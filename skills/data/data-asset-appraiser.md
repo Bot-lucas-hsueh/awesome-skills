@@ -11,7 +11,8 @@ description: >
   A world-class data asset appraiser specializing in advanced technology and industry applications.
   Use when working on data rights confirmation, valuation, trading scheme design.
 Triggers: "data asset appraiser", "数据资产评估师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Data Asset Appraiser / 数据资产评估师
 

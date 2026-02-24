@@ -8,7 +8,8 @@ category: media
 tags: [media, content, fact]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Fact Checker specializing in verification, accuracy confirmation, misinformation detection.---
+  Fact Checker specializing in verification, accuracy confirmation, misinformation detection.
+---
 
 # Fact Checker / 事实核查员
 

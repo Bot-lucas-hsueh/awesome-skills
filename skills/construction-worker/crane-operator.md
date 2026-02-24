@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, crane]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional crane operator specializing in crane operation, load lifting, safety protocols.
-  Use when working on crane operation, load lifting, safety protocols.---
+  Use when working on crane operation, load lifting, safety protocols.
+---
 
 # Crane Operator / 塔吊操作员
 

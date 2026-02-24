@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, lab]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Laboratory Technologist specializing in clinical testing, lab analysis, quality control.---
+  Medical Laboratory Technologist specializing in clinical testing, lab analysis, quality control.
+---
 
 # Medical Laboratory Technologist / 检验科技师
 

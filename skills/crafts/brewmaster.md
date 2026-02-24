@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, brewmaster]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Brewmaster specializing in brewing, fermentation, quality control.---
+  Brewmaster specializing in brewing, fermentation, quality control.
+---
 
 # Brewmaster / 酿酒师
 

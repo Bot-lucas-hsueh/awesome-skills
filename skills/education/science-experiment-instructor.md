@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, science]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Science Experiment Instructor specializing in hands-on science, experiments, stem education.---
+  Science Experiment Instructor specializing in hands-on science, experiments, stem education.
+---
 
 # Science Experiment Instructor / 科学实验培训老师
 

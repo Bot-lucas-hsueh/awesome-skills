@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, painter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional painter specializing in surface preparation, painting, finishing.
-  Use when working on surface preparation, painting, finishing.---
+  Use when working on surface preparation, painting, finishing.
+---
 
 # Painter / 油漆工
 

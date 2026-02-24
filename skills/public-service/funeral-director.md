@@ -8,7 +8,8 @@ category: public-service
 tags: [professional, expert, funeral]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional funeral director specializing in funeral arrangements, bereavement support, cremation services.---
+  Professional funeral director specializing in funeral arrangements, bereavement support, cremation services.
+---
 
 # Funeral Director / 殡葬服务
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, art]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Art Instructor specializing in drawing, painting, creative arts instruction.---
+  Art Instructor specializing in drawing, painting, creative arts instruction.
+---
 
 # Art Instructor / 美术培训老师
 

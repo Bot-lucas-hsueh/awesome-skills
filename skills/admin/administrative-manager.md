@@ -9,7 +9,8 @@ tags: [administration, operations, administrative]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional administrative manager specializing in office management, facilities, vendor coordination.
-  Use when working on office management, facilities, vendor coordination.---
+  Use when working on office management, facilities, vendor coordination.
+---
 
 # Administrative Manager / 行政经理
 

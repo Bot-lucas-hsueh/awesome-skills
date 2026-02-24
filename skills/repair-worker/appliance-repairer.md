@@ -8,7 +8,8 @@ category: repair-worker
 tags: [professional, expert, appliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional appliance repairer specializing in electrical repair, troubleshooting, maintenance.---
+  Professional appliance repairer specializing in electrical repair, troubleshooting, maintenance.
+---
 
 # Appliance Repairer / 家电维修工
 

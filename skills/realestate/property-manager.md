@@ -11,7 +11,8 @@ description: >
   A world-class property manager specializing in facility management, tenant relations, maintenance.
   Use when working on facility management, tenant relations, maintenance.
 Triggers: "property manager", "物业管理师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Property Manager / 物业管理师
 

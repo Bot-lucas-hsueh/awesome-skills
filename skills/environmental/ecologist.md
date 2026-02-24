@@ -11,7 +11,8 @@ description: >
   A world-class ecologist specializing in ecosystem assessment, biodiversity, restoration ecology.
   Use when working on ecosystem assessment, biodiversity, restoration ecology.
 Triggers: "ecologist", "生态学家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Ecologist / 生态学家
 

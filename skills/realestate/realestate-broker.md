@@ -11,7 +11,8 @@ description: >
   A world-class real estate broker specializing in property sales, client matching, negotiation.
   Use when working on property sales, client matching, negotiation.
 Triggers: "real estate broker", "房产经纪人", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Real Estate Broker / 房产经纪人
 

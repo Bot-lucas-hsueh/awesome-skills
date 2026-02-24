@@ -11,7 +11,8 @@ description: >
   A world-class food engineer specializing in food processing, preservation, quality control.
   Use when working on food processing, preservation, quality control.
 Triggers: "food engineer", "食品工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Food Engineer / 食品工程师
 

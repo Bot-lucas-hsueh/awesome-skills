@@ -9,7 +9,8 @@ tags: [hr, people-management, recruiter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional recruiter/headhunter specializing in talent sourcing, candidate assessment, interview coordination.
-  Use when working on talent sourcing, candidate assessment, interview coordination.---
+  Use when working on talent sourcing, candidate assessment, interview coordination.
+---
 
 # Recruiter/Headhunter / 招聘专员/猎头
 

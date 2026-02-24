@@ -8,7 +8,8 @@ category: realestate
 tags: [professional, expert, community]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Community Security specializing in access control, patrol, resident safety.---
+  Community Security specializing in access control, patrol, resident safety.
+---
 
 # Community Security / 小区保安
 

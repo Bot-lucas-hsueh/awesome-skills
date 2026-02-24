@@ -11,7 +11,8 @@ description: >
   A world-class veterinarian specializing in animal disease control, breeding management, breed selection.
   Use when working on animal disease control, breeding management, breed selection.
 Triggers: "veterinarian", "畜牧兽医师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Veterinarian / 畜牧兽医师
 

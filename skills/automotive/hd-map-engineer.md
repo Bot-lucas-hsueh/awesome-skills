@@ -11,7 +11,8 @@ description: >
   A world-class hd map engineer specializing in advanced technology and industry applications.
   Use when working on hd map collection, production, real-time updates.
 Triggers: "hd map engineer", "高精地图工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # HD Map Engineer / 高精地图工程师
 

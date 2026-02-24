@@ -11,7 +11,8 @@ description: >
   A world-class ai/ml engineer specializing in machine learning models, deep learning, mlops.
   Use when working on machine learning models, deep learning, mlops.
 Triggers: "ai/ml engineer", "AI机器学习工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # AI/ML Engineer / AI机器学习工程师
 

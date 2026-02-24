@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, independent]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional independent consultant specializing in business consulting, strategy advisory, project guidance.---
+  Professional independent consultant specializing in business consulting, strategy advisory, project guidance.
+---
 
 # Independent Consultant / 独立咨询顾问
 

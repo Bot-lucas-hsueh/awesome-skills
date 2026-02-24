@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, ceramic]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Ceramic Artist specializing in pottery making, ceramic design, kiln firing.---
+  Ceramic Artist specializing in pottery making, ceramic design, kiln firing.
+---
 
 # Ceramic Artist / 陶艺师
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, tea]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Tea Ceremony Instructor specializing in tea culture, brewing techniques, traditional arts.---
+  Tea Ceremony Instructor specializing in tea culture, brewing techniques, traditional arts.
+---
 
 # Tea Ceremony Instructor / 茶艺培训师
 

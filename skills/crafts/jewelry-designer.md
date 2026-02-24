@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, jewelry]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Jewelry Designer specializing in jewelry design, metalwork, gemstone setting.---
+  Jewelry Designer specializing in jewelry design, metalwork, gemstone setting.
+---
 
 # Jewelry Designer / 珠宝设计师
 

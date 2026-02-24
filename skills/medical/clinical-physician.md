@@ -15,7 +15,8 @@ description: >
   "evidence-based medicine", "clinical pathway", "patient care", "medical education",
   or any discussion about clinical practice.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Clinical Physician
 

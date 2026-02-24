@@ -14,7 +14,8 @@ description: >
   "supplier management", "demand planning", "ERP", "lean logistics", "resilience",
   or any discussion about supply chain management.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Supply Chain Expert
 

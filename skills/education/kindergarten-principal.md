@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, kindergarten]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Kindergarten Principal specializing in early childhood education management, curriculum oversight, staff leadership.---
+  Kindergarten Principal specializing in early childhood education management, curriculum oversight, staff leadership.
+---
 
 # Kindergarten Principal / 幼儿园园长
 

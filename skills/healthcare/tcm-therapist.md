@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, tcm]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional tcm therapist specializing in acupuncture, massage, traditional chinese medicine.---
+  Professional tcm therapist specializing in acupuncture, massage, traditional chinese medicine.
+---
 
 # TCM Therapist / 中医推拿师
 

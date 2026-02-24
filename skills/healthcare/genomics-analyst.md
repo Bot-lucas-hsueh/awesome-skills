@@ -11,7 +11,8 @@ description: >
   A world-class genomics analyst specializing in advanced technology and industry applications.
   Use when working on genomic data analysis, disease risk assessment.
 Triggers: "genomics analyst", "基因组学分析师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Genomics Analyst / 基因组学分析师
 

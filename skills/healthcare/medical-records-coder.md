@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, medical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Records Coder specializing in medical coding, documentation, data management.---
+  Medical Records Coder specializing in medical coding, documentation, data management.
+---
 
 # Medical Records Coder / 病案管理员
 

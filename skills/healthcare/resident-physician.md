@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, resident]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Resident Physician specializing in clinical training, patient care, medical rotations.---
+  Resident Physician specializing in clinical training, patient care, medical rotations.
+---
 
 # Resident Physician / 住院医师
 

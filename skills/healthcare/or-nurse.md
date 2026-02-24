@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, clinical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Operating Room Nurse specializing in surgical assistance, instrument management, sterile technique.---
+  Operating Room Nurse specializing in surgical assistance, instrument management, sterile technique.
+---
 
 # Operating Room Nurse / 手术室护士
 

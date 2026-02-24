@@ -9,7 +9,8 @@ tags: [manufacturing, operations, quality]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional quality inspector specializing in quality control, defect detection, standards compliance.
-  Use when working on quality control, defect detection, standards compliance.---
+  Use when working on quality control, defect detection, standards compliance.
+---
 
 # Quality Inspector / 质检员
 

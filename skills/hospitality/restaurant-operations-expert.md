@@ -11,7 +11,8 @@ description: >
   A world-class restaurant operations expert specializing in restaurant management, supply chain, food safety.
   Use when working on restaurant management, supply chain, food safety.
 Triggers: "restaurant operations expert", "餐饮运营专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Restaurant Operations Expert / 餐饮运营专家
 

@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, insurance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Insurance Claim Adjuster specializing in claim evaluation, damage assessment, settlement negotiation.---
+  Insurance Claim Adjuster specializing in claim evaluation, damage assessment, settlement negotiation.
+---
 
 # Insurance Claim Adjuster / 保险理赔员
 

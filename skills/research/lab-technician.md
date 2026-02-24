@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, lab]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Laboratory Technician specializing in experiment operation, sample preparation, data recording.---
+  Laboratory Technician specializing in experiment operation, sample preparation, data recording.
+---
 
 # Laboratory Technician / 实验技术员
 

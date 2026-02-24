@@ -11,7 +11,8 @@ description: >
   A world-class blockchain architect specializing in advanced technology and industry applications.
   Use when working on decentralized system architecture, smart contract development.
 Triggers: "blockchain architect", "区块链架构师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Blockchain Architect / 区块链架构师
 

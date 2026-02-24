@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, language]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Language Test Trainer specializing in ielts/toefl prep, test strategies, language skills.---
+  Language Test Trainer specializing in ielts/toefl prep, test strategies, language skills.
+---
 
 # Language Test Trainer / 雅思/托福老师
 

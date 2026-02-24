@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, ecommerce]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  E-commerce Livestream Trainer specializing in live selling skills, platform operations, audience engagement.---
+  E-commerce Livestream Trainer specializing in live selling skills, platform operations, audience engagement.
+---
 
 # E-commerce Livestream Trainer / 电商直播培训师
 

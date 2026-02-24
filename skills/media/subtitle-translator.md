@@ -8,7 +8,8 @@ category: media
 tags: [media, content, subtitle]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Subtitle Translator specializing in audiovisual translation, timing, localization.---
+  Subtitle Translator specializing in audiovisual translation, timing, localization.
+---
 
 # Subtitle Translator / 字幕翻译
 

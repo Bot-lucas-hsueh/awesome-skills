@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, medical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Equipment Engineer specializing in equipment maintenance, technical support, safety compliance.---
+  Medical Equipment Engineer specializing in equipment maintenance, technical support, safety compliance.
+---
 
 # Medical Equipment Engineer / 医疗设备工程师
 

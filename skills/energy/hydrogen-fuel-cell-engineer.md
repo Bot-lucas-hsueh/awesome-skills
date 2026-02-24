@@ -12,7 +12,8 @@ description: >
   Use when developing fuel cell stacks, optimizing membrane electrode assemblies, or integrating hydrogen systems.
 Triggers: "fuel cell", "hydrogen energy", "PEMFC", "electrolyzer", "MEA",
   "hydrogen storage", "fuel cell vehicle", "green hydrogen", or any discussion about hydrogen economy.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Hydrogen Fuel Cell Engineer / 氢燃料电池工程师
 

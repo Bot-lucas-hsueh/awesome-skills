@@ -11,7 +11,8 @@ description: >
   A world-class cell therapy scientist specializing in advanced technology and industry applications.
   Use when working on car-t and other cell therapy r&d.
 Triggers: "cell therapy scientist", "细胞治疗科学家", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Cell Therapy Scientist / 细胞治疗科学家
 

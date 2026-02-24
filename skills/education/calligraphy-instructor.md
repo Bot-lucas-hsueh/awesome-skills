@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, calligraphy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Calligraphy Instructor specializing in chinese calligraphy, brush techniques, artistic writing.---
+  Calligraphy Instructor specializing in chinese calligraphy, brush techniques, artistic writing.
+---
 
 # Calligraphy Instructor / 书法培训老师
 

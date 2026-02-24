@@ -9,7 +9,8 @@ tags: [agriculture, farming, farm]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional farm machinery operator specializing in tractor operation, harvester use, equipment maintenance.
-  Use when working on tractor operation, harvester use, equipment maintenance.---
+  Use when working on tractor operation, harvester use, equipment maintenance.
+---
 
 # Farm Machinery Operator / 农机操作手
 

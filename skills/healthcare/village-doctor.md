@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, village]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Village Doctor specializing in rural healthcare, basic medicine, community service.---
+  Village Doctor specializing in rural healthcare, basic medicine, community service.
+---
 
 # Village Doctor / 乡村医生
 

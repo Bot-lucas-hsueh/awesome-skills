@@ -11,7 +11,8 @@ description: >
   A world-class actuary specializing in risk assessment, insurance pricing, pension valuation.
   Use when working on risk assessment, insurance pricing, pension valuation.
 Triggers: "actuary", "精算师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Actuary / 精算师
 

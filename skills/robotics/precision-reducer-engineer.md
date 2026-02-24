@@ -11,7 +11,8 @@ description: >
   A world-class precision reducer engineer specializing in advanced technology and industry applications.
   Use when working on harmonic/rv reducer design and manufacturing.
 Triggers: "precision reducer engineer", "精密减速器工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Precision Reducer Engineer / 精密减速器工程师
 

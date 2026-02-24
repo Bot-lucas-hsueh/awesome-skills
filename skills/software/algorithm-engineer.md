@@ -14,7 +14,8 @@ description: >
   "dynamic programming", "graph algorithm", "sorting", "search", "leetcode",
   "technical interview", or any discussion about computational efficiency.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Algorithm Engineer
 

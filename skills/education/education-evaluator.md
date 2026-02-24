@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Education Evaluator specializing in school evaluation, quality assurance, standards compliance.---
+  Education Evaluator specializing in school evaluation, quality assurance, standards compliance.
+---
 
 # Education Evaluator / 教育评估专家
 

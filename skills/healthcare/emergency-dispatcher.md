@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, emergency]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Emergency Dispatcher specializing in emergency call handling, resource dispatch, crisis coordination.---
+  Emergency Dispatcher specializing in emergency call handling, resource dispatch, crisis coordination.
+---
 
 # Emergency Dispatcher / 120急救调度员
 

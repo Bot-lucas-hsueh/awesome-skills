@@ -8,7 +8,8 @@ category: public-service
 tags: [professional, expert, community]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional community worker specializing in community services, resident support, social programs.---
+  Professional community worker specializing in community services, resident support, social programs.
+---
 
 # Community Worker / 社区工作者
 

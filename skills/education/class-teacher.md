@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, class]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Class Teacher/Homeroom Teacher specializing in student management, parent communication, holistic education.---
+  Class Teacher/Homeroom Teacher specializing in student management, parent communication, holistic education.
+---
 
 # Class Teacher/Homeroom Teacher / 班主任
 

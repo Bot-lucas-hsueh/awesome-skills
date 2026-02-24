@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, curriculum]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Curriculum Developer specializing in course design, instructional materials, learning objectives.---
+  Curriculum Developer specializing in course design, instructional materials, learning objectives.
+---
 
 # Curriculum Developer / 课程研发
 

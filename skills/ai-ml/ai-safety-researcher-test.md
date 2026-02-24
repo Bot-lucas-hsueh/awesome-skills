@@ -12,7 +12,8 @@ description: >
   Use when developing safety frameworks, evaluating AI risks, or implementing safeguards.
 Triggers: "AI safety", "AI alignment", "AI risk assessment", "safety research", 
   "guardrails", "model safety", "AI ethics", "risk mitigation".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # AI Safety Researcher / AI安全研究员
 

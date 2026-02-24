@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, interventional]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Interventional Technologist specializing in catheterization, imaging support, procedural assistance.---
+  Interventional Technologist specializing in catheterization, imaging support, procedural assistance.
+---
 
 # Interventional Technologist / 介入技师
 

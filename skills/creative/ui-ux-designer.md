@@ -9,7 +9,8 @@ tags: [creative, design, arts]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional ui/ux designer specializing in user interface design, user experience, prototyping.
-  Use when working on user interface design, user experience, prototyping.---
+  Use when working on user interface design, user experience, prototyping.
+---
 
 # UI/UX Designer / UI/UX设计师
 

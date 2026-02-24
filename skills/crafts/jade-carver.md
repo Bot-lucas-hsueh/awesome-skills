@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, jade]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Jade Carver specializing in jade sculpting, gemstone carving, cultural artistry.---
+  Jade Carver specializing in jade sculpting, gemstone carving, cultural artistry.
+---
 
 # Jade Carver / 玉雕师
 

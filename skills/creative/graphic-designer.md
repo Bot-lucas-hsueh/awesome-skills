@@ -11,7 +11,8 @@ description: >
   A world-class graphic designer specializing in visual design, branding, layout, typography, adobe creative suite.
   Use when working on visual design, branding, layout, typography, adobe creative suite.
 Triggers: "graphic designer", "平面设计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Graphic Designer / 平面设计师
 

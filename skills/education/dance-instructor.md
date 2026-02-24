@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, dance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Dance Instructor specializing in dance teaching, choreography, performance training.---
+  Dance Instructor specializing in dance teaching, choreography, performance training.
+---
 
 # Dance Instructor / 舞蹈培训老师
 

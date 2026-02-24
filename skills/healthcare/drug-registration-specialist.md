@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, drug]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Drug Registration Specialist specializing in regulatory submission, approval process, compliance documentation.---
+  Drug Registration Specialist specializing in regulatory submission, approval process, compliance documentation.
+---
 
 # Drug Registration Specialist / 药品注册专员
 

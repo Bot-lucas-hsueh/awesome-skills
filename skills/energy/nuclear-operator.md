@@ -11,7 +11,8 @@ description: >
   A world-class nuclear operator specializing in reactor operation, safety protocols, radiation protection.
   Use when working on reactor operation, safety protocols, radiation protection.
 Triggers: "nuclear operator", "核电运行工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Nuclear Operator / 核电运行工程师
 

@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, nursing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional nursing assistant specializing in patient care, daily assistance, bedside support.---
+  Professional nursing assistant specializing in patient care, daily assistance, bedside support.
+---
 
 # Nursing Assistant / 护工
 

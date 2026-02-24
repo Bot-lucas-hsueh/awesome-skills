@@ -14,7 +14,8 @@ description: >
   "operations research", "linear programming", "scheduling", "last mile", 
   "network optimization", or any discussion about logistics algorithms.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Logistics Algorithm Engineer
 

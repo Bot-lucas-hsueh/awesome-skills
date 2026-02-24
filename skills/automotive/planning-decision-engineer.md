@@ -11,7 +11,8 @@ description: >
   A world-class planning & decision engineer specializing in advanced technology and industry applications.
   Use when working on trajectory planning, behavior prediction, decision algorithms.
 Triggers: "planning & decision engineer", "规划决策算法工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Planning & Decision Engineer / 规划决策算法工程师
 

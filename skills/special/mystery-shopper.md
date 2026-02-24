@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert, mystery]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional mystery shopper specializing in service evaluation, experience testing, quality assessment.---
+  Professional mystery shopper specializing in service evaluation, experience testing, quality assessment.
+---
 
 # Mystery Shopper / 试睡员
 

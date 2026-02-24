@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, academic]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Academic Planner specializing in education planning, career counseling, college admission guidance.---
+  Academic Planner specializing in education planning, career counseling, college admission guidance.
+---
 
 # Academic Planner / 学业规划师
 

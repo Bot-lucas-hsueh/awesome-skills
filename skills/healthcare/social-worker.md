@@ -11,7 +11,8 @@ description: >
   A world-class social worker specializing in social services, case management, community support.
   Use when working on social services, case management, community support.
 Triggers: "social worker", "社会工作者", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Social Worker / 社会工作者
 

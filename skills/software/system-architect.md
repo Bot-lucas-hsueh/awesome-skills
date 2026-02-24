@@ -13,7 +13,8 @@ description: >
 Triggers: "system architecture", "system design", "scalability", "technology evaluation",
   "architectural decisions", "microservices", "database design", "performance optimization",
   "infrastructure design", "high availability", "distributed systems".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # System Architect / 系统架构师
 

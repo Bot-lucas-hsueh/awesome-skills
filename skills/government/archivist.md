@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, archivist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Archivist specializing in records management, preservation, historical documentation.---
+  Archivist specializing in records management, preservation, historical documentation.
+---
 
 # Archivist / 档案管理员
 

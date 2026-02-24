@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, mover]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional mover specializing in relocation services, packing, transportation.---
+  Professional mover specializing in relocation services, packing, transportation.
+---
 
 # Mover / 搬家工人
 

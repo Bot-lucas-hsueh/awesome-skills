@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  IT Training Instructor specializing in technology training, coding courses, software education.---
+  IT Training Instructor specializing in technology training, coding courses, software education.
+---
 
 # IT Training Instructor / IT培训讲师
 

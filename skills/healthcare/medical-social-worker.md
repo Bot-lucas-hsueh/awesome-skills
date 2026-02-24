@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, medical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Social Worker specializing in patient support, discharge planning, resource coordination.---
+  Medical Social Worker specializing in patient support, discharge planning, resource coordination.
+---
 
 # Medical Social Worker / 医务社工
 

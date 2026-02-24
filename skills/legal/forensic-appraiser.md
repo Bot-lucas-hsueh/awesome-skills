@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, forensic]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Forensic Appraiser specializing in expert testimony, technical evaluation, evidence analysis.---
+  Forensic Appraiser specializing in expert testimony, technical evaluation, evidence analysis.
+---
 
 # Forensic Appraiser / 司法鉴定人
 

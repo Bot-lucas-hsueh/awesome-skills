@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, private]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional private tutor specializing in one-on-one teaching, academic support, exam preparation.---
+  Professional private tutor specializing in one-on-one teaching, academic support, exam preparation.
+---
 
 # Private Tutor / 家教
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, music]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional music teacher specializing in instrument instruction, music theory, performance skills.---
+  Professional music teacher specializing in instrument instruction, music theory, performance skills.
+---
 
 # Music Teacher / 乐器老师
 

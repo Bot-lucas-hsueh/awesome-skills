@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, tech]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Technology Transfer Manager specializing in patent management, commercialization, industry collaboration.---
+  Technology Transfer Manager specializing in patent management, commercialization, industry collaboration.
+---
 
 # Technology Transfer Manager / 技术转移经理
 

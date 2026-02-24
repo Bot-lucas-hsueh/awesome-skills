@@ -9,7 +9,8 @@ tags: [administration, operations, chef]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional chef specializing in food preparation, kitchen management, menu planning.
-  Use when working on food preparation, kitchen management, menu planning.---
+  Use when working on food preparation, kitchen management, menu planning.
+---
 
 # Chef / 厨师
 

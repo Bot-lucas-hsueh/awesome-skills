@@ -11,7 +11,8 @@ description: >
   A world-class accountant specializing in bookkeeping, financial statements, tax filing, compliance.
   Use when working on bookkeeping, financial statements, tax filing, compliance.
 Triggers: "accountant", "会计", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Accountant / 会计
 

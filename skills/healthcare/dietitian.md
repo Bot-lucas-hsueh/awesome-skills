@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, dietitian]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dietitian specializing in nutritional planning, diet counseling, health optimization.---
+  Professional dietitian specializing in nutritional planning, diet counseling, health optimization.
+---
 
 # Dietitian / 营养师
 

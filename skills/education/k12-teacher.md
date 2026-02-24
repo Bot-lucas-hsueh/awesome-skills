@@ -11,7 +11,8 @@ description: >
   A world-class k-12 teacher specializing in curriculum delivery, student assessment, classroom management.
   Use when working on curriculum delivery, student assessment, classroom management.
 Triggers: "k-12 teacher", "中小学教师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # K-12 Teacher / 中小学教师
 

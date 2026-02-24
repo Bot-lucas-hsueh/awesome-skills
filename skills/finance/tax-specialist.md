@@ -11,7 +11,8 @@ description: >
   A world-class tax specialist specializing in tax planning, tax filing, tax compliance, international taxation.
   Use when working on tax planning, tax filing, tax compliance, international taxation.
 Triggers: "tax specialist", "税务专员", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Tax Specialist / 税务专员
 

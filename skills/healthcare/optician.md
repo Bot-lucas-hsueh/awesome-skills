@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, optician]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional optician specializing in vision testing, glasses fitting, lens prescription.---
+  Professional optician specializing in vision testing, glasses fitting, lens prescription.
+---
 
 # Optician / 验光师
 

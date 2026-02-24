@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, methodology]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Research Integrity Officer specializing in misconduct investigation, ethics review, compliance monitoring.---
+  Research Integrity Officer specializing in misconduct investigation, ethics review, compliance monitoring.
+---
 
 # Research Integrity Officer / 科研诚信审查员
 

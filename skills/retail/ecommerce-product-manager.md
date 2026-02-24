@@ -11,7 +11,8 @@ description: >
   A world-class e-commerce product manager specializing in platform design, user experience, conversion optimization.
   Use when working on platform design, user experience, conversion optimization.
 Triggers: "e-commerce product manager", "电商产品经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # E-commerce Product Manager / 电商产品经理
 

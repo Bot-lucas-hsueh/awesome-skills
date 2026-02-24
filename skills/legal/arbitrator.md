@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, arbitrator]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Arbitrator specializing in dispute resolution, arbitration proceedings, neutral judgment.---
+  Arbitrator specializing in dispute resolution, arbitration proceedings, neutral judgment.
+---
 
 # Arbitrator / 仲裁员
 

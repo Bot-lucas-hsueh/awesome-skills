@@ -8,7 +8,8 @@ category: entertainment
 tags: [entertainment, creative, script]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional script killing dm specializing in game hosting, storytelling, player guidance.---
+  Professional script killing dm specializing in game hosting, storytelling, player guidance.
+---
 
 # Script Killing DM / 剧本杀DM
 

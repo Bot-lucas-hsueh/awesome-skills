@@ -14,7 +14,8 @@ description: >
   "sensor fusion", "LiDAR", "computer vision", "path planning", "SLAM",
   or any discussion about autonomous driving technology.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Autonomous Driving Engineer
 

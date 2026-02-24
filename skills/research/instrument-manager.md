@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, instrument]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Instrument Manager specializing in equipment maintenance, user training, technical support.---
+  Instrument Manager specializing in equipment maintenance, user training, technical support.
+---
 
 # Instrument Manager / 大型仪器管理员
 

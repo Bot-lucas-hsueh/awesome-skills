@@ -11,7 +11,8 @@ description: >
   A world-class rehabilitation engineer specializing in advanced technology and industry applications.
   Use when working on rehabilitation robot and assistive device design.
 Triggers: "rehabilitation engineer", "康复工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Rehabilitation Engineer / 康复工程师
 

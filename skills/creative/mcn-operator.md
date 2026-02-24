@@ -9,7 +9,8 @@ tags: [creative, design, mcn]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional mcn operator specializing in influencer management, content strategy, monetization.
-  Use when working on influencer management, content strategy, monetization.---
+  Use when working on influencer management, content strategy, monetization.
+---
 
 # MCN Operator / MCN运营
 

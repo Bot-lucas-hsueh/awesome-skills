@@ -11,7 +11,8 @@ description: >
   A world-class energy storage system engineer specializing in advanced technology and industry applications.
   Use when working on energy storage system design, bms development, safety.
 Triggers: "energy storage system engineer", "储能系统工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Energy Storage System Engineer / 储能系统工程师
 

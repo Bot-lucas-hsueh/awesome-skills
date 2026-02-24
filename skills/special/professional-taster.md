@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional taster specializing in wine tasting, tea evaluation, sensory analysis.---
+  Professional professional taster specializing in wine tasting, tea evaluation, sensory analysis.
+---
 
 # Professional Taster / 品鉴师
 

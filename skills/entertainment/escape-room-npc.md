@@ -8,7 +8,8 @@ category: entertainment
 tags: [entertainment, creative, escape]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional escape room npc specializing in role playing, puzzle guidance, immersive experience.---
+  Professional escape room npc specializing in role playing, puzzle guidance, immersive experience.
+---
 
 # Escape Room NPC / 密室NPC
 

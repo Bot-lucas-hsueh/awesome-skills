@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, sensory]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Sensory Integration Therapist specializing in sensory processing, motor coordination, developmental therapy.---
+  Sensory Integration Therapist specializing in sensory processing, motor coordination, developmental therapy.
+---
 
 # Sensory Integration Therapist / 感统训练师
 

@@ -8,7 +8,8 @@ category: repair-worker
 tags: [professional, expert, auto]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional auto body repairer specializing in body repair, painting, dent removal.---
+  Professional auto body repairer specializing in body repair, painting, dent removal.
+---
 
 # Auto Body Repairer / 汽车钣金喷漆
 

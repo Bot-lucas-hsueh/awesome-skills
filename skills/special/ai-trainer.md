@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional ai trainer specializing in data labeling, model training, ai quality assurance.---
+  Professional ai trainer specializing in data labeling, model training, ai quality assurance.
+---
 
 # AI Trainer / AI训练师
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, corporate]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional corporate trainer specializing in employee training, skill development, workshop facilitation.---
+  Professional corporate trainer specializing in employee training, skill development, workshop facilitation.
+---
 
 # Corporate Trainer / 企业培训师
 

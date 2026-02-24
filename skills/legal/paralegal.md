@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, paralegal]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Paralegal specializing in legal research, document preparation, case management.---
+  Paralegal specializing in legal research, document preparation, case management.
+---
 
 # Paralegal / 律师助理
 

@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, infection]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Infection Control Officer specializing in infection prevention, protocol development, compliance monitoring.---
+  Infection Control Officer specializing in infection prevention, protocol development, compliance monitoring.
+---
 
 # Infection Control Officer / 院感管理专员
 

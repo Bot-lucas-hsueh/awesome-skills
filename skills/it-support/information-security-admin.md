@@ -9,7 +9,8 @@ tags: [it-support, technical-support, information]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional information security admin specializing in security policies, access control, threat monitoring.
-  Use when working on security policies, access control, threat monitoring.---
+  Use when working on security policies, access control, threat monitoring.
+---
 
 # Information Security Admin / 信息安全管理员
 

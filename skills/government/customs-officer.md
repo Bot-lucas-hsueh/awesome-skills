@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, customs]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Customs Officer specializing in border control, cargo inspection, trade regulation.---
+  Customs Officer specializing in border control, cargo inspection, trade regulation.
+---
 
 # Customs Officer / 海关关员
 

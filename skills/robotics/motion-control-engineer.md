@@ -11,7 +11,8 @@ description: >
   A world-class motion control engineer specializing in advanced technology and industry applications.
   Use when working on bipedal gait planning, balance control, dexterous manipulation.
 Triggers: "motion control engineer", "运动控制算法工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Motion Control Engineer / 运动控制算法工程师
 

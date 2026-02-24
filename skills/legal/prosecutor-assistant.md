@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, prosecutor]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Prosecutor Assistant specializing in case preparation, legal research, prosecution support.---
+  Prosecutor Assistant specializing in case preparation, legal research, prosecution support.
+---
 
 # Prosecutor Assistant / 检察官助理
 

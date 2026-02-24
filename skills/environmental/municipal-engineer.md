@@ -11,7 +11,8 @@ description: >
   A world-class municipal engineer specializing in urban infrastructure, roads, utilities, public facilities.
   Use when working on urban infrastructure, roads, utilities, public facilities.
 Triggers: "municipal engineer", "市政工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Municipal Engineer / 市政工程师
 

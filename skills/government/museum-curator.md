@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, museum]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Museum Curator specializing in exhibition planning, artifact management, public education.---
+  Museum Curator specializing in exhibition planning, artifact management, public education.
+---
 
 # Museum Curator / 博物馆策展
 

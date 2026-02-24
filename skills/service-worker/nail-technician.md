@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, nail]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional nail technician specializing in manicure, pedicure, nail art.---
+  Professional nail technician specializing in manicure, pedicure, nail art.
+---
 
 # Nail Technician / 美甲师
 

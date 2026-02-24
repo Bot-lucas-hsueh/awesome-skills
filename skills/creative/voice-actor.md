@@ -9,7 +9,8 @@ tags: [creative, design, voice]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional voice actor specializing in voice acting, dubbing, narration.
-  Use when working on voice acting, dubbing, narration.---
+  Use when working on voice acting, dubbing, narration.
+---
 
 # Voice Actor / 配音员
 

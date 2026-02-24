@@ -1,0 +1,44 @@
+repos:
+  # ── YAML linting ─────────────────────────────────────────────────────────
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.35.1
+    hooks:
+      - id: yamllint
+        # Apply only to markdown files that contain YAML frontmatter
+        files: \.md$
+        args: [--config-file, .yamllint]
+
+  # ── Markdown linting ─────────────────────────────────────────────────────
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.43.0
+    hooks:
+      - id: markdownlint
+        args: [--config, .markdownlint.json]
+        files: \.md$
+
+  # ── General file hygiene ──────────────────────────────────────────────────
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+        exclude: \.md$        # EditorConfig handles .md separately
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: check-yaml
+        # Only validate standalone .yml/.yaml files, not .md frontmatter
+        files: \.ya?ml$
+      - id: check-json
+        files: \.json$
+
+  # ── Skill file validation (custom) ───────────────────────────────────────
+  - repo: local
+    hooks:
+      - id: validate-skills
+        name: Validate skill frontmatter & structure
+        language: python
+        entry: python3 .github/scripts/validate_skills.py
+        pass_filenames: false
+        files: ^skills/.*\.md$
+        always_run: false

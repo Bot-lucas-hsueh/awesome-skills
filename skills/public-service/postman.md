@@ -8,7 +8,8 @@ category: public-service
 tags: [professional, expert, postman]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional postman specializing in mail delivery, package distribution, route service.---
+  Professional postman specializing in mail delivery, package distribution, route service.
+---
 
 # Postman / 邮递员
 

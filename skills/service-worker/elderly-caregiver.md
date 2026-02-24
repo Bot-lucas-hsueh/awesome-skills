@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, elderly]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional elderly caregiver specializing in elderly care, daily assistance, health monitoring.---
+  Professional elderly caregiver specializing in elderly care, daily assistance, health monitoring.
+---
 
 # Elderly Caregiver / 养老护理员
 

@@ -8,7 +8,8 @@ category: entertainment
 tags: [entertainment, creative, actor]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional actor specializing in performance, character portrayal, stage/film acting.---
+  Professional actor specializing in performance, character portrayal, stage/film acting.
+---
 
 # Actor / 演员
 

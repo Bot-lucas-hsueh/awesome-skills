@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, industry]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Industry-Education Coordinator specializing in work-integrated learning, industry partnerships, practical training.---
+  Industry-Education Coordinator specializing in work-integrated learning, industry partnerships, practical training.
+---
 
 # Industry-Education Coordinator / 产教融合协调员
 

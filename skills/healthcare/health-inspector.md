@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, health]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Health Inspector specializing in public health inspection, compliance enforcement, safety monitoring.---
+  Health Inspector specializing in public health inspection, compliance enforcement, safety monitoring.
+---
 
 # Health Inspector / 卫生监督员
 

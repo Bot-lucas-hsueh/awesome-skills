@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, visiting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Visiting Scholar specializing in cross-institution collaboration, academic exchange.---
+  Visiting Scholar specializing in cross-institution collaboration, academic exchange.
+---
 
 # Visiting Scholar / 访问学者
 

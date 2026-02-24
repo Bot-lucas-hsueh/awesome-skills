@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, language]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional language trainer specializing in language teaching, conversation practice, fluency training.---
+  Professional language trainer specializing in language teaching, conversation practice, fluency training.
+---
 
 # Language Trainer / 语言培训师
 

@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional queuer specializing in queue waiting, ticket purchasing, time-saving service.---
+  Professional professional queuer specializing in queue waiting, ticket purchasing, time-saving service.
+---
 
 # Professional Queuer / 职业排队人
 

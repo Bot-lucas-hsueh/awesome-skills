@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, cashier]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Cashier specializing in payment processing, cash management, customer service.---
+  Cashier specializing in payment processing, cash management, customer service.
+---
 
 # Cashier / 收银员
 

@@ -11,7 +11,8 @@ description: >
   A world-class digital twin engineer specializing in advanced technology and industry applications.
   Use when working on physical entity digital mirror modeling and simulation.
 Triggers: "digital twin engineer", "数字孪生工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Digital Twin Engineer / 数字孪生工程师
 

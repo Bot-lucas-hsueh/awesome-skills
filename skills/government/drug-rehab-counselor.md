@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, drug]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Drug Rehab Counselor specializing in addiction treatment, rehabilitation, psychological support.---
+  Drug Rehab Counselor specializing in addiction treatment, rehabilitation, psychological support.
+---
 
 # Drug Rehab Counselor / 戒毒所管教
 

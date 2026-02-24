@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, pet]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pet groomer specializing in pet bathing, grooming, styling.---
+  Professional pet groomer specializing in pet bathing, grooming, styling.
+---
 
 # Pet Groomer / 宠物美容师
 

@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert, escape]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional escape room designer specializing in puzzle design, room theming, game mechanics.---
+  Professional escape room designer specializing in puzzle design, room theming, game mechanics.
+---
 
 # Escape Room Designer / 密室设计师
 

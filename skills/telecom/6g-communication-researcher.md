@@ -11,7 +11,8 @@ description: >
   A world-class 6g communication researcher specializing in advanced technology and industry applications.
   Use when working on terahertz communication, space-air-ground integrated network.
 Triggers: "6g communication researcher", "6G通信研究员", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # 6G Communication Researcher / 6G通信研究员
 

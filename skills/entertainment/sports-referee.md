@@ -8,7 +8,8 @@ category: entertainment
 tags: [entertainment, creative, sports]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional sports referee specializing in game officiating, rule enforcement, fair play.---
+  Professional sports referee specializing in game officiating, rule enforcement, fair play.
+---
 
 # Sports Referee / 体育裁判
 

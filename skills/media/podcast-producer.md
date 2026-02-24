@@ -8,7 +8,8 @@ category: media
 tags: [media, content, podcast]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Podcast Producer specializing in audio production, content creation, distribution management.---
+  Podcast Producer specializing in audio production, content creation, distribution management.
+---
 
 # Podcast Producer / 播客制作人
 

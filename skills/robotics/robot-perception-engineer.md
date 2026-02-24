@@ -11,7 +11,8 @@ description: >
   A world-class robot perception engineer specializing in advanced technology and industry applications.
   Use when working on tactile/force sensor development, multimodal fusion.
 Triggers: "robot perception engineer", "机器人感知工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Robot Perception Engineer / 机器人感知工程师
 

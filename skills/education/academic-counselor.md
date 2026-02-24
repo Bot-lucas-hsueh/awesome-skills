@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, academic]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Academic Counselor specializing in student affairs, career guidance, mental health support.---
+  Academic Counselor specializing in student affairs, career guidance, mental health support.
+---
 
 # Academic Counselor / 辅导员
 

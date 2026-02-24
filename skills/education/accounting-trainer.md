@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, accounting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Accounting Trainer specializing in accounting courses, certification prep, practical training.---
+  Accounting Trainer specializing in accounting courses, certification prep, practical training.
+---
 
 # Accounting Trainer / 会计培训讲师
 

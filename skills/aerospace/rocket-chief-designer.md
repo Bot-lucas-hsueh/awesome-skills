@@ -12,7 +12,8 @@ description: >
   Use when designing rockets, planning space missions, or developing propulsion systems.
 Triggers: "rocket design", "launch vehicle", "orbital mechanics", "propulsion",
   "space mission", "aerospace engineering", "flight mechanics", or any discussion about space transportation.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Rocket Chief Designer / 火箭总体设计师
 

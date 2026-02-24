@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, medical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Science Liaison specializing in scientific communication, kol engagement, product education.---
+  Medical Science Liaison specializing in scientific communication, kol engagement, product education.
+---
 
 # Medical Science Liaison / 医学联络官
 

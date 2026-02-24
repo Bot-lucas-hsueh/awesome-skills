@@ -11,7 +11,8 @@ description: >
   A world-class chemical process engineer specializing in process design, reactor design, optimization.
   Use when working on process design, reactor design, optimization.
 Triggers: "chemical process engineer", "化工工艺工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Chemical Process Engineer / 化工工艺工程师
 

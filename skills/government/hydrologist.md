@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, hydrologist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Hydrologist specializing in water monitoring, flood forecasting, resource management.---
+  Hydrologist specializing in water monitoring, flood forecasting, resource management.
+---
 
 # Hydrologist / 水文监测员
 

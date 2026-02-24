@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, carpenter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional carpenter specializing in wood framing, formwork, finishing carpentry.
-  Use when working on wood framing, formwork, finishing carpentry.---
+  Use when working on wood framing, formwork, finishing carpentry.
+---
 
 # Carpenter / 木工
 

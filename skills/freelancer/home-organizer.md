@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, home]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional home organizer specializing in space optimization, decluttering, organization systems.---
+  Professional home organizer specializing in space optimization, decluttering, organization systems.
+---
 
 # Home Organizer / 收纳整理师
 

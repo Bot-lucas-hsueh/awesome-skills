@@ -14,7 +14,8 @@ description: >
   "semiconductor", "processor design", "RTL", "synthesis", "verification",
   or any discussion about integrated circuit design.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Chip Design Engineer
 

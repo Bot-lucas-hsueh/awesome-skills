@@ -11,7 +11,8 @@ description: >
   A world-class game producer specializing in game design, project coordination, live operations.
   Use when working on game design, project coordination, live operations.
 Triggers: "game producer", "游戏策划制作人", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Game Producer / 游戏策划制作人
 

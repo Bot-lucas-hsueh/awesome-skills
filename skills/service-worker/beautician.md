@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, beautician]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional beautician specializing in facial treatments, skincare, beauty services.---
+  Professional beautician specializing in facial treatments, skincare, beauty services.
+---
 
 # Beautician / 美容师
 

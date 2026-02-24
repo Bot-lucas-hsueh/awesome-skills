@@ -14,7 +14,8 @@ description: >
   "NVH", "aerodynamics", "powertrain", "chassis", " automotive manufacturing",
   or any discussion about vehicle design.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Automotive Design Engineer
 

@@ -11,7 +11,8 @@ description: >
   A world-class forestry engineer specializing in afforestation planning, forest resource management.
   Use when working on afforestation planning, forest resource management.
 Triggers: "forestry engineer", "林业工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Forestry Engineer / 林业工程师
 

@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, medical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Medical Insurance Officer specializing in insurance processing, claims management, policy compliance.---
+  Medical Insurance Officer specializing in insurance processing, claims management, policy compliance.
+---
 
 # Medical Insurance Officer / 医保办人员
 

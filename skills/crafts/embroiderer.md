@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, embroiderer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Embroiderer specializing in embroidery, needlework, textile art.---
+  Embroiderer specializing in embroidery, needlework, textile art.
+---
 
 # Embroiderer / 刺绣艺人
 

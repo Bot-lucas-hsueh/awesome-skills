@@ -11,7 +11,8 @@ description: >
   A world-class hvac engineer specializing in heating, ventilation, air conditioning, mep.
   Use when working on heating, ventilation, air conditioning, mep.
 Triggers: "hvac engineer", "暖通工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # HVAC Engineer / 暖通工程师
 

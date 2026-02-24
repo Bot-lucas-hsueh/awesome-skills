@@ -11,7 +11,8 @@ description: >
   A world-class remote sensing data scientist specializing in advanced technology and industry applications.
   Use when working on satellite remote sensing image processing, applications.
 Triggers: "remote sensing data scientist", "遥感数据科学家", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Remote Sensing Data Scientist / 遥感数据科学家
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, childcare]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Childcare Worker specializing in child care, daily routines, early development support.---
+  Childcare Worker specializing in child care, daily routines, early development support.
+---
 
 # Childcare Worker / 托育师/保育员
 

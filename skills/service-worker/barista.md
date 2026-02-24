@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, barista]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional barista specializing in coffee preparation, latte art, customer service.---
+  Professional barista specializing in coffee preparation, latte art, customer service.
+---
 
 # Barista / 咖啡师
 

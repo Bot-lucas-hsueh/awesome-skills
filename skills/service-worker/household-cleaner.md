@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, household]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional household cleaner specializing in appliance cleaning, maintenance, sanitization.---
+  Professional household cleaner specializing in appliance cleaning, maintenance, sanitization.
+---
 
 # Household Cleaner / 家电清洗
 

@@ -9,7 +9,8 @@ tags: [administration, operations, receptionist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional receptionist specializing in visitor management, phone handling, front desk operations.
-  Use when working on visitor management, phone handling, front desk operations.---
+  Use when working on visitor management, phone handling, front desk operations.
+---
 
 # Receptionist / 前台接待
 

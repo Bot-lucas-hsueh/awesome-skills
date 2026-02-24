@@ -12,7 +12,8 @@ description: >
   Use when defining product vision, creating roadmaps, or making GO/NO-GO decisions.
 Triggers: "product management", "product strategy", "product roadmap", "user research",
   "market analysis", "product metrics", "feature prioritization", "product launch".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Product Manager / 产品经理
 

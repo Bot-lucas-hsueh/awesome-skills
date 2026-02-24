@@ -8,7 +8,8 @@ category: realestate
 tags: [professional, expert, property]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Property Butler specializing in resident services, facility management, community relations.---
+  Property Butler specializing in resident services, facility management, community relations.
+---
 
 # Property Butler / 物业管家
 

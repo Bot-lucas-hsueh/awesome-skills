@@ -11,7 +11,8 @@ description: >
   A world-class agronomist specializing in crop cultivation, field management, high-yield techniques.
   Use when working on crop cultivation, field management, high-yield techniques.
 Triggers: "agronomist", "农艺师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Agronomist / 农艺师
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, university]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  University Administrator specializing in higher education administration, policy implementation, institutional support.---
+  University Administrator specializing in higher education administration, policy implementation, institutional support.
+---
 
 # University Administrator / 大学行政管理
 

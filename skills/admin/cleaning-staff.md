@@ -9,7 +9,8 @@ tags: [administration, operations, cleaning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional cleaning staff specializing in facility cleaning, sanitation, maintenance.
-  Use when working on facility cleaning, sanitation, maintenance.---
+  Use when working on facility cleaning, sanitation, maintenance.
+---
 
 # Cleaning Staff / 保洁
 

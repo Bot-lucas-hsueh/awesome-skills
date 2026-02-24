@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, ultrasound]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Ultrasound Physician specializing in ultrasonography, diagnostic imaging, patient assessment.---
+  Ultrasound Physician specializing in ultrasonography, diagnostic imaging, patient assessment.
+---
 
 # Ultrasound Physician / 超声科医师
 

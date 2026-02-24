@@ -11,7 +11,8 @@ description: >
   A world-class airworthiness certification engineer specializing in advanced technology and industry applications.
   Use when working on type certification, safety analysis, airworthiness regulations.
 Triggers: "airworthiness certification engineer", "适航认证工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Airworthiness Certification Engineer / 适航认证工程师
 

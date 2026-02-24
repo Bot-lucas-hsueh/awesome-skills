@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, speech]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Speech Therapist specializing in language disorders, speech rehabilitation, communication therapy.---
+  Speech Therapist specializing in language disorders, speech rehabilitation, communication therapy.
+---
 
 # Speech Therapist / 言语治疗师
 

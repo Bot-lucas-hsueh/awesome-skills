@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, meteorologist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Meteorologist specializing in weather forecasting, climate analysis, disaster warning.---
+  Meteorologist specializing in weather forecasting, climate analysis, disaster warning.
+---
 
 # Meteorologist / 气象预报员
 

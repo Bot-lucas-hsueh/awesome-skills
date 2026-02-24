@@ -12,7 +12,8 @@ description: >
   Use when designing gene circuits, engineering microbial metabolism, or developing bio-based products.
 Triggers: "synthetic biology", "genetic engineering", "CRISPR", "metabolic engineering",
   "gene circuit", "bio-manufacturing", "microbial cell factory", or any discussion about engineering biology.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Synthetic Biologist / 合成生物学家
 

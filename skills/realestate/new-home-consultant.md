@@ -8,7 +8,8 @@ category: realestate
 tags: [professional, expert, new]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  New Home Consultant specializing in new development sales, customer service, contract negotiation.---
+  New Home Consultant specializing in new development sales, customer service, contract negotiation.
+---
 
 # New Home Consultant / 新房销售
 

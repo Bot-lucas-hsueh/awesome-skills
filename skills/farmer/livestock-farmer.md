@@ -9,7 +9,8 @@ tags: [agriculture, farming, livestock]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional livestock farmer specializing in animal husbandry, breeding, livestock management.
-  Use when working on animal husbandry, breeding, livestock management.---
+  Use when working on animal husbandry, breeding, livestock management.
+---
 
 # Livestock Farmer / 养殖户
 

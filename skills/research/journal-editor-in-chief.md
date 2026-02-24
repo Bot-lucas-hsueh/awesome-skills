@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, journal]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Journal Editor-in-Chief specializing in editorial direction, manuscript final review, academic community building.---
+  Journal Editor-in-Chief specializing in editorial direction, manuscript final review, academic community building.
+---
 
 # Journal Editor-in-Chief / 学术期刊主编
 

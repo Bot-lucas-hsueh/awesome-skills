@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, florist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Florist specializing in floral arrangement, bouquet design, event decoration.---
+  Florist specializing in floral arrangement, bouquet design, event decoration.
+---
 
 # Florist / 花艺师
 

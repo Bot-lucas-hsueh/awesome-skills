@@ -14,7 +14,8 @@ description: >
   "portfolio risk", "risk management", "compliance", "risk analytics", 
   or any discussion about financial risk.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Finance Risk Expert
 

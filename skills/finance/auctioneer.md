@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, auctioneer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Auctioneer specializing in auction conducting, bidding management, sales coordination.---
+  Auctioneer specializing in auction conducting, bidding management, sales coordination.
+---
 
 # Auctioneer / 拍卖师
 

@@ -11,7 +11,8 @@ description: >
   A world-class textile engineer specializing in fiber processing, weaving, dyeing, finishing.
   Use when working on fiber processing, weaving, dyeing, finishing.
 Triggers: "textile engineer", "纺织工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Textile Engineer / 纺织工程师
 

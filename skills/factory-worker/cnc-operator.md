@@ -9,7 +9,8 @@ tags: [manufacturing, operations, cnc]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional cnc operator specializing in cnc programming, machine operation, precision machining.
-  Use when working on cnc programming, machine operation, precision machining.---
+  Use when working on cnc programming, machine operation, precision machining.
+---
 
 # CNC Operator / CNC数控操作员
 

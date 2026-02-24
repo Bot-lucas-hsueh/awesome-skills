@@ -12,7 +12,8 @@ description: >
   Use when developing robots that learn through interaction with the physical world.
 Triggers: "embodied AI", "robot learning", "world model", "sim2real", "manipulation",
   "physical AI", "robotics foundation model", or any discussion about AI in physical environments.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Embodied AI Researcher / 具身智能研究员
 

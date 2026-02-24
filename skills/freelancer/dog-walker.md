@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, dog]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dog walker specializing in pet walking, pet sitting, animal care.---
+  Professional dog walker specializing in pet walking, pet sitting, animal care.
+---
 
 # Dog Walker / 遛狗师
 

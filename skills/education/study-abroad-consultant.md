@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, study]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional study abroad consultant specializing in university applications, visa guidance, test prep.---
+  Professional study abroad consultant specializing in university applications, visa guidance, test prep.
+---
 
 # Study Abroad Consultant / 留学顾问
 

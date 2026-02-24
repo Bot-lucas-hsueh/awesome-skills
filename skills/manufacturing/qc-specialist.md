@@ -11,7 +11,8 @@ description: >
   A world-class qc specialist specializing in quality inspection, statistical process control, iso standards.
   Use when working on quality inspection, statistical process control, iso standards.
 Triggers: "qc specialist", "质量控制专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # QC Specialist / 质量控制专家
 

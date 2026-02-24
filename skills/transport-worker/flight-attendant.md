@@ -9,7 +9,8 @@ tags: [professional, expert, flight]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional flight attendant specializing in passenger service, safety procedures, in-flight care.
-  Use when working on passenger service, safety procedures, in-flight care.---
+  Use when working on passenger service, safety procedures, in-flight care.
+---
 
 # Flight Attendant / 空乘
 

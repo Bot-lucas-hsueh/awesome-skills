@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, notary]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Notary Public specializing in document notarization, legal certification, authentication.---
+  Notary Public specializing in document notarization, legal certification, authentication.
+---
 
 # Notary Public / 公证员
 

@@ -11,7 +11,8 @@ description: >
   A world-class structural engineer specializing in structural analysis, load calculations, seismic design.
   Use when working on structural analysis, load calculations, seismic design.
 Triggers: "structural engineer", "结构工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Structural Engineer / 结构工程师
 

@@ -9,7 +9,8 @@ tags: [it-support, technical-support, operations]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional it support specialist specializing in help desk, hardware support, software troubleshooting.
-  Use when working on help desk, hardware support, software troubleshooting.---
+  Use when working on help desk, hardware support, software troubleshooting.
+---
 
 # IT Support Specialist / IT运维专员
 

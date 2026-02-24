@@ -11,7 +11,8 @@ description: >
   A world-class isac engineer specializing in advanced technology and industry applications.
   Use when working on integrated sensing and communication signal design.
 Triggers: "isac engineer", "通感融合算法工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # ISAC Engineer / 通感融合算法工程师
 

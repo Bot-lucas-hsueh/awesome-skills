@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, shadow]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Shadow Puppeteer specializing in puppet performance, traditional theater, cultural heritage.---
+  Shadow Puppeteer specializing in puppet performance, traditional theater, cultural heritage.
+---
 
 # Shadow Puppeteer / 皮影艺人
 

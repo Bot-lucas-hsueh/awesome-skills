@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, electrician]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional electrician specializing in electrical installation, wiring, safety compliance.
-  Use when working on electrical installation, wiring, safety compliance.---
+  Use when working on electrical installation, wiring, safety compliance.
+---
 
 # Electrician / 电工
 

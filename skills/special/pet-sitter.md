@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert, pet]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pet sitter specializing in pet care, feeding, companionship while owners away.---
+  Professional pet sitter specializing in pet care, feeding, companionship while owners away.
+---
 
 # Pet Sitter / 宠物寄养
 

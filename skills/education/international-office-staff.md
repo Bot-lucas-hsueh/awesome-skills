@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, international]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  International Office Staff specializing in exchange programs, international cooperation, student mobility.---
+  International Office Staff specializing in exchange programs, international cooperation, student mobility.
+---
 
 # International Office Staff / 国际交流处
 

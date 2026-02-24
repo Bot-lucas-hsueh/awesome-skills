@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional professional bridesmaid specializing in wedding support, ceremony assistance, bridesmaid services.---
+  Professional professional bridesmaid specializing in wedding support, ceremony assistance, bridesmaid services.
+---
 
 # Professional Bridesmaid / 职业伴娘
 

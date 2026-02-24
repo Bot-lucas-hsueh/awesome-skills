@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, instrument]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Traditional Instrument Maker specializing in instrument crafting, traditional woodworking, acoustic design.---
+  Traditional Instrument Maker specializing in instrument crafting, traditional woodworking, acoustic design.
+---
 
 # Traditional Instrument Maker / 传统乐器制作师
 

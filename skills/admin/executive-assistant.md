@@ -9,7 +9,8 @@ tags: [administration, operations, executive]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional executive assistant specializing in calendar management, travel coordination, executive support.
-  Use when working on calendar management, travel coordination, executive support.---
+  Use when working on calendar management, travel coordination, executive support.
+---
 
 # Executive Assistant / 总裁助理
 

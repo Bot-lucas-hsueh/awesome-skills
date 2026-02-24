@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, school]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  School Facilities Manager specializing in facility maintenance, cafeteria management, campus operations.---
+  School Facilities Manager specializing in facility maintenance, cafeteria management, campus operations.
+---
 
 # School Facilities Manager / 学校后勤管理
 

@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, forensic]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Forensic Physician specializing in medical investigation, cause of death, legal medicine.---
+  Forensic Physician specializing in medical investigation, cause of death, legal medicine.
+---
 
 # Forensic Physician / 法医
 

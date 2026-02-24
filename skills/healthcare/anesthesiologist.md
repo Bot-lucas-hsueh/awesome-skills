@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, anesthesiologist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Anesthesiologist specializing in anesthesia administration, pain management, surgical support.---
+  Anesthesiologist specializing in anesthesia administration, pain management, surgical support.
+---
 
 # Anesthesiologist / 麻醉医师
 

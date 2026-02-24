@@ -11,7 +11,8 @@ description: >
   A world-class nursing expert specializing in patient care, nursing protocols, healthcare management.
   Use when working on patient care, nursing protocols, healthcare management.
 Triggers: "nursing expert", "护理专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Nursing Expert / 护理专家
 

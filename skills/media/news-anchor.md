@@ -8,7 +8,8 @@ category: media
 tags: [media, content, news]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  News Anchor specializing in news presentation, broadcasting, public communication.---
+  News Anchor specializing in news presentation, broadcasting, public communication.
+---
 
 # News Anchor / 新闻主播
 

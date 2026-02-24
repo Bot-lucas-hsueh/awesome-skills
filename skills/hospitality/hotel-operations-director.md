@@ -11,7 +11,8 @@ description: >
   A world-class hotel operations director specializing in hotel management, guest services, revenue management.
   Use when working on hotel management, guest services, revenue management.
 Triggers: "hotel operations director", "酒店运营总监", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Hotel Operations Director / 酒店运营总监
 

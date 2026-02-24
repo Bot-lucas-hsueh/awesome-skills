@@ -11,7 +11,8 @@ description: >
   A world-class nanomaterials engineer specializing in advanced technology and industry applications.
   Use when working on functional nanomaterials preparation and scale-up.
 Triggers: "nanomaterials engineer", "纳米材料工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Nanomaterials Engineer / 纳米材料工程师
 

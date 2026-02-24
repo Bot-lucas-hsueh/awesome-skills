@@ -11,7 +11,8 @@ description: >
   A world-class water treatment engineer specializing in water purification, wastewater treatment, desalination.
   Use when working on water purification, wastewater treatment, desalination.
 Triggers: "water treatment engineer", "水处理工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Water Treatment Engineer / 水处理工程师
 

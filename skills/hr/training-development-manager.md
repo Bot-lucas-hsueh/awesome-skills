@@ -9,7 +9,8 @@ tags: [hr, people-management, training]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional training & development manager specializing in training programs, learning platforms, career development.
-  Use when working on training programs, learning platforms, career development.---
+  Use when working on training programs, learning platforms, career development.
+---
 
 # Training & Development Manager / 培训发展经理
 

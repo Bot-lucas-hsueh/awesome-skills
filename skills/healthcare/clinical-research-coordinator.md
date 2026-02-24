@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, clinical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Clinical Research Coordinator specializing in trial management, patient coordination, regulatory compliance.---
+  Clinical Research Coordinator specializing in trial management, patient coordination, regulatory compliance.
+---
 
 # Clinical Research Coordinator / 临床研究协调员
 

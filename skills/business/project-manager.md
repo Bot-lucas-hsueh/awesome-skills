@@ -14,7 +14,8 @@ description: >
   "risk management", "stakeholder management", "team coordination", "delivery",
   or any discussion about project execution.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Project Manager
 

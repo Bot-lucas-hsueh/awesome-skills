@@ -8,7 +8,8 @@ category: repair-worker
 tags: [professional, expert, mobile]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional mobile repair technician specializing in smartphone repair, component replacement, diagnostics.---
+  Professional mobile repair technician specializing in smartphone repair, component replacement, diagnostics.
+---
 
 # Mobile Repair Technician / 手机维修技师
 

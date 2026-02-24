@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, attending]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Attending Physician specializing in clinical practice, patient management, medical supervision.---
+  Attending Physician specializing in clinical practice, patient management, medical supervision.
+---
 
 # Attending Physician / 主治医师
 

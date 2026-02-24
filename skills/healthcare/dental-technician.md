@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, dental]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional dental technician specializing in denture fabrication, crown/bridge work, prosthetics.---
+  Professional dental technician specializing in denture fabrication, crown/bridge work, prosthetics.
+---
 
 # Dental Technician / 牙科技师
 

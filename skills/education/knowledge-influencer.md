@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, knowledge]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional knowledge influencer specializing in online courses, content creation, knowledge monetization.---
+  Professional knowledge influencer specializing in online courses, content creation, knowledge monetization.
+---
 
 # Knowledge Influencer / 知识付费讲师
 

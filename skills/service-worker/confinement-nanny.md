@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, confinement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional confinement nanny specializing in newborn care, maternal recovery, infant feeding.---
+  Professional confinement nanny specializing in newborn care, maternal recovery, infant feeding.
+---
 
 # Confinement Nanny / 月嫂
 

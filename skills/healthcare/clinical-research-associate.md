@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, clinical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Clinical Research Associate specializing in site monitoring, data verification, quality assurance.---
+  Clinical Research Associate specializing in site monitoring, data verification, quality assurance.
+---
 
 # Clinical Research Associate / 临床监查员
 

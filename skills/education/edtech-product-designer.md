@@ -11,7 +11,8 @@ description: >
   A world-class edtech product designer specializing in educational software, learning platforms, ux for education.
   Use when working on educational software, learning platforms, ux for education.
 Triggers: "edtech product designer", "教育产品设计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # EdTech Product Designer / 教育产品设计师
 

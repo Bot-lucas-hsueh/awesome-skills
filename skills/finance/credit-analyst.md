@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, credit]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Credit Analyst specializing in credit assessment, risk evaluation, loan processing.---
+  Credit Analyst specializing in credit assessment, risk evaluation, loan processing.
+---
 
 # Credit Analyst / 信贷审批员
 

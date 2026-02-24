@@ -9,7 +9,8 @@ tags: [creative, design, scriptwriter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional scriptwriter specializing in screenwriting, story development, dialogue writing.
-  Use when working on screenwriting, story development, dialogue writing.---
+  Use when working on screenwriting, story development, dialogue writing.
+---
 
 # Scriptwriter / 编剧
 

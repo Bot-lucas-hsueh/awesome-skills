@@ -9,7 +9,8 @@ tags: [professional, expert, truck]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional truck driver specializing in long-haul transport, delivery, vehicle maintenance.
-  Use when working on long-haul transport, delivery, vehicle maintenance.---
+  Use when working on long-haul transport, delivery, vehicle maintenance.
+---
 
 # Truck Driver / 货车司机
 

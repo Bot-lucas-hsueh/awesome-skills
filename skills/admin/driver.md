@@ -9,7 +9,8 @@ tags: [administration, operations, driver]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional professional driver specializing in safe driving, route planning, vehicle maintenance.
-  Use when working on safe driving, route planning, vehicle maintenance.---
+  Use when working on safe driving, route planning, vehicle maintenance.
+---
 
 # Professional Driver / 司机
 

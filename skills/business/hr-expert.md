@@ -11,7 +11,8 @@ description: >
   A world-class hr expert/hrbp specializing in talent acquisition, performance management, employee relations.
   Use when working on talent acquisition, performance management, employee relations.
 Triggers: "hr expert/hrbp", "HR专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # HR Expert/HRBP / HR专家
 

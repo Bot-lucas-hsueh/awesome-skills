@@ -11,7 +11,8 @@ description: >
   A world-class university professor specializing in higher education, research supervision, academic leadership.
   Use when working on higher education, research supervision, academic leadership.
 Triggers: "university professor", "大学教授", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # University Professor / 大学教授
 

@@ -9,7 +9,8 @@ tags: [professional, expert, pilot]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional pilot specializing in aircraft operation, navigation, flight safety.
-  Use when working on aircraft operation, navigation, flight safety.---
+  Use when working on aircraft operation, navigation, flight safety.
+---
 
 # Pilot / 飞行员
 

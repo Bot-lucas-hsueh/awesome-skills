@@ -12,7 +12,8 @@ description: >
   Use when implementing data privacy solutions, secure multi-party computation, or federated learning systems.
 Triggers: "privacy computing", "federated learning", "multi-party computation", "MPC",
   "differential privacy", "homomorphic encryption", "TEE", "secure aggregation", or any discussion about privacy-preserving computation.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Privacy Computing Engineer / 隐私计算工程师
 

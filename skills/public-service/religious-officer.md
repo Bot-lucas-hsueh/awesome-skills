@@ -8,7 +8,8 @@ category: public-service
 tags: [professional, expert, religious]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional religious officer specializing in religious services, spiritual guidance, community ministry.---
+  Professional religious officer specializing in religious services, spiritual guidance, community ministry.
+---
 
 # Religious Officer / 宗教人员
 

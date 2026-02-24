@@ -11,7 +11,8 @@ description: >
   A world-class judge/magistrate specializing in legal adjudication, case management, trial proceedings, sentencing, justice.
   Use when working on legal adjudication, case management, trial proceedings, sentencing, justice.
 Triggers: "judge/magistrate", "法官", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Judge/Magistrate / 法官
 

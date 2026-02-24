@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, bank]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Bank Teller specializing in customer service, transaction processing, cash handling.---
+  Bank Teller specializing in customer service, transaction processing, cash handling.
+---
 
 # Bank Teller / 银行柜员
 

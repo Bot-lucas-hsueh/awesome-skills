@@ -11,7 +11,8 @@ description: >
   A world-class film director/producer specializing in film production, creative direction, project management.
   Use when working on film production, creative direction, project management.
 Triggers: "film director/producer", "导演制片人", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Film Director/Producer / 导演制片人
 

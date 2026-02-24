@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, journal]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Journal Editor specializing in manuscript初审, peer review coordination, publication coordination.---
+  Journal Editor specializing in manuscript初审, peer review coordination, publication coordination.
+---
 
 # Journal Editor / 期刊编辑
 

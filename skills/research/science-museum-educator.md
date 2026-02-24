@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, science]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Science Museum Educator specializing in public education, exhibit explanation, science outreach.---
+  Science Museum Educator specializing in public education, exhibit explanation, science outreach.
+---
 
 # Science Museum Educator / 科学馆讲解员
 

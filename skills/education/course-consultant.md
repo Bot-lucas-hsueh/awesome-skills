@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, course]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Course Consultant specializing in student recruitment, course recommendation, enrollment counseling.---
+  Course Consultant specializing in student recruitment, course recommendation, enrollment counseling.
+---
 
 # Course Consultant / 课程顾问
 

@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, peer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Peer Reviewer specializing in manuscript evaluation, academic judgment, feedback provision.---
+  Peer Reviewer specializing in manuscript evaluation, academic judgment, feedback provision.
+---
 
 # Peer Reviewer / 论文审稿人
 

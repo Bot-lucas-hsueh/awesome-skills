@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, pharmaceutical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Pharmaceutical Sales Representative specializing in product promotion, client relations, market development.---
+  Pharmaceutical Sales Representative specializing in product promotion, client relations, market development.
+---
 
 # Pharmaceutical Sales Representative / 医药代表
 

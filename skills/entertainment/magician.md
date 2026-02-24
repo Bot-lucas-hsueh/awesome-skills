@@ -8,7 +8,8 @@ category: entertainment
 tags: [entertainment, creative, magician]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional magician specializing in magic performance, illusion, entertainment.---
+  Professional magician specializing in magic performance, illusion, entertainment.
+---
 
 # Magician / 魔术师
 

@@ -9,7 +9,8 @@ tags: [manufacturing, operations, assembly]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional assembly line worker specializing in product assembly, quality checks, production efficiency.
-  Use when working on product assembly, quality checks, production efficiency.---
+  Use when working on product assembly, quality checks, production efficiency.
+---
 
 # Assembly Line Worker / 流水线操作工
 

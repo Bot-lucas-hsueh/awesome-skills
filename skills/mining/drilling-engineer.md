@@ -11,7 +11,8 @@ description: >
   A world-class drilling engineer specializing in well design, drilling operations, completion.
   Use when working on well design, drilling operations, completion.
 Triggers: "drilling engineer", "钻井工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Drilling Engineer / 钻井工程师
 

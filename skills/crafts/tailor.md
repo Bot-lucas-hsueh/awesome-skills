@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, tailor]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Tailor specializing in garment making, alterations, bespoke tailoring.---
+  Tailor specializing in garment making, alterations, bespoke tailoring.
+---
 
 # Tailor / 裁缝
 

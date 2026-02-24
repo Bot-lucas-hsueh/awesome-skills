@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, floral]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Floral Design Instructor specializing in flower arrangement, design principles, artistic expression.---
+  Floral Design Instructor specializing in flower arrangement, design principles, artistic expression.
+---
 
 # Floral Design Instructor / 花艺培训师
 

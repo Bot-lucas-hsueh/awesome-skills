@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, school]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  School Librarian specializing in library management, reading programs, information literacy.---
+  School Librarian specializing in library management, reading programs, information literacy.
+---
 
 # School Librarian / 图书馆管理老师
 

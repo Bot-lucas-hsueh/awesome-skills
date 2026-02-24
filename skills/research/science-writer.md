@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, science]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Science Writer specializing in science communication, public engagement, content creation.---
+  Science Writer specializing in science communication, public engagement, content creation.
+---
 
 # Science Writer / 科普作家
 

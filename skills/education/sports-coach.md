@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, sports]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Sports Coach specializing in athletic training, skill development, fitness coaching.---
+  Sports Coach specializing in athletic training, skill development, fitness coaching.
+---
 
 # Sports Coach / 体育教练
 

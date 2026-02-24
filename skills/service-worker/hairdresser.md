@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, hairdresser]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional hairdresser specializing in hair cutting, styling, coloring.---
+  Professional hairdresser specializing in hair cutting, styling, coloring.
+---
 
 # Hairdresser / 美发师
 

@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, lighthouse]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Lighthouse Keeper specializing in maritime navigation, light maintenance, coastal safety.---
+  Lighthouse Keeper specializing in maritime navigation, light maintenance, coastal safety.
+---
 
 # Lighthouse Keeper / 灯塔看守员
 

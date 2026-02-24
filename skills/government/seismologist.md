@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, seismologist]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Seismologist specializing in earthquake monitoring, seismic analysis, early warning.---
+  Seismologist specializing in earthquake monitoring, seismic analysis, early warning.
+---
 
 # Seismologist / 地震监测员
 

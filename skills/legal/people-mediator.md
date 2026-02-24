@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, people]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  People's Mediator specializing in conflict resolution, community mediation, dispute settlement.---
+  People's Mediator specializing in conflict resolution, community mediation, dispute settlement.
+---
 
 # People's Mediator / 人民调解员
 

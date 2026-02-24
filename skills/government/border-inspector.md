@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, border]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Border Inspector specializing in immigration control, passport verification, security screening.---
+  Border Inspector specializing in immigration control, passport verification, security screening.
+---
 
 # Border Inspector / 边检员
 

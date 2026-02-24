@@ -11,7 +11,8 @@ description: >
   A world-class quantitative trader specializing in algorithmic trading, market making, risk arbitrage.
   Use when working on algorithmic trading, market making, risk arbitrage.
 Triggers: "quantitative trader", "量化交易员", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Quantitative Trader / 量化交易员
 

@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, chemical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Chemical Analyst specializing in hplc/gc-ms operation, sample testing, method development.---
+  Chemical Analyst specializing in hplc/gc-ms operation, sample testing, method development.
+---
 
 # Chemical Analyst / 化学分析技术员
 

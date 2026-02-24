@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, special]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Special Education Teacher specializing in inclusive education, iep development, specialized instruction.---
+  Special Education Teacher specializing in inclusive education, iep development, specialized instruction.
+---
 
 # Special Education Teacher / 特教老师
 

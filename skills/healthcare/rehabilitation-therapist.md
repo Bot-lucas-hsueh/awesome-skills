@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, rehabilitation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Rehabilitation Therapist specializing in physical therapy, occupational therapy, recovery support.---
+  Rehabilitation Therapist specializing in physical therapy, occupational therapy, recovery support.
+---
 
 # Rehabilitation Therapist / 康复治疗师
 

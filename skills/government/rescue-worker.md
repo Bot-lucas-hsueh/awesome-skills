@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, rescue]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Rescue Worker specializing in emergency assistance, shelter management, social care.---
+  Rescue Worker specializing in emergency assistance, shelter management, social care.
+---
 
 # Rescue Worker / 救助站工作人员
 

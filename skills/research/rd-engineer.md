@@ -11,7 +11,8 @@ description: >
   A world-class r&d engineer specializing in new product development, prototyping, innovation.
   Use when working on new product development, prototyping, innovation.
 Triggers: "r&d engineer", "研发工程师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # R&D Engineer / 研发工程师
 

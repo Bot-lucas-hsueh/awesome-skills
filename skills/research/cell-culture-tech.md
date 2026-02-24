@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, cell]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Cell Culture Technician specializing in cell passaging, sterile operation, medium preparation.---
+  Cell Culture Technician specializing in cell passaging, sterile operation, medium preparation.
+---
 
 # Cell Culture Technician / 细胞培养技术员
 

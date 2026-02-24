@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, medical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional medical escort specializing in hospital accompaniment, appointment assistance, patient support.---
+  Professional medical escort specializing in hospital accompaniment, appointment assistance, patient support.
+---
 
 # Medical Escort / 陪诊员
 

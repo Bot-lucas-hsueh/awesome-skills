@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, tour]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional tour guide specializing in sightseeing tours, cultural explanation, itinerary planning.---
+  Professional tour guide specializing in sightseeing tours, cultural explanation, itinerary planning.
+---
 
 # Tour Guide / 导游
 

@@ -8,7 +8,8 @@ category: realestate
 tags: [professional, expert, maintenance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Maintenance Worker specializing in repairs, maintenance, emergency response.---
+  Maintenance Worker specializing in repairs, maintenance, emergency response.
+---
 
 # Maintenance Worker / 物业维修工
 

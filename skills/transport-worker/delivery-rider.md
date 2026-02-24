@@ -9,7 +9,8 @@ tags: [professional, expert, delivery]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional delivery rider specializing in last-mile delivery, navigation, time management.
-  Use when working on last-mile delivery, navigation, time management.---
+  Use when working on last-mile delivery, navigation, time management.
+---
 
 # Delivery Rider / 外卖骑手
 

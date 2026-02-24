@@ -11,7 +11,8 @@ description: >
   A world-class satellite communication engineer specializing in advanced technology and industry applications.
   Use when working on satellite constellation design, communication payload.
 Triggers: "satellite communication engineer", "卫星通信系统工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Satellite Communication Engineer / 卫星通信系统工程师
 

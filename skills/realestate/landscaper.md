@@ -8,7 +8,8 @@ category: realestate
 tags: [professional, expert, landscaper]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Landscaper specializing in gardening, landscape maintenance, outdoor aesthetics.---
+  Landscaper specializing in gardening, landscape maintenance, outdoor aesthetics.
+---
 
 # Landscaper / 绿化工
 

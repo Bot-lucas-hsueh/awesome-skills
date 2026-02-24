@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, maternity]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Maternity Nurse Trainer specializing in newborn care training, maternal health, professional certification.---
+  Maternity Nurse Trainer specializing in newborn care training, maternal health, professional certification.
+---
 
 # Maternity Nurse Trainer / 母婴培训讲师
 

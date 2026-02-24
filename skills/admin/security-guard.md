@@ -9,7 +9,8 @@ tags: [administration, operations, security]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional security guard specializing in access control, patrol, emergency response.
-  Use when working on access control, patrol, emergency response.---
+  Use when working on access control, patrol, emergency response.
+---
 
 # Security Guard / 保安
 

@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, steel]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional steel worker specializing in rebar installation, steel structure, concrete work.
-  Use when working on rebar installation, steel structure, concrete work.---
+  Use when working on rebar installation, steel structure, concrete work.
+---
 
 # Steel Worker / 钢筋工
 

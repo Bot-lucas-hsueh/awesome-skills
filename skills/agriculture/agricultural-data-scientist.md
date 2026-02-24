@@ -11,7 +11,8 @@ description: >
   A world-class agricultural data scientist specializing in smart agriculture, precision farming, agricultural big data.
   Use when working on smart agriculture, precision farming, agricultural big data.
 Triggers: "agricultural data scientist", "农业数据科学家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Agricultural Data Scientist / 农业数据科学家
 

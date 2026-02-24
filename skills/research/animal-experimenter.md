@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, animal]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Animal Experiment Technician specializing in animal handling, surgical operations, ethics compliance.---
+  Animal Experiment Technician specializing in animal handling, surgical operations, ethics compliance.
+---
 
 # Animal Experiment Technician / 动物实验技术员
 

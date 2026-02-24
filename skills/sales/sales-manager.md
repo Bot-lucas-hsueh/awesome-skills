@@ -11,7 +11,8 @@ description: >
   A world-class sales manager specializing in b2b sales, client acquisition, relationship management, revenue growth.
   Use when working on b2b sales, client acquisition, relationship management, revenue growth.
 Triggers: "sales manager", "销售经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Sales Manager / 销售经理
 

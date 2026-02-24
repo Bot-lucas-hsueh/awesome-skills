@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, wood]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Wood Carver specializing in wood sculpting, traditional carving, artistic creation.---
+  Wood Carver specializing in wood sculpting, traditional carving, artistic creation.
+---
 
 # Wood Carver / 木雕师
 

@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, icu]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  ICU Nurse specializing in critical care, life support, emergency response.---
+  ICU Nurse specializing in critical care, life support, emergency response.
+---
 
 # ICU Nurse / ICU护士
 

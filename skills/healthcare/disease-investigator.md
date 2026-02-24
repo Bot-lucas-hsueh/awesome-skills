@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, disease]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Disease Investigator specializing in case investigation, contact tracing, outbreak response.---
+  Disease Investigator specializing in case investigation, contact tracing, outbreak response.
+---
 
 # Disease Investigator / 疾控中心流调员
 

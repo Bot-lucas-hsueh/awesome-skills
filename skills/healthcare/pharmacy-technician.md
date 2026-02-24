@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, pharmacy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional pharmacy technician specializing in medication dispensing, prescription management, patient counseling.---
+  Professional pharmacy technician specializing in medication dispensing, prescription management, patient counseling.
+---
 
 # Pharmacy Technician / 药店药剂师
 

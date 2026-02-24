@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, consulting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional freelance designer specializing in graphic design, branding, freelance projects.---
+  Professional freelance designer specializing in graphic design, branding, freelance projects.
+---
 
 # Freelance Designer / 自由设计师
 

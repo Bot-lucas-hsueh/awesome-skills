@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert, belongings]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional belongings organizer specializing in estate organization, memorial sorting, legacy preservation.---
+  Professional belongings organizer specializing in estate organization, memorial sorting, legacy preservation.
+---
 
 # Belongings Organizer / 遗物整理师
 

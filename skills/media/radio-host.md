@@ -8,7 +8,8 @@ category: media
 tags: [media, content, radio]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Radio Host specializing in broadcasting, audience engagement, content presentation.---
+  Radio Host specializing in broadcasting, audience engagement, content presentation.
+---
 
 # Radio Host / 电台主持人
 

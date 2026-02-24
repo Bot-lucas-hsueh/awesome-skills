@@ -11,7 +11,8 @@ description: >
   A world-class aquaculture expert specializing in freshwater/marine aquaculture, breeding technology.
   Use when working on freshwater/marine aquaculture, breeding technology.
 Triggers: "aquaculture expert", "水产养殖专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Aquaculture Expert / 水产养殖专家
 

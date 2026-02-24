@@ -9,7 +9,8 @@ tags: [manufacturing, operations, forklift]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional forklift operator specializing in material handling, warehouse operations, safety.
-  Use when working on material handling, warehouse operations, safety.---
+  Use when working on material handling, warehouse operations, safety.
+---
 
 # Forklift Operator / 叉车司机
 

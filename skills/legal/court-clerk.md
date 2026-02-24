@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, court]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Court Clerk specializing in court records, transcription, administrative support.---
+  Court Clerk specializing in court records, transcription, administrative support.
+---
 
 # Court Clerk / 书记员
 

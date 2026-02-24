@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, bricklayer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional bricklayer specializing in masonry, brick laying, wall construction.
-  Use when working on masonry, brick laying, wall construction.---
+  Use when working on masonry, brick laying, wall construction.
+---
 
 # Bricklayer / 泥瓦工
 

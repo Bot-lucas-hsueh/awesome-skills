@@ -12,7 +12,8 @@ description: >
   Use when planning career moves, developing skills, or navigating workplace challenges.
 Triggers: "career coaching", "career transition", "skill development", "job search",
   "workplace challenge", "professional growth", "resume review", "interview prep".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Career Coach / 职业教练
 

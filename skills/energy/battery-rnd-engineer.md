@@ -14,7 +14,8 @@ description: >
   "battery testing", "BMS", "solid-state battery", "cathode", "anode", "electrolyte",
   or any discussion about battery technology.
 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Battery R&D Engineer
 

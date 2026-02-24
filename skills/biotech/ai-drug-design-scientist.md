@@ -12,7 +12,8 @@ description: >
   Use when discovering drug targets, designing novel molecules, or optimizing lead compounds with AI.
 Triggers: "AI drug discovery", "molecular design", "virtual screening", "QSAR",
   "generative chemistry", "target identification", "lead optimization", or any discussion about computational pharma.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # AI Drug Design Scientist / AI药物设计科学家
 

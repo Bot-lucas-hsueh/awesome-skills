@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, occupational]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Occupational Physician specializing in work-related diseases, occupational health, medical evaluation.---
+  Occupational Physician specializing in work-related diseases, occupational health, medical evaluation.
+---
 
 # Occupational Physician / 职业病诊断医师
 

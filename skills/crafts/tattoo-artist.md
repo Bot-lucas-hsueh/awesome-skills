@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, tattoo]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Tattoo Artist specializing in tattoo design, skin artistry, safety protocols.---
+  Tattoo Artist specializing in tattoo design, skin artistry, safety protocols.
+---
 
 # Tattoo Artist / 纹身师
 

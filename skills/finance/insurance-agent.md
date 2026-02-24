@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, insurance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Insurance Agent specializing in policy sales, client consultation, coverage planning.---
+  Insurance Agent specializing in policy sales, client consultation, coverage planning.
+---
 
 # Insurance Agent / 保险代理人
 

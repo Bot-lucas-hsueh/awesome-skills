@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, methodology]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Research Project Manager specializing in grant application, budget management, project coordination.---
+  Research Project Manager specializing in grant application, budget management, project coordination.
+---
 
 # Research Project Manager / 科研项目管理
 

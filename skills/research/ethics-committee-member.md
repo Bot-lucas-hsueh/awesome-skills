@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, ethics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Ethics Committee Member specializing in research ethics review, compliance oversight, human subject protection.---
+  Ethics Committee Member specializing in research ethics review, compliance oversight, human subject protection.
+---
 
 # Ethics Committee Member / 科研伦理委员
 

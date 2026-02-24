@@ -8,7 +8,8 @@ category: healthcare
 tags: [healthcare, medicine, vaccination]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Vaccination Staff specializing in immunization, vaccine administration, public health.---
+  Vaccination Staff specializing in immunization, vaccine administration, public health.
+---
 
 # Vaccination Staff / 预防接种人员
 

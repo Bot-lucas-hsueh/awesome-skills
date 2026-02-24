@@ -11,7 +11,8 @@ description: >
   A world-class plant protection expert specializing in pest control, pesticide use, green prevention.
   Use when working on pest control, pesticide use, green prevention.
 Triggers: "plant protection expert", "植保专家", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Plant Protection Expert / 植保专家
 

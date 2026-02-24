@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, enforcement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Enforcement Officer specializing in judgment enforcement, asset seizure, legal compliance.---
+  Enforcement Officer specializing in judgment enforcement, asset seizure, legal compliance.
+---
 
 # Enforcement Officer / 执行法官
 

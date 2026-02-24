@@ -11,7 +11,8 @@ description: >
   A world-class ai security engineer specializing in advanced technology and industry applications.
   Use when working on ai system attack/defense, adversarial examples, model security.
 Triggers: "ai security engineer", "AI安全工程师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # AI Security Engineer / AI安全工程师
 

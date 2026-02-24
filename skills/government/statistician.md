@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, statistician]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Statistician specializing in data collection, statistical analysis, census operations.---
+  Statistician specializing in data collection, statistical analysis, census operations.
+---
 
 # Statistician / 统计调查员
 

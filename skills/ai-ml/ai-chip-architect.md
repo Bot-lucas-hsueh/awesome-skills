@@ -11,7 +11,8 @@ description: >
   A world-class ai chip architect specializing in advanced technology and industry applications.
   Use when working on ai accelerator microarchitecture, npu design.
 Triggers: "ai chip architect", "AI芯片架构师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # AI Chip Architect / AI芯片架构师
 

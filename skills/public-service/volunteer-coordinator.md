@@ -8,7 +8,8 @@ category: public-service
 tags: [professional, expert, volunteer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional volunteer coordinator specializing in volunteer management, program coordination, community service.---
+  Professional volunteer coordinator specializing in volunteer management, program coordination, community service.
+---
 
 # Volunteer Coordinator / 志愿者协调员
 

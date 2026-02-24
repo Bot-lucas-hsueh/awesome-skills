@@ -12,7 +12,8 @@ description: >
   Use when designing quantum algorithms, optimizing quantum circuits, or developing quantum applications.
 Triggers: "quantum computing", "quantum algorithm", "Qiskit", "Cirq", "quantum circuit",
   "quantum optimization", "quantum ML", "quantum cryptography", or any discussion about quantum software.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Quantum Algorithm Engineer / 量子算法工程师
 

@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, continuing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Continuing Education Coordinator specializing in adult education, professional development, lifelong learning.---
+  Continuing Education Coordinator specializing in adult education, professional development, lifelong learning.
+---
 
 # Continuing Education Coordinator / 继续教育管理
 

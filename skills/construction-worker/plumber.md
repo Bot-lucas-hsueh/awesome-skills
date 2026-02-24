@@ -9,7 +9,8 @@ tags: [construction, skilled-trades, plumber]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional plumber specializing in pipe installation, drainage, hvac systems.
-  Use when working on pipe installation, drainage, hvac systems.---
+  Use when working on pipe installation, drainage, hvac systems.
+---
 
 # Plumber / 水暖工
 

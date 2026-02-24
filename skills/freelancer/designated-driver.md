@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, designated]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional designated driver specializing in safe driving, client transport, night services.---
+  Professional designated driver specializing in safe driving, client transport, night services.
+---
 
 # Designated Driver / 代驾
 

@@ -11,7 +11,8 @@ description: >
   A world-class research scholar specializing in academic research, paper publication, grant applications.
   Use when working on academic research, paper publication, grant applications.
 Triggers: "research scholar", "科研学者", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Research Scholar / 科研学者
 

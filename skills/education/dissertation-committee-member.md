@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, dissertation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Dissertation Committee Member specializing in thesis defense, academic evaluation, degree awarding.---
+  Dissertation Committee Member specializing in thesis defense, academic evaluation, degree awarding.
+---
 
 # Dissertation Committee Member / 论文答辩委员
 

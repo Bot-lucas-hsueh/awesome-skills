@@ -9,7 +9,8 @@ tags: [professional, expert, taxi]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional taxi driver specializing in passenger transport, navigation, customer service.
-  Use when working on passenger transport, navigation, customer service.---
+  Use when working on passenger transport, navigation, customer service.
+---
 
 # Taxi Driver / 出租车司机
 

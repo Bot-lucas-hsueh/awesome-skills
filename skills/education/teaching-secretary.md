@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Teaching Secretary specializing in schedule coordination, academic records, administrative support.---
+  Teaching Secretary specializing in schedule coordination, academic records, administrative support.
+---
 
 # Teaching Secretary / 教学秘书
 

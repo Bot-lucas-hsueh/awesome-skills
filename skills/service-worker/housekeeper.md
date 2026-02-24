@@ -8,7 +8,8 @@ category: service-worker
 tags: [professional, expert, housekeeper]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional housekeeper specializing in domestic cleaning, cooking, childcare.---
+  Professional housekeeper specializing in domestic cleaning, cooking, childcare.
+---
 
 # Housekeeper / 保姆
 

@@ -11,7 +11,8 @@ description: >
   A world-class retail operations manager specializing in store operations, inventory management, customer experience.
   Use when working on store operations, inventory management, customer experience.
 Triggers: "retail operations manager", "零售运营经理", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Retail Operations Manager / 零售运营经理
 

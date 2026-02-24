@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert, data]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Data Labeler specializing in ai training data, annotation, quality control.---
+  Data Labeler specializing in ai training data, annotation, quality control.
+---
 
 # Data Labeler / 数据标注员
 

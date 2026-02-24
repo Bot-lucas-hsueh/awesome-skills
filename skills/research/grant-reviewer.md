@@ -8,7 +8,8 @@ category: research
 tags: [research, analysis, grant]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Grant Reviewer specializing in project evaluation, funding decisions, peer review.---
+  Grant Reviewer specializing in project evaluation, funding decisions, peer review.
+---
 
 # Grant Reviewer / 基金评审专家
 

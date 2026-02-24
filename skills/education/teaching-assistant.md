@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Teaching Assistant specializing in class support, student guidance, material preparation.---
+  Teaching Assistant specializing in class support, student guidance, material preparation.
+---
 
 # Teaching Assistant / 助教
 

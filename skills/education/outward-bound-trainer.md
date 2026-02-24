@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, outward]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Outward Bound Trainer specializing in team building, leadership development, outdoor training.---
+  Outward Bound Trainer specializing in team building, leadership development, outdoor training.
+---
 
 # Outward Bound Trainer / 拓展训练教练
 

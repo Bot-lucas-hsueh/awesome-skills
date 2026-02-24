@@ -11,7 +11,8 @@ description: >
   A world-class architect specializing in building design, space planning, aesthetic design.
   Use when working on building design, space planning, aesthetic design.
 Triggers: "architect", "建筑设计师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Architect / 建筑设计师
 

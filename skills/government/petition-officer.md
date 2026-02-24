@@ -8,7 +8,8 @@ category: government
 tags: [government, policy, petition]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Petition Officer specializing in public complaints, grievance handling, administrative justice.---
+  Petition Officer specializing in public complaints, grievance handling, administrative justice.
+---
 
 # Petition Officer / 信访接待员
 

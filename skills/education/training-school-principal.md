@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, training]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Training School Principal specializing in school management, operations, business development.---
+  Training School Principal specializing in school management, operations, business development.
+---
 
 # Training School Principal / 培训机构校长
 

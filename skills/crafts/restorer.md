@@ -8,7 +8,8 @@ category: crafts
 tags: [crafts, skilled-trades, restorer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Art Restorer specializing in art conservation, restoration, heritage preservation.---
+  Art Restorer specializing in art conservation, restoration, heritage preservation.
+---
 
 # Art Restorer / 修复师
 

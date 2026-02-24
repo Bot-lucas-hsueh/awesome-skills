@@ -8,7 +8,8 @@ category: special
 tags: [professional, expert]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional Shopper specializing in purchasing agent, cross-border shopping, product sourcing.---
+  Professional Shopper specializing in purchasing agent, cross-border shopping, product sourcing.
+---
 
 # Professional Shopper / 代购
 

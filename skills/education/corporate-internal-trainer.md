@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, corporate]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Corporate Internal Trainer specializing in employee training, skill development, organizational learning.---
+  Corporate Internal Trainer specializing in employee training, skill development, organizational learning.
+---
 
 # Corporate Internal Trainer / 企业内训师
 

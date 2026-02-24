@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, tutor]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Subject Tutor specializing in academic tutoring, exam preparation, personalized instruction.---
+  Subject Tutor specializing in academic tutoring, exam preparation, personalized instruction.
+---
 
 # Subject Tutor / 学科辅导老师
 

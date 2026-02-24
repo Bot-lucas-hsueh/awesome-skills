@@ -9,7 +9,8 @@ tags: [creative, design, video]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional video editor specializing in video editing, post-production, color grading.
-  Use when working on video editing, post-production, color grading.---
+  Use when working on video editing, post-production, color grading.
+---
 
 # Video Editor / 视频剪辑师
 

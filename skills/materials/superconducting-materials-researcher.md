@@ -11,7 +11,8 @@ description: >
   A world-class superconducting materials researcher specializing in advanced technology and industry applications.
   Use when working on high-temperature superconducting materials r&d.
 Triggers: "superconducting materials researcher", "超导材料研究员", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Superconducting Materials Researcher / 超导材料研究员
 

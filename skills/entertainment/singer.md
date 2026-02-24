@@ -8,7 +8,8 @@ category: entertainment
 tags: [entertainment, creative, singer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional singer specializing in vocal performance, music recording, live concerts.---
+  Professional singer specializing in vocal performance, music recording, live concerts.
+---
 
 # Singer / 歌手
 

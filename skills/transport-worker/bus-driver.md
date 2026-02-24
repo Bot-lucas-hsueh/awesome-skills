@@ -9,7 +9,8 @@ tags: [professional, expert, bus]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional bus driver specializing in public transport, route driving, passenger safety.
-  Use when working on public transport, route driving, passenger safety.---
+  Use when working on public transport, route driving, passenger safety.
+---
 
 # Bus Driver / 公交司机
 

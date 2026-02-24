@@ -11,7 +11,8 @@ description: >
   A world-class carbon management consultant specializing in advanced technology and industry applications.
   Use when working on carbon emission accounting, trading strategies, ccus.
 Triggers: "carbon management consultant", "碳管理咨询师", related technical keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Carbon Management Consultant / 碳管理咨询师
 

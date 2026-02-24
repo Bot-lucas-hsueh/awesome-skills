@@ -8,7 +8,8 @@ category: freelancer
 tags: [freelance, business, livestream]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Professional livestream seller specializing in live selling, product demonstration, audience engagement.---
+  Professional livestream seller specializing in live selling, product demonstration, audience engagement.
+---
 
 # Livestream Seller / 直播电商主播
 

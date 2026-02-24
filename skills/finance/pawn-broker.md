@@ -8,7 +8,8 @@ category: finance
 tags: [finance, analysis, pawn]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Pawn Broker specializing in collateral appraisal, loan issuance, item valuation.---
+  Pawn Broker specializing in collateral appraisal, loan issuance, item valuation.
+---
 
 # Pawn Broker / 典当师
 

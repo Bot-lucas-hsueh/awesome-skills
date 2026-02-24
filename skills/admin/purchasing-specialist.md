@@ -9,7 +9,8 @@ tags: [administration, operations, purchasing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional purchasing specialist specializing in procurement, vendor negotiation, supply management.
-  Use when working on procurement, vendor negotiation, supply management.---
+  Use when working on procurement, vendor negotiation, supply management.
+---
 
 # Purchasing Specialist / 采购专员
 

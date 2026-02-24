@@ -8,7 +8,8 @@ category: legal
 tags: [legal, compliance, risk-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Intellectual Property Attorney specializing in ip protection, patent law, trademark disputes.---
+  Intellectual Property Attorney specializing in ip protection, patent law, trademark disputes.
+---
 
 # Intellectual Property Attorney / 知识产权律师
 

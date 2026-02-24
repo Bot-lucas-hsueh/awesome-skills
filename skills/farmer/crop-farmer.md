@@ -9,7 +9,8 @@ tags: [agriculture, farming, crop]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional crop farmer specializing in crop cultivation, planting, harvesting.
-  Use when working on crop cultivation, planting, harvesting.---
+  Use when working on crop cultivation, planting, harvesting.
+---
 
 # Crop Farmer / 种植户
 

@@ -11,7 +11,8 @@ description: >
   A world-class civil servant/policy analyst specializing in public policy, government operations, regulatory analysis.
   Use when working on public policy, government operations, regulatory analysis.
 Triggers: "civil servant/policy analyst", "公务员政策分析师", related industry keywords.
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.---
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+---
 
 # Civil Servant/Policy Analyst / 公务员政策分析师
 

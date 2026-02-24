@@ -8,7 +8,8 @@ category: education
 tags: [education, teaching, graduate]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Graduate Supervisor specializing in graduate mentoring, thesis supervision, academic guidance.---
+  Graduate Supervisor specializing in graduate mentoring, thesis supervision, academic guidance.
+---
 
 # Graduate Supervisor / 硕导/博导
 

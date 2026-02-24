@@ -9,7 +9,8 @@ tags: [creative, design, animator]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
   Professional animator specializing in 2d/3d animation, motion graphics, visual effects.
-  Use when working on 2d/3d animation, motion graphics, visual effects.---
+  Use when working on 2d/3d animation, motion graphics, visual effects.
+---
 
 # Animator / 动画设计师
 
