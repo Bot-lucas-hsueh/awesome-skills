@@ -3,6 +3,7 @@ name: algorithm-engineer
 display_name: Algorithm Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: software
 tags: [software, engineering, algorithm]

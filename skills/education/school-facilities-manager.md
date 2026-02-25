@@ -3,6 +3,7 @@ name: school-facilities-manager
 display_name: School Facilities Manager / 学校后勤管理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, school]

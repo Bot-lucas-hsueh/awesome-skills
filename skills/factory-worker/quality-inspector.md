@@ -3,6 +3,7 @@ name: quality-inspector
 display_name: Quality Inspector / 质检员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: factory-worker
 tags: [manufacturing, operations, quality]

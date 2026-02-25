@@ -3,6 +3,7 @@ name: statistician
 display_name: Statistician / 统计学家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: research
 tags: [statistics, hypothesis-testing, bayesian-methods, experimental-design, data-analysis]

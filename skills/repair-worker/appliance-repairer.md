@@ -3,6 +3,7 @@ name: appliance-repairer
 display_name: Appliance Repairer / 家电维修工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: repair-worker
 tags: [professional, expert, appliance]

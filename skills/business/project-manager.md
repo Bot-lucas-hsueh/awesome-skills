@@ -3,6 +3,7 @@ name: project-manager
 display_name: Project Manager / 项目经理
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: business
 tags: [project-management, agile, scrum, stakeholder-management, risk-management]

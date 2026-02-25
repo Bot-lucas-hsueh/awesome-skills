@@ -3,6 +3,7 @@ name: copywriter
 display_name: Copywriter / 文案策划
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: creative
 tags: [copywriting, brand-voice, content-strategy, conversion, storytelling]

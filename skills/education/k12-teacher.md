@@ -3,6 +3,7 @@ name: k12-teacher
 display_name: K-12 Teacher / 中小学教师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: education
 tags: [education, teaching, k12]

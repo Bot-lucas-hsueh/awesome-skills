@@ -3,6 +3,7 @@ name: sports-agent
 display_name: Sports Agent / 体育经纪人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: media
 tags: [media, content, sports]

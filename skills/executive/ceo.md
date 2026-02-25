@@ -3,6 +3,7 @@ name: ceo
 display_name: CEO / Chief Executive Officer / 首席执行官
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: executive
 tags: [strategy, leadership, business, management, executive]

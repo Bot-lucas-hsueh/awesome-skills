@@ -3,6 +3,7 @@ name: corporate-internal-trainer
 display_name: Corporate Internal Trainer / 企业内训师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, corporate]

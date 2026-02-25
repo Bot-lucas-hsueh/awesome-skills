@@ -3,6 +3,7 @@ name: notary-public
 display_name: Notary Public / 公证员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, notary]

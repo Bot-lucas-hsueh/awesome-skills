@@ -3,6 +3,7 @@ name: fund-manager
 display_name: Fund Manager / 基金经理
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: finance
 tags: [portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives]

@@ -3,6 +3,7 @@ name: municipal-engineer
 display_name: Municipal Engineer / 市政工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: environmental
 tags: [environment, sustainability, municipal]

@@ -3,6 +3,7 @@ name: international-office-staff
 display_name: International Office Staff / 国际交流处
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, international]

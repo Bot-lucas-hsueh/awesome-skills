@@ -3,6 +3,7 @@ name: ecologist
 display_name: Ecologist / 生态学家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: environmental
 tags: [environment, sustainability, ecologist]

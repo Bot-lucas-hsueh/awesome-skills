@@ -3,6 +3,7 @@ name: social-security-expert
 display_name: Social Security Expert / 社保经办专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: government
 tags: [government, policy, social]

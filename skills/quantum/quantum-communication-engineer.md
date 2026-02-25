@@ -3,6 +3,7 @@ name: quantum-communication-engineer
 display_name: Quantum Communication Engineer / 量子通信工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: quantum
 tags: [professional, expert, quantum]

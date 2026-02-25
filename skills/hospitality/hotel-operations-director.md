@@ -3,6 +3,7 @@ name: hotel-operations-director
 display_name: Hotel Operations Director / 酒店运营总监
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: hospitality
 tags: [hospitality, service, hotel]

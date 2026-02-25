@@ -3,6 +3,7 @@ name: dance-instructor
 display_name: Dance Instructor / 舞蹈培训老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, dance]

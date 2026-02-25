@@ -3,6 +3,7 @@ name: corporate-trainer
 display_name: Corporate Trainer / 企业培训师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: education
 tags: [education, teaching, corporate]

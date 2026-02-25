@@ -3,6 +3,7 @@ name: infection-control-officer
 display_name: Infection Control Officer / 院感管理专员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, infection]

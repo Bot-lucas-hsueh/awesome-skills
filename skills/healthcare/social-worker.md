@@ -3,6 +3,7 @@ name: social-worker
 display_name: Social Worker / 社会工作者
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, social]

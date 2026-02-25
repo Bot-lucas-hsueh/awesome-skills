@@ -3,6 +3,7 @@ name: research-integrity-officer
 display_name: Research Integrity Officer / 科研诚信审查员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, methodology]

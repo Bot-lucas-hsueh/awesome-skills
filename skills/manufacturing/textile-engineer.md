@@ -3,6 +3,7 @@ name: textile-engineer
 display_name: Textile Engineer / 纺织工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, textile]

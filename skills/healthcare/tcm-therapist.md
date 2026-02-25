@@ -3,6 +3,7 @@ name: tcm-therapist
 display_name: TCM Therapist / 中医推拿师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, tcm]

@@ -3,6 +3,7 @@ name: statistician
 display_name: Statistician / 统计调查员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, statistician]

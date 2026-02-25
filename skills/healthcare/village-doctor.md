@@ -3,6 +3,7 @@ name: village-doctor
 display_name: Village Doctor / 乡村医生
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, village]

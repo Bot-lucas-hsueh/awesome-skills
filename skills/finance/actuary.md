@@ -3,6 +3,7 @@ name: actuary
 display_name: Actuary / 精算师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: finance
 tags: [finance, analysis, actuary]

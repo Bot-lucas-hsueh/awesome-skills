@@ -3,6 +3,7 @@ name: od-specialist
 display_name: Organization Development Specialist / 组织发展专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: hr
 tags: [hr, people-management, recruiting]

@@ -3,6 +3,7 @@ name: drug-registration-specialist
 display_name: Drug Registration Specialist / 药品注册专员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, drug]

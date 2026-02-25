@@ -3,6 +3,7 @@ name: university-professor
 display_name: University Professor / 大学教授
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: education
 tags: [education, teaching, university]

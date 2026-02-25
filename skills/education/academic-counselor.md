@@ -3,6 +3,7 @@ name: academic-counselor
 display_name: Academic Counselor / 辅导员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, academic]

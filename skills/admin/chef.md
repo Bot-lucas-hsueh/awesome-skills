@@ -3,6 +3,7 @@ name: chef
 display_name: Chef / 厨师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: admin
 tags: [administration, operations, chef]

@@ -3,6 +3,7 @@ name: power-system-engineer
 display_name: Power System Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, power]

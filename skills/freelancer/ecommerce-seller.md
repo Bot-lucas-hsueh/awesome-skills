@@ -3,6 +3,7 @@ name: ecommerce-seller
 display_name: E-commerce Seller / 个体电商
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, ecommerce]

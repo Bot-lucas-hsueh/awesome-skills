@@ -3,6 +3,7 @@ name: structural-engineer
 display_name: Structural Engineer / 结构工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: construction
 tags: [construction, engineering, structural]

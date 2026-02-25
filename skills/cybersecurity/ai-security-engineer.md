@@ -3,6 +3,7 @@ name: ai-security-engineer
 display_name: AI Security Engineer / AI安全工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: cybersecurity
 tags: [cybersecurity, security, risk-management]

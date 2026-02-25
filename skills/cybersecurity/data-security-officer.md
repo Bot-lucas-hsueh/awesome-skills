@@ -3,6 +3,7 @@ name: data-security-officer
 display_name: Data Security Officer / 数据安全官
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: cybersecurity
 tags: [cybersecurity, security, data]

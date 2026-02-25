@@ -3,6 +3,7 @@ name: dietitian
 display_name: Dietitian / 营养师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, dietitian]

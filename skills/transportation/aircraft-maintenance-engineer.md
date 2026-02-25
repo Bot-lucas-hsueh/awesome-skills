@@ -3,6 +3,7 @@ name: aircraft-maintenance-engineer
 display_name: Aircraft Maintenance Engineer / 航空机务工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: transportation
 tags: [transportation, logistics, aircraft]

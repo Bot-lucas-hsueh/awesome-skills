@@ -3,6 +3,7 @@ name: accounting-trainer
 display_name: Accounting Trainer / 会计培训讲师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, accounting]

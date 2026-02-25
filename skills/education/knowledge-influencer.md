@@ -3,6 +3,7 @@ name: knowledge-influencer
 display_name: Knowledge Influencer / 知识付费讲师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, knowledge]

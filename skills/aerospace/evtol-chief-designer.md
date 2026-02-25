@@ -3,6 +3,7 @@ name: evtol-chief-designer
 display_name: eVTOL Chief Designer / eVTOL总体设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, evtol]

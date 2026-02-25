@@ -3,6 +3,7 @@ name: perception-algorithm-engineer
 display_name: Perception Algorithm Engineer / 感知算法工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, perception]

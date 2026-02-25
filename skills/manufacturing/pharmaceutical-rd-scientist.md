@@ -3,6 +3,7 @@ name: pharmaceutical-rd-scientist
 display_name: Pharmaceutical R&D Scientist / 药学研发科学家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, pharmaceutical]

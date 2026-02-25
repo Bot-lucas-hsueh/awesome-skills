@@ -3,6 +3,7 @@ name: forklift-operator
 display_name: Forklift Operator / 叉车司机
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: factory-worker
 tags: [manufacturing, operations, forklift]

@@ -3,6 +3,7 @@ name: feng-shui-master
 display_name: Feng Shui Master / 风水师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert, feng]

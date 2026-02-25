@@ -18,6 +18,7 @@ Read [SKILL_URL] and install [skill-name] skill
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
 ```
 
+quality: basic
 ---
 
 ## OpenCode（推荐 / Recommended）

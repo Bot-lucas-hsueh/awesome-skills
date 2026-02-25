@@ -3,6 +3,7 @@ name: meteorologist
 display_name: Meteorologist / 气象预报员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, meteorologist]

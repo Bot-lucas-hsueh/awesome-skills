@@ -3,6 +3,7 @@ name: judge
 display_name: Judge/Magistrate / 法官
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: public-service
 tags: [professional, expert, judge]

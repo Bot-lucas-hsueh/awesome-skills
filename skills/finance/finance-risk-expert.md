@@ -3,6 +3,7 @@ name: finance-risk-expert
 display_name: Finance Risk Expert
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: finance
 tags: [finance, analysis, investment]

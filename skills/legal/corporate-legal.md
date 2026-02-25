@@ -3,6 +3,7 @@ name: corporate-legal
 display_name: Corporate Legal Counsel / 企业法务
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: legal
 tags: [legal, compliance, corporate]

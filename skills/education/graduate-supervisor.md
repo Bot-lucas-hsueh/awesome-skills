@@ -3,6 +3,7 @@ name: graduate-supervisor
 display_name: Graduate Supervisor / 硕导/博导
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, graduate]

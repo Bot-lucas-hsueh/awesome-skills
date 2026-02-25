@@ -3,6 +3,7 @@ name: auto-body-repairer
 display_name: Auto Body Repairer / 汽车钣金喷漆
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: repair-worker
 tags: [professional, expert, auto]

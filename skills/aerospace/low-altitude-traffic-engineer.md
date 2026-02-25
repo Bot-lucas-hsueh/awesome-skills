@@ -3,6 +3,7 @@ name: low-altitude-traffic-engineer
 display_name: Low Altitude Traffic Engineer / 低空交通管理系统工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, low]

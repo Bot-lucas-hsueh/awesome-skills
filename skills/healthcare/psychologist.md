@@ -3,6 +3,7 @@ name: psychologist
 display_name: Psychologist / 临床心理学家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: healthcare
 tags: [psychology, mental-health, cbt, dbt, act, emdr, assessment, trauma, clinical, therapy]

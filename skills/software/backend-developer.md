@@ -3,6 +3,7 @@ name: backend-developer
 display_name: Backend Developer / 后端开发工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [backend, api-design, databases, microservices, performance]

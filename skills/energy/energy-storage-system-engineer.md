@@ -3,6 +3,7 @@ name: energy-storage-system-engineer
 display_name: Energy Storage System Engineer / 储能系统工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, engineering]

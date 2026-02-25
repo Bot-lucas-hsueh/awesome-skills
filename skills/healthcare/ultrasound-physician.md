@@ -3,6 +3,7 @@ name: ultrasound-physician
 display_name: Ultrasound Physician / 超声科医师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, ultrasound]

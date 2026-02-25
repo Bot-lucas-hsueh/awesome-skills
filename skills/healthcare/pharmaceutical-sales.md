@@ -3,6 +3,7 @@ name: pharmaceutical-sales
 display_name: Pharmaceutical Sales Representative / 医药代表
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, pharmaceutical]

@@ -3,6 +3,7 @@ name: admissions-officer
 display_name: Admissions Officer / 招生办工作人员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, admissions]

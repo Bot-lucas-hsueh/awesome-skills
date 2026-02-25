@@ -3,6 +3,7 @@ name: general-practitioner
 display_name: Clinical Physician (General Practitioner) / 全科医师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, primary-care, diagnosis, chronic-disease, preventive-care, evidence-based-medicine]

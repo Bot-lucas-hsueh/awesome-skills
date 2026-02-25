@@ -3,6 +3,7 @@ name: fashion-designer
 display_name: Fashion Designer / 服装设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, fashion]

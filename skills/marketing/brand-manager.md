@@ -3,6 +3,7 @@ name: brand-manager
 display_name: Brand Manager / 品牌经理
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: marketing
 tags: [marketing, growth, brand]

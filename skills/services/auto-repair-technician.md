@@ -3,6 +3,7 @@ name: auto-repair-technician
 display_name: Auto Repair Technician / 汽车维修技师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: services
 tags: [professional, expert, auto]

@@ -3,6 +3,7 @@ name: chip-design-engineer
 display_name: Chip Design Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: semiconductor
 tags: [professional, expert, chip]

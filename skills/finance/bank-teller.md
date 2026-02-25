@@ -3,6 +3,7 @@ name: bank-teller
 display_name: Bank Teller / 银行柜员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, bank]

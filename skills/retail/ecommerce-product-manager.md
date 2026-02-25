@@ -3,6 +3,7 @@ name: ecommerce-product-manager
 display_name: E-commerce Product Manager / 电商产品经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: retail
 tags: [retail, customer-experience, ecommerce]

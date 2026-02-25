@@ -3,6 +3,7 @@ name: pawn-broker
 display_name: Pawn Broker / 典当师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, pawn]

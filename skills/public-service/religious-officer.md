@@ -3,6 +3,7 @@ name: religious-officer
 display_name: Religious Officer / 宗教人员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: public-service
 tags: [professional, expert, religious]

@@ -3,6 +3,7 @@ name: grant-reviewer
 display_name: Grant Reviewer / 基金评审专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, grant]

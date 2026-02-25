@@ -3,6 +3,7 @@ name: ai-compute-platform-engineer
 display_name: AI Compute Platform Engineer / AI算力平台工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: ai-ml
 tags: [ai, machine-learning, data-science]

@@ -3,6 +3,7 @@ name: quantum-physicist
 display_name: Quantum Physicist / 量子物理实验科学家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: quantum
 tags: [professional, expert, quantum]

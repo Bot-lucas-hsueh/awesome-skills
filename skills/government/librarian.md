@@ -3,6 +3,7 @@ name: librarian
 display_name: Librarian / 图书馆员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, librarian]

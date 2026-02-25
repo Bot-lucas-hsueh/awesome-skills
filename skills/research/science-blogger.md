@@ -3,6 +3,7 @@ name: science-blogger
 display_name: Science Blogger / 科研自媒体博主
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, science]

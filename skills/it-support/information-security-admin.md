@@ -3,6 +3,7 @@ name: information-security-admin
 display_name: Information Security Admin / 信息安全管理员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: it-support
 tags: [it-support, technical-support, information]

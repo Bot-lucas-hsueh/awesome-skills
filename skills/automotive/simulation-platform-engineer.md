@@ -3,6 +3,7 @@ name: simulation-platform-engineer
 display_name: Simulation Platform Engineer / 仿真平台工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, simulation]

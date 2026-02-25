@@ -3,6 +3,7 @@ name: sports-referee
 display_name: Sports Referee / 体育裁判
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: entertainment
 tags: [entertainment, creative, sports]

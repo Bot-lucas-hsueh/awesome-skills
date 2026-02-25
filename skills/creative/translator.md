@@ -3,6 +3,7 @@ name: translator
 display_name: Translator/Interpreter / 翻译
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: creative
 tags: [creative, design, translator]

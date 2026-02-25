@@ -3,6 +3,7 @@ name: disease-investigator
 display_name: Disease Investigator / 疾控中心流调员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, disease]

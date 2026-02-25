@@ -3,6 +3,7 @@ name: arbitrator
 display_name: Arbitrator / 仲裁员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, arbitrator]

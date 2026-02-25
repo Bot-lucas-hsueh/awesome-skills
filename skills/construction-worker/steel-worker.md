@@ -3,6 +3,7 @@ name: steel-worker
 display_name: Steel Worker / 钢筋工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, steel]

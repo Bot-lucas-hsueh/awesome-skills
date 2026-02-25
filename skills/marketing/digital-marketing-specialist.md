@@ -3,6 +3,7 @@ name: digital-marketing-specialist
 display_name: Digital Marketing Specialist / 数字营销专家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: marketing
 tags: [seo, sem, google-ads, social-media, email-marketing, performance-marketing, analytics, cro, marketing-automation, a-b-testing]

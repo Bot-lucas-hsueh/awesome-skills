@@ -3,6 +3,7 @@ name: superconducting-materials-researcher
 display_name: Superconducting Materials Researcher / 超导材料研究员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: materials
 tags: [professional, expert, superconducting]

@@ -3,6 +3,7 @@ name: wood-carver
 display_name: Wood Carver / 木雕师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, wood]

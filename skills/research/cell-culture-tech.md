@@ -3,6 +3,7 @@ name: cell-culture-tech
 display_name: Cell Culture Technician / 细胞培养技术员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, cell]

@@ -3,6 +3,7 @@ name: auctioneer
 display_name: Auctioneer / 拍卖师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, auctioneer]

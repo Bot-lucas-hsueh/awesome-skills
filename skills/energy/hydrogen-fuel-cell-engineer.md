@@ -3,6 +3,7 @@ name: hydrogen-fuel-cell-engineer
 display_name: Hydrogen Fuel Cell Engineer / 氢燃料电池工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, hydrogen]

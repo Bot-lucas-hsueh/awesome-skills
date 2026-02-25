@@ -3,6 +3,7 @@ name: coo
 display_name: COO / Chief Operating Officer / 首席运营官
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: executive
 tags: [operations, process-optimization, scaling, execution, cross-functional]

@@ -3,6 +3,7 @@ name: strategy-consultant
 display_name: Strategy Consultant / 战略咨询顾问
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: business
 tags: [strategy, competitive-analysis, market-sizing, business-case, strategic-planning]

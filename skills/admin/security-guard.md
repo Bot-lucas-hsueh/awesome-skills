@@ -3,6 +3,7 @@ name: security-guard
 display_name: Security Guard / 保安
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: admin
 tags: [administration, operations, security]

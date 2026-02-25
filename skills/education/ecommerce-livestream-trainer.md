@@ -3,6 +3,7 @@ name: ecommerce-livestream-trainer
 display_name: E-commerce Livestream Trainer / 电商直播培训师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, ecommerce]

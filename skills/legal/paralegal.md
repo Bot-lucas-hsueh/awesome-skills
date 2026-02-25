@@ -3,6 +3,7 @@ name: paralegal
 display_name: Paralegal / 律师助理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, paralegal]

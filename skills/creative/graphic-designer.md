@@ -3,6 +3,7 @@ name: graphic-designer
 display_name: Graphic Designer / 平面设计师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: creative
 tags: [creative, design, graphic]

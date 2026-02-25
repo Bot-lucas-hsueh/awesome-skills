@@ -3,6 +3,7 @@ name: drilling-engineer
 display_name: Drilling Engineer / 钻井工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: mining
 tags: [professional, expert, drilling]

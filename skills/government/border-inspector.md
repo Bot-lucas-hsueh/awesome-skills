@@ -3,6 +3,7 @@ name: border-inspector
 display_name: Border Inspector / 边检员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, border]

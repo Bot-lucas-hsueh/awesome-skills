@@ -3,6 +3,7 @@ name: film-director-producer
 display_name: Film Director/Producer / 导演制片人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: media
 tags: [media, content, film]

@@ -3,6 +3,7 @@ name: product-manager
 display_name: Product Manager / 产品经理
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: product
 tags: [product, strategy, prioritization, user-research, roadmap]

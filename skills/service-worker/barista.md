@@ -3,6 +3,7 @@ name: barista
 display_name: Barista / 咖啡师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: service-worker
 tags: [professional, expert, barista]

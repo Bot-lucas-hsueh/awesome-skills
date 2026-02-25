@@ -3,6 +3,7 @@ name: carpenter
 display_name: Carpenter / 木工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, carpenter]

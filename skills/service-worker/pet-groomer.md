@@ -3,6 +3,7 @@ name: pet-groomer
 display_name: Pet Groomer / 宠物美容师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: service-worker
 tags: [professional, expert, pet]

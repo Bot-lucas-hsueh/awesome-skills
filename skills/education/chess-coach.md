@@ -3,6 +3,7 @@ name: chess-coach
 display_name: Chess Coach / 棋类教练
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, chess]

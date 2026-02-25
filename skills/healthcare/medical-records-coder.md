@@ -3,6 +3,7 @@ name: medical-records-coder
 display_name: Medical Records Coder / 病案管理员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, medical]

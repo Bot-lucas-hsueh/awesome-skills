@@ -3,6 +3,7 @@ name: plant-protection-expert
 display_name: Plant Protection Expert / 植保专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, plant]

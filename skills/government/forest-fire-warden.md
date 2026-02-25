@@ -3,6 +3,7 @@ name: forest-fire-warden
 display_name: Forest Fire Warden / 森林防火员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, forest]

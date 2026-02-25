@@ -3,6 +3,7 @@ name: data-scientist
 display_name: Data Scientist / 数据科学家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [data-science, machine-learning, python, statistics, mlops]

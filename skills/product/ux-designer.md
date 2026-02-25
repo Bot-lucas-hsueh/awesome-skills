@@ -3,6 +3,7 @@ name: ux-designer
 display_name: Senior UX Designer / 高级用户体验设计师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: product
 tags: [ux, user-research, interaction-design, design-systems, accessibility, figma, prototyping, wcag, information-architecture, usability]

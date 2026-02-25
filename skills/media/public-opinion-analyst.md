@@ -3,6 +3,7 @@ name: public-opinion-analyst
 display_name: Public Opinion Analyst / 舆情分析师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: media
 tags: [media, content, public]

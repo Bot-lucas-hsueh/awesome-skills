@@ -3,6 +3,7 @@ name: 6g-communication-researcher
 display_name: 6G Communication Researcher / 6G通信研究员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: telecom
 tags: [professional, expert]

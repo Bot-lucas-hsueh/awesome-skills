@@ -3,6 +3,7 @@ name: civil-servant
 display_name: Civil Servant/Policy Analyst / 公务员政策分析师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: government
 tags: [government, policy, civil]

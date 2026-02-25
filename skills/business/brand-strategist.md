@@ -3,6 +3,7 @@ name: brand-strategist
 display_name: Brand Strategist / 品牌策略师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: business
 tags: [business, strategy, brand]

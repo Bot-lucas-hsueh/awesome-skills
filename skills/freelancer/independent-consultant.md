@@ -3,6 +3,7 @@ name: independent-consultant
 display_name: Independent Consultant / 独立咨询顾问
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, independent]

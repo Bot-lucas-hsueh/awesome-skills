@@ -3,6 +3,7 @@ name: medical-insurance-officer
 display_name: Medical Insurance Officer / 医保办人员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, medical]

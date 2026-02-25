@@ -3,6 +3,7 @@ name: jade-carver
 display_name: Jade Carver / 玉雕师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, jade]

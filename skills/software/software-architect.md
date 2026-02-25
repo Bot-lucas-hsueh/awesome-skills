@@ -3,6 +3,7 @@ name: software-architect
 display_name: Software Architect / 软件架构师
 author: neo.ai
 version: 3.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [software, architecture, system-design, engineering, scalability]

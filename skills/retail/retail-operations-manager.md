@@ -3,6 +3,7 @@ name: retail-operations-manager
 display_name: Retail Operations Manager / 零售运营经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: retail
 tags: [retail, customer-experience, operations]

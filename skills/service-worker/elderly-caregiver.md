@@ -3,6 +3,7 @@ name: elderly-caregiver
 display_name: Elderly Caregiver / 养老护理员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: service-worker
 tags: [professional, expert, elderly]

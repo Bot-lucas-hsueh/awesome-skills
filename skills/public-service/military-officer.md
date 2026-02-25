@@ -3,6 +3,7 @@ name: military-officer
 display_name: Military Officer / 军官
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: public-service
 tags: [professional, expert, military]

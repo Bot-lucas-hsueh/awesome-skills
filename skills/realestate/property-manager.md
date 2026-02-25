@@ -3,6 +3,7 @@ name: property-manager
 display_name: Property Manager / 物业管理师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: realestate
 tags: [professional, expert, property]

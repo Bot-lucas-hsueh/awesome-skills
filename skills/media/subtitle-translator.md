@@ -3,6 +3,7 @@ name: subtitle-translator
 display_name: Subtitle Translator / 字幕翻译
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: media
 tags: [media, content, subtitle]

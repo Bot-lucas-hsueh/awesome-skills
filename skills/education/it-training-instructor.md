@@ -3,6 +3,7 @@ name: it-training-instructor
 display_name: IT Training Instructor / IT培训讲师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, learning]

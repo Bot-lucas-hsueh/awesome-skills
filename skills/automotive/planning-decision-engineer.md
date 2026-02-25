@@ -3,6 +3,7 @@ name: planning-decision-engineer
 display_name: Planning & Decision Engineer / 规划决策算法工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, planning]

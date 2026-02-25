@@ -3,6 +3,7 @@ name: embodied-ai-researcher
 display_name: Embodied AI Researcher / 具身智能研究员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: robotics
 tags: [professional, expert, embodied]

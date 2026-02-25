@@ -3,6 +3,7 @@ name: wide-bandgap-semiconductor-engineer
 display_name: Wide Bandgap Semiconductor Engineer / 宽禁带半导体工艺工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: materials
 tags: [professional, expert, wide]

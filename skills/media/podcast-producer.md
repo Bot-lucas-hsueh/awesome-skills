@@ -3,6 +3,7 @@ name: podcast-producer
 display_name: Podcast Producer / 播客制作人
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: media
 tags: [media, content, podcast]

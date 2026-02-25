@@ -3,6 +3,7 @@ name: funeral-director
 display_name: Funeral Director / 殡葬服务
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: public-service
 tags: [professional, expert, funeral]

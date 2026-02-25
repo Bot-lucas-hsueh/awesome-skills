@@ -3,6 +3,7 @@ name: dental-technician
 display_name: Dental Technician / 牙科技师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, dental]

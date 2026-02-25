@@ -3,6 +3,7 @@ name: university-administrator
 display_name: University Administrator / 大学行政管理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, university]

@@ -3,6 +3,7 @@ name: management-consultant
 display_name: Management Consultant / 管理咨询顾问
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: business
 tags: [consulting, mece, issue-tree, structured-problem-solving, client-management]

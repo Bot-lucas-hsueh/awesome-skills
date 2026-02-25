@@ -3,6 +3,7 @@ name: qc-specialist
 display_name: QC Specialist / 质量控制专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, operations]

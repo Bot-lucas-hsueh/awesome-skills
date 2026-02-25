@@ -3,6 +3,7 @@ name: home-organizer
 display_name: Home Organizer / 收纳整理师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, home]

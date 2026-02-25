@@ -3,6 +3,7 @@ name: food-safety-manager
 display_name: Food Safety Manager / 食品安全管理师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, food]

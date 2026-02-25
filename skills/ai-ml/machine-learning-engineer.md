@@ -3,6 +3,7 @@ name: machine-learning-engineer
 display_name: Machine Learning Engineer / 机器学习工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: ai-ml
 tags: [mlops, feature-stores, model-serving, ml-pipelines, training-infrastructure]

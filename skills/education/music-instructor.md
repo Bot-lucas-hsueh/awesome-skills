@@ -3,6 +3,7 @@ name: music-instructor
 display_name: Music Instructor / 音乐培训老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, music]

@@ -3,6 +3,7 @@ name: community-security
 display_name: Community Security / 小区保安
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: realestate
 tags: [professional, expert, community]

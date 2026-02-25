@@ -469,7 +469,7 @@ Basic → Community Verified → Expert Verified
 | Phase 2 | README 重构 | ✅ 完成（README 重构、CATALOG 拆分、元数据标准化、验证器更新） | 无 |
 | Phase 3 | 技能文件去冗余 | ✅ 完成（创建 COMMON.md、skills/_common/installation.md，清除 469 个文件的冗余许可证/作者声明，简化 25 个 v2.0+ 文件的平台配置章节） | Phase 1 完成 |
 | Phase 4 | 平台适配文档 | ✅ 完成（INSTALL-GUIDE.md 完整重构：平台功能对比矩阵、OpenCode/OpenClaw/Claude Code/Cursor/Codex/Cline/Kimi 详细安装指南、FAQ 故障排查） | Phase 1 完成 |
-| Phase 5 | 质量标签实施 | 待开始 | Phase 1 完成 |
+| Phase 5 | 质量标签实施 | ✅ 完成（为 470 个技能文件添加 quality 元数据字段：42 个 Expert Verified、25 个 Community Verified、403 个 Basic；更新 CATALOG.md 为所有技能添加质量徽章；修正路径映射并更新统计数据） | Phase 1 完成 |
 
 **并行优化**: Phase 2、3、4 可在 Phase 1 进行 50% 后同步启动
 

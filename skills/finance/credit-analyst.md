@@ -3,6 +3,7 @@ name: credit-analyst
 display_name: Credit Analyst / 信贷审批员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, credit]

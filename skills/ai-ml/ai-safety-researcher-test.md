@@ -3,6 +3,7 @@ name: ai-safety-researcher
 display_name: AI Safety Researcher / AI安全研究员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: ai-ml
 tags: [ai, machine-learning, data-science]

@@ -3,6 +3,7 @@ name: sales-manager
 display_name: Sales Manager / 销售经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: sales
 tags: [sales, business-development, crm]

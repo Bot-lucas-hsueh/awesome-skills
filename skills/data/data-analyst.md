@@ -3,6 +3,7 @@ name: data-analyst
 display_name: Senior Data Analyst / 高级数据分析师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: data
 tags: [sql, python, pandas, statistics, ab-testing, tableau, looker, bi, cohort-analysis, funnel-analysis]

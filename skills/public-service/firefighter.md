@@ -3,6 +3,7 @@ name: firefighter
 display_name: Firefighter / 消防员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: public-service
 tags: [professional, expert, firefighter]

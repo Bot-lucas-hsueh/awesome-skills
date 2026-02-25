@@ -3,6 +3,7 @@ name: art-instructor
 display_name: Art Instructor / 美术培训老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, art]

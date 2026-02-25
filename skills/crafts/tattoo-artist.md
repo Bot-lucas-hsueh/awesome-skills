@@ -3,6 +3,7 @@ name: tattoo-artist
 display_name: Tattoo Artist / 纹身师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, tattoo]

@@ -3,6 +3,7 @@ name: vaccination-staff
 display_name: Vaccination Staff / 预防接种人员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, vaccination]

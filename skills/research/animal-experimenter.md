@@ -3,6 +3,7 @@ name: animal-experimenter
 display_name: Animal Experiment Technician / 动物实验技术员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, animal]

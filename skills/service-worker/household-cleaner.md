@@ -3,6 +3,7 @@ name: household-cleaner
 display_name: Household Cleaner / 家电清洗
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: service-worker
 tags: [professional, expert, household]

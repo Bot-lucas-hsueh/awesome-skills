@@ -3,6 +3,7 @@ name: quantum-algorithm-engineer
 display_name: Quantum Algorithm Engineer / 量子算法工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: quantum
 tags: [professional, expert, quantum]

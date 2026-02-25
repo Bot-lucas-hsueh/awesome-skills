@@ -3,6 +3,7 @@ name: space-mission-planner
 display_name: Space Mission Planner / 太空任务规划师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, space]

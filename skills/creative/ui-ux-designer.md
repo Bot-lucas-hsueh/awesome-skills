@@ -3,6 +3,7 @@ name: ui-ux-designer
 display_name: UI/UX Designer / UI/UX设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: creative
 tags: [creative, design, arts]

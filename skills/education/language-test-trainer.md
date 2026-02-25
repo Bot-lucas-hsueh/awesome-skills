@@ -3,6 +3,7 @@ name: language-test-trainer
 display_name: Language Test Trainer / 雅思/托福老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, language]

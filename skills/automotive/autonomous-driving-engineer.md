@@ -3,6 +3,7 @@ name: autonomous-driving-engineer
 display_name: Autonomous Driving Engineer
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, autonomous]

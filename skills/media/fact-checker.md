@@ -3,6 +3,7 @@ name: fact-checker
 display_name: Fact Checker / 事实核查员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: media
 tags: [media, content, fact]

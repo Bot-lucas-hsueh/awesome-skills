@@ -3,6 +3,7 @@ name: baking-instructor
 display_name: Baking Instructor / 烘焙培训师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, baking]

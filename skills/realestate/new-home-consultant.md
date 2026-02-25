@@ -3,6 +3,7 @@ name: new-home-consultant
 display_name: New Home Consultant / 新房销售
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: realestate
 tags: [professional, expert, new]

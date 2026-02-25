@@ -3,6 +3,7 @@ name: school-doctor
 display_name: School Doctor / 校医
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, school]

@@ -3,6 +3,7 @@ name: compensation-benefits-manager
 display_name: Compensation & Benefits Manager / 薪酬福利经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: hr
 tags: [hr, people-management, compensation]

@@ -3,6 +3,7 @@ name: privacy-computing-engineer
 display_name: Privacy Computing Engineer / 隐私计算工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: cybersecurity
 tags: [cybersecurity, security, privacy]

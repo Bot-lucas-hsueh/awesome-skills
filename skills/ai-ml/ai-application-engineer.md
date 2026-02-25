@@ -3,6 +3,7 @@ name: ai-application-engineer
 display_name: AI Application Engineer / AI应用工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: ai-ml
 tags: [rag, langchain, vector-databases, prompt-engineering, agent-frameworks]

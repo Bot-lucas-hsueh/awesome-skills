@@ -3,6 +3,7 @@ name: research-project-manager
 display_name: Research Project Manager / 科研项目管理
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: research
 tags: [research, analysis, methodology]

@@ -3,6 +3,7 @@ name: composite-materials-engineer
 display_name: Composite Materials Engineer / 复合材料工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: materials
 tags: [professional, expert, composite]

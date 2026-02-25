@@ -3,6 +3,7 @@ name: customs-officer
 display_name: Customs Officer / 海关关员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, customs]

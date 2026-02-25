@@ -3,6 +3,7 @@ name: agricultural-extension-officer
 display_name: Agricultural Extension Officer / 农业技术推广员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, agricultural]

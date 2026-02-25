@@ -3,6 +3,7 @@ name: crop-farmer
 display_name: Crop Farmer / 种植户
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: farmer
 tags: [agriculture, farming, crop]

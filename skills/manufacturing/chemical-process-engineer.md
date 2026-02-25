@@ -3,6 +3,7 @@ name: chemical-process-engineer
 display_name: Chemical Process Engineer / 化工工艺工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, chemical]

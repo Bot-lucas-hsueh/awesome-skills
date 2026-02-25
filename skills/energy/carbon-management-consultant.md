@@ -3,6 +3,7 @@ name: carbon-management-consultant
 display_name: Carbon Management Consultant / 碳管理咨询师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, carbon]

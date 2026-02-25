@@ -3,6 +3,7 @@ name: isac-engineer
 display_name: ISAC Engineer / 通感融合算法工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: telecom
 tags: [professional, expert, isac]

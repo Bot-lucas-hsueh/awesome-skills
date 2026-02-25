@@ -3,6 +3,7 @@ name: security-engineer
 display_name: Security Engineer / 安全工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [security, appsec, penetration-testing, zero-trust, devsecops, cloud-security, compliance, threat-modeling]

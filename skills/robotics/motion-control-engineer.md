@@ -3,6 +3,7 @@ name: motion-control-engineer
 display_name: Motion Control Engineer / 运动控制算法工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: robotics
 tags: [professional, expert, motion]

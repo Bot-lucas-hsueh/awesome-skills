@@ -3,6 +3,7 @@ name: business-development-manager
 display_name: Business Development Manager / 商务拓展经理
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: business
 tags: [business, strategy, management]

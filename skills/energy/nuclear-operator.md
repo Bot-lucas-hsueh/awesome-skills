@@ -3,6 +3,7 @@ name: nuclear-operator
 display_name: Nuclear Operator / 核电运行工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, nuclear]

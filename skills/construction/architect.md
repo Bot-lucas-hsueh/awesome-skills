@@ -3,6 +3,7 @@ name: architect
 display_name: Architect / 建筑设计师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: construction
 tags: [construction, engineering, architect]

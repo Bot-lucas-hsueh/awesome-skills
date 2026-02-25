@@ -3,6 +3,7 @@ name: professional-queuer
 display_name: Professional Queuer / 职业排队人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert]

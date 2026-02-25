@@ -3,6 +3,7 @@ name: maternity-nurse-trainer
 display_name: Maternity Nurse Trainer / 母婴培训讲师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, maternity]

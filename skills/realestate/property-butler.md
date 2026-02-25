@@ -3,6 +3,7 @@ name: property-butler
 display_name: Property Butler / 物业管家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: realestate
 tags: [professional, expert, property]

@@ -3,6 +3,7 @@ name: spatial-computing-engineer
 display_name: Spatial Computing Engineer / 空间计算工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tech
 tags: [professional, expert, spatial]

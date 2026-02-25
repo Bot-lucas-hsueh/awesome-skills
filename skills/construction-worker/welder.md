@@ -3,6 +3,7 @@ name: welder
 display_name: Welder / 电焊工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, welder]

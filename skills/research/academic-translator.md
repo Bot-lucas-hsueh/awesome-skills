@@ -3,6 +3,7 @@ name: academic-translator
 display_name: Academic Translator / 学术翻译
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, academic]

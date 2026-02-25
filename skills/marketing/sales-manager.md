@@ -3,6 +3,7 @@ name: sales-manager
 display_name: Sales Manager / 销售总监
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: marketing
 tags: [sales, b2b, enterprise, crm, negotiation, pipeline, revenue, saas]

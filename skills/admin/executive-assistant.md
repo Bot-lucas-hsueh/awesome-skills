@@ -3,6 +3,7 @@ name: executive-assistant
 display_name: Executive Assistant / 总裁助理
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: intermediate
 category: admin
 tags: [administration, operations, executive]

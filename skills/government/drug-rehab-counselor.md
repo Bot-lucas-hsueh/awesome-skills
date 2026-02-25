@@ -3,6 +3,7 @@ name: drug-rehab-counselor
 display_name: Drug Rehab Counselor / 戒毒所管教
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, drug]

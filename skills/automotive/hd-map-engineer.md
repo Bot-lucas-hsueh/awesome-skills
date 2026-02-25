@@ -3,6 +3,7 @@ name: hd-map-engineer
 display_name: HD Map Engineer / 高精地图工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, manufacturing]

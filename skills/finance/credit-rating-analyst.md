@@ -3,6 +3,7 @@ name: credit-rating-analyst
 display_name: Credit Rating Analyst / 信用评级分析师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, credit]

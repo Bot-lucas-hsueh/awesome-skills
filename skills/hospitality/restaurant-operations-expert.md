@@ -3,6 +3,7 @@ name: restaurant-operations-expert
 display_name: Restaurant Operations Expert / 餐饮运营专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: hospitality
 tags: [hospitality, service, restaurant]

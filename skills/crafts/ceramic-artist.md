@@ -3,6 +3,7 @@ name: ceramic-artist
 display_name: Ceramic Artist / 陶艺师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, ceramic]

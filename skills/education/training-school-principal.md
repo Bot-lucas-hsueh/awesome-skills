@@ -3,6 +3,7 @@ name: training-school-principal
 display_name: Training School Principal / 培训机构校长
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, training]

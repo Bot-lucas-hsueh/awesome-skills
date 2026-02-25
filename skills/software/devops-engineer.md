@@ -3,6 +3,7 @@ name: devops-engineer
 display_name: DevOps Engineer / DevOps 工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [devops, kubernetes, terraform, cicd, site-reliability]

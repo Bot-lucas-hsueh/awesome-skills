@@ -3,6 +3,7 @@ name: system-architect
 display_name: System Architect / 系统架构师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: software
 tags: [software, engineering, system]

@@ -3,6 +3,7 @@ name: people-mediator
 display_name: People's Mediator / 人民调解员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, people]

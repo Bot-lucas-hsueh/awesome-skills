@@ -3,6 +3,7 @@ name: ai-drug-design-scientist
 display_name: AI Drug Design Scientist / AI药物设计科学家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: biotech
 tags: [biotech, life-sciences, research]

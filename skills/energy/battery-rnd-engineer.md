@@ -3,6 +3,7 @@ name: battery-rnd-engineer
 display_name: Battery R&D Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, battery]

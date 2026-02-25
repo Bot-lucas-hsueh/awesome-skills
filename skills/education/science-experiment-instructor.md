@@ -3,6 +3,7 @@ name: science-experiment-instructor
 display_name: Science Experiment Instructor / 科学实验培训老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, science]

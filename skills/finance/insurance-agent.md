@@ -3,6 +3,7 @@ name: insurance-agent
 display_name: Insurance Agent / 保险代理人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, insurance]

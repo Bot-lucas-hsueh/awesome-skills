@@ -3,6 +3,7 @@ name: ethics-committee-member
 display_name: Ethics Committee Member / 科研伦理委员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, ethics]

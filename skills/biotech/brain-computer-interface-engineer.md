@@ -3,6 +3,7 @@ name: brain-computer-interface-engineer
 display_name: Brain-Computer Interface Engineer / 脑机接口工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: biotech
 tags: [biotech, life-sciences, brain]

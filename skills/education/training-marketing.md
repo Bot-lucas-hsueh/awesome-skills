@@ -3,6 +3,7 @@ name: training-marketing
 display_name: Training Marketing / 培训市场推广
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, training]

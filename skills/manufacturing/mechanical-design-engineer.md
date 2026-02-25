@@ -3,6 +3,7 @@ name: mechanical-design-engineer
 display_name: Mechanical Design Engineer / 机械设计工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, mechanical]

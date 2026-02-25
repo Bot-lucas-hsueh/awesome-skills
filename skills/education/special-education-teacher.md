@@ -3,6 +3,7 @@ name: special-education-teacher
 display_name: Special Education Teacher / 特教老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, special]

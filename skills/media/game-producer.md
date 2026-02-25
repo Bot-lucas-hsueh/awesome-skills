@@ -3,6 +3,7 @@ name: game-producer
 display_name: Game Producer / 游戏策划制作人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: media
 tags: [media, content, game]

@@ -3,6 +3,7 @@ name: digital-twin-engineer
 display_name: Digital Twin Engineer / 数字孪生工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tech
 tags: [professional, expert, digital]

@@ -3,6 +3,7 @@ name: electrical-engineer
 display_name: Electrical Engineer / 电气工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, electrical]

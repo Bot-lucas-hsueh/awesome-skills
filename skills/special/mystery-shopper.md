@@ -3,6 +3,7 @@ name: mystery-shopper
 display_name: Mystery Shopper / 试睡员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert, mystery]

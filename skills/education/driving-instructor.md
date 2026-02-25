@@ -3,6 +3,7 @@ name: driving-instructor
 display_name: Driving Instructor / 驾校教练
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, driving]

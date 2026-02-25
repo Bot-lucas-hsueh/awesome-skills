@@ -3,6 +3,7 @@ name: seismologist
 display_name: Seismologist / 地震监测员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, seismologist]

@@ -3,6 +3,7 @@ name: emergency-dispatcher
 display_name: Emergency Dispatcher / 120急救调度员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, emergency]

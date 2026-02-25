@@ -3,6 +3,7 @@ name: property-agent
 display_name: Property Agent / 房产经纪人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: realestate
 tags: [professional, expert, property]

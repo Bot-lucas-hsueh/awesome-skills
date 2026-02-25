@@ -3,6 +3,7 @@ name: instrumentation-engineer
 display_name: Instrumentation Engineer / 仪器仪表工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, instrumentation]

@@ -3,6 +3,7 @@ name: water-treatment-engineer
 display_name: Water Treatment Engineer / 水处理工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, water]

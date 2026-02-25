@@ -3,6 +3,7 @@ name: virtual-power-plant-operator
 display_name: Virtual Power Plant Operator / 虚拟电厂运营专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, virtual]

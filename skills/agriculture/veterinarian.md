@@ -3,6 +3,7 @@ name: veterinarian
 display_name: Veterinarian / 畜牧兽医师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, veterinarian]

@@ -3,6 +3,7 @@ name: purchasing-specialist
 display_name: Purchasing Specialist / 采购专员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: admin
 tags: [administration, operations, purchasing]

@@ -3,6 +3,7 @@ name: supply-chain-expert
 display_name: Supply Chain Expert / 供应链专家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: logistics
 tags: [supply-chain, procurement, logistics, inventory, s&op, demand-planning]

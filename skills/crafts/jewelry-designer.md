@@ -3,6 +3,7 @@ name: jewelry-designer
 display_name: Jewelry Designer / 珠宝设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, jewelry]

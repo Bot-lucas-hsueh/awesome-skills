@@ -3,6 +3,7 @@ name: logistics-algorithm-engineer
 display_name: Logistics Algorithm Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: logistics
 tags: [logistics, supply-chain, operations]

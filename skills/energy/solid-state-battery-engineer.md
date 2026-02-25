@@ -3,6 +3,7 @@ name: solid-state-battery-engineer
 display_name: Solid-State Battery Engineer / 固态电池工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, solid]

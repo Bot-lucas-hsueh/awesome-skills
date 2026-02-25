@@ -3,6 +3,7 @@ name: delivery-rider
 display_name: Delivery Rider / 外卖骑手
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: transport-worker
 tags: [professional, expert, delivery]

@@ -3,6 +3,7 @@ name: ai-product-manager
 display_name: AI Product Manager / AI产品经理
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: ai-ml
 tags: [ai-roadmap, model-evaluation, ai-ethics, feature-definition, dataset-requirements]

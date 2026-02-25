@@ -3,6 +3,7 @@ name: environmental-engineer
 display_name: Environmental Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: environmental
 tags: [environment, sustainability, environmental]

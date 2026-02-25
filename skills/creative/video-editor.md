@@ -3,6 +3,7 @@ name: video-editor
 display_name: Video Editor / 视频剪辑师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: creative
 tags: [creative, design, video]

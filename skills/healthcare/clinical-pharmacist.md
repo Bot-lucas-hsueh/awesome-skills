@@ -3,6 +3,7 @@ name: clinical-pharmacist
 display_name: Clinical Pharmacist / 临床药师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, clinical]

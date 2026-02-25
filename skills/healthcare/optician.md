@@ -3,6 +3,7 @@ name: optician
 display_name: Optician / 验光师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, optician]

@@ -3,6 +3,7 @@ name: sanitation-worker
 display_name: Sanitation Worker / 环卫工人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: public-service
 tags: [professional, expert, sanitation]

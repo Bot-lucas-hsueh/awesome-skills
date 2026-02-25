@@ -3,6 +3,7 @@ name: script-killing-dm
 display_name: Script Killing DM / 剧本杀DM
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: entertainment
 tags: [entertainment, creative, script]

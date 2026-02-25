@@ -3,6 +3,7 @@ name: archivist
 display_name: Archivist / 档案管理员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, archivist]

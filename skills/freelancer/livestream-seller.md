@@ -3,6 +3,7 @@ name: livestream-seller
 display_name: Livestream Seller / 直播电商主播
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, livestream]

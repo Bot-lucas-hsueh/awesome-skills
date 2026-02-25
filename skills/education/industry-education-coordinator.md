@@ -3,6 +3,7 @@ name: industry-education-coordinator
 display_name: Industry-Education Coordinator / 产教融合协调员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, industry]

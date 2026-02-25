@@ -3,6 +3,7 @@ name: prompt-engineer
 display_name: Prompt Engineer / Prompt 工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: ai-ml
 tags: [ai, prompt-engineering, llm, rag, agent]

@@ -3,6 +3,7 @@ name: police-officer
 display_name: Police Officer / 警察
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: public-service
 tags: [professional, expert, police]

@@ -3,6 +3,7 @@ name: truck-driver
 display_name: Truck Driver / 货车司机
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: transport-worker
 tags: [professional, expert, truck]

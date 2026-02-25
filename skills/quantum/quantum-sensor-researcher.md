@@ -3,6 +3,7 @@ name: quantum-sensor-researcher
 display_name: Quantum Sensor Researcher / 量子传感器研究员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: quantum
 tags: [professional, expert, quantum]

@@ -3,6 +3,7 @@ name: principal-investigator
 display_name: Principal Investigator / PI / 首席研究员
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: research
 tags: [research, grant-writing, lab-management, scientific-methodology, publication-strategy]

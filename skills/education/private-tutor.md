@@ -3,6 +3,7 @@ name: private-tutor
 display_name: Private Tutor / 家教
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: education
 tags: [education, teaching, private]

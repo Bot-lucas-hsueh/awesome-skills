@@ -3,6 +3,7 @@ name: hr-expert
 display_name: HR Expert / HRBP / HR专家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: business
 tags: [hr, talent-acquisition, performance-management, employee-relations, organizational-design]

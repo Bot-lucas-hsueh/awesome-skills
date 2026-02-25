@@ -3,6 +3,7 @@ name: sports-coach
 display_name: Sports Coach / 体育教练
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, sports]

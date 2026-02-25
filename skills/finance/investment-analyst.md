@@ -3,6 +3,7 @@ name: investment-analyst
 display_name: Investment Analyst / 投资分析师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: finance
 tags: [equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence]

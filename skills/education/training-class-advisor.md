@@ -3,6 +3,7 @@ name: training-class-advisor
 display_name: Training Class Advisor / 班主任(培训)
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, training]

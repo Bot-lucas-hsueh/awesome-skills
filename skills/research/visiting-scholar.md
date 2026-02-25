@@ -3,6 +3,7 @@ name: visiting-scholar
 display_name: Visiting Scholar / 访问学者
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, visiting]

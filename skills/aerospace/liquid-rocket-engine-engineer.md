@@ -3,6 +3,7 @@ name: liquid-rocket-engine-engineer
 display_name: Liquid Rocket Engine Engineer / 液体火箭发动机工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, liquid]

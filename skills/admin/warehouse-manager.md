@@ -3,6 +3,7 @@ name: warehouse-manager
 display_name: Warehouse Manager / 仓库管理员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: admin
 tags: [administration, operations, warehouse]

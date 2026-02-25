@@ -3,6 +3,7 @@ name: realestate-investment-analyst
 display_name: Real Estate Investment Analyst / 房地产投资分析师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: realestate
 tags: [professional, expert, realestate]

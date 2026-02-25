@@ -3,6 +3,7 @@ name: voice-actor
 display_name: Voice Actor / 配音员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: creative
 tags: [creative, design, voice]

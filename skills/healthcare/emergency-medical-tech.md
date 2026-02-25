@@ -3,6 +3,7 @@ name: emergency-medical-tech
 display_name: Emergency Medical Technician / 急救员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, emergency]

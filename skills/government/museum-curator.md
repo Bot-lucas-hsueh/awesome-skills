@@ -3,6 +3,7 @@ name: museum-curator
 display_name: Museum Curator / 博物馆策展
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, museum]

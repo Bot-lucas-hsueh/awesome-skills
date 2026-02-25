@@ -3,6 +3,7 @@ name: attending-physician
 display_name: Attending Physician / 主治医师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, attending]

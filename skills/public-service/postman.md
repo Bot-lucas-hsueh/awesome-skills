@@ -3,6 +3,7 @@ name: postman
 display_name: Postman / 邮递员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: public-service
 tags: [professional, expert, postman]

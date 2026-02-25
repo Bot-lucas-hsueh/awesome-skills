@@ -3,6 +3,7 @@ name: airworthiness-certification-engineer
 display_name: Airworthiness Certification Engineer / 适航认证工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, airworthiness]

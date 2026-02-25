@@ -3,6 +3,7 @@ name: education-evaluator
 display_name: Education Evaluator / 教育评估专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, learning]

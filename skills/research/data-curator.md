@@ -3,6 +3,7 @@ name: data-curator
 display_name: Data Curator / 科学数据管理员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, data]

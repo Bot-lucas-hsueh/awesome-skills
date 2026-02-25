@@ -3,6 +3,7 @@ name: agricultural-data-scientist
 display_name: Agricultural Data Scientist / 农业数据科学家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, agricultural]

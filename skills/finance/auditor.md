@@ -3,6 +3,7 @@ name: auditor
 display_name: Auditor / 审计师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: finance
 tags: [finance, analysis, auditor]

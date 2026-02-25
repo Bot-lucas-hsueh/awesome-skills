@@ -3,6 +3,7 @@ name: driver
 display_name: Professional Driver / 司机
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: admin
 tags: [administration, operations, driver]

@@ -3,6 +3,7 @@ name: waterproofing-worker
 display_name: Waterproofing Worker / 防水工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, waterproofing]

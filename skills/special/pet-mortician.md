@@ -3,6 +3,7 @@ name: pet-mortician
 display_name: Pet Mortician / 宠物殡葬师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert, pet]

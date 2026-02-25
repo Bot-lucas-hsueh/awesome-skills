@@ -3,6 +3,7 @@ name: edtech-product-designer
 display_name: EdTech Product Designer / 教育产品设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: education
 tags: [education, teaching, edtech]

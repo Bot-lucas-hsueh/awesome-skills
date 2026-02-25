@@ -3,6 +3,7 @@ name: quant-trader
 display_name: Quantitative Trader / 量化交易员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: finance
 tags: [finance, analysis, quant]

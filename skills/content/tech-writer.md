@@ -3,6 +3,7 @@ name: tech-writer
 display_name: Technical Writer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: content
 tags: [content, writing, tech]

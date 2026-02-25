@@ -3,6 +3,7 @@ name: professional-taster
 display_name: Professional Taster / 品鉴师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert]

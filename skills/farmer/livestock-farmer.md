@@ -3,6 +3,7 @@ name: livestock-farmer
 display_name: Livestock Farmer / 养殖户
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: farmer
 tags: [agriculture, farming, livestock]

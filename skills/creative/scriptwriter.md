@@ -3,6 +3,7 @@ name: scriptwriter
 display_name: Scriptwriter / 编剧
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: creative
 tags: [creative, design, scriptwriter]

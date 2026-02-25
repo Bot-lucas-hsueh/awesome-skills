@@ -3,6 +3,7 @@ name: frontend-developer
 display_name: Frontend Developer / 前端开发工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [frontend, react, typescript, performance, accessibility]

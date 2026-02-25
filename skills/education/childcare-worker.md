@@ -3,6 +3,7 @@ name: childcare-worker
 display_name: Childcare Worker / 托育师/保育员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, childcare]

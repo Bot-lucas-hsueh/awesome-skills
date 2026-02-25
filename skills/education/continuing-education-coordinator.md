@@ -3,6 +3,7 @@ name: continuing-education-coordinator
 display_name: Continuing Education Coordinator / 继续教育管理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, continuing]

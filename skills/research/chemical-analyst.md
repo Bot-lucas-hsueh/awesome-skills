@@ -3,6 +3,7 @@ name: chemical-analyst
 display_name: Chemical Analyst / 化学分析技术员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, chemical]

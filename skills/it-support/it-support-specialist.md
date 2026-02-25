@@ -3,6 +3,7 @@ name: it-support-specialist
 display_name: IT Support Specialist / IT运维专员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: it-support
 tags: [it-support, technical-support, operations]

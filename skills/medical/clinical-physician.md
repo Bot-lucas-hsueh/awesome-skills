@@ -3,6 +3,7 @@ name: clinical-physician
 display_name: Clinical Physician / 临床医生
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: medical
 tags: [medicine, clinical-reasoning, diagnosis, evidence-based, patient-care]

@@ -3,6 +3,7 @@ name: nursing-assistant
 display_name: Nursing Assistant / 护工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, nursing]

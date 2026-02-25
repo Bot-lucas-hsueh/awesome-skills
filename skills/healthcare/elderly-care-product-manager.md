@@ -3,6 +3,7 @@ name: elderly-care-product-manager
 display_name: Elderly Care Product Manager / 智慧养老产品经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, elderly]

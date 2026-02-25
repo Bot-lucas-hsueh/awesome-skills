@@ -3,6 +3,7 @@ name: tutor
 display_name: Subject Tutor / 学科辅导老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, tutor]

@@ -3,6 +3,7 @@ name: medical-escort
 display_name: Medical Escort / 陪诊员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, medical]

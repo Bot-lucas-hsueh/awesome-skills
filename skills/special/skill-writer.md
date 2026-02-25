@@ -3,6 +3,7 @@ name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
 version: 11.0.0
+quality: basic
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -244,6 +245,7 @@ name: skill-slug-name                    # Lowercase, hyphen-separated
 display_name: English Name / 中文名称     # Bilingual display name
 author: contributor-id                   # Author identifier
 version: 1.0.0                           # Semantic versioning (MAJOR.MINOR.PATCH)
+quality: basic
 difficulty: expert|intermediate|beginner  # Skill complexity level
 category: category-name                  # Must match a /skills/ subdirectory
 tags: [tag1, tag2, tag3]                 # 3-5 searchable tags

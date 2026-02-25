@@ -3,6 +3,7 @@ name: occupational-physician
 display_name: Occupational Physician / 职业病诊断医师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, occupational]

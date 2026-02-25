@@ -3,6 +3,7 @@ name: aquaculture-expert
 display_name: Aquaculture Expert / 水产养殖专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, aquaculture]

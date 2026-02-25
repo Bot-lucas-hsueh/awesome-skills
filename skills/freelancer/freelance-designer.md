@@ -3,6 +3,7 @@ name: freelance-designer
 display_name: Freelance Designer / 自由设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, consulting]

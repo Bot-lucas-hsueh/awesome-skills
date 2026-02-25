@@ -3,6 +3,7 @@ name: assembly-line-worker
 display_name: Assembly Line Worker / 流水线操作工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: factory-worker
 tags: [manufacturing, operations, assembly]

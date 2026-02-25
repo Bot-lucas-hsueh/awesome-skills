@@ -3,6 +3,7 @@ name: medical-social-worker
 display_name: Medical Social Worker / 医务社工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, medical]

@@ -3,6 +3,7 @@ name: game-booster
 display_name: Game Booster / 游戏代练
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: entertainment
 tags: [entertainment, creative, game]

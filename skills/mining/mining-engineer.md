@@ -3,6 +3,7 @@ name: mining-engineer
 display_name: Mining Engineer / 采矿工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: mining
 tags: [professional, expert, mining]

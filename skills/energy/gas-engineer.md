@@ -3,6 +3,7 @@ name: gas-engineer
 display_name: Gas Engineer / 燃气工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: energy
 tags: [energy, sustainability, gas]

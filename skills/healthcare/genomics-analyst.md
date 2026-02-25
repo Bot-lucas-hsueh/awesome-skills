@@ -3,6 +3,7 @@ name: genomics-analyst
 display_name: Genomics Analyst / 基因组学分析师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, genomics]

@@ -3,6 +3,7 @@ name: ip-attorney
 display_name: Intellectual Property Attorney / 知识产权律师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, risk-management]

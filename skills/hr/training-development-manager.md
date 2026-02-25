@@ -3,6 +3,7 @@ name: training-development-manager
 display_name: Training & Development Manager / 培训发展经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: hr
 tags: [hr, people-management, training]

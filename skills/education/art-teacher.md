@@ -3,6 +3,7 @@ name: art-teacher
 display_name: Art Teacher / 艺术老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, art]

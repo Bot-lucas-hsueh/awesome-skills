@@ -3,6 +3,7 @@ name: speech-therapist
 display_name: Speech Therapist / 言语治疗师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, speech]

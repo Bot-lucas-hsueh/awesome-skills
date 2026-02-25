@@ -3,6 +3,7 @@ name: compliance-specialist
 display_name: Compliance Specialist / 合规专员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: legal
 tags: [legal, compliance, risk-management]

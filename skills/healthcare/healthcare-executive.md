@@ -3,6 +3,7 @@ name: healthcare-executive
 display_name: Healthcare Executive / 医疗保健主管
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, clinical]

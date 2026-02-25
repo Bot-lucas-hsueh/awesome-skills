@@ -3,6 +3,7 @@ name: interventional-tech
 display_name: Interventional Technologist / 介入技师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, interventional]

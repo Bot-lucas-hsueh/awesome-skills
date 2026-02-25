@@ -3,6 +3,7 @@ name: v2x-system-engineer
 display_name: V2X System Engineer / V2X系统工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, v2x]

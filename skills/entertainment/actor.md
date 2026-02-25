@@ -3,6 +3,7 @@ name: actor
 display_name: Actor / 演员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: entertainment
 tags: [entertainment, creative, actor]

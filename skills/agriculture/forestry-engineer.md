@@ -3,6 +3,7 @@ name: forestry-engineer
 display_name: Forestry Engineer / 林业工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, forestry]

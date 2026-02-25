@@ -3,6 +3,7 @@ name: financial-analyst
 display_name: Financial Analyst / 财务分析师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: finance
 tags: [financial-modeling, fpa, dcf, lbo, forecasting, budgeting, kpi, excel, python, investor-relations]

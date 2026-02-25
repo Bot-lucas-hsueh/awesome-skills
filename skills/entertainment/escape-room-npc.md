@@ -3,6 +3,7 @@ name: escape-room-npc
 display_name: Escape Room NPC / 密室NPC
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: entertainment
 tags: [entertainment, creative, escape]

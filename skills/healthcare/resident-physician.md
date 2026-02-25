@@ -3,6 +3,7 @@ name: resident-physician
 display_name: Resident Physician / 住院医师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, resident]

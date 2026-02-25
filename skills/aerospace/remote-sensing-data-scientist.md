@@ -3,6 +3,7 @@ name: remote-sensing-data-scientist
 display_name: Remote Sensing Data Scientist / 遥感数据科学家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, remote]

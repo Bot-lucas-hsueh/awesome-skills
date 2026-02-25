@@ -3,6 +3,7 @@ name: epidemiologist
 display_name: Epidemiologist / 流行病学家
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, epidemiologist]

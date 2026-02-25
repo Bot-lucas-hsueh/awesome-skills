@@ -3,6 +3,7 @@ name: patent-attorney
 display_name: Patent Attorney / 专利律师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: legal
 tags: [legal, patent, ip, prosecution, portfolio, licensing, ipr, pct, freedom-to-operate]

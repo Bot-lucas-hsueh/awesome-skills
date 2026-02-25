@@ -3,6 +3,7 @@ name: civil-service-trainer
 display_name: Civil Service Exam Trainer / 公考培训师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, civil]

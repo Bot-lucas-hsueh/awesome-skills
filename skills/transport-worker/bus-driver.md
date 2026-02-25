@@ -3,6 +3,7 @@ name: bus-driver
 display_name: Bus Driver / 公交司机
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: transport-worker
 tags: [professional, expert, bus]

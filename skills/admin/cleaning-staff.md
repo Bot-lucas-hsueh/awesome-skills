@@ -3,6 +3,7 @@ name: cleaning-staff
 display_name: Cleaning Staff / 保洁
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: admin
 tags: [administration, operations, cleaning]

@@ -3,6 +3,7 @@ name: uav-flight-control-engineer
 display_name: UAV Flight Control Engineer / 无人机飞控工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, uav]

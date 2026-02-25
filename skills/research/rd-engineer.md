@@ -3,6 +3,7 @@ name: rd-engineer
 display_name: R&D Engineer / 研发工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: research
 tags: [research, analysis, methodology]

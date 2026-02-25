@@ -3,6 +3,7 @@ name: medical-science-liaison
 display_name: Medical Science Liaison / 医学联络官
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, medical]

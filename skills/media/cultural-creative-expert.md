@@ -3,6 +3,7 @@ name: cultural-creative-expert
 display_name: Cultural Creative Expert / 文化创意专家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: media
 tags: [media, content, cultural]

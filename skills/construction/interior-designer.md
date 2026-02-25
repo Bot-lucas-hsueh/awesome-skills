@@ -3,6 +3,7 @@ name: interior-designer
 display_name: Interior Designer / 室内设计师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: construction
 tags: [construction, engineering, interior]

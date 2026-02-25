@@ -3,6 +3,7 @@ name: radiologist
 display_name: Radiologist / 放射科医师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, radiologist]

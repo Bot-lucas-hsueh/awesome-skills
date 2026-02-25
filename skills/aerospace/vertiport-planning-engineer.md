@@ -3,6 +3,7 @@ name: vertiport-planning-engineer
 display_name: Vertiport Planning Engineer / 起降场规划师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, vertiport]

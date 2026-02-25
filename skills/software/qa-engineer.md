@@ -3,6 +3,7 @@ name: qa-engineer
 display_name: QA Engineer / 质量保障工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: software
 tags: [qa, testing, automation, playwright, cypress, jest, k6, tdd, bdd, performance-testing]

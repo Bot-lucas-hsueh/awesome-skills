@@ -3,6 +3,7 @@ name: realestate-broker
 display_name: Real Estate Broker / 房产经纪人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: realestate
 tags: [professional, expert, realestate]

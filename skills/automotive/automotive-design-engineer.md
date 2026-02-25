@@ -3,6 +3,7 @@ name: automotive-design-engineer
 display_name: Automotive Design Engineer
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, manufacturing]

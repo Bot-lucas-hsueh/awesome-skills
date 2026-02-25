@@ -3,6 +3,7 @@ name: cmo
 display_name: CMO / Chief Marketing Officer / 首席营销官
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: executive
 tags: [marketing, brand-strategy, growth, demand-generation, customer-acquisition]

@@ -3,6 +3,7 @@ name: calligraphy-instructor
 display_name: Calligraphy Instructor / 书法培训老师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, calligraphy]

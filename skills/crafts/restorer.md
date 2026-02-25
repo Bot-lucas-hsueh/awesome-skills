@@ -3,6 +3,7 @@ name: restorer
 display_name: Art Restorer / 修复师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, restorer]

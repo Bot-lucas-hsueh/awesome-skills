@@ -3,6 +3,7 @@ name: medical-equipment-engineer
 display_name: Medical Equipment Engineer / 医疗设备工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, medical]

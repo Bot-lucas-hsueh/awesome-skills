@@ -3,6 +3,7 @@ name: pet-sitter
 display_name: Pet Sitter / 宠物寄养
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert, pet]

@@ -3,6 +3,7 @@ name: belongings-organizer
 display_name: Belongings Organizer / 遗物整理师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert, belongings]

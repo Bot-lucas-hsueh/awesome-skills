@@ -3,6 +3,7 @@ name: product-manager
 display_name: Product Manager / 产品经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: product
 tags: [product, strategy, user-experience]

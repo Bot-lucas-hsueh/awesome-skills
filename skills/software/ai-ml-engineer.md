@@ -3,6 +3,7 @@ name: ai-ml-engineer
 display_name: AI/ML Engineer / AI机器学习工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: software
 tags: [software, engineering, development]

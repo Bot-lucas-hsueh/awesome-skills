@@ -3,6 +3,7 @@ name: cfo
 display_name: CFO / Chief Financial Officer / 首席财务官
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: executive
 tags: [finance, capital-allocation, risk-management, investor-relations, financial-strategy]

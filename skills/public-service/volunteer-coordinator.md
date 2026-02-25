@@ -3,6 +3,7 @@ name: volunteer-coordinator
 display_name: Volunteer Coordinator / 志愿者协调员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: public-service
 tags: [professional, expert, volunteer]

@@ -3,6 +3,7 @@ name: data-engineer
 display_name: Senior Data Engineer / 高级数据工程师
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: data
 tags: [data-pipelines, airflow, dbt, kafka, spark, delta-lake, iceberg, snowflake, bigquery, etl, streaming, data-lake]
@@ -498,6 +499,7 @@ SELECT * FROM deduplicated
 ```yaml
 # models/silver/schema.yml
 version: 2
+quality: expert
 
 models:
   - name: orders_silver

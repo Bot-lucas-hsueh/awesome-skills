@@ -3,6 +3,7 @@ name: professional-shopper
 display_name: Professional Shopper / 代购
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert]

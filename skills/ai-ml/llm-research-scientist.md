@@ -3,6 +3,7 @@ name: llm-research-scientist
 display_name: LLM Research Scientist / 大模型研究科学家
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: ai-ml
 tags: [transformer-architecture, rlhf, alignment-research, scaling-laws, fine-tuning]

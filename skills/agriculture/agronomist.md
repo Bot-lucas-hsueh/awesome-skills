@@ -3,6 +3,7 @@ name: agronomist
 display_name: Agronomist / 农艺师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: agriculture
 tags: [agriculture, farming, agronomist]

@@ -3,6 +3,7 @@ name: maintenance-worker
 display_name: Maintenance Worker / 物业维修工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: realestate
 tags: [professional, expert, maintenance]

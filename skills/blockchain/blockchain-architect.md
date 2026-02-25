@@ -3,6 +3,7 @@ name: blockchain-architect
 display_name: Blockchain Architect / 区块链架构师
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: blockchain
 tags: [blockchain, web3, cryptocurrency]

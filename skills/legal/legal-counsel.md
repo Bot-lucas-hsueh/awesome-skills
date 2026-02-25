@@ -3,6 +3,7 @@ name: legal-counsel
 display_name: Legal Counsel / 法律顾问
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: legal
 tags: [legal, contracts, compliance, corporate-law, employment-law, litigation, ip, regulatory]

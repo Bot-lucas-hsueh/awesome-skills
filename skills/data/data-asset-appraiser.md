@@ -3,6 +3,7 @@ name: data-asset-appraiser
 display_name: Data Asset Appraiser / 数据资产评估师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: data
 tags: [data, analytics, data-science]

@@ -3,6 +3,7 @@ name: precision-reducer-engineer
 display_name: Precision Reducer Engineer / 精密减速器工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: robotics
 tags: [professional, expert, precision]

@@ -3,6 +3,7 @@ name: marketing-manager
 display_name: Marketing Manager / 市场营销经理
 author: neo.ai
 version: 2.0.0
+quality: expert
 difficulty: expert
 category: marketing
 tags: [marketing-strategy, brand-management, campaign-planning, go-to-market, analytics, budget-management, content-marketing, cross-functional]

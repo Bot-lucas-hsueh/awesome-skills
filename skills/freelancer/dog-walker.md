@@ -3,6 +3,7 @@ name: dog-walker
 display_name: Dog Walker / 遛狗师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: freelancer
 tags: [freelance, business, dog]

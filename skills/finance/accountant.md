@@ -3,6 +3,7 @@ name: accountant
 display_name: Accountant / 会计
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: finance
 tags: [finance, analysis, accountant]

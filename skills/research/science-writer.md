@@ -3,6 +3,7 @@ name: science-writer
 display_name: Science Writer / 科普作家
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, science]

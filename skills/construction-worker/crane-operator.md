@@ -3,6 +3,7 @@ name: crane-operator
 display_name: Crane Operator / 塔吊操作员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, crane]

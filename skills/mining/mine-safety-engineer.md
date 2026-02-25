@@ -3,6 +3,7 @@ name: mine-safety-engineer
 display_name: Mine Safety Engineer / 矿山安全工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: mining
 tags: [professional, expert, mine]

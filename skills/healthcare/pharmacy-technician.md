@@ -3,6 +3,7 @@ name: pharmacy-technician
 display_name: Pharmacy Technician / 药店药剂师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, pharmacy]

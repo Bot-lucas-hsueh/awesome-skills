@@ -3,6 +3,7 @@ name: academic-director
 display_name: Academic Director / 教务主任
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, academic]

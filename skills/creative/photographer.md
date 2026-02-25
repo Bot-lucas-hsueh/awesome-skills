@@ -3,6 +3,7 @@ name: photographer
 display_name: Photographer / 摄影师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: creative
 tags: [creative, design, photographer]

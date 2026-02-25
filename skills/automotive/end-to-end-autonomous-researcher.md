@@ -3,6 +3,7 @@ name: end-to-end-autonomous-researcher
 display_name: End-to-End Autonomous Researcher / 端到端模型研究员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: automotive
 tags: [automotive, engineering, end]

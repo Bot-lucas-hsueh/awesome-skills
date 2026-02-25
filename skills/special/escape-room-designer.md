@@ -3,6 +3,7 @@ name: escape-room-designer
 display_name: Escape Room Designer / 密室设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert, escape]

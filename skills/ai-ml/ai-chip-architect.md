@@ -3,6 +3,7 @@ name: ai-chip-architect
 display_name: AI Chip Architect / AI芯片架构师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: ai-ml
 tags: [ai, machine-learning, data-science]

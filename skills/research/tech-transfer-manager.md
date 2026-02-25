@@ -3,6 +3,7 @@ name: tech-transfer-manager
 display_name: Technology Transfer Manager / 技术转移经理
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, tech]

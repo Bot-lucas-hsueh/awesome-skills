@@ -3,6 +3,7 @@ name: vocational-trainer
 display_name: Vocational Trainer / 职业培训师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: education
 tags: [education, teaching, vocational]

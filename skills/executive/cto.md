@@ -3,6 +3,7 @@ name: cto
 display_name: CTO / Chief Technology Officer / 首席技术官
 author: neo.ai
 version: 3.0.0
+quality: expert
 difficulty: expert
 category: executive
 tags: [technology, engineering, leadership, innovation, r&d]

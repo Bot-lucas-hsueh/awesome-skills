@@ -3,6 +3,7 @@ name: railway-signal-engineer
 display_name: Railway Signal Engineer / 铁路信号工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: transportation
 tags: [transportation, logistics, railway]

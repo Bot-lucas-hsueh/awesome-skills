@@ -3,6 +3,7 @@ name: news-anchor
 display_name: News Anchor / 新闻主播
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: beginner
 category: media
 tags: [media, content, news]

@@ -3,6 +3,7 @@ name: instrument-maker
 display_name: Traditional Instrument Maker / 传统乐器制作师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, instrument]

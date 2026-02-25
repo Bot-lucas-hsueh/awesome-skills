@@ -3,6 +3,7 @@ name: rocket-chief-designer
 display_name: Rocket Chief Designer / 火箭总体设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: aerospace
 tags: [aerospace, engineering, rocket]

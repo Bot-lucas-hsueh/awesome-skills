@@ -3,6 +3,7 @@ name: petition-officer
 display_name: Petition Officer / 信访接待员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: government
 tags: [government, policy, petition]

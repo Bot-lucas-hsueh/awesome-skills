@@ -3,6 +3,7 @@ name: embroiderer
 display_name: Embroiderer / 刺绣艺人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, embroiderer]

@@ -3,6 +3,7 @@ name: clinical-research-coordinator
 display_name: Clinical Research Coordinator / 临床研究协调员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: healthcare
 tags: [healthcare, medicine, clinical]

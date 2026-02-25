@@ -3,6 +3,7 @@ name: radio-host
 display_name: Radio Host / 电台主持人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: media
 tags: [media, content, radio]

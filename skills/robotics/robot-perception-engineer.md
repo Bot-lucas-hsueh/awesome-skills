@@ -3,6 +3,7 @@ name: robot-perception-engineer
 display_name: Robot Perception Engineer / 机器人感知工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: robotics
 tags: [professional, expert, robot]

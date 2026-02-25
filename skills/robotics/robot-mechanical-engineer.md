@@ -3,6 +3,7 @@ name: robot-mechanical-engineer
 display_name: Robot Mechanical Engineer / 机器人机械工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: robotics
 tags: [professional, expert, robot]

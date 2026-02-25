@@ -3,6 +3,7 @@ name: career-coach
 display_name: Career Coach / 职业教练
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: special
 tags: [professional, expert, career]

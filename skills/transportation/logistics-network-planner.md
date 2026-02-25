@@ -3,6 +3,7 @@ name: logistics-network-planner
 display_name: Logistics Network Planner / 物流网络规划师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: transportation
 tags: [transportation, logistics, operations]

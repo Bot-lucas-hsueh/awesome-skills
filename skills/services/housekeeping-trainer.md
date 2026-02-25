@@ -3,6 +3,7 @@ name: housekeeping-trainer
 display_name: Housekeeping Trainer / 家政培训师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: services
 tags: [professional, expert, housekeeping]

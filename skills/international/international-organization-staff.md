@@ -3,6 +3,7 @@ name: international-organization-staff
 display_name: International Organization Staff / 国际组织职员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: international
 tags: [international, global, cross-cultural]

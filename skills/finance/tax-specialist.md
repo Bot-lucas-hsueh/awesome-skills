@@ -3,6 +3,7 @@ name: tax-specialist
 display_name: Tax Specialist / 税务专员
 author: awesome-skills
 version: 1.0.0
+quality: community
 difficulty: expert
 category: finance
 tags: [finance, analysis, tax]

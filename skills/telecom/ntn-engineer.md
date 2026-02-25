@@ -3,6 +3,7 @@ name: ntn-engineer
 display_name: NTN Engineer / 非地面网络工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: telecom
 tags: [professional, expert, ntn]

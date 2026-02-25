@@ -3,6 +3,7 @@ name: pcb-hardware-engineer
 display_name: PCB Hardware Engineer / PCB硬件工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: manufacturing
 tags: [manufacturing, engineering, pcb]

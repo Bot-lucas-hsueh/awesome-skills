@@ -3,6 +3,7 @@ name: esports-player
 display_name: Esports Player / 电竞选手
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: entertainment
 tags: [entertainment, creative, esports]

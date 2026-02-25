@@ -3,6 +3,7 @@ name: livestreamer
 display_name: Livestreamer/KOL / 主播/KOL
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: creative
 tags: [creative, design, livestreamer]

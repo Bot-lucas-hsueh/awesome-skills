@@ -3,6 +3,7 @@ name: petroleum-geologist
 display_name: Petroleum Geologist / 石油地质师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: mining
 tags: [professional, expert, petroleum]

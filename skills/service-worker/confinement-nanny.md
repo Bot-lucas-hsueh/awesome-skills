@@ -3,6 +3,7 @@ name: confinement-nanny
 display_name: Confinement Nanny / 月嫂
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: service-worker
 tags: [professional, expert, confinement]

@@ -3,6 +3,7 @@ name: farm-machinery-operator
 display_name: Farm Machinery Operator / 农机操作手
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: farmer
 tags: [agriculture, farming, farm]

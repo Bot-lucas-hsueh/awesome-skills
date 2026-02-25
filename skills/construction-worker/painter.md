@@ -3,6 +3,7 @@ name: painter
 display_name: Painter / 油漆工
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, painter]

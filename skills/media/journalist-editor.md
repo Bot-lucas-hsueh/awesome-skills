@@ -3,6 +3,7 @@ name: journalist-editor
 display_name: Journalist/Editor / 记者编辑
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: media
 tags: [media, content, journalist]

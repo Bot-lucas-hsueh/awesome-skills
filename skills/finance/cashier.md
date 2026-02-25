@@ -3,6 +3,7 @@ name: cashier
 display_name: Cashier / 收银员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, cashier]

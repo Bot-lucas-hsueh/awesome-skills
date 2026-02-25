@@ -3,6 +3,7 @@ name: animator
 display_name: Animator / 动画设计师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: creative
 tags: [creative, design, animator]

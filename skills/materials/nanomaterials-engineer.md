@@ -3,6 +3,7 @@ name: nanomaterials-engineer
 display_name: Nanomaterials Engineer / 纳米材料工程师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: materials
 tags: [professional, expert, nanomaterials]

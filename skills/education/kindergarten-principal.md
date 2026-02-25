@@ -3,6 +3,7 @@ name: kindergarten-principal
 display_name: Kindergarten Principal / 幼儿园园长
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: education
 tags: [education, teaching, kindergarten]

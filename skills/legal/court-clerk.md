@@ -3,6 +3,7 @@ name: court-clerk
 display_name: Court Clerk / 书记员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, court]

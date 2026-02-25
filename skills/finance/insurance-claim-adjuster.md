@@ -3,6 +3,7 @@ name: insurance-claim-adjuster
 display_name: Insurance Claim Adjuster / 保险理赔员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: finance
 tags: [finance, analysis, insurance]

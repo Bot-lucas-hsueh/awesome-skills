@@ -3,6 +3,7 @@ name: professional-apologizer
 display_name: Professional Apologizer / 职业道歉人
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: special
 tags: [professional, expert]

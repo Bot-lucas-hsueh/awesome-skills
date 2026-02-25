@@ -3,6 +3,7 @@ name: enforcement-officer
 display_name: Enforcement Officer / 执行法官
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: legal
 tags: [legal, compliance, enforcement]

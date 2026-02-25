@@ -3,6 +3,7 @@ name: perfumer
 display_name: Perfumer / 调香师
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: crafts
 tags: [crafts, skilled-trades, perfumer]

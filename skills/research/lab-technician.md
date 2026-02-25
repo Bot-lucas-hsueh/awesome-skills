@@ -3,6 +3,7 @@ name: lab-technician
 display_name: Laboratory Technician / 实验技术员
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: research
 tags: [research, analysis, lab]
