@@ -30,16 +30,58 @@ VALID_DIFFICULTY = {"expert", "intermediate", "beginner"}
 VALID_PLATFORMS = {"opencode", "openclaw", "claude", "cursor", "codex", "cline", "kimi"}
 
 # Skills that must pass strict (Expert Verified) checks
+# Updated in Phase 2 to include all 37 Expert Verified skills
 EXPERT_SKILLS = {
-    # Currently Expert Verified — strict structural checks enforced
+    # Executive
     "skills/executive/ceo.md",
+    "skills/executive/cfo.md",
+    "skills/executive/cmo.md",
+    "skills/executive/coo.md",
     "skills/executive/cto.md",
-    "skills/admin/skill-writer.md",
-    "skills/ai-ml/prompt-engineer.md",
+    # Technology
+    "skills/software/backend-developer.md",
+    "skills/software/data-scientist.md",
+    "skills/software/devops-engineer.md",
+    "skills/software/frontend-developer.md",
+    "skills/software/qa-engineer.md",
+    "skills/software/security-engineer.md",
     "skills/software/software-architect.md",
-    # Pending Phase 1 upgrade (not yet Expert Verified):
-    # "skills/executive/cfo.md"
-    # "skills/executive/coo.md"
+    # AI/ML
+    "skills/ai-ml/ai-application-engineer.md",
+    "skills/ai-ml/ai-product-manager.md",
+    "skills/ai-ml/llm-research-scientist.md",
+    "skills/ai-ml/llm-training-engineer.md",
+    "skills/ai-ml/machine-learning-engineer.md",
+    "skills/ai-ml/prompt-engineer.md",
+    # Finance
+    "skills/finance/cpa.md",
+    "skills/finance/financial-analyst.md",
+    "skills/finance/fund-manager.md",
+    "skills/finance/investment-analyst.md",
+    # Business & Consulting
+    "skills/business/management-consultant.md",
+    "skills/business/strategy-consultant.md",
+    # Legal
+    "skills/legal/legal-counsel.md",
+    "skills/legal/patent-attorney.md",
+    # Healthcare
+    "skills/healthcare/general-practitioner.md",
+    "skills/healthcare/psychologist.md",
+    # Marketing & Sales
+    "skills/marketing/digital-marketing-specialist.md",
+    "skills/marketing/marketing-manager.md",
+    "skills/marketing/sales-manager.md",
+    # Product & Design
+    "skills/product/product-manager.md",
+    "skills/product/ux-designer.md",
+    # Data & Analytics
+    "skills/data/data-analyst.md",
+    "skills/data/data-engineer.md",
+    # Research
+    "skills/research/principal-investigator.md",
+    "skills/research/statistician.md",
+    # Meta-skills
+    "skills/admin/skill-writer.md",
 }
 
 # Minimum section count for Expert Verified skills

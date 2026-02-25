@@ -88,26 +88,41 @@ These skills have been rewritten with deep expertise, including system prompts, 
 |-------|----------|--------------|
 | [CEO](./skills/executive/ceo.md) | Executive | Ansoff Matrix, BCG portfolio, board governance, M&A |
 | [CFO](./skills/executive/cfo.md) | Executive | Capital allocation, investor relations, financial strategy |
+| [CMO](./skills/executive/cmo.md) | Executive | Brand strategy, growth marketing, demand generation, GTM |
+| [COO](./skills/executive/coo.md) | Executive | Operations excellence, process optimization, scaling teams |
 | [CTO](./skills/executive/cto.md) | Executive | Tech strategy, architecture decisions, engineering culture |
-| [DevOps Engineer](./skills/software/devops-engineer.md) | Tech | Kubernetes, Terraform, CI/CD, GitOps, SRE |
-| [Security Engineer](./skills/software/security-engineer.md) | Tech | OWASP Top 10, Zero Trust, pentest, DevSecOps |
 | [Backend Developer](./skills/software/backend-developer.md) | Tech | API design, distributed systems, database architecture |
+| [Data Scientist](./skills/software/data-scientist.md) | Tech | ML pipelines, statistical analysis, A/B experimentation |
+| [DevOps Engineer](./skills/software/devops-engineer.md) | Tech | Kubernetes, Terraform, CI/CD, GitOps, SRE |
 | [Frontend Developer](./skills/software/frontend-developer.md) | Tech | React, Web Vitals, accessibility, performance |
+| [QA Engineer](./skills/software/qa-engineer.md) | Tech | Test strategy, automation (Playwright/Cypress), quality metrics |
+| [Security Engineer](./skills/software/security-engineer.md) | Tech | OWASP Top 10, Zero Trust, pentest, DevSecOps |
+| [Software Architect](./skills/software/software-architect.md) | Tech | System design, scalability patterns, ADRs |
+| [AI Application Engineer](./skills/ai-ml/ai-application-engineer.md) | AI/ML | LLM integration, RAG pipelines, production AI systems |
+| [AI Product Manager](./skills/ai-ml/ai-product-manager.md) | AI/ML | AI feature strategy, model requirements, responsible AI |
 | [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | AI/ML | Pre-training, RLHF, alignment research |
 | [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) | AI/ML | Distributed training, fine-tuning, RLHF pipelines |
 | [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) | AI/ML | MLOps, feature engineering, model deployment |
-| [Financial Analyst](./skills/finance/financial-analyst.md) | Finance | DCF/LBO modeling, FP&A, variance analysis |
+| [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) | AI/ML | Prompt patterns, evaluation frameworks, optimization |
 | [CPA](./skills/finance/cpa.md) | Finance | GAAP/IFRS, audit, tax planning, SOX compliance |
+| [Financial Analyst](./skills/finance/financial-analyst.md) | Finance | DCF/LBO modeling, FP&A, variance analysis |
 | [Fund Manager](./skills/finance/fund-manager.md) | Finance | Portfolio theory, VaR/CVaR, asset allocation |
+| [Investment Analyst](./skills/finance/investment-analyst.md) | Finance | Equity valuation, comparable analysis, investment thesis |
+| [Management Consultant](./skills/business/management-consultant.md) | Business | Strategic frameworks, problem structuring, executive communication |
+| [Strategy Consultant](./skills/business/strategy-consultant.md) | Business | Market entry, competitive positioning, M&A strategy |
 | [Legal Counsel](./skills/legal/legal-counsel.md) | Legal | Contract review, compliance, M&A |
 | [Patent Attorney](./skills/legal/patent-attorney.md) | Legal | IP strategy, patent prosecution, FTO analysis |
 | [Clinical Physician (GP)](./skills/healthcare/general-practitioner.md) | Healthcare | Clinical reasoning, differential diagnosis |
 | [Psychologist](./skills/healthcare/psychologist.md) | Healthcare | CBT/DBT/ACT, assessment, crisis intervention |
-| [Sales Manager](./skills/marketing/sales-manager.md) | Sales | MEDDIC/Challenger, pipeline management, coaching |
+| [Digital Marketing Specialist](./skills/marketing/digital-marketing-specialist.md) | Marketing | SEO/SEM, paid media, analytics, growth frameworks |
 | [Marketing Manager](./skills/marketing/marketing-manager.md) | Marketing | GTM strategy, demand generation, brand |
-| [Data Engineer](./skills/data/data-engineer.md) | Data | Airflow, dbt, Kafka, Delta Lake, lakehouse |
-| [Data Analyst](./skills/data/data-analyst.md) | Data | SQL, A/B testing, BI dashboards, stats |
+| [Sales Manager](./skills/marketing/sales-manager.md) | Sales | MEDDIC/Challenger, pipeline management, coaching |
+| [Product Manager](./skills/product/product-manager.md) | Product | Roadmapping, PRDs, user research, prioritization, metrics |
 | [UX Designer](./skills/product/ux-designer.md) | Product | User research, interaction design, WCAG, design systems |
+| [Data Analyst](./skills/data/data-analyst.md) | Data | SQL, A/B testing, BI dashboards, stats |
+| [Data Engineer](./skills/data/data-engineer.md) | Data | Airflow, dbt, Kafka, Delta Lake, lakehouse |
+| [Principal Investigator](./skills/research/principal-investigator.md) | Research | Grant writing, lab management, publication strategy |
+| [Statistician](./skills/research/statistician.md) | Research | Statistical modeling, experimental design, R/Python |
 
 **[View All 37 Expert Verified Skills →](./CATALOG.md#-expert-verified-skills-37)**
 
@@ -152,7 +167,7 @@ We maintain three quality tiers:
 
 | Level | Badge | Criteria | Count |
 |-------|-------|----------|-------|
-| **Expert Verified** | ⭐ | System prompt + 3+ frameworks + Scenarios + Examples | 20 |
+| **Expert Verified** | ⭐ | System prompt + 3+ frameworks + Scenarios + Examples | 37 |
 | **Community Verified** | ✅ | Basic system prompt + Community tested | 50 |
 | **Basic** | 📝 | Template-based, community contributions welcome | 380+ |
 
@@ -162,8 +177,8 @@ We maintain three quality tiers:
 
 ## 🚀 Roadmap
 
-- [x] **Phase 1**: Top 20 skills expert verification (In Progress)
-- [ ] **Phase 2**: README & documentation overhaul
+- [x] **Phase 1**: Expert skill verification — 37 skills upgraded to Expert Verified
+- [x] **Phase 2**: README & documentation overhaul — complete catalog, consistent metadata, validator updated
 - [ ] **Phase 3**: CLI tool development
 - [ ] **Phase 4**: Automated testing framework
 - [ ] **Phase 5**: Community contribution portal
