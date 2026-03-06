@@ -3,7 +3,7 @@ name: tech-writer
 display_name: Expert Technical Writer
 author: neo.ai
 version: 3.0.0
-quality: expert
+quality: exemplary
 difficulty: expert
 category: content
 tags: [technical-writing, api-documentation, docs-as-code, diataxis, developer-experience, openapi, mkdocs]

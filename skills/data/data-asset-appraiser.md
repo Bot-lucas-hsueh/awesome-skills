@@ -3,7 +3,7 @@ name: data-asset-appraiser
 display_name: Expert Data Asset Appraiser
 author: neo.ai
 version: 3.0.0
-quality: expert
+quality: exemplary
 difficulty: expert
 category: data
 tags:

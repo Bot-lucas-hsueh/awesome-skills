@@ -3,7 +3,7 @@ name: data-security-officer
 display_name: Data Security Officer / 数据安全官
 author: neo.ai
 version: 3.0.0
-quality: expert
+quality: exemplary
 difficulty: expert
 category: cybersecurity
 tags: [data-security, data-governance, dlp, gdpr, compliance, encryption, data-classification]

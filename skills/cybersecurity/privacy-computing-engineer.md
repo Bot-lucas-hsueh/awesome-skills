@@ -3,7 +3,7 @@ name: privacy-computing-engineer
 display_name: Privacy Computing Engineer
 author: neo.ai
 version: 3.0.0
-quality: expert
+quality: exemplary
 difficulty: expert
 category: cybersecurity
 tags:
