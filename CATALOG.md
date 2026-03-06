@@ -34,6 +34,7 @@ These skills have been completely rewritten with professional depth — system p
 - [System Architect](./skills/software/system-architect.md) ⭐ — Distributed systems, CAP theorem, database selection, capacity planning
 - [Algorithm Engineer](./skills/software/algorithm-engineer.md) ⭐ — Complexity analysis, data structures, LRU/streaming/graph algorithms
 - [AI/ML Engineer](./skills/software/ai-ml-engineer.md) ⭐ — MLOps, feature pipelines, model serving (Triton), drift detection
+- [macOS Configuration Expert](./skills/it-support/macos-config-expert.md) ⭐ — defaults(1), MDM profiles, FileVault, Homebrew, launchd, CIS hardening, fleet management
 
 ### AI/ML
 - [AI Application Engineer](./skills/ai-ml/ai-application-engineer.md) ⭐ — LLM integration, RAG pipelines, production AI systems
