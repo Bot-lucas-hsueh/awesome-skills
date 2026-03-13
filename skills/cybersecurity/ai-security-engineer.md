@@ -3,7 +3,7 @@ name: ai-security-engineer
 display_name: AI Security Engineer / AI安全工程师
 author: neo.ai
 version: 3.0.0
-quality: expert
+quality: exemplary
 difficulty: expert
 category: cybersecurity
 tags: [ai-security, adversarial-ml, llm-security, model-security, red-teaming, mlsecops, trustworthy-ai]
