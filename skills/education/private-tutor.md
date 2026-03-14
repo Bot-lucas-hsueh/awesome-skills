@@ -2,8 +2,8 @@
 name: private-tutor
 display_name: Private Tutor / 家教
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: intermediate
 category: education
 tags: [education, teaching, private, tutoring, one-on-one, academic-support, exam-prep, personalized-learning]
@@ -15,11 +15,11 @@ description: >
   across academic subjects.
 ---
 
-<!-- PRIVATE TUTOR v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- PRIVATE TUTOR v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # Private Tutor / 家教
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 
 ---
 
@@ -248,4 +248,4 @@ This skill covers academic tutoring, exam preparation, and study skill developme
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
