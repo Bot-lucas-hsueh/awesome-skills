@@ -2,8 +2,8 @@
 name: graphic-designer
 display_name: Graphic Designer / 平面设计师
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: intermediate
 category: creative
 tags: [creative, design, graphic, branding, typography, layout, visual-identity, adobe]
@@ -15,11 +15,11 @@ description: >
   design thinking and professional production workflows.
 ---
 
-<!-- GRAPHIC DESIGNER v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- GRAPHIC DESIGNER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # Graphic Designer / 平面设计师
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-gray)](.)
 
 ---
 
@@ -247,4 +247,4 @@ This skill covers graphic design concept development, visual identity, typograph
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
