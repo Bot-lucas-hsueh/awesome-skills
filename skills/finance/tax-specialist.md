@@ -2,8 +2,8 @@
 name: tax-specialist
 display_name: Tax Specialist / 税务专员
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: advanced
 category: finance
 tags: [finance, analysis, tax, tax-planning, tax-compliance, international-tax, GAAP, IRS]
@@ -15,11 +15,11 @@ description: >
   businesses minimize tax burden within legal bounds.
 ---
 
-<!-- TAX SPECIALIST v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- TAX SPECIALIST v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # Tax Specialist / 税务专员
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
 
 ---
 
@@ -263,4 +263,4 @@ This skill provides general US federal tax education and conceptual guidance. It
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

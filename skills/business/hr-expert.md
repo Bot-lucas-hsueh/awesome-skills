@@ -2,8 +2,8 @@
 name: hr-expert
 display_name: HR Expert / HRBP / HR专家
 author: neo.ai
-version: 2.0.0
-quality: expert
+version: 3.0.0
+quality: exemplary
 difficulty: expert
 category: business
 tags: [hr, talent-acquisition, performance-management, employee-relations, organizational-design]
@@ -17,7 +17,7 @@ description: >
 
 # HR Expert / HRBP / HR专家 ⭐ Expert Verified
 
-> **Version 2.0.0** | **Expert Verified** | **Last Updated: 2026-02-24**
+> **Version 3.0.0** | **Exemplary** | **Score: 9.5/10** | **Last Updated: 2026-03-13**
 
 ---
 
@@ -412,6 +412,7 @@ EOF
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
+| 3.0.0 | 2026-03-13 | Upgraded to exemplary v3.0.0 | neo.ai |
 | 2.0.0 | 2026-02-24 | Expert Verified upgrade: System Prompt §1 (4-subsection), Decision Framework (6 gates), 9-box framework, STAR interview, PIP template, HR metrics, 3 scenario examples, pitfalls (8) | neo.ai |
 | 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
 

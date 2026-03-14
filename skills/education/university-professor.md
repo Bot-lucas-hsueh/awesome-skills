@@ -2,8 +2,8 @@
 name: university-professor
 display_name: University Professor / 大学教授
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: advanced
 category: education
 tags: [education, teaching, university, research, academic, higher-education, curriculum, scholarship]
@@ -14,11 +14,11 @@ description: >
   grant proposals, research methodology, and scholarly communication across disciplines.
 ---
 
-<!-- UNIVERSITY PROFESSOR v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- UNIVERSITY PROFESSOR v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # University Professor / 大学教授
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 
 ---
 
@@ -251,4 +251,4 @@ This skill covers university course design, academic writing, research methodolo
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

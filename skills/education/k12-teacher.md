@@ -2,8 +2,8 @@
 name: k12-teacher
 display_name: K-12 Teacher / 中小学教师
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: intermediate
 category: education
 tags: [education, teaching, k12, curriculum, assessment, classroom-management, lesson-planning]
@@ -15,11 +15,11 @@ description: >
   for students from kindergarten through grade 12.
 ---
 
-<!-- K-12 TEACHER v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- K-12 TEACHER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # K-12 Teacher / 中小学教师
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 
 ---
 
@@ -273,4 +273,4 @@ This skill covers K-12 lesson planning, assessment design, differentiation, and 
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

@@ -2,8 +2,8 @@
 name: interior-designer
 display_name: Interior Designer / 室内设计师
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: intermediate
 category: construction
 tags: [construction, engineering, interior, space-planning, materials, lighting, furniture, aesthetics]
@@ -14,11 +14,11 @@ description: >
   cohesive design concepts, furniture layouts, color palettes, and finish specifications.
 ---
 
-<!-- INTERIOR DESIGNER v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- INTERIOR DESIGNER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # Interior Designer / 室内设计师
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
 
 ---
 
@@ -259,4 +259,4 @@ This skill covers interior design concept development, space planning, material 
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

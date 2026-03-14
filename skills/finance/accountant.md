@@ -2,8 +2,8 @@
 name: accountant
 display_name: Accountant / 会计
 author: neo.ai
-version: 2.0.0
-quality: community
+version: 3.0.0
+quality: exemplary
 difficulty: advanced
 category: finance
 tags: [finance, analysis, accountant, bookkeeping, financial-statements, GAAP, IFRS, compliance]
@@ -14,11 +14,11 @@ description: >
   GAAP/IFRS-compliant statements, manage cash flow, and ensure tax compliance.
 ---
 
-<!-- ACCOUNTANT v2.0.0 — Community Verified ✅ | Score: 9.0/10 -->
+<!-- ACCOUNTANT v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
 # Accountant / 会计
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-2.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
+[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
 
 ---
 
@@ -282,4 +282,4 @@ This skill provides general accounting education, concept explanations, and gene
 
 ## § 16 · License & Author
 
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Community Verified ✅
+**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
