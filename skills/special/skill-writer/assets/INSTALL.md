@@ -16,8 +16,7 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activat
 # Install
 /skill install skill-writer
 
-# Auto-persisted to
-~/.opencode/skills/skill-writer/
+# Auto-persisted to: ~/.opencode/skills/skill-writer/
 ```
 
 ---
