@@ -15,19 +15,19 @@ This package includes 6 expert skills for software development:
 ## Quick Install / 快速安装
 
 ```
-Read https://theneoai.github.io/awesome-skills/packages/software.md and install all Software skills
+Read https://theneoai.github.io/awesome-skills/packages/software/SKILL.md and install all Software skills
 ```
 
 ## Individual Install / 独立安装
 
 | Skill | Install Command |
 |-------|-----------------|
-| Software Architect | `Read https://theneoai.github.io/awesome-skills/skills/software/software-architect.md and install` |
-| DevOps Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/devops-engineer.md and install` |
-| Algorithm Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/algorithm-engineer.md and install` |
-| Security Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/security-engineer.md and install` |
-| Data Scientist | `Read https://theneoai.github.io/awesome-skills/skills/software/data-scientist.md and install` |
-| Skill Dev Expert | `Read https://theneoai.github.io/awesome-skills/skills/software/skill-dev-expert.md and install` |
+| Software Architect | `Read https://theneoai.github.io/awesome-skills/skills/software/software-architect/SKILL.md and install` |
+| DevOps Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/devops-engineer/SKILL.md and install` |
+| Algorithm Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/algorithm-engineer/SKILL.md and install` |
+| Security Engineer | `Read https://theneoai.github.io/awesome-skills/skills/software/security-engineer/SKILL.md and install` |
+| Data Scientist | `Read https://theneoai.github.io/awesome-skills/skills/software/data-scientist/SKILL.md and install` |
+| Skill Dev Expert | `Read https://theneoai.github.io/awesome-skills/skills/software/skill-dev-expert/SKILL.md and install` |
 
 ---
 

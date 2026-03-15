@@ -50,7 +50,7 @@ OpenCode 原生支持技能安装，提供最完整的功能支持。
 
 ### 通过 Read 命令安装
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
 ### 安装全部技能
@@ -73,7 +73,7 @@ OpenClaw 原生支持通过 `Read ... and install` 命令安装技能。
 
 ### 安装单个技能
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
 ### 安装技能包
@@ -105,7 +105,7 @@ Claude Code 通过 `CLAUDE.md` 文件或单次会话读取加载技能。
 
 ```bash
 cat >> CLAUDE.md << 'EOF'
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and apply the CEO skill guidelines to this project.
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and apply the CEO skill guidelines to this project.
 EOF
 ```
 
@@ -115,7 +115,7 @@ EOF
 
 ```bash
 cat >> ~/.claude/CLAUDE.md << 'EOF'
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and apply the CEO skill guidelines.
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and apply the CEO skill guidelines.
 EOF
 ```
 
@@ -124,12 +124,12 @@ EOF
 在对话中直接读取技能文件（仅当前会话有效）：
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
 ### 方法 4：手动复制 System Prompt
 
-1. 打开技能文件（如 `skills/executive/ceo.md`）
+1. 打开技能文件（如 `skills/executive/ceo/SKILL.md`）
 2. 复制 `§1.1 Role Definition` 代码块中的内容
 3. 粘贴到 Claude Project 的"Project Instructions"（全局持久化）
 
@@ -151,10 +151,10 @@ Cursor 通过 `.cursorrules` 文件应用技能配置。
 
 ```bash
 # 方法 1：命令行追加（使用 raw URL）
-curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo.md >> .cursorrules
+curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo/SKILL.md >> .cursorrules
 
 # 方法 2：在 Cursor 内提示加载
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and append the skill content to .cursorrules
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and append the skill content to .cursorrules
 ```
 
 ### 批量安装多个技能
@@ -191,7 +191,7 @@ Codex 通过系统提示词（System Prompt）加载技能配置。
 ### 单次会话安装
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md, extract the system prompt and guidelines, and apply as system context for this session.
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md, extract the system prompt and guidelines, and apply as system context for this session.
 ```
 
 ### 持久化配置
@@ -221,7 +221,7 @@ Cline 作为 VS Code 插件，通过系统提示词或 MCP 服务加载技能。
 ### 方法 1：单次会话（对话框输入）
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and apply the CEO skill to this session.
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and apply the CEO skill to this session.
 ```
 
 ### 方法 2：通过 `.clinerules` 持久化
@@ -229,7 +229,7 @@ Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.m
 在项目根目录创建 `.clinerules` 文件并追加技能内容：
 
 ```bash
-curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo.md >> .clinerules
+curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo/SKILL.md >> .clinerules
 ```
 
 ### 方法 3：自定义指令（Custom Instructions）
@@ -251,14 +251,14 @@ Kimi Code 支持通过提示词或配置文件加载技能。
 ### 单次会话安装
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill for this session.
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill for this session.
 ```
 
 ### 通过 `.kimiignore` 或项目配置持久化
 
 ```bash
 # 追加到项目配置
-curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo.md >> .kimi-rules
+curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/ceo/SKILL.md >> .kimi-rules
 ```
 
 > ⚠️ **注意**：Kimi Code 平台适配仍在测试中，安装效果可能因版本而异。建议参考 [Kimi 官方文档](https://kimi.moonshot.cn)获取最新配置方式。
@@ -273,14 +273,14 @@ curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ex
 
 | 技能 | URL 路径 | 安装命令 |
 |------|---------|---------|
-| **CEO** | `skills/executive/ceo.md` | `Read .../ceo.md and install ceo skill` |
-| **CTO** | `skills/executive/cto.md` | `Read .../cto.md and install cto skill` |
-| **CFO** | `skills/executive/cfo.md` | `Read .../cfo.md and install cfo skill` |
-| **Software Architect** | `skills/software/software-architect.md` | `Read .../software-architect.md and install software-architect skill` |
-| **Prompt Engineer** | `skills/ai-ml/prompt-engineer.md` | `Read .../prompt-engineer.md and install prompt-engineer skill` |
-| **LLM Research Scientist** | `skills/ai-ml/llm-research-scientist.md` | `Read .../llm-research-scientist.md and install llm-research-scientist skill` |
-| **Clinical Physician** | `skills/healthcare/general-practitioner.md` | `Read .../general-practitioner.md and install general-practitioner skill` |
-| **Legal Counsel** | `skills/legal/legal-counsel.md` | `Read .../legal-counsel.md and install legal-counsel skill` |
+| **CEO** | `skills/executive/ceo/SKILL.md` | `Read .../ceo.md and install ceo skill` |
+| **CTO** | `skills/executive/cto/SKILL.md` | `Read .../cto.md and install cto skill` |
+| **CFO** | `skills/executive/cfo/SKILL.md` | `Read .../cfo.md and install cfo skill` |
+| **Software Architect** | `skills/software/software-architect/SKILL.md` | `Read .../software-architect.md and install software-architect skill` |
+| **Prompt Engineer** | `skills/ai-ml/prompt-engineer/SKILL.md` | `Read .../prompt-engineer.md and install prompt-engineer skill` |
+| **LLM Research Scientist** | `skills/ai-ml/llm-research-scientist/SKILL.md` | `Read .../llm-research-scientist.md and install llm-research-scientist skill` |
+| **Clinical Physician** | `skills/healthcare/general-practitioner/SKILL.md` | `Read .../general-practitioner.md and install general-practitioner skill` |
+| **Legal Counsel** | `skills/legal/legal-counsel/SKILL.md` | `Read .../legal-counsel.md and install legal-counsel skill` |
 
 **GitHub URL 前缀（blob）：** `https://github.com/theneoai/awesome-skills/blob/main/`
 

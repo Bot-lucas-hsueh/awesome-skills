@@ -465,8 +465,8 @@ The following skills have been upgraded to 9.5/10 as reference implementations:
 
 | Skill / 技能 | Before / 升级前 | After / 升级后 | Sections Added / 添加章节 |
 |-------------|----------------|---------------|--------------------------|
-| [Backend Developer](./skills/software/backend-developer.md) | 7.45/10 | 9.5/10 | §2, §3, §4, §8, §10, §11, §12, §13, §16 |
-| [DevOps Engineer](./skills/software/devops-engineer.md) | 7.45/10 | 9.5/10 | §2, §3, §4, §8, §10, §11, §12, §13, §16 |
+| [Backend Developer](./skills/software/backend-developer/SKILL.md) | 7.45/10 | 9.5/10 | §2, §3, §4, §8, §10, §11, §12, §13, §16 |
+| [DevOps Engineer](./skills/software/devops-engineer/SKILL.md) | 7.45/10 | 9.5/10 | §2, §3, §4, §8, §10, §11, §12, §13, §16 |
 
 Use these as templates when upgrading other skills in the same category.
 <!-- 在升级同一类别的其他技能时，使用这些作为模板。-->

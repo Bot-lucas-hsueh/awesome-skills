@@ -15,7 +15,7 @@ Read [SKILL_URL] and install [skill-name] skill
 
 示例 (Example):
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
 quality: basic

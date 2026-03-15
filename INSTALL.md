@@ -7,7 +7,7 @@
 ## 安装单个技能（推荐入门）
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
 将 `ceo` 替换为任意技能名，如 `software-architect`、`prompt-engineer`、`cfo` 等。

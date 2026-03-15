@@ -134,7 +134,7 @@ Quick: `/skill install skill-writer` (OpenCode) · `Read [URL] and activate the 
 | **[references/scenarios.md](references/scenarios.md)** | 4 full conversation flows (creation, review, upgrade, rejection) |
 | **[references/anti-patterns.md](references/anti-patterns.md)** | 9 classified anti-patterns with ❌/✅ fixes |
 | **[references/changelog.md](references/changelog.md)** | Full version history (v12+) |
-| **Expert Exemplars** | `skills/executive/ceo.md`, `skills/software/software-architect.md` |
+| **Expert Exemplars** | `skills/executive/ceo/SKILL.md`, `skills/software/software-architect/SKILL.md` |
 | **YAML Validator** | `yamllint filename.md` or yaml-validator.com |
 
 ---

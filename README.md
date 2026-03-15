@@ -27,7 +27,7 @@ Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 
 ### Option 2: Install Single Skill
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo.md and install ceo skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
 ### Option 3: Install Skill Package
@@ -86,49 +86,49 @@ These skills have been rewritten with deep expertise, including system prompts, 
 
 | Skill | Category | Key Features |
 |-------|----------|--------------|
-| [CEO](./skills/executive/ceo.md) | Executive | Ansoff Matrix, BCG portfolio, board governance, M&A |
-| [CFO](./skills/executive/cfo.md) | Executive | Capital allocation, investor relations, financial strategy |
-| [CMO](./skills/executive/cmo.md) | Executive | Brand strategy, growth marketing, demand generation, GTM |
-| [COO](./skills/executive/coo.md) | Executive | Operations excellence, process optimization, scaling teams |
-| [CTO](./skills/executive/cto.md) | Executive | Tech strategy, architecture decisions, engineering culture |
-| [Backend Developer](./skills/software/backend-developer.md) | Tech | API design, distributed systems, database architecture |
-| [Data Scientist](./skills/software/data-scientist.md) | Tech | ML pipelines, statistical analysis, A/B experimentation |
-| [DevOps Engineer](./skills/software/devops-engineer.md) | Tech | Kubernetes, Terraform, CI/CD, GitOps, SRE |
-| [Frontend Developer](./skills/software/frontend-developer.md) | Tech | React, Web Vitals, accessibility, performance |
-| [QA Engineer](./skills/software/qa-engineer.md) | Tech | Test strategy, automation (Playwright/Cypress), quality metrics |
-| [Security Engineer](./skills/software/security-engineer.md) | Tech | OWASP Top 10, Zero Trust, pentest, DevSecOps |
-| [Software Architect](./skills/software/software-architect.md) | Tech | System design, scalability patterns, ADRs |
-| [System Architect](./skills/software/system-architect.md) | Tech | Distributed systems, CAP theorem, database selection, capacity planning |
-| [Algorithm Engineer](./skills/software/algorithm-engineer.md) | Tech | Complexity analysis, data structures, LRU/streaming algorithms |
-| [AI/ML Engineer](./skills/software/ai-ml-engineer.md) | Tech | MLOps, feature pipelines, model serving, drift detection |
-| [AI Application Engineer](./skills/ai-ml/ai-application-engineer.md) | AI/ML | LLM integration, RAG pipelines, production AI systems |
-| [AI Product Manager](./skills/ai-ml/ai-product-manager.md) | AI/ML | AI feature strategy, model requirements, responsible AI |
-| [AI Safety Researcher](./skills/ai-ml/ai-safety-researcher.md) | AI/ML | RLHF, Constitutional AI, red-teaming, alignment evaluation |
-| [AI Chip Architect](./skills/ai-ml/ai-chip-architect.md) | AI/ML | Roofline model, systolic array, HBM bandwidth, PPA trade-offs |
-| [AI Compute Platform Engineer](./skills/ai-ml/ai-compute-platform-engineer.md) | AI/ML | GPU clusters, NCCL, InfiniBand, MFU optimization, fault-tolerant training |
-| [LLM Research Scientist](./skills/ai-ml/llm-research-scientist.md) | AI/ML | Pre-training, RLHF, alignment research |
-| [LLM Training Engineer](./skills/ai-ml/llm-training-engineer.md) | AI/ML | Distributed training, fine-tuning, RLHF pipelines |
-| [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer.md) | AI/ML | MLOps, feature engineering, model deployment |
-| [Prompt Engineer](./skills/ai-ml/prompt-engineer.md) | AI/ML | Prompt patterns, evaluation frameworks, optimization |
-| [CPA](./skills/finance/cpa.md) | Finance | GAAP/IFRS, audit, tax planning, SOX compliance |
-| [Financial Analyst](./skills/finance/financial-analyst.md) | Finance | DCF/LBO modeling, FP&A, variance analysis |
-| [Fund Manager](./skills/finance/fund-manager.md) | Finance | Portfolio theory, VaR/CVaR, asset allocation |
-| [Investment Analyst](./skills/finance/investment-analyst.md) | Finance | Equity valuation, comparable analysis, investment thesis |
-| [Management Consultant](./skills/business/management-consultant.md) | Business | Strategic frameworks, problem structuring, executive communication |
-| [Strategy Consultant](./skills/business/strategy-consultant.md) | Business | Market entry, competitive positioning, M&A strategy |
-| [Legal Counsel](./skills/legal/legal-counsel.md) | Legal | Contract review, compliance, M&A |
-| [Patent Attorney](./skills/legal/patent-attorney.md) | Legal | IP strategy, patent prosecution, FTO analysis |
-| [Clinical Physician (GP)](./skills/healthcare/general-practitioner.md) | Healthcare | Clinical reasoning, differential diagnosis |
-| [Psychologist](./skills/healthcare/psychologist.md) | Healthcare | CBT/DBT/ACT, assessment, crisis intervention |
-| [Digital Marketing Specialist](./skills/marketing/digital-marketing-specialist.md) | Marketing | SEO/SEM, paid media, analytics, growth frameworks |
-| [Marketing Manager](./skills/marketing/marketing-manager.md) | Marketing | GTM strategy, demand generation, brand |
-| [Sales Manager](./skills/marketing/sales-manager.md) | Sales | MEDDIC/Challenger, pipeline management, coaching |
-| [Product Manager](./skills/product/product-manager.md) | Product | Roadmapping, PRDs, user research, prioritization, metrics |
-| [UX Designer](./skills/product/ux-designer.md) | Product | User research, interaction design, WCAG, design systems |
-| [Data Analyst](./skills/data/data-analyst.md) | Data | SQL, A/B testing, BI dashboards, stats |
-| [Data Engineer](./skills/data/data-engineer.md) | Data | Airflow, dbt, Kafka, Delta Lake, lakehouse |
-| [Principal Investigator](./skills/research/principal-investigator.md) | Research | Grant writing, lab management, publication strategy |
-| [Statistician](./skills/research/statistician.md) | Research | Statistical modeling, experimental design, R/Python |
+| [CEO](./skills/executive/ceo/SKILL.md) | Executive | Ansoff Matrix, BCG portfolio, board governance, M&A |
+| [CFO](./skills/executive/cfo/SKILL.md) | Executive | Capital allocation, investor relations, financial strategy |
+| [CMO](./skills/executive/cmo/SKILL.md) | Executive | Brand strategy, growth marketing, demand generation, GTM |
+| [COO](./skills/executive/coo/SKILL.md) | Executive | Operations excellence, process optimization, scaling teams |
+| [CTO](./skills/executive/cto/SKILL.md) | Executive | Tech strategy, architecture decisions, engineering culture |
+| [Backend Developer](./skills/software/backend-developer/SKILL.md) | Tech | API design, distributed systems, database architecture |
+| [Data Scientist](./skills/software/data-scientist/SKILL.md) | Tech | ML pipelines, statistical analysis, A/B experimentation |
+| [DevOps Engineer](./skills/software/devops-engineer/SKILL.md) | Tech | Kubernetes, Terraform, CI/CD, GitOps, SRE |
+| [Frontend Developer](./skills/software/frontend-developer/SKILL.md) | Tech | React, Web Vitals, accessibility, performance |
+| [QA Engineer](./skills/software/qa-engineer/SKILL.md) | Tech | Test strategy, automation (Playwright/Cypress), quality metrics |
+| [Security Engineer](./skills/software/security-engineer/SKILL.md) | Tech | OWASP Top 10, Zero Trust, pentest, DevSecOps |
+| [Software Architect](./skills/software/software-architect/SKILL.md) | Tech | System design, scalability patterns, ADRs |
+| [System Architect](./skills/software/system-architect/SKILL.md) | Tech | Distributed systems, CAP theorem, database selection, capacity planning |
+| [Algorithm Engineer](./skills/software/algorithm-engineer/SKILL.md) | Tech | Complexity analysis, data structures, LRU/streaming algorithms |
+| [AI/ML Engineer](./skills/software/ai-ml-engineer/SKILL.md) | Tech | MLOps, feature pipelines, model serving, drift detection |
+| [AI Application Engineer](./skills/ai-ml/ai-application-engineer/SKILL.md) | AI/ML | LLM integration, RAG pipelines, production AI systems |
+| [AI Product Manager](./skills/ai-ml/ai-product-manager/SKILL.md) | AI/ML | AI feature strategy, model requirements, responsible AI |
+| [AI Safety Researcher](./skills/ai-ml/ai-safety-researcher/SKILL.md) | AI/ML | RLHF, Constitutional AI, red-teaming, alignment evaluation |
+| [AI Chip Architect](./skills/ai-ml/ai-chip-architect/SKILL.md) | AI/ML | Roofline model, systolic array, HBM bandwidth, PPA trade-offs |
+| [AI Compute Platform Engineer](./skills/ai-ml/ai-compute-platform-engineer/SKILL.md) | AI/ML | GPU clusters, NCCL, InfiniBand, MFU optimization, fault-tolerant training |
+| [LLM Research Scientist](./skills/ai-ml/llm-research-scientist/SKILL.md) | AI/ML | Pre-training, RLHF, alignment research |
+| [LLM Training Engineer](./skills/ai-ml/llm-training-engineer/SKILL.md) | AI/ML | Distributed training, fine-tuning, RLHF pipelines |
+| [Machine Learning Engineer](./skills/ai-ml/machine-learning-engineer/SKILL.md) | AI/ML | MLOps, feature engineering, model deployment |
+| [Prompt Engineer](./skills/ai-ml/prompt-engineer/SKILL.md) | AI/ML | Prompt patterns, evaluation frameworks, optimization |
+| [CPA](./skills/finance/cpa/SKILL.md) | Finance | GAAP/IFRS, audit, tax planning, SOX compliance |
+| [Financial Analyst](./skills/finance/financial-analyst/SKILL.md) | Finance | DCF/LBO modeling, FP&A, variance analysis |
+| [Fund Manager](./skills/finance/fund-manager/SKILL.md) | Finance | Portfolio theory, VaR/CVaR, asset allocation |
+| [Investment Analyst](./skills/finance/investment-analyst/SKILL.md) | Finance | Equity valuation, comparable analysis, investment thesis |
+| [Management Consultant](./skills/business/management-consultant/SKILL.md) | Business | Strategic frameworks, problem structuring, executive communication |
+| [Strategy Consultant](./skills/business/strategy-consultant/SKILL.md) | Business | Market entry, competitive positioning, M&A strategy |
+| [Legal Counsel](./skills/legal/legal-counsel/SKILL.md) | Legal | Contract review, compliance, M&A |
+| [Patent Attorney](./skills/legal/patent-attorney/SKILL.md) | Legal | IP strategy, patent prosecution, FTO analysis |
+| [Clinical Physician (GP)](./skills/healthcare/general-practitioner/SKILL.md) | Healthcare | Clinical reasoning, differential diagnosis |
+| [Psychologist](./skills/healthcare/psychologist/SKILL.md) | Healthcare | CBT/DBT/ACT, assessment, crisis intervention |
+| [Digital Marketing Specialist](./skills/marketing/digital-marketing-specialist/SKILL.md) | Marketing | SEO/SEM, paid media, analytics, growth frameworks |
+| [Marketing Manager](./skills/marketing/marketing-manager/SKILL.md) | Marketing | GTM strategy, demand generation, brand |
+| [Sales Manager](./skills/marketing/sales-manager/SKILL.md) | Sales | MEDDIC/Challenger, pipeline management, coaching |
+| [Product Manager](./skills/product/product-manager/SKILL.md) | Product | Roadmapping, PRDs, user research, prioritization, metrics |
+| [UX Designer](./skills/product/ux-designer/SKILL.md) | Product | User research, interaction design, WCAG, design systems |
+| [Data Analyst](./skills/data/data-analyst/SKILL.md) | Data | SQL, A/B testing, BI dashboards, stats |
+| [Data Engineer](./skills/data/data-engineer/SKILL.md) | Data | Airflow, dbt, Kafka, Delta Lake, lakehouse |
+| [Principal Investigator](./skills/research/principal-investigator/SKILL.md) | Research | Grant writing, lab management, publication strategy |
+| [Statistician](./skills/research/statistician/SKILL.md) | Research | Statistical modeling, experimental design, R/Python |
 
 **[View All 43 Expert Verified Skills →](./CATALOG.md#-expert-verified-skills)**
 

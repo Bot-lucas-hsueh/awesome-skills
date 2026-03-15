@@ -392,13 +392,13 @@ When upgrading each category, use these as reference examples:
 
 | Category / 类别 | Reference Skill / 参考技能 | Why / 原因 |
 |----------------|--------------------------|----------|
-| Software dev skills | `skills/software/backend-developer.md` | Full 16-section exemplar with code |
-| AI/ML skills | `skills/ai-ml/ai-application-engineer.md` | LLM+RAG pipeline examples |
-| Security skills | `skills/software/security-engineer.md` | Risk-heavy domain model |
-| Architecture skills | `skills/software/software-architect.md` | ADR + C4 diagram patterns |
-| Research skills | `skills/research/principal-investigator.md` | Grant/publication workflows |
-| Finance skills | `skills/finance/financial-analyst.md` | Quantitative metrics model |
-| Healthcare skills | `skills/healthcare/general-practitioner.md` | Clinical reasoning framework |
+| Software dev skills | `skills/software/backend-developer/SKILL.md` | Full 16-section exemplar with code |
+| AI/ML skills | `skills/ai-ml/ai-application-engineer/SKILL.md` | LLM+RAG pipeline examples |
+| Security skills | `skills/software/security-engineer/SKILL.md` | Risk-heavy domain model |
+| Architecture skills | `skills/software/software-architect/SKILL.md` | ADR + C4 diagram patterns |
+| Research skills | `skills/research/principal-investigator/SKILL.md` | Grant/publication workflows |
+| Finance skills | `skills/finance/financial-analyst/SKILL.md` | Quantitative metrics model |
+| Healthcare skills | `skills/healthcare/general-practitioner/SKILL.md` | Clinical reasoning framework |
 
 ---
 

@@ -381,7 +381,7 @@ Every skill file is automatically validated by CI on push and pull request.
 python3 .github/scripts/validate_skills.py skills/
 
 # Validate a single file
-python3 .github/scripts/validate_skills.py skills/software/software-architect.md
+python3 .github/scripts/validate_skills.py skills/software/software-architect/SKILL.md
 
 # Strict mode: enforce 16-section structure (for Expert Verified skills)
 python3 .github/scripts/validate_skills.py --strict skills/executive/

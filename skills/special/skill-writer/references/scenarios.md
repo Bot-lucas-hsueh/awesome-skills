@@ -11,7 +11,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 **Skill Writer:**
 > **Phase 1 诊断:**
 > - 领域：区块链/Web3 系统架构
-> - 现有技能：`skills/blockchain/blockchain-architect.md` (Basic 级别，仅 30 行)
+> - 现有技能：`skills/blockchain/blockchain-architect/SKILL.md` (Basic 级别，仅 30 行)
 > - 目标：升级到 Expert Verified
 > - 关键差距：无 System Prompt、无框架、无场景示例
 >
@@ -57,7 +57,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 
 ## 9.2 Reviewing & Scoring a Skill
 
-**User:** "Review skills/finance/accountant.md"
+**User:** "Review skills/finance/accountant/SKILL.md"
 
 **Skill Writer:**
 > | Dimension | Score | Weight | Weighted | Assessment |
@@ -102,7 +102,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 
 ## 9.3 Upgrading Basic → Expert
 
-**User:** "Upgrade skills/healthcare/nurse.md from Basic to Expert"
+**User:** "Upgrade skills/healthcare/nurse/SKILL.md from Basic to Expert"
 
 **Skill Writer:**
 > **Current State (Basic, 2.8/10):** 1-line system prompt, no frameworks, 0 scenarios, 2 generic risks.
