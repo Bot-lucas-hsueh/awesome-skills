@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 18.0.0
+version: 19.0.0
 quality: exemplary
 difficulty: expert
 category: special
@@ -49,6 +49,7 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Density** | Is content dense enough to justify token cost? | Cut filler, compress to tables |
 | **Depth** | Does the skill teach HOW to think, not just WHAT to say? | Add decision trees |
 | **Token Budget** | Does `description` fit ≤15,500-char system pool? Body ≤500 lines? | Trim; move heavy content to `references/` → §7 |
+| **Workflow** | Starting a create / review / upgrade task? | Read `references/workflow.md` → follow phase-gate process |
 
 ### 1.3 Thinking Patterns / 思维模式
 
@@ -88,14 +89,14 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ## 3. Risk Disclaimer / 风险提示
 
-| Risk / 风险 | Severity / 严重度 | Mitigation / 缓解措施 |
-|-------------|-----------|---------------------|
-| **Scope Creep** | 🔴 High | Apply Anti-Pattern #1; enforce one-domain rule. **Escalate if:** 3+ distinct job titles or 2+ unrelated fields → split before writing |
-| **Shallow Depth** | 🔴 High | Score against Quality Rubric; require 7+/10 on Domain Knowledge. **Escalate if:** score <5.0 after first draft — consult domain expert |
-| **Metadata Errors** | 🟡 Medium | Validate with `yamllint`; verify all 9 fields. **Escalate if:** yamllint passes but platform rejects — file a platform-specific issue |
-| **Token Waste** | 🟡 Medium | Flat meta-skills: <900 lines. Folder SKILL.md: <500 lines. **Escalate if:** exceeds limit after compression — restructure §7 or offload to references/ |
-| **Translation Drift** | 🟢 Low | Semantic equivalence, never literal. **Escalate if:** native speaker flags ≥2 phrases — full §-by-§ review before merging |
-| **False Activation** | 🟡 Medium | Use specific verb phrases; test each against 5 adjacent requests. **Escalate if:** ≥2/5 tests misfire — cull triggers immediately |
+| Risk / 风险 | Sev | Mitigation / 缓解 |
+|------------|-----|------------------|
+| **Scope Creep** | 🔴 | Split if 2+ domains or job titles; Anti-Pattern #1 |
+| **Shallow Depth** | 🔴 | Domain Knowledge ≥7/10; consult expert if <5.0 |
+| **Metadata Errors** | 🟡 | `yamllint`; all 9 fields; no HTML in description |
+| **Token Waste** | 🟡 | SKILL.md ≤500 lines; offload to references/ |
+| **False Activation** | 🟡 | ≤8 specific verb triggers; test 5 adjacent requests |
+| **Translation Drift** | 🟢 | Semantic equivalence; native-speaker review if flagged |
 
 ---
 
@@ -113,17 +114,9 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ## 5. Platform Support / 平台支持
 
-| Platform / 平台 | Session Install / 会话安装 | Persistent Config / 持久化配置 |
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install skill-writer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and activate the Skill Writer role from §1` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and activate the Skill Writer role from §1` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 + `references/standards.md §7.1` into `.cursorrules` | Save to `~/.cursor/rules/skill-writer.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and activate the Skill Writer role from §1` | Append to `.kimi-rules` |
+→ `assets/INSTALL.md` — all 7 platforms, session + persistent + verification + uninstall.
 
-**[URL]:** `https://awesome-skills.dev/skills/special/skill-writer/SKILL.md`
+Quick: `/skill install skill-writer` (OpenCode) · `Read [URL] and activate the Skill Writer role from §1` (others)
 
 ---
 
@@ -133,6 +126,7 @@ Before writing or reviewing any skill, pass it through these gates:
 |-------------|---------------|
 | **[assets/INSTALL.md](assets/INSTALL.md)** | Per-platform install guide (session + persistent + uninstall + verification) |
 | **[assets/TEMPLATE.md](assets/TEMPLATE.md)** | Official 16-section skill structure template |
+| **[references/workflow.md](references/workflow.md)** | Phase-gate workflows: create (4 phases) · review (6 steps) · upgrade (6 checks) |
 | **[references/standards.md](references/standards.md)** | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
 | **[references/scenarios.md](references/scenarios.md)** | 4 full conversation flows (creation, review, upgrade, rejection) |
 | **[references/anti-patterns.md](references/anti-patterns.md)** | 9 classified anti-patterns with ❌/✅ fixes |
@@ -165,102 +159,19 @@ Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 
 ## 8. Standard Workflow / 标准工作流程
 
-### 8.1 Creating a New Skill / 创建新技能
-
-```
-Phase 1: Discovery  [✓ Done: one-sentence scope + named tier target agreed]
-├── What domain? Who is the target user? → shapes §1 Role + §2 Capabilities
-├── What specific problems does this skill solve? → shapes §3 Risks + §12 Scope
-├── What existing skills overlap? (check /skills/) → shapes §11 Integration
-└── What quality tier is the goal? → sets §7.1 threshold
-✗ FAIL: Cannot answer all 4 in ≤2 sentences → scope too broad; apply Anti-Pattern #1
-
-Phase 2: Architecture  [✓ Done: skeleton with all 16 H2 headers + 1-line purpose per section]
-├── Define the system prompt (role + thinking patterns + style) → §1
-├── Identify 3-5 core capabilities → §2
-├── Map domain frameworks and decision tools → §7
-├── Design multi-phase workflow → §8
-└── Plan 2+ scenario examples → §9
-✗ FAIL: Cannot identify ≥2 domain-specific decision frameworks → consult domain expert before writing
-
-Phase 3: Writing  [✓ Done: all 16 sections complete; no placeholder or TBD content]
-├── Fill complete metadata (all 9 fields; no HTML comments in YAML description) → §7.2
-├── Write system prompt in code block → use §1 of this skill as exemplar
-├── Build each of the 16 sections in correct order → references/standards.md §7.3
-├── Add bilingual translations (semantic, not literal) → references/standards.md §7.4
-└── Include concrete examples showing AI applying frameworks → references/scenarios.md
-✗ FAIL: Any section contains "TBD" or placeholder text → complete or narrow scope before submitting
-
-Phase 4: Quality Assurance  [✓ Done: rubric score ≥ tier target + litmus test passes]
-├── Score against Quality Rubric → references/standards.md §7.1; target ≥7.0 (Expert), ≥9.0 (Exemplary)
-├── Validate YAML metadata → yamllint; check all 9 fields
-├── Confirm all 16 sections present → references/standards.md §7.3
-├── Run anti-pattern scan → references/anti-patterns.md; check all 9 patterns
-└── Litmus test: Prompt AI with vs. without skill on 3 tasks
-    PASS = AI cites ≥1 framework AND uses different structure in ≥2/3 tasks
-    FAIL = identical structure in ≥2/3 tasks OR 0 frameworks cited
-✗ FAIL: Litmus test shows no behavioral difference → skill is Basic regardless of rubric score
-```
-
-### 8.2 Reviewing & Scoring a Skill / 审查评分技能
-
-```
-Step 1: Read the complete skill file
-Step 2: Score each of the 6 Quality Rubric dimensions (1-10) → references/standards.md §7.1
-Step 3: Calculate weighted average → determine tier
-Step 4: Identify top 3 weaknesses by impact
-Step 5: Provide rewrite suggestions with before/after examples
-Step 6: Give classification and upgrade path
-```
-
-### 8.3 Upgrading Basic → Expert / 从 Basic 升级到 Expert
-
-```
-From Basic to Expert, add in priority order (see §7.6 ROI table):
-
-☐ Structured System Prompt (role + thinking patterns + communication style)
-☐ Deep Domain Frameworks (decision matrices with thresholds, not just lists)
-☐ Scenario-Based Guidance (2-3 full conversation examples → references/scenarios.md)
-☐ Complete Metadata (all 9 fields; no HTML in YAML description)
-☐ Domain-Specific Risks (4+ with severity classification)
-☐ Quality Score Verification (weighted avg ≥ 7.0 via references/standards.md §7.1)
-```
+→ Read `references/workflow.md` for full phase-gate process (create / review / upgrade).
 
 ---
 
 ## 9. Scenario Examples / 场景示例
 
-For full conversation flows, read `references/scenarios.md`.
-<!-- 完整对话流程请读 references/scenarios.md。-->
-
-**Quick example — Skill Review:**
-
-**User:** "Review skills/finance/accountant.md"
-
-**Skill Writer:** Score all 6 rubric dimensions → identify top 3 weaknesses → provide before/after rewrites.
-
-> System Prompt 2/10 (no decision framework) → add GAAP/IFRS selection matrix
-> Example Quality 1/10 (no scenarios) → add month-end close and tax planning flows
-> Domain Knowledge 3/10 (lists, no frameworks) → convert to materiality threshold table
-> **Projected after fixes: 7.1/10 → Expert ⭐**
+→ `references/scenarios.md` — 4 full flows: create · review · upgrade · anti-pattern rejection.
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
 
-Full examples with ❌/✅ code blocks: `references/anti-patterns.md`
-
-| # | Anti-Pattern / 反模式 | Severity / 严重度 | Quick Fix / 快速修复 |
-|---|----------------------|-----------|---------------------|
-| 1 | **Scope Sprawl** | 🔴 High | One skill, one domain; split if 2+ job titles |
-| 2 | **Shallow Depth** | 🔴 High | Replace bullet lists with decision matrices + thresholds |
-| 3 | **Self-Inconsistency** | 🔴 High | Skill must follow every rule it defines |
-| 4 | **Token Waste** | 🟡 Medium | Move static references to `references/`; compress tables |
-| 5 | **Generic Risk Table** | 🟡 Medium | Domain-specific risks with escalation triggers |
-| 6 | **HTML in YAML** | 🟡 Medium | Plain text description only; bilingual → Markdown body |
-| 7 | **Literal Translation** | 🟢 Low | Semantic equivalence, not word-for-word |
-| 8 | **Prose Wall** | 🟢 Low | Convert paragraphs to tables with litmus test column |
-| 9 | **Platform Coverage Miss** | 🟡 Medium | §5: all 7 platforms; session + persistent; `[URL]` once |
+→ `references/anti-patterns.md` — 9 patterns with ❌/✅ fixes. Run in Phase 4 QA.
 
 ---
 
@@ -300,19 +211,7 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activat
 
 ## 14. Quality Verification / 质量验证
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check / 检查项 | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ SKILL.md body ≤ 500 lines; heavy content offloaded to references/ | ✅ Yes |
-| ☐ §5: all 7 platforms with session + persistent columns; `[URL]` defined once | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; zero TBD/placeholder | ✅ Yes |
-| ☐ Zero self-inconsistencies: skill follows every rule it defines | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary ⭐⭐) | ✅ Yes |
-
-**Self-Score:** 10.00/10 — Exemplary ⭐⭐
-Justification: See `references/standards.md §7.10 Self-Score` for full evidence table.
+→ `references/standards.md §7.10` — full blocking checklist. **Self-Score: 10.0/10 — Exemplary ⭐⭐**
 
 ---
 
@@ -323,6 +222,7 @@ Full log: `references/changelog.md` — recent entries:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 19.0.0 | 2026-03-15 | §8 (65 lines) → references/workflow.md; §5/§9/§10/§14 → 1-line pointers; §3 table compressed; 334→233 lines (−30%) |
 | 18.0.0 | 2026-03-15 | assets/INSTALL.md: on-demand user guide; §7 rubric table removed; §13 compressed; changelog offloaded |
 | 17.0.0 | 2026-03-15 | Self-contained directory: TEMPLATE.md → assets/; root stub; CONTRIBUTING.md links fixed |
 | 16.0.0 | 2026-03-15 | Token savings: §16/§4.1/§9/§10/§2 compressed; anti-pattern #9; 8→9 count fix |
