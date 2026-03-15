@@ -91,7 +91,7 @@ EXPERT_SKILLS = {
     "skills/research/principal-investigator.md",
     "skills/research/statistician.md",
     # Meta-skills
-    "skills/special/skill-writer.md",
+    "skills/special/skill-writer/SKILL.md",
 }
 
 # Minimum H2 section count for Expert Verified skills (full 16-section structure)
