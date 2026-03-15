@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 12.0.0
+version: 13.0.0
 quality: exemplary
 difficulty: expert
 category: special
@@ -21,7 +21,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 12.0.0** | **Expert Verified ⭐⭐ Exemplary — 10.00/10 Perfect Score** | **Last Updated: 2026-03-15**
+> **Version 13.0.0** | **Expert Verified ⭐⭐ Exemplary — 10.00/10 Perfect Score** | **Last Updated: 2026-03-15**
 
 ---
 
@@ -64,6 +64,7 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Honesty** | Are risks and limitations documented without hedging? | Strengthen risk section |
 | **Density** | Is the content dense enough to justify its token cost? | Cut filler, compress prose into tables |
 | **Depth** | Does the skill teach HOW to think, not just WHAT to say? | Add decision trees and thinking patterns |
+| **Token Budget** | Does `description` fit within the 15,500-char system budget? Is SKILL.md body ≤ 500 lines? | Trim description to ≤ 263 chars; move heavy content to `references/` files → §7.9 |
 
 ### 1.3 Thinking Patterns / 思维模式
 
@@ -99,6 +100,8 @@ Quick diagnostic rules unique to skill architecture — not applicable to adjace
 | **Trigger Bloat** | Trigger word list >8 entries → false activation probability >50% | Cull to 4-6 specific verb phrases; test each against 5 adjacent requests |
 | **Framework Signal** | Reading §7 for <30 seconds yields 0 actionable thresholds → Community tier at best | Replace prose with decision matrices; add numeric criteria to every framework |
 | **Review Speed** | Skilled reviewer takes >10 min to evaluate a skill → structure is too dense | Convert prose paragraphs to tables; add scannable headers and decision trees |
+| **Description Budget** | `description` > 263 chars AND user has 42+ skills installed → skill may be invisible | Trim description; front-load trigger verbs in first 50 chars → §7.9 |
+| **Body Overflow** | SKILL.md body > 500 lines → full load on every invocation, high token cost | Move long reference tables, API specs, examples to `references/*.md` → §7.9 |
 
 ---
 
@@ -453,6 +456,102 @@ The `description` field is the **primary signal Claude uses to decide whether to
 
 **Recommendation**: New Expert Verified skills targeting Claude Code and GitHub Copilot should use the **folder + SKILL.md** structure.
 <!-- 建议：面向 Claude Code 和 GitHub Copilot 的新 Expert Verified 技能应使用文件夹 + SKILL.md 结构。-->
+
+### 7.9 Token Budget Optimization / Token 预算优化
+
+Two separate budgets govern skill token cost. Both must be managed consciously.
+<!-- 两个独立的预算控制技能的 token 消耗，都需要主动管理。-->
+
+#### Budget 1 — Description Character Budget / Description 字符预算
+
+The Claude Code system prompt allocates a **fixed pool of ~15,500 characters** across ALL installed skills for their `name` + `description` metadata. This budget is always loaded, even before the user sends the first message.
+<!-- Claude Code 系统提示为所有已安装技能的 name + description 元数据分配约 15,500 字符的固定池，启动时即全量加载。-->
+
+```
+Per-skill overhead: 109 chars (XML tags) + description length
+Typical description (263 chars) → max ~42 skills visible
+Skills beyond the budget: COMPLETELY INVISIBLE to Claude (no warning shown)
+```
+
+**Description Length Targets by Install Scale / 按安装规模的 description 长度目标:**
+
+| Skills Installed / 已安装技能数 | Max Description / 最大 description | Rule / 规则 |
+|-------------------------------|-----------------------------------|-------------|
+| < 40 | ≤ 263 chars | Default; full detail allowed |
+| 40–60 | ≤ 150 chars | Compress; keep trigger verbs only |
+| 60+ | ≤ 130 chars | Minimal; front-load trigger in first 50 chars |
+
+**Description Writing Rules / Description 写作规则:**
+
+| Rule / 规则 | Good / 好 ✅ | Bad / 坏 ❌ |
+|-------------|------------|-----------|
+| Front-load trigger verbs | `"Create financial models, DCF valuations..."` | `"This skill helps users who need to..."` |
+| Be "pushy" — use imperative | `"Use this skill when..."` | `"This skill may help with..."` |
+| No HTML comments | Plain text only | `<!-- ... -->` pollutes YAML |
+| State measurable outcome | `"Transforms Claude into a CFA-level analyst"` | `"Helps with finance"` |
+| Include 3–5 trigger phrases | `Triggers: "build model", "run DCF"` | No trigger examples |
+
+#### Budget 2 — SKILL.md Body Line Budget / SKILL.md 正文行数预算
+
+This budget applies **per invocation** (when the skill triggers). Unlike the description budget, this cost is paid lazily.
+<!-- 此预算按调用计（技能触发时），与 description 预算不同，是懒加载的。-->
+
+| Metric / 指标 | Limit / 限制 | Cost If Exceeded / 超出代价 |
+|--------------|-------------|--------------------------|
+| SKILL.md body lines | ≤ 500 lines | Full file loads into context on every invocation |
+| Referenced files | Unlimited (on-demand) | Zero cost until Claude reads them |
+| Script files | Unlimited (on-demand) | Only script output consumes tokens, not source |
+
+#### Progressive Disclosure Implementation / 渐进式信息披露实现
+
+Move content out of SKILL.md body in this priority order:
+<!-- 按以下优先顺序将内容从 SKILL.md 正文中移出：-->
+
+```
+Priority 1 (move first): Long reference tables, API specifications, field enumerations
+Priority 2:              Extended examples beyond the 2 required for Expert tier
+Priority 3:              Edge case documentation and troubleshooting guides
+Priority 4 (move last):  Core decision frameworks (keep in body for quick access)
+```
+
+**File-splitting pattern / 文件拆分模式:**
+```
+my-skill/
+├── SKILL.md                   ← ≤ 500 lines: core instructions + pointers
+│   └── "For API details, read references/api-spec.md"
+├── references/
+│   ├── api-spec.md            ← reads only if user asks about API
+│   ├── examples.md            ← reads only if user asks for more examples
+│   └── edge-cases.md         ← reads only for unusual scenarios
+└── scripts/
+    └── generate.py            ← executed, not read — only output uses tokens
+```
+
+#### Token Budget Diagnostic / Token 预算诊断
+
+```bash
+# Check if skills are being cut from the description budget
+/context    # Look for warnings about excluded skills
+
+# Override the character budget (env variable)
+SLASH_COMMAND_TOOL_CHAR_BUDGET=32000 claude
+
+# Measure your description length before publishing
+echo -n "your description text here" | wc -c
+```
+
+**Signal-to-Token Efficiency for Body Content / 正文内容的信号-Token 效率:**
+
+```
+Body Efficiency = (Decision Frameworks × 3) + (Scenario Flows × 5) + (Risk Entries × 2)
+                 ────────────────────────────────────────────────────────────────────────
+                                     Total Lines ÷ 100
+
+Target: ≥ 2.0 (Expert) | ≥ 3.5 (Exemplary) | < 1.0 → move prose to references/
+```
+
+If body efficiency < 1.0 after removing references, the skill body itself is too thin — add frameworks, not words.
+<!-- 如果移除引用后正文效率 < 1.0，说明技能正文本身内容太稀薄——添加框架，而不是添加文字。-->
 
 ---
 
@@ -1028,6 +1127,7 @@ suggests 2-3 concrete scenario examples
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 13.0.0 | 2026-03-15 | Token budget optimization integration: (1) §1.2 Decision Framework — added "Token Budget" gate: description ≤ 15,500-char system pool, SKILL.md body ≤ 500 lines, fail action → §7.9; (2) §1.5 Heuristics — added "Description Budget" (description > 263 chars + 42+ skills → invisible; trim + front-load trigger verbs) and "Body Overflow" (> 500 lines → move to references/) heuristics with §7.9 cross-refs; (3) §7.9 added — comprehensive Token Budget Optimization: Budget 1 (description character budget: 15,500-char pool, 109-char XML overhead, length targets by install scale 40/150/130 chars, description writing rules table); Budget 2 (SKILL.md body ≤ 500 lines, on-demand references, scripts output-only); Progressive Disclosure implementation priority order + file-splitting pattern; diagnostic commands (/context, SLASH_COMMAND_TOOL_CHAR_BUDGET env var, wc -c); Signal-to-Token efficiency formula applied to body content (< 1.0 → add frameworks not words) |
 | 12.0.0 | 2026-03-15 | Agent Skills standard integration: (1) §7.8 added — Agent Skills Standard Compatibility (agentskills.io): official minimum spec (name + description only), optional `compatibility` and `when_to_use` fields, folder-based skill structure (SKILL.md + scripts/agents/references/assets/evals/), Progressive Disclosure three-level loading model, description quality rules ("pushy" descriptions, 1024-char limit), compatibility matrix comparing flat-file vs folder formats; (2) validate_skills.py — folder-based SKILL.md support: Agent Skills minimum required fields (name + description), folder name matching enforcement, SKILL.md entrypoint detection, exclusion of agents/assets/evals/ dirs, updated docstring referencing agentskills.io; (3) CONTRIBUTING.md — metadata table updated with `compatibility` and `when_to_use` optional fields, skill file vs folder structure section added, Agent Skills standard references; (4) quality field updated to `exemplary` in frontmatter |
 | 11.0.0 | 2026-02-19 | Sixth deep optimization pass — Perfect score achieved (10.00/10, all 6 dimensions at 10/10): (1) §1.5 Skill Architect Heuristics added — 5 diagnostic rules with concrete thresholds unique to skill architecture (distinct from adjacent roles: technical writer, prompt engineer, domain expert); Examples-First <5.0 prediction, Prompt Density <5 sentences threshold, Trigger Bloat >8 entries rule, Framework Signal <30s scan, Review Speed >10 min signal → System Prompt 9→10/10; (2) §7.7 Content Density Calibration table added — 6 metrics × 4 tiers, all with target ranges (line count, system prompt length, frameworks, scenarios, risks, triggers); Signal-to-Token Efficiency formula with thresholds (≥2.0 Expert, ≥3.5 Exemplary); every metric now has a target range → Domain Knowledge 9→10/10; (3) §3 escalation triggers added to all 4 remaining risks (Metadata Errors: yamllint passes but platform rejects; Token Waste: >900 lines + >30% prose; Translation Drift: ≥2 flagged phrases; False Activation: ≥2/5 test requests misfire) → Risk Documentation 9→10/10; (4) §8.1 Phase 4 litmus test given concrete 2/3 threshold: PASS = ≥1 framework cited + different structure in ≥2/3 tasks; FAIL = identical structure in ≥2/3 tasks or 0 frameworks — numeric, unambiguous → Workflow 9→10/10; (5) §9.4 added — multi-anti-pattern rejection scenario: 3 simultaneous violations (#1 Scope Sprawl, #3 Self-Inconsistency, #6 HTML in YAML) → REJECT decision with rubric score, per-violation evidence, exact fix for each, post-fix tier projection → Example Quality 9→10/10 (now 4 flows: creation, review, upgrade, rejection) |
 | 10.0.0 | 2026-02-19 | Fifth deep optimization pass — Exemplary tier achieved (9.10/10, all 6 dimensions ≥9/10): (1) §7.6 Skill Promotion Decision Tree added — branching tree with numeric thresholds (7.0/9.0/4.0 block criteria), REJECT path for 2+ dimensions <4, Exemplary qualification gate; + Dimension Fix Priority Matrix (6 rows: dimension, trigger condition, max weighted gain with formula) → pushes Domain Knowledge Density 8→9/10 Exemplary, satisfying "decision trees with specific thresholds" Exemplary criterion; (2) §8.1 fully rewritten — all 4 phases now have: [✓ Done] completion criterion in header, section refs (→ §1/§2/§3/§7/§8/§9/§11/§12) on Phase 1 & 2 steps, explicit ✗ FAIL block with concrete rejection condition; Phase 4 FAIL block: "skill is Basic regardless of rubric score" → pushes Workflow Actionability 8→9/10 Exemplary, satisfying all three Exemplary criteria; (3) §14 self-score updated: Domain Knowledge 8→9/10, Workflow 8→9/10, weighted total 8.70→9.10/10, tier designation updated to Exemplary ⭐⭐; (4) preamble updated to "Expert Verified ⭐⭐ Exemplary" |
