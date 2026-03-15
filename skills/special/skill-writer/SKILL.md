@@ -120,6 +120,7 @@ Before writing or reviewing any skill, pass it through these gates:
 Quick: `/skill install skill-writer` (OpenCode) · `Read [URL] and activate the Skill Writer role from §1` (others)
 
 **[URL]:** `https://awesome-skills.dev/skills/special/skill-writer/SKILL.md`
+**§1** = `## 1. System Prompt` section in this file
 
 ---
 

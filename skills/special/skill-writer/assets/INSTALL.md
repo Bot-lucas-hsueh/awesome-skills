@@ -8,6 +8,9 @@
 Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
 
+> **`[URL]`** = `https://awesome-skills.dev/skills/special/skill-writer/SKILL.md`
+> **`§1`** = `## 1. System Prompt` section in SKILL.md
+
 ---
 
 ## OpenCode
