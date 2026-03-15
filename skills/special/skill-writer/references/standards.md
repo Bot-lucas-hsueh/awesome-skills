@@ -241,6 +241,57 @@ echo -n "your description" | wc -c       # Measure description length
 
 ---
 
+## 7.11 Platform Installation Standards / 平台安装规范
+
+Guidelines for writing an effective §5 Platform Support section.
+<!-- §5 平台支持章节编写规范 -->
+
+### Install Command Matrix / 安装命令矩阵
+
+| Platform / 平台 | Session Install / 会话安装 | Persistent Config / 持久化配置 |
+|----------------|--------------------------|-------------------------------|
+| **OpenCode** | `/skill install [skill-name]` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/[skill].mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/[category]/[skill-name].md`
+**Raw URL (for curl):** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/[category]/[skill-name].md`
+
+### Rules for §5 / §5 编写规则
+
+| Rule / 规则 | Threshold / 阈值 | Why / 原因 |
+|------------|-----------------|-----------|
+| Cover all 7 platforms | 0 missing | Missing platform = 0% install rate for those users |
+| Show session + persistent path | Both per platform | Session-only = skill lost on restart |
+| Use `[URL]` shorthand in table | Full URL only in §13 | Repeating 80-char URLs 3× wastes ~160 tokens |
+| Paste-target must be §1 | For Cursor/Codex/Cline | Users need exact copy target, not vague "prompt" |
+| No redundant instructions | One action per cell | Multi-step cells → use §13 for extended guide |
+
+### Claude Code Persistent Install Snippet / Claude Code 持久化安装片段
+
+Every skill's §13 should include this for Claude Code users:
+<!-- 每个技能的 §13 应包含此 Claude Code 持久化安装片段 -->
+
+```bash
+# Global (all projects) / 全局（所有项目）
+echo "Read [URL] and apply [skill-name] skill." >> ~/.claude/CLAUDE.md
+
+# Project-level / 项目级
+echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
+```
+
+### Token Budget for §5 / §5 Token 预算
+
+- Target: ≤ 10 lines (header + 7 platform rows + [URL] note)
+- Persistent install details → §13 or `references/` file
+- Do NOT repeat the full URL for every Read-based platform; use `[URL]` in the table and define it once below
+
+---
+
 ## 7.10 Quality Verification Checklist / 质量验证清单
 
 | Check | Rubric Dimension |

@@ -139,15 +139,17 @@ Example structure:
 
 ## 5. Platform Support / 平台支持
 
-| Platform / 平台 | Installation / 安装 |
-|----------------|---------------------|
-| **OpenCode** | `/skill install [skill-name]` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/[category]/[skill-name].md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/[category]/[skill-name].md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/[category]/[skill-name].md and follow the instructions to install` |
+| Platform / 平台 | Session Install / 会话安装 | Persistent Config / 持久化配置 |
+|----------------|--------------------------|-------------------------------|
+| **OpenCode** | `/skill install [skill-name]` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/[skill-name].mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/[category]/[skill-name].md`
 
 ---
 
@@ -315,7 +317,16 @@ Step 3: [Description with expected output]
 
 ### Quick Install / 快速安装
 ```
-Read https://awesome-skills.dev/skills/[category]/[skill-name].md and follow the instructions to install
+Read https://awesome-skills.dev/skills/[category]/[skill-name].md and install as skill
+```
+
+### Persistent Install (Claude Code) / 持久化安装（Claude Code）
+```bash
+# Global — applies to all projects / 全局，适用于所有项目
+echo "Read https://awesome-skills.dev/skills/[category]/[skill-name].md and apply [skill-name] skill." >> ~/.claude/CLAUDE.md
+
+# Project-level / 项目级
+echo "Read https://awesome-skills.dev/skills/[category]/[skill-name].md and apply [skill-name] skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words / 触发词 (Authoritative List / 权威列表)
@@ -328,39 +339,32 @@ Read https://awesome-skills.dev/skills/[category]/[skill-name].md and follow the
 
 ## 14. Quality Verification / 质量验证
 
-### Self-Checklist / 自检清单
+Full checklist: `references/standards.md §7.10` — Critical blocking checks:
+<!-- 完整清单见 references/standards.md §7.10 -->
 
-Before submitting, verify each item and note the rubric dimension it validates:
-<!-- 提交前，验证以下项目，并注明其对应的评分维度： -->
-
-| Check / 检查项 | Rubric Dimension / 评分维度 |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present (name, display_name, author, version, difficulty, category, tags, platforms, description); no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt defines role, decision framework, thinking patterns, and communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk disclaimer has 4+ domain-specific risks with severity ratings | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Workflow has 3+ phases with templates or checkpoints | Workflow Actionability |
-| ☐ Domain frameworks are specific (metrics, thresholds, decision trees) — not generic lists | Domain Knowledge Density |
-| ☐ Bilingual: English primary, Chinese in `<!-- -->` for prose; `/` separator in table cells | (Format Standard) |
-| ☐ No filler content; every section earns its token cost | Domain Knowledge Density |
-| ☐ Quality Rubric weighted average ≥ 7.0 for Expert Verified target | All dimensions |
-| ☐ Zero self-inconsistencies: skill follows every rule it defines | System Prompt Depth |
+| Check / 检查项 | Blocks Merge? |
+|--------------|---------------|
+| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
+| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
+| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases / 测试用例
 
 **Test 1: [Primary Capability]**
 ```
 Input: "[Representative user request]"
-Expected: [What an Expert-level response includes — frameworks applied,
-           domain-specific recommendations, clarifying questions]
+Expected: [Expert-level response — frameworks applied, domain-specific recommendations]
 ```
 
 **Test 2: [Secondary Capability]**
 ```
 Input: "[Different type of request]"
-Expected: [Expected Expert-level response characteristics]
+Expected: [Expert-level response characteristics]
 ```
+
+**Self-Score / 自评分:** [X.X/10 — Tier] — Justification: [brief evidence]
 
 ---
 

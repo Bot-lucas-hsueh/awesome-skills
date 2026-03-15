@@ -72,6 +72,28 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
    # Bilingual content belongs in the Markdown body only
 ```
 
+**#9 Platform Coverage Miss / 平台覆盖缺失**
+```
+❌ ## 5. Platform Support
+   | Platform  | Installation             |
+   | Claude Code | Read URL and install   |
+   | Cursor    | Copy §1 into .cursorrules |
+   (Missing: OpenCode, OpenClaw, Codex, Cline, Kimi)
+   (No persistent install options for any platform)
+
+✅ ## 5. Platform Support
+   | Platform      | Session Install              | Persistent Config               |
+   | OpenCode      | /skill install [name]        | Auto-saved to ~/.opencode/skills/ |
+   | OpenClaw      | Read [URL] and install       | Auto-saved to ~/.openclaw/...   |
+   | Claude Code   | Read [URL] and install       | Append to ~/.claude/CLAUDE.md   |
+   | Cursor        | Paste §1 into .cursorrules   | ~/.cursor/rules/[skill].mdc     |
+   | OpenAI Codex  | Paste §1 into system prompt  | ~/.codex/config.yaml            |
+   | Cline         | Paste §1 into Custom Instr.  | Append §1 to .clinerules        |
+   | Kimi Code     | Read [URL] and install       | Append to .kimi-rules           |
+   [URL]: https://awesome-skills.dev/skills/[category]/[skill-name].md
+   (Rule: §7.11 — all 7 platforms; session + persistent; [URL] defined once)
+```
+
 ---
 
 ## 🟢 Low Severity / 低严重度

@@ -2,18 +2,16 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 14.0.0
+version: 15.0.0
 quality: exemplary
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Create, review, score, and upgrade skills for the awesome-skills repository.
-  Use when asked to write skill, create skill, review skill, score skill,
-  upgrade skill, or apply skill best practices.
+  Write, review, score, and upgrade skills for awesome-skills repository.
   Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
 
 # Skill Writer / Skill编写专家
@@ -74,6 +72,8 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Review Speed** | Skilled reviewer >10 min to evaluate → too dense | Convert paragraphs to tables |
 | **Description Budget** | description >263 chars + 42+ skills installed → invisible | Trim; front-load trigger verbs in first 50 chars |
 | **Body Overflow** | SKILL.md body >500 lines → high token cost per invocation | Move reference tables/examples to `references/` |
+| **Platform Gap** | §5 missing persistent config column OR any of 7 platforms → install friction | Follow references/standards.md §7.11; add session + persistent per platform |
+| **URL Repetition** | Full URL repeated 3+ times in §5 → ~240 token waste | Define `[URL]` once below the table; use shorthand in cells |
 
 ---
 
@@ -113,15 +113,17 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ## 5. Platform Support / 平台支持
 
-| Platform / 平台 | Installation / 安装 |
-|-----------------|---------------------|
-| **OpenCode** | `/skill install skill-writer` |
-| **OpenClaw** | `Read URL and activate the Skill Writer role from §1` |
-| **Claude Code** | `Read URL and activate the Skill Writer role from §1` |
-| **Cursor** | Copy §1 System Prompt + references/standards.md §7.1 into `.cursorrules` |
-| **OpenAI Codex** | Paste §1 into system prompt field |
-| **Cline** | Paste §1 into Cline system prompt |
-| **Kimi Code** | `Read URL and activate the Skill Writer role from §1` |
+| Platform / 平台 | Session Install / 会话安装 | Persistent Config / 持久化配置 |
+|----------------|--------------------------|-------------------------------|
+| **OpenCode** | `/skill install skill-writer` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and activate the Skill Writer role from §1` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and activate the Skill Writer role from §1` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 + `references/standards.md §7.1` into `.cursorrules` | Save to `~/.cursor/rules/skill-writer.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
+| **Kimi Code** | `Read [URL] and activate the Skill Writer role from §1` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/special/skill-writer/SKILL.md`
 
 ---
 
@@ -157,6 +159,14 @@ Score = (System Prompt × 0.20) + (Domain Knowledge × 0.25) + (Workflow × 0.15
       + (Risk Docs × 0.10) + (Examples × 0.20) + (Metadata × 0.10)
 Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 ```
+
+**Platform Installation Standards** — `references/standards.md §7.11`
+
+| Rule / 规则 | Threshold | Why |
+|------------|-----------|-----|
+| All 7 platforms in §5 | 0 missing | Missing = 0% install rate for those users |
+| Session + persistent per platform | Both required | Session-only = skill lost on restart |
+| Define `[URL]` once below table | URL ≤ 1 repetition | 3× full URL repetition ≈ 240 token waste |
 
 **Token Budget Quick Reference** — full rules: `references/standards.md §7.9`
 
@@ -296,6 +306,12 @@ Pair with **Domain Expert** (knowledge) → **Prompt Engineer** (system prompt t
 Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
 
+**Persistent Install (Claude Code) / 持久化安装：**
+```bash
+# Global / 全局
+echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ~/.claude/CLAUDE.md
+```
+
 **Trigger Words (Authoritative List):**
 - "write skill" / "create skill" / "new skill"
 - "review skill" / "score skill" / "rate skill"
@@ -308,14 +324,16 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activat
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
-- ☐ All 9 metadata fields present; no HTML in YAML description
-- ☐ SKILL.md body ≤ 500 lines (this file); heavy content in references/
-- ☐ description ≤ 263 chars; trigger verbs front-loaded
-- ☐ All 16 H2 sections present in correct order
-- ☐ Zero self-inconsistencies: skill follows every rule it defines
-- ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary)
+| Check / 检查项 | Blocks Merge? |
+|--------------|---------------|
+| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
+| ☐ SKILL.md body ≤ 500 lines; heavy content offloaded to references/ | ✅ Yes |
+| ☐ §5: all 7 platforms with session + persistent columns; `[URL]` defined once | ✅ Yes |
+| ☐ All 16 H2 sections in correct order; zero TBD/placeholder | ✅ Yes |
+| ☐ Zero self-inconsistencies: skill follows every rule it defines | ✅ Yes |
+| ☐ Weighted rubric score ≥ 9.0 (Exemplary ⭐⭐) | ✅ Yes |
 
-**Self-Score:** 10.00/10 — Exemplary ⭐⭐ (all 6 dimensions at 10/10)
+**Self-Score:** 10.00/10 — Exemplary ⭐⭐
 Justification: See `references/standards.md §7.10 Self-Score` for full evidence table.
 
 ---
@@ -324,10 +342,10 @@ Justification: See `references/standards.md §7.10 Self-Score` for full evidence
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 15.0.0 | 2026-03-15 | Multi-platform install: §5 session+persistent table, §7.11 platform standards, §1.4 platform heuristics; description trimmed to ≤263 chars (self-inconsistency fix); §14 compressed with blocking-checks table |
 | 14.0.0 | 2026-03-15 | Folder structure; heavy content extracted to references/; SKILL.md 1149→~340 lines (Self-Exemplar fix) |
 | 13.0.0 | 2026-03-15 | Token budget rules: §7.9, §1.2 gate, §1.5 heuristics |
 | 12.0.0 | 2026-03-15 | Agent Skills standard: §7.8 (folder structure, progressive disclosure) |
-| 11.0.0 | 2026-02-19 | §1.5 Heuristics, §7.7 Content Density Calibration, escalation triggers |
 
 ---
 
