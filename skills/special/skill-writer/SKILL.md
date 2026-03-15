@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 17.0.0
+version: 18.0.0
 quality: exemplary
 difficulty: expert
 category: special
@@ -131,10 +131,12 @@ Before writing or reviewing any skill, pass it through these gates:
 
 | Tool / 工具 | Purpose / 用途 |
 |-------------|---------------|
+| **[assets/INSTALL.md](assets/INSTALL.md)** | Per-platform install guide (session + persistent + uninstall + verification) |
 | **[assets/TEMPLATE.md](assets/TEMPLATE.md)** | Official 16-section skill structure template |
 | **[references/standards.md](references/standards.md)** | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
 | **[references/scenarios.md](references/scenarios.md)** | 4 full conversation flows (creation, review, upgrade, rejection) |
 | **[references/anti-patterns.md](references/anti-patterns.md)** | 9 classified anti-patterns with ❌/✅ fixes |
+| **[references/changelog.md](references/changelog.md)** | Full version history (v12+) |
 | **Expert Exemplars** | `skills/executive/ceo.md`, `skills/software/software-architect.md` |
 | **YAML Validator** | `yamllint filename.md` or yaml-validator.com |
 
@@ -142,20 +144,10 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ## 7. Standards & Reference / 标准与参考
 
-**Quality Rubric (summary)** — full version: `references/standards.md §7.1`
-
-| Dimension / 维度 | Weight | Expert (7-8) | Exemplary (9-10) |
-|----------|--------|--------------|------------------|
-| System Prompt Depth | 20% | Decision framework + thinking patterns | + domain-specific heuristics unique to role |
-| Domain Knowledge | 25% | Deep frameworks + quantified metrics | Decision trees with specific thresholds; all metrics have ranges |
-| Workflow Actionability | 15% | Templates + checkpoints per step | [✓ Done] criteria + ✗ FAIL blocks + section refs |
-| Risk Documentation | 10% | Severity matrix + domain mitigation | 5+ risks with escalation triggers + consequences |
-| Example Quality | 20% | Multi-scenario + full conversation flows | 3+ flows; ≥1 explicitly corrects an anti-pattern |
-| Metadata Completeness | 10% | All 9 fields; no HTML in YAML description | + version history 3+ entries |
+**Quality Score** — full rubric: `references/standards.md §7.1`
 
 ```
-Score = (System Prompt × 0.20) + (Domain Knowledge × 0.25) + (Workflow × 0.15)
-      + (Risk Docs × 0.10) + (Examples × 0.20) + (Metadata × 0.10)
+Score = (Prompt×0.20) + (Domain×0.25) + (Workflow×0.15) + (Risk×0.10) + (Examples×0.20) + (Metadata×0.10)
 Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 ```
 
@@ -300,17 +292,9 @@ Pair with **Domain Expert** (knowledge) → **Prompt Engineer** (system prompt t
 Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
 
-**Persistent Install (Claude Code) / 持久化安装：**
-```bash
-# Global / 全局
-echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ~/.claude/CLAUDE.md
-```
+→ Persistent install, all platforms, verification, uninstall: **`assets/INSTALL.md`**
 
-**Trigger Words (Authoritative List):**
-- "write skill" / "create skill" / "new skill"
-- "review skill" / "score skill" / "rate skill"
-- "upgrade skill" / "improve skill"
-- "skill best practices" / "skill template" / "skill quality"
+**Trigger Words:** "write skill" · "create skill" · "review skill" · "score skill" · "upgrade skill" · "skill best practices"
 
 ---
 
@@ -334,14 +318,14 @@ Justification: See `references/standards.md §7.10 Self-Score` for full evidence
 
 ## 15. Version History / 版本历史
 
+Full log: `references/changelog.md` — recent entries:
+<!-- 完整记录见 references/changelog.md -->
+
 | Version | Date | Changes |
 |---------|------|---------|
-| 17.0.0 | 2026-03-15 | Self-contained directory: TEMPLATE.md moved to assets/TEMPLATE.md; root TEMPLATE.md→redirect stub; CONTRIBUTING.md links updated to new path + fixed broken skill-writer.md→SKILL.md ref; all §6 external ../../../ refs converted to local paths |
-| 16.0.0 | 2026-03-15 | Token savings: TEMPLATE.md §16→COMMON.md ref (−33 lines/skill), §4.1 ASCII art compressed (−12), §9 (−19), §10 (−18), §2 (−4); SKILL.md §7 platform table→1-line ref (−4); anti-pattern #9 added to §10 table; count fix §2+§8.1 8→9 |
-| 15.0.0 | 2026-03-15 | Multi-platform install: §5 session+persistent table, §7.11 platform standards, §1.4 platform heuristics; description trimmed to ≤263 chars (self-inconsistency fix); §14 compressed with blocking-checks table |
-| 14.0.0 | 2026-03-15 | Folder structure; heavy content extracted to references/; SKILL.md 1149→~340 lines (Self-Exemplar fix) |
-| 13.0.0 | 2026-03-15 | Token budget rules: §7.9, §1.2 gate, §1.5 heuristics |
-| 12.0.0 | 2026-03-15 | Agent Skills standard: §7.8 (folder structure, progressive disclosure) |
+| 18.0.0 | 2026-03-15 | assets/INSTALL.md: on-demand user guide; §7 rubric table removed; §13 compressed; changelog offloaded |
+| 17.0.0 | 2026-03-15 | Self-contained directory: TEMPLATE.md → assets/; root stub; CONTRIBUTING.md links fixed |
+| 16.0.0 | 2026-03-15 | Token savings: §16/§4.1/§9/§10/§2 compressed; anti-pattern #9; 8→9 count fix |
 
 ---
 
