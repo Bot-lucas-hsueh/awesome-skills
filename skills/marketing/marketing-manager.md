@@ -4,7 +4,7 @@ display_name: Marketing Manager / 市场营销经理
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: marketing
 tags: [marketing, brand, campaign-management, go-to-market, marketing-strategy, demand-generation, budget]
 platforms: [claude.ai, cursor, api]

@@ -4,7 +4,7 @@ display_name: Accountant / 会计
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: finance
 tags: [finance, analysis, accountant, bookkeeping, financial-statements, GAAP, IFRS, compliance]
 platforms: [claude.ai, api]

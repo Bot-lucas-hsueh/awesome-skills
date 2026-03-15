@@ -16,10 +16,13 @@
 
 ## Checklist / 检查
 
-- [ ] Validator passes: `python3 .github/scripts/validate_skills.py skills/`
-- [ ] No HTML comments in YAML frontmatter
-- [ ] Version number updated (for skill changes)
-- [ ] CATALOG.md updated (if quality tier changed)
+- [ ] Validator passes: `python3 .github/scripts/validate_skills.py <changed-file>`
+- [ ] No HTML comments in YAML frontmatter (`description` must be plain text)
+- [ ] `quality` field set: `basic` / `community` / `expert` / `exemplary`
+- [ ] Version number bumped (semver MAJOR.MINOR.PATCH)
+- [ ] All 16 H2 sections present in correct order (Expert Verified skills)
+- [ ] CATALOG.md updated (if quality tier changed or new skill added)
+- [ ] index.html updated (if new category added)
 
 ---
 

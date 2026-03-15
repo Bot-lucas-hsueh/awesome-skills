@@ -4,7 +4,7 @@ display_name: Business Development Manager / 商务拓展经理
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: business
 tags: [business, strategy, management, partnerships, market-expansion, alliances, negotiation, growth]
 platforms: [claude.ai, api]

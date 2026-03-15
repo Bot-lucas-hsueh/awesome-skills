@@ -25,12 +25,13 @@ from pathlib import Path
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
 
 REQUIRED_FIELDS = ["name", "display_name", "author", "version", "description"]
-RECOMMENDED_FIELDS = ["difficulty", "category", "tags", "platforms"]
+RECOMMENDED_FIELDS = ["difficulty", "category", "tags", "platforms", "quality"]
 VALID_DIFFICULTY = {"expert", "intermediate", "beginner"}
 VALID_PLATFORMS = {"opencode", "openclaw", "claude", "cursor", "codex", "cline", "kimi"}
+VALID_QUALITY = {"basic", "community", "expert", "exemplary"}
 
 # Skills that must pass strict (Expert Verified) checks
-# Updated in Phase 2 to include all 37 Expert Verified skills
+# Updated to include all 43 Expert Verified skills
 EXPERT_SKILLS = {
     # Executive
     "skills/executive/ceo.md",
@@ -46,9 +47,14 @@ EXPERT_SKILLS = {
     "skills/software/qa-engineer.md",
     "skills/software/security-engineer.md",
     "skills/software/software-architect.md",
+    "skills/software/algorithm-engineer.md",
+    "skills/software/ai-ml-engineer.md",
     # AI/ML
     "skills/ai-ml/ai-application-engineer.md",
     "skills/ai-ml/ai-product-manager.md",
+    "skills/ai-ml/ai-safety-researcher.md",
+    "skills/ai-ml/ai-chip-architect.md",
+    "skills/ai-ml/ai-compute-platform-engineer.md",
     "skills/ai-ml/llm-research-scientist.md",
     "skills/ai-ml/llm-training-engineer.md",
     "skills/ai-ml/machine-learning-engineer.md",
@@ -81,11 +87,11 @@ EXPERT_SKILLS = {
     "skills/research/principal-investigator.md",
     "skills/research/statistician.md",
     # Meta-skills
-    "skills/admin/skill-writer.md",
+    "skills/special/skill-writer.md",
 }
 
-# Minimum section count for Expert Verified skills
-EXPERT_MIN_SECTIONS = 6
+# Minimum H2 section count for Expert Verified skills (full 16-section structure)
+EXPERT_MIN_SECTIONS = 16
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -182,6 +188,13 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
             f"Must be one of: {', '.join(sorted(VALID_DIFFICULTY))}"
         )
 
+    # ── 4b. quality value ────────────────────────────────────────────────────
+    if "quality" in fm and fm["quality"] and fm["quality"] not in VALID_QUALITY:
+        errors.append(
+            f"  Invalid quality: {fm['quality']!r}. "
+            f"Must be one of: {', '.join(sorted(VALID_QUALITY))}"
+        )
+
     # ── 5. version format (semver) ───────────────────────────────────────────
     if "version" in fm and fm["version"]:
         if not re.match(r"^\d+\.\d+\.\d+$", fm["version"]):
@@ -212,9 +225,10 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
                 "(system prompt or example)"
             )
 
-        if "## 1. System Prompt" not in body and "## System Prompt" not in body:
+        if not re.search(r"^##.*[Ss]ystem\s+[Pp]rompt", body, re.MULTILINE):
             errors.append(
-                "  Expert skill must have a '## 1. System Prompt' or '## System Prompt' section"
+                "  Expert skill must have a System Prompt section "
+                "(e.g. '## 1. System Prompt', '## System Prompt', or '## § 1 · System Prompt')"
             )
 
     return errors
@@ -223,14 +237,22 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def collect_skill_files(targets: list[str]) -> list[Path]:
-    """Collect .md skill files from given paths (files or directories)."""
+    """Collect .md skill files from given paths (files or directories).
+
+    Excludes non-skill directories: _common/ (shared content fragments)
+    """
+    EXCLUDED_DIRS = {"_common", "references"}
     files = []
     for t in targets:
         p = Path(t)
         if p.is_file() and p.suffix == ".md":
             files.append(p)
         elif p.is_dir():
-            files.extend(sorted(p.rglob("*.md")))
+            for f in sorted(p.rglob("*.md")):
+                # Skip files inside excluded subdirectories
+                if any(part in EXCLUDED_DIRS for part in f.parts):
+                    continue
+                files.append(f)
     return files
 
 

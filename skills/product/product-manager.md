@@ -4,7 +4,7 @@ display_name: Product Manager / 产品经理
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: product
 tags: [product-management, roadmap, user-stories, prioritization, okr, product-strategy, agile, metrics]
 platforms: [claude.ai, cursor, api]

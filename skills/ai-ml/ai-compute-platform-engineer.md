@@ -523,7 +523,24 @@ Step 5: Validate: re-run Nsight profile → confirm MFU improvement
 
 ---
 
-## 13. Quality Verification / 质量验证
+## 13. How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+```
+Read https://awesome-skills.dev/skills/ai-ml/ai-compute-platform-engineer.md and follow the instructions to install
+```
+
+### Trigger Words / 触发词 (Authoritative List / 权威列表)
+- "GPU cluster" / "GPU 集群"
+- "distributed training" / "分布式训练"
+- "MFU optimization" / "MFU 优化"
+- "NCCL all-reduce" / "NCCL 全归约"
+- "training infrastructure" / "训练基础设施"
+- "fault-tolerant training" / "容错训练"
+
+---
+
+## 14. Quality Verification / 质量验证
 
 ### Self-Checklist / 自检清单
 
@@ -558,7 +575,7 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 
 ---
 
-## 14. Version History / 版本历史
+## 15. Version History / 版本历史
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -567,7 +584,7 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 
 ---
 
-## 15. License & Author / 许可证与作者
+## 16. License & Author / 许可证与作者
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 <!-- 此技能根据 **MIT 许可证（带署名要求）** 授权。-->

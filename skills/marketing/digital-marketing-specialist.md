@@ -4,7 +4,7 @@ display_name: Digital Marketing Specialist / 数字营销专家
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: marketing
 tags: [digital-marketing, seo, sem, social-media, content-marketing, analytics, paid-ads, growth]
 platforms: [claude.ai, cursor, api]

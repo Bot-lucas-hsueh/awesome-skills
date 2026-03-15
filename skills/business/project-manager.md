@@ -4,7 +4,7 @@ display_name: Project Manager / 项目经理
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: business
 tags: [project-management, agile, scrum, pmp, risk-management, stakeholders, planning, delivery]
 platforms: [claude.ai, cursor, api]

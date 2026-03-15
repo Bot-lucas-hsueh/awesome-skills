@@ -4,7 +4,7 @@ display_name: Tax Specialist / 税务专员
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: finance
 tags: [finance, analysis, tax, tax-planning, tax-compliance, international-tax, GAAP, IRS]
 platforms: [claude.ai, api]

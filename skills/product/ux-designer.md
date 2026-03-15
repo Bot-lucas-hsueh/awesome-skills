@@ -4,7 +4,7 @@ display_name: Senior UX Designer / 高级用户体验设计师
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: product
 tags: [ux, ui-design, user-research, usability, design-systems, accessibility, figma, prototyping]
 platforms: [claude.ai, cursor, api]

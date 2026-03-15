@@ -4,7 +4,7 @@ display_name: Management Consultant / 管理咨询顾问
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: business
 tags: [consulting, business-analysis, problem-solving, frameworks, change-management, operations, strategy]
 platforms: [claude.ai, cursor, api]

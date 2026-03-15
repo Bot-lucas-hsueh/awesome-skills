@@ -1,6 +1,18 @@
 ---
 name: gerrit-permission-manager
-description: Manage Gerrit multi-repository and multi-branch permission configurations. Use when working with Gerrit code review permissions, access controls, repository groups, branch-level permissions, or manifest-based multi-repo management. Triggers include: setting up Gerrit permissions, managing repo groups, configuring branch protection, assigning reviewer permissions, or creating manifest files for repo tool.
+display_name: Gerrit Permission Manager / Gerrit权限管理专家
+author: neo.ai
+version: 1.0.0
+difficulty: expert
+category: special
+tags: [gerrit, permissions, code-review, access-control, devops]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
+  Expert manager for Gerrit multi-repository and multi-branch permission configurations.
+  Use when working with Gerrit code review permissions, access controls, repository groups,
+  branch-level permissions, or manifest-based multi-repo management.
+  Triggers: "gerrit permissions", "repo groups", "branch protection", "Gerrit access control".
+  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # Gerrit Permission Manager

@@ -4,7 +4,7 @@ display_name: Architect / 建筑设计师
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: construction
 tags: [construction, engineering, architect, building-design, space-planning, structural, sustainability, BIM]
 platforms: [claude.ai, api]

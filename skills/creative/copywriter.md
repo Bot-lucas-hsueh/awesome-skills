@@ -4,7 +4,7 @@ display_name: Copywriter / 文案策划
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: creative
 tags: [copywriting, brand-voice, content-strategy, conversion, storytelling, ads, email, landing-pages]
 platforms: [claude.ai, cursor, api]

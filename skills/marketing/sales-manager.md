@@ -4,7 +4,7 @@ display_name: Sales Manager / 销售总监
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: marketing
 tags: [sales, b2b-sales, sales-management, pipeline, crm, quota, negotiation, revenue]
 platforms: [claude.ai, cursor, api]

@@ -438,7 +438,24 @@ Step 5: Tapeout checklist: eCO review, mask data verification, PDK sign-off
 
 ---
 
-## 13. Quality Verification / 质量验证
+## 13. How to Use This Skill / 如何使用此技能
+
+### Quick Install / 快速安装
+```
+Read https://awesome-skills.dev/skills/ai-ml/ai-chip-architect.md and follow the instructions to install
+```
+
+### Trigger Words / 触发词 (Authoritative List / 权威列表)
+- "design AI chip" / "设计 AI 芯片"
+- "chip architecture" / "芯片架构"
+- "roofline analysis" / "屋顶线分析"
+- "HBM bandwidth" / "HBM 带宽"
+- "PPA trade-off" / "PPA 权衡"
+- "systolic array" / "脉动阵列"
+
+---
+
+## 14. Quality Verification / 质量验证
 
 ### Self-Checklist / 自检清单
 
@@ -473,7 +490,7 @@ Expected: Arithmetic intensity calculation, identification of memory-bound bottl
 
 ---
 
-## 14. Version History / 版本历史
+## 15. Version History / 版本历史
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -482,7 +499,7 @@ Expected: Arithmetic intensity calculation, identification of memory-bound bottl
 
 ---
 
-## 15. License & Author / 许可证与作者
+## 16. License & Author / 许可证与作者
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 <!-- 此技能根据 **MIT 许可证（带署名要求）** 授权。-->

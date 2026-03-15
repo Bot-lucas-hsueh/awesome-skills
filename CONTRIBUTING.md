@@ -13,6 +13,7 @@ This document provides guidelines for contributing new skills, improving existin
 - [Skill Development Guide](#skill-development-guide)
 - [Bilingual Format Guide](#bilingual-format-guide)
 - [Pull Request Process](#pull-request-process)
+- [Validation & CI](#-validation--ci)
 - [Style Guidelines](#style-guidelines)
 
 ## 🤝 Code of Conduct <!-- 行为准则 -->
@@ -350,11 +351,15 @@ Brief description of changes
 
 ## Checklist
 <!-- 检查清单 -->
+- [ ] Validator passes locally: `python3 .github/scripts/validate_skills.py <file>`
 - [ ] Followed TEMPLATE.md structure (all 16 H2 sections in correct order)
 - [ ] All 9 YAML metadata fields present; no HTML comments in YAML `description`
+- [ ] `quality` field set to `basic` / `community` / `expert` / `exemplary`
+- [ ] `version` bumped using semver (MAJOR.MINOR.PATCH)
 - [ ] Included 4+ domain-specific risk warnings with severity ratings
 - [ ] Added bilingual comments (English primary, Chinese in `<!-- -->`)
 - [ ] Tested installation command
+- [ ] Updated CATALOG.md (if quality tier changed or new skill added)
 - [ ] Updated index.html (if new category)
 
 ## Skill Details (if new skill)
@@ -363,6 +368,72 @@ Brief description of changes
 - **Target Users**: [who would use this]
 - **Value Proposition**: [why it's useful]
 ```
+
+## ✅ Validation & CI <!-- 验证与持续集成 -->
+
+Every skill file is automatically validated by CI on push and pull request.
+<!-- 每个技能文件都会在推送和 PR 时由 CI 自动验证。-->
+
+### Running the Validator Locally <!-- 本地运行验证器 -->
+
+```bash
+# Validate all skill files
+python3 .github/scripts/validate_skills.py skills/
+
+# Validate a single file
+python3 .github/scripts/validate_skills.py skills/software/software-architect.md
+
+# Strict mode: enforce 16-section structure (for Expert Verified skills)
+python3 .github/scripts/validate_skills.py --strict skills/executive/
+```
+
+### What the Validator Checks <!-- 验证器检查内容 -->
+
+| Check / 检查 | Applies To / 适用范围 | Failure Blocks Merge? |
+|-------------|----------------------|----------------------|
+| YAML frontmatter present | All skills | ✅ Yes |
+| Required fields: `name`, `display_name`, `author`, `version`, `description` | All skills | ✅ Yes |
+| No HTML comments inside YAML frontmatter | All skills | ✅ Yes |
+| Semver format for `version` | All skills | ✅ Yes |
+| Valid `difficulty` value (`expert`/`intermediate`/`beginner`) | If field present | ✅ Yes |
+| Valid `quality` value (`basic`/`community`/`expert`/`exemplary`) | If field present | ✅ Yes |
+| H1 title present in body | All skills | ✅ Yes |
+| Recommended fields: `difficulty`, `category`, `tags`, `platforms`, `quality` | All skills | ⚠️ Warning only |
+| ≥ 16 H2 sections present | Expert Verified skills | ✅ Yes (strict mode) |
+| At least one fenced code block | Expert Verified skills | ✅ Yes (strict mode) |
+| `## 1. System Prompt` section present | Expert Verified skills | ✅ Yes (strict mode) |
+
+### CI Pipeline Overview <!-- CI 流水线概述 -->
+
+The GitHub Actions workflow (`.github/workflows/validate.yml`) runs two passes:
+<!-- GitHub Actions 工作流程运行两轮验证：-->
+
+1. **Standard pass** — validates all `skills/**/*.md` files for basic compliance
+   <!-- **标准检查** — 验证所有技能文件的基本合规性 -->
+2. **Strict pass** — validates Expert Verified skill directories with `--strict` (enforces 16-section structure)
+   <!-- **严格检查** — 对 Expert Verified 技能目录执行严格验证（强制要求 16 章节结构）-->
+3. **PR diff pass** — re-validates only the changed files in the pull request
+   <!-- **PR 差异检查** — 仅重新验证 PR 中更改的文件 -->
+
+### Metadata Field Reference <!-- 元数据字段参考 -->
+
+All 9 metadata fields are expected for Expert Verified skills. See [TEMPLATE.md](./TEMPLATE.md) for the full YAML example and [skill-writer.md §7.2](./skills/special/skill-writer.md) for the authoritative field specification.
+<!-- 所有 9 个元数据字段对于 Expert Verified 技能都是必需的。-->
+
+| Field / 字段 | Required / 必需 | Valid Values / 有效值 |
+|-------------|----------------|----------------------|
+| `name` | ✅ Required | lowercase, hyphen-separated |
+| `display_name` | ✅ Required | `English Name / 中文名称` |
+| `author` | ✅ Required | GitHub username or ID |
+| `version` | ✅ Required | semver `MAJOR.MINOR.PATCH` |
+| `description` | ✅ Required | Plain text only — no `<!-- HTML comments -->` |
+| `difficulty` | ⚠️ Recommended | `expert` / `intermediate` / `beginner` |
+| `category` | ⚠️ Recommended | Must match a `/skills/` subdirectory |
+| `tags` | ⚠️ Recommended | Array of 3–5 strings |
+| `platforms` | ⚠️ Recommended | Array from: `opencode`, `openclaw`, `claude`, `cursor`, `codex`, `cline`, `kimi` |
+| `quality` | ⚠️ Recommended | `basic` / `community` / `expert` / `exemplary` |
+
+---
 
 ## 🎨 Style Guidelines <!-- 风格指南 -->
 

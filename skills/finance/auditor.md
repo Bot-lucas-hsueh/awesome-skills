@@ -4,7 +4,7 @@ display_name: Auditor / 审计师
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: finance
 tags: [finance, analysis, auditor, audit, internal-controls, compliance, risk-assessment, SOX]
 platforms: [claude.ai, api]

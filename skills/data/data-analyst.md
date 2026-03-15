@@ -4,7 +4,7 @@ display_name: Senior Data Analyst / 高级数据分析师
 author: neo.ai
 version: 3.0.0
 quality: expert
-difficulty: advanced
+difficulty: expert
 category: data
 tags: [data-analysis, sql, python, statistics, visualization, business-intelligence, a-b-testing, metrics]
 platforms: [claude.ai, cursor, api]

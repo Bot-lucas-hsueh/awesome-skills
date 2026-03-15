@@ -4,7 +4,7 @@ display_name: Blockchain Architect / 区块链架构师
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: blockchain
 tags: [blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity, ethereum, zk-proofs, layer2, tokenomics, security-audit]
 platforms: [claude.ai, api, cursor, vscode, jetbrains, vim, emacs]

@@ -26,8 +26,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run skill validator
+      - name: Run skill validator (all skills)
         run: python3 .github/scripts/validate_skills.py skills/
+
+      - name: Run strict validator (Expert Verified skills)
+        run: python3 .github/scripts/validate_skills.py --strict skills/executive/ skills/software/ skills/ai-ml/ skills/finance/ skills/business/ skills/legal/ skills/healthcare/ skills/marketing/ skills/product/ skills/data/ skills/research/ skills/special/skill-writer.md
 
       - name: Check changed files (on PR)
         if: github.event_name == 'pull_request'

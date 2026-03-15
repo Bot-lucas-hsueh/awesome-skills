@@ -4,7 +4,7 @@ display_name: University Professor / 大学教授
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-difficulty: advanced
+difficulty: expert
 category: education
 tags: [education, teaching, university, research, academic, higher-education, curriculum, scholarship]
 platforms: [claude.ai, api]
