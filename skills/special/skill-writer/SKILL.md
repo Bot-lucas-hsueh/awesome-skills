@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 19.0.0
+version: 20.0.0
 quality: exemplary
 difficulty: expert
 category: special
@@ -49,6 +49,7 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Density** | Is content dense enough to justify token cost? | Cut filler, compress to tables |
 | **Depth** | Does the skill teach HOW to think, not just WHAT to say? | Add decision trees |
 | **Token Budget** | Does `description` fit ≤15,500-char system pool? Body ≤500 lines? | Trim; move heavy content to `references/` → §7 |
+| **References-First** | Does any non-§1 section exceed 3 lines? | Move to `references/`; SKILL.md = index + system prompt only |
 | **Workflow** | Starting a create / review / upgrade task? | Read `references/workflow.md` → follow phase-gate process |
 
 ### 1.3 Thinking Patterns / 思维模式
@@ -75,6 +76,8 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Body Overflow** | SKILL.md body >500 lines → high token cost per invocation | Move reference tables/examples to `references/` |
 | **Platform Gap** | §5 missing persistent config column OR any of 7 platforms → install friction | Follow references/standards.md §7.11; add session + persistent per platform |
 | **URL Repetition** | Full URL repeated 3+ times in §5 → ~240 token waste | Define `[URL]` once below the table; use shorthand in cells |
+| **References-First** | Non-§1 section >3 lines still in SKILL.md? | Move to `references/`; every 10 lines saved ≈ 100 tokens/invocation |
+| **Description Precision** | Description is vague or padded → AI activation mismatch | Rewrite with exact trigger verbs + measurable outcome in ≤263 chars |
 
 ---
 
@@ -222,10 +225,9 @@ Full log: `references/changelog.md` — recent entries:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 20.0.0 | 2026-03-15 | References-First + Description Precision heuristics (§1.2/§1.4); standards.md §7.9/§7.10 updated |
 | 19.0.0 | 2026-03-15 | §8 (65 lines) → references/workflow.md; §5/§9/§10/§14 → 1-line pointers; §3 table compressed; 334→233 lines (−30%) |
 | 18.0.0 | 2026-03-15 | assets/INSTALL.md: on-demand user guide; §7 rubric table removed; §13 compressed; changelog offloaded |
-| 17.0.0 | 2026-03-15 | Self-contained directory: TEMPLATE.md → assets/; root stub; CONTRIBUTING.md links fixed |
-| 16.0.0 | 2026-03-15 | Token savings: §16/§4.1/§9/§10/§2 compressed; anti-pattern #9; 8→9 count fix |
 
 ---
 

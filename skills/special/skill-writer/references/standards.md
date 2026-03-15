@@ -226,11 +226,32 @@ Skills over budget: COMPLETELY INVISIBLE (no warning)
 | Referenced files | Unlimited | Zero cost until read |
 | Script files | Unlimited | Output-only token cost |
 
+**References-First Principle:**
+> SKILL.md = system prompt (§1) + section index (§2–§16 as 1-line pointers). All detail goes to `references/`.
+> Every 10 lines removed from SKILL.md saves ~100 tokens **on every invocation**, permanently.
+
+| Rule | Threshold | Action |
+|------|-----------|--------|
+| Move to `references/` | Non-§1 section >3 lines | Create `references/{section}.md`; replace with 1-line pointer |
+| Keep in SKILL.md | §1 System Prompt + §2 capabilities (≤5 lines) | These drive AI behavior directly; offloading loses the effect |
+| Section headers required | All 16 H2 sections must remain | Pointer lines count; section structure must be preserved |
+
 **Offload priority order:**
 1. Long reference tables, API specs, field enumerations
 2. Extended examples beyond the 2 required for Expert tier
 3. Edge case docs and troubleshooting guides
 4. Core decision frameworks (keep in body)
+
+**Description Precision Rule:**
+> A description must match the exact trigger intent — no vague verbs, no padding.
+> Test: Would this description activate the skill for a request it shouldn't handle? If yes, rewrite.
+
+| Signal | Action |
+|--------|--------|
+| Vague opening ("helps with", "assists in") | Replace with specific verb phrase ("write", "review", "score") |
+| Padded to fill char limit | Cut until every word earns its place; prefer 150–200 chars over padded 263 |
+| Missing measurable outcome | Add: "returns [output]", "produces [artifact]", "classifies into [tiers]" |
+| Trigger verbs buried after line 1 | Front-load: first 50 chars must contain primary trigger verb |
 
 **Diagnostics:**
 ```bash
@@ -308,4 +329,6 @@ echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 | ☐ Weighted average ≥ 7.0 for Expert ⭐; ≥ 9.0 for Exemplary ⭐⭐ | All dimensions |
 | ☐ SKILL.md body ≤ 500 lines (folder skills) / ≤ 900 lines (meta-skill flat files) | Token Budget |
 | ☐ Description ≤ 263 chars; no HTML comments; trigger verbs front-loaded | Token Budget |
+| ☐ References-First: every non-§1 section >3 lines has been moved to `references/` | Token Budget |
+| ☐ Description uses precise trigger verbs; no vague openers; measurable outcome stated | Token Budget |
 | ☐ Zero self-inconsistencies: skill follows every rule it defines | System Prompt Depth |
