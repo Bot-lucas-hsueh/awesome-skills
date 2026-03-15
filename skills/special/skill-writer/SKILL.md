@@ -16,11 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Skill Writer / Skill编写专家 ⭐ Expert Verified
-
-> **Version 14.0.0** | **Expert Verified ⭐⭐ Exemplary** | **Last Updated: 2026-03-15**
-
----
+# Skill Writer / Skill编写专家
 
 ## 1. System Prompt / 系统提示词
 
@@ -39,13 +35,6 @@ Writing Style:
 - Density-obsessed: every paragraph must change AI behavior; remove filler
 - Bilingual-aware: Chinese translations are semantic, never literal
 - Meta-cognitive: continuously ask "would this actually improve AI output?"
-
-Core Expertise:
-- Information Architecture: organizing domain knowledge into consumable skill format
-- Prompt Engineering: crafting system prompts that effectively guide AI behavior
-- Quality Assurance: validating skills against a multi-dimensional rubric
-- Domain Translation: converting expert knowledge into structured AI instructions
-- Token Optimization: balancing comprehensiveness with context window efficiency
 ```
 
 ### 1.2 Decision Framework / 决策框架
@@ -74,14 +63,7 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Cognitive Load** | Every line competes for context window; one dense framework beats three shallow lists |
 | **Trigger Precision** | Broad triggers ("create") cause false activation; specific verb phrases target the right intent |
 
-### 1.4 Communication Style / 沟通风格
-
-- **Structured**: Frameworks, tables, numbered steps; never walls of text
-- **Direct**: "This section is weak because X" not "You might consider improving..."
-- **Evidence-based**: Compare against Expert Verified exemplars
-- **Actionable**: Every critique includes a concrete fix with before/after example
-
-### 1.5 Skill Architect Heuristics / 技能架构师专属启发式法则
+### 1.4 Skill Architect Heuristics / 技能架构师专属启发式法则
 
 | Heuristic / 法则 | Threshold / 阈值 | Action / 行动 |
 |-----------------|-----------------|--------------|
@@ -119,23 +101,7 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ## 4. Core Philosophy / 核心理念
 
-### 4.1 The Skill Effectiveness Pyramid / 技能有效性金字塔
-
-```
-            ┌─────────────┐
-            │  Scenarios   │  ← AI learns WHEN to apply knowledge
-          ┌─┴─────────────┴─┐
-          │   Frameworks     │  ← AI learns HOW to think
-        ┌─┴─────────────────┴─┐
-        │   Domain Knowledge   │  ← AI learns WHAT the domain contains
-      ┌─┴─────────────────────┴─┐
-      │    System Prompt          │  ← AI learns WHO it is
-    ┌─┴─────────────────────────┴─┐
-    │      Structure & Metadata     │  ← AI can be discovered and loaded
-    └───────────────────────────────┘
-```
-
-### 4.2 Guiding Principles / 指导原则
+### 4.1 Guiding Principles / 指导原则
 
 1. **Behavior Over Description**: Skill value = measurable change in AI output, not word count
 2. **Self-Exemplar**: skill-writer must be the best example of what it teaches
@@ -175,10 +141,7 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ## 7. Standards & Reference / 标准与参考
 
-Core tables are inline below. For complete reference, read `references/standards.md`.
-<!-- 核心表格见下文。完整参考请读 references/standards.md。-->
-
-**Quality Rubric (summary)** — full version with all tier descriptions: `references/standards.md §7.1`
+**Quality Rubric (summary)** — full version: `references/standards.md §7.1`
 
 | Dimension / 维度 | Weight | Expert (7-8) | Exemplary (9-10) |
 |----------|--------|--------------|------------------|
@@ -286,14 +249,11 @@ For full conversation flows, read `references/scenarios.md`.
 > Domain Knowledge 3/10 (lists, no frameworks) → convert to materiality threshold table
 > **Projected after fixes: 7.1/10 → Expert ⭐**
 
-For detailed multi-turn flows covering creation, review, upgrade, and anti-pattern rejection → `references/scenarios.md`
-
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
 
-For complete examples with ❌/✅ code blocks, read `references/anti-patterns.md`.
-<!-- 完整反模式示例请读 references/anti-patterns.md。-->
+Full examples with ❌/✅ code blocks: `references/anti-patterns.md`
 
 | # | Anti-Pattern / 反模式 | Severity / 严重度 | Quick Fix / 快速修复 |
 |---|----------------------|-----------|---------------------|
@@ -310,12 +270,7 @@ For complete examples with ❌/✅ code blocks, read `references/anti-patterns.m
 
 ## 11. Integration with Other Skills / 与其他技能的集成
 
-| Combination / 组合 | Result / 结果 |
-|----------|--------|
-| Skill Writer + **Domain Expert** | Expert provides knowledge → Writer structures it → Expert validates accuracy |
-| Skill Writer + **Prompt Engineer** | Writer creates structure → PE optimizes system prompt for maximum behavior change |
-| Skill Writer + **QA Engineer** | Writer creates skill → QA designs test cases and validates outputs |
-| Skill Writer + **Tech Writer** | Writer creates framework → Tech Writer improves clarity and readability |
+Pair with **Domain Expert** (knowledge) → **Prompt Engineer** (system prompt tuning) → **QA Engineer** (test cases).
 
 ---
 
@@ -351,10 +306,8 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activat
 
 ## 14. Quality Verification / 质量验证
 
-Full checklist: `references/standards.md §7.10`
-<!-- 完整清单请读 references/standards.md §7.10。-->
+Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
-**Critical checks (blocking):**
 - ☐ All 9 metadata fields present; no HTML in YAML description
 - ☐ SKILL.md body ≤ 500 lines (this file); heavy content in references/
 - ☐ description ≤ 263 chars; trigger verbs front-loaded
@@ -371,10 +324,10 @@ Justification: See `references/standards.md §7.10 Self-Score` for full evidence
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 14.0.0 | 2026-03-15 | Converted to folder structure (skills/special/skill-writer/SKILL.md). Extracted §7 full standards → references/standards.md, §9 full scenarios → references/scenarios.md, §10 full anti-patterns → references/anti-patterns.md. Compressed SKILL.md from 1149 to ≤500 lines — now complies with §7.9 body budget and §4.2 Self-Exemplar principle. |
-| 13.0.0 | 2026-03-15 | Token budget optimization: added §7.9 Token Budget Optimization, §1.2 "Token Budget" gate, §1.5 "Description Budget" and "Body Overflow" heuristics. |
-| 12.0.0 | 2026-03-15 | Agent Skills standard integration: §7.8 added (agentskills.io spec, folder structure, progressive disclosure, description quality rules). |
-| 11.0.0 | 2026-02-19 | Perfect score (10.00/10): §1.5 Skill Architect Heuristics, §7.7 Content Density Calibration, escalation triggers in §3. |
+| 14.0.0 | 2026-03-15 | Folder structure; heavy content extracted to references/; SKILL.md 1149→~340 lines (Self-Exemplar fix) |
+| 13.0.0 | 2026-03-15 | Token budget rules: §7.9, §1.2 gate, §1.5 heuristics |
+| 12.0.0 | 2026-03-15 | Agent Skills standard: §7.8 (folder structure, progressive disclosure) |
+| 11.0.0 | 2026-02-19 | §1.5 Heuristics, §7.7 Content Density Calibration, escalation triggers |
 
 ---
 
