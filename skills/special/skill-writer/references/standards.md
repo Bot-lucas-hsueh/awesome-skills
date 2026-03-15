@@ -126,7 +126,7 @@ Weighted Average ≥ 7.0?
 │   └── Weighted Average ≥ 9.0 + all dimensions ≥ 7?
 │       ├── YES → Exemplary ⭐⭐
 │       └── NO → Expert ⭐ (identify lowest dimension; upgrade it first)
-└── Two or more dimensions < 4 simultaneously → Reject; restart from TEMPLATE.md
+└── Two or more dimensions < 4 simultaneously → Reject; restart from `../assets/TEMPLATE.md`
 ```
 
 **Dimension Fix Priority by ROI:**

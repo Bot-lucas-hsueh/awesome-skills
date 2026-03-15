@@ -39,8 +39,8 @@ Have expertise in a domain not yet covered? Create a new skill!
 <!-- **流程：**-->
 1. Check existing skills to avoid duplication
    <!-- 1. 检查现有技能以避免重复 -->
-2. Use the [TEMPLATE.md](./TEMPLATE.md) as your starting point
-   <!-- 2. 使用 [TEMPLATE.md](./TEMPLATE.md) 作为起点 -->
+2. Use the [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md) as your starting point
+   <!-- 2. 使用 [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md) 作为起点 -->
 3. Follow the [Skill Development Guide](#skill-development-guide)
    <!-- 3. 遵循 [技能开发指南](#skill-development-guide) -->
 4. Submit a Pull Request
@@ -102,8 +102,8 @@ skills/
 
 ### Required Sections <!-- 必需部分 -->
 
-Every skill must include all **16 standard H2 sections** in the correct order. The canonical structure is defined in [TEMPLATE.md](./TEMPLATE.md) and the authoritative checklist is in [skill-writer.md §7.3](./skills/special/skill-writer.md).
-<!-- 每个技能必须按正确顺序包含所有 **16 个标准 H2 章节**。规范结构在 [TEMPLATE.md](./TEMPLATE.md) 中定义，权威清单在 [skill-writer.md §7.3](./skills/special/skill-writer.md) 中。-->
+Every skill must include all **16 standard H2 sections** in the correct order. The canonical structure is defined in [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md) and the authoritative checklist is in [skill-writer.md §7.3](./skills/special/skill-writer/SKILL.md).
+<!-- 每个技能必须按正确顺序包含所有 **16 个标准 H2 章节**。规范结构在 [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md) 中定义，权威清单在 [skill-writer.md §7.3](./skills/special/skill-writer/SKILL.md) 中。-->
 
 The sections below describe the most critical ones:
 <!-- 以下章节描述最关键的部分：-->
@@ -417,7 +417,7 @@ The GitHub Actions workflow (`.github/workflows/validate.yml`) runs two passes:
 
 ### Metadata Field Reference <!-- 元数据字段参考 -->
 
-All metadata fields are expected for Expert Verified skills. The first five fields (`name`, `display_name`, `author`, `version`, `description`) are required by our validator. `when_to_use` and `compatibility` follow the [official Agent Skills standard](https://github.com/anthropics/skills). See [TEMPLATE.md](./TEMPLATE.md) for the full YAML example and [skill-writer.md §7.2](./skills/special/skill-writer.md) for the authoritative field specification.
+All metadata fields are expected for Expert Verified skills. The first five fields (`name`, `display_name`, `author`, `version`, `description`) are required by our validator. `when_to_use` and `compatibility` follow the [official Agent Skills standard](https://github.com/anthropics/skills). See [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md) for the full YAML example and [skill-writer.md §7.2](./skills/special/skill-writer/SKILL.md) for the authoritative field specification.
 <!-- 所有元数据字段对于 Expert Verified 技能都是必需的。-->
 
 | Field / 字段 | Required / 必需 | Valid Values / 有效值 | Standard / 来源 |

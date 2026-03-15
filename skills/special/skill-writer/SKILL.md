@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 16.0.0
+version: 17.0.0
 quality: exemplary
 difficulty: expert
 category: special
@@ -131,11 +131,10 @@ Before writing or reviewing any skill, pass it through these gates:
 
 | Tool / 工具 | Purpose / 用途 |
 |-------------|---------------|
-| **[TEMPLATE.md](../../../TEMPLATE.md)** | Official 16-section skill structure template |
-| **[CONTRIBUTING.md](../../../CONTRIBUTING.md)** | Contribution guidelines and PR process |
+| **[assets/TEMPLATE.md](assets/TEMPLATE.md)** | Official 16-section skill structure template |
 | **[references/standards.md](references/standards.md)** | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
 | **[references/scenarios.md](references/scenarios.md)** | 4 full conversation flows (creation, review, upgrade, rejection) |
-| **[references/anti-patterns.md](references/anti-patterns.md)** | 8 classified anti-patterns with ❌/✅ fixes |
+| **[references/anti-patterns.md](references/anti-patterns.md)** | 9 classified anti-patterns with ❌/✅ fixes |
 | **Expert Exemplars** | `skills/executive/ceo.md`, `skills/software/software-architect.md` |
 | **YAML Validator** | `yamllint filename.md` or yaml-validator.com |
 
@@ -337,6 +336,7 @@ Justification: See `references/standards.md §7.10 Self-Score` for full evidence
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 17.0.0 | 2026-03-15 | Self-contained directory: TEMPLATE.md moved to assets/TEMPLATE.md; root TEMPLATE.md→redirect stub; CONTRIBUTING.md links updated to new path + fixed broken skill-writer.md→SKILL.md ref; all §6 external ../../../ refs converted to local paths |
 | 16.0.0 | 2026-03-15 | Token savings: TEMPLATE.md §16→COMMON.md ref (−33 lines/skill), §4.1 ASCII art compressed (−12), §9 (−19), §10 (−18), §2 (−4); SKILL.md §7 platform table→1-line ref (−4); anti-pattern #9 added to §10 table; count fix §2+§8.1 8→9 |
 | 15.0.0 | 2026-03-15 | Multi-platform install: §5 session+persistent table, §7.11 platform standards, §1.4 platform heuristics; description trimmed to ≤263 chars (self-inconsistency fix); §14 compressed with blocking-checks table |
 | 14.0.0 | 2026-03-15 | Folder structure; heavy content extracted to references/; SKILL.md 1149→~340 lines (Self-Exemplar fix) |
@@ -347,4 +347,4 @@ Justification: See `references/standards.md §7.10 Self-Score` for full evidence
 
 ## 16. License & Author / 许可证与作者
 
-MIT with Attribution — See [../../../LICENSE](../../../LICENSE) | [../../../COMMON.md](../../../COMMON.md)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
