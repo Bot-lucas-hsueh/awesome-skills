@@ -1,9 +1,9 @@
-# Skill Writer — Installation Guide / 安装指南
+# Skill Writer — Installation Guide
 
 > Install once, persist across all sessions. Supports 7 platforms.
-> <!-- 安装一次，跨会话持久生效。支持 7 个平台。-->
+>
 
-**Quick install (any platform) / 任意平台快速安装:**
+**Quick install:**
 ```
 Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
@@ -13,10 +13,10 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activat
 ## OpenCode
 
 ```bash
-# Install / 安装
+# Install
 /skill install skill-writer
 
-# Auto-persisted to / 自动持久化至:
+# Auto-persisted to
 ~/.opencode/skills/skill-writer/
 ```
 
@@ -29,29 +29,27 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and install
 ```
 
 Auto-persisted to `~/.openclaw/workspace/skills/`.
-<!-- 自动持久化至 ~/.openclaw/workspace/skills/ -->
-
 ---
 
 ## Claude Code
 
-**Session only / 仅当前会话:**
+**Session only:**
 ```
 Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
 
-**Persistent — global (all projects) / 全局持久化（所有项目）:**
+**Persistent — global (all projects):**
 ```bash
 echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ~/.claude/CLAUDE.md
 ```
 
-**Persistent — project level / 项目级持久化:**
+**Persistent — project level:**
 ```bash
 echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ./CLAUDE.md
 ```
 
 > ⚠️ Global install applies to ALL projects. Project install only affects the current repo.
-> <!-- ⚠️ 全局安装适用于所有项目；项目级安装仅影响当前仓库。-->
+>
 
 ---
 
@@ -65,8 +63,6 @@ curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/sp
 **Global (all projects):**
 1. Create file: `~/.cursor/rules/skill-writer.mdc`
 2. Paste the §1 System Prompt block from `SKILL.md`
-<!-- 全局安装：创建 ~/.cursor/rules/skill-writer.mdc，粘贴 SKILL.md 中的 §1 系统提示词 -->
-
 ---
 
 ## OpenAI Codex
@@ -106,12 +102,10 @@ echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and i
 
 ---
 
-## Verification / 验证安装效果
+## Verification
 
 After install, test with any trigger phrase:
-<!-- 安装后，使用任意触发短语验证效果：-->
-
-| Test Input / 测试输入 | Expected Behavior / 预期行为 |
+| Test Input| Expected Behavior|
 |----------------------|------------------------------|
 | "write a skill for [domain]" | Phase 1 discovery questions; scope + tier confirmation |
 | "review [path/to/skill.md]" | 6-dimension rubric scorecard with weighted score |
@@ -120,7 +114,7 @@ After install, test with any trigger phrase:
 
 ---
 
-## Uninstall / 卸载
+## Uninstall
 
 | Platform | Command / Action |
 |----------|-----------------|
@@ -133,4 +127,4 @@ After install, test with any trigger phrase:
 
 ---
 
-**Trigger words / 触发词:** "write skill" · "create skill" · "review skill" · "score skill" · "upgrade skill"
+**Trigger words:** "write skill" · "create skill" · "review skill" · "score skill" · "upgrade skill"

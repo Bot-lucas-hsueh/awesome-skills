@@ -1,4 +1,4 @@
-# Skill Writer — Scenario Examples / 场景示例
+# Skill Writer — Scenario Examples
 
 Full conversation flows for §9. Load this file when the user asks for detailed examples of skill creation, review, upgrade, or anti-pattern rejection.
 
@@ -10,7 +10,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 
 **Skill Writer:**
 > **Phase 1 诊断:**
-> - 领域：区块链/Web3 系统架构
+> - 领域：区块链
 > - 现有技能：`skills/blockchain/blockchain-architect/SKILL.md` (Basic 级别，仅 30 行)
 > - 目标：升级到 Expert Verified
 > - 关键差距：无 System Prompt、无框架、无场景示例
@@ -51,7 +51,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 > □ Access: onlyOwner, role-based modifiers on all state-changing functions?
 > □ Oracle: TWAP vs. spot for price feed manipulation resistance?
 > ```
-> **当前评分预估: 7.2/10 → Expert Verified (需补充 2 个场景示例)**
+> **当前评分预估: 7.2
 
 ---
 
@@ -149,7 +149,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 > |--------------|----------|----------|
 > | **#1 Scope Sprawl** | 🔴 High | Role names 4 job titles; §7 frameworks contradict by line 62 |
 > | **#3 Self-Inconsistency** | 🔴 High | §7 says "3+ frameworks = Expert"; §8.3 says "1 framework = done" |
-> | **#6 HTML in YAML** | 🟡 Medium | `description` contains `<!-- 中文翻译 -->` — platforms show it as literal text |
+> | **#6 HTML in YAML** | 🟡 Medium | `description` contains `` — platforms show it as literal text |
 >
 > **Fix #1:** Split into 4 separate skills OR narrow to one role (frameworks contradict — cannot merge).
 >
@@ -157,7 +157,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 >
 > **Fix #6:**
 > ```yaml
-> ❌  description: > You are a UX expert. <!-- 你是 UX 专家 -->
+> ❌  description: > You are a UX expert.
 > ✅  description: > Use when designing UIs or reviewing UX flows. Triggers: "design", "UX review".
 > ```
 >

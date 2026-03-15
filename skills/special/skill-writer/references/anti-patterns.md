@@ -1,12 +1,12 @@
-# Skill Writer — Anti-Patterns / 常见陷阱与反模式
+# Skill Writer — Anti-Patterns
 
 Full anti-pattern catalog for §10. Load this file when reviewing a skill for quality issues or when the user asks about common mistakes.
 
 ---
 
-## 🔴 High Severity / 高严重度
+## 🔴 High Severity
 
-**#1 Scope Sprawl / 范围蔓延**
+**#1 Scope Sprawl**
 ```
 ❌ "This skill covers: software architecture, DevOps, cloud engineering,
     database design, security, and AI/ML systems..."
@@ -15,7 +15,7 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
     devops-engineer.md. For security, see security-engineer.md."
 ```
 
-**#2 Shallow Depth / 缺乏深度**
+**#2 Shallow Depth**
 ```
 ❌ ## Core Philosophy
    1. Write clean code
@@ -29,7 +29,7 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
       - Use types over runtime checks: `UserId` not `string`
 ```
 
-**#3 Self-Inconsistency / 自身不一致**
+**#3 Self-Inconsistency**
 ```
 ❌ A skill that teaches "all skills must have complete metadata"
    but its own metadata is missing fields.
@@ -41,9 +41,9 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
 
 ---
 
-## 🟡 Medium Severity / 中严重度
+## 🟡 Medium Severity
 
-**#4 Token Waste / Token 浪费**
+**#4 Token Waste**
 ```
 ❌ Full 57-category directory tree (50+ lines of static reference)
 
@@ -51,7 +51,7 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
    + heavy reference tables → references/ files (on-demand loading)
 ```
 
-**#5 Generic Risk Table / 通用风险表**
+**#5 Generic Risk Table**
 ```
 ❌ | Risk       | Mitigation   |
    | Accuracy   | Verify outputs |
@@ -60,19 +60,18 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
    | Hallucinated Drug Interaction | Cross-reference FDA database; never prescribe without pharmacist review |
 ```
 
-**#6 HTML Comments in YAML / YAML 中的 HTML 注释**
+**#6 HTML Comments in YAML**
 ```
 ❌ description: >
      Expert skill for X.
      <!-- 专家技能用于 X。 -->
-
 ✅ description: >
      Expert skill for X. Use when [trigger conditions].
      Triggers: "keyword1", "keyword2"
    # Bilingual content belongs in the Markdown body only
 ```
 
-**#9 Platform Coverage Miss / 平台覆盖缺失**
+**#9 Platform Coverage Miss**
 ```
 ❌ ## 5. Platform Support
    | Platform  | Installation             |
@@ -96,15 +95,15 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
 
 ---
 
-## 🟢 Low Severity / 低严重度
+## 🟢 Low Severity
 
-**#7 Literal Translation / 直译**
+**#7 Literal Translation**
 ```
 ❌ "Think outside the box" → "想象在盒子外"
 ✅ "Think outside the box" → "突破常规思维"
 ```
 
-**#8 Prose Wall / 大段散文**
+**#8 Prose Wall**
 ```
 ❌ ## Core Philosophy
    As a senior software architect, you should always consider scalability when

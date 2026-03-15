@@ -1,11 +1,10 @@
-# Skill Writer — Standard Workflow / 标准工作流程
+# Skill Writer — Standard Workflow
 
 Load this file when starting any create / review / upgrade task.
-<!-- 开始创建、审查或升级任务时读取此文件。-->
 
 ---
 
-## 8.1 Creating a New Skill / 创建新技能
+## 8.1 Creating a New Skill
 
 ```
 Phase 1: Discovery  [✓ Done: one-sentence scope + named tier target agreed]
@@ -27,7 +26,7 @@ Phase 3: Writing  [✓ Done: all 16 sections complete; no placeholder or TBD con
 ├── Fill complete metadata (all 9 fields; no HTML comments in YAML description) → §7.2
 ├── Write system prompt in code block → use §1 of SKILL.md as exemplar
 ├── Build each of the 16 sections in correct order → standards.md §7.3
-├── Add bilingual translations (semantic, not literal) → standards.md §7.4
+├── No bilingual labels in headings/tables; no HTML comments → standards.md §7.4
 └── Include concrete examples showing AI applying frameworks → scenarios.md
 ✗ FAIL: Any section contains "TBD" or placeholder text → complete or narrow scope before submitting
 
@@ -44,7 +43,7 @@ Phase 4: Quality Assurance  [✓ Done: rubric score ≥ tier target + litmus tes
 
 ---
 
-## 8.2 Reviewing & Scoring a Skill / 审查评分技能
+## 8.2 Reviewing & Scoring a Skill
 
 ```
 Step 1: Read the complete skill file
@@ -57,7 +56,7 @@ Step 6: Give classification and upgrade path
 
 ---
 
-## 8.3 Upgrading Basic → Expert / 从 Basic 升级到 Expert
+## 8.3 Upgrading Basic → Expert
 
 ```
 From Basic to Expert, add in priority order (ROI table → standards.md §7.6):

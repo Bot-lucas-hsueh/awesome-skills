@@ -1,8 +1,6 @@
-# Skill Writer — Version History / 版本历史
+# Skill Writer — Version History
 
 Full changelog. SKILL.md §15 keeps the last 3 entries only.
-<!-- 完整变更记录。SKILL.md §15 只保留最近 3 条。-->
-
 | Version | Date | Changes |
 |---------|------|---------|
 | 12.0.0 | 2026-03-15 | Agent Skills standard: §7.8 (folder structure, progressive disclosure) |

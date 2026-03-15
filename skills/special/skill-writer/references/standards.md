@@ -1,4 +1,4 @@
-# Skill Writer — Standards & Reference / 标准与参考
+# Skill Writer — Standards & Reference
 
 Full reference for §7 of the Skill Writer skill. Load this file when you need to:
 - Score a skill against the Quality Rubric (§7.1)
@@ -11,9 +11,9 @@ Full reference for §7 of the Skill Writer skill. Load this file when you need t
 
 ---
 
-## 7.1 Skill Quality Rubric / 技能质量评分量表
+## 7.1 Skill Quality Rubric
 
-| Dimension / 维度 | Weight | Basic (1-3) | Community (4-6) | Expert (7-8) | Exemplary (9-10) |
+| Dimension| Weight | Basic (1-3) | Community (4-6) | Expert (7-8) | Exemplary (9-10) |
 |----------|--------|-------------|-----------------|--------------|------------------|
 | **System Prompt Depth** | 20% | 1-2 sentence role description | Role + capabilities + style | Structured prompt with decision framework + thinking patterns | Adds domain-specific heuristics and communication nuances that are distinct from any other role |
 | **Domain Knowledge Density** | 25% | Generic descriptions anyone could write | Domain-specific tools and processes | Deep frameworks + quantified metrics + real scenarios | Decision trees with specific thresholds; domain jargon used with precision; all metrics include target ranges |
@@ -39,12 +39,12 @@ Example: 8×0.20 + 7×0.25 + 6×0.15 + 8×0.10 + 9×0.20 + 10×0.10 = 7.85 → E
 
 ---
 
-## 7.2 Required Metadata Fields / 必需元数据字段
+## 7.2 Required Metadata Fields
 
 ```yaml
 ---
 name: skill-slug-name                    # Lowercase, hyphen-separated; max 64 chars
-display_name: English Name / 中文名称     # Bilingual display name
+display_name: English Name
 author: contributor-id                   # Author identifier
 version: 1.0.0                           # Semantic versioning (MAJOR.MINOR.PATCH)
 quality: basic                           # basic / community / expert / exemplary
@@ -63,9 +63,9 @@ description: >
 
 ---
 
-## 7.3 16-Section Checklist / 16 章节清单
+## 7.3 16-Section Checklist
 
-| # | Section / 章节 | Expert Hallmark / 专家标志 |
+| # | Section| Expert Hallmark|
 |---|---------|-----------------|
 | 1 | **System Prompt** | Role + decision framework + thinking patterns + communication style |
 | 2 | **What This Skill Does** | 3-5 specific, measurable capabilities |
@@ -86,19 +86,18 @@ description: >
 
 ---
 
-## 7.4 Bilingual Format Rules / 双语格式规则
+## 7.4 Format Rules
 
 - Primary content in English (AI-optimized)
-- Chinese in HTML comments `<!-- -->` for prose and bullet points
-- Table cells: inline bilingual with `/` separator — `| Risk / 风险 | Severity / 严重度 |`
-- Headers: inline bilingual `## Title / 中文标题`
-- Semantic equivalence, never literal translation
+- No bilingual labels in headings or table headers
+- No `<!-- Chinese comments -->` in body (token waste with zero AI value)
+- Semantic Chinese translations belong in code block examples only when teaching Chinese-speaker use cases
 
 ---
 
-## 7.5 File Organization / 文件组织
+## 7.5 File Organization
 
-| Domain / 领域 | Categories / 分类 |
+| Domain| Categories|
 |--------|------------|
 | **Tech** | software/, ai-ml/, data/, cybersecurity/, blockchain/, quantum/, semiconductor/ |
 | **Business** | executive/, finance/, marketing/, sales/, hr/, product/, freelancer/ |
@@ -113,7 +112,7 @@ Folder skills: `skills/{category}/{skill-name}/SKILL.md` (name must match folder
 
 ---
 
-## 7.6 Skill Promotion Decision Tree / 技能晋级决策树
+## 7.6 Skill Promotion Decision Tree
 
 ```
 Weighted Average ≥ 7.0?
@@ -142,9 +141,9 @@ Weighted Average ≥ 7.0?
 
 ---
 
-## 7.7 Content Density Calibration / 内容密度校准
+## 7.7 Content Density Calibration
 
-| Metric / 指标 | Basic | Community | Expert ⭐ | Exemplary ⭐⭐ |
+| Metric| Basic | Community | Expert ⭐ | Exemplary ⭐⭐ |
 |--------------|-------|-----------|----------|--------------|
 | **Total line count** | <100 | 100–300 | 300–600 | 600–900* |
 | **System prompt length** | 1–5 lines | 5–15 lines | 15–30 lines | 30–50 lines + ≥2 decision frameworks |
@@ -166,7 +165,7 @@ Target: ≥ 2.0 → Expert | ≥ 3.5 → Exemplary | < 1.0 → move prose to ref
 
 ---
 
-## 7.8 Agent Skills Standard Compatibility / Agent Skills 标准兼容性
+## 7.8 Agent Skills Standard Compatibility
 
 Per [anthropics/skills](https://github.com/anthropics/skills), a valid skill requires **only two fields**:
 
@@ -198,7 +197,7 @@ skills/my-skill/
 
 ---
 
-## 7.9 Token Budget Optimization / Token 预算优化
+## 7.9 Token Budget Optimization
 
 ### Budget 1 — Description Character Budget
 
@@ -262,14 +261,12 @@ echo -n "your description" | wc -c       # Measure description length
 
 ---
 
-## 7.11 Platform Installation Standards / 平台安装规范
+## 7.11 Platform Installation Standards
 
 Guidelines for writing an effective §5 Platform Support section.
-<!-- §5 平台支持章节编写规范 -->
+### Install Command Matrix
 
-### Install Command Matrix / 安装命令矩阵
-
-| Platform / 平台 | Session Install / 会话安装 | Persistent Config / 持久化配置 |
+| Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install [skill-name]` | Auto-saved to `~/.opencode/skills/` |
 | **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
@@ -282,9 +279,9 @@ Guidelines for writing an effective §5 Platform Support section.
 **[URL]:** `https://awesome-skills.dev/skills/[category]/[skill-name].md`
 **Raw URL (for curl):** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/[category]/[skill-name].md`
 
-### Rules for §5 / §5 编写规则
+### Rules for §5
 
-| Rule / 规则 | Threshold / 阈值 | Why / 原因 |
+| Rule| Threshold| Why|
 |------------|-----------------|-----------|
 | Cover all 7 platforms | 0 missing | Missing platform = 0% install rate for those users |
 | Show session + persistent path | Both per platform | Session-only = skill lost on restart |
@@ -292,20 +289,18 @@ Guidelines for writing an effective §5 Platform Support section.
 | Paste-target must be §1 | For Cursor/Codex/Cline | Users need exact copy target, not vague "prompt" |
 | No redundant instructions | One action per cell | Multi-step cells → use §13 for extended guide |
 
-### Claude Code Persistent Install Snippet / Claude Code 持久化安装片段
+### Claude Code Persistent Install Snippet
 
 Every skill's §13 should include this for Claude Code users:
-<!-- 每个技能的 §13 应包含此 Claude Code 持久化安装片段 -->
-
 ```bash
-# Global (all projects) / 全局（所有项目）
+# Global (all projects)
 echo "Read [URL] and apply [skill-name] skill." >> ~/.claude/CLAUDE.md
 
-# Project-level / 项目级
+# Project-level
 echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 ```
 
-### Token Budget for §5 / §5 Token 预算
+### Token Budget for §5
 
 - Target: ≤ 10 lines (header + 7 platform rows + [URL] note)
 - Persistent install details → §13 or `references/` file
@@ -313,7 +308,7 @@ echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 
 ---
 
-## 7.10 Quality Verification Checklist / 质量验证清单
+## 7.10 Quality Verification Checklist
 
 | Check | Rubric Dimension |
 |-------|-----------------|
@@ -324,7 +319,7 @@ echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 | ☐ At least 2 full conversation scenario flows | Example Quality |
 | ☐ Workflow has 3+ phases with [✓ Done] criteria and ✗ FAIL blocks | Workflow Actionability |
 | ☐ Domain frameworks have numeric thresholds — not generic lists | Domain Knowledge Density |
-| ☐ English primary; Chinese in `<!-- -->`; `/` separator in table cells | (Format Standard) |
+| ☐ English primary; Chinese in ``; `/` separator in table cells | (Format Standard) |
 | ☐ No filler — every line earns its token cost | Domain Knowledge Density |
 | ☐ Weighted average ≥ 7.0 for Expert ⭐; ≥ 9.0 for Exemplary ⭐⭐ | All dimensions |
 | ☐ SKILL.md body ≤ 500 lines (folder skills) / ≤ 900 lines (meta-skill flat files) | Token Budget |
