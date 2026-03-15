@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 15.0.0
+version: 16.0.0
 quality: exemplary
 difficulty: expert
 category: special
@@ -81,7 +81,7 @@ Before writing or reviewing any skill, pass it through these gates:
 
 1. **Skill Creation** — Build complete Expert-grade skills with structured system prompts, domain frameworks, and scenario examples
 2. **Skill Scoring** — Evaluate skills against the 6-dimension Quality Rubric (1-10 scale), classify into Basic/Community/Expert/Exemplary tiers
-3. **Anti-Pattern Detection** — Identify 8 common anti-patterns with severity ratings and concrete rewrites
+3. **Anti-Pattern Detection** — Identify 9 common anti-patterns with severity ratings and concrete rewrites
 4. **Skill Upgrade** — Guide systematic upgrade from Basic to Expert Verified with actionable checklists
 
 ---
@@ -160,13 +160,7 @@ Score = (System Prompt × 0.20) + (Domain Knowledge × 0.25) + (Workflow × 0.15
 Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 ```
 
-**Platform Installation Standards** — `references/standards.md §7.11`
-
-| Rule / 规则 | Threshold | Why |
-|------------|-----------|-----|
-| All 7 platforms in §5 | 0 missing | Missing = 0% install rate for those users |
-| Session + persistent per platform | Both required | Session-only = skill lost on restart |
-| Define `[URL]` once below table | URL ≤ 1 repetition | 3× full URL repetition ≈ 240 token waste |
+**Platform Standards** — `references/standards.md §7.11`: all 7 platforms; session + persistent; `[URL]` defined once.
 
 **Token Budget Quick Reference** — full rules: `references/standards.md §7.9`
 
@@ -210,7 +204,7 @@ Phase 4: Quality Assurance  [✓ Done: rubric score ≥ tier target + litmus tes
 ├── Score against Quality Rubric → references/standards.md §7.1; target ≥7.0 (Expert), ≥9.0 (Exemplary)
 ├── Validate YAML metadata → yamllint; check all 9 fields
 ├── Confirm all 16 sections present → references/standards.md §7.3
-├── Run anti-pattern scan → references/anti-patterns.md; check all 8 patterns
+├── Run anti-pattern scan → references/anti-patterns.md; check all 9 patterns
 └── Litmus test: Prompt AI with vs. without skill on 3 tasks
     PASS = AI cites ≥1 framework AND uses different structure in ≥2/3 tasks
     FAIL = identical structure in ≥2/3 tasks OR 0 frameworks cited
@@ -275,6 +269,7 @@ Full examples with ❌/✅ code blocks: `references/anti-patterns.md`
 | 6 | **HTML in YAML** | 🟡 Medium | Plain text description only; bilingual → Markdown body |
 | 7 | **Literal Translation** | 🟢 Low | Semantic equivalence, not word-for-word |
 | 8 | **Prose Wall** | 🟢 Low | Convert paragraphs to tables with litmus test column |
+| 9 | **Platform Coverage Miss** | 🟡 Medium | §5: all 7 platforms; session + persistent; `[URL]` once |
 
 ---
 
@@ -342,6 +337,7 @@ Justification: See `references/standards.md §7.10 Self-Score` for full evidence
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 16.0.0 | 2026-03-15 | Token savings: TEMPLATE.md §16→COMMON.md ref (−33 lines/skill), §4.1 ASCII art compressed (−12), §9 (−19), §10 (−18), §2 (−4); SKILL.md §7 platform table→1-line ref (−4); anti-pattern #9 added to §10 table; count fix §2+§8.1 8→9 |
 | 15.0.0 | 2026-03-15 | Multi-platform install: §5 session+persistent table, §7.11 platform standards, §1.4 platform heuristics; description trimmed to ≤263 chars (self-inconsistency fix); §14 compressed with blocking-checks table |
 | 14.0.0 | 2026-03-15 | Folder structure; heavy content extracted to references/; SKILL.md 1149→~340 lines (Self-Exemplar fix) |
 | 13.0.0 | 2026-03-15 | Token budget rules: §7.9, §1.2 gate, §1.5 heuristics |

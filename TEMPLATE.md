@@ -74,17 +74,11 @@ Before responding in this domain, evaluate:
 
 ## 2. What This Skill Does / 此技能做什么
 
-This skill transforms your AI assistant into an expert **[Role Name]** capable of:
-<!-- 此技能将你的 AI 助手转变为专家**[角色名称]**，能够：-->
-
-1. **[Capability 1]** - [Specific, measurable description — what changes in AI output]
-   <!-- **[能力 1]** - [具体、可衡量的描述] -->
-2. **[Capability 2]** - [Specific, measurable description]
-   <!-- **[能力 2]** - [具体、可衡量的描述] -->
-3. **[Capability 3]** - [Specific, measurable description]
-   <!-- **[能力 3]** - [具体、可衡量的描述] -->
-4. **[Capability 4]** - [Specific, measurable description]
-   <!-- **[能力 4]** - [具体、可衡量的描述] -->
+1. **[Capability 1]** — [Specific, measurable change in AI output — not generic]
+   <!-- **[能力 1]** — [具体可衡量的描述] -->
+2. **[Capability 2]** — [description]
+3. **[Capability 3]** — [description]
+4. **[Capability 4]** — [description]
 
 ---
 
@@ -107,24 +101,14 @@ This skill transforms your AI assistant into an expert **[Role Name]** capable o
 
 ## 4. Core Philosophy / 核心理念
 
-### 4.1 [Core Framework or Model Name] / [核心框架或模型名称]
+### 4.1 [Core Framework Name] / [核心框架名称]
 
 ```
-[Visual representation: pyramid, matrix, flow diagram, or decision tree
- showing the core mental model of this domain]
-
-Example structure:
-         ┌──────────────┐
-         │  [Top Layer]  │  ← [What it represents]
-       ┌─┴──────────────┴─┐
-       │  [Middle Layer]   │  ← [What it represents]
-     ┌─┴──────────────────┴─┐
-     │    [Base Layer]       │  ← [What it represents]
-     └──────────────────────┘
+[ASCII diagram, decision tree, or scoring matrix showing the domain's core mental model.
+ ≤ 5 levels / decision nodes. Example: pyramid, 2×2 matrix, phase-gate flow.]
 ```
 
-[One sentence explaining how the layers build on each other.]
-<!-- [一句话解释各层如何相互构建。] -->
+[One sentence: how the components relate and when each applies.]
 
 ### 4.2 Guiding Principles / 指导原则
 
@@ -217,72 +201,41 @@ Step 3: [Description with expected output]
 
 ## 9. Scenario Examples / 场景示例
 
-### 9.1 [Scenario 1: Primary Use Case] / [场景 1：主要用例]
+### 9.1 [Scenario: Primary Use Case] / [场景：主要用例]
 
-**User:** "[Realistic user request that would trigger this skill]"
-
-**[Role Name]:**
-> **[Expert framing or immediate framework applied]:**
->
-> **[Phase/Step 1]:**
-> - [Specific expert-level point — not generic advice]
-> - [Specific point applying domain knowledge]
->
-> **[Deliverable or recommendation with data]:**
-> | [Column 1] | [Column 2] | [Column 3] |
-> |------------|------------|------------|
-> | [Option A] | [Data/Score] | [Implication] |
-> | [Option B] | [Data/Score] | [Implication] |
->
-> **Next, I need from you:**
-> 1. [Clarifying question that shows expert judgment]
-> 2. [Clarifying question]
-
-### 9.2 [Scenario 2: Edge Case or Different Request Type] / [场景 2：边界情况或不同请求类型]
-
-**User:** "[Different type of request — tests a different capability]"
+**User:** "[Realistic trigger request]"
 
 **[Role Name]:**
-> [Expert-level response applying a different framework from §7]
+> **[Framework applied from §7]:** [Expert framing — not generic advice]
 >
-> **[Framework Applied]:**
-> - [Domain-specific insight]
-> - [Domain-specific recommendation with rationale]
+> | [Decision Column] | [Data/Score] | [Recommendation] |
+> |-------------------|-------------|-----------------|
+> | [Option A] | [metric] | [action] |
 >
-> **[Action items or output]:**
-> 1. [Specific, actionable step]
-> 2. [Specific step]
+> **Next I need:** [Clarifying question showing expert judgment]
+
+### 9.2 [Scenario: Edge Case or Anti-Pattern Correction] / [场景：边界情况]
+
+**User:** "[Different request type — tests a second capability]"
+
+**[Role Name]:**
+> **[Different framework from §7]:** [Expert-level insight — domain-specific, not generic]
+> 1. [Actionable step with domain rationale]
+> 2. [Actionable step]
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
 
-### 🔴 High Severity / 高严重度
+| # | Anti-Pattern / 反模式 | Severity / 严重度 | Quick Fix / 快速修复 |
+|---|----------------------|-----------------|---------------------|
+| 1 | **[Name]** | 🔴 High | [Domain-specific fix] |
+| 2 | **[Name]** | 🟡 Medium | [Fix] |
+| 3 | **[Name]** | 🟢 Low | [Fix] |
 
-**Anti-Pattern 1: [Name] / [名称]**
-
-```markdown
-❌ BAD: [Example of wrong approach in this domain — specific, not generic]
-
-✅ GOOD: [Correct approach with domain specificity and measurable difference]
 ```
-
-**Anti-Pattern 2: [Name] / [名称]**
-
-```markdown
-❌ BAD: [Example]
-
-✅ GOOD: [Example with concrete domain knowledge applied]
-```
-
-### 🟡 Medium Severity / 中严重度
-
-**Anti-Pattern 3: [Name] / [名称]**
-
-```markdown
-❌ BAD: [Example]
-
-✅ GOOD: [Example]
+❌ [Specific wrong approach in this domain]
+✅ [Correct approach — measurably different, domain-specific]
 ```
 
 ---
@@ -378,43 +331,12 @@ Expected: [Expert-level response characteristics]
 
 ## 16. License & Author / 许可证与作者
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-<!-- 此技能根据 **MIT 许可证（带署名要求）** 授权。-->
+MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements / 署名要求
-
-When using, modifying, or distributing this skill, retain:
-<!-- 使用、修改或分发此技能时，保留以下内容： -->
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author / 关于作者
-
-| Field | Details |
-|-------|---------|
-| **Name** | [Your name or handle] |
+| Field / 字段 | Details / 详情 |
+|-------------|---------------|
+| **Author** | [Your name or handle] |
 | **Contact** | [Email or GitHub] |
-| **GitHub** | [GitHub URL] |
+| **GitHub** | [GitHub profile URL] |
 
-### Community / 社区
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author / 作者**: [name] <[email]>
-**Maintained by / 维护者**: [maintainer]
-**License / 许可证**: MIT with Attribution
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+**Author / 作者**: [name] <[email]> | **License**: MIT with Attribution
