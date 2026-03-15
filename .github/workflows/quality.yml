@@ -1,0 +1,160 @@
+# Awesome Skills - Quality Check CI/CD Workflow
+#
+# This workflow runs comprehensive quality checks on skill files:
+# 1. YAML/Markdown linting
+# 2. Structure validation
+# 3. Quality scoring
+# 4. Token budget check
+# 5. Anti-pattern scanning
+
+name: Skill Quality Check
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "skills/**"
+      - "tools/**"
+      - ".github/scripts/**"
+      - ".github/workflows/quality.yml"
+  pull_request:
+    paths:
+      - "skills/**"
+      - "tools/**"
+      - ".github/scripts/**"
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  # Job 1: Lint (YAML + Markdown)
+  lint:
+    name: Lint Skills
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      - name: Install linting tools
+        run: pip install yamllint markdownlint-cli
+
+      - name: Lint YAML
+        run: yamllint -c .yamllint .
+
+      - name: Lint Markdown
+        run: markdownlint -c .markdownlint.json "skills/**/*.md"
+
+  # Job 2: Structure Validation
+  validate:
+    name: Validate Structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install pyyaml rich
+
+      - name: Run skill validator (all skills)
+        run: python3 .github/scripts/validate_skills.py skills/
+
+      - name: Run strict validator (Expert Verified skills)
+        run: |
+          python3 .github/scripts/validate_skills.py --strict \
+            skills/executive/ \
+            skills/software/ \
+            skills/ai-ml/ \
+            skills/finance/ \
+            skills/business/ \
+            skills/legal/ \
+            skills/healthcare/ \
+            skills/marketing/ \
+            skills/product/ \
+            skills/data/ \
+            skills/research/ \
+            skills/special/
+
+  # Job 3: Quality Analysis
+  quality:
+    name: Quality Analysis
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      - name: Install tools
+        run: pip install -e ./tools/
+
+      - name: Run quality scoring
+        run: python -m tools.skill_analyzer.cli score --output json > scores.json
+        continue-on-error: true
+
+      - name: Run token budget check
+        run: python -m tools.skill_analyzer.cli tokenizer --output json > tokens.json
+        continue-on-error: true
+
+      - name: Run anti-pattern scan
+        run: python -m tools.skill_analyzer.cli antipattern --output json > antipatterns.json
+        continue-on-error: true
+
+      - name: Upload analysis results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quality-analysis
+          path: |
+            scores.json
+            tokens.json
+            antipatterns.json
+          retention-days: 7
+
+  # Job 4: Dashboard (main branch only)
+  dashboard:
+    name: Update Dashboard
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install tools
+        run: pip install -e ./tools/
+
+      - name: Generate dashboard
+        run: python -m tools.progress_tracker.dashboard --output json --path reports/dashboard.json || true
+
+      - name: Upload dashboard
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quality-dashboard
+          path: reports/
+          retention-days: 30

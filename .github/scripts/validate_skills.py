@@ -23,6 +23,7 @@ import os
 import re
 import argparse
 from pathlib import Path
+from typing import Optional, Dict, Any, List, Tuple
 
 # ── Constants ────────────────────────────────────────────────────────────────
 
@@ -35,63 +36,65 @@ VALID_PLATFORMS = {"opencode", "openclaw", "claude", "cursor", "codex", "cline",
 VALID_QUALITY = {"basic", "community", "expert", "exemplary"}
 
 # Skills that must pass strict (Expert Verified) checks
-# Updated to include all 43 Expert Verified skills
+# Updated to new folder format (skills/category/skill-name/SKILL.md)
 EXPERT_SKILLS = {
     # Executive
-    "skills/executive/ceo.md",
-    "skills/executive/cfo.md",
-    "skills/executive/cmo.md",
-    "skills/executive/coo.md",
-    "skills/executive/cto.md",
+    "skills/executive/ceo/SKILL.md",
+    "skills/executive/cfo/SKILL.md",
+    "skills/executive/cmo/SKILL.md",
+    "skills/executive/coo/SKILL.md",
+    "skills/executive/cto/SKILL.md",
     # Technology
-    "skills/software/backend-developer.md",
-    "skills/software/data-scientist.md",
-    "skills/software/devops-engineer.md",
-    "skills/software/frontend-developer.md",
-    "skills/software/qa-engineer.md",
-    "skills/software/security-engineer.md",
-    "skills/software/software-architect.md",
-    "skills/software/algorithm-engineer.md",
-    "skills/software/ai-ml-engineer.md",
+    "skills/software/backend-developer/SKILL.md",
+    "skills/software/data-scientist/SKILL.md",
+    "skills/software/devops-engineer/SKILL.md",
+    "skills/software/frontend-developer/SKILL.md",
+    "skills/software/qa-engineer/SKILL.md",
+    "skills/software/security-engineer/SKILL.md",
+    "skills/software/software-architect/SKILL.md",
+    "skills/software/algorithm-engineer/SKILL.md",
+    "skills/software/ai-ml-engineer/SKILL.md",
     # AI/ML
-    "skills/ai-ml/ai-application-engineer.md",
-    "skills/ai-ml/ai-product-manager.md",
-    "skills/ai-ml/ai-safety-researcher.md",
-    "skills/ai-ml/ai-chip-architect.md",
-    "skills/ai-ml/ai-compute-platform-engineer.md",
-    "skills/ai-ml/llm-research-scientist.md",
-    "skills/ai-ml/llm-training-engineer.md",
-    "skills/ai-ml/machine-learning-engineer.md",
-    "skills/ai-ml/prompt-engineer.md",
+    "skills/ai-ml/ai-application-engineer/SKILL.md",
+    "skills/ai-ml/ai-product-manager/SKILL.md",
+    "skills/ai-ml/ai-safety-researcher/SKILL.md",
+    "skills/ai-ml/ai-chip-architect/SKILL.md",
+    "skills/ai-ml/ai-compute-platform-engineer/SKILL.md",
+    "skills/ai-ml/llm-research-scientist/SKILL.md",
+    "skills/ai-ml/llm-training-engineer/SKILL.md",
+    "skills/ai-ml/machine-learning-engineer/SKILL.md",
+    "skills/ai-ml/prompt-engineer/SKILL.md",
     # Finance
-    "skills/finance/cpa.md",
-    "skills/finance/financial-analyst.md",
-    "skills/finance/fund-manager.md",
-    "skills/finance/investment-analyst.md",
+    "skills/finance/cpa/SKILL.md",
+    "skills/finance/financial-analyst/SKILL.md",
+    "skills/finance/fund-manager/SKILL.md",
+    "skills/finance/investment-analyst/SKILL.md",
     # Business & Consulting
-    "skills/business/management-consultant.md",
-    "skills/business/strategy-consultant.md",
+    "skills/business/management-consultant/SKILL.md",
+    "skills/business/strategy-consultant/SKILL.md",
     # Legal
-    "skills/legal/legal-counsel.md",
-    "skills/legal/patent-attorney.md",
+    "skills/legal/legal-counsel/SKILL.md",
+    "skills/legal/patent-attorney/SKILL.md",
     # Healthcare
-    "skills/healthcare/general-practitioner.md",
-    "skills/healthcare/psychologist.md",
+    "skills/healthcare/general-practitioner/SKILL.md",
+    "skills/healthcare/psychologist/SKILL.md",
     # Marketing & Sales
-    "skills/marketing/digital-marketing-specialist.md",
-    "skills/marketing/marketing-manager.md",
-    "skills/marketing/sales-manager.md",
+    "skills/marketing/digital-marketing-specialist/SKILL.md",
+    "skills/marketing/marketing-manager/SKILL.md",
+    "skills/marketing/sales-manager/SKILL.md",
     # Product & Design
-    "skills/product/product-manager.md",
-    "skills/product/ux-designer.md",
+    "skills/product/product-manager/SKILL.md",
+    "skills/product/ux-designer/SKILL.md",
     # Data & Analytics
-    "skills/data/data-analyst.md",
-    "skills/data/data-engineer.md",
+    "skills/data/data-analyst/SKILL.md",
+    "skills/data/data-engineer/SKILL.md",
     # Research
-    "skills/research/principal-investigator.md",
-    "skills/research/statistician.md",
-    # Meta-skills
+    "skills/research/principal-investigator/SKILL.md",
+    "skills/research/statistician/SKILL.md",
+    # Special
     "skills/special/skill-writer/SKILL.md",
+    "skills/special/agent-persona-designer/SKILL.md",
+    "skills/it-support/macos-config-expert/SKILL.md",
 }
 
 # Minimum H2 section count for Expert Verified skills (full 16-section structure)
@@ -99,7 +102,8 @@ EXPERT_MIN_SECTIONS = 16
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
-def parse_frontmatter(content: str) -> tuple[dict | None, str]:
+
+def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, Any]], str]:
     """Extract YAML frontmatter and body from markdown content."""
     if not content.startswith("---"):
         return None, content
@@ -265,6 +269,7 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────
+
 
 def collect_skill_files(targets: list[str]) -> list[Path]:
     """Collect .md skill files from given paths (files or directories).

@@ -1,0 +1,30 @@
+[project]
+name = "awesome-skills-tools"
+version = "0.1.0"
+description = "Tools for analyzing and generating awesome skills"
+requires-python = ">=3.9"
+authors = [
+    {name = "neo.ai", email = "neo@theneo.ai"}
+]
+dependencies = [
+    "pyyaml>=6.0",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
