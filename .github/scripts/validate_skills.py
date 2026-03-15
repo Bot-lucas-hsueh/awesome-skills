@@ -3,10 +3,14 @@
 Awesome Skills — Skill File Validator
 Validates YAML frontmatter and Markdown structure for all skill files.
 
+Supports two skill formats (per Agent Skills standard — https://agentskills.io):
+  1. Flat file:  skills/{category}/{skill-name}.md
+  2. Folder:     skills/{category}/{skill-name}/SKILL.md
+
 Usage:
     python3 .github/scripts/validate_skills.py [--strict] [path ...]
 
-    --strict   Also enforce 16-section TEMPLATE.md compliance (for Top 50 skills)
+    --strict   Also enforce 16-section TEMPLATE.md compliance (for Expert Verified skills)
     path       One or more specific files/directories to validate (default: skills/)
 
 Exit codes:
@@ -151,10 +155,24 @@ def check_html_comment_injection(raw_content: str) -> list[str]:
 
 # ── Per-file validation ───────────────────────────────────────────────────────
 
+# Folder-based skills (SKILL.md) follow the Agent Skills minimum spec:
+# only `name` and `description` are required. The awesome-skills extended
+# fields are recommended but not required for Agent Skills compatibility.
+AGENT_SKILLS_REQUIRED = ["name", "description"]
+
+
 def validate_file(path: Path, strict: bool = False) -> list[str]:
-    """Validate a single skill file. Returns list of error strings (empty = OK)."""
+    """Validate a single skill file. Returns list of error strings (empty = OK).
+
+    Folder-based skills (SKILL.md) are validated against the Agent Skills
+    minimum spec (name + description required only). Flat .md skill files
+    are validated against the full awesome-skills spec.
+    """
     errors = []
     rel = path.relative_to(path.parent.parent.parent)  # relative to repo root
+
+    # Detect folder-based skill (SKILL.md inside a named subdirectory)
+    is_folder_skill = path.name == "SKILL.md"
 
     try:
         raw = path.read_text(encoding="utf-8")
@@ -172,9 +190,21 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
         return errors
 
     # ── 2. Required fields ───────────────────────────────────────────────────
-    for field in REQUIRED_FIELDS:
+    # Folder skills: Agent Skills minimum spec (name + description only)
+    # Flat files: full awesome-skills required fields
+    required = AGENT_SKILLS_REQUIRED if is_folder_skill else REQUIRED_FIELDS
+    for field in required:
         if field not in fm or not fm[field]:
             errors.append(f"  Missing required field: `{field}`")
+
+    # ── 2b. Folder skill: name must match parent directory name ───────────────
+    if is_folder_skill and "name" in fm and fm["name"]:
+        folder_name = path.parent.name
+        if fm["name"] != folder_name:
+            errors.append(
+                f"  Agent Skills: `name` field ({fm['name']!r}) must match "
+                f"parent folder name ({folder_name!r})"
+            )
 
     # ── 3. Recommended fields (warnings, not errors) ─────────────────────────
     for field in RECOMMENDED_FIELDS:
@@ -239,9 +269,18 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
 def collect_skill_files(targets: list[str]) -> list[Path]:
     """Collect .md skill files from given paths (files or directories).
 
-    Excludes non-skill directories: _common/ (shared content fragments)
+    Supports two formats:
+      - Flat files: any .md file directly under a category directory
+      - Folder skills: SKILL.md files inside skill subdirectories
+
+    Excludes non-skill content:
+      - _common/  — shared content fragments
+      - references/ — reference docs bundled with folder skills (not skill entrypoints)
+      - agents/   — sub-agent instruction files bundled with folder skills
+      - assets/   — asset directories inside folder skills
+      - evals/    — evaluation files inside folder skills
     """
-    EXCLUDED_DIRS = {"_common", "references"}
+    EXCLUDED_DIRS = {"_common", "references", "agents", "assets", "evals"}
     files = []
     for t in targets:
         p = Path(t)
@@ -251,6 +290,11 @@ def collect_skill_files(targets: list[str]) -> list[Path]:
             for f in sorted(p.rglob("*.md")):
                 # Skip files inside excluded subdirectories
                 if any(part in EXCLUDED_DIRS for part in f.parts):
+                    continue
+                # For folder-based skills: only validate SKILL.md (the entrypoint)
+                # Skip other .md files that happen to be inside skill folders
+                parent = f.parent
+                if f.name != "SKILL.md" and (parent / "SKILL.md").exists():
                     continue
                 files.append(f)
     return files

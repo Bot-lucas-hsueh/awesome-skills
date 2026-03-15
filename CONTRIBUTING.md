@@ -417,21 +417,47 @@ The GitHub Actions workflow (`.github/workflows/validate.yml`) runs two passes:
 
 ### Metadata Field Reference <!-- 元数据字段参考 -->
 
-All 9 metadata fields are expected for Expert Verified skills. See [TEMPLATE.md](./TEMPLATE.md) for the full YAML example and [skill-writer.md §7.2](./skills/special/skill-writer.md) for the authoritative field specification.
-<!-- 所有 9 个元数据字段对于 Expert Verified 技能都是必需的。-->
+All metadata fields are expected for Expert Verified skills. The first five fields (`name`, `display_name`, `author`, `version`, `description`) are required by our validator. `when_to_use` and `compatibility` follow the [official Agent Skills standard](https://github.com/anthropics/skills). See [TEMPLATE.md](./TEMPLATE.md) for the full YAML example and [skill-writer.md §7.2](./skills/special/skill-writer.md) for the authoritative field specification.
+<!-- 所有元数据字段对于 Expert Verified 技能都是必需的。-->
 
-| Field / 字段 | Required / 必需 | Valid Values / 有效值 |
-|-------------|----------------|----------------------|
-| `name` | ✅ Required | lowercase, hyphen-separated |
-| `display_name` | ✅ Required | `English Name / 中文名称` |
-| `author` | ✅ Required | GitHub username or ID |
-| `version` | ✅ Required | semver `MAJOR.MINOR.PATCH` |
-| `description` | ✅ Required | Plain text only — no `<!-- HTML comments -->` |
-| `difficulty` | ⚠️ Recommended | `expert` / `intermediate` / `beginner` |
-| `category` | ⚠️ Recommended | Must match a `/skills/` subdirectory |
-| `tags` | ⚠️ Recommended | Array of 3–5 strings |
-| `platforms` | ⚠️ Recommended | Array from: `opencode`, `openclaw`, `claude`, `cursor`, `codex`, `cline`, `kimi` |
-| `quality` | ⚠️ Recommended | `basic` / `community` / `expert` / `exemplary` |
+| Field / 字段 | Required / 必需 | Valid Values / 有效值 | Standard / 来源 |
+|-------------|----------------|----------------------|----------------|
+| `name` | ✅ Required | kebab-case, max 64 chars; **must match parent folder name** if folder-based | Agent Skills |
+| `display_name` | ✅ Required | `English Name / 中文名称` | Awesome Skills |
+| `author` | ✅ Required | GitHub username or ID | Awesome Skills |
+| `version` | ✅ Required | semver `MAJOR.MINOR.PATCH` | Awesome Skills |
+| `description` | ✅ Required | Plain text only, max 1024 chars, no `<!-- HTML -->`. **Primary trigger signal — make it specific and "pushy"** | Agent Skills |
+| `difficulty` | ⚠️ Recommended | `expert` / `intermediate` / `beginner` | Awesome Skills |
+| `category` | ⚠️ Recommended | Must match a `/skills/` subdirectory | Awesome Skills |
+| `tags` | ⚠️ Recommended | Array of 3–5 strings | Awesome Skills |
+| `platforms` | ⚠️ Recommended | Array from: `opencode`, `openclaw`, `claude`, `cursor`, `codex`, `cline`, `kimi` | Awesome Skills |
+| `quality` | ⚠️ Recommended | `basic` / `community` / `expert` / `exemplary` | Awesome Skills |
+| `compatibility` | ⚠️ Optional | Required tools/deps e.g. `[python3, node]` | Agent Skills |
+| `when_to_use` | ⚠️ Optional | Explicit invocation conditions (supplements `description`) | Agent Skills |
+
+### Skill File vs. Folder Structure <!-- 文件 vs 文件夹结构 -->
+
+Awesome Skills supports two layouts:
+<!-- Awesome Skills 支持两种布局：-->
+
+**Option A — Flat file (simple skills):**
+```
+skills/{category}/{skill-name}.md
+```
+
+**Option B — Folder (recommended for complex/bundled skills, full Agent Skills compatibility):**
+```
+skills/{category}/{skill-name}/
+├── SKILL.md          ← required; name field must match folder name
+├── scripts/          ← executable helpers
+├── agents/           ← sub-agent instruction files
+├── references/       ← reference docs (not validated by CI)
+├── assets/           ← templates, icons, fonts
+└── evals/
+    └── evals.json    ← test cases
+```
+
+The folder format is **required** when bundling scripts, assets, or sub-agent files and enables full compatibility with Claude Code's `/plugin` system and GitHub Copilot.
 
 ---
 

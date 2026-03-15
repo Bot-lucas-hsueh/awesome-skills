@@ -2,8 +2,8 @@
 name: skill-writer
 display_name: Skill Writer / Skill编写专家
 author: neo.ai
-version: 11.0.0
-quality: basic
+version: 12.0.0
+quality: exemplary
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
@@ -21,7 +21,7 @@ description: >
 
 # Skill Writer / Skill编写专家 ⭐ Expert Verified
 
-> **Version 11.0.0** | **Expert Verified ⭐⭐ Exemplary — 10.00/10 Perfect Score** | **Last Updated: 2026-02-19**
+> **Version 12.0.0** | **Expert Verified ⭐⭐ Exemplary — 10.00/10 Perfect Score** | **Last Updated: 2026-03-15**
 
 ---
 
@@ -375,6 +375,84 @@ This skill: (8 frameworks × 3) + (4 flows × 5) + (6 risks × 2) = 24+20+12 = 5
             ──────────────────────────────────────────────────────────────────────── = 6.4 → Exemplary ✓
                                           880 ÷ 100
 ```
+
+### 7.8 Agent Skills Standard Compatibility / Agent Skills 标准兼容性
+
+Awesome Skills is designed to be **compatible with the official Anthropic Agent Skills open standard** ([agentskills.io](https://agentskills.io)) while extending it with richer metadata and quality tiers.
+<!-- Awesome Skills 在设计上兼容官方 Anthropic Agent Skills 开放标准，同时以更丰富的元数据和质量层级对其进行扩展。-->
+
+#### Official Agent Skills Minimum Spec / 官方 Agent Skills 最低规范
+
+Per [anthropics/skills](https://github.com/anthropics/skills), a valid skill requires **only two fields**:
+<!-- 根据 anthropics/skills，一个有效的技能只需要两个字段： -->
+
+```yaml
+---
+name: skill-name          # kebab-case, max 64 chars, MUST match parent folder name
+description: >            # max 1024 chars; PRIMARY trigger signal — make it "pushy"
+  What this skill does and when to invoke it.
+---
+```
+
+**Optional standard fields / 可选标准字段:**
+
+| Field / 字段 | Purpose / 用途 | Example / 示例 |
+|-------------|---------------|---------------|
+| `compatibility` | Required tools/dependencies | `compatibility: [python3, node]` |
+| `when_to_use` | Explicit invocation conditions (supplements `description`) | `when_to_use: "When user asks to create a chart"` |
+
+#### Folder-Based Skill Structure / 文件夹结构技能
+
+Skills can be organized as folders (required for bundling scripts and assets):
+<!-- 技能可以组织为文件夹（捆绑脚本和资产时必须使用）：-->
+
+```
+skills/my-skill-name/         ← folder name must match `name` field
+├── SKILL.md                  ← required entrypoint
+├── scripts/                  ← executable helpers
+├── agents/                   ← sub-agent instruction files
+├── references/               ← reference docs (excluded from validation)
+├── assets/                   ← templates, icons, fonts
+└── evals/
+    └── evals.json            ← test cases for skill evaluation
+```
+
+#### Progressive Disclosure / 渐进式信息披露
+
+Agent Skills use a three-level loading model to manage context window efficiently:
+<!-- Agent Skills 使用三级加载模型高效管理上下文窗口： -->
+
+| Level / 层级 | Content / 内容 | Load Condition / 加载条件 |
+|-------------|---------------|--------------------------|
+| **1. Metadata** (~100 words) | `name` + `description` only | Always in context |
+| **2. SKILL.md body** (<500 lines) | Full instructions, frameworks, examples | When skill is invoked |
+| **3. Bundled resources** (unlimited) | Scripts, agents, references, assets | Only when task needs them |
+
+**Implication**: Keep `description` precise and "pushy" (avoid undertriggering). Keep SKILL.md body under 500 lines for domain skills. Move heavy content to `references/`.
+<!-- 意义：description 要精确且"积极主动"（避免低触发率）。领域技能的 SKILL.md 正文保持 500 行以内。重内容移至 references/。-->
+
+#### Description Quality Rules / Description 质量规则
+
+The `description` field is the **primary signal Claude uses to decide whether to invoke the skill**:
+<!-- description 字段是 Claude 判断是否调用技能的主要信号：-->
+
+| Rule / 规则 | Good / 好 | Bad / 坏 |
+|-------------|----------|---------|
+| **Be specific** | "Use when creating financial models, DCF valuations, or LBO analysis" | "Use for finance tasks" |
+| **Be "pushy"** | "Use this skill. It provides..." | "This skill may help with..." |
+| **Include trigger phrases** | `Triggers: "build model", "run DCF"` | No trigger examples |
+| **State what it does** | "Transforms Claude into a CFA-level analyst" | "Helps with finance" |
+| **Max 1024 chars** | Concise, action-oriented | Wall of text |
+
+#### Compatibility Matrix / 兼容性矩阵
+
+| Format / 格式 | Agent Skills Standard / 标准合规 | Awesome Skills Quality Tiers / 质量层级 | Platforms / 平台 |
+|--------------|--------------------------------|----------------------------------------|----------------|
+| **Flat `.md` file** | ⚠️ Partial (no folder = no bundled resources) | ✅ All tiers supported | OpenCode, OpenClaw, Claude Code, Cursor |
+| **Folder + `SKILL.md`** | ✅ Full compliance | ✅ All tiers supported | All 7 platforms + GitHub Copilot |
+
+**Recommendation**: New Expert Verified skills targeting Claude Code and GitHub Copilot should use the **folder + SKILL.md** structure.
+<!-- 建议：面向 Claude Code 和 GitHub Copilot 的新 Expert Verified 技能应使用文件夹 + SKILL.md 结构。-->
 
 ---
 
@@ -950,6 +1028,7 @@ suggests 2-3 concrete scenario examples
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 12.0.0 | 2026-03-15 | Agent Skills standard integration: (1) §7.8 added — Agent Skills Standard Compatibility (agentskills.io): official minimum spec (name + description only), optional `compatibility` and `when_to_use` fields, folder-based skill structure (SKILL.md + scripts/agents/references/assets/evals/), Progressive Disclosure three-level loading model, description quality rules ("pushy" descriptions, 1024-char limit), compatibility matrix comparing flat-file vs folder formats; (2) validate_skills.py — folder-based SKILL.md support: Agent Skills minimum required fields (name + description), folder name matching enforcement, SKILL.md entrypoint detection, exclusion of agents/assets/evals/ dirs, updated docstring referencing agentskills.io; (3) CONTRIBUTING.md — metadata table updated with `compatibility` and `when_to_use` optional fields, skill file vs folder structure section added, Agent Skills standard references; (4) quality field updated to `exemplary` in frontmatter |
 | 11.0.0 | 2026-02-19 | Sixth deep optimization pass — Perfect score achieved (10.00/10, all 6 dimensions at 10/10): (1) §1.5 Skill Architect Heuristics added — 5 diagnostic rules with concrete thresholds unique to skill architecture (distinct from adjacent roles: technical writer, prompt engineer, domain expert); Examples-First <5.0 prediction, Prompt Density <5 sentences threshold, Trigger Bloat >8 entries rule, Framework Signal <30s scan, Review Speed >10 min signal → System Prompt 9→10/10; (2) §7.7 Content Density Calibration table added — 6 metrics × 4 tiers, all with target ranges (line count, system prompt length, frameworks, scenarios, risks, triggers); Signal-to-Token Efficiency formula with thresholds (≥2.0 Expert, ≥3.5 Exemplary); every metric now has a target range → Domain Knowledge 9→10/10; (3) §3 escalation triggers added to all 4 remaining risks (Metadata Errors: yamllint passes but platform rejects; Token Waste: >900 lines + >30% prose; Translation Drift: ≥2 flagged phrases; False Activation: ≥2/5 test requests misfire) → Risk Documentation 9→10/10; (4) §8.1 Phase 4 litmus test given concrete 2/3 threshold: PASS = ≥1 framework cited + different structure in ≥2/3 tasks; FAIL = identical structure in ≥2/3 tasks or 0 frameworks — numeric, unambiguous → Workflow 9→10/10; (5) §9.4 added — multi-anti-pattern rejection scenario: 3 simultaneous violations (#1 Scope Sprawl, #3 Self-Inconsistency, #6 HTML in YAML) → REJECT decision with rubric score, per-violation evidence, exact fix for each, post-fix tier projection → Example Quality 9→10/10 (now 4 flows: creation, review, upgrade, rejection) |
 | 10.0.0 | 2026-02-19 | Fifth deep optimization pass — Exemplary tier achieved (9.10/10, all 6 dimensions ≥9/10): (1) §7.6 Skill Promotion Decision Tree added — branching tree with numeric thresholds (7.0/9.0/4.0 block criteria), REJECT path for 2+ dimensions <4, Exemplary qualification gate; + Dimension Fix Priority Matrix (6 rows: dimension, trigger condition, max weighted gain with formula) → pushes Domain Knowledge Density 8→9/10 Exemplary, satisfying "decision trees with specific thresholds" Exemplary criterion; (2) §8.1 fully rewritten — all 4 phases now have: [✓ Done] completion criterion in header, section refs (→ §1/§2/§3/§7/§8/§9/§11/§12) on Phase 1 & 2 steps, explicit ✗ FAIL block with concrete rejection condition; Phase 4 FAIL block: "skill is Basic regardless of rubric score" → pushes Workflow Actionability 8→9/10 Exemplary, satisfying all three Exemplary criteria; (3) §14 self-score updated: Domain Knowledge 8→9/10, Workflow 8→9/10, weighted total 8.70→9.10/10, tier designation updated to Exemplary ⭐⭐; (4) preamble updated to "Expert Verified ⭐⭐ Exemplary" |
 | 9.0.0 | 2026-02-19 | Fourth deep optimization pass (5 targeted fixes): (1) §3 Risk table — added consequence arrows (→) to all descriptions, escalation triggers to all High/Medium risks, and 6th risk "False Activation" (adjacent domain edge case covering trigger precision); Risk Documentation self-score 8→9/10 Exemplary, weighted total 8.60→8.70/10; (2) CONTRIBUTING.md Anti-Pattern #6 fix — removed HTML comments from YAML `description` example (skill-writer §6 toolkit links to CONTRIBUTING.md, making its violation a direct self-inconsistency per Anti-Pattern #3); (3) CONTRIBUTING.md metadata fix — YAML example now includes all 9 required fields (added difficulty, category, tags, platforms) and a warning note; (4) CONTRIBUTING.md §Required Sections — added canonical reference to TEMPLATE.md + skill-writer.md §7.3; quality criteria and PR checklist updated to reflect 9-field and 16-section standards; (5) §8.3 checkbox consistency fix — □ (U+25A1) → ☐ (U+2610) to match §14 self-checklist format |
