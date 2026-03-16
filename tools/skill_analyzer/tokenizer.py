@@ -9,6 +9,9 @@ Checks:
 - SKILL.md body: <500 lines (folder) / <900 lines (meta)
 - HTML comment detection in YAML
 - Trigger verb position detection
+- Token count estimation (NEW)
+- API cost estimation in USD (NEW)
+- Token efficiency score (NEW)
 """
 
 import re
@@ -17,6 +20,23 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
 
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
+
+# Claude API pricing (input tokens) per 1M tokens, USD
+# Source: Anthropic pricing page (approximate reference rates)
+COST_PER_MILLION_TOKENS: Dict[str, float] = {
+    "claude-haiku-4-5": 0.80,
+    "claude-sonnet-4-6": 3.00,
+    "claude-opus-4-6": 15.00,
+}
+DEFAULT_MODEL = "claude-sonnet-4-6"
+
+# Token budget thresholds (skill loaded as system prompt at conversation start)
+# These reflect reasonable limits so that skill context doesn't crowd out
+# the user's own working context.
+TOKEN_BUDGET = {
+    "description": {"ok": 80, "warn": 120, "over": 200},   # tokens in description field
+    "body": {"ok": 1500, "warn": 3000, "over": 5000},       # tokens in SKILL.md body
+}
 
 
 def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, str]], str]:
@@ -220,6 +240,105 @@ def check_references_offload(body: str) -> Dict[str, Any]:
     }
 
 
+def estimate_token_count(text: str) -> int:
+    """Estimate token count for a text string.
+
+    Uses a character-based heuristic:
+    - CJK characters (Chinese/Japanese/Korean): ~1 token per character
+    - Other characters: ~4 characters per token (English/code average)
+
+    This is a rough approximation; actual tokenisation varies by model.
+    """
+    cjk_chars = len(re.findall(r"[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]", text))
+    other_chars = len(text) - cjk_chars
+    return int(cjk_chars * 1.0 + other_chars * 0.25)
+
+
+def estimate_api_cost(token_count: int, model: str = DEFAULT_MODEL) -> Dict[str, Any]:
+    """Estimate API cost for loading this skill as a system prompt.
+
+    Assumes the skill body is sent as input tokens each conversation turn.
+    Cost is calculated for a single conversation load (not per turn).
+    """
+    cost_per_million = COST_PER_MILLION_TOKENS.get(model, COST_PER_MILLION_TOKENS[DEFAULT_MODEL])
+    cost_usd = (token_count / 1_000_000) * cost_per_million
+
+    # Classify cost tier
+    if token_count <= TOKEN_BUDGET["body"]["ok"]:
+        tier = "efficient"
+    elif token_count <= TOKEN_BUDGET["body"]["warn"]:
+        tier = "moderate"
+    elif token_count <= TOKEN_BUDGET["body"]["over"]:
+        tier = "expensive"
+    else:
+        tier = "very_expensive"
+
+    return {
+        "token_count": token_count,
+        "model": model,
+        "cost_per_load_usd": round(cost_usd, 6),
+        "cost_per_100_loads_usd": round(cost_usd * 100, 4),
+        "cost_tier": tier,
+    }
+
+
+def score_token_efficiency(description_result: Dict[str, Any], body_result: Dict[str, Any], cost_result: Dict[str, Any]) -> Dict[str, Any]:
+    """Compute a composite token efficiency score (0-10).
+
+    Combines:
+    - Description budget compliance (40%)
+    - Body line budget compliance (40%)
+    - Absolute token count cost tier (20%)
+    """
+    desc_score = 0.0
+    body_score = 0.0
+    cost_score = 0.0
+
+    # Description budget
+    status = description_result.get("status", "MISSING")
+    if status == "OK":
+        ratio = description_result.get("char_count", 0) / max(description_result.get("limit", 1), 1)
+        if ratio <= 0.7:
+            desc_score = 10
+        elif ratio <= 0.9:
+            desc_score = 8
+        else:
+            desc_score = 6
+    elif status == "OVER_BUDGET":
+        ratio = description_result.get("char_count", 0) / max(description_result.get("limit", 1), 1)
+        desc_score = max(0.0, 6 - (ratio - 1.0) * 10)
+    else:
+        desc_score = 0  # MISSING
+
+    # Body line budget
+    body_status = body_result.get("status", "MISSING")
+    line_ratio = body_result.get("line_count", 0) / max(body_result.get("limit", 1), 1)
+    if body_status == "OK":
+        if line_ratio <= 0.5:
+            body_score = 10
+        elif line_ratio <= 0.8:
+            body_score = 8
+        else:
+            body_score = 6
+    else:
+        body_score = max(0.0, 6 - (line_ratio - 1.0) * 5)
+
+    # Cost tier
+    tier_scores = {"efficient": 10, "moderate": 7, "expensive": 4, "very_expensive": 1}
+    cost_score = tier_scores.get(cost_result.get("cost_tier", "expensive"), 4)
+
+    composite = desc_score * 0.40 + body_score * 0.40 + cost_score * 0.20
+    grade = "A" if composite >= 9 else "B" if composite >= 7 else "C" if composite >= 5 else "D"
+
+    return {
+        "score": round(composite, 2),
+        "grade": grade,
+        "desc_score": round(desc_score, 2),
+        "body_score": round(body_score, 2),
+        "cost_score": round(cost_score, 2),
+    }
+
+
 def analyze_token_budget(file_path: Path, total_skills: int = 40) -> Dict[str, Any]:
     """Analyze token budget for a single skill."""
     try:
@@ -276,6 +395,28 @@ def analyze_token_budget(file_path: Path, total_skills: int = 40) -> Dict[str, A
     # Check references offload
     results["references"] = check_references_offload(body)
 
+    # ── NEW: Token count & API cost estimation ────────────────────────────
+    body_tokens = estimate_token_count(body)
+    results["token_count"] = body_tokens
+    results["api_cost"] = estimate_api_cost(body_tokens)
+
+    # Description token count
+    if fm and "description" in fm:
+        desc_tokens = estimate_token_count(fm.get("description", ""))
+        results["description"]["token_count"] = desc_tokens
+        results["description"]["token_budget_status"] = (
+            "OK" if desc_tokens <= TOKEN_BUDGET["description"]["ok"]
+            else "WARN" if desc_tokens <= TOKEN_BUDGET["description"]["warn"]
+            else "OVER"
+        )
+
+    # ── NEW: Composite token efficiency score ─────────────────────────────
+    results["token_efficiency"] = score_token_efficiency(
+        results.get("description", {}),
+        results["body"],
+        results["api_cost"],
+    )
+
     # Overall status
     has_issues = (
         results["description"].get("status") == "OVER_BUDGET"
@@ -316,6 +457,8 @@ def print_token_summary(results: List[Dict[str, Any]]) -> None:
     over_desc = 0
     over_body = 0
     html_issues = 0
+    total_tokens = 0
+    total_cost_usd = 0.0
 
     for r in results:
         if "error" in r:
@@ -327,19 +470,27 @@ def print_token_summary(results: List[Dict[str, Any]]) -> None:
             over_body += 1
         if r.get("html_in_yaml"):
             html_issues += 1
+        total_tokens += r.get("token_count", 0)
+        total_cost_usd += r.get("api_cost", {}).get("cost_per_load_usd", 0.0)
 
     console.print("\n[bold]Token Budget Summary[/bold]")
     console.print(f"  Skills analyzed: {len(results)}")
     console.print(f"  Description over budget: {over_desc}")
     console.print(f"  Body over budget: {over_body}")
     console.print(f"  HTML in YAML: {html_issues}")
+    console.print(f"\n[bold]Cost Estimation (loading all skills once)[/bold]")
+    console.print(f"  Total body tokens: {total_tokens:,}")
+    console.print(f"  Estimated API cost ({DEFAULT_MODEL}): ${total_cost_usd:.4f} USD")
+    console.print(f"  Est. cost per 100 full loads: ${total_cost_usd * 100:.2f} USD")
 
     # Show problematic skills
     console.print("\n[bold yellow]Skills with Token Issues[/bold yellow]")
     table = Table(show_header=True)
     table.add_column("Skill")
-    table.add_column("Issue Type")
-    table.add_column("Details")
+    table.add_column("Tokens")
+    table.add_column("Cost/load")
+    table.add_column("Efficiency")
+    table.add_column("Issue")
 
     for r in results:
         if "error" in r:
@@ -348,15 +499,24 @@ def print_token_summary(results: List[Dict[str, Any]]) -> None:
         issues = []
         if r.get("description", {}).get("status") == "OVER_BUDGET":
             d = r["description"]
-            issues.append(f"Desc: {d['char_count']}/{d['limit']}")
+            issues.append(f"Desc: {d['char_count']}/{d['limit']}ch")
         if r.get("body", {}).get("status") == "OVER_BUDGET":
             b = r["body"]
-            issues.append(f"Body: {b['line_count']}/{b['limit']}")
+            issues.append(f"Body: {b['line_count']}/{b['limit']}L")
         if r.get("html_in_yaml"):
-            issues.append(f"HTML: {len(r['html_in_yaml'])} issues")
+            issues.append(f"HTML: {len(r['html_in_yaml'])}")
 
-        if issues:
-            table.add_row(r["skill"], ", ".join(issues[:2]), r["path"])
+        cost = r.get("api_cost", {})
+        eff = r.get("token_efficiency", {})
+
+        if issues or cost.get("cost_tier") in ("expensive", "very_expensive"):
+            table.add_row(
+                r["skill"],
+                str(r.get("token_count", "?")),
+                f"${cost.get('cost_per_load_usd', 0):.5f}",
+                f"{eff.get('score', '?')}/10 ({eff.get('grade', '?')})",
+                ", ".join(issues) or cost.get("cost_tier", ""),
+            )
 
     console.print(table)
 

@@ -7,6 +7,7 @@ Usage:
     python -m tools.skill_analyzer.cli tokenizer --path skills/software/backend-developer/SKILL.md
     python -m tools.skill_analyzer.cli structure
     python -m tools.skill_analyzer.cli antipattern
+    python -m tools.skill_analyzer.cli gate --path skills/software/backend-developer/SKILL.md
     python -m tools.skill_analyzer.cli all
 """
 
@@ -41,9 +42,12 @@ def cmd_score(args):
             console = Console()
             console.print(f"[bold]{result['skill']}[/bold] ({result['category']})")
             console.print(f"Score: {result['weighted_avg']}/10 ({result['tier']})")
+            console.print(f"Estimated tokens: {result.get('estimated_tokens', '?'):,}")
             console.print("\n[bold]Dimension Scores:[/bold]")
+            # Group dimensions: original 6 + new 2
             for dim, score in result["scores"].items():
-                console.print(f"  {dim}: {score}/10")
+                tag = " [NEW]" if dim in ("content_efficiency", "token_cost_efficiency") else ""
+                console.print(f"  {dim}{tag}: {score}/10")
     else:
         results = scorer.score_all_skills()
 
@@ -195,6 +199,42 @@ def cmd_antipattern(args):
             antipattern.print_antipattern_summary(results)
 
 
+def cmd_gate(args):
+    """Run the quality gate check (enforces thresholds)."""
+    import sys
+    from pathlib import Path
+
+    repo_root = Path(__file__).parent.parent.parent
+    gate_script = repo_root / ".github" / "scripts" / "quality_gate.py"
+
+    # Build argument list for quality_gate.py
+    gate_args = []
+    if args.all:
+        gate_args.append("--all")
+    elif args.path:
+        gate_args.append(args.path)
+
+    gate_args += [
+        "--min-score", str(args.min_score),
+        "--max-tokens", str(args.max_tokens),
+        "--max-desc-chars", str(args.max_desc_chars),
+        "--total-skills", str(args.total_skills),
+        "--output", args.output,
+    ]
+
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("quality_gate", gate_script)
+    mod = importlib.util.module_from_spec(spec)
+    # Patch sys.argv so quality_gate.main() sees our args
+    old_argv = sys.argv
+    sys.argv = ["quality_gate"] + gate_args
+    try:
+        spec.loader.exec_module(mod)
+        sys.exit(mod.main())
+    finally:
+        sys.argv = old_argv
+
+
 def cmd_all(args):
     """Run all analyzers."""
     import sys
@@ -251,6 +291,32 @@ def cmd_all(args):
     console.print(f"  🔴 High: {high}")
     console.print(f"  🟡 Medium: {medium}")
 
+    console.print("\n[bold]Token Cost Summary:[/bold]")
+    total_tokens = sum(r.get("token_count", 0) for r in token_results if "error" not in r)
+    total_cost = sum(
+        r.get("api_cost", {}).get("cost_per_load_usd", 0.0) for r in token_results if "error" not in r
+    )
+    console.print(f"  Total body tokens: {total_tokens:,}")
+    console.print(f"  Est. API cost (all skills, 1 load, claude-sonnet-4-6): ${total_cost:.4f} USD")
+    console.print(f"  Est. API cost per 100 loads: ${total_cost * 100:.2f} USD")
+
+    console.print("\n[bold]New Dimensions (content_efficiency & token_cost_efficiency):[/bold]")
+    eff_scores = [
+        r["scores"].get("content_efficiency", 0)
+        for r in score_results
+        if "error" not in r and "scores" in r
+    ]
+    tok_scores = [
+        r["scores"].get("token_cost_efficiency", 0)
+        for r in score_results
+        if "error" not in r and "scores" in r
+    ]
+    if eff_scores:
+        avg_eff = sum(eff_scores) / len(eff_scores)
+        avg_tok = sum(tok_scores) / len(tok_scores)
+        console.print(f"  Avg content_efficiency:      {avg_eff:.2f}/10")
+        console.print(f"  Avg token_cost_efficiency:   {avg_tok:.2f}/10")
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -288,6 +354,20 @@ def main():
     anti_parser.add_argument("--output", "-o", choices=["json", "text"], default="text")
     anti_parser.add_argument("--fail-on", choices=["high", "medium", "low"])
     anti_parser.set_defaults(func=cmd_antipattern)
+
+    # Gate command (CI quality gate — enforces thresholds)
+    gate_parser = subparsers.add_parser(
+        "gate",
+        help="Run CI quality gate (enforces score/token thresholds, exits 1 on failure)",
+    )
+    gate_parser.add_argument("--path", "-p", help="Specific skill path to gate-check")
+    gate_parser.add_argument("--all", action="store_true", help="Check all skills")
+    gate_parser.add_argument("--min-score", type=float, default=4.0, help="Min quality score (default: 4.0)")
+    gate_parser.add_argument("--max-tokens", type=int, default=6000, help="Max body token count (default: 6000)")
+    gate_parser.add_argument("--max-desc-chars", type=int, default=400, help="Max description chars (default: 400)")
+    gate_parser.add_argument("--total-skills", type=int, default=40, help="Total installed skills (default: 40)")
+    gate_parser.add_argument("--output", "-o", choices=["text", "json"], default="text")
+    gate_parser.set_defaults(func=cmd_gate)
 
     # All command
     all_parser = subparsers.add_parser("all", help="Run all analyzers")

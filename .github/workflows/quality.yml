@@ -3,9 +3,10 @@
 # This workflow runs comprehensive quality checks on skill files:
 # 1. YAML/Markdown linting
 # 2. Structure validation
-# 3. Quality scoring
-# 4. Token budget check
+# 3. Quality scoring (8 dimensions, including content efficiency & token cost)
+# 4. Token budget check (with API cost estimation)
 # 5. Anti-pattern scanning
+# 6. Quality Gate — blocks PRs that fall below quality thresholds (NEW)
 
 name: Skill Quality Check
 
@@ -88,7 +89,7 @@ jobs:
             skills/research/ \
             skills/special/
 
-  # Job 3: Quality Analysis
+  # Job 3: Quality Analysis (informational — always runs, does not block)
   quality:
     name: Quality Analysis
     runs-on: ubuntu-latest
@@ -107,11 +108,11 @@ jobs:
       - name: Install tools
         run: pip install -e ./tools/
 
-      - name: Run quality scoring
+      - name: Run quality scoring (8 dimensions)
         run: python -m tools.skill_analyzer.cli score --output json > scores.json
         continue-on-error: true
 
-      - name: Run token budget check
+      - name: Run token budget check (with cost estimation)
         run: python -m tools.skill_analyzer.cli tokenizer --output json > tokens.json
         continue-on-error: true
 
@@ -130,7 +131,52 @@ jobs:
             antipatterns.json
           retention-days: 7
 
-  # Job 4: Dashboard (main branch only)
+  # Job 4: Quality Gate (BLOCKING — fails PR if quality thresholds not met)
+  quality-gate:
+    name: Quality Gate (Blocking)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    needs: validate  # run after structure validation passes
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history needed for git diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      - name: Install tools
+        run: pip install -e ./tools/
+
+      - name: Identify changed skill files
+        id: changed
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'skills/**/*.md' | grep -E 'SKILL\.md$' || true)
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "count=$(echo "$CHANGED" | grep -c . || echo 0)" >> $GITHUB_OUTPUT
+
+      - name: Run quality gate on changed skills
+        if: steps.changed.outputs.count != '0'
+        run: |
+          echo "${{ steps.changed.outputs.files }}" | \
+            python3 .github/scripts/quality_gate.py --stdin \
+              --min-score 4.0 \
+              --max-tokens 6000 \
+              --max-desc-chars 400
+
+      - name: No skill files changed
+        if: steps.changed.outputs.count == '0'
+        run: echo "No SKILL.md files changed — quality gate skipped."
+
+  # Job 5: Dashboard (main branch only)
   dashboard:
     name: Update Dashboard
     runs-on: ubuntu-latest

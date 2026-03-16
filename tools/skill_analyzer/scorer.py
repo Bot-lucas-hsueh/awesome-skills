@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-Skill Scorer - 6-Dimension Quality Scoring Engine
+Skill Scorer - 8-Dimension Quality Scoring Engine
 
 Based on skill-writer/references/standards.md §7.1 Quality Rubric
 
 Scoring Dimensions:
-- System Prompt Depth (20%)
-- Domain Knowledge Density (25%)
-- Workflow Actionability (15%)
-- Risk Documentation (10%)
-- Example Quality (20%)
-- Metadata Completeness (10%)
+- System Prompt Depth (18%)
+- Domain Knowledge Density (22%)
+- Workflow Actionability (13%)
+- Risk Documentation (9%)
+- Example Quality (17%)
+- Metadata Completeness (8%)
+- Content Efficiency (8%)       [NEW] 内容效率：信噪比、去重、结构清晰度
+- Token Cost Efficiency (5%)    [NEW] Token成本效率：描述/正文 token 预算达标率
 """
 
 import json
@@ -24,14 +26,16 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
 
-# Scoring weights from standards.md §7.1
+# Scoring weights from standards.md §7.1 (updated to include new dimensions)
 WEIGHTS = {
-    "system_prompt": 0.20,
-    "domain_knowledge": 0.25,
-    "workflow": 0.15,
-    "risk_documentation": 0.10,
-    "example_quality": 0.20,
-    "metadata": 0.10,
+    "system_prompt": 0.18,
+    "domain_knowledge": 0.22,
+    "workflow": 0.13,
+    "risk_documentation": 0.09,
+    "example_quality": 0.17,
+    "metadata": 0.08,
+    "content_efficiency": 0.08,    # 内容效率：信噪比 / 去重 / 结构清晰度
+    "token_cost_efficiency": 0.05, # Token成本效率：description+body 预算达标率
 }
 
 # 16 standard sections
@@ -328,6 +332,148 @@ def analyze_metadata(fm: Optional[Dict[str, str]], body: str) -> float:
     return min(score, 10)
 
 
+def analyze_content_efficiency(body: str) -> float:
+    """Score Content Efficiency (0-10).
+
+    Measures signal-to-noise ratio:
+    - Penalizes repetitive paragraphs / duplicate sentences
+    - Penalizes prose walls (paragraphs > 8 lines without structure)
+    - Rewards balanced use of lists, tables, and code blocks vs. plain text
+    - Rewards short, tight sections over padded filler
+    """
+    score = 5.0  # baseline
+
+    lines = body.splitlines()
+    non_empty = [l for l in lines if l.strip()]
+
+    if not non_empty:
+        return 1.0
+
+    # ── 1. Repetition penalty ─────────────────────────────────────────────
+    # Find near-duplicate lines (exact match after stripping punctuation/spaces)
+    normalized = [re.sub(r"[\s\W]+", " ", l.strip().lower()) for l in non_empty if len(l.strip()) > 20]
+    seen: set = set()
+    duplicates = 0
+    for n in normalized:
+        if n in seen:
+            duplicates += 1
+        seen.add(n)
+    dup_ratio = duplicates / max(len(normalized), 1)
+    if dup_ratio > 0.15:
+        score -= 3
+    elif dup_ratio > 0.08:
+        score -= 1.5
+    elif dup_ratio > 0.03:
+        score -= 0.5
+
+    # ── 2. Prose-wall penalty (consecutive plain-text paragraphs) ─────────
+    # Count runs of >6 consecutive non-empty, non-special lines
+    prose_run = 0
+    max_prose_run = 0
+    for l in non_empty:
+        stripped = l.strip()
+        is_structured = stripped.startswith(("#", "|", "-", "*", ">", "```", "1", "2", "3", "4", "5", "6", "7", "8", "9"))
+        if not is_structured:
+            prose_run += 1
+            max_prose_run = max(max_prose_run, prose_run)
+        else:
+            prose_run = 0
+
+    if max_prose_run > 10:
+        score -= 2
+    elif max_prose_run > 6:
+        score -= 1
+
+    # ── 3. Structural diversity reward ───────────────────────────────────
+    has_list = bool(re.search(r"^[-*]\s", body, re.MULTILINE))
+    has_table = bool(re.search(r"^\|", body, re.MULTILINE))
+    has_code = bool(re.search(r"^```", body, re.MULTILINE))
+    has_numbered = bool(re.search(r"^\d+\.\s", body, re.MULTILINE))
+
+    diversity = sum([has_list, has_table, has_code, has_numbered])
+    score += diversity * 0.75  # up to +3
+
+    # ── 4. Body length efficiency ─────────────────────────────────────────
+    # Very short bodies lack substance; very long bodies may be padded
+    line_count = len(non_empty)
+    if 80 <= line_count <= 400:
+        score += 1.5
+    elif 40 <= line_count < 80:
+        score += 0.5
+    elif line_count > 600:
+        score -= 1
+
+    return round(max(0.0, min(10.0, score)), 2)
+
+
+def estimate_token_count(text: str) -> int:
+    """Rough token estimate: ~0.25 tokens/char for English, more for CJK."""
+    cjk_chars = len(re.findall(r"[\u4e00-\u9fff\u3040-\u30ff]", text))
+    other_chars = len(text) - cjk_chars
+    # CJK: roughly 1 token per char; Latin: ~4 chars per token
+    return int(cjk_chars * 1.0 + other_chars * 0.25)
+
+
+def analyze_token_cost_efficiency(fm: Optional[Dict[str, str]], body: str, total_skills: int = 40) -> float:
+    """Score Token Cost Efficiency (0-10).
+
+    Evaluates how well the skill manages its token footprint:
+    - Description within character budget (per total_skills tier)
+    - Body within line budget (<500 lines for regular skills)
+    - Proper use of references/ offload pattern
+    - Token count vs. information density
+    """
+    score = 5.0
+
+    # ── 1. Description budget ─────────────────────────────────────────────
+    if fm and "description" in fm:
+        desc = fm.get("description", "")
+        desc_chars = len(desc)
+        if total_skills < 40:
+            desc_limit = 263
+        elif total_skills < 60:
+            desc_limit = 150
+        else:
+            desc_limit = 130
+
+        ratio = desc_chars / max(desc_limit, 1)
+        if ratio <= 0.80:
+            score += 2    # well within budget
+        elif ratio <= 1.0:
+            score += 1    # within budget
+        elif ratio <= 1.2:
+            score -= 1    # slightly over
+        else:
+            score -= 3    # significantly over budget
+    else:
+        score -= 2  # missing description
+
+    # ── 2. Body line budget ───────────────────────────────────────────────
+    non_empty_lines = len([l for l in body.splitlines() if l.strip()])
+    if non_empty_lines <= 400:
+        score += 2
+    elif non_empty_lines <= 500:
+        score += 1
+    elif non_empty_lines <= 700:
+        score -= 1
+    else:
+        score -= 2
+
+    # ── 3. References offload reward ─────────────────────────────────────
+    # Skills that offload detail to references/ keep body lean
+    if re.search(r"references/|→.*?\.md", body, re.IGNORECASE):
+        score += 1
+
+    # ── 4. Token density penalty (very high absolute token count) ─────────
+    total_tokens = estimate_token_count(body)
+    if total_tokens > 8000:
+        score -= 2
+    elif total_tokens > 5000:
+        score -= 1
+
+    return round(max(0.0, min(10.0, score)), 2)
+
+
 def calculate_weighted_score(scores: Dict[str, float]) -> float:
     """Calculate weighted average score."""
     total = 0
@@ -377,6 +523,14 @@ def get_gaps(scores: Dict[str, float]) -> List[Dict[str, Any]]:
             "threshold": 7,
             "suggestion": "Complete all 9 YAML fields, add Version History and License sections",
         },
+        "content_efficiency": {
+            "threshold": 6,
+            "suggestion": "Reduce duplicate/repetitive lines, break up prose walls with lists/tables/code blocks, keep body under 400 non-empty lines",
+        },
+        "token_cost_efficiency": {
+            "threshold": 6,
+            "suggestion": "Keep description within char budget (<263 chars), body under 500 lines, offload large reference content to references/ folder",
+        },
     }
 
     for dimension, data in gap_suggestions.items():
@@ -409,6 +563,8 @@ def score_skill(file_path: Path) -> Dict[str, Any]:
         "risk_documentation": analyze_risk_documentation(body),
         "example_quality": analyze_example_quality(body),
         "metadata": analyze_metadata(fm, body),
+        "content_efficiency": analyze_content_efficiency(body),
+        "token_cost_efficiency": analyze_token_cost_efficiency(fm, body),
     }
 
     weighted_avg = calculate_weighted_score(scores)
@@ -447,6 +603,7 @@ def score_skill(file_path: Path) -> Dict[str, Any]:
         "section_count": count_h2_sections(body),
         "code_blocks": count_code_blocks(body),
         "tables": count_tables(body),
+        "estimated_tokens": estimate_token_count(body),
     }
 
 
