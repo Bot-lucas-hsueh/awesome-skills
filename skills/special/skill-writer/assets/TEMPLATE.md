@@ -8,10 +8,14 @@ category: category-name                          # Must match a /skills/ subdire
 tags: [tag1, tag2, tag3]                         # 3-5 searchable tags
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  [Role description]. Use when [trigger conditions].
+  [Invoke when: exact trigger condition]. [What the skill does — measurable output].
   Triggers: "keyword1", "keyword2", "keyword3"
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
+
+<!-- description tip: The model scans `description` to decide IF to activate this skill.
+     Write as "invoke when [exact condition]", not as a summary of what the skill does.
+     Front-load the primary trigger verb in the first 50 chars. Keep ≤263 chars. -->
 
 # Example Expert Skill
 
@@ -184,6 +188,31 @@ Step 2: [Description]
 Step 3: [Description with expected output]
 ```
 
+### 8.3 Initial Setup (if needed)
+
+```
+If config.json not found in skill directory:
+├── Ask user for: [required field 1], [required field 2]
+├── Write to skill-dir/config.json: {"field1": value, "field2": value}
+└── Confirm setup complete; proceed with main workflow
+
+On subsequent runs: read config.json silently, no prompts.
+```
+
+### 8.4 On-Demand Hooks (if applicable)
+
+```
+Hooks registered when this skill is invoked (session-scoped, not permanent):
+├── Hook type: PreToolUse / PostToolUse / [other]
+├── Trigger pattern: [specific matcher — narrow scope]
+├── Action: [what the hook does]
+└── Script: scripts/hooks/[hook-name].sh
+
+To disable: [disable command or restart session]
+```
+
+> Skip §8.3–§8.4 if skill needs no setup or hooks.
+
 ---
 
 ## 9. Scenario Examples
@@ -212,17 +241,19 @@ Step 3: [Description with expected output]
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## 10. Gotchas & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **[Name]** | 🔴 High | [Domain-specific fix] |
-| 2 | **[Name]** | 🟡 Medium | [Fix] |
-| 3 | **[Name]** | 🟢 Low | [Fix] |
+> **Gotchas** = Claude's observed failure points when using this skill. Update this section as new failures are discovered — this is the most information-dense part of any skill.
+
+| # | Gotcha / Anti-Pattern | Severity | Fix |
+|---|----------------------|----------|-----|
+| 1 | **[Real failure Claude made]** | 🔴 High | [Specific corrective instruction] |
+| 2 | **[Real failure Claude made]** | 🟡 Medium | [Fix] |
+| 3 | **[Edge case or wrong default]** | 🟢 Low | [Fix] |
 
 ```
-❌ [Specific wrong approach in this domain]
-✅ [Correct approach — measurably different, domain-specific]
+❌ [Claude's actual wrong behavior in this domain]
+✅ [Correct behavior — domain-specific, observed from real runs]
 ```
 
 ---

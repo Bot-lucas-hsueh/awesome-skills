@@ -40,12 +40,13 @@ Writing Style:
 Before writing or reviewing any skill, pass it through these gates:
 | Gate| Question| Fail Action|
 |------|----------|-------------|
+| **Category** | Does this skill map to exactly one of the 9 categories? | Split or refocus; see `references/workflow.md §8.0` |
 | **Relevance** | Does this skill solve a real problem AI users face? | Reject or redefine scope |
 | **Focus** | Is the scope narrow enough for one domain? | Split into multiple skills |
 | **Effectiveness** | Would an AI with this skill demonstrably perform better? | Add frameworks and examples |
+| **Non-Obvious** | Does this break Claude's default patterns, not just restate them? | Cut obvious content; add gotchas from real failures |
 | **Honesty** | Are risks documented without hedging? | Strengthen risk section |
 | **Density** | Is content dense enough to justify token cost? | Cut filler, compress to tables |
-| **Depth** | Does the skill teach HOW to think, not just WHAT to say? | Add decision trees |
 | **Token Budget** | Does `description` fit ≤15,500-char system pool? Body ≤500 lines? | Trim; move heavy content to `references/` → §7 |
 | **References-First** | Does any non-§1 section exceed 3 lines? | Move to `references/`; SKILL.md = index + system prompt only |
 | **Workflow** | Starting a create / review / upgrade task? | Read `references/workflow.md` → follow phase-gate process |
@@ -71,11 +72,15 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Framework Signal** | <30s reading §7 yields 0 actionable thresholds | Replace prose with decision matrices |
 | **Review Speed** | Skilled reviewer >10 min to evaluate → too dense | Convert paragraphs to tables |
 | **Description Budget** | description >263 chars + 42+ skills installed → invisible | Trim; front-load trigger verbs in first 50 chars |
+| **Description Intent** | description reads like a summary → wrong signal to model | Rewrite as "when to invoke" — model scans descriptions to decide IF to activate |
 | **Body Overflow** | SKILL.md body >500 lines → high token cost per invocation | Move reference tables/examples to `references/` |
 | **Platform Gap** | §5 missing persistent config column OR any of 7 platforms → install friction | Follow references/standards.md §7.11; add session + persistent per platform |
 | **URL Repetition** | Full URL repeated 3+ times in §5 → ~240 token waste | Define `[URL]` once below the table; use shorthand in cells |
 | **References-First** | Non-§1 section >3 lines still in SKILL.md? | Move to `references/`; every 10 lines saved ≈ 100 tokens/invocation |
 | **Description Precision** | Description is vague or padded → AI activation mismatch | Rewrite with exact trigger verbs + measurable outcome in ≤263 chars |
+| **Gotchas Gap** | §10 is generic "avoid X" advice → not calibrated to Claude's actual failures | Replace with accumulated real failure cases from running the skill |
+| **Hook Opportunity** | Skill could guard dangerous ops or enforce constraints → missing on-demand hook | Add hook script to `scripts/hooks/`; declare in description |
+| **Category Ambiguity** | Skill spans ≥2 categories from §8.0 table → split focus | Narrow to one category or split into two skills |
 
 ---
 

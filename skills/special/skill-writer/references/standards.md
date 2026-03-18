@@ -217,6 +217,14 @@ Skills over budget: COMPLETELY INVISIBLE (no warning)
 
 **Description rules:** Front-load trigger verbs · Be "pushy" (use imperative) · No HTML comments · State measurable outcome · Include 3–5 trigger phrases · Max 1024 chars
 
+**Critical intent rule:** `description` is scanned by the model at session start to decide IF this skill should activate. It is NOT a user-facing summary. Write it as a trigger condition: "Use when [exact situation]" not "This skill helps with [topic]".
+
+| Description Anti-Pattern | Fix |
+|--------------------------|-----|
+| "Helps you work with billing APIs" | "Use when writing code against billing-lib; prevents common footguns" |
+| "A tool for reviewing code quality" | "Invoke for code review; runs adversarial subagent, enforces team style" |
+| "Useful for deployments" | "Run before deploying [service]; smoke-test → progressive rollout → auto-rollback" |
+
 ### Budget 2 — SKILL.md Body
 
 | Metric | Limit | Cost If Exceeded |
@@ -319,11 +327,17 @@ echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 | ☐ At least 2 full conversation scenario flows | Example Quality |
 | ☐ Workflow has 3+ phases with [✓ Done] criteria and ✗ FAIL blocks | Workflow Actionability |
 | ☐ Domain frameworks have numeric thresholds — not generic lists | Domain Knowledge Density |
+| ☐ §10 Gotchas derived from real Claude failure points, not generic advice | Domain Knowledge Density |
 | ☐ English primary; Chinese in ``; `/` separator in table cells | (Format Standard) |
 | ☐ No filler — every line earns its token cost | Domain Knowledge Density |
 | ☐ Weighted average ≥ 7.0 for Expert ⭐; ≥ 9.0 for Exemplary ⭐⭐ | All dimensions |
 | ☐ SKILL.md body ≤ 500 lines (folder skills) / ≤ 900 lines (meta-skill flat files) | Token Budget |
 | ☐ Description ≤ 263 chars; no HTML comments; trigger verbs front-loaded | Token Budget |
+| ☐ Description written as "when to invoke" condition, not a summary | Token Budget |
 | ☐ References-First: every non-§1 section >3 lines has been moved to `references/` | Token Budget |
 | ☐ Description uses precise trigger verbs; no vague openers; measurable outcome stated | Token Budget |
+| ☐ Skill maps to exactly one category from workflow.md §8.0 | System Prompt Depth |
+| ☐ If skill registers hooks: declared in description + script in `scripts/hooks/` | System Prompt Depth |
+| ☐ If skill needs user setup: config.json pattern documented in §8 or §13 | Workflow Actionability |
+| ☐ If skill stores state: uses `${CLAUDE_PLUGIN_DATA}` not skill directory | Workflow Actionability |
 | ☐ Zero self-inconsistencies: skill follows every rule it defines | System Prompt Depth |
