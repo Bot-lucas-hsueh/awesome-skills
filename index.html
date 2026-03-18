@@ -358,79 +358,174 @@
             color: var(--gray);
         }
         
-        /* Donate Button */
+        /* Donate Button - Terminal Style */
         .donate-btn {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background: linear-gradient(135deg, var(--accent), #f97316);
-            color: white;
-            border: none;
+            background: #0d1117;
+            color: #4ade80;
+            border: 2px solid #4ade80;
             padding: 0.75rem 1.25rem;
-            border-radius: 50px;
             cursor: pointer;
             font-weight: 600;
-            font-size: 0.9rem;
-            box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
-            transition: all 0.3s;
+            font-size: 0.85rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            transition: all 0.2s;
             z-index: 999;
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
         }
         .donate-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);
+            background: #4ade80;
+            color: #0d1117;
+            text-shadow: none;
+            box-shadow: 0 0 20px rgba(74, 222, 128, 0.5);
+        }
+        .donate-btn::before {
+            content: '$';
+            color: #fbbf24;
         }
         
-        /* QR Modal */
-        .qr-modal-overlay {
+        /* Terminal Modal */
+        .terminal-overlay {
             display: none;
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.9);
             z-index: 1001;
             align-items: center;
             justify-content: center;
             padding: 2rem;
         }
-        .qr-modal-overlay.active { display: flex; }
-        .qr-modal {
-            background: var(--dark-light);
-            border-radius: 16px;
-            padding: 2rem;
-            max-width: 400px;
+        .terminal-overlay.active { display: flex; }
+        .terminal-window {
+            background: #0d1117;
+            border: 2px solid #30363d;
+            border-radius: 8px;
+            max-width: 600px;
             width: 100%;
-            text-align: center;
-            position: relative;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            box-shadow: 0 0 50px rgba(74, 222, 128, 0.1);
+            overflow: hidden;
         }
-        .qr-modal h3 {
-            color: var(--white);
-            margin-bottom: 1rem;
+        .terminal-header {
+            background: #161b22;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px solid #30363d;
         }
-        .qr-modal p {
-            color: var(--gray-light);
+        .terminal-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        .terminal-dot.red { background: #ff5f56; }
+        .terminal-dot.yellow { background: #ffbd2e; }
+        .terminal-dot.green { background: #27c93f; }
+        .terminal-title {
+            color: #8b949e;
+            font-size: 0.8rem;
+            margin-left: auto;
+        }
+        .terminal-body {
+            padding: 1.5rem;
+            color: #c9d1d9;
             font-size: 0.9rem;
-            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            max-height: 70vh;
+            overflow-y: auto;
         }
-        .qr-modal img {
-            max-width: 280px;
-            width: 100%;
-            border-radius: 12px;
-            margin-bottom: 1rem;
+        .terminal-body::-webkit-scrollbar {
+            width: 8px;
         }
-        .qr-close {
+        .terminal-body::-webkit-scrollbar-track {
+            background: #0d1117;
+        }
+        .terminal-body::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 4px;
+        }
+        .terminal-prompt {
+            color: #4ade80;
+        }
+        .terminal-prompt::before {
+            content: 'neo@awesome-skills:~$ ';
+            color: #fbbf24;
+        }
+        .terminal-text {
+            color: #58a6ff;
+        }
+        .terminal-success {
+            color: #4ade80;
+        }
+        .terminal-warning {
+            color: #fbbf24;
+        }
+        .terminal-dim {
+            color: #8b949e;
+        }
+        .terminal-ascii {
+            color: #a78bfa;
+            white-space: pre;
+            font-size: 0.7rem;
+            line-height: 1.2;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        .terminal-qr {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 4px;
+        }
+        .terminal-qr pre {
+            color: #4ade80;
+            font-size: 0.5rem;
+            line-height: 1;
+            margin: 0;
+            text-align: center;
+        }
+        .terminal-footer {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px dashed #30363d;
+        }
+        .terminal-btn {
+            background: transparent;
+            border: 1px solid #4ade80;
+            color: #4ade80;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+        .terminal-btn:hover {
+            background: #4ade80;
+            color: #0d1117;
+        }
+        .terminal-close {
             position: absolute;
             top: 1rem;
             right: 1rem;
             background: none;
             border: none;
-            color: var(--gray-light);
+            color: #8b949e;
             font-size: 1.5rem;
             cursor: pointer;
+            transition: color 0.2s;
+        }
+        .terminal-close:hover {
+            color: #ff5f56;
         }
     </style>
 </head>
@@ -500,20 +595,38 @@
     </footer>
 
     <!-- Donate Button -->
-    <button class="donate-btn" onclick="openQRModal()">
-        <span>☕</span>
-        <span>Buy me a coffee</span>
+    <button class="donate-btn" onclick="openTerminal()">
+        <span>support</span>
     </button>
 
-    <!-- QR Code Modal -->
-    <div class="qr-modal-overlay" id="qrModalOverlay" onclick="closeQRModal(event)">
-        <div class="qr-modal" onclick="event.stopPropagation()">
-            <button class="qr-close" onclick="closeQRModal()">&times;</button>
-            <h3>☕ Buy me a coffee</h3>
-            <p>If you find this project helpful, consider supporting me with a coffee!</p>
-            <img src="./assets/wechat-qr.png" alt="WeChat Pay QR Code" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-            <p style="display: none; color: var(--gray);">QR Code not available</p>
-            <p style="font-size: 0.8rem; color: var(--gray);">Scan with WeChat to donate</p>
+    <!-- Terminal Modal -->
+    <div class="terminal-overlay" id="terminalOverlay" onclick="closeTerminal(event)">
+        <div class="terminal-window" onclick="event.stopPropagation()">
+            <div class="terminal-header">
+                <div class="terminal-dot red"></div>
+                <div class="terminal-dot yellow"></div>
+                <div class="terminal-dot green"></div>
+                <span class="terminal-title">support.sh</span>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-ascii">
+                </div>
+                
+                <p><span class="terminal-prompt"></span> <span class="terminal-text">./support.sh --project=awesome-skills</span></p>
+                <p class="terminal-dim" style="margin-top: 0.5rem;">Loading donation options...</p>
+                
+                <div class="terminal-qr">
+                    <p class="terminal-dim">// WeChat Pay - Scan with WeChat</p>
+                    <img src="./assets/wechat-qr.png" alt="WeChat QR" style="max-width: 250px; border-radius: 8px; display: block; margin: 1rem auto;">
+                    <p class="terminal-success" style="margin-top: 0.5rem;">✓ QR Code loaded</p>
+                </div>
+                
+                <div class="terminal-footer">
+                    <p class="terminal-dim">Tips are never required, but always appreciated!</p>
+                    <p class="terminal-dim" style="margin-top: 0.5rem;">lucas_hsueh@hotmail.com</p>
+                    <button class="terminal-btn" onclick="closeTerminal()" style="margin-top: 1rem;">[ESC] Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -694,16 +807,23 @@
             });
         }
 
-        // QR Modal Functions
-        function openQRModal() {
-            document.getElementById('qrModalOverlay').classList.add('active');
+        // Terminal Functions
+        function openTerminal() {
+            document.getElementById('terminalOverlay').classList.add('active');
         }
         
-        function closeQRModal(event) {
-            if (!event || event.target === document.getElementById('qrModalOverlay') || event.target.tagName === 'BUTTON') {
-                document.getElementById('qrModalOverlay').classList.remove('active');
+        function closeTerminal(event) {
+            if (!event || event.target === document.getElementById('terminalOverlay') || event.target.tagName === 'BUTTON') {
+                document.getElementById('terminalOverlay').classList.remove('active');
             }
         }
+        
+        // ESC key to close terminal
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeTerminal();
+            }
+        });
 
         // Initialize
         renderSkills();
