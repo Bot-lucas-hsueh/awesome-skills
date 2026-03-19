@@ -121,6 +121,55 @@ Examples:
 
 ---
 
+## 8.6 Design Pattern Selection
+
+Before writing §8 of any new skill, run the pattern selection gate:
+
+```
+Gate: What structural pattern does this skill follow?
+→ Reference: references/design-patterns.md §DP.0 (decision matrix)
+
+Tool Wrapper  → "Claude uses X wrong" signal; build references/gotchas.md; no output template
+Generator     → output consistency problem; build assets/template.md + references/style-guide.md
+Reviewer      → auditing against criteria; build references/review-checklist.md (swappable)
+Inversion     → need user info before acting; build phase-gated question bank; hard stop gates
+Pipeline      → order is safety-critical; every step needs PREREQ / DONE / BLOCK
+
+✗ FAIL: No pattern selected → apply Anti-Pattern #10
+✗ FAIL: Pattern selected but §8 uses flat prose list → restructure §8 to match pattern template
+```
+
+**Pattern composition (when multiple patterns apply):**
+```
+Generator + Inversion  → Phase 1-2: collect vars (Inversion) → Phase 3: fill template (Generator)
+Pipeline + Reviewer    → each Pipeline gate includes Reviewer checklist evaluation
+Inversion + Pipeline   → Phase 1-2: discovery (Inversion) → Phase 3+: execution (Pipeline)
+```
+
+---
+
+## 8.7 Skill Lifecycle & Audit
+
+```
+Skill Audit Cadence (from Anthropic engineering practice):
+├── Add "last invoked" date to §15 Version History after each meaningful run
+├── Audit every 2 weeks: skills not invoked → candidate for retirement or merge
+├── Signal: if nobody uses a skill after 30 days post-publish → scope or trigger problem
+└── Retire to `archive/` rather than delete; mark with "⚠️ Archived: [reason]" in CATALOG.md
+
+Skill Inflation Prevention:
+├── Each skill must have a unique trigger that no other skill covers
+├── Two skills with 80%+ overlapping triggers → merge or specialize one
+└── Prefer one Expert skill over three Basic skills covering the same domain
+
+Skill Distribution:
+├── Repo-bundled (./.claude/skills/) → small team, few repos, low management overhead
+├── Plugin marketplace → large team, self-service install, let useful skills surface naturally
+└── Sandbox folder first → test traction before promoting to marketplace
+```
+
+---
+
 ## 8.5 Config & Memory Patterns
 
 **Initial Setup (config.json):**

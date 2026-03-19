@@ -2,7 +2,7 @@
 name: skill-writer
 display_name: Skill Writer
 author: neo.ai
-version: 21.0.0
+version: 22.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
@@ -18,7 +18,7 @@ description: >
 
 # Skill Writer
 
-> **Version 21.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
+> **Version 22.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-19**
 
 ## § 1 · System Prompt
 
@@ -53,6 +53,7 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Density** | Is content dense enough to justify token cost? | Cut filler, compress to tables |
 | **Token Budget** | Does `description` fit ≤15,500-char system pool? Body ≤500 lines? | Trim; move heavy content to `references/` → §7 |
 | **References-First** | Does any non-§1 section exceed 3 lines? | Move to `references/`; SKILL.md = index + system prompt only |
+| **Design Pattern** | Which of the 5 structural patterns fits? (Tool Wrapper / Generator / Reviewer / Inversion / Pipeline) | Select before writing §8; see `references/design-patterns.md §DP.0` |
 | **Workflow** | Starting a create / review / upgrade task? | Read `references/workflow.md` → follow phase-gate process |
 
 ### 1.3 Thinking Patterns
@@ -85,6 +86,9 @@ Before writing or reviewing any skill, pass it through these gates:
 | **Gotchas Gap** | §10 is generic "avoid X" advice → not calibrated to Claude's actual failures | Replace with accumulated real failure cases from running the skill |
 | **Hook Opportunity** | Skill could guard dangerous ops or enforce constraints → missing on-demand hook | Add hook script to `scripts/hooks/`; declare in description |
 | **Category Ambiguity** | Skill spans ≥2 categories from §8.0 table → split focus | Narrow to one category or split into two skills |
+| **No Design Pattern** | §8 workflow is a flat prose list with no structural pattern applied | Select pattern from `references/design-patterns.md §DP.0`; restructure §8 |
+| **Over-Constrained** | Instructions leave no adaptation space → Claude can't handle edge cases | Give info + decision frameworks; avoid scripted step-by-step for non-linear tasks |
+| **Code-Less** | Skill instructs Claude to write boilerplate it always writes the same way | Move repeatable code to `assets/` or `scripts/`; let Claude compose, not reconstruct |
 
 ---
 
@@ -120,6 +124,30 @@ Before writing or reviewing any skill, pass it through these gates:
 4. **Token-Conscious**: Every line competes for context window space; earn its place or cut it
 5. **Honest Limitations**: Underpromise in scope, overdeliver in depth
 
+### 4.2 Anthropic's 3 Iron Laws
+
+> "The best skill is a toolbox, not a prompt." — Anthropic engineering
+
+| Law | Rule | Test |
+|-----|------|------|
+| **Write only what Claude doesn't know** | Skip basics; focus on non-obvious footguns, edge cases, library-specific traps | Remove sentence. Would Claude behave correctly without it? YES → delete |
+| **Prioritize the pitfall list** | §10 Gotchas is the highest-signal section — real failure cases beat best practices | Is each gotcha a specific wrong assumption Claude makes? NO → rewrite |
+| **Give tools, not instructions** | Scripts + templates + checklists constrain behavior; instructions are interpretable | Is the rule verifiable from a file/script? NO → externalize it |
+
+### 4.3 Design Pattern Principles
+
+→ Full pattern reference: `references/design-patterns.md`
+
+| Pattern | Use When | Core Mechanism |
+|---------|----------|----------------|
+| **Tool Wrapper** | "Claude uses X wrong" | Keyword-triggered domain doc loading |
+| **Generator** | "Output is inconsistent" | Template + style guide → fill-in-the-blank |
+| **Reviewer** | "Audit against checklist" | Swappable checklist file; fixed report format |
+| **Inversion** | "Must collect info before acting" | Phase-gated interview; hard stop before generation |
+| **Pipeline** | "Order is safety-critical" | PREREQ / DONE / BLOCK per step; no silent fallthrough |
+
+**Composition rule:** Patterns are not mutually exclusive. Generator + Inversion = collect vars first, then format output. Pipeline + Reviewer = audit each stage gate. Primary pattern defines §8 structure; secondary adds a phase.
+
 ---
 
 ## § 5 · Platform Support
@@ -142,8 +170,9 @@ Before writing or reviewing any skill, pass it through these gates:
 |----------|------|---------|
 | **Install** | [assets/INSTALL.md](assets/INSTALL.md) | Per-platform install guide (session + persistent + uninstall + verification) |
 | **Template** | [assets/TEMPLATE.md](assets/TEMPLATE.md) | Official 16-section skill structure template |
-| **Workflow** | [references/workflow.md](references/workflow.md) | Phase-gate workflows: create (4 phases) · review (6 steps) · upgrade (6 checks) |
+| **Workflow** | [references/workflow.md](references/workflow.md) | Phase-gate workflows: create (4 phases) · review (6 steps) · upgrade (6 checks) · audit cadence |
 | **Standards** | [references/standards.md](references/standards.md) | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
+| **Design Patterns** | [references/design-patterns.md](references/design-patterns.md) | 5 structural patterns (Tool Wrapper/Generator/Reviewer/Inversion/Pipeline) · selection matrix · composition · Iron Laws |
 | **Scenarios** | [references/scenarios.md](references/scenarios.md) | 4 full conversation flows (creation, review, upgrade, rejection) |
 | **Anti-Patterns** | [references/anti-patterns.md](references/anti-patterns.md) | 9 classified anti-patterns with ❌/✅ fixes |
 | **Changelog** | [references/changelog.md](references/changelog.md) | Full version history (v12+) |
@@ -195,6 +224,8 @@ Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 
 Pair with **Domain Expert** (knowledge) → **Prompt Engineer** (system prompt tuning) → **QA Engineer** (test cases).
 
+**Skill dependencies:** No native runtime dependency support. Reference other skills by name in §11 and load them manually: `Read [URL] and activate [skill-name]`.
+
 ---
 
 ## § 12 · Scope & Limitations
@@ -235,6 +266,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 22.0.0 | 2026-03-19 | Design patterns integration: §1.2 gate, §1.4 heuristics (No Pattern/Over-Constrained/Code-Less), §4.2 Iron Laws, §4.3 pattern table, design-patterns.md reference, anti-patterns #10–#11, workflow §8.6 |
 | 21.0.0 | 2026-03-18 | v3.0 upgrade: added score: 9.5/10, § format header, full Platform Support table, Category column in Toolkit |
 | 20.0.0 | 2026-03-15 | References-First principle + Description Precision rule: §1.2 gate + §1.4 heuristics |
 | 19.0.0 | 2026-03-15 | §8 (65 lines) → references/workflow.md; §5/§9/§10/§14 → 1-line pointers |

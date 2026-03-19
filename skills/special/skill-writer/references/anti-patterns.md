@@ -93,6 +93,35 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
    (Rule: §7.11 — all 7 platforms; session + persistent; [URL] defined once)
 ```
 
+**#10 Pattern Absence**
+```
+❌ ## § 8 · Standard Workflow
+   1. Understand the request
+   2. Think about the domain
+   3. Generate the output
+   (No structural pattern; all logic crammed into §1 system prompt prose)
+
+✅ Select a design pattern first (references/design-patterns.md §DP.0):
+   - Tool Wrapper → if Claude uses this domain wrong
+   - Generator    → if output consistency is the problem
+   - Reviewer     → if the task is auditing against a checklist
+   - Inversion    → if acting without info gathering wastes effort
+   - Pipeline     → if step order is safety-critical
+   Then build §8 around that pattern's structure.
+```
+
+**#11 Pattern Mismatch**
+```
+❌ Using Generator pattern (template fill) for a deployment workflow:
+   "Fill in this deploy template with the target environment and version"
+   → Steps can be skipped; no safety gates; "complete-looking" output masks missing prereqs
+
+✅ Switch to Pipeline pattern for sequential safety-critical workflows:
+   Step 1: Smoke test [PREREQ: test suite passes] [✓ DONE: all green]
+   Step 2: Stage deploy [PREREQ: smoke test confirmed] [✓ DONE: stage healthy]
+   Step 3: Prod rollout [PREREQ: stage confirmed] [BLOCK: error rate >1%]
+```
+
 ---
 
 ## 🟢 Low Severity
