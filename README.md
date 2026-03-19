@@ -149,19 +149,6 @@ All 587 skills follow the 16-section template with consistent quality:
 
 ---
 
-## Roadmap
-
-- [x] **Phase 1**: Expert skill verification — 43 skills upgraded
-- [x] **Phase 2**: README & documentation overhaul
-- [x] **Phase 3**: Skill file de-duplication — created COMMON.md
-- [x] **Phase 4**: Platform adaptation — comprehensive install guides
-- [x] **Phase 5**: Quality rating system — automated scoring
-- [x] **Phase 6**: Token optimization — references/ restructuring (165 skills, ~40K lines)
-- [x] **Phase 7**: Content cleanup — removed redundant bilingual content, HTML comments
-- [x] **Phase 8**: Author standardization — neo.ai with contact info
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Please read our [Contributing Guide](./CONTRIBUTING.md) first.
