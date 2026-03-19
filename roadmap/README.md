@@ -10,6 +10,8 @@
 - ⚡ **加速跃升** — 避开弯路，走最短路径
 
 > 🗺️ **新增**：[AI能力覆盖地图](./ai-impact-map.md) — 可视化AI对各职业的侵蚀冲击与人类防火墙识别
+>
+> 💌 **写给初入职场的你**：[致大学生与初入职场者的一封信](./letter-to-newcomers.md) — AI时代的求职与成长真相
 
 ---
 
@@ -38,6 +40,7 @@
 | 🌾 农业与食品 | [agriculture.md](./agriculture.md) | 农业技术员/农场管理/食品科学/农业顾问 |
 | 🏛️ 政府与公共服务 | [government-public-service.md](./government-public-service.md) | 公务员/政策分析师/执法/社会工作者 |
 | 🔴🟢🔵 AI冲击地图 | [ai-impact-map.md](./ai-impact-map.md) | 所有职业 · AI侵蚀热力图 · 人类防火墙 |
+| 💌 致初入职场的你 | [letter-to-newcomers.md](./letter-to-newcomers.md) | 大学生/应届生/职场新人求职与成长建议 |
 
 ---
 
