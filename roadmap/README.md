@@ -9,6 +9,8 @@
 - 🎯 **设定里程碑** — 用可量化指标衡量成长
 - ⚡ **加速跃升** — 避开弯路，走最短路径
 
+> 🗺️ **新增**：[AI能力覆盖地图](./ai-impact-map.md) — 可视化AI对各职业的侵蚀冲击与人类防火墙识别
+
 ---
 
 ## 路径总览
@@ -35,6 +37,7 @@
 | 🏗️ 建筑与施工 | [construction.md](./construction.md) | 建筑师/结构工程师/项目监理/施工管理 |
 | 🌾 农业与食品 | [agriculture.md](./agriculture.md) | 农业技术员/农场管理/食品科学/农业顾问 |
 | 🏛️ 政府与公共服务 | [government-public-service.md](./government-public-service.md) | 公务员/政策分析师/执法/社会工作者 |
+| 🔴🟢🔵 AI冲击地图 | [ai-impact-map.md](./ai-impact-map.md) | 所有职业 · AI侵蚀热力图 · 人类防火墙 |
 
 ---
 
