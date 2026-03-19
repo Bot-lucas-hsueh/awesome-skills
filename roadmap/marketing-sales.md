@@ -193,6 +193,115 @@ SEO: SEMrush · Ahrefs · Google Search Console
 
 ---
 
+## 🤖 AI时代的市场营销与销售规划
+
+### AI对营销销售的颠覆
+
+```
+已经发生：
+  ✅ AI内容生成：文案/图片/视频广告的AI批量生产
+  ✅ AI个性化：千人千面的内容推荐和广告定向
+  ✅ AI广告优化：Google/Meta的AI自动出价和创意优化
+  ✅ AI SEO写作：大量博客/落地页内容被AI生成
+  ✅ AI销售助手：客户邮件个性化、CRM数据自动填充
+
+即将发生：
+  - AI SDR：自动化的销售开发代表，筛选线索+首次触达
+  - AI客服：70%以上的客户问题AI独立处理
+  - 生成式广告：实时生成个性化广告素材
+  - 意图预测：AI预测客户购买意图，提前介入
+```
+
+### 各角色AI融合建议
+
+**市场营销 — AI是创意加速器和效率放大器**
+```
+内容营销AI工具（立即用起来）：
+  - 文案生成: Claude / ChatGPT（初稿生成，人工打磨）
+  - 图片设计: Midjourney / Adobe Firefly / Canva AI
+  - 视频: Runway / Sora / HeyGen（AI生成/数字人）
+  - SEO内容: Surfer SEO + AI写作
+
+数字广告AI应用：
+  - Google Performance Max：全自动化AI广告
+  - Meta Advantage+：AI自动创意和受众
+  - 重点：学会分析AI广告的数据，而不只是操作界面
+
+差异化核心：
+  ✅ 品牌策略（AI不懂品牌的灵魂）
+  ✅ 创意概念（Big Idea层面的创意仍需人）
+  ✅ 用户洞察（深度定性研究AI难以替代）
+  ✅ 跨渠道整合（复杂营销组合的战略判断）
+```
+
+**增长黑客 — AI是增长实验的超级引擎**
+```
+AI增强增长实验：
+  - 用 AI 生成100个落地页A/B测试变体
+  - 用 LLM 分析用户评论，自动提取痛点（取代手工编码）
+  - AI驱动的漏斗优化：自动识别流失节点并生成优化假设
+  - Predictive Analytics：AI预测用户LTV和流失概率
+
+新机会：
+  - AI驱动的病毒传播机制设计
+  - 个性化Onboarding：AI根据用户特征动态调整新手引导
+  - AI内容推荐引擎：提升用户粘性和内容消费深度
+```
+
+**B2B销售 — AI助力高效管道管理**
+```
+AI销售工具（必学）：
+  - LinkedIn Sales Navigator + AI：AI识别理想客户画像
+  - Outreach / Salesloft AI：AI个性化邮件序列
+  - Gong / Chorus：AI分析销售电话，提取洞察
+  - Clay：AI驱动的潜客数据丰富化
+  - CRM AI：Salesforce Einstein / HubSpot AI
+
+AI提效重点：
+  - 研究时间：AI把客户背景调研从1小时缩短到5分钟
+  - 邮件个性化：AI生成千封个性化Cold Email
+  - 提案制作：AI生成演示材料初稿
+
+不可替代：
+  ✅ 关键客户关系维护（面对面信任建立）
+  ✅ 复杂谈判（高风险决策的人际博弈）
+  ✅ 战略大客户的长期经营
+```
+
+**CMO/销售VP — 构建AI原生营销体系**
+```
+战略级AI布局：
+  1. MarTech栈AI化：评估现有工具，引入AI能力
+  2. 数据基础设施：CDP（客户数据平台）+AI个性化引擎
+  3. 内容供应链：建立AI内容生产流水线（速度×质量×成本）
+  4. AI人才策略：招募懂AI的营销人，或培训现有团队
+
+关键指标变化：
+  - 内容生产效率：同等预算，AI辅助后内容产量提升3-10倍
+  - 广告ROI：AI优化后的CPA（单次获客成本）目标降低30%
+  - 销售效率：AI辅助后每名销售的Pipeline管理量提升2倍
+```
+
+### AI营销工具全景（2026）
+
+```
+内容创作: Claude · ChatGPT · Midjourney · Runway · HeyGen
+SEO/内容: Surfer SEO · Jasper · MarketMuse · Clearscope
+广告投放: Google Performance Max · Meta Advantage+ · 巨量千川AI
+邮件营销: Klaviyo AI · Mailchimp AI
+销售工具: Gong · Chorus · Outreach AI · Clay · Salesloft
+数据分析: Adobe Sensei · Amplitude · Mixpanel AI
+```
+
+### 行动建议
+
+1. **立即**: 用 Claude 写你下次campaign的5个文案变体，感受AI辅助创作
+2. **1个月**: 在一个渠道（Email/SEO）全面引入AI工具，测量效率提升
+3. **3个月**: 建立AI辅助的内容生产流水线（选题→初稿→优化→发布）
+4. **6个月**: 主导一个AI个性化营销项目，量化对转化率的影响
+
+---
+
 ## 关联技能文件
 
 - [`skills/marketing/marketing-manager/`](../skills/marketing/marketing-manager/) — 市场经理

@@ -213,6 +213,106 @@
 
 ---
 
+## 🤖 AI时代的网络安全规划
+
+### AI对安全领域的双刃剑效应
+
+```
+AI增强攻击（威胁升级）：
+  ⚠️ AI生成的钓鱼邮件：语言完美，个性化，规避传统过滤
+  ⚠️ AI辅助漏洞发现：自动化代码审计，CVE发现速度提升10x
+  ⚠️ AI生成恶意代码：降低攻击者技术门槛
+  ⚠️ Deepfake社会工程：声音/视频伪造用于欺骗验证
+
+AI增强防御（机会升级）：
+  ✅ AI威胁检测：行为分析，异常识别速度和准确率大幅提升
+  ✅ AI辅助代码审计：自动扫描代码漏洞
+  ✅ AI事件响应：自动化告警分类、初步响应
+  ✅ AI渗透测试辅助：自动化侦察和漏洞关联
+```
+
+### 各阶段AI融合建议
+
+**初级安全人员 — AI是学习加速器**
+```
+立即使用：
+  - 用 Claude 解释漏洞原理（CVE详解、PoC分析）
+  - 用 AI 生成 CTF 解题思路（但自己要理解每一步）
+  - 用 ChatGPT 写 Python 安全脚本的基础框架
+
+学习AI安全知识：
+  - Prompt Injection：LLM应用的新型漏洞
+  - AI Model 逃逸：Jailbreak技术原理
+  - LLM数据投毒：训练数据的安全性
+```
+
+**中级安全工程师 — AI是效率倍增器**
+```
+渗透测试方向：
+  - AI辅助侦察：用LLM分析OSINT数据并关联攻击面
+  - AI生成Payload变体：绕过WAF的自动化变形
+  - AI报告生成：渗透测试报告草稿（节省70%写报告时间）
+  工具：PentestGPT / ReconAI / AI-Assisted Burp Extensions
+
+SOC分析方向：
+  - AI告警分类：减少告警疲劳（Alert Fatigue）
+  - AI辅助溯源：自动关联IOC，生成攻击链时间线
+  - AI生成IR报告：快速输出事件响应摘要
+  工具：Microsoft Security Copilot / Elastic AI Assistant
+```
+
+**高级安全架构师 — AI原生安全设计**
+```
+新的安全挑战（必须掌握）：
+  - LLM应用安全架构：Prompt Injection防护 · 输出过滤 · 权限边界
+  - AI供应链安全：模型文件（.pkl/.safetensors）的安全验证
+  - AI监控体系：检测AI系统的异常行为
+  - Deepfake防御：多因素认证、活体检测集成
+
+安全评估新维度：
+  - 对公司的AI应用进行红队测试（AI Red Teaming）
+  - 为LLM系统设计威胁模型（AI Threat Modeling）
+```
+
+### AI安全新职业方向（2025-2030最热）
+
+```
+🔥 AI红队工程师（AI Red Teamer）
+   - 专门测试和攻击AI系统的弱点
+   - Anthropic/OpenAI/Google等大厂有专职团队
+
+🔥 LLM应用安全工程师
+   - 设计防止Prompt Injection的架构
+   - AI应用的安全代码审查
+
+🔥 AI威胁情报分析师
+   - 追踪AI辅助攻击组织的战术
+   - 监控AI工具在暗网的滥用
+
+🔥 Deepfake检测专家
+   - 开发媒体真实性验证技术
+   - 为金融/法律/政府提供鉴别服务
+```
+
+### 保持不被AI取代的核心能力
+
+```
+✅ 创意型攻击思维（AI无法真正"创新"攻击思路）
+✅ 社会工程学判断（理解人性的欺骗逻辑）
+✅ 复杂APT溯源（需要上下文理解和情报关联）
+✅ 安全架构的业务权衡（安全vs体验的决策）
+✅ AI系统的安全设计（你本身是AI安全的保护者）
+```
+
+### 行动建议
+
+1. **立即**: 研究 OWASP Top 10 for LLM Applications（LLM应用安全标准）
+2. **1个月**: 尝试对一个公开的AI聊天应用进行Prompt Injection测试
+3. **3个月**: 学习如何将AI工具集成进渗透测试工作流
+4. **6个月**: 考取 AI Security 相关新兴认证或发表 AI 安全研究
+
+---
+
 ## 关联技能文件
 
 - [`skills/cybersecurity/security-engineer/`](../skills/cybersecurity/security-engineer/) — 安全工程师

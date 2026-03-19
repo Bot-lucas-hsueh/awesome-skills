@@ -205,6 +205,127 @@ BIM 2.0 → 数字孪生 → 智慧建造：
 
 ---
 
+## 🤖 AI时代的建筑与施工规划
+
+### AI对建筑施工行业的冲击
+
+```
+已在实践：
+  ✅ AI辅助方案设计：Autodesk Forma / Spacemaker AI 生成建筑方案
+  ✅ BIM + AI：碰撞检查、工程量自动计算、施工模拟
+  ✅ AI施工监控：无人机+AI识别安全隐患、进度偏差
+  ✅ AI成本估算：历史数据+AI的快速成本预算
+  ✅ 规划审批AI：部分城市的规划合规性AI辅助审查
+
+即将改变：
+  - 生成式建筑设计：从需求→AI生成多个方案选项
+  - 机器人施工：砌砖/焊接/钢筋绑扎机器人商业化
+  - 数字化交付：全生命周期BIM+AI，竣工即数字孪生
+  - AI安全管理：毫米波雷达+AI实时监控施工安全
+```
+
+### 各角色AI融合建议
+
+**建筑师 — AI是创意加速器，美学仍是核心**
+```
+AI设计工具（立即体验）：
+  - Midjourney / DALL-E：概念阶段的效果图和情绪板
+  - Autodesk Forma：场地分析（日照/风/视野）AI自动化
+  - Spacemaker AI：场地规划的AI方案生成（多户住宅/商业）
+  - Adobe Firefly：建筑材质渲染和空间氛围快速概念
+  - Stable Diffusion：特定建筑风格的参考图生成
+
+AI无法替代的建筑价值：
+  ✅ 空间叙事：建筑背后的文化意涵和情感表达
+  ✅ 场地感知：亲临场地的直觉理解
+  ✅ 使用者需求理解：复杂的社会和功能需求平衡
+  ✅ 设计协调领导力：推动多方利益相关者达成共识
+
+建议：用 AI 做概念草图（节省70%时间），把精力放在方案深度和客户说服上
+```
+
+**结构/机电工程师 — AI加速计算和规范检查**
+```
+AI工程计算应用：
+  - AI辅助结构计算：ETABS AI / STAAD.Pro AI检查截面合理性
+  - 规范自动检查：AI扫描设计图，标出不符合规范之处
+  - 优化计算：AI自动优化钢结构截面，节省用钢量5-15%
+  - AI图纸审查：碰撞检测、管线净高自动校验
+
+BIM + AI：
+  - Revit + Dynamo：参数化设计脚本化（自动批量修改）
+  - Autodesk Insight：能耗/采光/结构的AI一体化分析
+  - Digital Twin：运维阶段的AI预测性维护
+```
+
+**施工管理 — 数字工地是必须掌握的能力**
+```
+AI施工管理工具：
+  - 无人机进度监控：Skydio / 大疆司空，AI识别施工进度偏差
+  - AI安全监控：人脸识别（考勤）+ AI行为识别（违规行为告警）
+  - BIM 5D：进度+成本的AI预测（基于实际施工数据）
+  - AI质量检查：裂缝/平整度的AI影像识别
+
+建造师/项目经理转型方向：
+  → 数字化建造总监（Digital Construction Director）
+  → BIM实施顾问（把数字化工具卖给/推广到其他项目）
+  → 智慧工地系统集成商（技术+工程管理双栖）
+```
+
+**房地产开发 — AI重塑投资决策和营销**
+```
+AI在地产的应用：
+  - AI选址分析：人口流量/竞争对手/规划/地铁的综合AI评分
+  - 价格预测：房价/租金的AI预测模型（已有成熟产品）
+  - AI销售助手：AI客服回答客户问题、推荐房源
+  - AI建筑生成：客户输入偏好→AI生成个性化户型
+
+地产人的转型建议：
+  → 数据驱动投资：用 AI 做城市/区域的投资热度分析
+  → 智慧社区运营：AI物业管理、智能家居系统集成
+  → 地产科技（PropTech）创业：用AI解决地产痛点
+```
+
+### 建筑行业AI工具生态
+
+```
+设计概念: Midjourney · DALL-E · Adobe Firefly · Stable Diffusion
+建筑设计AI: Autodesk Forma · Spacemaker · TestFit
+BIM: Autodesk Revit + AI · Bentley Systems · Graphisoft Archicad AI
+施工管理: Procore AI · PlanGrid AI · Fieldwire
+无人机监控: DJI 司空 · Skydio · Bentley iTwin
+造价估算: CostX AI · Exactal · PlanSwift AI
+智慧运维: IBM Maximo · SpinalCom · Spacewell
+```
+
+### 建筑+AI热门新方向
+
+```
+🔥 数字建造工程师：
+   - 专注BIM+AI+施工机器人的系统集成
+   - 极度稀缺，薪资溢价明显
+
+🔥 智慧城市规划师：
+   - AI+大数据的城市空间分析
+   - 数字孪生城市的规划与管理
+
+🔥 建筑AI产品经理：
+   - 为 Autodesk / Bentley 等建筑软件公司开发AI功能
+   - 需要懂建筑+懂产品
+
+🔥 PropTech创业方向：
+   - AI验房服务 / AI设计报价 / 智慧物业管理
+```
+
+### 行动建议
+
+1. **立即**: 注册 Autodesk Forma（有免费版），体验AI场地分析功能
+2. **1个月**: 用 Midjourney 为一个真实项目生成3-5张概念图，对比手工效率
+3. **3个月**: 在项目中引入无人机进度监控，建立AI辅助的进度报告
+4. **6个月**: 系统学习 BIM（Revit）+ 学习 Dynamo 参数化设计基础
+
+---
+
 ## 关联技能文件
 
 - [`skills/creative/interior-designer/`](../skills/creative/interior-designer/) — 室内设计师

@@ -215,6 +215,92 @@ AI / ML领域
 
 ---
 
+## 🤖 AI时代的AI/ML人才规划
+
+### 当前行业格局（2025-2026）
+
+```
+大模型时代的结构性变化：
+  - Foundation Model 主导：大多数应用不再从零训练，而是在大模型上微调/RAG
+  - AI工程化需求爆炸：LLM应用工程师的需求远超传统ML工程师
+  - Agent系统崛起：多Agent协作成为新的应用范式
+  - AI基础设施军备竞赛：算力/框架/推理优化成为核心壁垒
+  - 开源vs闭源：Llama/Mistral等开源模型能力快速追近
+```
+
+### 最热门的新兴细分方向
+
+**AI应用工程（需求最大）**
+```
+核心：将大模型能力集成到产品中
+技能：RAG · Function Calling · Agent框架 · Prompt优化
+工具：LangChain · LlamaIndex · Claude API · OpenAI SDK
+薪资：高级AI应用工程师国内50-100K/月
+```
+
+**AI推理优化（稀缺高薪）**
+```
+核心：让大模型更快更便宜地运行
+技能：模型量化 · KV Cache优化 · Speculative Decoding · vLLM
+工具：TensorRT-LLM · vLLM · SGLang · TGI
+薪资：国内顶尖人才 200K+/月（极稀缺）
+```
+
+**多模态工程（快速增长）**
+```
+核心：视觉+语言+语音的联合理解与生成
+技能：VLM微调 · 图像生成（Diffusion）· 语音识别(Whisper)
+工具：LLaVA · Qwen-VL · Stable Diffusion · ComfyUI
+```
+
+**AI Agent系统（前沿方向）**
+```
+核心：构建能自主规划、使用工具、完成复杂任务的AI系统
+技能：ReAct框架 · Tool Use · 记忆系统 · 多Agent协调
+工具：Claude Code · AutoGen · LangGraph · CrewAI
+```
+
+### 各阶段AI时代建议
+
+**入门/初级 — 选对赛道**
+- 优先学习 LLM 应用工程（RAG + Agent），而非传统ML算法
+- 传统CV/NLP方向需要考虑大模型是否已经解决这个问题
+- 把 Prompt Engineering 当作必备技能，不是加分项
+
+**中级 — 建立不可替代性**
+- 深入一个垂直领域（医疗AI/金融AI/法律AI/科学AI）
+- 学会评估AI系统：如何设计Benchmark，如何防止数据污染
+- 理解AI产品化的全链路：从研究Idea到用户价值
+
+**高级/精英 — 定义行业标准**
+- 发表开创性研究或开源有影响力的工具
+- 建立行业内的技术权威（博客/演讲/开源）
+- 关注 AI Safety 和 AI对齐：这将成为核心议题
+
+### AI/ML人才未来竞争力矩阵
+
+```
+高竞争力（长期）:
+  ✅ 系统级AI设计（千亿参数模型的训练/推理架构）
+  ✅ AI评估与对齐（如何让AI更安全、更可靠）
+  ✅ 领域AI专家（把AI能力和行业深度结合）
+  ✅ AI基础设施（Compiler/调度/存储优化）
+
+短期热门但可能被自动化:
+  ⚠️ 简单Prompt工程（Claude等会自动优化Prompt）
+  ⚠️ 基础RAG搭建（框架越来越傻瓜化）
+  ⚠️ 标准微调服务（云厂商正在商品化这个能力）
+```
+
+### 行动建议
+
+1. **立即**: 每周阅读1篇 Anthropic/OpenAI/DeepMind 的技术报告
+2. **3个月**: 在 GitHub 发布一个 AI Agent 项目（哪怕简单）
+3. **6个月**: 选定一个垂直领域，成为"那个领域的AI专家"
+4. **持续**: 关注 Hugging Face / ArXiv / AI Twitter 保持前沿感知
+
+---
+
 ## 关联技能文件
 
 - [`skills/ai-ml/ml-engineer/`](../skills/ai-ml/ml-engineer/) — 机器学习工程师

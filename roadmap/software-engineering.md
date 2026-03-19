@@ -279,6 +279,68 @@
 
 ---
 
+## 🤖 AI时代的软件工程师规划
+
+### AI对软件工程的冲击与机会
+
+```
+当前趋势（2025-2030）：
+  - GitHub Copilot / Cursor 等AI编码工具覆盖率达70%+
+  - AI可自动完成约40-60%的常规编码任务（CRUD/测试/文档）
+  - 初级重复性编码岗位需求收缩，高阶设计岗位需求激增
+  - AI原生应用架构（LLM集成、Agent系统）成为新标准
+```
+
+### 各阶段AI融合建议
+
+**初级工程师 — AI是加速器**
+- 用 Cursor / GitHub Copilot 提升编码效率（目标：3x速度）
+- 学会用 AI 审查代码：让 Claude 解释每行你不理解的代码
+- 用 AI 生成测试用例：理解测试意图，不要盲目复制
+- ⚠️ 警惕：不能依赖AI写代码但不理解原理，AI会产生微妙Bug
+
+**中级工程师 — AI是协作者**
+- 掌握 AI 辅助系统设计：让 AI 生成方案草图，你来评估和决策
+- 学习 RAG / LLM集成：几乎所有产品都需要 AI 功能
+- 研究 AI Agent 架构：Tool Use、Memory、多Agent协作
+- 建立 AI 评估能力：判断什么场景适合用AI、什么场景不适合
+
+**高级工程师/架构师 — AI是放大器**
+- 设计 AI 原生架构：将 LLM 作为一等公民纳入系统设计
+- 制定团队 AI 工具规范：AI编码的代码审查标准、测试覆盖要求
+- 评估 AI 成本：Token费用、延迟、可靠性的权衡
+- 探索 Vibe Coding 范式：用自然语言驱动复杂系统构建
+
+### 必须掌握的 AI 技术栈（2026）
+
+```
+LLM集成: OpenAI API · Anthropic Claude API · 本地模型(Ollama)
+AI应用框架: LangChain · LlamaIndex · Vercel AI SDK
+向量数据库: Pgvector · Pinecone · Weaviate
+AI编码工具: Cursor · GitHub Copilot · Windsurf
+AI测试: 基于LLM的测试生成 · 模糊测试
+AI运维: LLM Observability（LangSmith/Langfuse）
+```
+
+### 不会被AI取代的核心竞争力
+
+| 能力 | 原因 |
+|------|------|
+| 系统设计与架构决策 | 需要业务理解 + 工程判断 + 权衡取舍 |
+| 复杂Bug的根因分析 | 需要系统全局视角，AI难以定位 |
+| 技术方向判断 | 判断新技术何时成熟，是否值得引入 |
+| 跨团队技术协调 | 人际关系与组织政治是AI的盲区 |
+| AI系统的设计与评估 | 评估AI系统的人，本身不会被AI替代 |
+
+### 行动建议：未来3年重点投资方向
+
+1. **立即**: 把 Cursor 或 Copilot 集成进日常工作流，每天使用
+2. **3个月内**: 完成一个使用 Claude/GPT API 的端到端项目
+3. **6个月内**: 学会构建 RAG 应用或 AI Agent
+4. **1年内**: 主导团队的 AI 工具选型和使用规范制定
+
+---
+
 ## 关联技能文件
 
 - [`skills/software/backend-developer/`](../skills/software/backend-developer/) — 后端开发完整技能体系
