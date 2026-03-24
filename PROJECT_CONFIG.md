@@ -122,8 +122,7 @@ View workflow status at:
 |----------|-----------|-------|
 | Comprehensive Evaluation | Daily 4 AM UTC | Also runs on skill changes |
 | Pages Deploy | On demand | Triggered after evaluation |
-| Daily Optimization Scan | Daily 3 AM UTC | Separate maintenance workflow |
-| Skill Quality Gate | On PR | Quality checks for pull requests |
+| Skill Quality Gate (quality.yml) | On PR + push | Quality checks and validation |
 
 ## 📞 Support
 

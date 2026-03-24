@@ -68,7 +68,7 @@ True Competence = Text Quality × 0.5 + Runtime Quality × 0.5
 
 ### 2. 社区安全评估工具
 
-**来源：** `refs/skill_evaluator.py` （社区开发）
+**来源：** `external/skill_evaluator.py` （社区开发）
 
 **评估理念：**
 ```
@@ -375,7 +375,7 @@ Safety First = Security + Trust + Functionality
 | Refs Skills双轨评估详细报告 | [refs_skills_dual_track_report.md](./refs_skills_dual_track_report.md) | 83个Skills详细评分 |
 | 项目Skills评估JSON数据 | [project_skills_dual_track_data.json](./project_skills_dual_track_data.json) | 结构化数据 |
 | Refs Skills评估JSON数据 | [refs_skills_dual_track_data.json](./refs_skills_dual_track_data.json) | 结构化数据 |
-| 社区安全评估报告 | [SKILLS_EVALUATION_REPORT.md](../refs/SKILLS_EVALUATION_REPORT.md) | refs目录的安全评估 |
+| 社区安全评估报告 | [SKILLS_EVALUATION_REPORT.md](../external/SKILLS_EVALUATION_REPORT.md) | external目录的安全评估 |
 
 ---
 
@@ -397,7 +397,7 @@ Safety First = Security + Trust + Functionality
 
 ### 社区安全评估实现
 
-**文件:** `refs/skill_evaluator.py`
+**文件:** `external/skill_evaluator.py`
 
 **评估方法:**
 - 正则表达式安全扫描

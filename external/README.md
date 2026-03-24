@@ -49,7 +49,7 @@
 ## 目录结构
 
 ```
-refs/
+external/
 ├── README.md                          # 本文件
 ├── SKILLS_EVALUATION_REPORT.md        # 详细评估报告
 ├── skills_evaluation_data.json        # JSON格式评估数据
