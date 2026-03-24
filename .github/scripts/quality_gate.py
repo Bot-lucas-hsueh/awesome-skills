@@ -34,6 +34,10 @@ from typing import List, Dict, Any, Optional
 REPO_ROOT = Path(__file__).parent.parent.parent
 TOOLS_DIR = REPO_ROOT / "tools"
 SKILLS_DIR = REPO_ROOT / "skills"
+EXTERNAL_AUTHOR_DIRS = [
+    REPO_ROOT / "external" / "aakashg",
+    REPO_ROOT / "external" / "wdavidturner",
+]
 sys.path.insert(0, str(TOOLS_DIR))
 
 from skill_analyzer import scorer, tokenizer  # noqa: E402
@@ -398,7 +402,8 @@ def main() -> int:
 
     # Collect files
     if args.all:
-        skill_files = collect_skill_files([str(SKILLS_DIR)])
+        all_dirs = [str(SKILLS_DIR)] + [str(d) for d in EXTERNAL_AUTHOR_DIRS if d.exists()]
+        skill_files = collect_skill_files(all_dirs)
     elif args.stdin:
         raw_lines = [l.strip() for l in sys.stdin.readlines() if l.strip()]
         skill_files = collect_skill_files(raw_lines)

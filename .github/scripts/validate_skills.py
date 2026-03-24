@@ -28,6 +28,10 @@ from typing import Optional, Dict, Any, List, Tuple
 # ── Constants ────────────────────────────────────────────────────────────────
 
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
+_EXTERNAL_AUTHOR_DIRS = [
+    SKILLS_DIR.parent / "external" / "aakashg",
+    SKILLS_DIR.parent / "external" / "wdavidturner",
+]
 
 REQUIRED_FIELDS = ["name", "display_name", "author", "version", "description"]
 RECOMMENDED_FIELDS = ["difficulty", "category", "tags", "platforms", "quality"]
@@ -315,8 +319,8 @@ def main() -> int:
     parser.add_argument(
         "paths",
         nargs="*",
-        default=[str(SKILLS_DIR)],
-        help="Files or directories to validate (default: skills/)",
+        default=[str(SKILLS_DIR)] + [str(d) for d in _EXTERNAL_AUTHOR_DIRS if d.exists()],
+        help="Files or directories to validate (default: skills/ + external author dirs)",
     )
     args = parser.parse_args()
 

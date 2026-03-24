@@ -71,7 +71,7 @@ jobs:
         run: pip install pyyaml rich
 
       - name: Run skill validator (all skills)
-        run: python3 .github/scripts/validate_skills.py skills/
+        run: python3 .github/scripts/validate_skills.py skills/ external/aakashg/ external/wdavidturner/
 
       - name: Run strict validator (Expert Verified skills)
         run: |

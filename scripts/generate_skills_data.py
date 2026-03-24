@@ -16,6 +16,10 @@ from typing import Dict, List, Optional
 SCRIPT_DIR = Path(__file__).parent.resolve()
 PROJECT_ROOT = SCRIPT_DIR.parent
 SKILLS_DIR = PROJECT_ROOT / 'skills'
+EXTERNAL_AUTHOR_DIRS = [
+    PROJECT_ROOT / 'external' / 'aakashg',
+    PROJECT_ROOT / 'external' / 'wdavidturner',
+]
 OUTPUT_FILE = PROJECT_ROOT / 'assets/js/skills-data.js'
 
 # Category icons mapping
@@ -1017,9 +1021,18 @@ def parse_skill_file(skill_path: Path) -> Optional[Dict]:
         
         # Extract skill info
         skill_name = skill_path.parent.name
-        # Get first-level category from skills directory (e.g., skills/enterprise/nintendo/... -> enterprise)
-        rel_path = skill_path.relative_to(SKILLS_DIR)
-        category = rel_path.parts[0]
+        # Category: prefer YAML metadata (works for both internal and external skills),
+        # fall back to first directory segment under skills/.
+        yaml_meta = metadata.get('metadata') or {}
+        yaml_category = metadata.get('category') or yaml_meta.get('category')
+        if yaml_category:
+            category = str(yaml_category)
+        else:
+            try:
+                rel_path = skill_path.relative_to(SKILLS_DIR)
+                category = rel_path.parts[0]
+            except ValueError:
+                category = 'other'
         
         # Get description
         description = metadata.get('description', '')
@@ -1123,7 +1136,7 @@ def parse_skill_file(skill_path: Path) -> Optional[Dict]:
             'quality': quality,
             'rating': round(rating, 1),
             'installs': installs,
-            'command': f"Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/{category}/{skill_name}/SKILL.md and install {skill_name} skill"
+            'command': f"Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/{skill_path.relative_to(PROJECT_ROOT)} and install {skill_name} skill"
         }
     except Exception as e:
         print(f"Error parsing {skill_path}: {e}")
@@ -1143,9 +1156,12 @@ def generate_skills_data():
     
     # Exclude directories that are not actual skills
     EXCLUDED_DIRS = {'_template', '_common', '.git', 'node_modules', '__pycache__'}
-    
+
+    scan_dirs = [SKILLS_DIR] + [d for d in EXTERNAL_AUTHOR_DIRS if d.exists()]
     skill_files = [
-        f for f in SKILLS_DIR.rglob('**/SKILL.md')
+        f
+        for d in scan_dirs
+        for f in d.rglob('**/SKILL.md')
         if not any(excluded in f.parts for excluded in EXCLUDED_DIRS)
     ]
     
