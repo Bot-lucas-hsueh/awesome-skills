@@ -6,7 +6,7 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 5.1.0
   updated: '2026-03-22'
-  tags: [skill-creation, skill-writer-v5, prompt-engineering]
+  tags: skill-creation, skill-writer-v5, prompt-engineering
   category: meta
   difficulty: expert
   score: 7.8/10

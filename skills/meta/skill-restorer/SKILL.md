@@ -8,12 +8,7 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: '2026-03-22'
-  tags: 
-    - skill-development
-    - quality-assurance
-    - skill-writer-v5
-    - skill-evaluator
-    - restoration
+  tags: skill-development, quality-assurance, skill-writer-v5, skill-evaluator, restoration
   category: meta
   difficulty: expert
   score: 7.5/10
