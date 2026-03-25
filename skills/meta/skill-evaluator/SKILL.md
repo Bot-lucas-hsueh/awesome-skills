@@ -1,5 +1,4 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: skill-evaluator
 description: 'Evaluate skill quality through dual-track validation. Triggers: "evaluate
   skill", "test skill", "skill quality", "review skill", "deep test skill", "certify
@@ -9,66 +8,13 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 2.1.0
   updated: 2026-03-21
-  tags: '[evaluation, quality-assurance, testing, runtime-validation]'
+  tags: evaluation, quality-assurance, testing, runtime-validation
   score: 8.5/10
   quality: expert
   text_score: 8.3
   runtime_score: 7.1
   variance: 1.2
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Skill Evaluator v2.1
 
@@ -329,106 +275,3 @@ Certified: 2026-03-21
 | Common mistakes | references/anti-patterns.md |
 
 ---
-
-
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
-
-
-## References
-
-Detailed content:
-
-- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
-- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
-- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
-- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
-- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
-- [## § 8 · Workflow](./references/8-workflow.md)
-- [## § 20 · Case Studies](./references/20-case-studies.md)

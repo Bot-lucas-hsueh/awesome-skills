@@ -16,7 +16,7 @@ Thank you for considering contributing to Awesome Skills!
 Create a new skill for a domain not yet covered:
 
 1. Check existing skills to avoid duplication
-2. Use the [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md)
+2. Use the [TEMPLATE.md](./skills/meta/skill-writer/assets/TEMPLATE.md)
 3. Follow the [Skill Development Guide](#skill-development-guide)
 4. Submit a Pull Request
 
@@ -49,25 +49,33 @@ skills/
 
 ### Required Sections
 
-Every skill must include all 16 standard H2 sections in the correct order. See [TEMPLATE.md](./skills/special/skill-writer/assets/TEMPLATE.md).
+Every skill must include all 16 standard H2 sections in the correct order. See [TEMPLATE.md](./skills/meta/skill-writer/assets/TEMPLATE.md).
 
 ### YAML Frontmatter
 
+Skills follow the [agentskills open format specification](https://github.com/agentskills/agentskills):
+
 ```yaml
 ---
-name: skill-name
-display_name: Skill Name
-author: neo.ai
-version: 1.0.0
-difficulty: expert|intermediate|beginner
-category: category-name
-tags: [tag1, tag2, tag3]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+name: skill-name           # Required. Must match directory name. Lowercase, hyphens only.
+description: >             # Required. Max 1024 chars. What it does and when to use it.
   A world-class expert in [domain]. Use when [triggers].
-quality: exemplary
+license: MIT               # Optional.
+compatibility: ...         # Optional. Environment requirements.
+metadata:                  # Optional. Arbitrary key-value pairs.
+  author: neo.ai
+  version: 1.0.0
+  tags: tag1, tag2, tag3
+  category: category-name
+  difficulty: expert|intermediate|beginner
+  quality: exemplary
 ---
 ```
+
+**Key rules for `name`:**
+- Lowercase letters, numbers, and hyphens only
+- Must match the parent directory name
+- No consecutive hyphens (`--`), no leading/trailing hyphens
 
 ### Quality Criteria
 
@@ -131,8 +139,8 @@ python3 .github/scripts/validate_skills.py --strict skills/executive/
 | Check | Required For | Blocks Merge |
 |-------|-------------|-------------|
 | YAML frontmatter present | All skills | Yes |
-| Required fields: name, display_name, author, version, description | All skills | Yes |
-| Semver format for version | All skills | Yes |
+| Required fields: `name`, `description` | All skills | Yes |
+| `name` matches directory name | All skills | Yes |
 | ≥16 H2 sections | Expert skills (strict mode) | Yes |
 
 ## Style Guidelines

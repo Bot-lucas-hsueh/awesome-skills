@@ -1,5 +1,4 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: skill-writer
 description: 'Create, review, and upgrade AI skills using skill-writer v5 spec. Triggers: "write skill", "create skill", "review skill", "upgrade skill", "start beginner/quick/standard/expert".'
 license: MIT
