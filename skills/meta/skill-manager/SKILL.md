@@ -178,4 +178,29 @@ Start with diagnosis — never assume you know the problem before reading the sk
 
 ---
 
-**Version:** 1.0.0 | **Updated:** 2026-03-25 | **Lines:** ~200
+---
+
+## § 7 · Tools
+
+Four scripts automate the lifecycle — run them in order:
+
+| Script | When | Time | What |
+|--------|------|------|------|
+| `scripts/validate.sh` | Before anything | 5 sec | Frontmatter spec compliance |
+| `scripts/score.sh` | After drafting | 5 sec | Heuristic text quality check |
+| `scripts/eval.sh` | Evaluate stage | 5–60 min | Interactive dual-track evaluation |
+| `scripts/certify.sh` | Before shipping | ~2 hrs | Full certification suite |
+
+```bash
+# Typical workflow:
+./scripts/validate.sh my-skill/SKILL.md
+./scripts/score.sh    my-skill/SKILL.md
+./scripts/eval.sh     my-skill/SKILL.md standard
+./scripts/certify.sh  my-skill/SKILL.md   # production only
+```
+
+📄 [Full tool documentation → references/tools.md](references/tools.md)
+
+---
+
+**Version:** 1.0.0 | **Updated:** 2026-03-25 | **Lines:** ~220
