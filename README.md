@@ -40,17 +40,16 @@ Unlike community skill libraries that only provide static content, **Awesome Ski
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    QUALITY ECOSYSTEM                        │
-├──────────────┬────────────────┬─────────────────────────────┤
-│   CREATION   │   EVALUATION   │        RESTORATION          │
-├──────────────┼────────────────┼─────────────────────────────┤
-│ skill-writer │ skill-evaluator│      skill-restorer         │
-│     v5       │     v2.1       │        v1.0                 │
-├──────────────┼────────────────┼─────────────────────────────┤
-│ Create from  │ Dual-track     │ Transform 5-7/10 to 9.5/10  │
-│ scratch with │ validation:    │ via 7-step methodology      │
-│ 6-dimension  │ Text + Runtime │                             │
-│ rubric       │ = True quality │                             │
-└──────────────┴────────────────┴─────────────────────────────┘
+├─────────────────────────────────────────────────────────────┤
+│                    skill-manager v1.0                       │
+├─────────────────────────────────────────────────────────────┤
+│  CREATE            EVALUATE            RESTORE              │
+│  ──────────────    ──────────────────  ──────────────────── │
+│  Tier-based        Dual-track:         Transform 5-7/10     │
+│  creation with     Text + Runtime      to 9.5/10 via        │
+│  6-dimension       = True quality      7-step methodology   │
+│  rubric            score                                    │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 **This is why our 401 certified skills outperform 1000+ community skills.**
@@ -58,9 +57,9 @@ Unlike community skill libraries that only provide static content, **Awesome Ski
 ---
 
 <a name="methodology"></a>
-### 🔬 Methodology: skill-writer v5 + skill-evaluator v2.1
+### 🔬 Methodology: skill-manager v1.0
 
-#### 1. Creation: skill-writer v5
+#### Unified Lifecycle: Create → Evaluate → Restore
 
 **6-Dimension Quality Rubric:**
 
@@ -77,18 +76,16 @@ Unlike community skill libraries that only provide static content, **Awesome Ski
 
 **3-Tier Architecture:**
 - **Lite** (50-150 lines): Single function tools
-- **Standard** (150-500 lines): Domain knowledge base  
+- **Standard** (150-500 lines): Domain knowledge base
 - **Enterprise** (500-1500 lines): Complete methodology
 
 **Progressive Disclosure:**
 ```
-SKILL.md (< 350 lines): Navigation + frameworks
-references/ (3000+ lines): Deep dives + full examples
+SKILL.md (≤ 300 lines): Navigation + frameworks
+references/ : Deep dives + full examples (loaded on demand)
 ```
 
-#### 2. Evaluation: skill-evaluator v2.1
-
-**Dual-Track Validation™** (Text 50% + Runtime 50%):
+**Dual-Track Validation** (Text 50% + Runtime 50%):
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -105,37 +102,18 @@ references/ (3000+ lines): Deep dives + full examples
 └──────────────────────────┴──────────────────────────────────┘
 ```
 
-**Certification Thresholds:**
-- Text ≥ 8.0/10
-- Runtime ≥ 8.0/10  
-- Variance < 1.0
-- **Final ≥ 9.5/10 for EXCELLENCE**
+**Certification Thresholds:** Text ≥ 8.0 · Runtime ≥ 8.0 · Variance < 1.0
 
-#### 3. Restoration: skill-restorer v1.0
-
-**7-Step Restoration Methodology™:**
+**7-Step Restoration Methodology:**
 
 ```
-Step 1: DIAGNOSIS (15 min)
-        └── Analyze current skill, identify deficiencies
-        
-Step 2: RESEARCH (30-60 min)
-        └── Gather domain-specific data, replace generic terms
-        
-Step 3: ARCHITECTURE (20 min)
-        └── Plan System Prompt (§1.1/1.2/1.3), Domain Knowledge, Workflow
-        
-Step 4: PROGRESSIVE DISCLOSURE (15 min)
-        └── Create SKILL.md skeleton (<350 lines) + references/ structure
-        
-Step 5: CONTENT PRODUCTION (60-90 min)
-        └── Fill all sections with professional, data-driven content
-        
-Step 6: VALIDATION (15-30 min)
-        └── Run skill-evaluator v2.1, verify 9.5/10
-        
-Step 7: DELIVERY (10 min)
-        └── Save EVALUATION_REPORT.md, backup original
+Step 1: DIAGNOSIS (15 min)   → Analyze current skill, identify deficiencies
+Step 2: RESEARCH (30-60 min) → Gather domain-specific data, replace generic terms
+Step 3: ARCHITECTURE (20 min)→ Plan §1.1/1.2/1.3, Domain Knowledge, Workflow
+Step 4: DISCLOSURE (15 min)  → Create SKILL.md skeleton (≤300 lines) + references/
+Step 5: PRODUCTION (60-90 m) → Fill all sections with professional, data-driven content
+Step 6: VALIDATION (15-30 m) → Run eval.sh, verify thresholds met
+Step 7: DELIVERY (10 min)    → Save EVALUATION_REPORT.md, certify if production
 ```
 
 **Typical Improvement:** 5-7/10 → 9.5/10 (+3.0 to +4.0 points)
@@ -236,16 +214,15 @@ Total: 401/976 (41.1%) at EXCELLENCE 9.5/10
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                      质量生态系统                            │
-├──────────────┬────────────────┬─────────────────────────────┤
-│    技能写作   │    质量评估    │         技能恢复            │
-├──────────────┼────────────────┼─────────────────────────────┤
-│ skill-writer │ skill-evaluator│      skill-restorer         │
-│     v5       │     v2.1       │        v1.0                 │
-├──────────────┼────────────────┼─────────────────────────────┤
-│ 基于6维度    │ 双轨验证：     │ 通过7步方法论               │
-│ 评分标准     │ 文本+运行时    │ 将5-7/10提升至9.5/10        │
-│ 从零创建     │ = 真实质量     │                             │
-└──────────────┴────────────────┴─────────────────────────────┘
+├─────────────────────────────────────────────────────────────┤
+│                   skill-manager v1.0                        │
+├─────────────────────────────────────────────────────────────┤
+│  创建 (CREATE)     评估 (EVALUATE)   恢复 (RESTORE)         │
+│  ──────────────    ──────────────    ─────────────────────  │
+│  分层创建方法论    双轨验证：         通过7步方法论           │
+│  6维度质量标准     文本+运行时        将5-7/10提升至9.5/10   │
+│                   = 真实质量                                │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 **这就是为什么我们的817个认证技能优于1000+社区技能。**
@@ -253,9 +230,9 @@ Total: 401/976 (41.1%) at EXCELLENCE 9.5/10
 ---
 
 <a name="方法论"></a>
-### 🔬 方法论：skill-writer v5 + skill-evaluator v2.1
+### 🔬 方法论：skill-manager v1.0
 
-#### 1. 创作：skill-writer v5
+#### 统一生命周期：创建 → 评估 → 恢复
 
 **6维度质量评分标准：**
 
@@ -277,13 +254,11 @@ Total: 401/976 (41.1%) at EXCELLENCE 9.5/10
 
 **渐进式披露：**
 ```
-SKILL.md (< 350行)：导航 + 框架
-references/ (3000+行)：深度内容 + 完整示例
+SKILL.md (≤ 300行)：导航 + 框架
+references/：深度内容 + 完整示例（按需加载）
 ```
 
-#### 2. 评估：skill-evaluator v2.1
-
-**双轨验证™** (文本50% + 运行时50%)：
+**双轨验证** (文本50% + 运行时50%)：
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -300,37 +275,18 @@ references/ (3000+行)：深度内容 + 完整示例
 └──────────────────────────┴──────────────────────────────────┘
 ```
 
-**认证阈值：**
-- 文本 ≥ 8.0/10
-- 运行时 ≥ 8.0/10
-- 方差 < 1.0
-- **最终 ≥ 9.5/10 获得卓越认证**
+**认证阈值：** 文本 ≥ 8.0 · 运行时 ≥ 8.0 · 方差 < 1.0
 
-#### 3. 恢复：skill-restorer v1.0
-
-**7步恢复方法论™：**
+**7步恢复方法论：**
 
 ```
-步骤1：诊断 (15分钟)
-       └── 分析当前技能，识别缺陷
-       
-步骤2：研究 (30-60分钟)
-       └── 收集领域专属数据，替换通用术语
-       
-步骤3：架构 (20分钟)
-       └── 规划系统提示词 (§1.1/1.2/1.3)、领域知识、工作流程
-       
-步骤4：渐进披露 (15分钟)
-       └── 创建SKILL.md骨架 (<350行) + references/ 结构
-       
-步骤5：内容生产 (60-90分钟)
-       └── 用专业、数据驱动的内容填充所有章节
-       
-步骤6：验证 (15-30分钟)
-       └── 运行 skill-evaluator v2.1，确认9.5/10
-       
-步骤7：交付 (10分钟)
-       └── 保存 EVALUATION_REPORT.md，备份原始文件
+步骤1：诊断 (15分钟)    → 分析当前技能，识别缺陷
+步骤2：研究 (30-60分钟) → 收集领域专属数据，替换通用术语
+步骤3：架构 (20分钟)    → 规划 §1.1/1.2/1.3、领域知识、工作流程
+步骤4：渐进披露 (15分钟)→ 创建SKILL.md骨架 (≤300行) + references/ 结构
+步骤5：内容生产 (60-90) → 用专业、数据驱动的内容填充所有章节
+步骤6：验证 (15-30分钟) → 运行 eval.sh，确认认证阈值达标
+步骤7：交付 (10分钟)    → 保存 EVALUATION_REPORT.md，生产环境执行认证
 ```
 
 **典型提升：** 5-7/10 → 9.5/10 (+3.0 至 +4.0 分)
