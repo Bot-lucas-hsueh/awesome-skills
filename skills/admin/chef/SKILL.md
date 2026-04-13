@@ -5,7 +5,7 @@ tags:
   - domain: admin
   - subtype: chef
   - level: expert
-description: Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Use when cooking, recipe development, menu planning, or kitchen management. Use when: working with chef.
+description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Covers recipe development, technique guidance, flavor troubleshooting, food cost optimization, and HACCP food safety compliance. Use when: cooking, recipe development, menu planning, kitchen management, food safety questions, or culinary team coordination."
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -14,30 +14,7 @@ metadata:
 # Professional Chef
 
 
-## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
+## 1 System Prompt
 
 ### 1.1 Role Definition
 
@@ -138,56 +115,56 @@ Before responding in this domain, evaluate:
 
 
 
-## § 10 · Common Pitfalls & Anti-Patterns
+## 10 Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
-| 1 | **Overcrowding the Pan** | 🔴 High | Cook in batches with space between items — crowding steams instead of sears |
-| 2 | **Skipping the Rest** | 🔴 High | Let meat rest 5-10 minutes before cutting — cutting too soon releases all juices |
-| 3 | **Not Preheating Properly** | 🔴 High | Let pans and ovens fully preheat — cold start = uneven cooking |
-| 4 | **Tasting Too Late** | 🟡 Medium | Taste at every stage — corrections early prevent disasters |
-| 5 | **Neglecting Salt Timing** | 🟡 Medium | Salt early to build flavor, adjust at end for final balance |
-| 6 | **Using Dull Knives** | 🟢 Low | Sharpen regularly — dull knives are dangerous and imprecise |
+| 1 | **Overcrowding the Pan** | High | Cook in batches with space between items — crowding steams instead of sears |
+| 2 | **Skipping the Rest** | High | Let meat rest 5-10 minutes before cutting — cutting too soon releases all juices |
+| 3 | **Not Preheating Properly** | High | Let pans and ovens fully preheat — cold start = uneven cooking |
+| 4 | **Tasting Too Late** | Medium | Taste at every stage — corrections early prevent disasters |
+| 5 | **Neglecting Salt Timing** | Medium | Salt early to build flavor, adjust at end for final balance |
+| 6 | **Using Dull Knives** | Low | Sharpen regularly — dull knives are dangerous and imprecise |
 
 ```
-❌ Adding cold tomatoes to a hot pan — causes steaming, mushy texture
-✅ Let tomatoes come to room temp or use San Marzano canned at their natural temperature
+Bad: Adding cold tomatoes to a hot pan — causes steaming, mushy texture
+Good: Let tomatoes come to room temp or use San Marzano canned at their natural temperature
 ```
 
 ```
-❌ Turning protein too often — prevents browning, results in gray, rubbery texture
-✅ Let it develop a crust before flipping — you should hear sizzling, not sputtering
+Bad: Turning protein too often — prevents browning, results in gray, rubbery texture
+Good: Let it develop a crust before flipping — you should hear sizzling, not sputtering
 ```
 
 ---
 
 
-## § 11 · Integration with Other Skills
+## 11 Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
-| Chef + **Recipe Writer** | Chef provides technique guidance → Recipe Writer formats into clean recipe | Professional-grade recipe documentation |
-| Chef + **Meal Planner** | Chef specifies dishes → Meal Planner organizes shopping, timing, storage | Complete meal preparation workflow |
-| Chef + **Nutritionist** | Chef designs dishes → Nutritionist analyzes macros/allergens | Health-conscious menu development |
-| Chef + **Purchasing** | Chef specifies ingredients → Purchasing finds suppliers/pricing | Cost-optimized procurement |
+| Chef + **Recipe Writer** | Chef provides technique guidance, Recipe Writer formats into clean recipe | Professional-grade recipe documentation |
+| Chef + **Meal Planner** | Chef specifies dishes, Meal Planner organizes shopping, timing, storage | Complete meal preparation workflow |
+| Chef + **Nutritionist** | Chef designs dishes, Nutritionist analyzes macros/allergens | Health-conscious menu development |
+| Chef + **Purchasing** | Chef specifies ingredients, Purchasing finds suppliers/pricing | Cost-optimized procurement |
 
 ---
 
 
-## § 12 · Scope & Limitations
+## 12 Scope & Limitations
 
-**✓ Use this skill when:**
+**Use this skill when:**
 - Cooking techniques, recipes, or kitchen workflows
 - Menu development or meal planning
 - Food safety and storage questions
 - Troubleshooting cooking problems
 - Kitchen equipment selection
 
-**✗ Do NOT use this skill when:**
-- Medical or dietary therapy advice → use "nutritionist" or "dietitian" skill
-- Restaurant business operations (staffing, finances) → use "restaurant-manager" skill
-- Food photography or content creation → use "food-photographer" skill
-- Agricultural or farming questions → use "agriculture" skill
+**Do NOT use this skill when:**
+- Medical or dietary therapy advice — use "nutritionist" or "dietitian" skill
+- Restaurant business operations (staffing, finances) — use "restaurant-manager" skill
+- Food photography or content creation — use "food-photographer" skill
+- Agricultural or farming questions — use "agriculture" skill
 
 ---
 
@@ -200,9 +177,9 @@ Before responding in this domain, evaluate:
 ---
 
 
-## § 14 · Quality Verification
+## 14 Quality Verification
 
-→ See references/standards.md §7.10 for full checklist
+> See references/standards.md for full checklist
 
 ### Test Cases
 
@@ -218,202 +195,171 @@ Input: "My steak is always tough no matter how long I cook it"
 Expected: Diagnose doneness temperature vs. cooking time; recommend reverse sear or sous vide; explain why longer isn't always better
 ```
 
-## § 16 · Domain Deep Dive
+## 16 Domain Deep Dive
 
-### Specialized Knowledge Areas
+> See [references/7-standards-reference.md](./references/7-standards-reference.md) for detailed culinary knowledge areas.
 
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
+| Area | Core Concepts | Applications |
+|------|--------------|--------------|
+| **Classical Technique** | French mother sauces, butchery, stock-making | Foundation for all cuisine styles |
+| **Kitchen Operations** | Brigade system, station workflow, FIFO inventory | Smooth service, reduced waste |
+| **Menu Engineering** | Food cost %, contribution margin, menu matrix | Profitable menu design |
+| **Food Safety** | HACCP, danger zone (40-140°F), allergen protocols | Regulatory compliance, guest safety |
 
 
-## § 17 · Risk Management Deep Dive
+## 17 Risk Management
 
-### 🔴 Critical Risk Register
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Cross-contamination (allergens) | Medium | Critical | Dedicated prep surfaces, color-coded boards, staff allergen training |
+| Temperature abuse (danger zone) | Medium | Critical | Probe thermometers at every station, HACCP logs, timed checks |
+| Supply chain disruption | Medium | High | Dual-source key proteins, seasonal flexibility in menu design |
+| Kitchen injury (burns, cuts) | Medium | High | PPE enforcement, sharp knife program, non-slip mats, first-aid station |
 
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
+> See [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for full risk framework.
 
 
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
+## 18 Excellence Framework
 
 | Dimension | Good | Great | World-Class |
 |-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
+| **Flavor** | Balanced seasoning | Layered depth, proper acid/fat/heat | Signature flavor identity, guests remember the dish |
+| **Presentation** | Clean plating | Intentional color and texture contrast | Artistic, Instagram-worthy, tells a story |
+| **Consistency** | Same dish twice | Same dish every service | Same dish across multiple cooks and shifts |
+| **Efficiency** | Mise en place done | Synchronized station timing | Zero waste, sub-15-min ticket times at peak |
 
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
+> See [references/7-standards-reference.md](./references/7-standards-reference.md) for detailed standards.
 
 
-## § 21 · Resources & References
+## 19 Best Practices Library
+
+| Practice | Culinary Application | Expected Impact |
+|----------|---------------------|-----------------|
+| **Mise en place** | All ingredients prepped, measured, and organized before cooking begins | Eliminates mid-cook scrambling, reduces errors |
+| **Taste as you go** | Season and adjust at every stage, not just at the end | Layered, well-balanced final product |
+| **FIFO rotation** | First In, First Out for all perishable inventory | Reduced spoilage, lower food cost |
+| **Recipe documentation** | Standardized recipes with exact weights, temps, and plating photos | Consistency across cooks and shifts |
+| **Post-service debrief** | Quick team review after each service: what worked, what broke down | Continuous improvement, team cohesion |
+
+> See [references/20-case-studies.md](./references/20-case-studies.md) for real-world examples.
+
+
+## 21 Resources & References
+
+> See [references/6-professional-toolkit.md](./references/6-professional-toolkit.md) for recommended tools and equipment.
 
 | Resource | Type | Key Takeaway |
 |----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+| *The Professional Chef* (CIA) | Textbook | Comprehensive technique foundation |
+| HACCP Guidelines (FDA) | Regulatory | Food safety compliance requirements |
+| *The Flavor Bible* (Page & Dornenburg) | Reference | Ingredient pairing and flavor affinity |
 
 ---
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
 
 
 ## References
 
 Detailed content:
 
-- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
-- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
-- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
-- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
-- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
-- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
-- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
-- [## § 20 · Case Studies](./references/20-case-studies.md)
+- [2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [4 Core Philosophy](./references/4-core-philosophy.md)
+- [6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [7 Standards & Reference](./references/7-standards-reference.md)
+- [8 Standard Workflow](./references/8-standard-workflow.md)
+- [9 Scenario Examples](./references/9-scenario-examples.md)
+- [20 Case Studies](./references/20-case-studies.md)
 
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: Handle standard chef request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
+### Example 1: Designing a Seasonal Tasting Menu
+Input: "Design a 5-course spring tasting menu for a farm-to-table restaurant"
+Output:
+1. **Amuse-bouche:** Pea shoot veloute with mint oil and crouton — 2 oz portion, showcases peak-season peas
+2. **Appetizer:** Burrata with roasted beets, blood orange, and pistachio — acid and fat balance, vibrant color
+3. **Fish:** Pan-seared halibut, asparagus puree, morel mushrooms, brown butter — seasonal hero ingredients
+4. **Meat:** Herb-crusted rack of lamb, spring pea risotto, jus — classical technique, spring flavors
+5. **Dessert:** Strawberry panna cotta with rhubarb compote and shortbread — light, seasonal close
 
-Standard timeline: 2-5 business days
+Estimated food cost: 30% at $18/cover. Prep timeline: 6 hours with 2 cooks.
 
-### Example 2: Edge Case
-Input: Manage complex chef scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
+### Example 2: Managing a Kitchen Brigade for a 200-Person Banquet
+Input: "Organize kitchen staff and timeline for a 200-person wedding banquet with plated service"
+Output:
+- **Brigade:** 1 exec chef, 2 sous chefs, 4 line cooks, 2 prep cooks, 1 pastry chef, 2 plating assistants
+- **Timeline:** Prep starts 48 hrs out (stocks, marinades, dessert components). Day-of: proteins portioned by 10am, mise en place by 2pm, first course fires at 6:30pm
+- **Station assignments:** Saute (proteins), Garde Manger (salads/cold apps), Pastry (dessert), Expeditor (quality check and plating flow)
+- **Contingency:** 10% overproduction on proteins, backup burners preheated, plating rehearsal at 4pm
 
-Solution: Integrated approach addressing all stakeholder concerns
-
+### Example 3: Developing a Cost-Effective Menu with High-Margin Items
+Input: "Redesign a casual bistro menu to improve food cost from 38% to under 32%"
+Output:
+- **Cut:** Remove low-margin items (imported seafood specials, truffle dishes) — replace with high-margin alternatives
+- **Rebalance:** Feature braised/slow-cooked proteins (chuck, pork shoulder) that cost $4-6/lb vs. tenderloin at $25/lb
+- **Upsell architecture:** Position high-margin pasta and risotto dishes as "chef's favorites" — food cost under 22%
+- **Waste reduction:** Cross-utilize trim (chicken carcasses for stock, vegetable scraps for purees)
+- **Projected result:** Blended food cost drops to 30.5% while maintaining perceived value
 
 
 ## Error Handling & Recovery
 
 | Scenario | Response |
 |----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
+| Protein overcooked | Slice thin, repurpose as salad topping or sandwich filling; fire replacement if service allows |
+| Sauce broken (emulsion split) | Remove from heat, whisk in ice cube or cold cream to re-emulsify; start fresh mount if unrecoverable |
+| Allergen cross-contact suspected | Discard the plate immediately, sanitize station, re-fire with clean equipment on a dedicated surface |
+| Key ingredient unavailable mid-service | Substitute from the same flavor family (e.g., shallots for red onion), or 86 the dish and offer alternative |
 
 
 ## Workflow
 
-### Phase 1: Request
-- Receive and document request
-- Clarify requirements and constraints
-- Assess urgency and priority
+### Phase 1: Menu Concept
+- Define cuisine direction, guest profile, and price point
+- Research seasonal ingredient availability and supplier options
+- Draft initial menu with target food cost percentages
 
-**Done:** Request documented, requirements clarified
-**Fail:** Unclear request, missing information
+**Done:** Menu concept approved, ingredient sourcing confirmed
+**Fail:** Unclear concept, budget mismatch — revisit with stakeholders
 
-### Phase 2: Assessment
-- Evaluate current state and gaps
-- Identify resources needed
-- Assess risks and alternatives
+### Phase 2: Recipe R&D
+- Develop and test each dish with exact measurements and techniques
+- Calculate per-plate food cost and adjust portions or ingredients
+- Document standardized recipes with plating photos
 
-**Done:** Assessment complete, solution options identified
-**Fail:** Incomplete assessment, missed risks
+**Done:** All recipes tested, costed, and documented
+**Fail:** Dish doesn't meet taste or cost targets — iterate or replace
 
-### Phase 3: Coordination
-- Coordinate with stakeholders
-- Allocate resources
-- Execute plan
+### Phase 3: Mise en Place
+- Build prep lists with quantities, assignments, and timelines
+- Organize stations: ingredients prepped, equipment calibrated, backup stock ready
+- Conduct pre-service briefing with the team on specials and modifications
 
-**Done:** Coordination complete, plan executed
-**Fail:** Resource conflicts, stakeholder issues
+**Done:** All stations prepped, team briefed, service-ready
+**Fail:** Missing ingredients, equipment failure — activate contingency plan
 
-### Phase 4: Resolution & Confirmation
-- Verify resolution meets requirements
-- Obtain stakeholder sign-off
-- Document lessons learned
+### Phase 4: Service Execution
+- Execute dishes to standard: consistent timing, temperature, and plating
+- Expeditor checks every plate before it leaves the pass
+- Monitor ticket times and adjust pacing as needed
 
-**Done:** Issue resolved, stakeholder approved
-**Fail:** Recurring issues, no sign-off
+**Done:** All covers served to standard, ticket times within target
+**Fail:** Quality slip or timing breakdown — call for re-fire, adjust station flow
+
+### Phase 5: Post-Service Review
+- Debrief with team: what went well, what broke down, what to fix
+- Log waste, returns, and 86'd items for menu adjustment
+- Update prep lists and recipes based on service learnings
+
+**Done:** Debrief complete, action items documented
+**Fail:** No review conducted — schedule mandatory debrief next service
 
 ## Domain Benchmarks
 
 | Metric | Industry Standard | Target |
 |--------|------------------|--------|
-| Quality Score | 95% | 99%+ |
-| Error Rate | <5% | <1% |
-| Efficiency | Baseline | 20% improvement |
+| Food Cost % | 28-35% | Under 30% |
+| Ticket Time (entree) | 12-18 min | Under 14 min |
+| Plate Return Rate | <3% | <1% |
+| Food Safety Audit Score | 90%+ | 98%+ |
+| Prep Waste | 8-12% | Under 6% |

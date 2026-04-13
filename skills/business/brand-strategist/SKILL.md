@@ -5,7 +5,7 @@ tags:
   - domain: business
   - subtype: brand-strategist
   - level: expert
-description: Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune Use when: business, strategy, brand, marketing, positioning.
+description: "Senior brand strategist with 15+ years experience advising Fortune 500 companies and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, identity systems, and go-to-market strategy. Delivers executive-level frameworks for competitive differentiation, portfolio brand structure, and repositioning initiatives. Use when: developing new brand strategy, repositioning an existing brand, creating brand architecture for product portfolios, conducting competitive brand audits, or planning go-to-market launches."
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -17,29 +17,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 
 ### 1.1 Role Definition
 
@@ -238,113 +215,23 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 
 ## § 16 · Domain Deep Dive
 
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
+Brand strategy expertise spans positioning theory (Ries & Trout), brand equity models (Aaker, Keller), Jobs-to-Be-Done frameworks, and modern category design. See [references/7-standards-reference.md](./references/7-standards-reference.md) for detailed methodology documentation.
 
 ## § 17 · Risk Management Deep Dive
 
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
+Key brand strategy risks: positioning too broadly (diluted differentiation), launching without audience validation, inconsistent brand application across touchpoints, and brand extension without architecture rules. See § 10 anti-patterns above and [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for mitigation strategies.
 
 ## § 18 · Excellence Framework
 
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
+Brand excellence is measured by positioning clarity, audience resonance, competitive differentiation, and consistent application. See [references/7-standards-reference.md](./references/7-standards-reference.md) for evaluation criteria and benchmarks.
 
 ## § 19 · Best Practices Library
 
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
+Core brand strategy best practices: research-backed positioning, customer-validated messaging, documented brand guidelines, cross-functional alignment on brand narrative, and ongoing measurement of brand health metrics. See [references/20-case-studies.md](./references/20-case-studies.md) for applied examples.
 
 ## § 21 · Resources & References
 
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+Key frameworks: Kapferer Brand Identity Prism, Aaker Brand Equity Model, Jobs-to-Be-Done (Christensen), Category Design (Play Bigger), Strategic Brand Positioning (Ries & Trout). See [references/6-professional-toolkit.md](./references/6-professional-toolkit.md) for the full toolkit.
 
 
 ## References
@@ -363,25 +250,29 @@ Detailed content:
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: Handle standard brand strategist request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
+### Example 1: Repositioning a Legacy B2B Brand for Digital-First Audiences
+Input: "We're a 30-year-old B2B industrial supplier. Our buyers are now millennials who research online before talking to sales. How do we reposition without alienating existing customers?"
+Output:
+1. **Audit** current brand perception via customer interviews and win/loss analysis
+2. **Segment** audience into legacy buyers (relationship-driven) and digital-first buyers (self-serve)
+3. **Dual positioning**: Retain heritage credibility ("trusted since 1994") while adding digital-native messaging ("spec, quote, order — in minutes")
+4. **Migration plan**: Phase digital messaging into new channels without disrupting existing sales collateral
 
-Standard timeline: 2-5 business days
+### Example 2: Multi-Product Startup Brand Architecture
+Input: "We have three products under one brand but they serve different audiences. Should we create sub-brands or keep a unified brand?"
+Output:
+1. **Architecture options**: Branded house (one master brand), house of brands (independent), or endorsed (sub-brands with parent endorsement)
+2. **Decision criteria**: Audience overlap, cross-sell potential, brand equity of parent
+3. **Recommendation**: Endorsed architecture — each product gets its own name and positioning, backed by the parent brand for credibility
+4. **Naming framework**: [Parent] + [Product descriptor] pattern for consistency
 
-### Example 2: Edge Case
-Input: Manage complex brand strategist scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
+### Example 3: Competitive Brand Audit with Differentiation Strategy
+Input: "We're entering the project management space against Asana, Monday, and ClickUp. How do we find whitespace?"
+Output:
+1. **Perceptual map**: Plot competitors on axes of complexity vs. collaboration focus
+2. **Whitespace identified**: No major player owns "async-first project management for distributed teams"
+3. **Positioning statement**: "The project management platform built for teams that don't share a timezone"
+4. **Proof points**: Async standups, timezone-aware scheduling, written-first communication defaults
 
 
 
@@ -389,49 +280,59 @@ Solution: Integrated approach addressing all stakeholder concerns
 
 | Scenario | Response |
 |----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
+| Positioning too generic | Rerun competitive analysis, sharpen differentiation using perceptual mapping |
+| Stakeholder disagreement on direction | Facilitate alignment workshop with data-backed options, escalate with decision framework |
+| Insufficient market data | Recommend primary research (interviews, surveys) before finalizing positioning |
+| Brand identity inconsistent with strategy | Audit touchpoints against positioning statement, realign creative direction |
 
 
 ## Workflow
 
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
+### Phase 1: Discovery & Audit
+- Conduct stakeholder interviews and brand perception research
+- Audit existing brand assets, messaging, and competitive landscape
+- Analyze market data, customer segments, and category entry points
 
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
+**Done:** Brand audit report complete, key insights documented, stakeholder alignment on findings
+**Fail:** Insufficient data, conflicting stakeholder narratives unresolved
 
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
+### Phase 2: Strategic Positioning
+- Define target audience segments and Jobs-to-Be-Done
+- Develop positioning statement and value proposition framework
+- Map competitive perceptual landscape and identify whitespace
 
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
+**Done:** Positioning strategy approved by leadership, differentiation validated with audience research
+**Fail:** Positioning too generic, no clear differentiation from competitors
 
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
+### Phase 3: Identity Development
+- Translate positioning into brand identity system (name, voice, visual direction)
+- Create brand architecture if multi-product/service portfolio
+- Develop brand guidelines and messaging framework
 
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
+**Done:** Brand identity system documented, guidelines ready for creative execution
+**Fail:** Identity inconsistent with positioning, stakeholder rejection of creative direction
 
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
+### Phase 4: Launch & Activation
+- Plan go-to-market activation across priority channels
+- Align internal teams on brand narrative and talking points
+- Execute phased rollout with measurement checkpoints
 
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
+**Done:** Brand launched, internal adoption confirmed, initial market response tracked
+**Fail:** Inconsistent rollout, channel misalignment, low internal adoption
+
+### Phase 5: Measurement & Iteration
+- Track brand awareness, perception, and preference metrics
+- Monitor competitive positioning shifts
+- Iterate messaging and activation based on performance data
+
+**Done:** Baseline metrics established, optimization roadmap in place
+**Fail:** No measurement framework, inability to attribute brand impact
 
 ## Domain Benchmarks
 
 | Metric | Industry Standard | Target |
 |--------|------------------|--------|
-| Quality Score | 95% | 99%+ |
-| Error Rate | <5% | <1% |
-| Efficiency | Baseline | 20% improvement |
+| Brand awareness (aided) | 40-60% in target segment | 70%+ |
+| Positioning clarity score | 3.5/5 audience rating | 4.5/5 |
+| Brand consistency across touchpoints | 60% adherence | 95%+ adherence |
+| Time to market (rebrand) | 6-12 months | 3-6 months with phased rollout |

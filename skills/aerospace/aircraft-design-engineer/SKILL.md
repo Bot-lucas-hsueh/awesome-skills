@@ -5,7 +5,7 @@ tags:
   - domain: aerospace
   - subtype: aircraft-design-engineer
   - level: expert
-description: Aircraft design engineer specializing in aerodynamic design, structural configuration, and performance optimization for commercial and military aviation platforms.
+description: "Aircraft design engineer specializing in aerodynamic design, structural configuration, and performance optimization for commercial and military aviation platforms. Use when designing aircraft, performing aerodynamic analysis, optimizing structural configurations, sizing propulsion systems, or navigating FAA/EASA certification requirements."
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -167,28 +167,32 @@ Detailed content:
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: Design and implement a aircraft design engineer solution for a production system
-Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+### Example 1: Preliminary Sizing of a Regional Turboprop
+Input: Size a 70-seat regional turboprop for 1,200 nm range at 350 KTAS cruise, operating from 5,000 ft runways.
+Output:
+1. Mission profile definition → segment fuel fractions (taxi, climb, cruise, descent, reserves)
+2. Weight estimation: Wto ≈ 58,000 lb using Roskam Class I methods; iterate via Breguet range equation with SFC = 0.45 lb/hp·hr
+3. Wing sizing: W/S = 70 psf, AR = 12, taper ratio 0.45 → S ≈ 829 ft²
+4. Powerplant selection: 2× turboprops, T/W = 0.28 → ~5,400 SHP per engine
+5. Constraint diagram overlay (takeoff field length, climb gradient, cruise speed) confirms feasible design point
 
-Key considerations for aircraft-design-engineer:
-- Scalability requirements
-- Performance benchmarks
-- Error handling and recovery
-- Security considerations
+### Example 2: Wing Planform Optimization for Fuel Efficiency
+Input: Reduce block fuel by 8% on an existing narrow-body wing (AR = 9.5, sweep 25°) without re-certifying the wing box.
+Output:
+1. Baseline drag audit: CDi = 0.0128, CDp = 0.0091 at cruise CL = 0.50
+2. Parametric study: increase AR to 10.2 with blended winglet (1.8 m span extension) → ΔCDi = −9.4%
+3. Structural check: bending moment increase +6.2% within existing spar cap margins (MS = 0.11 → 0.04)
+4. Aeroelastic flutter analysis confirms Vd margin maintained (≥1.15 Vd)
+5. Net block fuel reduction: −8.3% on 1,500 nm mission, validated via mission simulation
 
-### Example 2: Edge Case
-Input: Optimize existing aircraft design engineer implementation to improve performance by 40%
-Output: Current State Analysis:
-- Profiling results identifying bottlenecks
-- Baseline metrics documented
-
-Optimization Plan:
-1. Algorithm improvement
-2. Caching strategy
-3. Parallelization
-
-Expected improvement: 40-60% performance gain
+### Example 3: Structural Analysis of a Composite Fuselage Section
+Input: Assess damage tolerance of a CFRP barrel section (Section 46) under limit load with BVID.
+Output:
+1. Load case extraction: 2.5 g symmetric pull-up, cabin pressure ΔP = 8.6 psi
+2. BVID definition per AC 20-107B: 1.0 J/mm impact, 0.5 mm dent depth threshold
+3. FE analysis (NASTRAN SOL 400): max principal strain = 4,200 με at frame cutout
+4. Allowable strain with BVID: 4,500 με (B-basis) → MS = 0.07, compliant
+5. Fatigue & damage tolerance: crack growth from BVID below detectable size for 2× DSG (60,000 flights)
 
 
 
@@ -196,6 +200,8 @@ Expected improvement: 40-60% performance gain
 
 | Scenario | Response |
 |----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
+| CFD convergence failure | Check mesh quality (y+ values, skewness), reduce CFL number, switch to first-order initialization, verify boundary conditions |
+| Weight growth beyond allocation | Trigger weight review board, identify top-10 contributors, apply value engineering ($/kg trade), rebaseline if >3% growth |
+| Certification compliance gap | Map gap to specific Part 25 paragraph, evaluate compliance method (test/analysis/similarity), draft Issue Paper for novel features |
+| Flutter speed below Vd margin | Increase torsional stiffness, adjust mass balance, re-run SOL 145 with updated GVT-correlated model |
+| Fatigue life shortfall | Evaluate load spectrum severity, consider shot peening or cold-working at critical details, update DTE with revised S-N data |

@@ -5,7 +5,7 @@ tags:
   - domain: construction-worker
   - subtype: welder
   - level: expert
-description: Expert welder specializing in structural welding, metal fabrication, and welded connection design. Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality. Expert welder specializing in structural welding, Use when: construction, skilled-trades, welding, metal-fabrication, structural-joining.
+description: "Expert welder specializing in structural welding, metal fabrication, and welded connection design. Covers SMAW, GMAW, GTAW, and FCAW processes with AWS D1.1/D1.3 code compliance, WPS/PQR development, weld symbol interpretation per AWS A2.4, filler metal selection, and fabrication quality control. Use when addressing welding procedure qualification, weld defect analysis, joint design, preheat requirements, or NDE inspection planning."
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -17,29 +17,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 
 ### 1.1 Role Definition
 
@@ -207,6 +184,7 @@ Input: "Can I use E6011 electrode to weld a moment connection on a building fram
 Expected: E6011 is typically not prequalified for structural applications per AWS D1.1.
 Must use E6013 or E7018 (or equivalent) that is prequalified or qualified in the WPS.
 If specified in contract, must follow. E6011 may be acceptable for non-structural.
+```
 
 **Test 2: Weld Symbol**
 ```
@@ -223,113 +201,60 @@ interpretation, actionable workflows, and domain-precise risk mitigations
 
 ## § 16 · Domain Deep Dive
 
-### Specialized Knowledge Areas
+→ See [references/7-standards-reference.md](./references/7-standards-reference.md) for AWS code tables, preheat charts, and filler metal classification details.
 
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
+| Area | Core Concepts | Key Standards |
+|------|--------------|---------------|
+| **Welding Processes** | SMAW, GMAW, GTAW, FCAW parameters and selection | AWS D1.1 §4, ASME IX |
+| **Joint Design** | Groove types, fillet sizing, effective throat | AWS D1.1 §2.4, AISC 360 Ch. J |
+| **Metallurgy** | HAZ effects, preheat, interpass temperature | AWS D1.1 Table 3.2 |
+| **Quality & NDE** | VT, MT, UT, RT acceptance criteria | AWS D1.1 §6, ASTM E165/E709 |
 
 ## § 17 · Risk Management Deep Dive
 
-### 🔴 Critical Risk Register
+→ See [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for full risk matrix and mitigation procedures.
 
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Hydrogen cracking in thick sections | Medium | Critical | Preheat per AWS D1.1 Table 3.2; use low-hydrogen electrodes (E7018) |
+| Distortion from excessive heat input | High | High | Follow WPS heat input limits; use balanced welding sequence |
+| Incomplete fusion (cold lap) | Medium | High | Proper technique, correct amperage, clean joint surfaces |
 
 ## § 18 · Excellence Framework
 
-### World-Class Execution Standards
+→ See [references/8-standard-workflow.md](./references/8-standard-workflow.md) for detailed execution standards.
 
 | Dimension | Good | Great | World-Class |
 |-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
+| **Weld Quality** | Passes VT | Passes VT + NDT first time | Zero rejections across project |
+| **Productivity** | Meets daily footage targets | Exceeds targets with quality | Sets crew benchmarks |
+| **Code Compliance** | Follows WPS | Anticipates inspector questions | Mentors crew on code |
 
 ---
 
 ## § 19 · Best Practices Library
 
-### Industry Best Practices
+→ See [references/4-core-philosophy.md](./references/4-core-philosophy.md) and [references/6-professional-toolkit.md](./references/6-professional-toolkit.md) for expanded best practices.
 
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
+| Practice | Description | Expected Impact |
+|----------|-------------|-----------------|
+| **Pre-weld verification** | Check WPS, filler, preheat, fit-up before striking arc | Eliminates most rejectable defects |
+| **Interpass discipline** | Clean slag, check temp, verify bead profile between passes | 30%+ reduction in rework |
+| **Daily calibration checks** | Verify wire feed, amperage, gas flow at shift start | Consistent weld quality |
+| **Weld maps & documentation** | Track each weld joint by number with welder ID | Full traceability for inspection |
 
 ## § 21 · Resources & References
 
+→ See [references/20-case-studies.md](./references/20-case-studies.md) for real-world welding case studies.
+
 | Resource | Type | Key Takeaway |
 |----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+| AWS D1.1 Structural Welding Code | Standard | Primary code for structural steel welding |
+| AWS A2.4 Symbols for Welding | Standard | Weld symbol interpretation and creation |
+| ASME Section IX | Standard | WPS/PQR qualification procedures |
+| Lincoln Electric Procedure Handbook | Reference | Process parameters and troubleshooting |
 
 ---
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
 
 
 ## References
@@ -348,75 +273,103 @@ Detailed content:
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: Handle standard welder request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
+### Example 1: Developing a WPS for High-Pressure Pipe Joints
+Input: "I need a WPS for welding 6" Schedule 80 A106 Grade B carbon steel pipe joints per ASME B31.3. Service is high-pressure steam at 600 PSI."
+Output:
+1. **Base metal**: A106 Gr. B (P-No. 1, Group 1) — 6" Sch 80 = 0.432" wall
+2. **Process**: GTAW root pass + SMAW fill/cap (common for pressure piping)
+3. **Filler**: ER70S-2 (GTAW root), E7018 (SMAW fill) — both F-No. 6/4, A-No. 1
+4. **Preheat**: 200°F minimum per ASME B31.3 for wall > 1/4"
+5. **Position**: 6G (fixed pipe, all positions) — welder must be qualified 6G
+6. **PWHT**: Required per ASME B31.3 Table 331.1.1 for wall > 3/4" (not required here at 0.432", but verify owner requirements)
+7. **NDE**: 100% radiographic examination per B31.3 for severe cyclic service
 
-Standard timeline: 2-5 business days
+### Example 2: Troubleshooting Porosity in Aluminum GTAW Welds
+Input: "We're getting scattered porosity on 6061-T6 aluminum GTAW welds. Argon shielding at 25 CFH, AC balance at 70% EN. What's causing it?"
+Output:
+**Root cause checklist (most likely → least likely):**
+1. **Hydrocarbon contamination** — Acetone residue, shop air oil, or fingerprints on filler rod. Clean with dedicated stainless brush; use lint-free wipes with approved solvent
+2. **Moisture in shielding gas** — Check gas lines for leaks; use certified welding-grade argon (99.996% purity minimum)
+3. **Oxide layer** — Aluminum oxide melts at 3700°F vs. 1200°F for base metal. Increase AC balance to 75-80% EN or mechanically remove oxide immediately before welding
+4. **Travel speed** — Reduce speed to allow gas to escape the weld pool before solidification
+5. **Filler rod storage** — Store ER4043/ER5356 in sealed tubes; contaminated filler is a common hidden cause
 
-### Example 2: Edge Case
-Input: Manage complex welder scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
+### Example 3: Filler Metal Selection for Dissimilar Metal Joint
+Input: "We need to weld A36 carbon steel to 304 stainless steel for a transition piece. What filler do we use?"
+Output:
+**Filler selection for CS-to-SS dissimilar joint:**
+- **Recommended filler**: ER309L (or E309L-16 for SMAW) — overalloyed to compensate for dilution from the carbon steel side
+- **Why not 308L**: Dilution with carbon steel reduces Cr/Ni content below minimum for corrosion resistance
+- **Preheat**: Not required for 304 SS side; may need 50-200°F on CS side depending on thickness per AWS D1.1
+- **Caution**: Carbon migration at the fusion line creates a hard zone — specify low interpass temperature (350°F max) and minimize heat input
+- **PWHT**: Generally avoid — sensitizes 304 SS (carbide precipitation at 800-1500°F range)
 
 
 ## Error Handling & Recovery
 
 | Scenario | Response |
 |----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
+| Weld rejected for incomplete fusion | Gouge out defective area to sound metal, re-prepare joint, reweld per WPS, re-inspect |
+| Preheat temperature not maintained | Stop welding, reheat to WPS minimum, verify with contact pyrometer before resuming |
+| Wrong filler metal used on structural weld | Document NCR, engineering review required — may need full removal and reweld depending on filler classification mismatch |
+| Distortion exceeds tolerance | Assess per AWS D1.1 §5.23 — may require thermal straightening with engineer approval; document heat application limits |
 
 
 ## Workflow
 
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
+### Phase 1: Joint Assessment
+- Review drawings for weld symbols, joint type, and material specifications
+- Verify base metal grade and thickness against WPS requirements
+- Check fit-up tolerances (root opening, alignment, bevel angle) per AWS D1.1 §5.22
 
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
+**Done:** Joint geometry confirmed, WPS identified and matched to joint
+**Fail:** Drawing unclear, material mismatch, or fit-up out of tolerance — return to detailer/fitter
 
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
+### Phase 2: WPS Development & Verification
+- Select or develop WPS based on base metal, joint type, and loading
+- Confirm filler metal classification, preheat, and interpass temperature
+- Verify welder qualification covers the WPS variables (process, position, thickness range)
 
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
+**Done:** Approved WPS in hand, welder qualified for the joint
+**Fail:** No qualified WPS — must write and qualify new procedure, or requalify welder
 
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
+### Phase 3: Material Prep & Fit-Up
+- Clean joint surfaces to bare metal (remove mill scale, rust, oil, paint)
+- Verify fit-up dimensions: root opening, root face, bevel angle per WPS
+- Apply preheat if required; verify with contact pyrometer
 
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
+**Done:** Joint prepped, preheated, and ready for welding per WPS
+**Fail:** Contamination found, fit-up out of tolerance — rework before welding
 
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
+### Phase 4: Welding Execution
+- Strike arc and weld per WPS parameters (amperage, voltage, travel speed, technique)
+- Maintain interpass temperature; clean slag between passes
+- Complete weld sequence per weld map to minimize distortion
 
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
+**Done:** Weld completed per WPS, visual inspection passes
+**Fail:** Parameter deviation, visible defect — stop, assess, repair per procedure
+
+### Phase 5: Inspection & NDE
+- Perform visual inspection (VT) per AWS D1.1 §6.9 — check profile, undercut, porosity, cracks
+- Schedule NDE as required (MT, UT, RT) per contract documents
+- Document all inspection results on weld log
+
+**Done:** All inspections pass; weld accepted
+**Fail:** Defect found — document NCR, gouge/repair, re-inspect
+
+### Phase 6: Documentation & Closeout
+- Complete weld log with welder ID, WPS number, date, joint number, inspection results
+- File PQR, WPS, and welder qualification records
+- Turn over documentation package to QC manager
+
+**Done:** Full traceability from WPS to final inspection for every joint
+**Fail:** Missing documentation — locate or reconstruct before project closeout
 
 ## Domain Benchmarks
 
 | Metric | Industry Standard | Target |
 |--------|------------------|--------|
-| Quality Score | 95% | 99%+ |
-| Error Rate | <5% | <1% |
-| Efficiency | Baseline | 20% improvement |
+| First-time pass rate (VT) | 95% | 99%+ |
+| Weld rejection rate (NDE) | <5% | <1% |
+| Arc time efficiency | 25-30% | 40%+ |
+| WPS compliance | 100% required | 100% verified |

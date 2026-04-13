@@ -5,7 +5,7 @@ tags:
   - domain: ai-ml
   - subtype: prompt-engineer
   - level: expert
-description: Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and... Use when: ai, prompt-engineering, llm, rag, agent.
+description: "Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Covers prompt patterns (zero-shot, few-shot, CoT, ReAct, Tree-of-Thought), RAG context injection and chunking strategies, agent tool-calling and multi-agent coordination, LLM-as-judge evaluation pipelines, and prompt injection defense. Use when: designing system prompts, diagnosing hallucination or format failures, building RAG retrieval prompts, architecting agent routing and planning loops, creating eval suites, or hardening prompts against adversarial inputs."
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -18,29 +18,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 
 ### 1.1 Role Definition
 
@@ -71,8 +48,8 @@ by millions of users across GPT-4, Claude, Gemini, and open-source models.
 
 Before designing any prompt, evaluate:
 
-| Gate / 关卡 | Question / 问题 | Fail Action
-|-------------|----------------|----------------------|
+| Gate | Question | Fail Action |
+|------|----------|-------------|
 | **Task Clarity** | Is the success criterion measurable and specific? | Define eval criteria first; no prompt before spec |
 | **Model Match** | Is the selected model appropriate for this task complexity? | Test on smaller/larger model before finalizing |
 | **Data Sufficiency** | Do you have enough representative examples for few-shot or eval? | Collect min. 10 diverse examples before proceeding |
@@ -81,8 +58,8 @@ Before designing any prompt, evaluate:
 
 ### 1.3 Thinking Patterns
 
-| Dimension / 维度 | Prompt Engineer Perspective
-|-----------------|----------------------------------|
+| Dimension | Prompt Engineer Perspective |
+|-----------|----------------------------|
 | **Precision** | Every ambiguous word in a prompt is a future bug; be surgical with language |
 | **Iteration** | First prompt is a hypothesis; ship it fast, then measure and refine |
 | **Failure modes** | Design prompts by first listing all the ways they can go wrong |
@@ -93,9 +70,7 @@ Before designing any prompt, evaluate:
 ### 1.4 Communication Style
 
 - **Prompt-first**: Always show the actual prompt text, not just a description of it
-
 - **Before/After**: For optimization tasks, show original + improved with diff explanation
-
 - **Eval-driven**: Propose how to measure success before proposing the prompt itself
 
 ---
@@ -199,7 +174,7 @@ https://github.com/theneoai/awesome-skills
 
 ## § 14 · Quality Verification
 
-→ See references/standards.md §7.10 for full checklist
+> See references/standards.md §7.10 for full checklist
 
 ## § 16 · Domain Deep Dive
 
@@ -207,187 +182,208 @@ https://github.com/theneoai/awesome-skills
 
 | Area | Core Concepts | Applications | Best Practices |
 |------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
+| **Prompt Patterns** | Zero-shot, few-shot, CoT, ReAct, Tree-of-Thought | Task-specific prompt design | Match pattern to task complexity; benchmark each |
+| **RAG Prompting** | Context injection, citation grounding, chunk ranking | Knowledge-grounded QA, document synthesis | Constrain output to retrieved context; add citation instructions |
+| **Agent Design** | Tool-calling schemas, planning loops, error recovery | Autonomous workflows, multi-agent systems | Define clear tool descriptions; add retry and fallback logic |
+| **Evaluation** | LLM-as-judge, rubric design, regression suites | Prompt quality measurement | Automate eval; track metrics across prompt versions |
 
 ### Knowledge Maturity Model
 
 | Level | Name | Description |
 |-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
+| 5 | Expert | Design novel prompt architectures, mentor teams, publish research |
+| 4 | Advanced | Optimize complex multi-step prompts, build eval pipelines |
+| 3 | Competent | Write production prompts independently, run A/B tests |
+| 2 | Developing | Apply standard patterns with guidance |
+| 1 | Novice | Understand basic prompt structure and zero-shot usage |
 
 
-## § 17 · Risk Management Deep Dive
+## § 17 · Risk Management
 
-### 🔴 Critical Risk Register
+Key risks in prompt engineering and their mitigations. See [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for full details.
 
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
+| Risk | Mitigation |
+|------|------------|
+| Prompt injection / jailbreak | Multi-layer input validation, output filtering, system prompt hardening |
+| Hallucination in production | Grounding constraints, citation requirements, retrieval-augmented generation |
+| Model API changes breaking prompts | Version-pinned deployments, regression test suites, prompt versioning |
+| Eval metric gaming | Multiple complementary metrics, human spot-checks, adversarial test cases |
 
 
 ## § 18 · Excellence Framework
 
-### World-Class Execution Standards
+Prompt engineering excellence is measured by production outcomes. See [references/7-standards-reference.md](./references/7-standards-reference.md) for quality metrics and [references/6-evaluation-framework.md](./references/6-evaluation-framework.md) for evaluation methodology.
 
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
+| Dimension | Target |
+|-----------|--------|
+| **Task accuracy** | 95%+ on eval suite before deployment |
+| **Hallucination rate** | <2% on grounded tasks |
+| **Latency overhead** | Prompt adds <10% to baseline model latency |
+| **Injection resistance** | Passes adversarial test battery |
 
-### Excellence Cycle
 
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
+## § 19 · Best Practices
 
----
+Core prompt engineering best practices. See [references/4-prompt-pattern-reference.md](./references/4-prompt-pattern-reference.md) and [references/9-scenario-examples.md](./references/9-scenario-examples.md) for detailed patterns and worked examples.
 
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
+| Practice | When to Apply | Impact |
+|----------|---------------|--------|
+| **Structured output schema** | Any extraction or classification task | Reduces format errors by 80%+ |
+| **Few-shot with edge cases** | Tasks with ambiguous boundaries | Improves edge-case accuracy 20-40% |
+| **Chain-of-thought** | Multi-step reasoning or math | Raises accuracy 15-30% on complex tasks |
+| **System prompt separation** | All production deployments | Enables independent prompt versioning |
+| **Eval-before-ship** | Every prompt change | Catches regressions before users see them |
 
 
 ## § 21 · Resources & References
 
 | Resource | Type | Key Takeaway |
 |----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+| [Prompt Pattern Reference](./references/4-prompt-pattern-reference.md) | Pattern catalog | Concrete patterns for zero-shot through multi-agent |
+| [RAG Architecture Patterns](./references/5-rag-architecture-patterns.md) | Architecture guide | Chunking, retrieval, and context injection strategies |
+| [Evaluation Framework](./references/6-evaluation-framework.md) | Methodology | LLM-as-judge, rubric design, regression testing |
+| [Case Studies](./references/20-case-studies.md) | Practical | Real-world prompt optimization results |
 
 ---
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
 
 
 ## References
 
 Detailed content:
 
-- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
-- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
-- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
-- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
-- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
-- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
-- [## § 4 · Prompt Pattern Reference](./references/4-prompt-pattern-reference.md)
-- [## § 5 · RAG Architecture Patterns](./references/5-rag-architecture-patterns.md)
-- [## § 6 · Evaluation Framework](./references/6-evaluation-framework.md)
-- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
-- [## § 20 · Case Studies](./references/20-case-studies.md)
+1. [§ 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+2. [§ 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+3. [§ 4 · Core Philosophy](./references/4-core-philosophy.md)
+4. [§ 4 · Prompt Pattern Reference](./references/4-prompt-pattern-reference.md)
+5. [§ 5 · RAG Architecture Patterns](./references/5-rag-architecture-patterns.md)
+6. [§ 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+7. [§ 6 · Evaluation Framework](./references/6-evaluation-framework.md)
+8. [§ 7 · Standards & Reference](./references/7-standards-reference.md)
+9. [§ 8 · Standard Workflow](./references/8-standard-workflow.md)
+10. [§ 9 · Scenario Examples](./references/9-scenario-examples.md)
+11. [§ 20 · Case Studies](./references/20-case-studies.md)
 
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: Design and implement a prompt engineer solution for a production system
-Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+### Example 1: Chain-of-Thought Prompt for Complex Reasoning
 
-Key considerations for prompt-engineer:
-- Scalability requirements
-- Performance benchmarks
-- Error handling and recovery
-- Security considerations
+**Input:** Design a prompt that helps an LLM solve multi-step math word problems with high accuracy.
 
-### Example 2: Edge Case
-Input: Optimize existing prompt engineer implementation to improve performance by 40%
-Output: Current State Analysis:
-- Profiling results identifying bottlenecks
-- Baseline metrics documented
+**Output:**
 
-Optimization Plan:
-1. Algorithm improvement
-2. Caching strategy
-3. Parallelization
+```
+You are a math tutor. Solve the problem step by step.
 
-Expected improvement: 40-60% performance gain
+<rules>
+- Break the problem into numbered steps
+- Show your arithmetic at each step
+- State the final answer on its own line prefixed with "ANSWER:"
+- If the problem is ambiguous, state your assumptions before solving
+</rules>
 
+<problem>
+{{user_problem}}
+</problem>
+```
+
+**Why it works:** Explicit step-by-step instruction activates chain-of-thought reasoning. The `ANSWER:` prefix enables automated extraction. Ambiguity handling prevents silent hallucination.
+
+### Example 2: RAG Retrieval Pipeline Prompt
+
+**Input:** Build a context-grounded QA prompt that minimizes hallucination for a support knowledge base.
+
+**Output:**
+
+```
+You are a support assistant. Answer the user's question using ONLY the provided context.
+
+<rules>
+- If the context does not contain the answer, say "I don't have enough information to answer that."
+- Quote the relevant passage using [Source N] citation format
+- Never add information beyond what is in the context
+</rules>
+
+<context>
+{{retrieved_chunks}}
+</context>
+
+<question>
+{{user_question}}
+</question>
+```
+
+**Why it works:** Hard grounding constraint ("ONLY the provided context") reduces hallucination. Citation format enables traceability. Explicit refusal instruction prevents fabrication on unanswerable queries.
+
+### Example 3: Agent Routing Prompt with Tool Selection
+
+**Input:** Design a prompt for an agent that must choose between search, calculator, and code-execution tools.
+
+**Output:**
+
+```
+You are a task-routing agent. Given the user's request, select the appropriate tool and provide the tool call.
+
+<available_tools>
+- search(query: string) — Use for factual questions, current events, or lookups
+- calculator(expression: string) — Use for arithmetic, unit conversions, or numeric comparisons
+- execute_code(language: string, code: string) — Use for data transformation, file processing, or complex logic
+</available_tools>
+
+<rules>
+- Select exactly one tool per turn
+- If the request needs multiple tools, start with the tool whose output is needed first
+- If no tool fits, respond directly without a tool call
+- Explain your tool choice in one sentence before the call
+</rules>
+
+<request>
+{{user_request}}
+</request>
+```
+
+**Why it works:** Clear tool descriptions with usage criteria reduce misrouting. Single-tool-per-turn constraint simplifies error handling. The "explain your choice" instruction improves debuggability and enables LLM-as-judge eval on routing accuracy.
 
 
 ## Workflow
 
-### Phase 1: Requirements
-- Gather functional and non-functional requirements
-- Clarify acceptance criteria
-- Document technical constraints
+### Phase 1: Problem Analysis
+- Clarify the task objective and define measurable success criteria
+- Identify the target model, context window limits, and latency budget
+- Collect representative input/output examples (minimum 10 for eval)
 
-**Done:** Requirements doc approved, team alignment achieved
-**Fail:** Ambiguous requirements, scope creep, missing constraints
+**Done:** Success metric defined, model selected, example set collected
+**Fail:** Vague objective, no eval examples, model mismatch for task complexity
 
-### Phase 2: Design
-- Create system architecture and design docs
-- Review with stakeholders
-- Finalize technical approach
+### Phase 2: Prompt Design
+- Select the appropriate prompt pattern (zero-shot, few-shot, CoT, ReAct, etc.)
+- Draft the prompt with structured output format, constraints, and edge-case handling
+- Add grounding instructions for RAG or tool descriptions for agent workflows
 
-**Done:** Design approved, technical decisions documented
-**Fail:** Design flaws, stakeholder objections, technical blockers
+**Done:** Draft prompt written with clear structure, constraints, and output format
+**Fail:** Pattern mismatch, missing constraints, no output format specification
 
-### Phase 3: Implementation
-- Write code following standards
-- Perform code review
-- Write unit tests
+### Phase 3: Iterative Testing
+- Run the prompt against the example set and score with eval metrics
+- Identify failure modes (hallucination, format errors, edge cases)
+- Iterate on prompt text: tighten constraints, add few-shot examples, adjust instructions
 
-**Done:** Code complete, reviewed, tests passing
-**Fail:** Code review failures, test failures, standard violations
+**Done:** Prompt passes eval threshold on full example set, failure modes addressed
+**Fail:** Below accuracy threshold, unresolved failure modes, regression on previously passing cases
 
-### Phase 4: Testing & Deploy
-- Execute integration and system testing
-- Deploy to staging environment
-- Deploy to production with monitoring
+### Phase 4: Evaluation & Deployment
+- Run final eval suite including adversarial and edge-case inputs
+- Set up prompt versioning and regression test automation
+- Deploy with monitoring for accuracy, latency, and cost metrics
 
-**Done:** All tests passing, successful deployment, monitoring active
-**Fail:** Test failures, deployment issues, production incidents
+**Done:** Eval suite green, prompt versioned, monitoring active, rollback plan documented
+**Fail:** Eval regression, no monitoring, missing rollback procedure
 
 ## Domain Benchmarks
 
 | Metric | Industry Standard | Target |
 |--------|------------------|--------|
-| Quality Score | 95% | 99%+ |
-| Error Rate | <5% | <1% |
-| Efficiency | Baseline | 20% improvement |
+| Task Accuracy | 90% | 95%+ |
+| Hallucination Rate | <5% | <2% |
+| Format Compliance | 95% | 99%+ |
+| Prompt Injection Resistance | Basic filtering | Multi-layer defense |
