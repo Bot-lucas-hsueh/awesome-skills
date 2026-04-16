@@ -348,17 +348,34 @@ These skills have been completely rewritten with professional depth — system p
 - [Singer](./skills/entertainment/singer/SKILL.md) 📝
 - [Video Editor](./skills/creative/video-editor/SKILL.md) 📝
 
-### Film Industry AI (Seedance 2.0 专项) — 7 skills ⭐⭐ **NEW**
+### Film Industry AI (Seedance 2.0 专项) — 15 skills ⭐⭐ **NEW**
 
-> 专为影视行业从业者设计，深度整合Seedance 2.0 AI视频生成能力，覆盖AI短剧、MV、广告、视效的完整生产链路。
+> 专为影视/动漫/游戏行业从业者设计，深度整合Seedance 2.0 AI视频生成能力，覆盖从前期创意开发到后期声音调色的完整产业链路。
 
-- [AI Short Drama Director](./skills/media/ai-short-drama-director/SKILL.md) ⭐⭐ **9.5/10** — AI短剧全流程导演：剧本→分镜→Seedance生成→成片，角色一致性管理，工业化批量出片
+#### 🎬 导演与制片（Director & Production）
+- [AI Short Drama Director](./skills/media/ai-short-drama-director/SKILL.md) ⭐⭐ **9.5/10** — AI短剧全流程导演：剧本→分镜→生成→成片，角色一致性管理，工业化批量出片
 - [AI Storyboard Artist](./skills/media/ai-storyboard-artist/SKILL.md) ⭐⭐ **9.5/10** — AI分镜师：景别设计、Timeline Prompting、Seedance可执行分镜脚本生成
-- [AI Cinematographer](./skills/media/ai-cinematographer/SKILL.md) ⭐⭐ **9.5/10** — AI摄影指导：摄法语法库、光线Prompt体系、视觉风格转译（王家卫/德普/卢贝斯基风格）
+- [AI Cinematographer](./skills/media/ai-cinematographer/SKILL.md) ⭐⭐ **9.5/10** — AI摄影指导：摄法语法库、光线Prompt体系、视觉风格转译（王家卫/卢贝斯基）
 - [AI Commercial Director](./skills/media/ai-commercial-director/SKILL.md) ⭐⭐ **9.5/10** — AI广告导演：品牌TVC制作、产品展示Prompt、代言人一致性、多平台素材矩阵
-- [AI VFX Supervisor](./skills/media/ai-vfx-supervisor/SKILL.md) ⭐⭐ **9.5/10** — AI视效总监：幻想世界构建、背景板系统、特效分层生产、大场面设计
 - [AI Music Video Director](./skills/media/ai-music-video-director/SKILL.md) ⭐⭐ **9.5/10** — AI MV导演：音乐段落视觉映射、Lip-sync规范、BPM节奏规划、多风格MV制作
 - [AI Film Production Manager](./skills/media/ai-film-production-manager/SKILL.md) ⭐⭐ **9.5/10** — AI影视制片人：工业化流水线设计、资产管理规范、质量四级标准、批量生产调度
+
+#### 🎨 视觉开发与美术（Visual Development & Art）
+- [AI Character Designer](./skills/media/ai-character-designer/SKILL.md) ⭐⭐ **9.5/10** — AI角色设计师：角色卡设计、分级参考包规范（主角5图/配角3图）、多风格角色开发、身份锚定Prompt
+- [AI Production Designer](./skills/media/ai-production-designer/SKILL.md) ⭐⭐ **9.5/10** — AI美术指导：世界观规则书、背景板命名系统、光线圣经、场景扩展矩阵
+- [AI Visual Development Director](./skills/media/ai-visual-development-director/SKILL.md) ⭐⭐ **9.5/10** — AI视觉开发总监：Visual Bible制定、色彩情感映射、光线逻辑体系、Mood Board策展
+
+#### 🌀 视效与特效（VFX & Effects）
+- [AI VFX Supervisor](./skills/media/ai-vfx-supervisor/SKILL.md) ⭐⭐ **9.5/10** — AI视效总监：幻想世界构建、分层VFX生产、特效Prompt库、大场面设计
+
+#### 📺 动漫与游戏（Animation & Game）
+- [AI Animation Director](./skills/media/ai-animation-director/SKILL.md) ⭐⭐ **9.5/10** — AI动画导演：日漫/水墨/美漫/3D多风格体系、动漫运动语言、动漫参考图特殊规范
+- [AI Comic Adaptation Director](./skills/media/ai-comic-adaptation-director/SKILL.md) ⭐⭐ **9.5/10** — AI漫改导演：漫画格→视频镜头四步转译法、多类型漫画保真策略、IP扩展内容生成
+- [AI Game Cinematic Director](./skills/media/ai-game-cinematic-director/SKILL.md) ⭐⭐ **9.5/10** — AI游戏过场导演：宣传片结构、英雄展示四幕法、游戏类型视觉语言、游戏特效Prompt库
+
+#### 🎵 后期制作（Post-Production）
+- [AI Colorist](./skills/media/ai-colorist/SKILL.md) ⭐⭐ **9.5/10** — AI调色师：Prompt调色语法库、DaVinci Node工作流、情绪-色调映射、AI生成内容色彩修复
+- [AI Sound Designer](./skills/media/ai-sound-designer/SKILL.md) ⭐⭐ **9.5/10** — AI音效设计师：BGM/环境音/音效Prompt库、声画同步设计表、Lip-sync策略、原生音频质量分级
 
 ### Finance (21 skills)
 - [Accountant](./skills/finance/accountant/SKILL.md) ✅
