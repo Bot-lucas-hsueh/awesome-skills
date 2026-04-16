@@ -348,6 +348,18 @@ These skills have been completely rewritten with professional depth — system p
 - [Singer](./skills/entertainment/singer/SKILL.md) 📝
 - [Video Editor](./skills/creative/video-editor/SKILL.md) 📝
 
+### Film Industry AI (Seedance 2.0 专项) — 7 skills ⭐⭐ **NEW**
+
+> 专为影视行业从业者设计，深度整合Seedance 2.0 AI视频生成能力，覆盖AI短剧、MV、广告、视效的完整生产链路。
+
+- [AI Short Drama Director](./skills/media/ai-short-drama-director/SKILL.md) ⭐⭐ **9.5/10** — AI短剧全流程导演：剧本→分镜→Seedance生成→成片，角色一致性管理，工业化批量出片
+- [AI Storyboard Artist](./skills/media/ai-storyboard-artist/SKILL.md) ⭐⭐ **9.5/10** — AI分镜师：景别设计、Timeline Prompting、Seedance可执行分镜脚本生成
+- [AI Cinematographer](./skills/media/ai-cinematographer/SKILL.md) ⭐⭐ **9.5/10** — AI摄影指导：摄法语法库、光线Prompt体系、视觉风格转译（王家卫/德普/卢贝斯基风格）
+- [AI Commercial Director](./skills/media/ai-commercial-director/SKILL.md) ⭐⭐ **9.5/10** — AI广告导演：品牌TVC制作、产品展示Prompt、代言人一致性、多平台素材矩阵
+- [AI VFX Supervisor](./skills/media/ai-vfx-supervisor/SKILL.md) ⭐⭐ **9.5/10** — AI视效总监：幻想世界构建、背景板系统、特效分层生产、大场面设计
+- [AI Music Video Director](./skills/media/ai-music-video-director/SKILL.md) ⭐⭐ **9.5/10** — AI MV导演：音乐段落视觉映射、Lip-sync规范、BPM节奏规划、多风格MV制作
+- [AI Film Production Manager](./skills/media/ai-film-production-manager/SKILL.md) ⭐⭐ **9.5/10** — AI影视制片人：工业化流水线设计、资产管理规范、质量四级标准、批量生产调度
+
 ### Finance (21 skills)
 - [Accountant](./skills/finance/accountant/SKILL.md) ✅
 - [Auditor](./skills/finance/auditor/SKILL.md) ✅
