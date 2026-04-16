@@ -296,6 +296,9 @@ These skills have been completely rewritten with professional depth — system p
 - [Scriptwriter](./skills/creative/scriptwriter/SKILL.md) 📝
 - [Subtitle Translator](./skills/creative/subtitle-translator/SKILL.md) 📝
 - [Tech Writer](./skills/content/tech-writer/SKILL.md) 📝
+- [WeChat Writer Kit](./skills/content/wechat-writer-kit/SKILL.md) 📝 **NEW** — 公众号写作全流程助手，多账号管理+选题+创作
+- [WeChat Article Extractor](./skills/content/wechat-article-extractor/SKILL.md) 📝 **NEW** — 微信公众号文章解析，提取标题/作者/正文/封面图
+- [WeChat Publisher](./skills/content/wechat-publisher/SKILL.md) 📝 **NEW** — 公众号排版+微信草稿箱发布，100%样式保留，支持配色模板
 - [Translator](./skills/creative/translator/SKILL.md) ✅
 - [UI/UX Designer](./skills/creative/ui-ux-designer/SKILL.md) 📝
 - [Video Editor](./skills/creative/video-editor/SKILL.md) 📝
