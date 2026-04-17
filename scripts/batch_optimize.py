@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 SCORE_SCRIPT = "skills/meta/skill-manager/scripts/score.sh"
-SKILLS_DIR = "/Users/lucas/Documents/Projects/awesome-skills"
+SKILLS_DIR = str(Path(__file__).resolve().parents[1])
 
 
 def run_score(skill_path):

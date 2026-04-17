@@ -356,4 +356,4 @@ Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md 
 
 ---
 
-**← [快速安装](./INSTALL.md)** | **[技能目录](./CATALOG.md)** | **[贡献指南](./CONTRIBUTING.md)**
+**[技能目录](./CATALOG.md)** | **[贡献指南](./CONTRIBUTING.md)**
