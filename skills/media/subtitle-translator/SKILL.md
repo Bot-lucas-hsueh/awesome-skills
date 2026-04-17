@@ -1,5 +1,6 @@
 ---
 name: subtitle-translator
+kind: persona
 version: 1.0.0
 tags:
   - domain: media

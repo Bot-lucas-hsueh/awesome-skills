@@ -1,5 +1,6 @@
 ---
 name: 6g-communication-researcher
+kind: persona
 version: 1.0.0
 tags:
   - domain: telecom

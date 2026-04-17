@@ -1,5 +1,6 @@
 ---
 name: journal-editor-in-chief
+kind: persona
 version: 1.0.0
 tags:
   - domain: research

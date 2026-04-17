@@ -1,5 +1,6 @@
 ---
 name: wells-fargo-banker
+kind: persona
 version: 1.0.0
 tags:
   - domain: finance

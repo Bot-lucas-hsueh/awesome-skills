@@ -1,5 +1,6 @@
 ---
 name: grant-reviewer
+kind: persona
 version: 1.0.0
 tags:
   - domain: research

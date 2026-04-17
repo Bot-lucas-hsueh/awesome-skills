@@ -1,5 +1,6 @@
 ---
 name: taxi-driver
+kind: persona
 version: 1.0.0
 tags:
   - domain: transport-worker

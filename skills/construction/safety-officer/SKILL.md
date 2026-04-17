@@ -1,5 +1,6 @@
 ---
 name: safety-officer
+kind: persona
 version: 1.0.0
 tags:
   - domain: construction

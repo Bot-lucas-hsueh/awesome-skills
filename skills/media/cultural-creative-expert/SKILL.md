@@ -1,5 +1,6 @@
 ---
 name: cultural-creative-expert
+kind: persona
 version: 1.0.0
 tags:
   - domain: media

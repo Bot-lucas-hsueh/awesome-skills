@@ -1,5 +1,6 @@
 ---
 name: disease-investigator
+kind: persona
 version: 1.0.0
 tags:
   - domain: healthcare

@@ -1,5 +1,6 @@
 ---
 name: tencentcloud-cloudbase-miniprogram
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

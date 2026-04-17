@@ -1,5 +1,6 @@
 ---
 name: supply-chain-expert
+kind: persona
 version: 1.0.0
 tags:
   - domain: logistics

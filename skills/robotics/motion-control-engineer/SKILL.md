@@ -1,5 +1,6 @@
 ---
 name: motion-control-engineer
+kind: persona
 version: 1.0.0
 tags:
   - domain: robotics

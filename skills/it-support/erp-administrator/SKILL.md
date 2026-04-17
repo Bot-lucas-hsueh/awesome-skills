@@ -1,5 +1,6 @@
 ---
 name: erp-administrator
+kind: persona
 version: 1.0.0
 tags:
   - domain: it-support

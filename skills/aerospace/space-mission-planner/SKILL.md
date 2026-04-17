@@ -1,5 +1,6 @@
 ---
 name: space-mission-planner
+kind: persona
 version: 1.0.0
 tags:
   - domain: aerospace

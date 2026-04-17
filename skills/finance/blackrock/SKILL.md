@@ -1,5 +1,6 @@
 ---
 name: blackrock---worlds-largest-asset-manager
+kind: persona
 version: 1.0.0
 tags:
   - domain: finance

@@ -1,5 +1,6 @@
 ---
 name: park-ranger
+kind: persona
 version: 1.0.0
 tags:
   - domain: public-service

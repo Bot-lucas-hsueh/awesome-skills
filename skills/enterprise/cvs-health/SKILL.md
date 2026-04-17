@@ -1,5 +1,6 @@
 ---
 name: cvs-health-skill
+kind: persona
 version: 1.0.0
 tags:
   - domain: enterprise

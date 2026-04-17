@@ -1,5 +1,6 @@
 ---
 name: game-producer
+kind: persona
 version: 1.0.0
 tags:
   - domain: media

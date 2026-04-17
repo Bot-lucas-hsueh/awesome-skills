@@ -1,5 +1,6 @@
 ---
 name: dance-instructor
+kind: persona
 version: 1.0.0
 tags:
   - domain: education

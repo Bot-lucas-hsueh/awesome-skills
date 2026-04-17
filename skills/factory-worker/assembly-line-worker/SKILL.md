@@ -1,5 +1,6 @@
 ---
 name: assembly-line-worker
+kind: persona
 version: 1.0.0
 tags:
   - domain: factory-worker

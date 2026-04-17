@@ -1,5 +1,6 @@
 ---
 name: wechat-article-reviewer
+kind: persona
 version: 1.0.0
 description: >
   微信公众号文章审核助手。当 theneoai 写完文章后 @铁蛋队长 发送文章内容时触发审核。

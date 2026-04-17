@@ -1,5 +1,6 @@
 ---
 name: wechat-publisher
+kind: persona
 version: 1.7.0
 description: |
   告别公众号格式乱码！一行命令发布文章，100%保留样式。支持三套配色模板、青色/橙色、紫色一键切换。

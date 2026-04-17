@@ -1,5 +1,6 @@
 ---
 name: volcengine-doubao-api
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

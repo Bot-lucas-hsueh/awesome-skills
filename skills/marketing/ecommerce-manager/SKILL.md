@@ -1,5 +1,6 @@
 ---
 name: ecommerce-manager
+kind: persona
 version: 1.0.0
 tags:
   - domain: marketing

@@ -1,5 +1,6 @@
 ---
 name: project-developer
+kind: persona
 version: 1.0.0
 tags:
   - domain: special

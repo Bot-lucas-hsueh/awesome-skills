@@ -1,5 +1,6 @@
 ---
 name: brain-computer-interface-engineer
+kind: persona
 version: 1.0.0
 tags:
   - domain: biotech

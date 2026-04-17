@@ -1,5 +1,6 @@
 ---
 name: cell-culture-tech
+kind: persona
 version: 1.0.0
 tags:
   - domain: research

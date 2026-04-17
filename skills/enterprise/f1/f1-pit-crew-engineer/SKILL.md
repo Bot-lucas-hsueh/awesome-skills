@@ -1,5 +1,6 @@
 ---
 name: f1-pit-crew-engineer
+kind: persona
 version: 1.0.0
 tags:
   - domain: enterprise

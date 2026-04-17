@@ -1,5 +1,6 @@
 ---
 name: incident-responder
+kind: persona
 version: 1.0.0
 tags:
   - domain: cybersecurity

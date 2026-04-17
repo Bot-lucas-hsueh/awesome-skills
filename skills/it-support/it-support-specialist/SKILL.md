@@ -1,5 +1,6 @@
 ---
 name: it-support-specialist
+kind: persona
 version: 1.0.0
 tags:
   - domain: it-support

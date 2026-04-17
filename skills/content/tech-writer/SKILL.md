@@ -1,5 +1,6 @@
 ---
 name: tech-writer
+kind: persona
 version: 1.0.0
 tags:
   - domain: content

@@ -1,0 +1,240 @@
+# taxonomy.yml — single source of truth for awesome-skills category system
+#
+# WHY THIS FILE EXISTS
+# --------------------
+# The repository historically grew three drifting category systems:
+#   - skills/     (60 subfolders including _common)
+#   - packages/   (14 files)
+#   - roadmap/    (22 files including README + letter-to-newcomers)
+#
+# A user looking for "finance skills" previously had to check three places.
+# This file defines ~18 canonical top-level categories and maps every
+# existing directory/file into exactly one of them via the `aliases`,
+# `package`, and `roadmap` fields.
+#
+# STATUS
+# ------
+# Advisory only for now. No folders are renamed; nothing is moved.
+# scripts/check_taxonomy.py validates this file against the real filesystem
+# and flags drift. Later work can gradually align folders to the canonical ids.
+#
+# DESIGN RULES
+# ------------
+# 1. Every skills/<subfolder> except _common must appear in some category's
+#    `aliases` list exactly once.
+# 2. Every packages/*.md must appear as some category's `package:` value.
+# 3. Every roadmap/*.md (except README.md and letter-to-newcomers.md, which
+#    are non-category documents) must appear as some category's `roadmap:`.
+# 4. Canonical `id` is lowercase kebab-case.
+# 5. Aim for 12-20 top-level categories.
+#
+# MERGE NOTES (reviewer: please sanity-check these)
+# -------------------------------------------------
+# Worker-role folders (factory-worker, construction-worker, transport-worker,
+# service-worker, repair-worker, farmer) were merged into the dominant
+# industry bucket rather than kept as a "workers" meta-category, because they
+# are skill-sets for specific industries, not a cross-cutting category.
+#
+# Notable merges worth reviewing:
+#   - executive   absorbs business, hr, admin  (all org-running / people-ops)
+#   - software    absorbs tech, it-support, enterprise, telecom
+#                 (telecom is arguably infra, could split out later)
+#   - creative    absorbs content, media, entertainment, crafts
+#   - energy      absorbs environmental, agriculture, farmer
+#                 (natural-resources / sustainability cluster)
+#   - services    absorbs hospitality, freelancer, service-worker
+#   - cybersecurity absorbs blockchain
+#                 (blockchain sits awkwardly; could also live under finance
+#                  or software — placed here for the security/crypto angle)
+#   - government  absorbs public-service, international, special
+#                 (`special` is a catch-all; reviewer should confirm)
+#   - ai-ml       absorbs quantum (frontier compute cluster)
+#   - manufacturing absorbs materials, mining, semiconductor, robotics,
+#                 factory-worker (the "make physical things" cluster)
+#   - construction absorbs repair-worker, tools
+#   - education   absorbs research
+
+version: 1
+
+categories:
+  - id: executive
+    name: Executive & Leadership
+    description: CEO, CTO, CFO, COO, board governance, strategy, HR, people ops, general business admin
+    aliases: [executive, business, hr, admin]
+    skills_dir: skills/executive/
+    package: packages/executive.md
+    roadmap: roadmap/executive-leadership.md
+
+  - id: software
+    name: Software Engineering
+    description: Backend, frontend, full-stack, DevOps, QA, architecture, IT support, enterprise systems, telecom/networking
+    aliases: [software, tech, it-support, enterprise, telecom]
+    skills_dir: skills/software/
+    package: packages/software.md
+    roadmap: roadmap/software-engineering.md
+
+  - id: ai-ml
+    name: AI & Machine Learning
+    description: ML engineering, research, MLOps, CV, NLP, prompt engineering, quantum computing
+    aliases: [ai-ml, quantum]
+    skills_dir: skills/ai-ml/
+    package: packages/ai-ml.md
+    roadmap: roadmap/ai-ml.md
+
+  - id: data
+    name: Data & Analytics
+    description: Data engineering, analytics, BI, data science, warehousing, pipelines
+    aliases: [data]
+    skills_dir: skills/data/
+    roadmap: roadmap/data.md
+
+  - id: product
+    name: Product & Design
+    description: Product management, UX, UI, product design, design systems
+    aliases: [product]
+    skills_dir: skills/product/
+    roadmap: roadmap/product-design.md
+
+  - id: creative
+    name: Creative & Media
+    description: Writing, content, film, music, design, entertainment, crafts, traditional and digital creative work
+    aliases: [creative, content, media, entertainment, crafts]
+    skills_dir: skills/creative/
+    package: packages/creative.md
+    roadmap: roadmap/creative-media.md
+
+  - id: marketing
+    name: Marketing & Sales
+    description: Marketing, growth, sales, ecommerce, retail, brand
+    aliases: [marketing, ecommerce, retail]
+    skills_dir: skills/marketing/
+    roadmap: roadmap/marketing-sales.md
+
+  - id: finance
+    name: Finance & Fintech
+    description: Banking, investing, accounting, fintech, real estate, insurance
+    aliases: [finance, fintech, realestate]
+    skills_dir: skills/finance/
+    package: packages/finance.md
+    roadmap: roadmap/finance.md
+
+  - id: healthcare
+    name: Healthcare & Life Sciences
+    description: Medicine, nursing, public health, biotech, pharma, clinical work
+    aliases: [healthcare, medical, biotech]
+    skills_dir: skills/healthcare/
+    package: packages/healthcare.md
+    roadmap: roadmap/healthcare.md
+
+  - id: legal
+    name: Legal
+    description: Law, compliance, regulatory, contracts, IP, litigation
+    aliases: [legal]
+    skills_dir: skills/legal/
+    package: packages/legal.md
+    roadmap: roadmap/legal.md
+
+  - id: education
+    name: Education & Research
+    description: Teaching, curriculum, academia, scientific research, librarianship
+    aliases: [education, research]
+    skills_dir: skills/education/
+    package: packages/education.md
+    roadmap: roadmap/education.md
+
+  - id: government
+    name: Government & Public Service
+    description: Government, policy, public service, international affairs/diplomacy, military/defense, and other specialized public-sector roles
+    aliases: [government, public-service, international, special]
+    skills_dir: skills/government/
+    package: packages/government.md
+    roadmap: roadmap/government-public-service.md
+
+  - id: manufacturing
+    name: Manufacturing & Industry
+    description: Factory work, materials science, mining, semiconductors, robotics, industrial engineering
+    aliases: [manufacturing, materials, factory-worker, mining, semiconductor, robotics]
+    skills_dir: skills/manufacturing/
+    roadmap: roadmap/manufacturing-engineering.md
+
+  - id: construction
+    name: Construction & Trades
+    description: Construction, skilled trades, repair, maintenance, tools and equipment
+    aliases: [construction, construction-worker, repair-worker, tools]
+    skills_dir: skills/construction/
+    roadmap: roadmap/construction.md
+
+  - id: transportation
+    name: Transportation & Logistics
+    description: Automotive, aerospace, shipping, logistics, supply chain, transport operators
+    aliases: [transportation, transport-worker, logistics, automotive, aerospace]
+    skills_dir: skills/transportation/
+    package: packages/automotive.md
+    roadmap: roadmap/aerospace-transportation.md
+
+  - id: energy
+    name: Energy, Environment & Agriculture
+    description: Energy (oil, gas, renewables, utilities), environmental science, sustainability, agriculture, farming
+    aliases: [energy, environmental, agriculture, farmer]
+    skills_dir: skills/energy/
+    package: packages/energy.md
+    roadmap: roadmap/energy-environment.md
+
+  - id: services
+    name: Services & Hospitality
+    description: Hospitality, food service, personal services, freelance/independent work, general service-sector roles
+    aliases: [services, service-worker, hospitality, freelancer]
+    skills_dir: skills/services/
+
+  - id: cybersecurity
+    name: Cybersecurity & Trust
+    description: Security engineering, infosec, cryptography, blockchain, trust and safety
+    aliases: [cybersecurity, blockchain]
+    skills_dir: skills/cybersecurity/
+    roadmap: roadmap/cybersecurity.md
+
+# Consulting/business-consulting roadmap is intentionally mapped below
+# under the `executive` category as an ancillary roadmap reference. Because
+# the check script expects exactly one roadmap: field per category, we
+# acknowledge roadmap/business-consulting.md separately in extra_roadmaps.
+#
+# Files explicitly NOT owned by any category (meta docs):
+#   roadmap/README.md
+#   roadmap/letter-to-newcomers.md
+#   roadmap/ai-impact-map.md   (cross-cutting; owned at repo level)
+
+extra_roadmaps:
+  # category_id: [extra roadmap files beyond the primary `roadmap:` field]
+  executive:
+    - roadmap/business-consulting.md
+  energy:
+    # roadmap/agriculture.md has no dedicated top-level category; energy
+    # owns the agriculture/environment cluster per the merge decision above.
+    - roadmap/agriculture.md
+  education:
+    # Research has its own roadmap file (research.md) AND is mapped to the
+    # `education` category here, so we list it as an extra roadmap beyond
+    # the primary education.md roadmap.
+    - roadmap/research.md
+
+extra_packages:
+  # category_id: [extra package files beyond the primary `package:` field]
+  creative:
+    # packages/entertainment.md belongs with creative/entertainment
+    - packages/entertainment.md
+  education:
+    # packages/research.md (research rolls into education category)
+    - packages/research.md
+  software:
+    # packages/tech.md was a legacy bucket alongside software.md; both
+    # belong to the software category.
+    - packages/tech.md
+
+# Files the checker should ignore (not tied to any specific category).
+ignore:
+  roadmap:
+    - roadmap/README.md
+    - roadmap/letter-to-newcomers.md
+    - roadmap/ai-impact-map.md
+  skills:
+    - _common

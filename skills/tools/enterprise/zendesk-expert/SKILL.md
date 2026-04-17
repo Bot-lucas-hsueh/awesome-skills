@@ -1,5 +1,6 @@
 ---
 name: zendesk-expert
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

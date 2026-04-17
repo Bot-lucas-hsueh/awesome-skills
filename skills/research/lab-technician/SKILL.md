@@ -1,5 +1,6 @@
 ---
 name: lab-technician
+kind: persona
 version: 1.0.0
 tags:
   - domain: research

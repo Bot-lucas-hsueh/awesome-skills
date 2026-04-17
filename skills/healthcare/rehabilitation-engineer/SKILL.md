@@ -1,5 +1,6 @@
 ---
 name: rehabilitation-engineer
+kind: persona
 version: 1.0.0
 tags:
   - domain: healthcare

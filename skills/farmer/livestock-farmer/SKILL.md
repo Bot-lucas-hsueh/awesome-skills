@@ -1,5 +1,6 @@
 ---
 name: livestock-farmer
+kind: persona
 version: 1.0.0
 tags:
   - domain: farmer

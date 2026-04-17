@@ -1,5 +1,6 @@
 ---
 name: computer-vision-engineer
+kind: persona
 version: 1.0.0
 tags:
   - domain: ai-ml

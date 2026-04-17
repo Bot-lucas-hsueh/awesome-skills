@@ -1,5 +1,6 @@
 ---
 name: drug-rehab-counselor
+kind: persona
 version: 1.0.0
 tags:
   - domain: government

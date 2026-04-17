@@ -1,5 +1,6 @@
 ---
 name: healthcare-executive
+kind: persona
 version: 1.0.0
 tags:
   - domain: healthcare

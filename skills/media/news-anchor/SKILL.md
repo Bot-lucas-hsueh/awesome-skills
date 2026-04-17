@@ -1,5 +1,6 @@
 ---
 name: news-anchor
+kind: persona
 version: 1.0.0
 tags:
   - domain: media

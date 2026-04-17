@@ -1,5 +1,6 @@
 ---
 name: cn-cloud-selection-advisor
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

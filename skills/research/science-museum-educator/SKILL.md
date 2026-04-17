@@ -1,5 +1,6 @@
 ---
 name: science-museum-educator
+kind: persona
 version: 1.0.0
 tags:
   - domain: research

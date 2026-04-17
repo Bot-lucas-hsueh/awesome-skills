@@ -1,5 +1,6 @@
 ---
 name: quantum-algorithm-engineer
+kind: persona
 version: 1.0.0
 tags:
   - domain: quantum

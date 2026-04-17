@@ -1,5 +1,6 @@
 ---
 name: ai-editor-ai-content
+kind: persona
 version: 1.0.0
 tags:
   - domain: media

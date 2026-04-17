@@ -1,5 +1,6 @@
 ---
 name: livestream-seller
+kind: persona
 version: 1.0.0
 tags:
   - domain: freelancer

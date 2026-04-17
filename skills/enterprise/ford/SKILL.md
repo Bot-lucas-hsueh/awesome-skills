@@ -1,5 +1,6 @@
 ---
 name: ford-motor-company
+kind: persona
 version: 1.0.0
 tags:
   - domain: enterprise

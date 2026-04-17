@@ -1,5 +1,6 @@
 ---
 name: customs-officer
+kind: persona
 version: 1.0.0
 tags:
   - domain: government

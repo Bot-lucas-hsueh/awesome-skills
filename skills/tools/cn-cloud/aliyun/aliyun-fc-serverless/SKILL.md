@@ -1,5 +1,6 @@
 ---
 name: aliyun-fc-serverless
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

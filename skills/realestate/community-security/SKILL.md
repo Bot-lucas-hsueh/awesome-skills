@@ -1,5 +1,6 @@
 ---
 name: community-security
+kind: persona
 version: 1.0.0
 tags:
   - domain: realestate

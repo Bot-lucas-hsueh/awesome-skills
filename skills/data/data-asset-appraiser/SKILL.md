@@ -1,5 +1,6 @@
 ---
 name: data-asset-appraiser
+kind: persona
 version: 1.0.0
 tags:
   - domain: data

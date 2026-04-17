@@ -1,5 +1,6 @@
 ---
 name: mobile-app-developer
+kind: persona
 version: 1.0.0
 tags:
   - domain: software

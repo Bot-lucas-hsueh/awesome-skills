@@ -1,5 +1,6 @@
 ---
 name: aliyun-ecs-website-starter
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

@@ -71,7 +71,7 @@ jobs:
         run: pip install pyyaml rich
 
       - name: Run skill validator (all skills)
-        run: python3 .github/scripts/validate_skills.py skills/ external/aakashg/ external/wdavidturner/
+        run: python3 .github/scripts/validate_skills.py skills/ benchmarks/aakashg/ benchmarks/wdavidturner/
 
       - name: Run strict validator (Expert Verified skills)
         run: |
@@ -88,6 +88,16 @@ jobs:
             skills/data/ \
             skills/research/ \
             skills/special/
+
+      - name: Taxonomy consistency check
+        run: python3 scripts/check_taxonomy.py
+
+      - name: Catalog is in sync with skills/
+        run: python3 scripts/regenerate_catalog.py --check
+
+      - name: SKILL.md length budget (informational)
+        run: python3 scripts/skill_length_check.py --warn 300 --fail 800
+        continue-on-error: true
 
   # Job 3: Quality Analysis (informational — always runs, does not block)
   quality:
@@ -120,6 +130,14 @@ jobs:
         run: python -m tools.skill_analyzer.cli antipattern --output json > antipatterns.json
         continue-on-error: true
 
+      - name: Run description-similarity linter (informational)
+        run: |
+          python3 scripts/description_linter.py \
+            --threshold 0.6 \
+            --format json \
+            --output description_overlap.json
+        continue-on-error: true
+
       - name: Upload analysis results
         uses: actions/upload-artifact@v4
         if: always()
@@ -129,6 +147,7 @@ jobs:
             scores.json
             tokens.json
             antipatterns.json
+            description_overlap.json
           retention-days: 7
 
   # Job 4: Quality Gate (BLOCKING — fails PR if quality thresholds not met)

@@ -1,5 +1,6 @@
 ---
 name: aig-american-international-group-expert
+kind: persona
 version: 1.0.0
 tags:
   - domain: finance

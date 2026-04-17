@@ -1,5 +1,6 @@
 ---
 name: bank-of-america
+kind: persona
 version: 1.0.0
 tags:
   - domain: finance

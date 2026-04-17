@@ -1,5 +1,6 @@
 ---
 name: hotel-operations-director
+kind: persona
 version: 1.0.0
 tags:
   - domain: hospitality

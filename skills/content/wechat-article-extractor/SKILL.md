@@ -1,5 +1,6 @@
 ---
 name: wechat-article-extractor
+kind: persona
 description: Extract metadata and content from WeChat Official Account articles. Use when user needs to parse WeChat article URLs (mp.weixin.qq.com), extract article info (title, author, content, publish time, cover image), or convert WeChat articles to structured data. Supports various article types including posts, videos, images, voice messages, and reposts.
 ---
 

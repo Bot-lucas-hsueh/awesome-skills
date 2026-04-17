@@ -1,5 +1,6 @@
 ---
 name: talent-acquisition-specialist
+kind: persona
 version: 1.0.0
 tags:
   - domain: business

@@ -1,5 +1,6 @@
 ---
 name: regulatory-affairs-specialist
+kind: persona
 version: 1.0.0
 tags:
   - domain: biotech

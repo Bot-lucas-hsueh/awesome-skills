@@ -1,5 +1,6 @@
 ---
 name: elderly-care-product-manager
+kind: persona
 version: 1.0.0
 tags:
   - domain: healthcare

@@ -1,5 +1,6 @@
 ---
 name: cn-cloud-icp-beian-guide
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools

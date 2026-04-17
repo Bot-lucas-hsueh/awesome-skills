@@ -1,5 +1,6 @@
 ---
 name: medical-social-worker
+kind: persona
 version: 1.0.0
 tags:
   - domain: healthcare

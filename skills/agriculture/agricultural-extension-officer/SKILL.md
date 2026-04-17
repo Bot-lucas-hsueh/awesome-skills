@@ -1,5 +1,6 @@
 ---
 name: agricultural-extension-officer
+kind: persona
 version: 1.0.0
 tags:
   - domain: agriculture

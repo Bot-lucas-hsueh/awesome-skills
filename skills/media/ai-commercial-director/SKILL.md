@@ -1,5 +1,6 @@
 ---
 name: ai-commercial-director
+kind: persona
 version: 1.0.0
 tags:
   - domain: media

@@ -1,5 +1,6 @@
 ---
 name: tour-guide
+kind: persona
 version: 1.0.0
 tags:
   - domain: service-worker

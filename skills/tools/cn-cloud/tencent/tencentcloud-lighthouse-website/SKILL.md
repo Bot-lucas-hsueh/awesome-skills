@@ -1,5 +1,6 @@
 ---
 name: tencentcloud-lighthouse-website
+kind: persona
 version: 1.0.0
 tags:
   - domain: tools
