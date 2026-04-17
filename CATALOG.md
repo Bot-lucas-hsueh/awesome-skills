@@ -348,15 +348,17 @@ These skills have been completely rewritten with professional depth — system p
 - [Singer](./skills/entertainment/singer/SKILL.md) 📝
 - [Video Editor](./skills/creative/video-editor/SKILL.md) 📝
 
-### Film Industry AI (Seedance 2.0 专项) — 15 skills ⭐⭐ **NEW**
+### Film Industry AI (Seedance 2.0 专项) — 21 skills ⭐⭐ **NEW**
 
 > 专为影视/动漫/游戏行业从业者设计，深度整合Seedance 2.0 AI视频生成能力，覆盖从前期创意开发到后期声音调色的完整产业链路。
 
 #### 🎬 导演与制片（Director & Production）
 - [AI Short Drama Director](./skills/media/ai-short-drama-director/SKILL.md) ⭐⭐ **9.5/10** — AI短剧全流程导演：剧本→分镜→生成→成片，角色一致性管理，工业化批量出片
+- [AI Short Drama Scriptwriter](./skills/media/ai-short-drama-scriptwriter/SKILL.md) ⭐⭐ **9.5/10** — AI短剧编剧：四段式结构、AI友好台词规范（≤10字/句）、双轨制场景格式、爆款开篇公式库
 - [AI Storyboard Artist](./skills/media/ai-storyboard-artist/SKILL.md) ⭐⭐ **9.5/10** — AI分镜师：景别设计、Timeline Prompting、Seedance可执行分镜脚本生成
 - [AI Cinematographer](./skills/media/ai-cinematographer/SKILL.md) ⭐⭐ **9.5/10** — AI摄影指导：摄法语法库、光线Prompt体系、视觉风格转译（王家卫/卢贝斯基）
 - [AI Commercial Director](./skills/media/ai-commercial-director/SKILL.md) ⭐⭐ **9.5/10** — AI广告导演：品牌TVC制作、产品展示Prompt、代言人一致性、多平台素材矩阵
+- [AI Documentary Director](./skills/media/ai-documentary-director/SKILL.md) ⭐⭐ **9.5/10** — AI纪录片导演：纪录片视觉语言Prompt库、解说词视觉化四步法、历史重现策略、访谈镜头规范
 - [AI Music Video Director](./skills/media/ai-music-video-director/SKILL.md) ⭐⭐ **9.5/10** — AI MV导演：音乐段落视觉映射、Lip-sync规范、BPM节奏规划、多风格MV制作
 - [AI Film Production Manager](./skills/media/ai-film-production-manager/SKILL.md) ⭐⭐ **9.5/10** — AI影视制片人：工业化流水线设计、资产管理规范、质量四级标准、批量生产调度
 
@@ -376,6 +378,12 @@ These skills have been completely rewritten with professional depth — system p
 #### 🎵 后期制作（Post-Production）
 - [AI Colorist](./skills/media/ai-colorist/SKILL.md) ⭐⭐ **9.5/10** — AI调色师：Prompt调色语法库、DaVinci Node工作流、情绪-色调映射、AI生成内容色彩修复
 - [AI Sound Designer](./skills/media/ai-sound-designer/SKILL.md) ⭐⭐ **9.5/10** — AI音效设计师：BGM/环境音/音效Prompt库、声画同步设计表、Lip-sync策略、原生音频质量分级
+- [AI Voice Director](./skills/media/ai-voice-director/SKILL.md) ⭐⭐ **9.5/10** — AI配音导演：声线设计卡格式、工具选型矩阵（Seedance/ElevenLabs/MiniMax/ComfyUI）、精确Lip-sync五步流程、多语言出海策略
+- [AI Content Editor](./skills/media/ai-editor-ai-content/SKILL.md) ⭐⭐ **9.5/10** — AI内容剪辑师：AI素材四级质检、缺陷修复手册、平台节奏模板、多平台导出规范
+
+#### 📣 内容运营与IP（Content & IP）
+- [AI Content Strategist](./skills/media/ai-content-strategist/SKILL.md) ⭐⭐ **9.5/10** — AI内容策划：六平台适配矩阵、七大选题来源、DREAM框架、内容矩阵三层结构、周排期模板
+- [AI IP Developer](./skills/media/ai-ip-developer/SKILL.md) ⭐⭐ **9.5/10** — AI IP孵化师：IP人格卡设计、FACER潜力评估、内容矩阵四象限、跨媒体延展阶段规划、视觉资产管理
 
 ### Finance (21 skills)
 - [Accountant](./skills/finance/accountant/SKILL.md) ✅
