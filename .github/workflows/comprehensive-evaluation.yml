@@ -1,132 +1,117 @@
-# Comprehensive Skill Evaluation - 3-Step Pipeline
-# Step 1: Evaluate & Generate Report
-# Step 2: Update GitHub Pages
-# Step 3: Update README & Project Config
+# Comprehensive Skill Evaluation
+# Runs the skill_analyzer tooling daily against the whole skills/ tree,
+# generates website data (skills-data.js) and self-scored reports, and on
+# the main branch syncs the skill count badge/stat into README.md and
+# index.html.
 
 name: Comprehensive Skill Evaluation
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Daily at 4 AM UTC
+    - cron: '0 4 * * *'  # Daily at 04:00 UTC
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'skills/**'
-      - '.github/workflows/comprehensive-evaluation.yml'
-      - 'scripts/comprehensive_skill_evaluation.py'
+      - 'tools/**'
       - 'scripts/generate_skills_data.py'
-      - 'scripts/update_category_filters.py'
       - 'scripts/update_project_files.py'
+      - '.github/workflows/comprehensive-evaluation.yml'
+
+env:
+  PYTHON_VERSION: "3.12"
 
 jobs:
-  # ============================================================================
-  # STEP 1: Evaluate Skills & Generate Report
-  # ============================================================================
-  step1-evaluate:
-    name: "Step 1: Evaluate & Generate Report"
+  # ---------------------------------------------------------------------------
+  # 1. Evaluate skills + generate data for the website
+  # ---------------------------------------------------------------------------
+  evaluate:
+    name: Evaluate & generate data
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      
+          python-version: ${{ env.PYTHON_VERSION }}
+
       - name: Install dependencies
-        run: pip install pyyaml rich
-      
-      - name: Run comprehensive evaluation
-        id: evaluate
         run: |
-          echo "Starting comprehensive skill evaluation..."
-          python3 scripts/comprehensive_skill_evaluation.py \
-            --output reports/evaluation_report.json \
-            --format both
-          echo "Evaluation complete"
-      
-      - name: Generate skills data for website
+          pip install pyyaml rich
+          pip install -e ./tools/
+
+      - name: Generate website skills data
+        run: python3 scripts/generate_skills_data.py
+
+      - name: Score skills (8-dimension rubric)
         run: |
-          echo "Generating skills data..."
-          python3 scripts/generate_skills_data.py
-          echo "Skills data generated"
-      
-      - name: Display evaluation summary
-        run: python3 scripts/display_evaluation_summary.py
-      
+          mkdir -p reports
+          python -m tools.skill_analyzer.cli score \
+            --output json > reports/skill_scores.json
+        continue-on-error: true
+
+      - name: Token budget report
+        run: |
+          python -m tools.skill_analyzer.cli tokenizer \
+            --output json > reports/skill_tokens.json
+        continue-on-error: true
+
+      - name: Anti-pattern scan
+        run: |
+          python -m tools.skill_analyzer.cli antipattern \
+            --output json > reports/skill_antipatterns.json
+        continue-on-error: true
+
       - name: Upload evaluation artifacts
         uses: actions/upload-artifact@v4
         with:
           name: evaluation-report
           path: |
-            reports/evaluation_report.json
-            reports/evaluation_report.html
+            reports/skill_scores.json
+            reports/skill_tokens.json
+            reports/skill_antipatterns.json
             assets/js/skills-data.js
           retention-days: 30
 
-  # ============================================================================
-  # STEP 2: Update GitHub Pages
-  # ============================================================================
-  step2-update-pages:
-    name: "Step 2: Update GitHub Pages"
+  # ---------------------------------------------------------------------------
+  # 2. Sync skill count into README.md + index.html (main branch only)
+  # ---------------------------------------------------------------------------
+  sync-counts:
+    name: Sync skill counts into README & index.html
     runs-on: ubuntu-latest
-    needs: step1-evaluate
+    needs: evaluate
     if: github.ref == 'refs/heads/main'
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      
-      - name: Download evaluation artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: evaluation-report
-          path: .
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
 
-  # ============================================================================
-  # STEP 3: Update README & Project Config  
-  # ============================================================================
-  step3-update-config:
-    name: "Step 3: Update README & Project Config"
-    runs-on: ubuntu-latest
-    needs: [step1-evaluate, step2-update-pages]
-    if: github.ref == 'refs/heads/main'
-    
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
       - name: Download evaluation artifacts
         uses: actions/download-artifact@v4
         with:
           name: evaluation-report
           path: .
-      
-      - name: Update README and index.html
+
+      - name: Sync counts
         run: python3 scripts/update_project_files.py
-      
-      - name: Update category filters
-        run: |
-          echo "Updating category filters..."
-          python3 scripts/update_category_filters.py
-          echo "Category filters updated"
-      
-      - name: Commit and push updates
+
+      - name: Commit & push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -134,7 +119,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: auto-update project stats and config [ci skip]"
+            git commit -m "chore: sync skill counts and evaluation data [ci skip]"
             git push
-            echo "README and project config updated"
           fi

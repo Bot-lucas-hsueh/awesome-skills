@@ -1,375 +1,232 @@
-<!-- Awesome Skills - Expert AI Skills Library -->
-<!-- Language Switch: [English](#english) | [中文](#中文) -->
+<!-- Awesome Skills -->
+<!-- Language: [English](#english) | [中文](#中文) -->
 
 <div align="center">
 
 # Awesome Skills
 
-**967 Expert AI Skills · The Human Capability Atlas**
+**A curated library of role-based AI skills, organised by professional domain.**
 
-[![Skills](https://img.shields.io/badge/Skills-967-blueviolet?style=flat-square)](./CATALOG.md)
-[![Quality](https://img.shields.io/badge/Quality-EXCELLENCE%209.5%2F10-success?style=flat-square)](./README.md#methodology)
-[![Certified](https://img.shields.io/badge/Certified-817%2F967-84%25-brightgreen?style=flat-square)](./CATALOG.md)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
+[![Skills](https://img.shields.io/badge/skills-842-blueviolet?style=flat-square)](./CATALOG.md)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
+[![Pages](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml)
 
-**[🌐 Website](https://theneoai.github.io/awesome-skills/)** · **[📚 Catalog](./CATALOG.md)** · **[📊 Quality System](#methodology)**
+**[🌐 Website](https://theneoai.github.io/awesome-skills/)** · **[📚 Catalog](./CATALOG.md)** · **[📖 Install Guide](./INSTALL-GUIDE.md)** · **[🤝 Contributing](./CONTRIBUTING.md)**
 
-**Language:** [English](#english-version) | [中文](#中文版本)
-
-</div>
-
----
-
-<a name="english-version"></a>
-## 🇬🇧 English Version
-
-### 📊 Project Overview
-
-| Metric | Value | Description |
-|--------|-------|-------------|
-| **Total Skills** | 967 | Across 60 professional domains |
-| **Quality Certified** | 817 (84.5%) | EXCELLENCE 9.5/10 standard |
-| **Enterprise Skills** | 100+ | Top global company methodologies |
-| **Token Optimized** | -50% | Via references-first architecture |
-| **Last Updated** | 2026-03-28 | Mass optimization completed |
-
-### 🎯 The Differentiator: Write → Evaluate → Restore
-
-Unlike community skill libraries that only provide static content, **Awesome Skills** provides a **complete quality ecosystem**:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    QUALITY ECOSYSTEM                        │
-├─────────────────────────────────────────────────────────────┤
-│                    skill-manager v1.0                       │
-├─────────────────────────────────────────────────────────────┤
-│  CREATE            EVALUATE            RESTORE              │
-│  ──────────────    ──────────────────  ──────────────────── │
-│  Tier-based        Dual-track:         Transform 5-7/10     │
-│  creation with     Text + Runtime      to 9.5/10 via        │
-│  6-dimension       = True quality      7-step methodology   │
-│  rubric            score                                    │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**This is why our 401 certified skills outperform 1000+ community skills.**
-
----
-
-<a name="methodology"></a>
-### 🔬 Methodology: skill-manager v1.0
-
-#### Unified Lifecycle: Create → Evaluate → Restore
-
-**6-Dimension Quality Rubric:**
-
-| Dimension | Weight | Requirements |
-|-----------|--------|--------------|
-| **§1.1 Identity** | 20% | Role-specific persona with company context |
-| **§1.2 Decision Framework** | - | Weighted criteria with thresholds |
-| **§1.3 Thinking Patterns** | - | Domain-specific mental models |
-| **Domain Knowledge** | 20% | Specific data, methodologies, benchmarks |
-| **Workflow** | 20% | 4-5 phases with Done/Fail criteria |
-| **Error Handling** | 15% | Anti-patterns, risk matrix |
-| **Examples** | 15% | 5+ detailed scenarios with real data |
-| **Metadata** | 10% | Complete YAML with scores |
-
-**3-Tier Architecture:**
-- **Lite** (50-150 lines): Single function tools
-- **Standard** (150-500 lines): Domain knowledge base
-- **Enterprise** (500-1500 lines): Complete methodology
-
-**Progressive Disclosure:**
-```
-SKILL.md (≤ 300 lines): Navigation + frameworks
-references/ : Deep dives + full examples (loaded on demand)
-```
-
-**Dual-Track Validation** (Text 50% + Runtime 50%):
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    DUAL-TRACK VALIDATION                    │
-├──────────────────────────┬──────────────────────────────────┤
-│     TEXT QUALITY (50%)   │      RUNTIME QUALITY (50%)       │
-├──────────────────────────┼──────────────────────────────────┤
-│ • System Prompt    (20%) │ • Role Immersion        (20%)    │
-│ • Domain Knowledge (20%) │ • Framework Execution   (20%)    │
-│ • Workflow         (20%) │ • Output Actionability  (20%)    │
-│ • Error Handling   (15%) │ • Knowledge Accuracy    (15%)    │
-│ • Examples         (15%) │ • Conversation Stability(15%)    │
-│ • Metadata         (10%) │ • Resilience            (10%)    │
-└──────────────────────────┴──────────────────────────────────┘
-```
-
-**Certification Thresholds:** Text ≥ 8.0 · Runtime ≥ 8.0 · Variance < 1.0
-
-**7-Step Restoration Methodology:**
-
-```
-Step 1: DIAGNOSIS (15 min)   → Analyze current skill, identify deficiencies
-Step 2: RESEARCH (30-60 min) → Gather domain-specific data, replace generic terms
-Step 3: ARCHITECTURE (20 min)→ Plan §1.1/1.2/1.3, Domain Knowledge, Workflow
-Step 4: DISCLOSURE (15 min)  → Create SKILL.md skeleton (≤300 lines) + references/
-Step 5: PRODUCTION (60-90 m) → Fill all sections with professional, data-driven content
-Step 6: VALIDATION (15-30 m) → Run eval.sh, verify thresholds met
-Step 7: DELIVERY (10 min)    → Save EVALUATION_REPORT.md, certify if production
-```
-
-**Typical Improvement:** 5-7/10 → 9.5/10 (+3.0 to +4.0 points)
-
----
-
-### 🚀 Quick Start
-
-```bash
-# Install a single skill
-Read https://theneoai.github.io/awesome-skills/skills/enterprise/amazon-engineer/SKILL.md
-```
-
-**Skill Packages:**
-
-| Package | Skills | Use Case |
-|---------|--------|----------|
-| [tech](./packages/tech.md) | Software, AI/ML, Data | Technical teams |
-| [enterprise](./packages/enterprise.md) | 100+ enterprise skills | Business analysis |
-| [finance](./packages/finance.md) | Banking, consulting, investment | Financial professionals |
-| [healthcare](./packages/healthcare.md) | Clinical, medical management | Healthcare industry |
-| [executive](./packages/executive.md) | CEO, CTO, CFO, COO, CMO | Executive decision-making |
-
-**[📖 Full Installation Guide →](./INSTALL-GUIDE.md)**
-
----
-
-### ⭐ Featured Enterprise Skills
-
-| Skill | Company | Core Methodology | Quality |
-|-------|---------|------------------|---------|
-| [amazon-engineer](./skills/enterprise/amazon-engineer/) | Amazon | 14 LPs, Working Backwards, 6-Page Memos | 9.5/10 |
-| [tesla-engineer](./skills/enterprise/tesla-engineer/) | Tesla | First Principles, Agile Manufacturing | 9.5/10 |
-| [spacex-engineer](./skills/enterprise/spacex-engineer/) | SpaceX | Rapid Iteration, Cost Innovation | 9.5/10 |
-| [nvidia-engineer](./skills/enterprise/nvidia-engineer/) | NVIDIA | GPU Computing, Platform Strategy | 9.5/10 |
-| [mckinsey-consultant](./skills/enterprise/mckinsey-consultant/) | McKinsey | MECE, Pyramid Principle, 7 Steps | 9.5/10 |
-| [mcdonalds](./skills/enterprise/mcdonalds/) | McDonald's | Franchise, Operational Excellence | 9.5/10 |
-| [starbucks](./skills/enterprise/starbucks/) | Starbucks | Third Place, Experience Economy | 9.5/10 |
-| [nike](./skills/enterprise/nike/) | Nike | Brand Narrative, DTC Transformation | 9.5/10 |
-| [lvmh](./skills/enterprise/lvmh/) | LVMH | Brand Management, Scarcity Economics | 9.5/10 |
-
----
-
-### 📈 Quality Optimization Progress
-
-```
-✅ 占位符清理      682 → 0    100% 完成
-✅ Workflow定制化   543 → 0    100% 完成
-✅ Error Handling重写 195 → 0   100% 完成
-✅ 元数据补充      720 → 0    100% 完成
-──────────────────────────────────────────────────────
-总计: 969 skills 优化完成 (2026-03-28)
-```
-P0 Core Skills        [████████████████████] 18/18   ✅ 100%
-P1 High Priority      [██████████████████░░░] 300/300 ✅ 100%
-P2/P3 Pending         [████████████████░░░░] 383/600 ✅ 64%
-──────────────────────────────────────────────────────
-Total: 401/976 (41.1%) at EXCELLENCE 9.5/10
-```
-
----
-
-### 📚 Documentation
-
-| Document | Description |
-|----------|-------------|
-| **[📚 CATALOG.md](./CATALOG.md)** | Full catalog of 976 skills |
-| **[📖 INSTALL-GUIDE.md](./INSTALL-GUIDE.md)** | Platform-specific installation guides |
-| **[📦 packages/](./packages/)** | Domain-specific skill packages |
-| **[🗺️ roadmap/](./roadmap/)** | 20 career development paths |
-| **[🤝 CONTRIBUTING.md](./CONTRIBUTING.md)** | Contribution guidelines |
-
----
-
-<div align="center">
-
-> **Tools are extensions; capability is the core.**
->
-> Use these 976 skills to understand the world. Use your own judgment to change it.
-
-**[↑ Back to Top](#awesome-skills)** | [切换中文](#中文版本)
+**Language:** [English](#english) | [中文](#中文)
 
 </div>
 
 ---
----
 
-<a name="中文版本"></a>
-## 🇨🇳 中文版本
+<a name="english"></a>
+## English
 
-### 📊 项目概览
+### What this is
 
-| 指标 | 数值 | 说明 |
-|------|------|------|
-| **技能总数** | 967 | 覆盖60职业领域 |
-| **质量认证** | 817 (84.5%) | 卓越标准 9.5/10 |
-| **企业技能** | 100+ | 全球顶尖企业方法论 |
-| **Token优化** | -50% | 通过渐进式披露架构 |
-| **最后更新** | 2026-03-28 | 批量优化完成 |
+A library of **842 skill files** (`SKILL.md` + optional `references/`) covering 60 professional domains. Each skill is a role-based prompt pack — an instruction set plus reference material — designed to load into Claude Code, OpenCode, Cursor, or similar agent runtimes to give an LLM a consistent professional persona and working methodology.
 
-### 🎯 核心差异：写作 → 评估 → 恢复
+### What this is NOT
 
-与仅提供静态内容的社区技能库不同，**Awesome Skills** 提供**完整的质量生态系统**：
+- **Not an alternative to executable skill packs.** The official Anthropic/OpenAI `SKILL.md` convention can ship with `scripts/` and `assets/` that the agent runs. The vast majority of skills here are **persona + methodology**, not runnable tools. Treat them as opinionated system prompts, not as plugins.
+- **Not a certification body.** Historical quality scores in this repo were produced by a self-authored scoring script grading against a self-authored rubric. The scoring is useful internally; it is not an independent benchmark.
+- **Not feature-complete for every domain.** Coverage is broad but uneven — some categories have deep role hierarchies, others have a single stub.
+
+### Layout
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      质量生态系统                            │
-├─────────────────────────────────────────────────────────────┤
-│                   skill-manager v1.0                        │
-├─────────────────────────────────────────────────────────────┤
-│  创建 (CREATE)     评估 (EVALUATE)   恢复 (RESTORE)         │
-│  ──────────────    ──────────────    ─────────────────────  │
-│  分层创建方法论    双轨验证：         通过7步方法论           │
-│  6维度质量标准     文本+运行时        将5-7/10提升至9.5/10   │
-│                   = 真实质量                                │
-└─────────────────────────────────────────────────────────────┘
+skills/                   842 skill directories across ~60 categories
+  <category>/<role>/
+    SKILL.md              Frontmatter + system prompt (target ≤ 300 lines)
+    references/           On-demand deep content (workflow / scenarios / …)
+    EVALUATION_REPORT.md  Optional self-scored quality report
+
+benchmarks/               Evaluation dataset + scoring script for comparison
+packages/                 Curated skill bundles by domain
+roadmap/                  Career-path documents (independent of skills/)
+tools/                    Python package for skill analysis (scoring, tokens, anti-patterns)
+scripts/                  One-off maintenance scripts (dedupe, data generation)
+.github/                  CI workflows + scripts, CI/CD docs
 ```
 
-**这就是为什么我们的817个认证技能优于1000+社区技能。**
+### Quick start
 
----
-
-<a name="方法论"></a>
-### 🔬 方法论：skill-manager v1.0
-
-#### 统一生命周期：创建 → 评估 → 恢复
-
-**6维度质量评分标准：**
-
-| 维度 | 权重 | 要求 |
-|------|------|------|
-| **§1.1 身份认同** | 20% | 带企业背景的角色专属人设 |
-| **§1.2 决策框架** | - | 带阈值的加权标准 |
-| **§1.3 思维模式** | - | 领域专属心智模型 |
-| **领域知识** | 20% | 具体数据、方法论、基准 |
-| **工作流程** | 20% | 4-5个阶段，含完成/失败标准 |
-| **错误处理** | 15% | 反模式、风险矩阵 |
-| **示例** | 15% | 5+个带真实数据的详细场景 |
-| **元数据** | 10% | 完整YAML含评分 |
-
-**3层架构：**
-- **轻量版** (50-150行)：单一功能工具
-- **标准版** (150-500行)：领域知识库
-- **企业版** (500-1500行)：完整方法论
-
-**渐进式披露：**
-```
-SKILL.md (≤ 300行)：导航 + 框架
-references/：深度内容 + 完整示例（按需加载）
-```
-
-**双轨验证** (文本50% + 运行时50%)：
+The simplest way to install a skill is to have your agent read its `SKILL.md` URL:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                       双轨验证体系                          │
-├──────────────────────────┬──────────────────────────────────┤
-│        文本质量 (50%)     │        运行质量 (50%)             │
-├──────────────────────────┼──────────────────────────────────┤
-│ • 系统提示词       (20%) │ • 角色沉浸度         (20%)       │
-│ • 领域知识         (20%) │ • 框架执行力         (20%)       │
-│ • 工作流程         (20%) │ • 输出可操作性       (20%)       │
-│ • 错误处理         (15%) │ • 知识准确性         (15%)       │
-│ • 示例质量         (15%) │ • 对话稳定性         (15%)       │
-│ • 元数据           (10%) │ • 抗干扰能力         (10%)       │
-└──────────────────────────┴──────────────────────────────────┘
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install as a skill
 ```
 
-**认证阈值：** 文本 ≥ 8.0 · 运行时 ≥ 8.0 · 方差 < 1.0
+Platform-specific instructions (OpenCode native command, Claude Code, Cursor, Cline, Codex, Kimi) are in **[INSTALL-GUIDE.md](./INSTALL-GUIDE.md)**.
 
-**7步恢复方法论：**
+### Skill packages
 
-```
-步骤1：诊断 (15分钟)    → 分析当前技能，识别缺陷
-步骤2：研究 (30-60分钟) → 收集领域专属数据，替换通用术语
-步骤3：架构 (20分钟)    → 规划 §1.1/1.2/1.3、领域知识、工作流程
-步骤4：渐进披露 (15分钟)→ 创建SKILL.md骨架 (≤300行) + references/ 结构
-步骤5：内容生产 (60-90) → 用专业、数据驱动的内容填充所有章节
-步骤6：验证 (15-30分钟) → 运行 eval.sh，确认认证阈值达标
-步骤7：交付 (10分钟)    → 保存 EVALUATION_REPORT.md，生产环境执行认证
-```
+Pre-bundled collections in `packages/`:
 
-**典型提升：** 5-7/10 → 9.5/10 (+3.0 至 +4.0 分)
+| Package | Focus |
+|---------|-------|
+| [tech](./packages/tech.md) | Software, AI/ML, data |
+| [executive](./packages/executive.md) | CEO, CTO, CFO, COO, CMO |
+| [finance](./packages/finance.md) | Banking, consulting, investment |
+| [healthcare](./packages/healthcare.md) | Clinical and medical management |
+| [software](./packages/software.md) | Backend, frontend, devops, QA |
 
----
+### Featured enterprise skills
 
-### 🚀 快速开始
+Role skills modelled after the methodology of specific companies (15 shown out of 100+ under `skills/enterprise/`):
+
+| Skill | Company | Methodology |
+|-------|---------|------------|
+| [amazon-engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) | Amazon | 14 LPs, Working Backwards, 6-page memos |
+| [tesla-engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) | Tesla | First principles, five-step algorithm |
+| [spacex-engineer](./skills/enterprise/spacex/spacex-engineer/SKILL.md) | SpaceX | Rapid iteration, cost innovation |
+| [nvidia-ml-engineer](./skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA | CUDA optimisation, GPU platforms |
+| [mckinsey-consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) | McKinsey | MECE, issue trees, pyramid principle |
+| [toyota-engineer](./skills/enterprise/toyota/toyota-engineer/SKILL.md) | Toyota | TPS, JIT, Kaizen, Jidoka |
+| [anthropic-researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI, interpretability |
+
+Full list in [CATALOG.md](./CATALOG.md).
+
+### Tooling
+
+The repo ships a Python package for static analysis of skills:
 
 ```bash
-# 安装单个技能
-Read https://theneoai.github.io/awesome-skills/skills/enterprise/amazon-engineer/SKILL.md
+pip install -e ./tools/
+python -m tools.skill_analyzer.cli score        # 8-dimension rubric scores
+python -m tools.skill_analyzer.cli tokenizer    # Token budget + API cost
+python -m tools.skill_analyzer.cli antipattern  # Common mistakes scanner
 ```
 
-**技能包：**
+CI (`.github/workflows/quality.yml`) runs these on every PR and **blocks merges** whose changed `SKILL.md` files fall below score/token/description thresholds.
 
-| 包名 | 技能 | 适用场景 |
-|------|------|----------|
-| [tech](./packages/tech.md) | 软件、AI/ML、数据 | 技术团队 |
-| [enterprise](./packages/enterprise.md) | 100+企业技能 | 商业分析 |
-| [finance](./packages/finance.md) | 银行、咨询、投资 | 金融从业者 |
-| [healthcare](./packages/healthcare.md) | 临床、医疗管理 | 医疗行业 |
-| [executive](./packages/executive.md) | CEO、CTO、CFO等 | 高管决策 |
+### Known limitations
 
-**[📖 完整安装指南 →](./INSTALL-GUIDE.md)**
+- **Text-only skills.** Virtually no skill ships executable `scripts/` or `assets/` — they are persona prompts.
+- **Description overlap.** The role taxonomy is fine-grained (60 categories, 842 roles) and many descriptions overlap, which hurts automatic skill-discovery in agent runtimes. A description-similarity linter is planned.
+- **Self-scored quality.** `EVALUATION_REPORT.md` files reflect a self-graded rubric, not external review.
+- **Three category systems.** `packages/` (14), `roadmap/` (22), and `skills/` (60) use different taxonomies — being consolidated.
+
+### Documentation
+
+| Doc | Purpose |
+|-----|---------|
+| [CATALOG.md](./CATALOG.md) | Full catalog of all skills |
+| [INSTALL-GUIDE.md](./INSTALL-GUIDE.md) | Platform-specific install instructions |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | How to add or improve skills |
+| [.github/CI.md](./.github/CI.md) | CI/CD pipeline notes |
+
+### License
+
+MIT — see [LICENSE](./LICENSE).
 
 ---
 
-### ⭐ 精选企业技能
+<a name="中文"></a>
+## 中文
 
-| 技能 | 企业 | 核心方法论 | 质量 |
-|------|------|-----------|------|
-| [amazon-engineer](./skills/enterprise/amazon-engineer/) | Amazon | 14条领导力原则、逆向工作、6页备忘录 | 9.5/10 |
-| [tesla-engineer](./skills/enterprise/tesla-engineer/) | Tesla | 第一性原理、敏捷制造 | 9.5/10 |
-| [spacex-engineer](./skills/enterprise/spacex-engineer/) | SpaceX | 快速迭代、成本创新 | 9.5/10 |
-| [nvidia-engineer](./skills/enterprise/nvidia-engineer/) | NVIDIA | GPU计算、平台战略 | 9.5/10 |
-| [mckinsey-consultant](./skills/enterprise/mckinsey-consultant/) | McKinsey | MECE、金字塔原理、七步成诗 | 9.5/10 |
-| [mcdonalds](./skills/enterprise/mcdonalds/) | McDonald's | 特许经营、运营卓越 | 9.5/10 |
-| [starbucks](./skills/enterprise/starbucks/) | Starbucks | 第三空间、体验经济 | 9.5/10 |
-| [nike](./skills/enterprise/nike/) | Nike | 品牌叙事、DTC转型 | 9.5/10 |
-| [lvmh](./skills/enterprise/lvmh/) | LVMH | 品牌管理、稀缺经济学 | 9.5/10 |
+### 项目定位
 
----
+按专业领域组织的 **AI Skill 库**，共 **842 个技能**，覆盖 60 个领域。每个技能是一份 `SKILL.md`（+ 可选 `references/`），本质是**角色化的提示词包**——一套系统指令加参考资料，用于在 Claude Code / OpenCode / Cursor 等 agent 运行时里给 LLM 加载稳定的专业身份和工作方法。
 
-### 📈 质量优化进度
+### 不是什么
+
+- **不是可执行 Skill 套件**。Anthropic/OpenAI 官方 `SKILL.md` 可以随包携带 `scripts/` 和 `assets/` 交给 agent 调用；本仓库绝大多数 skill 仅提供**角色 + 方法论**的文本，应视作有观点的系统提示词，而非可运行插件。
+- **不是第三方认证**。仓库内历史质量分由本仓库自己编写的脚本按自家标准打出，对内有参考价值，但不是独立基准。
+- **不是每个领域都覆盖完整**。分类很广但深浅不一：有些领域有完整角色树，有些只有一个占位文件。
+
+### 目录结构
 
 ```
-✅ 占位符清理      682 → 0    100% 完成
-✅ Workflow定制化   543 → 0    100% 完成
-✅ Error Handling重写 195 → 0   100% 完成
-✅ 元数据补充      720 → 0    100% 完成
-──────────────────────────────────────────────────────
-总计: 969 skills 优化完成 (2026-03-28)
+skills/                   842 个技能目录，分 ~60 个分类
+  <category>/<role>/
+    SKILL.md              Frontmatter + 系统提示词（目标 ≤ 300 行）
+    references/           按需加载的深度内容（workflow / scenarios / …）
+    EVALUATION_REPORT.md  可选：自评质量报告
+
+benchmarks/               评估数据集 + 评分脚本
+packages/                 按领域打包的 skill 合集
+roadmap/                  职业路径文档（独立于 skills/）
+tools/                    Skill 分析工具 Python 包（评分、token、反模式）
+scripts/                  维护脚本（去重、数据生成）
+.github/                  CI 工作流与脚本、CI/CD 文档
 ```
 
----
+### 快速开始
 
-### 📚 文档导航
+最通用的安装方式是让 agent 读 SKILL.md 的 URL：
 
-| 文档 | 描述 |
+```
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md 并安装为 skill
+```
+
+各平台（OpenCode 原生命令、Claude Code、Cursor、Cline、Codex、Kimi）详细步骤见 **[INSTALL-GUIDE.md](./INSTALL-GUIDE.md)**。
+
+### Skill 合集
+
+按领域打包，见 `packages/`：
+
+| 合集 | 覆盖 |
 |------|------|
-| **[📚 CATALOG.md](./CATALOG.md)** | 976个技能完整目录 |
-| **[📖 INSTALL-GUIDE.md](./INSTALL-GUIDE.md)** | 各平台安装指南 |
-| **[📦 packages/](./packages/)** | 按领域分类的技能包 |
-| **[🗺️ roadmap/](./roadmap/)** | 20个职业成长路径 |
-| **[🤝 CONTRIBUTING.md](./CONTRIBUTING.md)** | 贡献指南 |
+| [tech](./packages/tech.md) | 软件、AI/ML、数据 |
+| [executive](./packages/executive.md) | CEO、CTO、CFO、COO、CMO |
+| [finance](./packages/finance.md) | 银行、咨询、投资 |
+| [healthcare](./packages/healthcare.md) | 临床与医疗管理 |
+| [software](./packages/software.md) | 后端、前端、devops、QA |
+
+### 精选企业技能
+
+仿照特定公司方法论建模的角色（从 `skills/enterprise/` 100+ 条中选 7 条）：
+
+| Skill | 公司 | 方法论 |
+|-------|------|--------|
+| [amazon-engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) | Amazon | 14 条领导力准则、Working Backwards、6 页备忘录 |
+| [tesla-engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) | Tesla | 第一性原理、五步算法 |
+| [spacex-engineer](./skills/enterprise/spacex/spacex-engineer/SKILL.md) | SpaceX | 快速迭代、成本创新 |
+| [nvidia-ml-engineer](./skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA | CUDA 优化、GPU 平台 |
+| [mckinsey-consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) | McKinsey | MECE、Issue Tree、金字塔原理 |
+| [toyota-engineer](./skills/enterprise/toyota/toyota-engineer/SKILL.md) | Toyota | TPS、JIT、改善、自働化 |
+| [anthropic-researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI、可解释性 |
+
+完整列表见 [CATALOG.md](./CATALOG.md)。
+
+### 工具
+
+仓库附带 Python 分析包：
+
+```bash
+pip install -e ./tools/
+python -m tools.skill_analyzer.cli score        # 8 维度评分
+python -m tools.skill_analyzer.cli tokenizer    # Token 预算与 API 成本
+python -m tools.skill_analyzer.cli antipattern  # 反模式扫描
+```
+
+CI（`.github/workflows/quality.yml`）会在每个 PR 上运行这些工具，若新改动的 `SKILL.md` 达不到阈值则**阻塞合并**。
+
+### 已知局限
+
+- **绝大多数 skill 是纯文本 persona**，并不随包携带可执行 `scripts/` 或 `assets/`。
+- **描述重叠严重**：60 分类 × 842 角色，许多 description 字段相似度高，会降低 agent 运行时的 skill 自动发现准确度。计划引入描述相似度检查。
+- **质量分是自评**：`EVALUATION_REPORT.md` 反映仓库自家规则的评分，不是独立评审。
+- **三套分类互不一致**：`packages/`（14 类）、`roadmap/`（22 类）、`skills/`（60 类）仍在统一中。
+
+### 文档
+
+| 文档 | 用途 |
+|------|------|
+| [CATALOG.md](./CATALOG.md) | 完整技能目录 |
+| [INSTALL-GUIDE.md](./INSTALL-GUIDE.md) | 各平台安装步骤 |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | 如何贡献或改进技能 |
+| [.github/CI.md](./.github/CI.md) | CI/CD 说明 |
+
+### 许可证
+
+MIT，见 [LICENSE](./LICENSE)。
 
 ---
 
 <div align="center">
 
-> **工具是外延，能力是内核。**
->
-> 用这967个技能理解世界，用你自己的判断改变世界。
-
-**[↑ 返回顶部](#awesome-skills)** | [Switch to English](#english-version)
-
-Made with ❤️ by neo.ai
+**[↑ Back to top](#awesome-skills)**
 
 </div>

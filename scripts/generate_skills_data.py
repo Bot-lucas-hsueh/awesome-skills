@@ -17,8 +17,8 @@ SCRIPT_DIR = Path(__file__).parent.resolve()
 PROJECT_ROOT = SCRIPT_DIR.parent
 SKILLS_DIR = PROJECT_ROOT / 'skills'
 EXTERNAL_AUTHOR_DIRS = [
-    PROJECT_ROOT / 'external' / 'aakashg',
-    PROJECT_ROOT / 'external' / 'wdavidturner',
+    PROJECT_ROOT / 'benchmarks' / 'aakashg',
+    PROJECT_ROOT / 'benchmarks' / 'wdavidturner',
 ]
 OUTPUT_FILE = PROJECT_ROOT / 'assets/js/skills-data.js'
 
