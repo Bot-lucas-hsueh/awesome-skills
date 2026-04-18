@@ -18,14 +18,19 @@ INDEX_HTML = ROOT / "index.html"
 
 
 def count_skills() -> int:
+    """Count every SKILL.md under skills/ (excluding the ``_common/`` helper dir).
+
+    Walks the tree recursively so roles living 3+ levels deep
+    (e.g. ``skills/enterprise/tesla/tesla-engineer/SKILL.md``) are included.
+    This matches how ``scripts/regenerate_catalog.py`` counts, so the badge,
+    index.html hero stat, and CATALOG total stay in lock-step.
+    """
     if not SKILLS_DIR.is_dir():
         raise SystemExit(f"skills/ not found at {SKILLS_DIR}")
     return sum(
         1
-        for category in SKILLS_DIR.iterdir()
-        if category.is_dir() and not category.name.startswith("_")
-        for role in category.iterdir()
-        if role.is_dir()
+        for skill_md in SKILLS_DIR.rglob("SKILL.md")
+        if not any(part.startswith("_") for part in skill_md.relative_to(SKILLS_DIR).parts)
     )
 
 

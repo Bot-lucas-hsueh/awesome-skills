@@ -1,132 +1,137 @@
-# Project Configuration Guide
+# CI / CD Guide
 
-This document describes the GitHub Actions workflows and project configuration for Awesome Skills.
+GitHub Actions workflows and project configuration for **awesome-skills**.
 
-## 🔄 CI/CD Pipeline (3-Step Process)
+---
 
-### Step 1: Evaluate & Generate Report
-**Workflow:** `comprehensive-evaluation.yml` → `step1-evaluate`
+## Workflows
 
-- Runs comprehensive skill evaluation using skill-evaluator methodology
-- Generates JSON and HTML reports
-- Displays summary in Actions output
-- Uploads artifacts for subsequent steps
+| Workflow | File | Trigger | What it does |
+|----------|------|---------|-------------|
+| **Skill Quality Check** | `.github/workflows/quality.yml` | push + PR on `skills/**`, `tools/**`, `.github/**` | Lint, structure validation, quality scoring, quality gate (blocking). |
+| **Comprehensive Evaluation** | `.github/workflows/comprehensive-evaluation.yml` | daily cron (04:00 UTC) + push to main + manual | Full scoring run, generates JSON/HTML evaluation reports, syncs badge counts. |
+| **Pages Deploy** | `.github/workflows/pages-deploy.yml` | after evaluation completes, push to main, manual | Regenerates `assets/js/skills-data.js`, uploads site to GitHub Pages. |
 
-**Triggers:**
-- Daily at 4 AM UTC (scheduled)
-- Push to main (when skills or workflows change)
-- Manual dispatch
+---
 
-### Step 2: Update GitHub Pages
-**Workflow:** `pages-deploy.yml`
+## Quality workflow — job map
 
-- Deploys website to GitHub Pages
-- Includes evaluation reports
-- Makes reports accessible via web URL
+```
+lint            ── yamllint (ignores external/) + markdownlint on skills/**/*.md
+validate        ── validate_skills.py, taxonomy check, catalog --check, length budget
+quality         ── scoring / token / antipattern / description-linter (informational, PR only)
+quality-gate    ── blocks PR if changed SKILL.md files fall below thresholds
+dashboard       ── regenerates reports/dashboard.json on main only
+```
 
-**URL:** `https://theneoai.github.io/awesome-skills/reports/evaluation_report.html`
+### Blocking checks (fail the PR)
 
-### Step 3: Update README & Project Config
-**Workflow:** `comprehensive-evaluation.yml` → `step3-update-config`
+| Check | Script | Why |
+|-------|--------|-----|
+| YAML lint | `yamllint -c .yamllint` | catches malformed frontmatter; `external/` is excluded |
+| Markdown lint | `markdownlint -c .markdownlint.json` | basic style consistency |
+| Skill validator | `.github/scripts/validate_skills.py` | enforces `name` matches parent folder, `description` present, H1 in body |
+| Strict validator | same, with `--strict` on Expert-Verified categories | extra section-count / structure checks |
+| Taxonomy consistency | `scripts/check_taxonomy.py` | `taxonomy.yml` aliases must match `skills/`, `packages/`, `roadmap/` |
+| Catalog sync | `scripts/regenerate_catalog.py --check` | `CATALOG.md` must match a fresh regeneration |
+| Quality gate | `.github/scripts/quality_gate.py` | on changed SKILL.md: score ≥ 4.0, body tokens ≤ 6000, description ≤ 400 chars |
 
-- Updates README.md with latest statistics
-- Updates index.html with current counts
-- Creates/updates `assets/js/skill-stats.js`
-- Commits and pushes changes
+### Informational (warn but don't block)
 
-## ⚙️ Required GitHub Settings
+| Check | Script | Note |
+|-------|--------|------|
+| SKILL.md length budget | `scripts/skill_length_check.py` | warns > 300 lines, hard-fail > 800 (`continue-on-error: true`) |
+| Description similarity | `scripts/description_linter.py` | flags near-duplicate descriptions (Jaccard ≥ 0.6) |
+| Quality scoring | `tools.skill_analyzer.cli score` | full 8-dimension rubric, uploaded as artifact |
 
-### 1. Enable GitHub Pages
+Artifacts retained on PR runs: `scores.json`, `tokens.json`, `antipatterns.json`, `description_overlap.json` (7 days).
 
-1. Go to **Settings** → **Pages**
-2. Set **Source** to "GitHub Actions"
-3. Save
+---
 
-### 2. Configure Workflow Permissions
+## Frontmatter required fields (enforced by validator)
 
-1. Go to **Settings** → **Actions** → **General**
-2. Under **Workflow permissions**, select:
-   - ✅ Read and write permissions
-   - ✅ Allow GitHub Actions to create and approve pull requests
+For any `SKILL.md` under `skills/`:
 
-### 3. Set Up GitHub Token (if needed)
+| Field | Rule |
+|-------|------|
+| `name` | must equal the parent folder name |
+| `description` | non-empty, ≤ 400 chars for quality-gate pass |
+| `kind` | `persona` or `tool-skill` (added by `scripts/tag_skills_kind.py`) |
 
-The workflows use `secrets.GITHUB_TOKEN` which is automatically provided. No additional setup needed.
+Recommended (warning only): `tags`, `platforms`, `quality`, `license`, `version`.
 
-## 📊 Workflow Status Badges
+See `scripts/backfill_descriptions.py` if a bulk rescue is needed for missing descriptions.
 
-Add these badges to README.md:
+---
+
+## External hub (not covered by CI)
+
+`external/` is a registry of third-party skill repositories, populated locally
+via `scripts/sync_external.py`. It is **excluded** from every CI check — we
+don't enforce our style on upstream projects. Only `external/sources.yml` and
+`external/README.md` are tracked in git.
+
+---
+
+## Required GitHub settings
+
+1. **Settings → Pages** → Source = "GitHub Actions".
+2. **Settings → Actions → General** → Workflow permissions = **Read and write**,
+   ☑ Allow Actions to create and approve pull requests.
+3. `GITHUB_TOKEN` is provided automatically; no secrets setup required.
+
+---
+
+## Status badges
 
 ```markdown
+[![Quality](https://github.com/theneoai/awesome-skills/actions/workflows/quality.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/quality.yml)
 [![Evaluation](https://github.com/theneoai/awesome-skills/actions/workflows/comprehensive-evaluation.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/comprehensive-evaluation.yml)
 [![Pages](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml)
 ```
 
-## 🏗️ Workflow Dependencies
+---
 
-```
-Step 1: Evaluate
-    ↓ (artifacts)
-Step 2: Deploy Pages
-    ↓ (after Pages deploy)
-Step 3: Update Config
-```
+## Artifacts generated by the pipeline
 
-## 📁 Generated Artifacts
+| Artifact | Location | Producer |
+|----------|----------|----------|
+| `CATALOG.md` | repo root | `scripts/regenerate_catalog.py` |
+| `reports/evaluation_report.json` / `.html` | `reports/` | comprehensive-evaluation workflow |
+| `reports/description_overlap.md` | `reports/` | `scripts/description_linter.py` |
+| `reports/dashboard.json` | `reports/` | `tools.progress_tracker.dashboard` |
+| `assets/js/skills-data.js` | `assets/js/` | `scripts/generate_skills_data.py` (Pages build) |
+| `assets/js/skill-stats.js` | `assets/js/` | comprehensive-evaluation step 3 |
 
-| Artifact | Location | Description |
-|----------|----------|-------------|
-| `evaluation_report.json` | `reports/` | Raw evaluation data |
-| `evaluation_report.html` | `reports/` | Human-readable HTML report |
-| `skill-stats.js` | `assets/js/` | JavaScript data for website |
+---
 
-## 🚀 Manual Trigger
+## Troubleshooting
 
-You can manually trigger the workflows from the **Actions** tab:
+**Pages not deploying** → confirm Pages source = "GitHub Actions"; check `pages-deploy.yml` run logs for a failed `generate_skills_data.py` step.
 
-1. Select the workflow
-2. Click "Run workflow"
-3. Choose branch (usually `main`)
-4. Click "Run workflow"
+**Catalog check fails** → run `python3 scripts/regenerate_catalog.py` locally and commit the updated `CATALOG.md`.
 
-## 📝 Environment Variables
+**Validator flags frontmatter issues** →
+- missing `description`: `python3 scripts/backfill_descriptions.py`
+- missing H1: `python3 scripts/add_missing_h1.py`
+- `name` ≠ folder: `python3 scripts/fix_name_folder_mismatch.py`
 
-None required. All configuration is in the workflow files.
+**Quality gate blocks a PR** → see the error log's specific threshold miss (score / tokens / description length) and tune the offending `SKILL.md`.
 
-## 🐛 Troubleshooting
+---
 
-### Pages not deploying
-- Check that Pages is enabled in Settings → Pages
-- Ensure source is set to "GitHub Actions"
-- Check `pages-deploy.yml` workflow permissions
+## Update cadence
 
-### README not updating
-- Check that workflow has write permissions
-- Verify `GITHUB_TOKEN` has correct permissions
-- Look for "[ci skip]" in commit messages (prevents recursive runs)
+| Workflow | Frequency |
+|----------|-----------|
+| Quality Check | every push + every PR |
+| Comprehensive Evaluation | daily at 04:00 UTC + on relevant pushes |
+| Pages Deploy | after evaluation succeeds + on main push |
 
-### Evaluation failing
-- Check Python dependencies are installed
-- Verify `scripts/comprehensive_skill_evaluation.py` exists
-- Check for syntax errors in skill files
+---
 
-## 📈 Monitoring
+## Monitoring
 
-View workflow status at:
-- **Actions tab:** `https://github.com/theneoai/awesome-skills/actions`
-- **Pages status:** Settings → Pages
-
-## 🔄 Update Frequency
-
-| Workflow | Frequency | Notes |
-|----------|-----------|-------|
-| Comprehensive Evaluation | Daily 4 AM UTC | Also runs on skill changes |
-| Pages Deploy | On demand | Triggered after evaluation |
-| Skill Quality Gate (quality.yml) | On PR + push | Quality checks and validation |
-
-## 📞 Support
-
-For issues with the CI/CD pipeline:
-1. Check the Actions logs for error messages
-2. Verify GitHub settings match this guide
-3. Open an issue with the workflow run link
+- Actions tab: <https://github.com/theneoai/awesome-skills/actions>
+- Pages status: Settings → Pages
+- Dashboard artifact: download the latest `quality-dashboard` artifact for `reports/dashboard.json`.

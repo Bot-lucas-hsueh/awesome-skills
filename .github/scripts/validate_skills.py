@@ -290,6 +290,15 @@ def collect_skill_files(targets: list[str]) -> list[Path]:
       - evals/    — evaluation files inside folder skills
     """
     EXCLUDED_DIRS = {"_common", "references", "agents", "assets", "evals"}
+    # Helper / meta docs that may sit alongside a skill (or one level above it)
+    # and must not be validated as skill files themselves.
+    EXCLUDED_FILENAMES = {
+        "README.md",
+        "PROFILE_NOTES.md",
+        "EVALUATION_REPORT.md",
+        "RESTORATION_REPORT.md",
+        "CHANGELOG.md",
+    }
     files = []
     for t in targets:
         p = Path(t)
@@ -300,10 +309,17 @@ def collect_skill_files(targets: list[str]) -> list[Path]:
                 # Skip files inside excluded subdirectories
                 if any(part in EXCLUDED_DIRS for part in f.parts):
                     continue
+                # Skip well-known helper filenames regardless of location
+                if f.name in EXCLUDED_FILENAMES:
+                    continue
                 # For folder-based skills: only validate SKILL.md (the entrypoint)
                 # Skip other .md files that happen to be inside skill folders
                 parent = f.parent
                 if f.name != "SKILL.md" and (parent / "SKILL.md").exists():
+                    continue
+                # Skip loose .md in a dir that has any SKILL.md anywhere below —
+                # such docs are category-level notes, not skills.
+                if f.name != "SKILL.md" and any(parent.rglob("SKILL.md")):
                     continue
                 files.append(f)
     return files
