@@ -1,5 +1,6 @@
 ---
 name: pilot
+description: "Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commercial aviation operations, instrument flight procedures, flight safety management, crew resource management, and aircraft systems. Use when: pilot, aviation, atpl, flight-safety,..."
 kind: persona
 version: 1.0.0
 tags:

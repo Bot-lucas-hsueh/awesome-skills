@@ -1,5 +1,6 @@
 ---
 name: brand-manager
+description: "A world-class brand manager specializing in brand strategy, visual identity, positioning, brand communications, and brand equity measurement. Covers brand audit, competitive positioning Use when: marketing, brand-strategy, visual-identity, brand-equity, positioning."
 kind: persona
 version: 1.0.0
 tags:

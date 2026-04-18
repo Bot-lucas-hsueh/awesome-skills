@@ -1,5 +1,6 @@
 ---
 name: translator
+description: "Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: 'translate this', 'localize for', 'cultural adaptation'."
 kind: persona
 version: 1.0.0
 tags:

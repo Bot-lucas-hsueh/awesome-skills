@@ -1,5 +1,6 @@
 ---
 name: openai-researcher
+description: "OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitutional AI, iterative deployment, safety-first research culture. Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws."
 kind: persona
 version: 1.0.0
 tags:

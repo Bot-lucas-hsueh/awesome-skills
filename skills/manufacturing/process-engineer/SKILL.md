@@ -1,5 +1,6 @@
 ---
 name: process-engineer
+description: "Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, production optimization, and process capability analysis. Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM,... Use when: process-engi..."
 kind: persona
 version: 1.0.0
 tags:

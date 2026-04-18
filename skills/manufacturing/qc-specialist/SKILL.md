@@ -1,5 +1,6 @@
 ---
 name: qc-specialist
+description: "Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep knowledge of Use when: quality-control, sp..."
 kind: persona
 version: 1.0.0
 tags:

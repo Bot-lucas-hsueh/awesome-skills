@@ -1,5 +1,6 @@
 ---
 name: tesla-product-manager
+description: "Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable energy roadmap planning, first-principles product decisions, and Tesla's unique approach to product Triggers: 'Tesla product strategy', 'sustainable energy product',"
 kind: persona
 version: 1.0.0
 tags:

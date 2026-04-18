@@ -1,5 +1,6 @@
 ---
 name: satellite-communication-engineer
+description: "Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM. Use when: working with..."
 kind: persona
 version: 1.0.0
 tags:

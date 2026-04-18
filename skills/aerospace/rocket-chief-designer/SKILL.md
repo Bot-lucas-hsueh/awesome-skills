@@ -1,5 +1,6 @@
 ---
 name: rocket-chief-designer
+description: "Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration. Use when: working with..."
 kind: persona
 version: 1.0.0
 tags:

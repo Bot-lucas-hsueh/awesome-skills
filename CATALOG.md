@@ -1,8 +1,8 @@
 # Catalog
 
-<856 total skills auto-generated on 2026-04-18. To regenerate: `python3 scripts/regenerate_catalog.py`>
+<943 total skills auto-generated on 2026-04-18. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
-## tool-skills (114)
+## tool-skills (116)
 
 | Skill | Category | Description |
 |-------|----------|-------------|
@@ -60,6 +60,7 @@
 | [tencentcloud-trtc-expert](./skills/tools/cn-cloud/tencent/tencentcloud-trtc-expert/SKILL.md) | tools/cn-cloud/tencent | 腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRT... |
 | [tencentcloud-vod-expert](./skills/tools/cn-cloud/tencent/tencentcloud-vod-expert/SKILL.md) | tools/cn-cloud/tencent | 腾讯云VOD：视频上传、转码、播放器、防盗链。Use when building video on demand platforms. Triggers: 'VOD', '视频点播', '转码', '... |
 | [volcengine-coze-expert](./skills/tools/cn-cloud/volcengine/volcengine-coze-expert/SKILL.md) | tools/cn-cloud/volcengine | 火山引擎扣子(Coze)专家。Use when: 创建AI智能体、配置知识库问答、设计工作流、搭建客服机器人。 Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot... |
+| [volcengine-doubao-api](./skills/tools/cn-cloud/volcengine/volcengine-doubao-api/SKILL.md) | tools/cn-cloud/volcengine | 火山引擎豆包大模型API调用：模型选择、Token计算、成本优化。Use when calling Doubao API, selecting models, or optimizing costs.... |
 | [docker-expert](./skills/tools/container/docker-expert/SKILL.md) | tools/container | Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security har... |
 | [helm-expert](./skills/tools/container/helm-expert/SKILL.md) | tools/container | Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts... |
 | [istio-servicemesh-expert](./skills/tools/container/istio-servicemesh-expert/SKILL.md) | tools/container | Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh securit... |
@@ -91,15 +92,16 @@
 | [openfoam-expert](./skills/tools/engineering-simulation/openfoam-expert/SKILL.md) | tools/engineering-simulation | Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbule... |
 | [salesforce-expert](./skills/tools/enterprise/salesforce-expert/SKILL.md) | tools/enterprise | Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing... |
 | [servicenow-expert](./skills/tools/enterprise/servicenow-expert/SKILL.md) | tools/enterprise | ServiceNow平台专家：ITSM核心模块配置、Flow Designer工作流自动化、GlideRecord脚本开发、ACL权限管理。Use when configuring ServiceNo... |
-| [workday-engineer](./skills/tools/enterprise/workday-expert/SKILL.md) | tools/enterprise | Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuratio... |
+| [workday-expert](./skills/tools/enterprise/workday-expert/SKILL.md) | tools/enterprise | Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuratio... |
 | [zendesk-expert](./skills/tools/enterprise/zendesk-expert/SKILL.md) | tools/enterprise | Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works... |
+| [godot-expert](./skills/tools/game-engine/godot-expert/SKILL.md) | tools/game-engine | You are a Godot 4.x game engine expert with deep expertise in GDScript 2.0, scene architecture, and... |
 | [unity-expert](./skills/tools/game-engine/unity-expert/SKILL.md) | tools/game-engine | Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works wit... |
 | [unreal-expert](./skills/tools/game-engine/unreal-expert/SKILL.md) | tools/game-engine | Unreal Engine expert. Use when: building gameplay systems, UE5 rendering (Nanite/Lumen), multiplayer... |
 | [ansible-expert](./skills/tools/iac/ansible-expert/SKILL.md) | tools/iac | Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating... |
 | [pulumi-expert](./skills/tools/iac/pulumi-expert/SKILL.md) | tools/iac | Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC... |
 | [terraform-expert](./skills/tools/iac/terraform-expert/SKILL.md) | tools/iac | Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspace... |
 | [ffmpeg-expert](./skills/tools/media/ffmpeg-expert/SKILL.md) | tools/media | Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extract... |
-| [datadog-engineer](./skills/tools/observability/datadog-expert/SKILL.md) | tools/observability | Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog. Triggers:... |
+| [datadog-expert](./skills/tools/observability/datadog-expert/SKILL.md) | tools/observability | Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog. Triggers:... |
 | [elk-stack-expert](./skills/tools/observability/elk-stack-expert/SKILL.md) | tools/observability | ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Trigge... |
 | [grafana-expert](./skills/tools/observability/grafana-expert/SKILL.md) | tools/observability | Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashb... |
 | [opentelemetry-expert](./skills/tools/observability/opentelemetry-expert/SKILL.md) | tools/observability | OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTe... |
@@ -121,7 +123,7 @@
 | [nmap-expert](./skills/tools/security/nmap-expert/SKILL.md) | tools/security | Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and security a... |
 | [vault-secrets-expert](./skills/tools/security/vault-secrets-expert/SKILL.md) | tools/security | HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secret... |
 
-## personas (742)
+## personas (827)
 
 ### admin (9)
 
@@ -137,24 +139,33 @@
 | [security-guard](./skills/admin/security-guard/SKILL.md) | Expert security guard with 10+ years experience in access control, patrol operations, emergency resp... |
 | [warehouse-manager](./skills/admin/warehouse-manager/SKILL.md) | Expert warehouse manager with 10+ years experience in inventory control, logistics coordination, sto... |
 
-### aerospace (14)
+### aerospace (23)
 
 | Skill | Description |
 |-------|-------------|
 | [aircraft-design-engineer](./skills/aerospace/aircraft-design-engineer/SKILL.md) | Aircraft design engineer specializing in aerodynamic design, structural configuration, and performan... |
+| [airworthiness-certification-engineer](./skills/aerospace/airworthiness-certification-engineer/SKILL.md) | Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate app... |
 | [avionics-engineer](./skills/aerospace/avionics-engineer/SKILL.md) | Avionics engineer specializing in flight control systems, navigation, communication systems, and int... |
 | [boeing](./skills/aerospace/boeing/SKILL.md) | Boeing Chief Engineer perspective on aerospace engineering, commercial aviation programs (737 MAX, 7... |
+| [evtol-chief-designer](./skills/aerospace/evtol-chief-designer/SKILL.md) | Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design, electric propuls... |
 | [flight-test-engineer](./skills/aerospace/flight-test-engineer/SKILL.md) | Flight test engineer specializing in test planning, flight operations, data acquisition, and certifi... |
 | [general-dynamics](./skills/aerospace/general-dynamics/SKILL.md) | General Dynamics VP Strategy perspective on defense contracting, aerospace (Gulfstream G700/G800), m... |
+| [liquid-rocket-engine-engineer](./skills/aerospace/liquid-rocket-engine-engineer/SKILL.md) | Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle... |
 | [lockheed-martin](./skills/aerospace/lockheed-martin/SKILL.md) | Expert skill for lockheed-martin |
+| [low-altitude-traffic-engineer](./skills/aerospace/low-altitude-traffic-engineer/SKILL.md) | Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS... |
 | [mission-control-operator](./skills/aerospace/mission-control-operator/SKILL.md) | Space mission control operator specializing in flight monitoring, telemetry analysis, procedure exec... |
 | [northrop-grumman](./skills/aerospace/northrop-grumman/SKILL.md) | Expert skill for Northrop Grumman |
 | [propulsion-engineer](./skills/aerospace/propulsion-engineer/SKILL.md) | Propulsion system engineer specializing in gas turbine design, engine performance optimization, and... |
-| [raytheon-rtx-defense--aerospace-expert](./skills/aerospace/raytheon/SKILL.md) | Expert skill for Raytheon (RTX) Defense & Aerospace Expert |
+| [raytheon](./skills/aerospace/raytheon/SKILL.md) | Expert skill for Raytheon (RTX) Defense & Aerospace Expert |
 | [remote-sensing-data-scientist](./skills/aerospace/remote-sensing-data-scientist/SKILL.md) | Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processin... |
+| [rocket-chief-designer](./skills/aerospace/rocket-chief-designer/SKILL.md) | Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage d... |
+| [satellite-communication-engineer](./skills/aerospace/satellite-communication-engineer/SKILL.md) | Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0... |
 | [satellite-engineer](./skills/aerospace/satellite-engineer/SKILL.md) | Satellite systems engineer specializing in spacecraft design, orbital mechanics, payload integration... |
+| [space-mission-planner](./skills/aerospace/space-mission-planner/SKILL.md) | Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity ass... |
 | [structural-engineer](./skills/aerospace/structural-engineer/SKILL.md) | Aerospace structural engineer specializing in strength analysis, fatigue life prediction, damage tol... |
 | [systems-engineer](./skills/aerospace/systems-engineer/SKILL.md) | Aerospace systems engineer specializing in requirements management, system integration, verification... |
+| [uav-flight-control-engineer](./skills/aerospace/uav-flight-control-engineer/SKILL.md) | Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI),... |
+| [vertiport-planning-engineer](./skills/aerospace/vertiport-planning-engineer/SKILL.md) | Expert-level Vertiport Planning Engineer specializing in vertiport site selection, FATO/TLOF design,... |
 
 ### agriculture (7)
 
@@ -168,7 +179,7 @@
 | [plant-protection-expert](./skills/agriculture/plant-protection-expert/SKILL.md) | Expert plant protection specialist with 15+ years in integrated pest management (IPM), pesticide app... |
 | [veterinarian](./skills/agriculture/veterinarian/SKILL.md) | Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, h... |
 
-### ai-ml (13)
+### ai-ml (14)
 
 | Skill | Description |
 |-------|-------------|
@@ -182,26 +193,36 @@
 | [data-scientist](./skills/ai-ml/data-scientist/SKILL.md) | Elite Data Scientist skill with expertise in statistical analysis, predictive modeling, experimental... |
 | [llm-research-scientist](./skills/ai-ml/llm-research-scientist/SKILL.md) | Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF, DPO, Con... |
 | [llm-training-engineer](./skills/ai-ml/llm-training-engineer/SKILL.md) | Expert LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tun... |
+| [machine-learning-engineer](./skills/ai-ml/machine-learning-engineer/SKILL.md) | Expert machine learning engineer skill. Use when: machine learning engineer tasks, machine learning... |
 | [mlops-engineer](./skills/ai-ml/mlops-engineer/SKILL.md) | Elite MLOps Engineer skill with expertise in ML pipeline automation, model versioning (MLflow, DVC),... |
 | [nlp-engineer](./skills/ai-ml/nlp-engineer/SKILL.md) | Elite NLP Engineer skill with expertise in transformer architectures (BERT, GPT, T5), text processin... |
 | [prompt-engineer](./skills/ai-ml/prompt-engineer/SKILL.md) | Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and opti... |
 
-### automotive (3)
+### automotive (8)
 
 | Skill | Description |
 |-------|-------------|
+| [automotive-design-engineer](./skills/automotive/automotive-design-engineer/SKILL.md) | Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white s... |
+| [autonomous-driving-engineer](./skills/automotive/autonomous-driving-engineer/SKILL.md) | Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception... |
 | [end-to-end-autonomous-researcher](./skills/automotive/end-to-end-autonomous-researcher/SKILL.md) | Expert-level End-to-End Autonomous Driving Researcher specializing in UniAD/VAD/DriveLM architecture... |
 | [hd-map-engineer](./skills/automotive/hd-map-engineer/SKILL.md) | Expert-level HD Map Engineer specializing in high-definition map creation, vectorized map representa... |
+| [perception-algorithm-engineer](./skills/automotive/perception-algorithm-engineer/SKILL.md) | Expert-level Perception Algorithm Engineer with deep knowledge of 3D object detection (PointPillars,... |
 | [planning-decision-engineer](./skills/automotive/planning-decision-engineer/SKILL.md) | Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior prediction,... |
+| [simulation-platform-engineer](./skills/automotive/simulation-platform-engineer/SKILL.md) | Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario ge... |
+| [v2x-system-engineer](./skills/automotive/v2x-system-engineer/SKILL.md) | Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer sp... |
 
-### biotech (4)
+### biotech (8)
 
 | Skill | Description |
 |-------|-------------|
+| [ai-drug-design-scientist](./skills/biotech/ai-drug-design-scientist/SKILL.md) | Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET pred... |
 | [bioinformatics-scientist](./skills/biotech/bioinformatics-scientist/SKILL.md) | Elite bioinformatics scientist specializing in genomic data analysis, NGS pipeline development, vari... |
+| [biomaterials-engineer](./skills/biotech/biomaterials-engineer/SKILL.md) | A world-class biomaterials engineer specializing in medical-grade material design, scaffold fabricat... |
 | [brain-computer-interface-engineer](./skills/biotech/brain-computer-interface-engineer/SKILL.md) | Expert-level Brain-Computer Interface Engineer specializing in neural signal acquisition, spike sort... |
+| [cell-therapy-scientist](./skills/biotech/cell-therapy-scientist/SKILL.md) | A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and... |
 | [clinical-research-coordinator](./skills/biotech/clinical-research-coordinator/SKILL.md) | Elite clinical research coordinator (CRC) specializing in clinical trial management, regulatory comp... |
 | [regulatory-affairs-specialist](./skills/biotech/regulatory-affairs-specialist/SKILL.md) | Elite regulatory affairs specialist specializing in drug and device registration, FDA/EMA/PMDA submi... |
+| [synthetic-biologist](./skills/biotech/synthetic-biologist/SKILL.md) | Expert-level Synthetic Biologist specializing in genetic circuit design, CRISPR-based genome editing... |
 
 ### blockchain (1)
 
@@ -288,7 +309,7 @@
 | [tea-master](./skills/crafts/tea-master/SKILL.md) | Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea c... |
 | [wood-carver](./skills/crafts/wood-carver/SKILL.md) | Master wood carver with 15+ years of experience in traditional relief carving, 3D sculpture, and art... |
 
-### creative (14)
+### creative (16)
 
 | Skill | Description |
 |-------|-------------|
@@ -301,6 +322,8 @@
 | [mcn-operator](./skills/creative/mcn-operator/SKILL.md) | Expert skill for mcn-operator |
 | [motion-designer](./skills/creative/motion-designer/SKILL.md) | Master motion designer specializing in animation, visual effects, kinetic typography, and dynamic st... |
 | [photographer](./skills/creative/photographer/SKILL.md) | > Professional photographer for commercial shoots, lighting design, and post-processing. |
+| [scriptwriter](./skills/creative/scriptwriter/SKILL.md) | Expert screenwriter for film, TV, theater, and interactive media. Use when: writing screenplays, dev... |
+| [translator](./skills/creative/translator/SKILL.md) | Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and softwar... |
 | [ui-designer](./skills/creative/ui-designer/SKILL.md) | Expert UI designer for visual interfaces, design systems, component libraries. Use when: creating UI... |
 | [ui-ux-designer](./skills/creative/ui-ux-designer/SKILL.md) | Expert UI/UX designer for intuitive, accessible interfaces via user-centered methodology. Design int... |
 | [ux-designer](./skills/creative/ux-designer/SKILL.md) | Expert UX designer specializing in user research, interaction design, usability testing, and user-ce... |
@@ -331,7 +354,7 @@
 |-------|-------------|
 | [ecommerce-product-manager](./skills/ecommerce/ecommerce-product-manager/SKILL.md) | Expert E-commerce Product Manager with deep knowledge of online retail strategy, conversion optimiza... |
 
-### education (73)
+### education (74)
 
 | Skill | Description |
 |-------|-------------|
@@ -349,6 +372,7 @@
 | [chess-coach](./skills/education/chess-coach/SKILL.md) | Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transfo... |
 | [childcare-worker](./skills/education/childcare-worker/SKILL.md) | Expert-level Childcare Worker with deep knowledge of early childhood development, age-appropriate ac... |
 | [civil-service-trainer](./skills/education/civil-service-trainer/SKILL.md) | Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, compe... |
+| [class-teacher](./skills/education/class-teacher/SKILL.md) | You are a senior class teacher (homeroom teacher) with 15+ years of experience managing K-12 classro... |
 | [continuing-education-coordinator](./skills/education/continuing-education-coordinator/SKILL.md) | Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragog... |
 | [corporate-internal-trainer](./skills/education/corporate-internal-trainer/SKILL.md) | Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee develo... |
 | [corporate-trainer](./skills/education/corporate-trainer/SKILL.md) | A professional corporate trainer specializing in employee training program design, skill development... |
@@ -429,99 +453,116 @@
 | [water-treatment-engineer](./skills/energy/water-treatment-engineer/SKILL.md) | Expert-level Water Treatment Engineer skill with deep knowledge of water purification, wastewater tr... |
 | [wind-energy-engineer](./skills/energy/wind-energy-engineer/SKILL.md) | Wind energy engineer specializing in wind turbine design, wind farm development, and power curve opt... |
 
-### enterprise (83)
+### enterprise (94)
 
 | Skill | Description |
 |-------|-------------|
-| [abbvie-enterprise-intelligence](./skills/enterprise/abbvie/SKILL.md) | Expert skill for AbbVie Enterprise Intelligence |
-| [adidas-sportswear-strategist](./skills/enterprise/adidas/SKILL.md) | Adidas sportswear and lifestyle expert specializing in Three Stripes brand strategy, product innovat... |
+| [abbvie](./skills/enterprise/abbvie/SKILL.md) | Expert skill for AbbVie Enterprise Intelligence |
+| [adidas](./skills/enterprise/adidas/SKILL.md) | Adidas sportswear and lifestyle expert specializing in Three Stripes brand strategy, product innovat... |
 | [adobe](./skills/enterprise/adobe/SKILL.md) | Expert skill for Adobe |
 | [airbus](./skills/enterprise/airbus/SKILL.md) | Expert skill for Airbus |
-| [allianz-skill](./skills/enterprise/allianz/SKILL.md) | Expert skill for Allianz Skill |
-| [amgen-excellence-skill](./skills/enterprise/amgen/SKILL.md) | Expert skill for Amgen Excellence Skill |
+| [allianz](./skills/enterprise/allianz/SKILL.md) | Expert skill for Allianz Skill |
+| [amgen](./skills/enterprise/amgen/SKILL.md) | Expert skill for Amgen Excellence Skill |
+| [apple](./skills/enterprise/apple/SKILL.md) | You are an expert in Apple's unique product development methodology — the culture, principles, and p... |
 | [applied-materials](./skills/enterprise/applied-materials/SKILL.md) | Expert skill for Applied Materials |
-| [arm-holdings](./skills/enterprise/arm/SKILL.md) | Expert skill for Arm Holdings |
-| [asml---advanced-semiconductor-lithography](./skills/enterprise/asml/SKILL.md) | Expert skill for ASML - Advanced Semiconductor Lithography |
+| [arm](./skills/enterprise/arm/SKILL.md) | Expert skill for Arm Holdings |
+| [asml](./skills/enterprise/asml/SKILL.md) | Expert skill for ASML - Advanced Semiconductor Lithography |
 | [at-t](./skills/enterprise/at-t/SKILL.md) | AT&T VP Network Operations persona with expertise in 5G wireless, fiber broadband, converged connect... |
 | [basf](./skills/enterprise/basf/SKILL.md) | Expert skill for BASF |
-| [berkshire-hathaway-portfolio-manager](./skills/enterprise/berkshire/SKILL.md) | Expert skill for Berkshire Hathaway Portfolio Manager |
-| [bhp-group-limited-skill](./skills/enterprise/bhp/SKILL.md) | Expert skill for BHP Group Limited Skill |
-| [biogen-enterprise-skill](./skills/enterprise/biogen/SKILL.md) | Expert skill for Biogen Enterprise Skill |
+| [berkshire](./skills/enterprise/berkshire/SKILL.md) | Expert skill for Berkshire Hathaway Portfolio Manager |
+| [bhp](./skills/enterprise/bhp/SKILL.md) | Expert skill for BHP Group Limited Skill |
+| [biogen](./skills/enterprise/biogen/SKILL.md) | Expert skill for Biogen Enterprise Skill |
 | [blue-origin](./skills/enterprise/blue-origin/SKILL.md) | Expert skill for Blue Origin |
 | [bmw](./skills/enterprise/bmw/SKILL.md) | BMW VP Product Management mindset — Sheer driving pleasure meets sustainable luxury. Covers Neue Kla... |
-| [bp-british-petroleum-skill](./skills/enterprise/bp/SKILL.md) | Expert skill for BP (British Petroleum) Skill |
+| [bp](./skills/enterprise/bp/SKILL.md) | Expert skill for BP (British Petroleum) Skill |
 | [bristol-myers-squibb](./skills/enterprise/bristol-myers-squibb/SKILL.md) | Operate as a Bristol Myers Squibb SVP Oncology & Portfolio Strategy with expertise in pharmaceutical... |
 | [broadcom](./skills/enterprise/broadcom/SKILL.md) | Expert skill for Broadcom |
-| [charter-communications-skill](./skills/enterprise/charter/SKILL.md) | Expert skill for Charter Communications Skill |
-| [chevron-corporation-skill](./skills/enterprise/chevron/SKILL.md) | Expert skill for Chevron Corporation Skill |
-| [cloudflare-skill](./skills/enterprise/cloudflare/SKILL.md) | Expert skill for Cloudflare Skill |
-| [coca-cola-enterprise-skill](./skills/enterprise/coca-cola/SKILL.md) | Expert skill for Coca-Cola Enterprise Skill |
-| [colgate-palmolive-brand-manager](./skills/enterprise/colgate-palmolive/SKILL.md) | Colgate-Palmolive Brand Manager expertise for CPG brand management and global operations. |
-| [comcast-corporation](./skills/enterprise/comcast/SKILL.md) | Expert skill for Comcast Corporation |
-| [conocophillips-enterprise-expert](./skills/enterprise/conocophillips/SKILL.md) | Expert skill for ConocoPhillips Enterprise Expert |
-| [costco-wholesale-corporation](./skills/enterprise/costco/SKILL.md) | Expert skill for Costco Wholesale Corporation |
+| [bytedance](./skills/enterprise/bytedance/SKILL.md) | You are a Senior Engineer at ByteDance with deep internalization of the company's unique "字节范" (Byte... |
+| [caterpillar](./skills/enterprise/caterpillar/SKILL.md) | You are a Caterpillar VP of Product Development with 25+ years of experience in heavy equipment, eng... |
+| [charter](./skills/enterprise/charter/SKILL.md) | Expert skill for Charter Communications Skill |
+| [chevron](./skills/enterprise/chevron/SKILL.md) | Expert skill for Chevron Corporation Skill |
+| [cloudflare](./skills/enterprise/cloudflare/SKILL.md) | Expert skill for Cloudflare Skill |
+| [coca-cola](./skills/enterprise/coca-cola/SKILL.md) | Expert skill for Coca-Cola Enterprise Skill |
+| [colgate-palmolive](./skills/enterprise/colgate-palmolive/SKILL.md) | Colgate-Palmolive Brand Manager expertise for CPG brand management and global operations. |
+| [comcast](./skills/enterprise/comcast/SKILL.md) | Expert skill for Comcast Corporation |
+| [conocophillips](./skills/enterprise/conocophillips/SKILL.md) | Expert skill for ConocoPhillips Enterprise Expert |
+| [costco](./skills/enterprise/costco/SKILL.md) | Expert skill for Costco Wholesale Corporation |
 | [crisis-negotiator](./skills/enterprise/crisis-negotiator/SKILL.md) | FBI hostage negotiator for crisis de-escalation and high-stakes communication. |
-| [cruise-autonomous-vehicles](./skills/enterprise/cruise/SKILL.md) | Expert skill for Cruise Autonomous Vehicles |
-| [cvs-health-skill](./skills/enterprise/cvs-health/SKILL.md) | Expert skill for CVS Health Skill |
+| [cruise](./skills/enterprise/cruise/SKILL.md) | Expert skill for Cruise Autonomous Vehicles |
+| [cvs-health](./skills/enterprise/cvs-health/SKILL.md) | Expert skill for CVS Health Skill |
 | [danaher](./skills/enterprise/danaher/SKILL.md) | Danaher VP Strategy persona. Delivers strategic analysis with DBS (Danaher Business System) methodol... |
-| [datadog-observability--security-platform](./skills/enterprise/datadog/SKILL.md) | Expert skill for Datadog Observability & Security Platform |
-| [delta-airlines-operations](./skills/enterprise/delta/SKILL.md) | Delta Air Lines operations expert specializing in airline strategy, fleet management, hub operations... |
-| [dhl-supply-chain--logistics-expert](./skills/enterprise/dhl/SKILL.md) | Expert skill for DHL Supply Chain & Logistics Expert |
+| [datadog](./skills/enterprise/datadog/SKILL.md) | Expert skill for Datadog Observability & Security Platform |
+| [delta](./skills/enterprise/delta/SKILL.md) | Delta Air Lines operations expert specializing in airline strategy, fleet management, hub operations... |
+| [dhl](./skills/enterprise/dhl/SKILL.md) | Expert skill for DHL Supply Chain & Logistics Expert |
 | [eli-lilly](./skills/enterprise/eli-lilly/SKILL.md) | Operate as an Eli Lilly SVP Clinical Development with expertise in pharmaceutical R&D, diabetes/obes... |
-| [estee-lauder-brand-director](./skills/enterprise/estee-lauder/SKILL.md) | Estée Lauder Companies Brand Director expertise for prestige beauty brand management. |
-| [exxonmobil-engineer](./skills/enterprise/exxonmobil/SKILL.md) | Expert skill for exxonmobil-engineer |
-| [ford-motor-company](./skills/enterprise/ford/SKILL.md) | Expert skill for Ford Motor Company |
+| [estee-lauder](./skills/enterprise/estee-lauder/SKILL.md) | Estée Lauder Companies Brand Director expertise for prestige beauty brand management. |
+| [exit-negotiation-specialist](./skills/enterprise/exit-negotiation-specialist/SKILL.md) | Exit negotiation expert. Use when: negotiating severance, career transition, non-compete waiver, equ... |
+| [exxonmobil](./skills/enterprise/exxonmobil/SKILL.md) | Expert skill for exxonmobil-engineer |
+| [ford](./skills/enterprise/ford/SKILL.md) | Expert skill for Ford Motor Company |
 | [ge-vernova](./skills/enterprise/ge-vernova/SKILL.md) | Expert skill for GE Vernova |
-| [general-motors-gm-skill](./skills/enterprise/general-motors/SKILL.md) | Expert skill for General Motors (GM) Skill |
-| [gilead-sciences](./skills/enterprise/gilead/SKILL.md) | Expert skill for Gilead Sciences |
-| [hilton-hospitality-strategist](./skills/enterprise/hilton/SKILL.md) | Hilton Hotels hospitality expert specializing in brand portfolio management, Hilton Honors loyalty s... |
-| [home-depot-enterprise-skill](./skills/enterprise/home-depot/SKILL.md) | Expert skill for Home Depot Enterprise Skill |
-| [honda-motor-co-ltd](./skills/enterprise/honda/SKILL.md) | Expert skill for Honda Motor Co., Ltd. |
+| [general-motors](./skills/enterprise/general-motors/SKILL.md) | Expert skill for General Motors (GM) Skill |
+| [gilead](./skills/enterprise/gilead/SKILL.md) | Expert skill for Gilead Sciences |
+| [hilton](./skills/enterprise/hilton/SKILL.md) | Hilton Hotels hospitality expert specializing in brand portfolio management, Hilton Honors loyalty s... |
+| [home-depot](./skills/enterprise/home-depot/SKILL.md) | Expert skill for Home Depot Enterprise Skill |
+| [honda](./skills/enterprise/honda/SKILL.md) | Expert skill for Honda Motor Co., Ltd. |
 | [honeywell](./skills/enterprise/honeywell/SKILL.md) | Expert skill for Honeywell |
-| [ikea-retail-strategist](./skills/enterprise/ikea/SKILL.md) | IKEA retail and supply chain expert specializing in democratic design, flat-pack logistics, sustaina... |
+| [ikea](./skills/enterprise/ikea/SKILL.md) | IKEA retail and supply chain expert specializing in democratic design, flat-pack logistics, sustaina... |
+| [illumina](./skills/enterprise/illumina/SKILL.md) | You are an experienced VP of Product Management at Illumina, the world's leading DNA sequencing comp... |
 | [john-deere](./skills/enterprise/john-deere/SKILL.md) | Expert skill for John Deere Enterprise Skill |
-| [kering-brand-steward](./skills/enterprise/kering/SKILL.md) | Kering Group Brand Steward expertise for luxury brand management and turnaround strategy. |
+| [kering](./skills/enterprise/kering/SKILL.md) | Kering Group Brand Steward expertise for luxury brand management and turnaround strategy. |
 | [khan-academy](./skills/enterprise/khan-academy/SKILL.md) | Expert skill for Khan Academy |
+| [labor-arbitration-agent](./skills/enterprise/labor-arbitration-agent/SKILL.md) | You are a **Labor Arbitration Agent** specializing in representing employees in China's labor disput... |
 | [lam-research](./skills/enterprise/lam-research/SKILL.md) | Expert skill for Lam Research |
-| [lowes-companies-skill](./skills/enterprise/lowes/SKILL.md) | Expert skill for Lowe's Companies Skill |
-| [lululemon-retail-strategist](./skills/enterprise/lululemon/SKILL.md) | Lululemon athleisure and community retail expert specializing in product innovation, community build... |
-| [lvmh-brand-director](./skills/enterprise/lvmh/SKILL.md) | LVMH Brand Director expertise for managing the world's largest luxury conglomerate. |
-| [lyft-engineer](./skills/enterprise/lyft/SKILL.md) | Expert skill for lyft-engineer |
-| [marriott-international-operations](./skills/enterprise/marriott/SKILL.md) | Marriott International hospitality expert specializing in hotel operations, brand portfolio manageme... |
-| [mcdonalds-enterprise-skill](./skills/enterprise/mcdonalds/SKILL.md) | Expert skill for McDonald's Enterprise Skill |
+| [lowes](./skills/enterprise/lowes/SKILL.md) | Expert skill for Lowe's Companies Skill |
+| [lululemon](./skills/enterprise/lululemon/SKILL.md) | Lululemon athleisure and community retail expert specializing in product innovation, community build... |
+| [lvmh](./skills/enterprise/lvmh/SKILL.md) | LVMH Brand Director expertise for managing the world's largest luxury conglomerate. |
+| [lyft](./skills/enterprise/lyft/SKILL.md) | Expert skill for lyft-engineer |
+| [marriott](./skills/enterprise/marriott/SKILL.md) | Marriott International hospitality expert specializing in hotel operations, brand portfolio manageme... |
+| [mcdonalds](./skills/enterprise/mcdonalds/SKILL.md) | Expert skill for McDonald's Enterprise Skill |
 | [mckinsey](./skills/enterprise/mckinsey/SKILL.md) | McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid P... |
 | [mercedes-benz](./skills/enterprise/mercedes-benz/SKILL.md) | Mercedes-Benz VP Engineering mindset — Luxury automotive excellence, precision engineering, and inno... |
-| [muji-retail-strategist](./skills/enterprise/muji/SKILL.md) | MUJI (Ryohin Keikaku) minimalist retail expert specializing in product development, sustainability i... |
-| [nestl-enterprise-skill](./skills/enterprise/nestle/SKILL.md) | Expert skill for Nestlé Enterprise Skill |
-| [nike-vp-product-innovation](./skills/enterprise/nike/SKILL.md) | Nike VP Product Innovation expertise for athletic footwear and apparel strategy. |
-| [nxp-semiconductors-skill](./skills/enterprise/nxp/SKILL.md) | Expert skill for NXP Semiconductors Skill |
-| [pepsico-enterprise-skill](./skills/enterprise/pepsi/SKILL.md) | Expert skill for PepsiCo Enterprise Skill |
-| [procter--gamble-enterprise-skill](./skills/enterprise/procter-gamble/SKILL.md) | Expert skill for Procter & Gamble Enterprise Skill |
-| [qualcomm-expert](./skills/enterprise/qualcomm/SKILL.md) | Expert skill for Qualcomm Expert |
+| [muji](./skills/enterprise/muji/SKILL.md) | MUJI (Ryohin Keikaku) minimalist retail expert specializing in product development, sustainability i... |
+| [nestle](./skills/enterprise/nestle/SKILL.md) | Expert skill for Nestlé Enterprise Skill |
+| [nike](./skills/enterprise/nike/SKILL.md) | Nike VP Product Innovation expertise for athletic footwear and apparel strategy. |
+| [non-compete-defense-consultant](./skills/enterprise/non-compete-defense-consultant/SKILL.md) | You are a **Non-Compete Defense Consultant** helping professionals escape overly restrictive 竞业限制 (n... |
+| [nxp](./skills/enterprise/nxp/SKILL.md) | Expert skill for NXP Semiconductors Skill |
+| [pepsi](./skills/enterprise/pepsi/SKILL.md) | Expert skill for PepsiCo Enterprise Skill |
+| [procter-gamble](./skills/enterprise/procter-gamble/SKILL.md) | Expert skill for Procter & Gamble Enterprise Skill |
+| [qualcomm](./skills/enterprise/qualcomm/SKILL.md) | Expert skill for Qualcomm Expert |
 | [regeneron](./skills/enterprise/regeneron/SKILL.md) | Expert skill for Regeneron |
-| [sanofi-excellence-skill](./skills/enterprise/sanofi/SKILL.md) | Expert skill for Sanofi Excellence Skill |
+| [roche](./skills/enterprise/roche/SKILL.md) | Roche Senior Leader — F. Hoffmann-La Roche AG Expertise |
+| [samsung](./skills/enterprise/samsung/SKILL.md) | Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA: |
+| [sanofi](./skills/enterprise/sanofi/SKILL.md) | Expert skill for Sanofi Excellence Skill |
 | [schneider-electric](./skills/enterprise/schneider-electric/SKILL.md) | Expert skill for Schneider Electric |
-| [shell-plc](./skills/enterprise/shell/SKILL.md) | Expert skill for Shell plc |
+| [shell](./skills/enterprise/shell/SKILL.md) | Expert skill for Shell plc |
 | [siemens](./skills/enterprise/siemens/SKILL.md) | Expert skill for Siemens |
 | [spacex](./skills/enterprise/spacex/SKILL.md) | SpaceX Principal Engineer mindset for first-principles engineering, rapid hardware iteration, |
-| [starbucks-enterprise-skill](./skills/enterprise/starbucks/SKILL.md) | Expert skill for Starbucks Enterprise Skill |
+| [starbucks](./skills/enterprise/starbucks/SKILL.md) | Expert skill for Starbucks Enterprise Skill |
 | [t-mobile](./skills/enterprise/t-mobile/SKILL.md) | Expert skill for T-Mobile |
-| [thermo-fisher-strategist](./skills/enterprise/thermo-fisher/SKILL.md) | Emulate Thermo Fisher Scientific world-class life science strategy: customer access focus, M&A excel... |
-| [totalenergies-enterprise-skill](./skills/enterprise/totalenergies/SKILL.md) | Expert skill for TotalEnergies Enterprise Skill |
+| [target](./skills/enterprise/target/SKILL.md) | You are a **Target VP of Merchandising** with deep expertise in mass retail strategy, owned brand de... |
+| [thermo-fisher](./skills/enterprise/thermo-fisher/SKILL.md) | Emulate Thermo Fisher Scientific world-class life science strategy: customer access focus, M&A excel... |
+| [totalenergies](./skills/enterprise/totalenergies/SKILL.md) | Expert skill for TotalEnergies Enterprise Skill |
 | [toyota](./skills/enterprise/toyota/SKILL.md) | Embody Toyota Motor Corporation's engineering excellence. Implements Toyota Production System (TPS) |
-| [tsmc-skill---taiwan-semiconductor-manufacturing-company](./skills/enterprise/tsmc/SKILL.md) | Expert skill for TSMC Skill - Taiwan Semiconductor Manufacturing Company |
-| [unilever-enterprise-skill](./skills/enterprise/unilever/SKILL.md) | Expert skill for Unilever Enterprise Skill |
-| [unitedhealth-group](./skills/enterprise/unitedhealth/SKILL.md) | Expert skill for UnitedHealth Group |
-| [volkswagen-group](./skills/enterprise/volkswagen/SKILL.md) | Expert skill for Volkswagen Group |
+| [tsmc](./skills/enterprise/tsmc/SKILL.md) | Expert skill for TSMC Skill - Taiwan Semiconductor Manufacturing Company |
+| [unilever](./skills/enterprise/unilever/SKILL.md) | Expert skill for Unilever Enterprise Skill |
+| [unitedhealth](./skills/enterprise/unitedhealth/SKILL.md) | Expert skill for UnitedHealth Group |
+| [vertex](./skills/enterprise/vertex/SKILL.md) | Vertex SVP Clinical Development — Specialty Pharma Innovation Leader |
+| [volkswagen](./skills/enterprise/volkswagen/SKILL.md) | Expert skill for Volkswagen Group |
 | [warner-bros-discovery](./skills/enterprise/warner-bros-discovery/SKILL.md) | Expert skill for Warner Bros. Discovery |
-| [waymo-staff-engineer](./skills/enterprise/waymo/SKILL.md) | Expert-level Waymo Staff Engineer skill specializing in autonomous driving systems, robotaxi operati... |
-| [zarainditex-enterprise-skill](./skills/enterprise/zara/SKILL.md) | Expert skill for Zara/Inditex Enterprise Skill |
+| [waymo](./skills/enterprise/waymo/SKILL.md) | Expert-level Waymo Staff Engineer skill specializing in autonomous driving systems, robotaxi operati... |
+| [zara](./skills/enterprise/zara/SKILL.md) | Expert skill for Zara/Inditex Enterprise Skill |
 
 ### enterprise/airbnb (1)
 
 | Skill | Description |
 |-------|-------------|
 | [airbnb-engineer](./skills/enterprise/airbnb/airbnb-engineer/SKILL.md) | Use when emulating Airbnb's engineering methodology for two-sided marketplace design. Implements des... |
+
+### enterprise/alibaba (1)
+
+| Skill | Description |
+|-------|-------------|
+| [alibaba-engineer](./skills/enterprise/alibaba/alibaba-engineer/SKILL.md) | DEPRECATED: Use /skills/enterprise/alibaba/SKILL.md instead. This file is kept for backward compatib... |
 
 ### enterprise/amazon (1)
 
@@ -565,11 +606,35 @@
 |-------|-------------|
 | [clifford-chance-lawyer](./skills/enterprise/clifford-chance/clifford-chance-lawyer/SKILL.md) | Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, cli... |
 
+### enterprise/crisis-pr (1)
+
+| Skill | Description |
+|-------|-------------|
+| [crisis-communications-expert](./skills/enterprise/crisis-pr/crisis-communications-expert/SKILL.md) | Crisis communications expert for corporate reputation management during emergencies. Use when: respo... |
+
 ### enterprise/crowdstrike (1)
 
 | Skill | Description |
 |-------|-------------|
 | [crowdstrike-security](./skills/enterprise/crowdstrike/crowdstrike-security/SKILL.md) | Expert skill for crowdstrike-security |
+
+### enterprise/databricks (1)
+
+| Skill | Description |
+|-------|-------------|
+| [databricks-engineer](./skills/enterprise/databricks/databricks-engineer/SKILL.md) | You are a **Databricks Engineer** — a professional operating at the pinnacle of data and AI engineer... |
+
+### enterprise/deepmind (1)
+
+| Skill | Description |
+|-------|-------------|
+| [deepmind-researcher](./skills/enterprise/deepmind/deepmind-researcher/SKILL.md) | DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific disc... |
+
+### enterprise/deepseek (1)
+
+| Skill | Description |
+|-------|-------------|
+| [deepseek-researcher](./skills/enterprise/deepseek/deepseek-researcher/SKILL.md) | DeepSeek Researcher: Cost-efficient high-performance LLM development, MLA architecture, DeepSeekMoE,... |
 
 ### enterprise/defense (1)
 
@@ -637,6 +702,12 @@
 |-------|-------------|
 | [intel-engineer](./skills/enterprise/intel/intel-engineer/SKILL.md) | Principal Intel Engineer mindset covering x86 CPU architecture (Core Ultra, Xeon), process technolog... |
 
+### enterprise/jpmorgan (1)
+
+| Skill | Description |
+|-------|-------------|
+| [jpmorgan-banker](./skills/enterprise/jpmorgan/jpmorgan-banker/SKILL.md) | JPMorgan universal banking advisor. Use when: credit analysis for corporate clients, fortress balanc... |
+
 ### enterprise/lelo (1)
 
 | Skill | Description |
@@ -653,7 +724,7 @@
 
 | Skill | Description |
 |-------|-------------|
-| [mayo-clinic-physician](./skills/enterprise/mayo-clinic/mayo-physician/SKILL.md) | Mayo Clinic physician mindset with 'Needs of the Patient Come First' philosophy, integrated practice... |
+| [mayo-physician](./skills/enterprise/mayo-clinic/mayo-physician/SKILL.md) | Mayo Clinic physician mindset with 'Needs of the Patient Come First' philosophy, integrated practice... |
 
 ### enterprise/meta (1)
 
@@ -672,6 +743,12 @@
 | Skill | Description |
 |-------|-------------|
 | [microsoft-xbox-cloud-engineer](./skills/enterprise/microsoft/microsoft-xbox-cloud-engineer/SKILL.md) | Design and operate Xbox Cloud Gaming infrastructure using Azure, managing 100M+ users, 54 global reg... |
+
+### enterprise/microsoft-ai (1)
+
+| Skill | Description |
+|-------|-------------|
+| [microsoft-ai-engineer](./skills/enterprise/microsoft-ai/microsoft-ai-engineer/SKILL.md) | Microsoft AI Engineer: Azure OpenAI Service, Copilot ecosystem, Responsible AI framework, MLOps at s... |
 
 ### enterprise/moderna (1)
 
@@ -710,6 +787,12 @@
 | [nvidia-engineer](./skills/enterprise/nvidia/nvidia-engineer/SKILL.md) | Senior NVIDIA Engineer mindset and technical expertise covering GPU architecture (Hopper/Blackwell),... |
 | [nvidia-ml-engineer](./skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA ML Engineer. Use when: CUDA optimization, TensorRT conversion, multi-GPU training, Triton ser... |
 
+### enterprise/openai (1)
+
+| Skill | Description |
+|-------|-------------|
+| [openai-researcher](./skills/enterprise/openai/openai-researcher/SKILL.md) | OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitution... |
+
 ### enterprise/oracle (1)
 
 | Skill | Description |
@@ -739,6 +822,12 @@
 | Skill | Description |
 |-------|-------------|
 | [redhat-engineer](./skills/enterprise/redhat/redhat-engineer/SKILL.md) | Red Hat engineering culture with open source leadership, OpenShift, enterprise Linux (RHEL), and hyb... |
+
+### enterprise/riot (1)
+
+| Skill | Description |
+|-------|-------------|
+| [riot-esports-manager](./skills/enterprise/riot/riot-esports-manager/SKILL.md) | Transform your AI into a Riot Games Esports Manager. Use when managing professional esports leagues,... |
 
 ### enterprise/salesforce (1)
 
@@ -800,12 +889,22 @@
 |-------|-------------|
 | [supercell-cell-producer](./skills/enterprise/supercell/supercell-cell-producer/SKILL.md) | Lead game production using Supercell cell-based methodology, focusing on small autonomous teams, pla... |
 
-### enterprise/tesla (2)
+### enterprise/tencent (1)
 
 | Skill | Description |
 |-------|-------------|
-| [tesla](./skills/enterprise/tesla/tesla-staff-engineer/SKILL.md) | Tesla Senior Staff Engineer mindset — First principles thinking, mission-driven execution, and physi... |
+| [tencent-gaas-manager](./skills/enterprise/tencent/tencent-gaas-manager/SKILL.md) | Manage Games-as-a-Service operations using Tencent methodologies for live game operations, player en... |
+
+### enterprise/tesla (6)
+
+| Skill | Description |
+|-------|-------------|
+| [tesla-ai-engineer](./skills/enterprise/tesla/tesla-ai-engineer/SKILL.md) | Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development, end-to-end neural ne... |
 | [tesla-engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) | Expert-level Tesla Engineer mindset and methodology. First Principles thinking, Five-Step Algorithm,... |
+| [tesla-manufacturing-engineer](./skills/enterprise/tesla/tesla-manufacturing-engineer/SKILL.md) | Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system opti... |
+| [tesla-product-manager](./skills/enterprise/tesla/tesla-product-manager/SKILL.md) | Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable energ... |
+| [tesla-software-engineer](./skills/enterprise/tesla/tesla-software-engineer/SKILL.md) | Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure, full-stack... |
+| [tesla-staff-engineer](./skills/enterprise/tesla/tesla-staff-engineer/SKILL.md) | Tesla Senior Staff Engineer mindset — First principles thinking, mission-driven execution, and physi... |
 
 ### enterprise/twilio (1)
 
@@ -824,6 +923,12 @@
 | Skill | Description |
 |-------|-------------|
 | [uber-engineer](./skills/enterprise/uber/uber-engineer/SKILL.md) | Expert skill for uber-engineer |
+
+### enterprise/unitree (1)
+
+| Skill | Description |
+|-------|-------------|
+| [unitree-robotics-engineer](./skills/enterprise/unitree/unitree-robotics-engineer/SKILL.md) | Expert Unitree robotics engineer for quadruped (Go2, B2, B1, Aliengo) and humanoid (H1, G1). Use whe... |
 
 ### enterprise/verizon (1)
 
@@ -913,18 +1018,18 @@
 | [farm-machinery-operator](./skills/farmer/farm-machinery-operator/SKILL.md) | Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters... |
 | [livestock-farmer](./skills/farmer/livestock-farmer/SKILL.md) | Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, special... |
 
-### finance (41)
+### finance (42)
 
 | Skill | Description |
 |-------|-------------|
 | [accountant](./skills/finance/accountant/SKILL.md) | A world-class accountant specializing in bookkeeping, financial statements, tax filing, and regulato... |
 | [actuary](./skills/finance/actuary/SKILL.md) | A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Spec... |
-| [aig-american-international-group-expert](./skills/finance/aig/SKILL.md) | Expert skill for AIG (American International Group) Expert |
+| [aig](./skills/finance/aig/SKILL.md) | Expert skill for AIG (American International Group) Expert |
 | [auctioneer](./skills/finance/auctioneer/SKILL.md) | Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset va... |
 | [auditor](./skills/finance/auditor/SKILL.md) | A world-class auditor specializing in financial audit, internal controls, compliance checking, and r... |
 | [bank-of-america](./skills/finance/bank-of-america/SKILL.md) | Elite Bank of America Managing Director persona with deep expertise across Consumer Banking, Global... |
 | [bank-teller](./skills/finance/bank-teller/SKILL.md) | Expert bank teller with 10+ years experience in retail banking operations. Licensed with Series 6/63... |
-| [blackrock---worlds-largest-asset-manager](./skills/finance/blackrock/SKILL.md) | Expert skill for BlackRock - World's Largest Asset Manager |
+| [blackrock](./skills/finance/blackrock/SKILL.md) | Expert skill for BlackRock - World's Largest Asset Manager |
 | [cashier](./skills/finance/cashier/SKILL.md) | Expert cashier for POS operations, cash handling, payment processing, fraud prevention, and customer... |
 | [charles-schwab](./skills/finance/charles-schwab/SKILL.md) | Expert skill for Charles Schwab |
 | [chubb](./skills/finance/chubb/SKILL.md) | Expert skill for Chubb |
@@ -934,7 +1039,8 @@
 | [cpa](./skills/finance/cpa/SKILL.md) | Expert CPA with Big 4 experience transforms AI into a 15-year audit, tax, and advisory professional.... |
 | [credit-analyst](./skills/finance/credit-analyst/SKILL.md) | A senior credit analyst with 15+ years in commercial and retail lending at major banks. Expert in cr... |
 | [credit-rating-analyst](./skills/finance/credit-rating-analyst/SKILL.md) | Expert Moody's/S&P/Fitch-level analyst. Determines bond ratings, corporate/sovereign creditworthines... |
-| [fidelity-investments](./skills/finance/fidelity/SKILL.md) | Expert skill for Fidelity Investments |
+| [edward-jones](./skills/finance/edward-jones/SKILL.md) | You are an Edward Jones Financial Advisor—embodying the philosophy, approach, and voice of one of Am... |
+| [fidelity](./skills/finance/fidelity/SKILL.md) | Expert skill for Fidelity Investments |
 | [finance-risk-expert](./skills/finance/finance-risk-expert/SKILL.md) | Expert financial risk management professional specializing in credit risk, market risk, operational... |
 | [financial-advisor](./skills/finance/financial-advisor/SKILL.md) | Expert Financial Advisor specializing in wealth planning, retirement planning, tax-efficient strateg... |
 | [financial-analyst](./skills/finance/financial-analyst/SKILL.md) | Expert Financial Analyst for FP&A, DCF/LBO modeling, management reporting, and capital markets analy... |
@@ -945,18 +1051,18 @@
 | [insurance-claim-adjuster](./skills/finance/insurance-claim-adjuster/SKILL.md) | Expert insurance claim adjuster with 15+ years in property/casualty. Specializes in coverage analysi... |
 | [investment-analyst](./skills/finance/investment-analyst/SKILL.md) | Expert Investment Analyst with deep expertise in equity research, fundamental analysis, valuation me... |
 | [jpmorgan-banker](./skills/finance/jpmorgan-banker/SKILL.md) | Elite JPMorgan Chase investment banking specialist with deep expertise in M&A advisory, capital mark... |
-| [metlife-skill](./skills/finance/metlife/SKILL.md) | Expert skill for MetLife Skill |
+| [metlife](./skills/finance/metlife/SKILL.md) | Expert skill for MetLife Skill |
 | [pawn-broker](./skills/finance/pawn-broker/SKILL.md) | Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and risk... |
 | [portfolio-manager](./skills/finance/portfolio-manager/SKILL.md) | Expert Portfolio Manager specializing in asset allocation, investment strategy, portfolio constructi... |
-| [progressive-insurance](./skills/finance/progressive/SKILL.md) | Expert skill for Progressive Insurance |
-| [prudential-financial---insurance--retirement-solutions-leader](./skills/finance/prudential/SKILL.md) | Expert skill for Prudential Financial - Insurance & Retirement Solutions Leader |
+| [progressive](./skills/finance/progressive/SKILL.md) | Expert skill for Progressive Insurance |
+| [prudential](./skills/finance/prudential/SKILL.md) | Expert skill for Prudential Financial - Insurance & Retirement Solutions Leader |
 | [quant-trader](./skills/finance/quant-trader/SKILL.md) | A senior quantitative trader with 15+ years at hedge funds and proprietary trading firms. Specialize... |
-| [raymond-james-financial](./skills/finance/raymond-james/SKILL.md) | Expert skill for Raymond James Financial |
+| [raymond-james](./skills/finance/raymond-james/SKILL.md) | Expert skill for Raymond James Financial |
 | [risk-manager](./skills/finance/risk-manager/SKILL.md) | Expert Risk Manager specializing in enterprise risk management (ERM), market risk, credit risk, oper... |
-| [schwab-intelligent-portfolios-advisor](./skills/finance/schwab-intelligent/SKILL.md) | Expert skill for Schwab Intelligent Portfolios Advisor |
+| [schwab-intelligent](./skills/finance/schwab-intelligent/SKILL.md) | Expert skill for Schwab Intelligent Portfolios Advisor |
 | [tax-specialist](./skills/finance/tax-specialist/SKILL.md) | Licensed CPA/EA with 15+ years specializing in US federal tax (individual, corporate, partnership, i... |
 | [travelers](./skills/finance/travelers/SKILL.md) | Expert skill for Travelers |
-| [vanguard-investment-excellence](./skills/finance/vanguard/SKILL.md) | Expert skill for Vanguard Investment Excellence |
+| [vanguard](./skills/finance/vanguard/SKILL.md) | Expert skill for Vanguard Investment Excellence |
 | [wells-fargo](./skills/finance/wells-fargo/SKILL.md) | Elite Wells Fargo banking specialist with deep expertise in consumer banking, commercial banking, co... |
 
 ### finance/wells-fargo (1)
@@ -965,10 +1071,11 @@
 |-------|-------------|
 | [wells-fargo-banker](./skills/finance/wells-fargo/wells-fargo-banker/SKILL.md) | Elite Wells Fargo banking specialist with deep expertise in community banking, commercial banking, w... |
 
-### fintech (2)
+### fintech (3)
 
 | Skill | Description |
 |-------|-------------|
+| [coinbase](./skills/fintech/coinbase/SKILL.md) | Expert Coinbase Engineer mindset and methodology covering crypto exchange infrastructure, custody se... |
 | [robinhood](./skills/fintech/robinhood/SKILL.md) | Robinhood Senior Product Manager specializing in democratizing finance through commission-free tradi... |
 | [stripe-engineer](./skills/fintech/stripe-engineer/SKILL.md) | A senior Stripe engineer with deep expertise in Stripe's payment infrastructure, APIs, and engineeri... |
 
@@ -984,12 +1091,13 @@
 |-------|-------------|
 | [square-engineer](./skills/fintech/square/square-engineer/SKILL.md) | 'A senior Block (Square) engineer with deep expertise in seller ecosystems, |
 
-### freelancer (7)
+### freelancer (8)
 
 | Skill | Description |
 |-------|-------------|
 | [designated-driver](./skills/freelancer/designated-driver/SKILL.md) | Professional designated driver providing safe transportation, responsible drinking support, and reli... |
 | [dog-walker](./skills/freelancer/dog-walker/SKILL.md) | Professional dog walker providing safe, reliable dog walking, pet sitting, and animal care services.... |
+| [ecommerce-seller](./skills/freelancer/ecommerce-seller/SKILL.md) | A world-class e-commerce seller and consultant specializing in Amazon FBA/FBM, Shopify DTC, and mult... |
 | [freelance-designer](./skills/freelancer/freelance-designer/SKILL.md) | Professional freelance designer specializing in graphic design, branding, visual identity, and creat... |
 | [home-organizer](./skills/freelancer/home-organizer/SKILL.md) | Professional home organizer specializing in decluttering, space optimization, storage systems, and s... |
 | [independent-consultant](./skills/freelancer/independent-consultant/SKILL.md) | Professional independent consultant providing business strategy, management advisory, and specialize... |
@@ -1023,12 +1131,13 @@
 | [statistician](./skills/government/statistician/SKILL.md) | Expert statistician specializing in data collection methodology, statistical analysis, survey design... |
 | [urban-planner](./skills/government/urban-planner/SKILL.md) | Expert urban planner specializing in land use planning, transportation systems, sustainable developm... |
 
-### healthcare (52)
+### healthcare (55)
 
 | Skill | Description |
 |-------|-------------|
 | [anesthesiologist](./skills/healthcare/anesthesiologist/SKILL.md) | Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain... |
 | [attending-physician](./skills/healthcare/attending-physician/SKILL.md) | Expert skill for attending-physician |
+| [clinical-pharmacist](./skills/healthcare/clinical-pharmacist/SKILL.md) | A world-class clinical pharmacist specializing in medication therapy management (MTM), drug interact... |
 | [clinical-research-associate](./skills/healthcare/clinical-research-associate/SKILL.md) | Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, s... |
 | [clinical-research-coordinator](./skills/healthcare/clinical-research-coordinator/SKILL.md) | Expert-level Clinical Research Coordinator with 10+ years of experience in multi-phase clinical tria... |
 | [clinical-trial-manager](./skills/healthcare/clinical-trial-manager/SKILL.md) | Elite clinical trial manager specializing in study planning, site management, vendor oversight, and... |
@@ -1071,8 +1180,10 @@
 | [pharmacy-technician](./skills/healthcare/pharmacy-technician/SKILL.md) | A certified pharmacy technician (CPhT/PTCB) with expertise in prescription processing, medication di... |
 | [psychologist](./skills/healthcare/psychologist/SKILL.md) | Expert-level Clinical Psychologist skill providing evidence-based psychological assessment, CBT/DBT/... |
 | [public-health-analyst](./skills/healthcare/public-health-analyst/SKILL.md) | Elite public health analyst specializing in epidemiological surveillance, health policy analysis, pr... |
+| [radiologist](./skills/healthcare/radiologist/SKILL.md) | A world-class radiologist specializing in multimodality image interpretation (CT, MRI, X-ray, ultras... |
 | [rehabilitation-engineer](./skills/healthcare/rehabilitation-engineer/SKILL.md) | Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-com... |
 | [rehabilitation-therapist](./skills/healthcare/rehabilitation-therapist/SKILL.md) | Expert rehabilitation therapist specializing in physical therapy, occupational therapy, and recovery... |
+| [resident-physician](./skills/healthcare/resident-physician/SKILL.md) | You are a Resident Physician in postgraduate year (PGY) 2–4 undergoing supervised clinical training... |
 | [social-worker](./skills/healthcare/social-worker/SKILL.md) | Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, reso... |
 | [tcm-therapist](./skills/healthcare/tcm-therapist/SKILL.md) | Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medi... |
 | [telemedicine-architect](./skills/healthcare/telemedicine-architect/SKILL.md) | Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and rem... |
@@ -1147,12 +1258,13 @@
 | [hotel-operations-director](./skills/hospitality/hotel-operations-director/SKILL.md) | A world-class hotel operations director specializing in hotel management, guest services excellence,... |
 | [restaurant-operations-expert](./skills/hospitality/restaurant-operations-expert/SKILL.md) | A world-class restaurant operations expert specializing in restaurant management, supply chain optim... |
 
-### hr (3)
+### hr (4)
 
 | Skill | Description |
 |-------|-------------|
 | [compensation-benefits-manager](./skills/hr/compensation-benefits-manager/SKILL.md) | A world-class compensation & benefits manager specializing in salary structures, total rewards strat... |
 | [od-specialist](./skills/hr/od-specialist/SKILL.md) | A world-class organization development specialist specializing in org design, change management, cul... |
+| [recruiter](./skills/hr/recruiter/SKILL.md) | A world-class recruiter and headhunter specializing in full-cycle talent acquisition: job intake, Bo... |
 | [training-development-manager](./skills/hr/training-development-manager/SKILL.md) | A world-class training & development manager specializing in corporate learning strategy, instructio... |
 
 ### international (1)
@@ -1161,13 +1273,14 @@
 |-------|-------------|
 | [international-organization-staff](./skills/international/international-organization-staff/SKILL.md) | Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional... |
 
-### it-support (3)
+### it-support (4)
 
 | Skill | Description |
 |-------|-------------|
 | [erp-administrator](./skills/it-support/erp-administrator/SKILL.md) | Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynam... |
 | [information-security-admin](./skills/it-support/information-security-admin/SKILL.md) | Expert-level Information Security Administrator with deep expertise in security policy management, I... |
 | [it-support-specialist](./skills/it-support/it-support-specialist/SKILL.md) | A senior IT support specialist with expertise in help desk operations, hardware/software troubleshoo... |
+| [macos-config-expert](./skills/it-support/macos-config-expert/SKILL.md) | A senior macOS system administrator with 10+ years of Apple platform expertise covering enterprise M... |
 
 ### legal (22)
 
@@ -1196,17 +1309,19 @@
 | [people-mediator](./skills/legal/people-mediator/SKILL.md) | Professional people's mediator with 10+ years of experience in community dispute resolution, civil c... |
 | [prosecutor-assistant](./skills/legal/prosecutor-assistant/SKILL.md) | Prosecutor assistant specializing in case preparation, legal research, and prosecution support. Use... |
 
-### logistics (1)
+### logistics (2)
 
 | Skill | Description |
 |-------|-------------|
+| [logistics-algorithm-engineer](./skills/logistics/logistics-algorithm-engineer/SKILL.md) | A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse optimiz... |
 | [supply-chain-expert](./skills/logistics/supply-chain-expert/SKILL.md) | Expert-level Supply Chain Expert skill with deep knowledge of end-to-end supply chain design, S&OP,... |
 
-### manufacturing (12)
+### manufacturing (17)
 
 | Skill | Description |
 |-------|-------------|
 | [chemical-process-engineer](./skills/manufacturing/chemical-process-engineer/SKILL.md) | Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals, specialty chemic... |
+| [electrical-engineer](./skills/manufacturing/electrical-engineer/SKILL.md) | Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCAD... |
 | [fashion-designer](./skills/manufacturing/fashion-designer/SKILL.md) | A world-class fashion designer specializing in apparel design, pattern making, textile selection, an... |
 | [food-engineer](./skills/manufacturing/food-engineer/SKILL.md) | A world-class food engineer specializing in food processing technology, product development, preserv... |
 | [food-safety-manager](./skills/manufacturing/food-safety-manager/SKILL.md) | A world-class food safety manager specializing in HACCP, food safety management systems, risk assess... |
@@ -1214,15 +1329,20 @@
 | [instrumentation-engineer](./skills/manufacturing/instrumentation-engineer/SKILL.md) | A world-class instrumentation engineer specializing in sensor selection, measurement systems, proces... |
 | [lean-six-sigma-black-belt](./skills/manufacturing/lean-six-sigma-black-belt/SKILL.md) | Lean Six Sigma Black Belt specializing in process improvement, statistical analysis, DMAIC methodolo... |
 | [maintenance-engineer](./skills/manufacturing/maintenance-engineer/SKILL.md) | Maintenance engineer specializing in equipment reliability, predictive maintenance, asset management... |
+| [mechanical-design-engineer](./skills/manufacturing/mechanical-design-engineer/SKILL.md) | Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, m... |
+| [pcb-hardware-engineer](./skills/manufacturing/pcb-hardware-engineer/SKILL.md) | Expert-level PCB Hardware Engineer with deep knowledge of high-speed PCB design, signal integrity, p... |
 | [pharmaceutical-rd-scientist](./skills/manufacturing/pharmaceutical-rd-scientist/SKILL.md) | Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinic... |
+| [process-engineer](./skills/manufacturing/process-engineer/SKILL.md) | Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, pro... |
 | [production-manager](./skills/manufacturing/production-manager/SKILL.md) | Production manager specializing in manufacturing operations, production planning, quality management... |
+| [qc-specialist](./skills/manufacturing/qc-specialist/SKILL.md) | Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 qualit... |
 | [supply-chain-manager](./skills/manufacturing/supply-chain-manager/SKILL.md) | Supply chain manager specializing in procurement, logistics, inventory management, and supplier rela... |
 | [textile-engineer](./skills/manufacturing/textile-engineer/SKILL.md) | A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing,... |
 
-### marketing (8)
+### marketing (9)
 
 | Skill | Description |
 |-------|-------------|
+| [brand-manager](./skills/marketing/brand-manager/SKILL.md) | A world-class brand manager specializing in brand strategy, visual identity, positioning, brand comm... |
 | [content-marketing-manager](./skills/marketing/content-marketing-manager/SKILL.md) | Expert-level Content Marketing Manager skill covering content strategy, editorial planning, SEO cont... |
 | [digital-marketing-specialist](./skills/marketing/digital-marketing-specialist/SKILL.md) | Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, conte... |
 | [ecommerce-manager](./skills/marketing/ecommerce-manager/SKILL.md) | Expert-level Ecommerce Manager skill covering platform operations, conversion optimization, marketpl... |
@@ -1232,7 +1352,16 @@
 | [pr-specialist](./skills/marketing/pr-specialist/SKILL.md) | Expert-level PR Specialist skill covering media relations, crisis communications, thought leadership... |
 | [sales-manager](./skills/marketing/sales-manager/SKILL.md) | Expert-level Sales Manager skill covering B2B sales strategy, pipeline management, quota planning, s... |
 
-### media (30)
+### materials (4)
+
+| Skill | Description |
+|-------|-------------|
+| [composite-materials-engineer](./skills/materials/composite-materials-engineer/SKILL.md) | Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polyme... |
+| [nanomaterials-engineer](./skills/materials/nanomaterials-engineer/SKILL.md) | Expert-level Nanomaterials Engineer specializing in synthesis of quantum dots, graphene, carbon nano... |
+| [superconducting-materials-researcher](./skills/materials/superconducting-materials-researcher/SKILL.md) | A world-class superconducting materials researcher specializing in HTS (REBCO, BSCCO, YBCO) and LTS... |
+| [wide-bandgap-semiconductor-engineer](./skills/materials/wide-bandgap-semiconductor-engineer/SKILL.md) | Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge of SiC, GaN, Ga2O3, power devic... |
+
+### media (32)
 
 | Skill | Description |
 |-------|-------------|
@@ -1262,6 +1391,8 @@
 | [film-director-producer](./skills/media/film-director-producer/SKILL.md) | Senior film director/producer with 15+ years in feature films, documentaries, and commercial work. E... |
 | [game-producer](./skills/media/game-producer/SKILL.md) | Elite game producer specializing in game design, project coordination, live operations, and developm... |
 | [journalist-editor](./skills/media/journalist-editor/SKILL.md) | Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial l... |
+| [news-anchor](./skills/media/news-anchor/SKILL.md) | A professional news anchor and broadcast journalist specializing in news script writing, live breaki... |
+| [podcast-producer](./skills/media/podcast-producer/SKILL.md) | A world-class podcast producer specializing in show concept development, episode production workflow... |
 | [public-opinion-analyst](./skills/media/public-opinion-analyst/SKILL.md) | Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early war... |
 | [radio-host](./skills/media/radio-host/SKILL.md) | Professional radio host and audio broadcaster specializing in live radio shows, podcast production,... |
 | [sports-agent](./skills/media/sports-agent/SKILL.md) | Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals,... |
@@ -1316,17 +1447,19 @@
 | [urban-management](./skills/public-service/urban-management/SKILL.md) | Professional urban management officer specializing in city enforcement, public order, regulation com... |
 | [volunteer-coordinator](./skills/public-service/volunteer-coordinator/SKILL.md) | Professional volunteer coordinator with 10+ years managing recruitment, training, scheduling, and re... |
 
-### quantum (1)
+### quantum (4)
 
 | Skill | Description |
 |-------|-------------|
+| [quantum-algorithm-engineer](./skills/quantum/quantum-algorithm-engineer/SKILL.md) | Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantu... |
 | [quantum-communication-engineer](./skills/quantum/quantum-communication-engineer/SKILL.md) | Expert-level Quantum Communication Engineer specializing in QKD protocol design (BB84, E91, MDI-QKD,... |
+| [quantum-physicist](./skills/quantum/quantum-physicist/SKILL.md) | Expert-level Quantum Physicist specializing in superconducting and spin-qubit hardware, cryogenic sy... |
+| [quantum-sensor-researcher](./skills/quantum/quantum-sensor-researcher/SKILL.md) | Expert-level Quantum Sensor Researcher specializing in atom interferometry, SQUID magnetometry, opti... |
 
 ### realestate (11)
 
 | Skill | Description |
 |-------|-------------|
-| [commercial-real-estate-broker](./skills/realestate/realestate-broker/SKILL.md) | Senior Commercial Real Estate Broker with 15+ years in investment sales, leasing, and tenant represe... |
 | [community-security](./skills/realestate/community-security/SKILL.md) | Expert-level Community Security skill with deep knowledge of access control systems, patrol protocol... |
 | [landscaper](./skills/realestate/landscaper/SKILL.md) | Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, gard... |
 | [maintenance-worker](./skills/realestate/maintenance-worker/SKILL.md) | Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems, equ... |
@@ -1336,6 +1469,7 @@
 | [property-manager](./skills/realestate/property-manager/SKILL.md) | Senior Property Manager with 10+ years managing residential and commercial portfolios. Expert in ten... |
 | [real-estate-appraiser](./skills/realestate/real-estate-appraiser/SKILL.md) | Licensed Certified General Real Estate Appraiser with 15+ years valuing commercial and residential p... |
 | [real-estate-investor](./skills/realestate/real-estate-investor/SKILL.md) | Senior Real Estate Investment Professional with 15+ years acquiring, managing, and disposing of comm... |
+| [realestate-broker](./skills/realestate/realestate-broker/SKILL.md) | Senior Commercial Real Estate Broker with 15+ years in investment sales, leasing, and tenant represe... |
 | [realestate-investment-analyst](./skills/realestate/realestate-investment-analyst/SKILL.md) | Expert real estate investment analyst specializing in property valuation, financial modeling, and in... |
 
 ### repair-worker (4)
@@ -1376,21 +1510,31 @@
 | [tech-transfer-manager](./skills/research/tech-transfer-manager/SKILL.md) | Expert technology transfer manager specializing in patent portfolio management, technology commercia... |
 | [visiting-scholar](./skills/research/visiting-scholar/SKILL.md) | Expert visiting scholar specializing in cross-institution research collaboration, academic exchange... |
 
-### retail (1)
+### retail (3)
 
 | Skill | Description |
 |-------|-------------|
+| [ecommerce-product-manager](./skills/retail/ecommerce-product-manager/SKILL.md) | A world-class e-commerce product manager specializing in platform design, user experience, conversio... |
 | [retail-operations-manager](./skills/retail/retail-operations-manager/SKILL.md) | A world-class retail operations manager specializing in store operations, inventory management, omni... |
+| [walmart-operations](./skills/retail/walmart-operations/SKILL.md) | A world-class Walmart operations specialist providing expertise on the worlds largest retailers supp... |
 
-### robotics (3)
+### robotics (5)
 
 | Skill | Description |
 |-------|-------------|
+| [embodied-ai-researcher](./skills/robotics/embodied-ai-researcher/SKILL.md) | Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation, locomotion,... |
 | [motion-control-engineer](./skills/robotics/motion-control-engineer/SKILL.md) | Expert robot motion control engineer specializing in PID/LQR/MPC controllers, Jacobian-based inverse... |
+| [precision-reducer-engineer](./skills/robotics/precision-reducer-engineer/SKILL.md) | A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector) reduc... |
 | [robot-mechanical-engineer](./skills/robotics/robot-mechanical-engineer/SKILL.md) | Expert-level Robot Mechanical Engineer specializing in robotic arm structural design, kinematic chai... |
 | [robot-perception-engineer](./skills/robotics/robot-perception-engineer/SKILL.md) | Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusio... |
 
-### service-worker (16)
+### semiconductor (1)
+
+| Skill | Description |
+|-------|-------------|
+| [chip-design-engineer](./skills/semiconductor/chip-design-engineer/SKILL.md) | Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic... |
+
+### service-worker (20)
 
 | Skill | Description |
 |-------|-------------|
@@ -1408,8 +1552,12 @@
 | [hotel-manager](./skills/service-worker/hotel-manager/SKILL.md) | Expert hotel manager specializing in hospitality operations, guest services, revenue management, and... |
 | [household-cleaner](./skills/service-worker/household-cleaner/SKILL.md) | Professional household appliance cleaner specializing in deep cleaning, sanitization, and preventive... |
 | [housekeeper](./skills/service-worker/housekeeper/SKILL.md) | Expert housekeeper providing professional domestic cleaning, organization, meal preparation, and hou... |
+| [mover](./skills/service-worker/mover/SKILL.md) | Expert mover with 10+ years in residential and commercial moving. Specializes in furniture handling,... |
+| [nail-technician](./skills/service-worker/nail-technician/SKILL.md) | Expert nail technician with 10+ years specializing in manicures, pedicures, nail art, gel/acrylic ap... |
+| [pet-groomer](./skills/service-worker/pet-groomer/SKILL.md) | Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, bat... |
 | [restaurant-manager](./skills/service-worker/restaurant-manager/SKILL.md) | Expert restaurant manager specializing in foodservice operations, team leadership, guest satisfactio... |
 | [restaurant-server](./skills/service-worker/restaurant-server/SKILL.md) | Expert restaurant server with 10+ years in fine dining and casual service. Specializes in table mana... |
+| [tour-guide](./skills/service-worker/tour-guide/SKILL.md) | Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in... |
 
 ### services (2)
 
@@ -1468,18 +1616,22 @@
 | [digital-twin-engineer](./skills/tech/digital-twin-engineer/SKILL.md) | Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, inf... |
 | [spatial-computing-engineer](./skills/tech/spatial-computing-engineer/SKILL.md) | Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR) development, 3D scene c... |
 
-### telecom (2)
+### telecom (3)
 
 | Skill | Description |
 |-------|-------------|
 | [6g-communication-researcher](./skills/telecom/6g-communication-researcher/SKILL.md) | Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO,... |
 | [isac-engineer](./skills/telecom/isac-engineer/SKILL.md) | Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function rada... |
+| [ntn-engineer](./skills/telecom/ntn-engineer/SKILL.md) | A world-class NTN (Non-Terrestrial Network) engineer specializing in 3GPP 5G-NR NTN integration (Rel... |
 
-### transport-worker (4)
+### transport-worker (7)
 
 | Skill | Description |
 |-------|-------------|
+| [bus-driver](./skills/transport-worker/bus-driver/SKILL.md) | Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public trans... |
 | [delivery-rider](./skills/transport-worker/delivery-rider/SKILL.md) | Professional delivery rider specializing in last-mile delivery, time management, and navigation opti... |
+| [flight-attendant](./skills/transport-worker/flight-attendant/SKILL.md) | Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin... |
+| [pilot](./skills/transport-worker/pilot/SKILL.md) | Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commerc... |
 | [seaman](./skills/transport-worker/seaman/SKILL.md) | Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard... |
 | [taxi-driver](./skills/transport-worker/taxi-driver/SKILL.md) | Master Professional Taxi Driver with TLC (Taxi & Limousine Commission) license. 15+ years, 20,000+ t... |
 | [truck-driver](./skills/transport-worker/truck-driver/SKILL.md) | Master Professional Truck Driver with Class A CDL, Hazmat, Tanker, and Doubles/Triples endorsements.... |

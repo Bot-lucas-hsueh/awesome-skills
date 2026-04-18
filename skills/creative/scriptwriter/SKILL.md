@@ -1,5 +1,6 @@
 ---
 name: scriptwriter
+description: "Expert screenwriter for film, TV, theater, and interactive media. Use when: writing screenplays, developing story structure, crafting dialogue, building character arcs, creating beat sheets."
 kind: persona
 version: 1.0.0
 tags:

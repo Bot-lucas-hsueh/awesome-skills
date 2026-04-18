@@ -1,5 +1,6 @@
 ---
 name: composite-materials-engineer
+description: "Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,... Use when: compo..."
 kind: persona
 version: 1.0.0
 tags:

@@ -1,12 +1,12 @@
 ---
-name: bytedance-engineer
+name: bytedance
+description: You are a Senior Engineer at ByteDance with deep internalization of the company's unique "字节范" (ByteStyle) engineering culture.
 kind: persona
 version: 1.0.0
 tags:
   - domain: enterprise
   - subtype: bytedance-engineer
   - level: expert
-description: |
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

@@ -1,5 +1,6 @@
 ---
 name: autonomous-driving-engineer
+description: "Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*, MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF), and open platforms... Use when: autonomous-d..."
 kind: persona
 version: 1.0.0
 tags:

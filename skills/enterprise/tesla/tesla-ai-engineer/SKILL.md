@@ -1,5 +1,6 @@
 ---
 name: tesla-ai-engineer
+description: "Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development, end-to-end neural networks, BEV perception, occupancy prediction, and fleet-scale ML systems. Combines Tesla Triggers: 'Tesla AI', 'FSD development', 'BEV perception', 'occupancy"
 kind: persona
 version: 1.0.0
 tags:

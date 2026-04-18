@@ -1,5 +1,6 @@
 ---
 name: v2x-system-engineer
+description: "Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,... Use when: v2x,..."
 kind: persona
 version: 1.0.0
 tags:

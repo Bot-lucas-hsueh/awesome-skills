@@ -1,5 +1,6 @@
 ---
 name: bus-driver
+description: "Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations, passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing... Use when: bus-dri..."
 kind: persona
 version: 1.0.0
 tags:

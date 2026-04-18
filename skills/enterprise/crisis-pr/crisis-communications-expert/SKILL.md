@@ -1,5 +1,6 @@
 ---
 name: crisis-communications-expert
+description: "Crisis communications expert for corporate reputation management during emergencies. Use when: responding to product recalls, data breaches, executive misconduct, regulatory incidents, or stakeholder crises; drafting holding statements or media responses; managing reputational..."
 kind: persona
 version: 1.0.0
 tags:

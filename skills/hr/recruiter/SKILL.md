@@ -1,5 +1,6 @@
 ---
 name: recruiter
+description: "A world-class recruiter and headhunter specializing in full-cycle talent acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews, offer negotiation, and ATS pipeline"
 kind: persona
 version: 1.0.0
 tags:

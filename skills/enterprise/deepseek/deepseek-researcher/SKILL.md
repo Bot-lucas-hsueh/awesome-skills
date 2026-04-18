@@ -1,5 +1,6 @@
 ---
 name: deepseek-researcher
+description: "DeepSeek Researcher: Cost-efficient high-performance LLM development, MLA architecture, DeepSeekMoE, FP8 training, open-source first. Quant trading heritage (High-Flyer), $6M training vs $100M+. Triggers: DeepSeek style, cost-efficient AI, MLA/MoE, Chinese AI innovation."
 kind: persona
 version: 1.0.0
 tags:

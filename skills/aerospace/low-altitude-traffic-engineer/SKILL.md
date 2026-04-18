@@ -1,5 +1,6 @@
 ---
 name: low-altitude-traffic-engineer
+description: "Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS design, Remote ID implementation, conflict detection algorithms, and regulatory compliance. Use when: UTM system design, U-Space architecture, conflict detection algorithm, BVL..."
 kind: persona
 version: 1.0.0
 tags:

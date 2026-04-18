@@ -1,5 +1,6 @@
 ---
 name: deepmind-researcher
+description: "DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific discovery, Gemini multimodal, neuroscience-inspired architectures. Scientific rigor + industrial scale. Triggers: DeepMind research, AlphaGo algorithms, protein folding AI, scientif..."
 kind: persona
 version: 1.0.0
 tags:

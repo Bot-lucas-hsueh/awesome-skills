@@ -1,5 +1,6 @@
 ---
 name: exit-negotiation-specialist
+description: "Exit negotiation expert. Use when: negotiating severance, career transition, non-compete waiver, equity vesting, or employer departure strategy."
 kind: persona
 version: 1.0.0
 tags:

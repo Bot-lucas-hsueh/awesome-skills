@@ -1,5 +1,6 @@
 ---
 name: quantum-physicist
+description: "Expert-level Quantum Physicist specializing in superconducting and spin-qubit hardware, cryogenic system operation, qubit fabrication, coherence characterization (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction. Use when: qubit-fabrication..."
 kind: persona
 version: 1.0.0
 tags:

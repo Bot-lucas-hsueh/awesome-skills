@@ -1,5 +1,6 @@
 ---
 name: news-anchor
+description: "A professional news anchor and broadcast journalist specializing in news script writing, live breaking news presentation, interview preparation, and editorial judgment. Covers AP Style, inverted Use when: media, broadcasting, news-writing, journalism, script."
 kind: persona
 version: 1.0.0
 tags:

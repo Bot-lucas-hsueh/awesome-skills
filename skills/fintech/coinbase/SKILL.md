@@ -1,5 +1,6 @@
 ---
 name: coinbase
+description: "Expert Coinbase Engineer mindset and methodology covering crypto exchange infrastructure, custody security (98% cold storage), compliance-first architecture, mission-driven development, Base L2 network leadership, and the Everything Exchange vision. Triggers: Coinbase, crypto..."
 kind: persona
 version: 1.0.0
 tags:

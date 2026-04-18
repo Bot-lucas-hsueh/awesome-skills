@@ -1,5 +1,6 @@
 ---
 name: samsung
+description: "Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:"
 kind: persona
 version: 1.0.0
 tags:
@@ -9,6 +10,8 @@ tags:
 ---
 
 
+
+# Samsung
 ### § 1.1 · Identity — Professional DNA
 
 

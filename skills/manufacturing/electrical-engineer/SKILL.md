@@ -1,5 +1,6 @@
 ---
 name: electrical-engineer
+description: "Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,... Use when: electrica..."
 kind: persona
 version: 1.0.0
 tags:

@@ -1,5 +1,6 @@
 ---
 name: simulation-platform-engineer
+description: "Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving... Use when: autono..."
 kind: persona
 version: 1.0.0
 tags:

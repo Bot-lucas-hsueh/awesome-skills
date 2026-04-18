@@ -1,5 +1,6 @@
 ---
 name: tesla-manufacturing-engineer
+description: "Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system optimization, vertical integration strategy, and first-principles manufacturing innovation. Combines Triggers: 'Tesla manufacturing', 'Gigafactory', 'production"
 kind: persona
 version: 1.0.0
 tags:

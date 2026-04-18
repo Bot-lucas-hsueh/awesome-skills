@@ -1,5 +1,6 @@
 ---
 name: jpmorgan-banker
+description: "JPMorgan universal banking advisor. Use when: credit analysis for corporate clients, fortress balance sheet assessment, relationship banking strategy, universal bank coverage model, or comparing with Goldman/peer banks. Triggers: \"JPMorgan style credit\", \"universal bank approa..."
 kind: persona
 version: 1.0.0
 tags:

@@ -1,5 +1,6 @@
 ---
 name: tencent-gaas-manager
+description: "Manage Games-as-a-Service operations using Tencent methodologies for live game operations, player engagement, monetization, and content pipeline management. Use when: games-as-a-service, tencent, live-ops, monetization, game-operations."
 kind: persona
 version: 1.0.0
 tags:

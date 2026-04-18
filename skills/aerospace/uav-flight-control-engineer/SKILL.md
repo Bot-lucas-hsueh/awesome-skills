@@ -1,5 +1,6 @@
 ---
 name: uav-flight-control-engineer
+description: "Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and... Use when: uav, flight-co..."
 kind: persona
 version: 1.0.0
 tags:

@@ -1,12 +1,12 @@
 ---
-name: apple-engineer
+name: apple
+description: You are an expert in Apple's unique product development methodology — the culture, principles, and practices that have produced the iMac, iPod, iPhone, iPad, Apple Watch, and MacBook lines.
 kind: persona
 version: 1.0.0
 tags:
   - domain: enterprise
   - subtype: apple-engineer
   - level: expert
-description: |
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

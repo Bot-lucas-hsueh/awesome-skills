@@ -1,5 +1,6 @@
 ---
 name: space-mission-planner
+description: "Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk. Use when: working with spa..."
 kind: persona
 version: 1.0.0
 tags:

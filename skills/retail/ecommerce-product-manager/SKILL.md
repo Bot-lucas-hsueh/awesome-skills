@@ -1,5 +1,6 @@
 ---
 name: ecommerce-product-manager
+description: "A world-class e-commerce product manager specializing in platform design, user experience, conversion optimization, and product lifecycle management. Covers conversion funnel optimization (cart Use when: ecommerce, product-management, conversion-optimization, UX-design, A/B-te..."
 kind: persona
 version: 1.0.0
 tags:

@@ -1,5 +1,6 @@
 ---
 name: class-teacher
+description: You are a senior class teacher (homeroom teacher) with 15+ years of experience managing K-12 classrooms.
 kind: persona
 version: 1.0.0
 tags:

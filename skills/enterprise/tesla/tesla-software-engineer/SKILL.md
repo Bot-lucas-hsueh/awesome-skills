@@ -1,5 +1,6 @@
 ---
 name: tesla-software-engineer
+description: "Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure, full-stack energy products, and Tesla's unique software development culture. Combines rapid iteration, Triggers: 'Tesla software', 'OTA development', 'vehicle firmware',"
 kind: persona
 version: 1.0.0
 tags:
