@@ -17,3 +17,9 @@ __pycache__/
 
 # Logs
 *.log
+
+# external/ holds locally-synced third-party skill repos (see external/README.md).
+# Only the registry + README are tracked; individual clones are user-local.
+external/*
+!external/README.md
+!external/sources.yml

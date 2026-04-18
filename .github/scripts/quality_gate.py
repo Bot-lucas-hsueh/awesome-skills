@@ -35,8 +35,8 @@ REPO_ROOT = Path(__file__).parent.parent.parent
 TOOLS_DIR = REPO_ROOT / "tools"
 SKILLS_DIR = REPO_ROOT / "skills"
 EXTERNAL_AUTHOR_DIRS = [
-    REPO_ROOT / "external" / "aakashg",
-    REPO_ROOT / "external" / "wdavidturner",
+    REPO_ROOT / "benchmarks" / "aakashg",
+    REPO_ROOT / "benchmarks" / "wdavidturner",
 ]
 sys.path.insert(0, str(TOOLS_DIR))
 

@@ -1,6 +1,6 @@
 # Catalog
 
-<856 total skills auto-generated on 2026-04-17. To regenerate: `python3 scripts/regenerate_catalog.py`>
+<856 total skills auto-generated on 2026-04-18. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
 ## tool-skills (1)
 

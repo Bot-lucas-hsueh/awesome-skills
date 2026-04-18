@@ -35,17 +35,21 @@ A library of **841 skill files** (`SKILL.md` + optional `references/`) covering 
 ### Layout
 
 ```
-skills/                   842 skill directories across ~60 categories
+skills/                   841 first-party skill directories across ~60 categories
   <category>/<role>/
     SKILL.md              Frontmatter + system prompt (target ≤ 300 lines)
     references/           On-demand deep content (workflow / scenarios / …)
     EVALUATION_REPORT.md  Optional self-scored quality report
 
+external/                 Registry of 10 curated third-party skill repos
+                          (anthropics/skills, VoltAgent, awesome-claude-code, …).
+                          Pulled on demand via scripts/sync_external.py — not vendored.
 benchmarks/               Evaluation dataset + scoring script for comparison
 packages/                 Curated skill bundles by domain
 roadmap/                  Career-path documents (independent of skills/)
+taxonomy.yml              Single source of truth mapping skills/packages/roadmap → 18 top-level categories
 tools/                    Python package for skill analysis (scoring, tokens, anti-patterns)
-scripts/                  One-off maintenance scripts (dedupe, data generation)
+scripts/                  Maintenance scripts (catalog regen, external sync, taxonomy check, …)
 .github/                  CI workflows + scripts, CI/CD docs
 ```
 
@@ -86,6 +90,28 @@ Role skills modelled after the methodology of specific companies (15 shown out o
 | [anthropic-researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI, interpretability |
 
 Full list in [CATALOG.md](./CATALOG.md).
+
+### External ecosystem hub
+
+`external/` is a **registry** of top third-party skill / subagent / plugin repositories —
+not a mirror. Pull any subset on demand:
+
+```bash
+python3 scripts/sync_external.py --list                 # see what's registered
+python3 scripts/sync_external.py --all                  # shallow-clone everything
+python3 scripts/sync_external.py --slug anthropics-skills
+```
+
+Registered sources (see [`external/README.md`](./external/README.md) for the full table):
+
+| Category | Repos |
+|----------|-------|
+| Official (Anthropic) | [`anthropics/skills`](https://github.com/anthropics/skills), [`claude-plugins-official`](https://github.com/anthropics/claude-plugins-official), [`knowledge-work-plugins`](https://github.com/anthropics/knowledge-work-plugins) |
+| Curated lists | [`VoltAgent/awesome-agent-skills`](https://github.com/VoltAgent/awesome-agent-skills), [`hesreallyhim/awesome-claude-code`](https://github.com/hesreallyhim/awesome-claude-code), [`travisvn/awesome-claude-skills`](https://github.com/travisvn/awesome-claude-skills), [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) |
+| Subagents & orchestration | [`VoltAgent/awesome-claude-code-subagents`](https://github.com/VoltAgent/awesome-claude-code-subagents), [`wshobson/agents`](https://github.com/wshobson/agents), [`0xfurai/claude-code-subagents`](https://github.com/0xfurai/claude-code-subagents) |
+
+To propose a new source, edit [`external/sources.yml`](./external/sources.yml) and open a PR.
+External clones are gitignored and never linted by our CI — we are a pointer, not an enforcer.
 
 ### Tooling
 
@@ -138,17 +164,21 @@ MIT — see [LICENSE](./LICENSE).
 ### 目录结构
 
 ```
-skills/                   842 个技能目录，分 ~60 个分类
+skills/                   841 个自产技能目录，分 ~60 个分类
   <category>/<role>/
     SKILL.md              Frontmatter + 系统提示词（目标 ≤ 300 行）
     references/           按需加载的深度内容（workflow / scenarios / …）
     EVALUATION_REPORT.md  可选：自评质量报告
 
+external/                 10 个精选第三方 skill 仓库的注册表
+                          （anthropics/skills、VoltAgent、awesome-claude-code 等）
+                          通过 scripts/sync_external.py 按需拉取，不随仓库 vendored
 benchmarks/               评估数据集 + 评分脚本
 packages/                 按领域打包的 skill 合集
 roadmap/                  职业路径文档（独立于 skills/）
+taxonomy.yml              skills/packages/roadmap → 18 顶层分类 的唯一真源
 tools/                    Skill 分析工具 Python 包（评分、token、反模式）
-scripts/                  维护脚本（去重、数据生成）
+scripts/                  维护脚本（catalog 重生成、external 同步、taxonomy 检查等）
 .github/                  CI 工作流与脚本、CI/CD 文档
 ```
 
@@ -189,6 +219,27 @@ Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/S
 | [anthropic-researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI、可解释性 |
 
 完整列表见 [CATALOG.md](./CATALOG.md)。
+
+### 外部生态集散地
+
+`external/` 是业界优秀 skill / subagent / plugin 仓库的**注册表**（非镜像），按需拉取任意子集：
+
+```bash
+python3 scripts/sync_external.py --list                 # 查看注册的仓库
+python3 scripts/sync_external.py --all                  # 全量浅拉取
+python3 scripts/sync_external.py --slug anthropics-skills
+```
+
+已注册仓库（完整表格见 [`external/README.md`](./external/README.md)）：
+
+| 类别 | 仓库 |
+|------|------|
+| 官方（Anthropic） | [`anthropics/skills`](https://github.com/anthropics/skills)、[`claude-plugins-official`](https://github.com/anthropics/claude-plugins-official)、[`knowledge-work-plugins`](https://github.com/anthropics/knowledge-work-plugins) |
+| 社区精选列表 | [`VoltAgent/awesome-agent-skills`](https://github.com/VoltAgent/awesome-agent-skills)、[`hesreallyhim/awesome-claude-code`](https://github.com/hesreallyhim/awesome-claude-code)、[`travisvn/awesome-claude-skills`](https://github.com/travisvn/awesome-claude-skills)、[`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) |
+| Subagent 与编排 | [`VoltAgent/awesome-claude-code-subagents`](https://github.com/VoltAgent/awesome-claude-code-subagents)、[`wshobson/agents`](https://github.com/wshobson/agents)、[`0xfurai/claude-code-subagents`](https://github.com/0xfurai/claude-code-subagents) |
+
+提议新增来源：编辑 [`external/sources.yml`](./external/sources.yml) 并提交 PR。
+`external/` 下的本地克隆已加入 `.gitignore`，也不被 CI 扫描——我们是**指针**，不是上游的审阅者。
 
 ### 工具
 

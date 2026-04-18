@@ -1,0 +1,102 @@
+# external/sources.yml — registry of third-party skill repositories.
+#
+# `awesome-skills` does NOT vendor these. Instead, `scripts/sync_external.py`
+# shallow-clones each entry into `external/<slug>/` on demand, then
+# `scripts/sync_external.py --update` fast-forwards them. `external/<slug>/`
+# is gitignored; only this registry + external/README.md are tracked.
+#
+# Schema:
+#   slug:          directory name under external/
+#   url:           git clone URL
+#   branch:        default branch (omit to use HEAD)
+#   license:       upstream license (SPDX identifier)
+#   category:      official | curated-list | subagent-collection | plugin-marketplace
+#   description:   one-liner shown in external/README.md table
+#   tags:          free-form tags for filtering
+#   home:          human-readable project homepage (optional)
+
+version: 1
+sources:
+
+  # ── Official (Anthropic-maintained) ────────────────────────────────────
+  - slug: anthropics-skills
+    url: https://github.com/anthropics/skills.git
+    license: MIT
+    category: official
+    description: Anthropic's public repository of Agent Skills — document skills, artifact builders, internal workflows.
+    tags: [anthropic, official, document, agent-skill-spec]
+    home: https://github.com/anthropics/skills
+
+  - slug: anthropics-claude-plugins-official
+    url: https://github.com/anthropics/claude-plugins-official.git
+    license: MIT
+    category: plugin-marketplace
+    description: Anthropic-managed directory of vetted Claude Code plugins (includes skill-creator).
+    tags: [anthropic, official, plugins, marketplace]
+    home: https://github.com/anthropics/claude-plugins-official
+
+  - slug: anthropics-knowledge-work-plugins
+    url: https://github.com/anthropics/knowledge-work-plugins.git
+    license: MIT
+    category: plugin-marketplace
+    description: Anthropic plugins aimed at knowledge workers using Claude Cowork.
+    tags: [anthropic, official, knowledge-work, cowork]
+    home: https://github.com/anthropics/knowledge-work-plugins
+
+  # ── Community curated lists ────────────────────────────────────────────
+  - slug: voltagent-awesome-agent-skills
+    url: https://github.com/VoltAgent/awesome-agent-skills.git
+    license: MIT
+    category: curated-list
+    description: 1000+ agent skills from official dev teams and community, cross-compatible with Claude Code, Codex, Cursor, Gemini CLI.
+    tags: [multi-platform, curated, large-scale]
+    home: https://github.com/VoltAgent/awesome-agent-skills
+
+  - slug: hesreallyhim-awesome-claude-code
+    url: https://github.com/hesreallyhim/awesome-claude-code.git
+    license: MIT
+    category: curated-list
+    description: The de-facto "awesome" list — skills, hooks, slash-commands, agent orchestrators, applications, plugins for Claude Code.
+    tags: [awesome-list, hooks, slash-commands, community]
+    home: https://github.com/hesreallyhim/awesome-claude-code
+
+  - slug: travisvn-awesome-claude-skills
+    url: https://github.com/travisvn/awesome-claude-skills.git
+    license: MIT
+    category: curated-list
+    description: Curated "best of" community skill index (SEO, marketing, design, security, writing, research, testing).
+    tags: [curated, community, general-purpose]
+    home: https://github.com/travisvn/awesome-claude-skills
+
+  - slug: composiohq-awesome-claude-skills
+    url: https://github.com/ComposioHQ/awesome-claude-skills.git
+    license: MIT
+    category: curated-list
+    description: Composio's curation focused on workflow-automation agents.
+    tags: [automation, workflow, curated]
+    home: https://github.com/ComposioHQ/awesome-claude-skills
+
+  # ── Subagent & orchestration collections ───────────────────────────────
+  - slug: voltagent-awesome-claude-code-subagents
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents.git
+    license: MIT
+    category: subagent-collection
+    description: 100+ specialized Claude Code subagents for development use cases.
+    tags: [subagents, development]
+    home: https://github.com/VoltAgent/awesome-claude-code-subagents
+
+  - slug: wshobson-agents
+    url: https://github.com/wshobson/agents.git
+    license: MIT
+    category: subagent-collection
+    description: Multi-agent orchestration framework for Claude Code with reusable agent library.
+    tags: [orchestration, multi-agent, framework]
+    home: https://github.com/wshobson/agents
+
+  - slug: 0xfurai-claude-code-subagents
+    url: https://github.com/0xfurai/claude-code-subagents.git
+    license: MIT
+    category: subagent-collection
+    description: 100+ production-ready development subagents, domain-expert oriented.
+    tags: [subagents, production]
+    home: https://github.com/0xfurai/claude-code-subagents
