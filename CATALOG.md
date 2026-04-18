@@ -2,13 +2,126 @@
 
 <856 total skills auto-generated on 2026-04-18. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
-## tool-skills (1)
+## tool-skills (114)
 
 | Skill | Category | Description |
 |-------|----------|-------------|
 | [gerrit-permission-manager](./skills/special/gerrit-permission-manager/SKILL.md) | special | Expert manager for Gerrit multi-repository and multi-branch permission configurations. Use when work... |
+| [cuda-expert](./skills/tools/ai-ml/cuda-expert/SKILL.md) | tools/ai-ml | CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, strea... |
+| [huggingface-expert](./skills/tools/ai-ml/huggingface-expert/SKILL.md) | tools/ai-ml | Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization... |
+| [jupyter-expert](./skills/tools/ai-ml/jupyter-expert/SKILL.md) | tools/ai-ml | Jupyter expert: magic commands, nbconvert, JupyterLab extensions, remote setup, ipywidgets, profilin... |
+| [langchain-expert](./skills/tools/ai-ml/langchain-expert/SKILL.md) | tools/ai-ml | LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling,... |
+| [llama-index-expert](./skills/tools/ai-ml/llama-index-expert/SKILL.md) | tools/ai-ml | Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector st... |
+| [llm-serving-expert](./skills/tools/ai-ml/llm-serving-expert/SKILL.md) | tools/ai-ml | LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), c... |
+| [mlflow-expert](./skills/tools/ai-ml/mlflow-expert/SKILL.md) | tools/ai-ml | MLflow expert: experiment tracking, model registry, autologging, MLflow Projects, MLflow Models, mod... |
+| [pytorch-expert](./skills/tools/ai-ml/pytorch-expert/SKILL.md) | tools/ai-ml | PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.... |
+| [sklearn-expert](./skills/tools/ai-ml/sklearn-expert/SKILL.md) | tools/ai-ml | Scikit-learn expert: Pipeline, feature engineering, hyperparameter tuning, model selection, ensemble... |
+| [tensorflow-expert](./skills/tools/ai-ml/tensorflow-expert/SKILL.md) | tools/ai-ml | TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF... |
+| [wandb-expert](./skills/tools/ai-ml/wandb-expert/SKILL.md) | tools/ai-ml | W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards,... |
+| [looker-metabase-expert](./skills/tools/analytics/looker-metabase-expert/SKILL.md) | tools/analytics | Expert Looker and Metabase user for business intelligence and embedded analytics. Use when building... |
+| [pandas-expert](./skills/tools/analytics/pandas-expert/SKILL.md) | tools/analytics | Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use... |
+| [powerbi-expert](./skills/tools/analytics/powerbi-expert/SKILL.md) | tools/analytics | Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building bu... |
+| [r-statistics-expert](./skills/tools/analytics/r-statistics-expert/SKILL.md) | tools/analytics | R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression analys... |
+| [spreadsheet-expert](./skills/tools/analytics/spreadsheet-expert/SKILL.md) | tools/analytics | Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMULA), pivot tables, Power Query, Ap... |
+| [tableau-expert](./skills/tools/analytics/tableau-expert/SKILL.md) | tools/analytics | Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimiza... |
+| [autocad-expert](./skills/tools/cad/autocad-expert/SKILL.md) | tools/cad | AutoCAD工程制图：2D图纸、图层、标注。Use when creating engineering drawings. Triggers: 'AutoCAD', '工程制图', 'CAD'. W... |
+| [fusion360-expert](./skills/tools/cad/fusion360-expert/SKILL.md) | tools/cad | Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, cre... |
+| [revit-bim-expert](./skills/tools/cad/revit-bim-expert/SKILL.md) | tools/cad | Revit BIM建筑信息模型：族、施工图、协同。Use when doing BIM modeling. Triggers: 'Revit', 'BIM', '建筑信息模型'. Works with... |
+| [rhino-grasshopper-expert](./skills/tools/cad/rhino-grasshopper-expert/SKILL.md) | tools/cad | Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametr... |
+| [solidworks-expert](./skills/tools/cad/solidworks-expert/SKILL.md) | tools/cad | SolidWorks机械设计：零件、装配体、工程图。Use when creating mechanical designs. Triggers: 'SolidWorks', 'CAD', '机械设计... |
+| [github-actions-expert](./skills/tools/cicd/github-actions-expert/SKILL.md) | tools/cicd | GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable wo... |
+| [gitlab-cicd-expert](./skills/tools/cicd/gitlab-cicd-expert/SKILL.md) | tools/cicd | GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimiza... |
+| [jenkins-expert](./skills/tools/cicd/jenkins-expert/SKILL.md) | tools/cicd | Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugi... |
+| [aws-cloud-expert](./skills/tools/cloud/aws-cloud-expert/SKILL.md) | tools/cloud | AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, op... |
+| [azure-cloud-expert](./skills/tools/cloud/azure-cloud-expert/SKILL.md) | tools/cloud | Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architec... |
+| [cloudflare-expert](./skills/tools/cloud/cloudflare-expert/SKILL.md) | tools/cloud | Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Clo... |
+| [gcp-cloud-expert](./skills/tools/cloud/gcp-cloud-expert/SKILL.md) | tools/cloud | Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architectu... |
+| [vercel-expert](./skills/tools/cloud/vercel-expert/SKILL.md) | tools/cloud | Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deploym... |
+| [aliyun-bailian-ai-expert](./skills/tools/cn-cloud/aliyun/aliyun-bailian-ai-expert/SKILL.md) | tools/cn-cloud/aliyun | 阿里云百炼Model Studio：可视化RAG搭建、企业知识库问答、AI应用开发。Use when building RAG applications, enterprise knowledge b... |
+| [aliyun-cdn-expert](./skills/tools/cn-cloud/aliyun/aliyun-cdn-expert/SKILL.md) | tools/cn-cloud/aliyun | 阿里云CDN专家：加速配置、缓存策略、HTTPS、回源优化。Use when configuring CDN acceleration, cache rules, or optimizing deli... |
+| [aliyun-cloud-expert](./skills/tools/cn-cloud/aliyun/aliyun-cloud-expert/SKILL.md) | tools/cn-cloud/aliyun | Alibaba Cloud architecture expert. Use when: designing cloud architecture on Aliyun, selecting ECS/R... |
+| [aliyun-domain-beian-expert](./skills/tools/cn-cloud/aliyun/aliyun-domain-beian-expert/SKILL.md) | tools/cn-cloud/aliyun | 阿里云域名注册与ICP备案：域名购买、实名认证、备案流程、DNS解析。Use when buying domains, completing ICP beian, or setting up DNS.... |
+| [aliyun-ecs-website-starter](./skills/tools/cn-cloud/aliyun/aliyun-ecs-website-starter/SKILL.md) | tools/cn-cloud/aliyun | 阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or getting s... |
+| [aliyun-fc-serverless](./skills/tools/cn-cloud/aliyun/aliyun-fc-serverless/SKILL.md) | tools/cn-cloud/aliyun | 阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Function C... |
+| [aliyun-oss-expert](./skills/tools/cn-cloud/aliyun/aliyun-oss-expert/SKILL.md) | tools/cn-cloud/aliyun | 阿里云OSS对象存储：存储桶配置、文件上传、CDN加速、防盗链。Use when storing files in the cloud, setting up CDN, or building fil... |
+| [aliyun-qwen-api](./skills/tools/cn-cloud/aliyun/aliyun-qwen-api/SKILL.md) | tools/cn-cloud/aliyun | 阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Qwen... |
+| [aliyun-rds-starter](./skills/tools/cn-cloud/aliyun/aliyun-rds-starter/SKILL.md) | tools/cn-cloud/aliyun | 阿里云RDS入门：购买配置、连接访问、备份恢复。Use when getting started with Aliyun RDS. Triggers: 'RDS', '云数据库', '阿里云数据库'.... |
+| [aliyun-ssl-https-expert](./skills/tools/cn-cloud/aliyun/aliyun-ssl-https-expert/SKILL.md) | tools/cn-cloud/aliyun | 阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configurin... |
+| [baota-panel-expert](./skills/tools/cn-cloud/common/baota-panel-expert/SKILL.md) | tools/cn-cloud/common | 宝塔面板专家。Use when: 管理Linux服务器、配置宝塔面板、部署网站、配置SSL、迁移数据、优化性能。 Triggers: 宝塔、面板、Linux管理、服务器运维、建站、Nginx配置、My... |
+| [cn-cloud-icp-beian-guide](./skills/tools/cn-cloud/common/cn-cloud-icp-beian-guide/SKILL.md) | tools/cn-cloud/common | 国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'ICP备... |
+| [cn-cloud-selection-advisor](./skills/tools/cn-cloud/common/cn-cloud-selection-advisor/SKILL.md) | tools/cn-cloud/common | 国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, or c... |
+| [tencentcloud-cloudbase-miniprogram](./skills/tools/cn-cloud/tencent/tencentcloud-cloudbase-miniprogram/SKILL.md) | tools/cn-cloud/tencent | 腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'. |
+| [tencentcloud-cos-expert](./skills/tools/cn-cloud/tencent/tencentcloud-cos-expert/SKILL.md) | tools/cn-cloud/tencent | 腾讯云COS对象存储：存储桶配置、权限管理、CDN加速。Use when storing files, building static websites, or CDN distribution. T... |
+| [tencentcloud-domain-ssl](./skills/tools/cn-cloud/tencent/tencentcloud-domain-ssl/SKILL.md) | tools/cn-cloud/tencent | 腾讯云域名与SSL：域名购买、DNSPod解析、免费证书。Use when managing domains and SSL on Tencent Cloud. Triggers: '域名', 'DN... |
+| [tencentcloud-hunyuan-api](./skills/tools/cn-cloud/tencent/tencentcloud-hunyuan-api/SKILL.md) | tools/cn-cloud/tencent | 腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API. Triggers: '混元', 'Hunyuan', 'API... |
+| [tencentcloud-lighthouse-website](./skills/tools/cn-cloud/tencent/tencentcloud-lighthouse-website/SKILL.md) | tools/cn-cloud/tencent | 腾讯云轻量服务器建站：购买、配置宝塔、部署网站。Use when building websites on Tencent Cloud, setting up WordPress, or gettin... |
+| [tencentcloud-live-streaming](./skills/tools/cn-cloud/tencent/tencentcloud-live-streaming/SKILL.md) | tools/cn-cloud/tencent | 腾讯云直播CSS：推拉流、OBS配置、录制转码。Use when building live streaming applications. Triggers: '直播', 'CSS', '推流',... |
+| [tencentcloud-scf-expert](./skills/tools/cn-cloud/tencent/tencentcloud-scf-expert/SKILL.md) | tools/cn-cloud/tencent | 腾讯云云函数SCF：Serverless函数、定时触发、事件驱动。Use when building serverless applications with Tencent Cloud Functi... |
+| [tencentcloud-trtc-expert](./skills/tools/cn-cloud/tencent/tencentcloud-trtc-expert/SKILL.md) | tools/cn-cloud/tencent | 腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRT... |
+| [tencentcloud-vod-expert](./skills/tools/cn-cloud/tencent/tencentcloud-vod-expert/SKILL.md) | tools/cn-cloud/tencent | 腾讯云VOD：视频上传、转码、播放器、防盗链。Use when building video on demand platforms. Triggers: 'VOD', '视频点播', '转码', '... |
+| [volcengine-coze-expert](./skills/tools/cn-cloud/volcengine/volcengine-coze-expert/SKILL.md) | tools/cn-cloud/volcengine | 火山引擎扣子(Coze)专家。Use when: 创建AI智能体、配置知识库问答、设计工作流、搭建客服机器人。 Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot... |
+| [docker-expert](./skills/tools/container/docker-expert/SKILL.md) | tools/container | Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security har... |
+| [helm-expert](./skills/tools/container/helm-expert/SKILL.md) | tools/container | Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts... |
+| [istio-servicemesh-expert](./skills/tools/container/istio-servicemesh-expert/SKILL.md) | tools/container | Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh securit... |
+| [kubernetes-expert](./skills/tools/container/kubernetes-expert/SKILL.md) | tools/container | Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying t... |
+| [airflow-expert](./skills/tools/data-platform/airflow-expert/SKILL.md) | tools/data-platform | Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling, dynamic mapping, branching,... |
+| [dbt-expert](./skills/tools/data-platform/dbt-expert/SKILL.md) | tools/data-platform | dbt (data build tool) expert: model design, ref/source, testing, macros, dbt Cloud, incremental mode... |
+| [flink-expert](./skills/tools/data-platform/flink-expert/SKILL.md) | tools/data-platform | Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patt... |
+| [kafka-expert](./skills/tools/data-platform/kafka-expert/SKILL.md) | tools/data-platform | Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, sche... |
+| [lakehouse-expert](./skills/tools/data-platform/lakehouse-expert/SKILL.md) | tools/data-platform | Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table forma... |
+| [spark-expert](./skills/tools/data-platform/spark-expert/SKILL.md) | tools/data-platform | Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE,... |
+| [clickhouse-expert](./skills/tools/database/clickhouse-expert/SKILL.md) | tools/database | ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized views, and high-perfo... |
+| [duckdb-expert](./skills/tools/database/duckdb-expert/SKILL.md) | tools/database | DuckDB expert for embedded OLAP analytics, Parquet/CSV querying, and high-performance analytical SQL... |
+| [elasticsearch-expert](./skills/tools/database/elasticsearch-expert/SKILL.md) | tools/database | Elasticsearch expert specializing in mapping design, query DSL, aggregation analysis, and cluster ma... |
+| [mongodb-expert](./skills/tools/database/mongodb-expert/SKILL.md) | tools/database | MongoDB expert for document schema design, aggregation pipelines, indexing strategies, and sharded c... |
+| [mysql-expert](./skills/tools/database/mysql-expert/SKILL.md) | tools/database | MySQL expert with indexing optimization, InnoDB tuning, replication setup, and performance optimizat... |
+| [postgresql-expert](./skills/tools/database/postgresql-expert/SKILL.md) | tools/database | PostgreSQL expert with advanced SQL, JSONB, indexing, performance tuning, replication, and extension... |
+| [redis-expert](./skills/tools/database/redis-expert/SKILL.md) | tools/database | Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when des... |
+| [blender-expert](./skills/tools/design/blender-expert/SKILL.md) | tools/design | Blender 3D建模：建模、材质、渲染、动画。Use when creating 3D content. Triggers: 'Blender', '3D建模', '渲染'. Works with... |
+| [canva-expert](./skills/tools/design/canva-expert/SKILL.md) | tools/design | Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with:... |
+| [figma-expert](./skills/tools/design/figma-expert/SKILL.md) | tools/design | Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyp... |
+| [illustrator-expert](./skills/tools/design/illustrator-expert/SKILL.md) | tools/design | Illustrator矢量图形：路径、排版、图标设计。Use when creating vector graphics. Triggers: 'Illustrator', '矢量图形', '图标'.... |
+| [photoshop-expert](./skills/tools/design/photoshop-expert/SKILL.md) | tools/design | Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计'.... |
+| [sketch-expert](./skills/tools/design/sketch-expert/SKILL.md) | tools/design | Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design system... |
+| [ansys-expert](./skills/tools/engineering/ansys-expert/SKILL.md) | tools/engineering | ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite elem... |
+| [matlab-expert](./skills/tools/engineering/matlab-expert/SKILL.md) | tools/engineering | MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learnin... |
+| [abaqus-expert](./skills/tools/engineering-simulation/abaqus-expert/SKILL.md) | tools/engineering-simulation | Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material mod... |
+| [comsol-expert](./skills/tools/engineering-simulation/comsol-expert/SKILL.md) | tools/engineering-simulation | Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based... |
+| [labview-expert](./skills/tools/engineering-simulation/labview-expert/SKILL.md) | tools/engineering-simulation | Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programmi... |
+| [openfoam-expert](./skills/tools/engineering-simulation/openfoam-expert/SKILL.md) | tools/engineering-simulation | Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbule... |
+| [salesforce-expert](./skills/tools/enterprise/salesforce-expert/SKILL.md) | tools/enterprise | Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing... |
+| [servicenow-expert](./skills/tools/enterprise/servicenow-expert/SKILL.md) | tools/enterprise | ServiceNow平台专家：ITSM核心模块配置、Flow Designer工作流自动化、GlideRecord脚本开发、ACL权限管理。Use when configuring ServiceNo... |
+| [workday-engineer](./skills/tools/enterprise/workday-expert/SKILL.md) | tools/enterprise | Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuratio... |
+| [zendesk-expert](./skills/tools/enterprise/zendesk-expert/SKILL.md) | tools/enterprise | Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works... |
+| [unity-expert](./skills/tools/game-engine/unity-expert/SKILL.md) | tools/game-engine | Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works wit... |
+| [unreal-expert](./skills/tools/game-engine/unreal-expert/SKILL.md) | tools/game-engine | Unreal Engine expert. Use when: building gameplay systems, UE5 rendering (Nanite/Lumen), multiplayer... |
+| [ansible-expert](./skills/tools/iac/ansible-expert/SKILL.md) | tools/iac | Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating... |
+| [pulumi-expert](./skills/tools/iac/pulumi-expert/SKILL.md) | tools/iac | Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC... |
+| [terraform-expert](./skills/tools/iac/terraform-expert/SKILL.md) | tools/iac | Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspace... |
+| [ffmpeg-expert](./skills/tools/media/ffmpeg-expert/SKILL.md) | tools/media | Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extract... |
+| [datadog-engineer](./skills/tools/observability/datadog-expert/SKILL.md) | tools/observability | Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog. Triggers:... |
+| [elk-stack-expert](./skills/tools/observability/elk-stack-expert/SKILL.md) | tools/observability | ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Trigge... |
+| [grafana-expert](./skills/tools/observability/grafana-expert/SKILL.md) | tools/observability | Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashb... |
+| [opentelemetry-expert](./skills/tools/observability/opentelemetry-expert/SKILL.md) | tools/observability | OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTe... |
+| [pagerduty-expert](./skills/tools/observability/pagerduty-expert/SKILL.md) | tools/observability | Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflow... |
+| [prometheus-expert](./skills/tools/observability/prometheus-expert/SKILL.md) | tools/observability | Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitorin... |
+| [asana-expert](./skills/tools/productivity/asana-expert/SKILL.md) | tools/productivity | Expert Asana user for project management and team workflows. Use when managing projects, setting up... |
+| [confluence-expert](./skills/tools/productivity/confluence-expert/SKILL.md) | tools/productivity | Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base arc... |
+| [jira-expert](./skills/tools/productivity/jira-expert/SKILL.md) | tools/productivity | Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation... |
+| [linear-expert](./skills/tools/productivity/linear-expert/SKILL.md) | tools/productivity | Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use... |
+| [miro-expert](./skills/tools/productivity/miro-expert/SKILL.md) | tools/productivity | Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote wor... |
+| [notion-expert](./skills/tools/productivity/notion-expert/SKILL.md) | tools/productivity | Notion expert: database design, template creation, API integration, team workflows, formulas, relati... |
+| [slack-bot-expert](./skills/tools/productivity/slack-bot-expert/SKILL.md) | tools/productivity | Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, a... |
+| [latex-expert](./skills/tools/scientific/latex-expert/SKILL.md) | tools/scientific | LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, Ti... |
+| [numpy-scipy-expert](./skills/tools/scientific/numpy-scipy-expert/SKILL.md) | tools/scientific | NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing, optimization, interpol... |
+| [statistical-analysis-expert](./skills/tools/scientific/statistical-analysis-expert/SKILL.md) | tools/scientific | Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothes... |
+| [burpsuite-expert](./skills/tools/security/burpsuite-expert/SKILL.md) | tools/security | Expert-level Burp Suite skill for web application penetration testing, vulnerability scanning, and s... |
+| [container-security-expert](./skills/tools/security/container-security-expert/SKILL.md) | tools/security | Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning,... |
+| [metasploit-expert](./skills/tools/security/metasploit-expert/SKILL.md) | tools/security | Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-explo... |
+| [nmap-expert](./skills/tools/security/nmap-expert/SKILL.md) | tools/security | Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and security a... |
+| [vault-secrets-expert](./skills/tools/security/vault-secrets-expert/SKILL.md) | tools/security | HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secret... |
 
-## personas (855)
+## personas (742)
 
 ### admin (9)
 
@@ -1361,234 +1474,6 @@
 |-------|-------------|
 | [6g-communication-researcher](./skills/telecom/6g-communication-researcher/SKILL.md) | Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO,... |
 | [isac-engineer](./skills/telecom/isac-engineer/SKILL.md) | Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function rada... |
-
-### tools/ai-ml (11)
-
-| Skill | Description |
-|-------|-------------|
-| [cuda-expert](./skills/tools/ai-ml/cuda-expert/SKILL.md) | CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, strea... |
-| [huggingface-expert](./skills/tools/ai-ml/huggingface-expert/SKILL.md) | Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization... |
-| [jupyter-expert](./skills/tools/ai-ml/jupyter-expert/SKILL.md) | Jupyter expert: magic commands, nbconvert, JupyterLab extensions, remote setup, ipywidgets, profilin... |
-| [langchain-expert](./skills/tools/ai-ml/langchain-expert/SKILL.md) | LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling,... |
-| [llama-index-expert](./skills/tools/ai-ml/llama-index-expert/SKILL.md) | Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector st... |
-| [llm-serving-expert](./skills/tools/ai-ml/llm-serving-expert/SKILL.md) | LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), c... |
-| [mlflow-expert](./skills/tools/ai-ml/mlflow-expert/SKILL.md) | MLflow expert: experiment tracking, model registry, autologging, MLflow Projects, MLflow Models, mod... |
-| [pytorch-expert](./skills/tools/ai-ml/pytorch-expert/SKILL.md) | PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.... |
-| [sklearn-expert](./skills/tools/ai-ml/sklearn-expert/SKILL.md) | Scikit-learn expert: Pipeline, feature engineering, hyperparameter tuning, model selection, ensemble... |
-| [tensorflow-expert](./skills/tools/ai-ml/tensorflow-expert/SKILL.md) | TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF... |
-| [wandb-expert](./skills/tools/ai-ml/wandb-expert/SKILL.md) | W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards,... |
-
-### tools/analytics (6)
-
-| Skill | Description |
-|-------|-------------|
-| [looker-metabase-expert](./skills/tools/analytics/looker-metabase-expert/SKILL.md) | Expert Looker and Metabase user for business intelligence and embedded analytics. Use when building... |
-| [pandas-expert](./skills/tools/analytics/pandas-expert/SKILL.md) | Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use... |
-| [powerbi-expert](./skills/tools/analytics/powerbi-expert/SKILL.md) | Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building bu... |
-| [r-statistics-expert](./skills/tools/analytics/r-statistics-expert/SKILL.md) | R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression analys... |
-| [spreadsheet-expert](./skills/tools/analytics/spreadsheet-expert/SKILL.md) | Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMULA), pivot tables, Power Query, Ap... |
-| [tableau-expert](./skills/tools/analytics/tableau-expert/SKILL.md) | Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimiza... |
-
-### tools/cad (5)
-
-| Skill | Description |
-|-------|-------------|
-| [autocad-expert](./skills/tools/cad/autocad-expert/SKILL.md) | AutoCAD工程制图：2D图纸、图层、标注。Use when creating engineering drawings. Triggers: 'AutoCAD', '工程制图', 'CAD'. W... |
-| [fusion360-expert](./skills/tools/cad/fusion360-expert/SKILL.md) | Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, cre... |
-| [revit-bim-expert](./skills/tools/cad/revit-bim-expert/SKILL.md) | Revit BIM建筑信息模型：族、施工图、协同。Use when doing BIM modeling. Triggers: 'Revit', 'BIM', '建筑信息模型'. Works with... |
-| [rhino-grasshopper-expert](./skills/tools/cad/rhino-grasshopper-expert/SKILL.md) | Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametr... |
-| [solidworks-expert](./skills/tools/cad/solidworks-expert/SKILL.md) | SolidWorks机械设计：零件、装配体、工程图。Use when creating mechanical designs. Triggers: 'SolidWorks', 'CAD', '机械设计... |
-
-### tools/cicd (3)
-
-| Skill | Description |
-|-------|-------------|
-| [github-actions-expert](./skills/tools/cicd/github-actions-expert/SKILL.md) | GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable wo... |
-| [gitlab-cicd-expert](./skills/tools/cicd/gitlab-cicd-expert/SKILL.md) | GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimiza... |
-| [jenkins-expert](./skills/tools/cicd/jenkins-expert/SKILL.md) | Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugi... |
-
-### tools/cloud (5)
-
-| Skill | Description |
-|-------|-------------|
-| [aws-cloud-expert](./skills/tools/cloud/aws-cloud-expert/SKILL.md) | AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, op... |
-| [azure-cloud-expert](./skills/tools/cloud/azure-cloud-expert/SKILL.md) | Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architec... |
-| [cloudflare-expert](./skills/tools/cloud/cloudflare-expert/SKILL.md) | Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Clo... |
-| [gcp-cloud-expert](./skills/tools/cloud/gcp-cloud-expert/SKILL.md) | Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architectu... |
-| [vercel-expert](./skills/tools/cloud/vercel-expert/SKILL.md) | Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deploym... |
-
-### tools/cn-cloud/aliyun (10)
-
-| Skill | Description |
-|-------|-------------|
-| [aliyun-bailian-ai-expert](./skills/tools/cn-cloud/aliyun/aliyun-bailian-ai-expert/SKILL.md) | 阿里云百炼Model Studio：可视化RAG搭建、企业知识库问答、AI应用开发。Use when building RAG applications, enterprise knowledge b... |
-| [aliyun-cdn-expert](./skills/tools/cn-cloud/aliyun/aliyun-cdn-expert/SKILL.md) | 阿里云CDN专家：加速配置、缓存策略、HTTPS、回源优化。Use when configuring CDN acceleration, cache rules, or optimizing deli... |
-| [aliyun-cloud-expert](./skills/tools/cn-cloud/aliyun/aliyun-cloud-expert/SKILL.md) | Alibaba Cloud architecture expert. Use when: designing cloud architecture on Aliyun, selecting ECS/R... |
-| [aliyun-domain-beian-expert](./skills/tools/cn-cloud/aliyun/aliyun-domain-beian-expert/SKILL.md) | 阿里云域名注册与ICP备案：域名购买、实名认证、备案流程、DNS解析。Use when buying domains, completing ICP beian, or setting up DNS.... |
-| [aliyun-ecs-website-starter](./skills/tools/cn-cloud/aliyun/aliyun-ecs-website-starter/SKILL.md) | 阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or getting s... |
-| [aliyun-fc-serverless](./skills/tools/cn-cloud/aliyun/aliyun-fc-serverless/SKILL.md) | 阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Function C... |
-| [aliyun-oss-expert](./skills/tools/cn-cloud/aliyun/aliyun-oss-expert/SKILL.md) | 阿里云OSS对象存储：存储桶配置、文件上传、CDN加速、防盗链。Use when storing files in the cloud, setting up CDN, or building fil... |
-| [aliyun-qwen-api](./skills/tools/cn-cloud/aliyun/aliyun-qwen-api/SKILL.md) | 阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Qwen... |
-| [aliyun-rds-starter](./skills/tools/cn-cloud/aliyun/aliyun-rds-starter/SKILL.md) | 阿里云RDS入门：购买配置、连接访问、备份恢复。Use when getting started with Aliyun RDS. Triggers: 'RDS', '云数据库', '阿里云数据库'.... |
-| [aliyun-ssl-https-expert](./skills/tools/cn-cloud/aliyun/aliyun-ssl-https-expert/SKILL.md) | 阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configurin... |
-
-### tools/cn-cloud/common (3)
-
-| Skill | Description |
-|-------|-------------|
-| [baota-panel-expert](./skills/tools/cn-cloud/common/baota-panel-expert/SKILL.md) | 宝塔面板专家。Use when: 管理Linux服务器、配置宝塔面板、部署网站、配置SSL、迁移数据、优化性能。 Triggers: 宝塔、面板、Linux管理、服务器运维、建站、Nginx配置、My... |
-| [cn-cloud-icp-beian-guide](./skills/tools/cn-cloud/common/cn-cloud-icp-beian-guide/SKILL.md) | 国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'ICP备... |
-| [cn-cloud-selection-advisor](./skills/tools/cn-cloud/common/cn-cloud-selection-advisor/SKILL.md) | 国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, or c... |
-
-### tools/cn-cloud/tencent (9)
-
-| Skill | Description |
-|-------|-------------|
-| [tencentcloud-cloudbase-miniprogram](./skills/tools/cn-cloud/tencent/tencentcloud-cloudbase-miniprogram/SKILL.md) | 腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'. |
-| [tencentcloud-cos-expert](./skills/tools/cn-cloud/tencent/tencentcloud-cos-expert/SKILL.md) | 腾讯云COS对象存储：存储桶配置、权限管理、CDN加速。Use when storing files, building static websites, or CDN distribution. T... |
-| [tencentcloud-domain-ssl](./skills/tools/cn-cloud/tencent/tencentcloud-domain-ssl/SKILL.md) | 腾讯云域名与SSL：域名购买、DNSPod解析、免费证书。Use when managing domains and SSL on Tencent Cloud. Triggers: '域名', 'DN... |
-| [tencentcloud-hunyuan-api](./skills/tools/cn-cloud/tencent/tencentcloud-hunyuan-api/SKILL.md) | 腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API. Triggers: '混元', 'Hunyuan', 'API... |
-| [tencentcloud-lighthouse-website](./skills/tools/cn-cloud/tencent/tencentcloud-lighthouse-website/SKILL.md) | 腾讯云轻量服务器建站：购买、配置宝塔、部署网站。Use when building websites on Tencent Cloud, setting up WordPress, or gettin... |
-| [tencentcloud-live-streaming](./skills/tools/cn-cloud/tencent/tencentcloud-live-streaming/SKILL.md) | 腾讯云直播CSS：推拉流、OBS配置、录制转码。Use when building live streaming applications. Triggers: '直播', 'CSS', '推流',... |
-| [tencentcloud-scf-expert](./skills/tools/cn-cloud/tencent/tencentcloud-scf-expert/SKILL.md) | 腾讯云云函数SCF：Serverless函数、定时触发、事件驱动。Use when building serverless applications with Tencent Cloud Functi... |
-| [tencentcloud-trtc-expert](./skills/tools/cn-cloud/tencent/tencentcloud-trtc-expert/SKILL.md) | 腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRT... |
-| [tencentcloud-vod-expert](./skills/tools/cn-cloud/tencent/tencentcloud-vod-expert/SKILL.md) | 腾讯云VOD：视频上传、转码、播放器、防盗链。Use when building video on demand platforms. Triggers: 'VOD', '视频点播', '转码', '... |
-
-### tools/cn-cloud/volcengine (1)
-
-| Skill | Description |
-|-------|-------------|
-| [volcengine-coze-expert](./skills/tools/cn-cloud/volcengine/volcengine-coze-expert/SKILL.md) | 火山引擎扣子(Coze)专家。Use when: 创建AI智能体、配置知识库问答、设计工作流、搭建客服机器人。 Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot... |
-
-### tools/container (4)
-
-| Skill | Description |
-|-------|-------------|
-| [docker-expert](./skills/tools/container/docker-expert/SKILL.md) | Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security har... |
-| [helm-expert](./skills/tools/container/helm-expert/SKILL.md) | Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts... |
-| [istio-servicemesh-expert](./skills/tools/container/istio-servicemesh-expert/SKILL.md) | Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh securit... |
-| [kubernetes-expert](./skills/tools/container/kubernetes-expert/SKILL.md) | Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying t... |
-
-### tools/data-platform (6)
-
-| Skill | Description |
-|-------|-------------|
-| [airflow-expert](./skills/tools/data-platform/airflow-expert/SKILL.md) | Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling, dynamic mapping, branching,... |
-| [dbt-expert](./skills/tools/data-platform/dbt-expert/SKILL.md) | dbt (data build tool) expert: model design, ref/source, testing, macros, dbt Cloud, incremental mode... |
-| [flink-expert](./skills/tools/data-platform/flink-expert/SKILL.md) | Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patt... |
-| [kafka-expert](./skills/tools/data-platform/kafka-expert/SKILL.md) | Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, sche... |
-| [lakehouse-expert](./skills/tools/data-platform/lakehouse-expert/SKILL.md) | Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table forma... |
-| [spark-expert](./skills/tools/data-platform/spark-expert/SKILL.md) | Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE,... |
-
-### tools/database (7)
-
-| Skill | Description |
-|-------|-------------|
-| [clickhouse-expert](./skills/tools/database/clickhouse-expert/SKILL.md) | ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized views, and high-perfo... |
-| [duckdb-expert](./skills/tools/database/duckdb-expert/SKILL.md) | DuckDB expert for embedded OLAP analytics, Parquet/CSV querying, and high-performance analytical SQL... |
-| [elasticsearch-expert](./skills/tools/database/elasticsearch-expert/SKILL.md) | Elasticsearch expert specializing in mapping design, query DSL, aggregation analysis, and cluster ma... |
-| [mongodb-expert](./skills/tools/database/mongodb-expert/SKILL.md) | MongoDB expert for document schema design, aggregation pipelines, indexing strategies, and sharded c... |
-| [mysql-expert](./skills/tools/database/mysql-expert/SKILL.md) | MySQL expert with indexing optimization, InnoDB tuning, replication setup, and performance optimizat... |
-| [postgresql-expert](./skills/tools/database/postgresql-expert/SKILL.md) | PostgreSQL expert with advanced SQL, JSONB, indexing, performance tuning, replication, and extension... |
-| [redis-expert](./skills/tools/database/redis-expert/SKILL.md) | Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when des... |
-
-### tools/design (6)
-
-| Skill | Description |
-|-------|-------------|
-| [blender-expert](./skills/tools/design/blender-expert/SKILL.md) | Blender 3D建模：建模、材质、渲染、动画。Use when creating 3D content. Triggers: 'Blender', '3D建模', '渲染'. Works with... |
-| [canva-expert](./skills/tools/design/canva-expert/SKILL.md) | Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with:... |
-| [figma-expert](./skills/tools/design/figma-expert/SKILL.md) | Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyp... |
-| [illustrator-expert](./skills/tools/design/illustrator-expert/SKILL.md) | Illustrator矢量图形：路径、排版、图标设计。Use when creating vector graphics. Triggers: 'Illustrator', '矢量图形', '图标'.... |
-| [photoshop-expert](./skills/tools/design/photoshop-expert/SKILL.md) | Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计'.... |
-| [sketch-expert](./skills/tools/design/sketch-expert/SKILL.md) | Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design system... |
-
-### tools/engineering (2)
-
-| Skill | Description |
-|-------|-------------|
-| [ansys-expert](./skills/tools/engineering/ansys-expert/SKILL.md) | ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite elem... |
-| [matlab-expert](./skills/tools/engineering/matlab-expert/SKILL.md) | MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learnin... |
-
-### tools/engineering-simulation (4)
-
-| Skill | Description |
-|-------|-------------|
-| [abaqus-expert](./skills/tools/engineering-simulation/abaqus-expert/SKILL.md) | Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material mod... |
-| [comsol-expert](./skills/tools/engineering-simulation/comsol-expert/SKILL.md) | Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based... |
-| [labview-expert](./skills/tools/engineering-simulation/labview-expert/SKILL.md) | Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programmi... |
-| [openfoam-expert](./skills/tools/engineering-simulation/openfoam-expert/SKILL.md) | Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbule... |
-
-### tools/enterprise (4)
-
-| Skill | Description |
-|-------|-------------|
-| [salesforce-expert](./skills/tools/enterprise/salesforce-expert/SKILL.md) | Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing... |
-| [servicenow-expert](./skills/tools/enterprise/servicenow-expert/SKILL.md) | ServiceNow平台专家：ITSM核心模块配置、Flow Designer工作流自动化、GlideRecord脚本开发、ACL权限管理。Use when configuring ServiceNo... |
-| [workday-engineer](./skills/tools/enterprise/workday-expert/SKILL.md) | Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuratio... |
-| [zendesk-expert](./skills/tools/enterprise/zendesk-expert/SKILL.md) | Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works... |
-
-### tools/game-engine (2)
-
-| Skill | Description |
-|-------|-------------|
-| [unity-expert](./skills/tools/game-engine/unity-expert/SKILL.md) | Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works wit... |
-| [unreal-expert](./skills/tools/game-engine/unreal-expert/SKILL.md) | Unreal Engine expert. Use when: building gameplay systems, UE5 rendering (Nanite/Lumen), multiplayer... |
-
-### tools/iac (3)
-
-| Skill | Description |
-|-------|-------------|
-| [ansible-expert](./skills/tools/iac/ansible-expert/SKILL.md) | Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating... |
-| [pulumi-expert](./skills/tools/iac/pulumi-expert/SKILL.md) | Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC... |
-| [terraform-expert](./skills/tools/iac/terraform-expert/SKILL.md) | Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspace... |
-
-### tools/media (1)
-
-| Skill | Description |
-|-------|-------------|
-| [ffmpeg-expert](./skills/tools/media/ffmpeg-expert/SKILL.md) | Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extract... |
-
-### tools/observability (6)
-
-| Skill | Description |
-|-------|-------------|
-| [datadog-engineer](./skills/tools/observability/datadog-expert/SKILL.md) | Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog. Triggers:... |
-| [elk-stack-expert](./skills/tools/observability/elk-stack-expert/SKILL.md) | ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Trigge... |
-| [grafana-expert](./skills/tools/observability/grafana-expert/SKILL.md) | Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashb... |
-| [opentelemetry-expert](./skills/tools/observability/opentelemetry-expert/SKILL.md) | OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTe... |
-| [pagerduty-expert](./skills/tools/observability/pagerduty-expert/SKILL.md) | Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflow... |
-| [prometheus-expert](./skills/tools/observability/prometheus-expert/SKILL.md) | Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitorin... |
-
-### tools/productivity (7)
-
-| Skill | Description |
-|-------|-------------|
-| [asana-expert](./skills/tools/productivity/asana-expert/SKILL.md) | Expert Asana user for project management and team workflows. Use when managing projects, setting up... |
-| [confluence-expert](./skills/tools/productivity/confluence-expert/SKILL.md) | Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base arc... |
-| [jira-expert](./skills/tools/productivity/jira-expert/SKILL.md) | Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation... |
-| [linear-expert](./skills/tools/productivity/linear-expert/SKILL.md) | Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use... |
-| [miro-expert](./skills/tools/productivity/miro-expert/SKILL.md) | Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote wor... |
-| [notion-expert](./skills/tools/productivity/notion-expert/SKILL.md) | Notion expert: database design, template creation, API integration, team workflows, formulas, relati... |
-| [slack-bot-expert](./skills/tools/productivity/slack-bot-expert/SKILL.md) | Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, a... |
-
-### tools/scientific (3)
-
-| Skill | Description |
-|-------|-------------|
-| [latex-expert](./skills/tools/scientific/latex-expert/SKILL.md) | LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, Ti... |
-| [numpy-scipy-expert](./skills/tools/scientific/numpy-scipy-expert/SKILL.md) | NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing, optimization, interpol... |
-| [statistical-analysis-expert](./skills/tools/scientific/statistical-analysis-expert/SKILL.md) | Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothes... |
-
-### tools/security (5)
-
-| Skill | Description |
-|-------|-------------|
-| [burpsuite-expert](./skills/tools/security/burpsuite-expert/SKILL.md) | Expert-level Burp Suite skill for web application penetration testing, vulnerability scanning, and s... |
-| [container-security-expert](./skills/tools/security/container-security-expert/SKILL.md) | Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning,... |
-| [metasploit-expert](./skills/tools/security/metasploit-expert/SKILL.md) | Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-explo... |
-| [nmap-expert](./skills/tools/security/nmap-expert/SKILL.md) | Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and security a... |
-| [vault-secrets-expert](./skills/tools/security/vault-secrets-expert/SKILL.md) | HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secret... |
 
 ### transport-worker (4)
 

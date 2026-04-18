@@ -1,6 +1,6 @@
 ---
 name: aliyun-rds-starter
-kind: persona
+kind: tool-skill
 version: 1.0.0
 tags:
   - domain: tools
