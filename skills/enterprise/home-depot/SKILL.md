@@ -1,5 +1,5 @@
 ---
-name: home-depot-enterprise-skill
+name: home-depot
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Home Depot Enterprise Skill
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** 2025-03-21  
 > **Scope:** World's largest home improvement retailer strategy, operations, and customer experience

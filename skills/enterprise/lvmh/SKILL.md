@@ -1,5 +1,5 @@
 ---
-name: lvmh-brand-director
+name: lvmh
 kind: persona
 version: 1.0.0
 tags:

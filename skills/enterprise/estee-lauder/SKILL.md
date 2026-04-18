@@ -1,5 +1,5 @@
 ---
-name: estee-lauder-brand-director
+name: estee-lauder
 kind: persona
 version: 1.0.0
 tags:

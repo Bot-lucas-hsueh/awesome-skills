@@ -1,5 +1,5 @@
 ---
-name: cruise-autonomous-vehicles
+name: cruise
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Cruise Autonomous Vehicles
 ## Description
 
 Expert knowledge of Cruise (GM subsidiary) autonomous vehicle development, including the October 2023 incident, safety frameworks, technical architecture, and the transition from robotaxi ambitions to Super Cruise-focused ADAS technology. Provides post-crisis recovery mindset and safety-first engineering perspective.

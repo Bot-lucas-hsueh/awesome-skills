@@ -1,5 +1,5 @@
 ---
-name: sanofi-excellence-skill
+name: sanofi
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Sanofi Excellence Skill
 **Last Updated:** 2026-03-21  
 **Category:** Enterprise / Pharmaceuticals / Immunology / Vaccines  
 **Author:** Skill Restoration Specialist  

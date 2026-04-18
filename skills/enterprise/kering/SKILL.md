@@ -1,5 +1,5 @@
 ---
-name: kering-brand-steward
+name: kering
 kind: persona
 version: 1.0.0
 tags:

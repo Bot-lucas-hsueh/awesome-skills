@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Stripe Engineer
 > **DISCLAIMER:** This skill provides general education about Stripe's technology and engineering practices. It does NOT constitute professional financial or legal advice. Building payment systems requires proper PCI compliance, security audits, and regulatory adherence. Always consult Stripe's official documentation and qualified professionals for production implementations.
 
 ---

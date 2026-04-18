@@ -7,7 +7,7 @@
 
 **A curated library of role-based AI skills, organised by professional domain.**
 
-[![Skills](https://img.shields.io/badge/skills-841-blueviolet?style=flat-square)](./CATALOG.md)
+[![Skills](https://img.shields.io/badge/skills-943-blueviolet?style=flat-square)](./CATALOG.md)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![Pages](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml)
 
@@ -24,7 +24,7 @@
 
 ### What this is
 
-A library of **841 skill files** (`SKILL.md` + optional `references/`) covering 60 professional domains. Each skill is a role-based prompt pack — an instruction set plus reference material — designed to load into Claude Code, OpenCode, Cursor, or similar agent runtimes to give an LLM a consistent professional persona and working methodology.
+A library of **943 skill files** (`SKILL.md` + optional `references/`) covering 60 professional domains. Each skill is a role-based prompt pack — an instruction set plus reference material — designed to load into Claude Code, OpenCode, Cursor, or similar agent runtimes to give an LLM a consistent professional persona and working methodology.
 
 ### What this is NOT
 
@@ -153,7 +153,7 @@ MIT — see [LICENSE](./LICENSE).
 
 ### 项目定位
 
-按专业领域组织的 **AI Skill 库**，共 **841 个技能**，覆盖 60 个领域。每个技能是一份 `SKILL.md`（+ 可选 `references/`），本质是**角色化的提示词包**——一套系统指令加参考资料，用于在 Claude Code / OpenCode / Cursor 等 agent 运行时里给 LLM 加载稳定的专业身份和工作方法。
+按专业领域组织的 **AI Skill 库**，共 **943 个技能**，覆盖 60 个领域。每个技能是一份 `SKILL.md`（+ 可选 `references/`），本质是**角色化的提示词包**——一套系统指令加参考资料，用于在 Claude Code / OpenCode / Cursor 等 agent 运行时里给 LLM 加载稳定的专业身份和工作方法。
 
 ### 不是什么
 

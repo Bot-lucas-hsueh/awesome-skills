@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Ge Vernova
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | **EXCELLENCE 9.5/10**  
 > **Scope:** Global energy leader electrifying and decarbonizing the world  
 > **Restored:** March 2026

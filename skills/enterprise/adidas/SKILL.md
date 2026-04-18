@@ -1,5 +1,5 @@
 ---
-name: adidas-sportswear-strategist
+name: adidas
 kind: persona
 version: 1.0.0
 tags:

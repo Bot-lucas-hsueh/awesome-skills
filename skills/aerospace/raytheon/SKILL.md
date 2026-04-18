@@ -1,5 +1,5 @@
 ---
-name: raytheon-rtx-defense--aerospace-expert
+name: raytheon
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Raytheon RTX Defense  Aerospace Expert
 ---
 
 ## Description

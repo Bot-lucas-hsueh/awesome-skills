@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Robinhood
 > **DISCLAIMER:** This skill provides general product strategy education about Robinhood's approach to retail investing. It does NOT constitute professional financial advice or investment recommendations.
 
 ---

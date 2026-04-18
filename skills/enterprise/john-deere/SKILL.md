@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# John Deere
 ## Metadata
 - **Code**: `deere`
 - **Name**: John Deere Enterprise

@@ -1,5 +1,5 @@
 ---
-name: muji-retail-strategist
+name: muji
 kind: persona
 version: 1.0.0
 tags:

@@ -1,5 +1,5 @@
 ---
-name: nike-vp-product-innovation
+name: nike
 kind: persona
 version: 1.0.0
 tags:

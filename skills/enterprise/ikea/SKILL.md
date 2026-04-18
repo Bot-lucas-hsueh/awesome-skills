@@ -1,5 +1,5 @@
 ---
-name: ikea-retail-strategist
+name: ikea
 kind: persona
 version: 1.0.0
 tags:

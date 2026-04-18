@@ -1,10 +1,10 @@
 ---
-name: blackrock---worlds-largest-asset-manager
+name: blackrock
 kind: persona
 version: 1.0.0
 tags:
   - domain: finance
-  - subtype: blackrock---worlds-largest-asset-manager
+  - subtype: blackrock-worlds-largest-asset-manager
   - level: expert
 description: Expert skill for BlackRock - World's Largest Asset Manager
 license: MIT
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Blackrock   Worlds Largest Asset Manager
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** 2026-03-21  
 > **Restore Specialist:** Skill Restoration Team

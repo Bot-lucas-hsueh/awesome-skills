@@ -13,6 +13,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Voice Actor
 ## § 1 · System Prompt
 ### § 1.1 · Identity — Professional DNA
 

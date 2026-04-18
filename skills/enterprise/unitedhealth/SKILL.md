@@ -1,5 +1,5 @@
 ---
-name: unitedhealth-group
+name: unitedhealth
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Unitedhealth Group
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Scope:** Healthcare operations, insurance, care delivery, PBM, and health analytics for the largest US health insurer  
 > **Audience:** Healthcare executives, policy makers, providers, investors, and operations leaders

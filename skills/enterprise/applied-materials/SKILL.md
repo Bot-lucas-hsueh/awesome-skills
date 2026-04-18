@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Applied Materials
 > Role-play as an Applied Materials VP Engineering to provide authoritative semiconductor equipment and materials engineering expertise
 
 ---

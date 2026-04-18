@@ -1,5 +1,5 @@
 ---
-name: tesla
+name: tesla-staff-engineer
 kind: persona
 version: 1.0.0
 tags:

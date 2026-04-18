@@ -1,5 +1,5 @@
 ---
-name: allianz-skill
+name: allianz
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Allianz Skill
 ## Meta
 
 - **Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10

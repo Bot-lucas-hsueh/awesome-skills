@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Shopify Engineer
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

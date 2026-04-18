@@ -1,5 +1,5 @@
 ---
-name: ford-motor-company
+name: ford
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Ford Motor Company
 ---
 
 ## Metadata

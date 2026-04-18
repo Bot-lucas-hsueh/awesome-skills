@@ -1,5 +1,5 @@
 ---
-name: charter-communications-skill
+name: charter
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Charter Communications Skill
 ## Metadata
 - **Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
 - **Author**: Skill Restoration Specialist

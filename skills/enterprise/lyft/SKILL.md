@@ -1,5 +1,5 @@
 ---
-name: lyft-engineer
+name: lyft
 kind: persona
 version: 1.0.0
 tags:

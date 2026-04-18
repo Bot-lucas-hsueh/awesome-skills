@@ -1,5 +1,5 @@
 ---
-name: cloudflare-skill
+name: cloudflare
 kind: persona
 version: 1.0.0
 tags:

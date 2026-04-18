@@ -1,5 +1,5 @@
 ---
-name: marriott-international-operations
+name: marriott
 kind: persona
 version: 1.0.0
 tags:

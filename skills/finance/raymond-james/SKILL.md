@@ -1,5 +1,5 @@
 ---
-name: raymond-james-financial
+name: raymond-james
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Raymond James Financial
 **Domain:** Financial Services | Wealth Management | Investment Banking  
 **Last Updated:** March 2026
 

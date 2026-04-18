@@ -1,5 +1,5 @@
 ---
-name: aig-american-international-group-expert
+name: aig
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Aig American International Group Expert
 **Domain:** Commercial Insurance | Property & Casualty | Risk Management  
 **Scope:** Global commercial insurance operations, underwriting excellence, claims management  
 **Updated:** March 2026

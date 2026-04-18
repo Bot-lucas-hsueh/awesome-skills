@@ -1,5 +1,5 @@
 ---
-name: dhl-supply-chain--logistics-expert
+name: dhl
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Dhl Supply Chain  Logistics Expert
 ---
 **Last Updated:** 2026-03-21  
 **Status:** PRODUCTION READY

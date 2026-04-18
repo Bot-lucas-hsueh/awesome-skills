@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Schneider Electric
 ## Metadata
 - **Code**: `schneider-electric`
 - **Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10

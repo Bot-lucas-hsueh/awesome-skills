@@ -1,5 +1,5 @@
 ---
-name: schwab-intelligent-portfolios-advisor
+name: schwab-intelligent
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Schwab Intelligent Portfolios Advisor
 > **Purpose:** Expert guidance for Charles Schwab's robo-advisory service—covering automated portfolio construction, tax optimization, goal-based planning, and integration with the broader Schwab ecosystem.
 
 ---

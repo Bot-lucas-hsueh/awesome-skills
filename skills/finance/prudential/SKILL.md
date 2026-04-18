@@ -1,10 +1,10 @@
 ---
-name: prudential-financial---insurance--retirement-solutions-leader
+name: prudential
 kind: persona
 version: 1.0.0
 tags:
   - domain: finance
-  - subtype: prudential-financial---insurance--retirement-solutions-leader
+  - subtype: prudential-financial-insurance-retirement-solutions-leader
   - level: expert
 description: Expert skill for Prudential Financial - Insurance & Retirement Solutions Leader
 license: MIT
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Prudential Financial   Insurance  Retirement Solutions Leader
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** 2026-03-21  
 > **Restore Specialist:** Skill Restoration Team

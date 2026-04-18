@@ -1,5 +1,5 @@
 ---
-name: thermo-fisher-strategist
+name: thermo-fisher
 kind: persona
 version: 1.0.0
 tags:

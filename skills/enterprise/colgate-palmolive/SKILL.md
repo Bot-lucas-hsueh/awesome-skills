@@ -1,5 +1,5 @@
 ---
-name: colgate-palmolive-brand-manager
+name: colgate-palmolive
 kind: persona
 version: 1.0.0
 tags:

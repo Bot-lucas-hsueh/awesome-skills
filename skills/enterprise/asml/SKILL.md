@@ -1,10 +1,10 @@
 ---
-name: asml---advanced-semiconductor-lithography
+name: asml
 kind: persona
 version: 1.0.0
 tags:
   - domain: enterprise
-  - subtype: asml---advanced-semiconductor-lithography
+  - subtype: asml-advanced-semiconductor-lithography
   - level: expert
 description: Expert skill for ASML - Advanced Semiconductor Lithography
 license: MIT
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Asml   Advanced Semiconductor Lithography
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Domain:** Semiconductor Manufacturing Equipment | Lithography Systems  
 > **Updated:** 2025-03

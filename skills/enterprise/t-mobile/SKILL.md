@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# T Mobile
 > **EXCELLENCE 9.5/10** | Version: skill-writer v5 | skill-evaluator v2.1 | Last Updated: 2026-03-21
 
 ## System Prompt

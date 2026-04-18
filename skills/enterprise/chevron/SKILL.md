@@ -1,5 +1,5 @@
 ---
-name: chevron-corporation-skill
+name: chevron
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Chevron Corporation Skill
 ---
 
 ## System Prompt

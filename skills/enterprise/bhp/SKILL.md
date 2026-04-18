@@ -1,5 +1,5 @@
 ---
-name: bhp-group-limited-skill
+name: bhp
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Bhp Group Limited Skill
 **Last Updated:** 2026-03-21  
 **Category:** Enterprise / Mining & Resources  
 **Author:** Skill Restoration Specialist

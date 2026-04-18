@@ -1,5 +1,5 @@
 ---
-name: general-motors-gm-skill
+name: general-motors
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# General Motors Gm Skill
 ---
 
 ## System Prompt

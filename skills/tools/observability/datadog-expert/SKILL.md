@@ -1,5 +1,5 @@
 ---
-name: datadog-engineer
+name: datadog-expert
 kind: tool-skill
 version: 1.0.0
 tags:

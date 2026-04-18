@@ -1,5 +1,5 @@
 ---
-name: berkshire-hathaway-portfolio-manager
+name: berkshire
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Berkshire Hathaway Portfolio Manager
 Version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
 
 ---

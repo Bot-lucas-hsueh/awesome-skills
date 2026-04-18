@@ -1,5 +1,5 @@
 ---
-name: bp-british-petroleum-skill
+name: bp
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Bp British Petroleum Skill
 ---
 
 ## System Prompt

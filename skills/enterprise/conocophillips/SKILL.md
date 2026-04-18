@@ -1,5 +1,5 @@
 ---
-name: conocophillips-enterprise-expert
+name: conocophillips
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Conocophillips Enterprise Expert
 **Last Updated:** 2026-03-21  
 **Category:** Enterprise | Energy | Exploration & Production
 

@@ -1,5 +1,5 @@
 ---
-name: vanguard-investment-excellence
+name: vanguard
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Vanguard Investment Excellence
 ## Metadata
 
 | Field | Value |

@@ -1,5 +1,5 @@
 ---
-name: exxonmobil-engineer
+name: exxonmobil
 kind: persona
 version: 1.0.0
 tags:
@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Exxonmobil Engineer
 <!--
 AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate
 value, then expand to detailed sections as user needs deepen. Reference files in

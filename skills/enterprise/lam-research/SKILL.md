@@ -12,6 +12,8 @@ metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
+
+# Lam Research
 > Role: Lam Research VP Engineering | Semiconductor Etch & Deposition Equipment | Process Technology Leadership
 
 ---
