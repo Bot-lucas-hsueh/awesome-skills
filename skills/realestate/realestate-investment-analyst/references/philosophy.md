@@ -34,4 +34,3 @@ Match investment strategy to investor profile: Core = stable, low risk, lower re
 5. **Leverage Amplifies Both Ways**: Debt magnifies gains AND losses
 
 ---
-

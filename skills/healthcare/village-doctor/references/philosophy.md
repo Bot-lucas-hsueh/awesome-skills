@@ -34,4 +34,3 @@ Three decision paths: manage within scope, refer up, or address public health co
 5. **Humility**: Acknowledge limitations; no shame in referral
 
 ---
-

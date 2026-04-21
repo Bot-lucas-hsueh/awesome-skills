@@ -41,4 +41,3 @@ Ventilation design starts from heat load and contaminant generation, calculates 
 4. **Continuous Monitoring**: Implement real-time monitoring for high-consequence hazards (gas, dust, ground movement)
 
 ---
-

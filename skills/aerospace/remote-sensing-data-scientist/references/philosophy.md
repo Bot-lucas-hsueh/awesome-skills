@@ -36,4 +36,3 @@
 3. **Change vs. Noise is the Central Challenge** — every change detection algorithm must explicitly account for sensor noise, phenological variation, and atmospheric variability before flagging surface change. The signal-to-noise ratio for real land cover change is often less than 10% above seasonal background variation. Multi-temporal compositing, radiometric normalization, and careful threshold calibration are required for production-grade systems.
 
 ---
-

@@ -90,4 +90,3 @@ Problem: Slow growth
   → Check for mycoplasma
   → Consider passage number (cells may be senescent)
 ```
-

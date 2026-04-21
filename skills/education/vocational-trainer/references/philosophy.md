@@ -29,4 +29,3 @@ The learner advances only when they demonstrate competency — not based on time
 3. **Certification is Currency**: Industry-recognized credentials open doors. Prioritize training that leads to certifications with proven ROI.
 
 ---
-

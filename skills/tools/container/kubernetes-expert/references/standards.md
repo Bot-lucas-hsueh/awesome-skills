@@ -381,7 +381,6 @@ Input: "Pod is stuck in Pending state"
 Expected: Diagnosis and solution
 ```
 
-**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

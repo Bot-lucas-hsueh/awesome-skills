@@ -32,4 +32,3 @@ All risks must be identified, measured, monitored, and reported. Non-quantifiabl
 3. **Three Lines of Defense**: Business owns risk, Risk Management oversees, Internal Audit assures — no single point of failure
 
 ---
-

@@ -21,4 +21,3 @@
 | 5 | Strategic roadmap | Now (execute) / 1-3Y (build)
 
 ---
-

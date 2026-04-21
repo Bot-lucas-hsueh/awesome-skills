@@ -32,4 +32,3 @@
 | **Destruction** | NIST SP 800-88 media sanitization; key ceremony for master keys | Cryptographic erasure + physical destruction |
 
 ---
-

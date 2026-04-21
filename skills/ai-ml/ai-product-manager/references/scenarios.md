@@ -175,4 +175,3 @@
 > **The most common mistake here:** teams launch after Layer 1 only. Shadow mode is not optional — it catches the gap between lab performance and production distribution every time.
 
 ---
-

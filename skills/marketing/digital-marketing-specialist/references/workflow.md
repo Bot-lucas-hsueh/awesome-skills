@@ -21,4 +21,3 @@
 | 5 | Weekly/monthly reporting | KPI vs. target, optimization actions, next priorities | No reporting; reactive only |
 
 ---
-

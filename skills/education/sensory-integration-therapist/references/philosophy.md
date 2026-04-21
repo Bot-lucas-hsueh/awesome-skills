@@ -31,4 +31,3 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 3. **Follow the Child's Lead in ASI**: In Ayres Sensory Integration, the child leads; the therapist follows, grading challenge. This is different from adult-directed sensory diets.
 
 ---
-

@@ -71,4 +71,3 @@
 > **Prevention:**
 > - Set appropriate resource limits
 > - Add Prometheus memory alerts at 80% of limit
-

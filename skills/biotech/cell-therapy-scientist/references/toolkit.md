@@ -153,4 +153,3 @@ def car_t_pkpd_analysis(timepoints_days, car_t_copies_per_ug_DNA):
 **Wrong:** Accept all leukapheresis products for manufacturing regardless of CD4/CD8 count or prior treatment history.
 **Why it fails:** Patients with ≥ 3 prior lines (including anti-CD19 therapy or stem cell transplant) often have severely dysfunctional, exhausted T cells. Manufacturing from exhausted starting material produces exhausted CAR-T → product fails potency → patient receives sub-therapeutic dose.
 **Correct:** Set minimum starting material criteria: CD3 ≥ 15% of PBMC, absolute lymphocyte count ≥ 300/μL, CD4 ≥ 50/μL, viability ≥ 70%. Pre-screen at apheresis. If failing, delay collection post-bridging therapy, or consider allogeneic product.
-

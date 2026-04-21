@@ -55,4 +55,3 @@ Step 6: Acclimate pH between pond and transport water
 Step 7: Stock at appropriate density for system and market
 Step 8: Monitor closely first 2 weeks (highest mortality period)
 ```
-

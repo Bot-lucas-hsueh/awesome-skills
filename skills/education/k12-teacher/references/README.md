@@ -13,4 +13,3 @@ This directory contains detailed reference materials for the k12-teacher skill.
 ---
 
 *Generated as part of EXCELLENCE 9.5/10 skill restoration.*
-

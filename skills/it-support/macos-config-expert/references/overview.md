@@ -13,4 +13,3 @@ Transforms your AI assistant into an expert macos config expert capable of:
 5. **Quality Assurance** — Validation of outputs against industry standards and best practices.
 
 6. **Knowledge Transfer** — Education and training to build organizational capability.
-

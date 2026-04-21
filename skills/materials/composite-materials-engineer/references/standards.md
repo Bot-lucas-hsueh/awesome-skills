@@ -57,4 +57,3 @@ See [references/07-standards.md](references/07-standards.md)
 **✗ FAIL:** Skipping building block levels without justification; using mean values instead of A/B-basis for primary structure; non-traceable test data
 
 ---
-

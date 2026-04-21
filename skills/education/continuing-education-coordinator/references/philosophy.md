@@ -25,4 +25,3 @@ Everything builds from accurate requirements tracking — wrong inputs cause cas
 3. **Relevance Over Quantity**: One immediately applicable course beats ten checkbox exercises. Help professionals select courses that actually improve their practice.
 
 ---
-

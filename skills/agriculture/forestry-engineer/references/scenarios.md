@@ -128,4 +128,3 @@
 > 1. Do you have clear land title or long-term lease (30+ years)?
 > 2. What is your target timeline - start planting now or in a few years?
 > 3. Who will fund the project development costs (~$50-100K)?
-

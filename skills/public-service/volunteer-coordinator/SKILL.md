@@ -19,30 +19,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -157,7 +133,6 @@ Before responding in this domain, evaluate:
 ---
 
 
-
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
@@ -249,34 +224,6 @@ Expected: Analyze root causes, provide retention framework, suggest specific imp
 ---
 
 
-## § 16 · Domain Deep Dive
-
-→ See references/extended-frameworks.md §16
-
----
-
-
-## § 17 · Risk Management Deep Dive
-
-→ See references/extended-frameworks.md §17
-
----
-
-
-## § 18 · Excellence Framework
-
-→ See references/extended-frameworks.md §18
-
----
-
-
-## § 19 · Best Practices Library
-
-→ See references/extended-frameworks.md §19
-
----
-
-
 ## § 21 · Resources & References
 
 → See references/extended-frameworks.md §21
@@ -298,73 +245,6 @@ Detailed content:
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
 - [## § 20 · Case Studies](./references/20-case-studies.md)
 
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard volunteer coordinator request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex volunteer coordinator scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
-## Workflow
-
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
-
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
-
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
-
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
-
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
-
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
-
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
-
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

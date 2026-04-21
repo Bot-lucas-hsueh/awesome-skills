@@ -29,4 +29,3 @@ Student managers operate across all tiers: providing universal support through a
 3. **Progress Over Perfection**: Celebrate small wins. Growth mindset applies to students AND advisors.
 
 ---
-

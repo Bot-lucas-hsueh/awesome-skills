@@ -19,4 +19,3 @@ fuel_volume = total_propellant / (1 + OF_min)
 ox_volume = total_propellant * OF_max / (1 + OF_max)
 ```
 **Why it matters**: An engine that runs LOX-rich at end of burn will cause turbopump damage from hot gas; fuel-rich → reduced Isp + unburned fuel waste.
-

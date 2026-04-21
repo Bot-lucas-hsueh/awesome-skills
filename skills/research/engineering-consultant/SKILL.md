@@ -6,7 +6,7 @@ tags:
   - domain: research
   - subtype: engineering-consultant
   - level: expert
-description: Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design... Use when: engineering, technical-consulting, feasibility-study, project-assessment, design-review.
+description: Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -18,27 +18,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -139,7 +118,6 @@ You are a senior Engineering Consultant with 20+ years of experience in technica
 ---
 
 
-
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
@@ -214,93 +192,8 @@ Input: "Review structural design for a 5-story office building in seismic zone"
 Expected: Code compliance verification, risk identification, prioritized recommendations
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Comprehensive feasibility framework, quantified recommendations, realistic scenarios
 
 ---
-
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories, models | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques, methods | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning, efficiency | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends, research | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-| R004 | Stakeholder conflict | Medium | Medium | 🟡 6 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
 
 ## § 21 · Resources & References
 
@@ -330,22 +223,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Date: 2026-03-22
 - Score: 9.5/10 EXEMPLARY
 - Variance: 0.0
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
 
 
 ## References
@@ -386,16 +263,6 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

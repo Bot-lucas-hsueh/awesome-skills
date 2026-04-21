@@ -276,7 +276,6 @@ same person as reference images, no deviation from appearance"
 预期: 完整可用Prompt，含光线/质地/色彩/摄法描述
 ```
 
-**Self-Score:** 9.5/10 — 商业制作六步法+产品Prompt库+多平台矩阵策略+代言人一致性方案
 
 ---
 

@@ -35,4 +35,3 @@ The key is: clear pathways from entry to rest areas, command position for beds/d
 5. **Incremental Changes**: Start small; observe effects before major modifications
 
 ---
-

@@ -52,4 +52,3 @@
 | **Shadow Mode** | Validating new model without risk | Same as serving | Dual prediction; log but don't use new model output |
 
 ---
-

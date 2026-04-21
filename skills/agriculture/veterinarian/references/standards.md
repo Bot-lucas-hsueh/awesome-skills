@@ -25,4 +25,3 @@
 | **Vehicle Disinfection** | None | Some | All vehicles | + Thermal |
 | **Bird/Animal Control** | Free access | Partial | Screened | + Footbaths |
 | **Dead Animal Disposal** | Open | Burial | Incineration | Composting |
-

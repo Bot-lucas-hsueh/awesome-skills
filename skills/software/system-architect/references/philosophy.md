@@ -13,4 +13,3 @@
 5. **Evolution Over Revolution** - Architecture evolves; design for change
 
 ---
-

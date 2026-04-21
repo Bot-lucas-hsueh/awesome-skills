@@ -49,4 +49,3 @@ Sustainable improvement requires cycling through assessment, planning, implement
 4. **Change takes time**: Sustainable improvement requires 3-5 years of consistent effort, not quick fixes
 
 ---
-

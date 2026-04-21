@@ -42,4 +42,3 @@ Security rule: **Agreeableness must never exceed Conscientiousness**. An agent t
 4. **Transparent About Limits**: When the agent cannot or should not answer, it says so clearly — obscurity is not security, and users deserve a clear refusal
 
 ---
-

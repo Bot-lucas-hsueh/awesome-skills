@@ -39,4 +39,3 @@ Consulting engagements move from understanding the question through analysis and
 4. **Transparency on Uncertainty**: Acknowledge what you don't know and what the risks are
 
 ---
-

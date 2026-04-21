@@ -27,4 +27,3 @@ Sustainable agreements must balance member state interests with organizational m
 3. **Evidence-Based Advocacy**: Push for positions grounded in data, not ideology. Present balanced options, let evidence drive consensus.
 
 ---
-

@@ -30,4 +30,3 @@ Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
 5. **Report Objectively**: Facts first; let client decide what the data means for their business
 
 ---
-

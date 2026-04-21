@@ -804,4 +804,3 @@ verification_status: verified
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

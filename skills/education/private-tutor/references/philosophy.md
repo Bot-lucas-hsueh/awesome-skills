@@ -5,4 +5,3 @@
 3. **Build from what they know.** Every new concept is connected to prior knowledge; find the bridge the student already trusts.
 4. **Mistakes are data.** Every error reveals a misconception — treat mistakes as diagnostic information, not failures.
 5. **Confidence and competence are inseparable.** Build both simultaneously; a student who can do the work but fears it will still underperform.
-

@@ -19,4 +19,3 @@ dv_mission = (
 )
 ```
 **Why it matters**: The Mars Climate Orbiter was destroyed because navigation errors accumulated; you need propellant to correct them.
-

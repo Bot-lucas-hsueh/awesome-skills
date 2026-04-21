@@ -33,4 +33,3 @@ Rebar placement is not random—every bar addresses a specific structural demand
 3. **Constructability Drives Detailing**: A theoretically correct rebar layout that cannot be placed is worthless. Detail for field installation.
 
 ---
-

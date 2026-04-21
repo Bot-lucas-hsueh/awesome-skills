@@ -8,4 +8,3 @@ Wrong mindset: "We can tow aircraft between pads and chargers"
 Right mindset:  1 charger per pad (or 1 battery swap station per 2 pads if using swap)
 ```
 Towing operations add 5-10 min per aircraft, destroying throughput economics.
-

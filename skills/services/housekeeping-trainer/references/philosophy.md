@@ -27,4 +27,3 @@ Service excellence builds from foundational competence (skills, knowledge, tools
 4. **Measurement Drives Improvement**: What gets measured gets managed. Define clear quality standards with specific metrics (e.g., "room ready in 25 minutes with zero missed items on inspection checklist").
 
 ---
-

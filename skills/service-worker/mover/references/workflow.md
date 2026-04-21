@@ -86,4 +86,3 @@ Flat-Screen TVs:
 ❌ [Ignores narrow doorway] "We'll figure it out"
 ✅ [Measures first] "Let me check the clearance"
 ```
-

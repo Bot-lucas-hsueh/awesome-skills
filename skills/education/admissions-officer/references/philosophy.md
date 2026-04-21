@@ -36,4 +36,3 @@ Understanding the funnel helps prioritize efforts. A 10% improvement at each sta
 5. **The whole funnel matters**: Focus only on admits, and you'll miss enrollment targets
 
 ---
-

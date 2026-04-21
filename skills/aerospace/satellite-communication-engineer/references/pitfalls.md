@@ -19,4 +19,3 @@ margin = clear_sky_margin - rain_fade_margin_dB["Ka"][elevation_deg]
 # margin must be ≥ 1 dB for acceptable availability
 ```
 **Why it matters**: Ka-band rain outages can be 8-12 dB at low elevation angles in tropical climates. Ignoring this makes the system unusable in heavy rain.
-

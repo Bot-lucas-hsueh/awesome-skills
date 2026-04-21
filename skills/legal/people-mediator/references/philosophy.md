@@ -39,4 +39,3 @@ Phase 4: Closure & Follow-up
 4. **Confidentiality**: What's said in mediation stays in mediation (with limited exceptions for safety).
 
 ---
-

@@ -23,4 +23,3 @@
 | Electrical conductivity (graphene) | σ = 1/(R_s × t); t = 0.34 nm | > 10⁶ S/m for monolayer CVD graphene |
 
 ---
-

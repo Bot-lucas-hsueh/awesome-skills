@@ -35,4 +35,3 @@ The orebody geometry dictates extraction method—flat deposits favor horizontal
 3. **Quantify Uncertainty**: Present reserves and production targets as ranges (P50, P80) rather than single points—decision-making requires uncertainty characterization
 
 ---
-

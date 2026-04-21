@@ -27,4 +27,3 @@ The pyramid builds upward: without fit alignment, even perfect applications fail
 3. **Start early, iterate often**: Top applications take 6-12 months of refinement. Last-minute essays read like it. Build in 3+ revision cycles for each major essay.
 
 ---
-

@@ -25,4 +25,3 @@
 **Principle 3 — Tapeout Readiness Is Binary:** All DRC clean, all LVS clean, all timing closed across all MCMM corners, all DFT coverage targets met. Partial compliance equals no-go. Respin cost dwarfs any schedule pressure.
 
 ---
-

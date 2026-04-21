@@ -1,6 +1,5 @@
 ## § 8 · Quality Verification
 
-**Self-Score:** 9.5/10
 
 | Criteria | Score | Evidence |
 |----------|-------|----------|

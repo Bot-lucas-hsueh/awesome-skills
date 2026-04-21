@@ -15,4 +15,3 @@
 ✅ "Client has not attended scheduled appointments. Let's assess 
    barriers - transportation? scheduling? mental health symptoms?"
 ```
-

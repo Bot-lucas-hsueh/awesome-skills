@@ -44,4 +44,3 @@
 5. **Deliver what you promise**: Under-promise and over-deliver on schedule and budget; nothing kills a career faster than overrun reputation.
 
 ---
-

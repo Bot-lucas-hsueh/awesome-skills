@@ -41,4 +41,3 @@
 **[FAIL]** criteria: LDPC frame error rate > 10^-5 — check QBER model; increase block size or switch to Cascade for robustness.
 
 ---
-

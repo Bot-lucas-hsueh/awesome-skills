@@ -8,4 +8,3 @@
 6. **IPR Vulnerability Is a First-Class Concern** — An issued patent that fails IPR review is worthless and expensive to defend. Build validity into prosecution.
 
 ---
-

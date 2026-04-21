@@ -13,4 +13,3 @@
 3. **Map Accuracy is Only Half the Story**: A 5cm accurate map combined with 50cm localization error produces 55cm total error — worse than a 30cm accurate map with 5cm localization. Always specify the full map+localization accuracy budget together.
 
 ---
-

@@ -18,27 +18,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -140,7 +119,6 @@ Before responding in this domain, evaluate:
 ---
 
 
-
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
@@ -215,113 +193,8 @@ Input: "Our lab discovered a new antibiotic effective against resistant bacteria
 Expected: Proper press release structure; embargo compliance; news hook; accurate claims
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive workflow, real-world examples with actual text, distinction between correlation/causation, platform-specific guidance, actionable scenarios
 
 ---
-
-## § 16 · Domain Deep Dive
-
-### Science Communication Specializations
-
-| Specialization | Core Skills | Key Outlets | Notable Practitioners |
-|----------------|-------------|-------------|----------------------|
-| **News Writing** | Speed, accuracy, impact | AP, Reuters, BBC | Carl Zimmer, Ed Yong |
-| **Feature Writing** | Narrative, depth | NYT, New Yorker, Atlantic | Siddhartha Mukherjee |
-| **Explainer Writing** | Clarity, pedagogy | Vox, 538, NYT | Julia Belluz |
-| **Press Relations** | Translation, timing | University offices | Institution-specific |
-| **Social Media** | Virality, brevity | Twitter/X, TikTok | Various science communicators |
-
-### Science Writing Career Ladder
-
-| Level | Role | Experience | Income Range (US) |
-|-------|------|------------|-------------------|
-| 1 | Intern/Freelance | 0-2 years | $25K-40K |
-| 2 | Staff Writer | 2-5 years | $45K-70K |
-| 3 | Senior Writer | 5-10 years | $70K-100K |
-| 4 | Editor/Lead | 10+ years | $90K-140K |
-| 5 | Director/Principal | 15+ years | $130K-200K+ |
-
-### Field-Specific Expertise Requirements
-
-| Field | Minimum Knowledge | Critical Concepts |
-|-------|-------------------|-------------------|
-| Biomedicine | Biology 101 | RCTs, P-values, clinical significance |
-| Climate | Physics basics | Attribution, models, uncertainty |
-| Physics | Math through calculus | Statistical significance, theory vs. observation |
-| Social Science | Statistics basics | Correlation, causation, sample bias |
-
----
-
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Misrepresentation of findings | Medium | Critical | 🔴 12 |
-| R002 | Embargo violation | Low | Critical | 🔴 8 |
-| R003 | Hype creation | High | High | 🔴 12 |
-| R004 | Source misquotation | Low | High | 🟠 6 |
-
-### Risk Mitigation Strategies
-
-| Risk | Prevention | Detection | Response |
-|------|------------|-----------|----------|
-| Misrepresentation | Quote-check with sources | Expert review | Issue correction |
-| Embargo violation | Triple-check embargo time | Calendar alerts | Notify journal immediately |
-| Hype | Use cautious language | Editorial review | Revise before publication |
-| Misquotation | Record interviews | Transcription review | Correct and apologize |
-
----
-
-
-## § 18 · Excellence Framework
-
-### Award-Winning Science Writing Standards
-
-| Award | Focus | Examples |
-|-------|-------|----------|
-| **AAAS Kavli** | Excellence in reporting | Ed Yong's pandemic coverage |
-| **Pulitzer (Explanatory)** | Deep explanation | Siddhartha Mukherjee's cancer history |
-| **National Academies** | Communication | Various science journalists |
-| **Victor Cohn Prize** | Medical reporting | Outstanding medical journalists |
-
-### Excellence Metrics
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Accuracy** | No factual errors | Experts cite your reporting | Researchers ask you to cover their work |
-| **Clarity** | Readable | Memorable analogies | Readers understand complex concepts |
-| **Impact** | Shares | Changes behavior/policy | Shifts public discourse |
-| **Speed** | Meets deadline | Fast + accurate | Breaks stories with accuracy |
-
----
-
-
-## § 19 · Best Practices Library
-
-### Science Writing Best Practices
-
-| Practice | Implementation | Expected Impact |
-|----------|----------------|-----------------|
-| **Pre-publication review** | Have sources check quotes | 95% reduction in misquotation |
-| **Embargo calendar** | Track all embargoes religiously | Zero embargo violations |
-| **Source diversity** | Quote women, minorities, junior researchers | More representative coverage |
-| **Limitation inclusion** | Always include study limitations | Higher credibility scores |
-| **Effect size reporting** | Report CIs, not just p-values | More accurate public understanding |
-
-### Style Guide Convergence
-
-| Element | AP Style | AMA Style | Personal Preference |
-|---------|----------|-----------|---------------------|
-| Numbers | Spell out <10 | Numerals | Numerals for data |
-| Units | Standard | SI | SI with US equivalents |
-| Drugs | Generic | Generic | Generic (note brand) |
-| Genes | Italics | Italics | Italics |
-
----
-
 
 ## § 21 · Resources & References
 
@@ -396,39 +269,6 @@ Detailed content:
 - [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
 - [## § 20 · Case Studies](./references/20-case-studies.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard science writer request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex science writer scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

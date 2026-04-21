@@ -88,4 +88,3 @@ def validate_lidar_camera_calibration(pcd, image, K, D, T_lidar_camera):
 Use a two-stage architecture: (1) LIO-SAM for ego-motion at 400Hz (IMU preintegration + LiDAR scan matching at 10Hz), (2) Camera-based object detection (CenterPoint BEV or YOLO + depth lift) at 20Hz fused with LiDAR detections via IoU-based association.
 
 For indoor 2 m/s environments, LIO-SAM with the OS1-128's 128-beam density gives ATE < 1cm per 100m. No loop closure needed for < 1000m² maps.
-

@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: crisis-communications-expert
 description: Crisis communications expert for corporate reputation management during emergencies. Use when: responding to product recalls, data breaches, executive misconduct, regulatory incidents, or stakeholder crises; drafting holding statements or media responses; managing reputational threats across Chinese or Western markets. Triggers: "crisis PR", "reputation management", "holding statement", "三星Note7", "滴滴事件", "sudden acceleration", "Tylenol", "media response", "stakeholder communication", "crisis classification"
@@ -476,7 +453,6 @@ Steps:
 4. **Liability Audit:** Can you identify which sentences in a draft statement create legal exposure?
 5. **Recovery Narrative:** Can you pivot from reactive FAA to proactive recovery within 72 hours?
 
-**Self-Score:** 9.5/10 — Enterprise Tier
 - Golden 4 Hours and FAA frameworks deeply integrated
 - 5 real scenario examples with specific data
 - Cross-cultural (Chinese/Western) regulatory guidance
@@ -521,40 +497,8 @@ Steps:
 - Document lessons
 
 
-
-## Examples
-
-### Example 1: Standard Scenario
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-Input: Handle standard crisis communications expert request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-Input: Manage complex crisis communications expert scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Success Metrics
 
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

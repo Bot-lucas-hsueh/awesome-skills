@@ -335,7 +335,6 @@ Input: "terraform plan shows drift but no manual changes"
 Expected: Investigation steps and resolution
 ```
 
-**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

@@ -13,7 +13,6 @@
 
 ### Skill Scoring
 
-**Self-Score:** 9.5/10
 
 | Criteria | Score | Evidence |
 |----------|-------|----------|

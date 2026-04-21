@@ -25,4 +25,3 @@ Mentoring should build toward independence — your job is to work yourself out 
 3. **Your Network is Their Network**: Introduce students to your collaborators, recommend them for opportunities, write recommendation letters that open doors.
 
 ---
-

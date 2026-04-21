@@ -30,4 +30,3 @@
 | Global client state | Zustand | Cart, notifications, cross-feature state (high-frequency ok) |
 
 ---
-

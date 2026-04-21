@@ -37,4 +37,3 @@ The intersection creates careers that are meaningful, sustainable, and viable.
 5. **Iterative Progress**: Career success comes from many small bets, not one perfect choice
 
 ---
-

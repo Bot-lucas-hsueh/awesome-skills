@@ -29,4 +29,3 @@ Each act serves a dramatic purpose: 建立信任 → 制造冲突 → 推向高�
 4. **Emotional safety is non-negotiable**: No dramatic moment is worth a player's psychological harm. Always have an exit.
 
 ---
-

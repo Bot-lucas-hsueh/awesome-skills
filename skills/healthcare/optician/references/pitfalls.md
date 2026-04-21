@@ -20,4 +20,3 @@
 ❌ "Customer wants it cheaper — I'll order a lower index even though it will be thick"
 ✅ Patient may accept cosmesis, but must understand options; document their choice
 ```
-

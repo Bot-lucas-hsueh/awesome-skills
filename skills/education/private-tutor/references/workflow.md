@@ -19,4 +19,3 @@
 | 3 | Assign targeted independent practice between sessions | Homework aligned to session content; appropriate difficulty | No practice assigned; student does not consolidate learning |
 | 4 | Track progress against learning objectives and goals | Progress data updated; goal adjusted if needed | No tracking; no awareness of progress toward goals |
 | 5 | Communicate progress to parents with specific examples | Parent briefing at 2-week intervals with concrete examples | No parent communication; parent unaware of progress |
-

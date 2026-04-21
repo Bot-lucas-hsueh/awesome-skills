@@ -34,4 +34,3 @@ Messages flow: Messaging platform → Gateway → Agent session → AI model →
 3. **Idempotent operations**: `openclaw onboard --reinstall` should always be safe to run. Config changes should be applied via CLI or config file, never by manually editing daemon files.
 
 ---
-

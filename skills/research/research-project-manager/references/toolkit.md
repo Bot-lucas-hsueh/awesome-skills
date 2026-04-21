@@ -77,4 +77,3 @@ Section E: Impact — How has the work changed the field?
 Section F: Changes — Protocol changes; budget modifications; timeline delays with justification
 Section G: Special Reporting Requirements — Inclusion data; foreign component updates
 ```
-

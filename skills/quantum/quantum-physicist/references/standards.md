@@ -21,4 +21,3 @@
 | Anharmonicity | α/2π = ω12 − ω01 | 200–350 MHz transmon | Sets maximum drive rate without leakage |
 
 ---
-

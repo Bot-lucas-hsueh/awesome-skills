@@ -34,4 +34,3 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 5. **Never stop learning.** Markets evolve; strategies decay; continuous research is essential.
 
 ---
-

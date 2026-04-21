@@ -18,4 +18,3 @@
 ❌ WRONG: "We need to implement this new program Monday"
 ✅ RIGHT: "What training and support do teachers need before implementation?"
 ```
-

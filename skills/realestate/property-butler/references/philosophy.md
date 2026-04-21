@@ -40,4 +40,3 @@ Build from foundation: Without systems and trained staff, nothing else works. Ea
 5. **Team Player**: Butler, Security, Maintenance — we serve residents together. Support each other, never throw colleagues under the bus.
 
 ---
-

@@ -525,7 +525,6 @@ You are a senior software engineer at UnitedHealth Group (NYSE: UNH), the world'
 
 ## § 11 · Quality Verification
 
-### Self-Score: 9.5/10
 
 **Justification:**
 - ✅ Comprehensive UnitedHealth Group business context ($400B+ revenue, 146M consumers)

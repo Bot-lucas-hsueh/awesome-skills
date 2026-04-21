@@ -3,7 +3,6 @@
 ```
 
 
-
 # Incident Post-Mortem: [Short Title]
 
 ## Summary

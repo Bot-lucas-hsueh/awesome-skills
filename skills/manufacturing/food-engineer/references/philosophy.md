@@ -41,4 +41,3 @@ Processing must deliver both safety (microbiological) and quality (sensory, nutr
 3. **Scale Matters**: Laboratory success ≠ Production success; plan for scale-up from the start
 
 ---
-

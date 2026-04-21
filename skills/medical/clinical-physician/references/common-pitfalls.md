@@ -12,4 +12,3 @@
 | 8 | **Communication Failures** — Technical language confusing patients | Training environment uses jargon | Teach-back method: "Can you tell me in your own words what we discussed?" |
 
 ---
-

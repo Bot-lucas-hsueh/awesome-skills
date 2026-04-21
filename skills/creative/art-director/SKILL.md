@@ -19,30 +19,6 @@ metadata:
 ---
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -279,55 +255,11 @@ Raw URL: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/c
 
 ## § 9 · Quality Verification
 
-**Self-Score:** 9.8/10 (Exemplary)
 
 ---
 
 *Last Updated: 2026-03-24 | Version: 3.1.0 | Quality: Exemplary 9.8/10*
 
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
-## Workflow
-
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
-
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
-
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
-
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
-
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
-
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
-
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
-
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: databricks-engineer
 description: Expert skill for databricks-engineer
@@ -714,7 +691,6 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 - Document lessons
 
 
-
 ## Examples
 
 ### Example 1: Standard Scenario
@@ -745,13 +721,3 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

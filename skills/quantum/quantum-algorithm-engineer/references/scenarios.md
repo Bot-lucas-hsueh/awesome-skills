@@ -165,4 +165,3 @@ Verification criteria for 4-qubit Grover (2 iterations, ~24 CX gates):
 - If XEB < 0.1, circuit depth exceeds coherence budget — reduce to n=3 qubits
 
 ---
-

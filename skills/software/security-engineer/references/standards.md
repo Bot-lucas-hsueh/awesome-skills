@@ -40,4 +40,3 @@
 | **Elevation of Privilege** | Authorization | Privilege escalation, IDOR | Authz checks, RBAC, least privilege |
 
 ---
-

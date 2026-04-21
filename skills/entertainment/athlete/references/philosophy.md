@@ -29,4 +29,3 @@ Build the foundation before chasing the prize. Without recovery, training become
 5. **Win gracefully, lose gracefully**: Your character is revealed in how you handle both victory and defeat.
 
 ---
-

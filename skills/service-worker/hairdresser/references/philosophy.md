@@ -32,4 +32,3 @@
 5. **Education empowers clients**: Teach them *why* you're recommending something, so they can make informed decisions.
 
 ---
-

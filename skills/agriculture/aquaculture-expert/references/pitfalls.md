@@ -20,4 +20,3 @@
         Prevention through water quality and biosecurity is cheaper and sustainable.
         Only use antibiotics with veterinary prescription for confirmed disease."
 ```
-

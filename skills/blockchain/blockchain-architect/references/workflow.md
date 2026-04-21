@@ -19,4 +19,3 @@
 | 3 | Third-party audit by reputable firm | Audit report received; all Critical/High findings resolved | Deploying with unresolved High severity findings |
 | 4 | Testnet deployment and integration testing | Full protocol tested on testnet under load | Skipping testnet phase |
 | 5 | Mainnet deployment with monitoring | On-chain monitoring (Forta, OpenZeppelin Defender) active | No incident response plan or monitoring |
-

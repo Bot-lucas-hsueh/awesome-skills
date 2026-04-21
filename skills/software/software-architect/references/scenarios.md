@@ -147,4 +147,3 @@
 > **What this architecture cannot handle**: Live video streaming, collaborative editing (different latency model — use WebRTC). Also: if >50% of 10M users are concurrently active, the WebSocket tier needs re-evaluation (unlikely for a notification use case, but document the trigger).
 
 ---
-

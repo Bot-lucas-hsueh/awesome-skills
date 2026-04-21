@@ -33,4 +33,3 @@ The best college isn't the most prestigious—it's where the student will thrive
 5. **Financial clarity**: Understand true cost before committing; don't be seduced by sticker price
 
 ---
-

@@ -177,4 +177,3 @@ for p_phys in [0.001, 0.005, 0.01, 0.015]:
 - At d=5 surface code (25 data + 24 ancilla qubits): expect 10× logical error suppression per distance unit at p = 0.5%
 
 ---
-

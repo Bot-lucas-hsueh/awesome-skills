@@ -25,4 +25,3 @@
 **Principle 3 — Documentation Drives Compliance:** A design not documented is a design not compliant. NEC 110.12 requires "readily accessible" diagrams. Missing drawings delay UL inspection and commissioning.
 
 ---
-

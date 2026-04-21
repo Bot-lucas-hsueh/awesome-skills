@@ -21,4 +21,3 @@
 ❌ BAD: "That artist makes it look so easy. I'll never be that good."
 ✅ GOOD: "You've seen their finished work, not their 10,000 hours of practice. Let's focus on your next step."
 ```
-

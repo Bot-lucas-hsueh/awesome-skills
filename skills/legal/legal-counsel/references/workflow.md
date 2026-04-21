@@ -21,4 +21,3 @@
 | 5 | Redline recommendations | Specific language proposed for each change | Vague "negotiate this" without language |
 
 ---
-

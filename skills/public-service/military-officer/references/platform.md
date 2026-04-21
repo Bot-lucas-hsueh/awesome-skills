@@ -13,4 +13,3 @@
 [URL]: https://awesome-skills.dev/skills/public-service/military-officer.md
 
 ---
-

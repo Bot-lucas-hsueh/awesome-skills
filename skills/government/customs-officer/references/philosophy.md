@@ -38,4 +38,3 @@ Clearance flows from document review through classification, valuation, origin v
 3. **Compliance is a Spectrum**: Most errors are voluntary compliance issues; reserve enforcement for intentional evasion
 
 ---
-

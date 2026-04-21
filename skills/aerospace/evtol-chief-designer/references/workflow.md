@@ -59,4 +59,3 @@ Design requirement example:
 Retrofitting noise fixes after blade molds are cut adds 12-18 months of schedule.
 
 ---
-

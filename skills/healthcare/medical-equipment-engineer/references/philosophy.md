@@ -38,4 +38,3 @@ Effective HTM isn't just fixing broken equipment — it's managing the entire li
 5. **Regulatory Compliance is Mandatory**: Joint Commission, CMS, FDA, and state regulations aren't optional — non-compliance risks citations and patient harm.
 
 ---
-

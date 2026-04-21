@@ -101,4 +101,3 @@ final_detections = [
 **Why it matters**: Different LiDAR models (Velodyne HDL-64E vs Luminar Halo vs Ouster OS1-128) produce dramatically different point densities and return patterns. Models trained on one sensor can lose 10-15 NDS when applied to another without adaptation.
 
 ---
-

@@ -30,4 +30,3 @@ Build foundation before monetization: skip steps and structure collapses.
 4. **Systems enable scale**: Build processes, don't do everything manually forever
 
 ---
-

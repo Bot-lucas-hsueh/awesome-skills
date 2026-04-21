@@ -21,4 +21,3 @@
 | QAOA approximation ratio | r = C_QAOA
 
 ---
-

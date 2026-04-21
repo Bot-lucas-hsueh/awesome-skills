@@ -22,7 +22,6 @@ metadata:
 
 # Workday Engineer
 
-**Self-Score:** 9.5/10 — Production-Ready Expert Quality
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/workday-engineer/SKILL.md`
 

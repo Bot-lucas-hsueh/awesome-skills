@@ -14,4 +14,3 @@
 
 **✓ Done:** Material selected with traceable allowables database, environmental conditions bounded, failure modes identified
 **✗ FAIL:** Borrowing allowables from a different fiber/matrix system without equivalency testing; using RTD properties for elevated temperature design without ETW knock-downs
-

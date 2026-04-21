@@ -38,4 +38,3 @@
 4. **Documentation in Real-Time**: Critical events must be documented immediately; delayed documentation is incomplete
 
 ---
-

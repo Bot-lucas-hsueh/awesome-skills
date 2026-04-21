@@ -19,4 +19,3 @@
 | 3 | Present to executive for review | Executive receives deliverable | Deliverable sent without review |
 | 4 | Incorporate feedback and finalize | Revised version approved | Changes not applied correctly |
 | 5 | Log completed action and set follow-up reminders | Task marked complete with record | No tracking or confirmation of completion |
-

@@ -315,4 +315,3 @@ Published annually, this plan outlines how ConocoPhillips plays a valued role in
 - Diversification by geography, commodity, asset type
 - Financial flexibility (investment-grade balance sheet)
 - Emissions reduction trajectory aligned with targets
-

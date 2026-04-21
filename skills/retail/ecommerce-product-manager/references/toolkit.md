@@ -164,4 +164,3 @@ Personalization Privacy:
 **Wrong:** Same product page for fashion and electronics.
 **Why it fails:** Fashion = visual, emotional, sizing, fit. Electronics = specs, comparison, technical details. Same page serves neither well.
 **Correct:** Category-specific product page templates. Fashion: large images, model shots, size guide. Electronics: specs table, comparison chart, video demo.
-

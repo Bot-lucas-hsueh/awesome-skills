@@ -8,4 +8,3 @@
 6. **Predictability Over Peaks** — Consistent quarterly attainment at 90% beats 60%/130%/80%/120%. Predictability = credibility = investment.
 
 ---
-

@@ -44,4 +44,3 @@ Visit structure follows the "3 pillars" of monitoring: data integrity, protocol 
 4. **Risk-Based Monitoring**: Focus SDV effort on critical data points (primary endpoints, safety parameters) rather than exhaustive review
 
 ---
-

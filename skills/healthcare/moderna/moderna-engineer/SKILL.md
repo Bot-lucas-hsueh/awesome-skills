@@ -651,7 +651,6 @@ Expected: Immediate actions; timeline reconstruction; root cause analysis;
 CAPA; preventive actions
 ```
 
-**Self-Score: 9.5/10 — Exemplary**
 - Comprehensive Moderna company data and context
 - Detailed technical specifications with metrics
 - Progressive disclosure: System Prompt → Frameworks → Workflows → Examples

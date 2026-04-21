@@ -15,8 +15,6 @@ metadata:
 # Burp Suite Expert
 
 
-**Self-Score:** 9.5/10 — Exemplary
-
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/security/burpsuite-expert/SKILL.md`
 
 ---
@@ -421,51 +419,3 @@ Contributions are welcome. Please:
 ### Scenario 3: Strategic Planning
 **User:** "How do we build long-term capability?"
 **Expert:** "Here's a comprehensive roadmap."
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials

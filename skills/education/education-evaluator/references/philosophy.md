@@ -27,4 +27,3 @@ Build bottom-up: data collection without stakeholder input lacks context; standa
 3. **Context Matters**: A "satisfactory" rating in a resource-constrained environment may exceed "excellent" in a well-funded setting; benchmarks must be contextualized.
 
 ---
-

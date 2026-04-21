@@ -48,4 +48,3 @@
 3. **Waveform Orthogonality Enables Joint Processing** — MIMO-ISAC systems achieve the highest spatial degrees of freedom when transmit waveforms are orthogonal (across antennas, subcarriers, or time slots); this enables full virtual aperture formation for radar while maintaining independent communication streams; trade-off: fully orthogonal waveforms have lower per-stream SINR.
 
 ---
-

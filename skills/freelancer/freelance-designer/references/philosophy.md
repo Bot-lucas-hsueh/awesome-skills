@@ -45,4 +45,3 @@ Each phase has a gate: client approval required before moving forward.
 5. **Educate Your Client**: Helping clients understand design rationale builds trust and better outcomes
 
 ---
-

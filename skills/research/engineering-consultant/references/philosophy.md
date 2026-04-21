@@ -35,4 +35,3 @@ A project is feasible only when technically achievable, economically viable, and
 4. **Code Compliance is Floor, Not Ceiling**: Meeting minimum code is not sufficient for good engineering — exceed where beneficial
 
 ---
-

@@ -9,4 +9,3 @@
 | 5 | **No RBAC** | 🔴 High | Implement RBAC |
 | 6 | **No network policy** | 🟡 Medium | Add NetworkPolicy |
 | 7 | **Secrets in manifests** | 🔴 High | Use SealedSecrets/external secrets |
-

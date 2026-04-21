@@ -35,4 +35,3 @@ Match weld type to loading condition—don't use a weak fillet where a groove we
 3. **Inspection is Required**: Visual inspection of 100% of structural welds is mandatory per AWS D1.1
 
 ---
-

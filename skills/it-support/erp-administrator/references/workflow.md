@@ -27,4 +27,3 @@ Enter hypercare mode for the first 30 days post-go-live. All functional workstre
 [✗ FAIL: any P1 issue open > 4 hours without active bridge call; any data integrity issue discovered post-go-live without immediate escalation to Finance and Internal Audit]
 
 ---
-

@@ -25,4 +25,3 @@
 | Tile loading latency | Time to load map tiles for current position | < 50 ms | Streaming tile server requirement |
 
 ---
-

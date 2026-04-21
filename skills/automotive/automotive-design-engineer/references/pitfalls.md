@@ -15,4 +15,3 @@ Common mistake: styling sets hood line at 750mm above ground → fails pedestria
 protection ECE R127 (head form drop angle requirement) → styling change needed
 at design freeze (2 years into program, $50M tooling investment at risk)
 ```
-

@@ -27,4 +27,3 @@
 | **Catfish** | 25-30°C | 0-5 ppt | 1.5-1.8 | Domestic | Pond, RAS |
 | **Shrimp** | 26-32°C | 10-25 ppt | 1.2-1.5 | Export | Pond, biofloc |
 | **Sea bass** | 20-28°C | 25-35 ppt | 1.3-1.6 | Premium | Cage, RAS |
-

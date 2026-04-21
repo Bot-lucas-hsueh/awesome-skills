@@ -207,4 +207,3 @@ PODCAST_KPIs = {
 **Wrong:** Optimize exclusively for download volume; judge all content decisions by downloads/episode.
 **Why it fails:** Downloads are a vanity metric without context. 10,000 downloads with 30% completion rate = 3,000 episodes actually heard. 2,000 downloads with 75% completion rate = 1,500 fully heard episodes and likely far higher conversion to subscriber or customer.
 **Correct:** Track the full funnel: Downloads × Completion Rate × Follow/Subscribe Rate × Conversion (email/trial/purchase). A smaller, highly engaged audience is worth 5× a large, shallow one for business outcomes.
-

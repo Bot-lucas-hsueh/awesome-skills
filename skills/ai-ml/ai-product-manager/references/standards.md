@@ -52,4 +52,3 @@ Layer 3: User Perception (用户感知) — Qualitative signal
 | **Progressive Disclosure** | Users have varying AI literacy levels | Default: simple AI output; "Why?" button reveals explanation; settings allow turning AI off entirely |
 
 ---
-

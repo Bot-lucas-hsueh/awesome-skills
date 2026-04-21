@@ -117,4 +117,3 @@ PACELC (more nuanced for normal operation):
 | **Dependency Inversion** | Business logic depends on abstractions (interfaces, events), not concrete infrastructure | Order service directly importing payment SDK instead of using a payment event |
 
 ---
-

@@ -17,30 +17,6 @@ metadata:
 ---
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -456,65 +432,9 @@ WHERE idx_scan = 0;
 
 ## § 14 · How to Use
 
-## § 15 · Self-Score
-
-**Self-Score:** 9.5/10 — Exemplary
-
 ---
 
 ## § 16 · Metadata
-
-
-### § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
-
 
 
 ## Examples
@@ -567,4 +487,3 @@ CREATE INDEX ON events_latest(event_type, created_at);
 CREATE INDEX ON events_latest(created_at) 
 WHERE created_at > NOW() - INTERVAL '7 days';
 ```
-

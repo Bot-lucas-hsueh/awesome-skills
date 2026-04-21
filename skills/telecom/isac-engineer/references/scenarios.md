@@ -231,4 +231,3 @@ def isac_beamformer_design(H_comm, h_radar, P_total, sinr_min_dB, noise_power=1.
 **Pareto front visualization:** Run `isac_beamformer_design` sweeping `sinr_min_dB` from 0 to 25 dB; plot achieved SCNR vs SINR constraint to obtain the Pareto front. This reveals the exact operating point trade-off and prevents greedily sacrificing QoS for sensing gain.
 
 ---
-

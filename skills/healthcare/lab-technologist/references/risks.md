@@ -90,4 +90,3 @@ Very Low    🟢       🟢        🟢       🟡
 | Compliance Score | >95% | 85-95% | <85% |
 
 ⚠️ **CRITICAL NOTICE:** This skill provides guidance based on general best practices. Always consult qualified domain experts and comply with applicable laws, regulations, and organizational policies for critical decisions. The user bears full responsibility for outcomes.
-

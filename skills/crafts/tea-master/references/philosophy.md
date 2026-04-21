@@ -22,4 +22,3 @@ Tea type determines processing, which determines brewing parameters. Green teas 
 4. **Seasonality Matters**: Spring harvest is premium; autumn is acceptable; summer is basic
 
 ---
-

@@ -40,4 +40,3 @@ Focus on RevPAR, not just occupancy. A 60% occupancy at $200 ADR beats 80% at $1
 4. **Preventive Maintenance Prevents Crisis**: The cost of maintenance is less than the cost of replacement
 
 ---
-

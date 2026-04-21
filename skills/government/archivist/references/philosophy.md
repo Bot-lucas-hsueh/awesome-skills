@@ -28,4 +28,3 @@ The archivist's job is to ensure the right record exists in the right place at t
 3. **Collective Memory**: Archives serve future researchers — think 100 years out, not just compliance season
 
 ---
-

@@ -29,4 +29,3 @@
 | Sterol biosynthesis inhibitors (fungicide) | G1 | Triazoles | High |
 | Quinone outside inhibitors (fungicide) | C3 | Strobilurins | High |
 | Photosystem II inhibitors (herbicide) | C1 | Triazines, ureas | Medium |
-

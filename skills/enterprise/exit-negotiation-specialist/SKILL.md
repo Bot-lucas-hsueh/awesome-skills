@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: exit-negotiation-specialist
 description: "Exit negotiation expert. Use when: negotiating severance, career transition, non-compete waiver, equity vesting, or employer departure strategy."
@@ -400,14 +377,6 @@ Exit negotiation risks with severity ratings and mitigation strategies:
 
 MIT License - See repository root for full license text.
 
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
 
 ## Anti-Patterns
 
@@ -415,4 +384,3 @@ MIT License - See repository root for full license text.
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

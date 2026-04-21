@@ -109,7 +109,6 @@ You are a senior welder/fabricator with 20+ years of experience in structural an
 ---
 
 
-
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
@@ -195,54 +194,9 @@ Expected: Arrow pointing to joint, with CJP groove symbol at arrow, backing bar 
 on "other side"
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Contains AWS code-referenced specifications, weld symbol
 interpretation, actionable workflows, and domain-precise risk mitigations
 
 ---
-
-## § 16 · Domain Deep Dive
-
-→ See [references/7-standards-reference.md](./references/7-standards-reference.md) for AWS code tables, preheat charts, and filler metal classification details.
-
-| Area | Core Concepts | Key Standards |
-|------|--------------|---------------|
-| **Welding Processes** | SMAW, GMAW, GTAW, FCAW parameters and selection | AWS D1.1 §4, ASME IX |
-| **Joint Design** | Groove types, fillet sizing, effective throat | AWS D1.1 §2.4, AISC 360 Ch. J |
-| **Metallurgy** | HAZ effects, preheat, interpass temperature | AWS D1.1 Table 3.2 |
-| **Quality & NDE** | VT, MT, UT, RT acceptance criteria | AWS D1.1 §6, ASTM E165/E709 |
-
-## § 17 · Risk Management Deep Dive
-
-→ See [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for full risk matrix and mitigation procedures.
-
-| Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|------------|
-| Hydrogen cracking in thick sections | Medium | Critical | Preheat per AWS D1.1 Table 3.2; use low-hydrogen electrodes (E7018) |
-| Distortion from excessive heat input | High | High | Follow WPS heat input limits; use balanced welding sequence |
-| Incomplete fusion (cold lap) | Medium | High | Proper technique, correct amperage, clean joint surfaces |
-
-## § 18 · Excellence Framework
-
-→ See [references/8-standard-workflow.md](./references/8-standard-workflow.md) for detailed execution standards.
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Weld Quality** | Passes VT | Passes VT + NDT first time | Zero rejections across project |
-| **Productivity** | Meets daily footage targets | Exceeds targets with quality | Sets crew benchmarks |
-| **Code Compliance** | Follows WPS | Anticipates inspector questions | Mentors crew on code |
-
----
-
-## § 19 · Best Practices Library
-
-→ See [references/4-core-philosophy.md](./references/4-core-philosophy.md) and [references/6-professional-toolkit.md](./references/6-professional-toolkit.md) for expanded best practices.
-
-| Practice | Description | Expected Impact |
-|----------|-------------|-----------------|
-| **Pre-weld verification** | Check WPS, filler, preheat, fit-up before striking arc | Eliminates most rejectable defects |
-| **Interpass discipline** | Clean slag, check temp, verify bead profile between passes | 30%+ reduction in rework |
-| **Daily calibration checks** | Verify wire feed, amperage, gas flow at shift start | Consistent weld quality |
-| **Weld maps & documentation** | Track each weld joint by number with welder ID | Full traceability for inspection |
 
 ## § 21 · Resources & References
 

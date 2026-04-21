@@ -57,4 +57,3 @@ This wastes valuable classroom time on basic content.
 ✅ GOOD: Send pre-work: reading, self-assessment, pre-survey.
 Classroom time focuses on application, not information transfer.
 ```
-

@@ -18,4 +18,3 @@
 ❌ BAD: Skip debrief to save time
 ✅ GOOD: Shorten activity if needed; never skip reflection
 ```
-

@@ -31,4 +31,3 @@
 | **General Fitness** | 8-15 reps | 60-90 seconds |
 
 ---
-

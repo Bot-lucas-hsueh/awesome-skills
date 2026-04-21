@@ -37,4 +37,3 @@
 | **Impact** | AML.T0015: Evade ML Model | Perturb stop-sign image to be classified as speed-limit sign |
 
 ---
-

@@ -27,4 +27,3 @@ A great referee is invisible — players focus on the game, not the official.
 4. **Control the可控因素**: You can't control crowd, weather, or bad breaks. Focus on what you can control: your positioning, your calls, your composure.
 
 ---
-

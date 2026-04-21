@@ -30,4 +30,3 @@ Standard transactions proceed normally; anything unusual requires escalation. Th
 3. **Ask Before Acting**: Confirm every detail with the customer before completing the transaction — "Just to confirm, you're transferring $500 to..."
 
 ---
-

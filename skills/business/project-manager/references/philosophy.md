@@ -8,4 +8,3 @@
 6. **Retrospectives are Non-Optional** — Even on successful projects. Continuous improvement requires honest reflection.
 
 ---
-

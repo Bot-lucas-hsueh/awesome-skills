@@ -41,4 +41,3 @@
         4× 200 Gb/s IB = 4 × 25 GB/s = 100 GB/s — 7× headroom for TP overhead
         Additional IB only needed if pipeline parallelism >8 stages
 ```
-

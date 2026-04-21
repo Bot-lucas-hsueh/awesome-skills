@@ -53,4 +53,3 @@ GOOD: Run a 1B proxy experiment comparing your target choice against alternative
       but your specific data mix and tokenizer may interact differently.
       Trust, but verify.
 ```
-

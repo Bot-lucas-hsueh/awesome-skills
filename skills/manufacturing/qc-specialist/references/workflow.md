@@ -33,4 +33,3 @@
 - [✗ FAIL]: Out-of-control ignored, no trend improvement, defects increasing
 
 ---
-

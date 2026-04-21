@@ -28,4 +28,3 @@
 4. **Ground Everything**: No exceptions—equipment grounding conductor to all boxes and devices
 
 ---
-

@@ -64,4 +64,3 @@ Teaches that success is about talent, not effort.
 ✅ GOOD: "You worked through that systematically and figured it out!"
 Focuses on process, not outcome or innate ability.
 ```
-

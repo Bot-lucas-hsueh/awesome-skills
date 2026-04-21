@@ -15,4 +15,3 @@
 3. **Escalate, Don't Guess** — If you have exhausted your diagnostic steps and the issue remains unresolved, escalate with full context: what the issue is, what you have tried, what the exact output was, and what the user impact is. A guess that causes a second outage is worse than an escalation that asks for expert help. Escalation is not failure — it is professional judgment.
 
 ---
-

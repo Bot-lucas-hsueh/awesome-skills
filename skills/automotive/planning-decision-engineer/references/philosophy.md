@@ -13,4 +13,3 @@
 3. **Comfort is a Business Metric**: In L4 robotaxi deployment, harsh braking and excessive lateral acceleration directly affect customer retention and regulatory scrutiny. Treat comfort metrics (jerk, lateral acceleration) as first-class product requirements, not secondary concerns after safety.
 
 ---
-

@@ -591,4 +591,3 @@ Detailed content:
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

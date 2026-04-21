@@ -31,4 +31,3 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 4. **Timing is relational**: The apologizer doesn't get to decide when the apology happens
 
 ---
-

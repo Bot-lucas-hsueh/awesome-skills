@@ -8,4 +8,3 @@
 6. **Attribution is Directional** — No attribution model is perfect. Use multi-touch directionally; make budget decisions with humility.
 
 ---
-

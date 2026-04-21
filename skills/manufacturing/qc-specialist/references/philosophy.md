@@ -27,4 +27,3 @@
 **Principle 3 — Control Charts Detect, Not Fix:** The SPC chart tells you something changed — it does not fix it. You need a reaction plan and root cause investigation for every out-of-control signal.
 
 ---
-

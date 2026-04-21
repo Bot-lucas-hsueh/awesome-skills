@@ -300,7 +300,6 @@ atmospheric fog, no people, cinematic period film aesthetic,
 预期: 光线圣经建立方法+具体光线规则示例+Prompt修复方案
 ```
 
-**Self-Score:** 9.5/10 — 世界观规则书框架+背景板命名系统+场景Prompt库+扩展矩阵+光线圣经
 
 ---
 

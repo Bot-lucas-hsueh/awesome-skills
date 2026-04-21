@@ -25,4 +25,3 @@ A dissertation must satisfy all levels — weakness at any level is a blocking c
 3. **Defense is Earned, Not Scheduled**: A candidate ready for defense can articulate their research, defend their methods, and acknowledge limitations. Scheduling defense before this readiness is a failure of committee oversight.
 
 ---
-

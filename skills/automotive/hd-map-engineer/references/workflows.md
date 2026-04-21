@@ -36,4 +36,3 @@
 **[✗ FAIL]** criteria: Any dangling lanelet unfixed; localization accuracy > 15 cm at P95; any intersection with missing regulatory elements.
 
 ---
-

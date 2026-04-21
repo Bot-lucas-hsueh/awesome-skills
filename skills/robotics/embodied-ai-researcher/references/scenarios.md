@@ -187,4 +187,3 @@ print(f"Ours vs Baseline: z={stat:.2f}, p={pval:.4f}")
 Reviewers will specifically look for: (1) OOD generalization metrics, (2) statistical significance, (3) isolated ablations, and (4) honest failure analysis. Include a qualitative failure analysis section with video frames showing specific failure modes — this demonstrates scientific rigor and dramatically improves review scores.
 
 ---
-

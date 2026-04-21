@@ -32,4 +32,3 @@
 **Principle 3 — Qualification Is the Product:** A device datasheet value is meaningless without a test escape rate < 1 DPPM and demonstrated field reliability. Design for reliability from the first epitaxial layer, not as an afterthought.
 
 ---
-

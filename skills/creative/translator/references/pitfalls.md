@@ -71,4 +71,3 @@
 - **Why it matters:** Back-translation is the most reliable method for detecting meaning drift that looks fine in the target language. It is standard practice for clinical trial documentation and regulatory submissions.
 
 ---
-

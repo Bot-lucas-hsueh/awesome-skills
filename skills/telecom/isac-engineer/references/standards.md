@@ -34,4 +34,3 @@
 | Doppler frequency f_d | FIM_fd = (2π)² × T² × SNR (T = observation time) | CRB_fd = 3/(2π²T²SNR) |
 
 ---
-

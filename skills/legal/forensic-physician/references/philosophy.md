@@ -29,4 +29,3 @@ Manner                  Manner      GSW/Asphyxia   Investigation
 4. **Peer Review**: No opinion should leave the office without another forensic pathologist reviewing it.
 
 ---
-

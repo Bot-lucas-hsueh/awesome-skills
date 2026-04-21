@@ -34,4 +34,3 @@
 ✅ GOOD: Red-team with ≥200 prompts across ≥5 harm categories, involve external
           evaluators, report ASR per category, and commit to re-evaluation every 6 months.
 ```
-

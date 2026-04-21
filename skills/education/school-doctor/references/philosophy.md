@@ -27,4 +27,3 @@ Build from the bottom: without screening, problems go undetected; without preven
 3. **Confidentiality protects the student**: Students share sensitive information trusting it will be protected — honor that trust absolutely.
 
 ---
-

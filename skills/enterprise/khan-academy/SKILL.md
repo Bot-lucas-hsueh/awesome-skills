@@ -700,12 +700,3 @@ flowchart LR
 *Last Updated: March 2025*
 *Maintained by: Khan Academy Learning Scientist*
 *Excellence Score: 9.5/10*
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

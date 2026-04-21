@@ -850,12 +850,3 @@ Robinhood = Commission-free trading app
 ---
 
 *This skill represents Robinhood engineering practices as of March 2026. Always refer to official Robinhood documentation and regulatory filings for the latest information.*
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

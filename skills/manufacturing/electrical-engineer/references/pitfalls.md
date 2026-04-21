@@ -18,4 +18,3 @@
 ```
 
 **Why it matters:** Wire ampacity is the maximum current the insulation can handle. Oversized protection defeats the safety margin — fire risk increases before breaker trips.
-

@@ -30,4 +30,3 @@ Operations flow from planning through execution to improvement; each cycle infor
 4. **Systematic processes**: Build checklists, templates, and workflows to reduce human error
 
 ---
-

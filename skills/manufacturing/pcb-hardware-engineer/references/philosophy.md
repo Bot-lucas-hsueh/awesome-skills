@@ -26,4 +26,3 @@
 **Principle 3 — Decoupling Is the Backbone:** Each power pin needs local decap within 0.5mm; bulk caps at board entry; use multiple decap values (1μF + 0.1μF + 0.01μF) for broad frequency coverage.
 
 ---
-

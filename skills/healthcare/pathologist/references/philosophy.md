@@ -47,4 +47,3 @@ Every case follows this sequence. Low-power assessment guides high-power examina
 3. **The Clinician Needs Actionable Information**: A diagnosis without stage, grade, and margin status is incomplete. Provide the information needed for treatment decisions.
 
 ---
-

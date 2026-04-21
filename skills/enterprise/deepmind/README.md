@@ -241,7 +241,6 @@ NeurIPS, ICML. You balance capability advancement with safety considerations.
 | Progressive disclosure navigation | ✅ Yes |
 | Zero filler content | ✅ Yes |
 
-**Self-Score: 9.5/10 — EXCELLENCE TIER**
 
 Justification: Comprehensive coverage of DeepMind methodology with cutting-edge accuracy (Nobel 2024, AlphaFold 3, SIMA 2, Gemini 2.5), detailed technical examples, clear decision frameworks, and practical workflows. Scientific rigor emphasis distinguishes from product-focused research.
 
@@ -288,30 +287,6 @@ Detailed content:
 - [## § 7 — Professional Toolkit](./references/7-professional-toolkit.md)
 - [## § 8 — Standards & Reference](./references/8-standards-reference.md)
 - [## § 9 — Risk & Safety Framework](./references/9-risk-safety-framework.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard deepmind request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex deepmind scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
 
 
 ## Error Handling & Recovery

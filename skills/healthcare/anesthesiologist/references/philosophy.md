@@ -42,4 +42,3 @@ Perioperative risk is additive — a patient with CAD + COPD + CKD has multiplic
 4. **Vigilance**: The anesthetic is "done" when patient leaves PACU — never assume stability
 
 ---
-

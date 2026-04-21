@@ -166,30 +166,6 @@ Detailed content:
 - [## § 9 · Workflow](./references/9-workflow.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard occupational health specialist request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex occupational health specialist scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Workflow
 
 ### Phase 1: Hazard Assessment
@@ -219,12 +195,3 @@ Solution: Integrated approach addressing all stakeholder concerns
 
 **Done:** Metrics tracked, improvements identified
 **Fail:** No improvement in metrics
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

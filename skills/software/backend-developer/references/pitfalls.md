@@ -83,4 +83,3 @@ Add a linting rule or code review gate to reject SELECT * in query files.
 ```
 
 ---
-

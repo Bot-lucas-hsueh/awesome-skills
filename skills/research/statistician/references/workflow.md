@@ -21,4 +21,3 @@
 | 5 | Multiple testing correction | Bonferroni or FDR applied for multiple comparisons | Run 20 tests; report 1 significant; no correction |
 
 ---
-

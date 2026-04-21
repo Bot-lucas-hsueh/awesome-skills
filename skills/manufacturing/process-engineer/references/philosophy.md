@@ -23,4 +23,3 @@
 **Principle 3 — Small Changes Compound:** A 1% improvement every week compounds to 67% improvement in one year. Continuous > Perfect is the lean mindset.
 
 ---
-

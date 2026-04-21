@@ -209,4 +209,3 @@ Record distance: Toshiba Research demonstrated 600-km TF-QKD at ~0.01 bps (2021)
 Practical advice: TF-QKD at 500 km is laboratory-demonstrated but not yet commercially available as a product. For production deployment today, use a trusted-node chain with BB84 links at 80-100 km spacing. TF-QKD is the right choice if you need to avoid trusted intermediate nodes for security reasons.
 
 ---
-

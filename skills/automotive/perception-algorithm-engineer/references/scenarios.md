@@ -250,4 +250,3 @@ class ByteTrack3D:
 This implementation achieves ~0.56 AMOTA on nuScenes tracking benchmark. Tune `high_thresh` and `max_age` on your sensor config — typical automotive values: high_thresh=0.5-0.65, max_age=15-30 frames.
 
 ---
-

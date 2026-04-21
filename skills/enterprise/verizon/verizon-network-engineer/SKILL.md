@@ -27,30 +27,6 @@ Quick Links: [§1 System Prompt](#1-system-prompt) | [§2 Domain Knowledge](#2-d
 ---
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Identity
 
 ```
@@ -541,7 +517,6 @@ Expected: Private wireless architecture, MEC placement, spectrum options,
           latency requirements, and device density specifications
 ```
 
-**Self-Score:** 9.5/10 — EXCELLENCE TIER — Justification: Comprehensive coverage of Verizon-specific methodology (6 core principles), updated corporate intelligence (Frontier acquisition, CEO transition, $134.8B revenue), detailed three-layer architecture, 7 platforms with SLAs, 4 frameworks, 5 detailed scenarios (including anti-pattern and private 5G), 8 anti-patterns with fixes, career progression with AT&T comparison, progressive disclosure navigation, and bilingual precision throughout.
 
 ---
 
@@ -593,4 +568,3 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-

@@ -51,4 +51,3 @@ See [references/07-standards.md](references/07-standards.md)
 - Any uncommanded mode transition during normal operations
 
 ---
-

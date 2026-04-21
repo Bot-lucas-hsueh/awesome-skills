@@ -29,4 +29,3 @@ Policy application follows this hierarchy: National laws establish the framework
 4. **Contribution Determines Benefits**: Benefit amounts directly correlate with contribution history. No contributions = no benefits (in most cases).
 
 ---
-

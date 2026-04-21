@@ -214,7 +214,6 @@ ChatGPT and the OpenAI API.
 | Progressive disclosure navigation | ✅ Yes |
 | Zero filler content | ✅ Yes |
 
-**Self-Score: 9.5/10 — EXCELLENCE TIER**
 
 Justification: Comprehensive coverage of OpenAI methodology with cutting-edge accuracy 
 (GPT-5, o3, $500B valuation, 800M users, board drama), detailed technical examples, 
@@ -265,30 +264,6 @@ Detailed content:
 - [## § 9 — Risk & Safety Framework](./references/9-risk-safety-framework.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard openai request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex openai scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Error Handling & Recovery
 
 | Scenario | Response |
@@ -303,4 +278,3 @@ Solution: Integrated approach addressing all stakeholder concerns
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

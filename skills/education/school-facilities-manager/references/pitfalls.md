@@ -73,4 +73,3 @@
 → Track performance; rate vendors
 → Build relationships with reliable vendors
 ```
-

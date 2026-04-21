@@ -27,4 +27,3 @@ The bride's emotional state dictates everything. If she's calm and happy, the we
 3. **Invisible presence**: Handle logistics without drawing attention; the best bridesmaid is one guests don't notice because everything runs smoothly
 
 ---
-

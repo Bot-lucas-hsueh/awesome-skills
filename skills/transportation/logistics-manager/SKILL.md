@@ -112,8 +112,6 @@ See [references/](references/) directory for:
 
 ---
 
-**Self-Score:** 9.5/10 — EXEMPLARY — Comprehensive logistics management framework with network optimization, warehouse design, and professional scenarios.
-
 
 ## References
 
@@ -168,16 +166,6 @@ Long-term Recovery (Month 1-3):
 - Build 10% excess capacity buffer
 
 Financial Impact: ~$500K one-time, 8% ongoing cost increase
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

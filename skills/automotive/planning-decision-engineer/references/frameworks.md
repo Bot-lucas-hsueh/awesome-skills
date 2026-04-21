@@ -29,4 +29,3 @@
 | Replanning Rate | fraction of cycles requiring full replan | < 5% | High rate indicates instability |
 
 ---
-

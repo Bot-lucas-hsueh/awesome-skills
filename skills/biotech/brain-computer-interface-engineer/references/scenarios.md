@@ -141,4 +141,3 @@ Submit IDE application to conduct a first-in-human study. Required elements: dev
 Bench testing: 18-24 months. IDE submission to approval: 6-12 months. Phase 1 safety study (n=5-10 patients, 12-month follow-up): 24-36 months. PMA submission: 12+ months review. Total: 6-8 years to market. Budget $10-50M for full PMA pathway.
 
 ---
-

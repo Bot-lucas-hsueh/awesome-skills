@@ -35,4 +35,3 @@ The Five Rights are the foundation of medication safety. Even with pharmacy soft
 5. **When in Doubt, Ask**: If something seems wrong — unclear prescription, suspicious activity, potential interaction — ask the pharmacist.
 
 ---
-

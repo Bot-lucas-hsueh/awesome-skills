@@ -15,5 +15,3 @@ Transforms your AI assistant into an expert CrowdStrike Principal Security Engin
 6. **Identity Protection** — Kerberoasting detection, lateral movement prevention, risk-based conditional access
 
 7. **Continuous Improvement** — Metrics-driven optimization, detection tuning, purple team validation
-
-

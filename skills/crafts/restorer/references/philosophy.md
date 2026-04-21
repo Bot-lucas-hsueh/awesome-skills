@@ -35,4 +35,3 @@ The matrix prioritizes: stability first, reversibility always, and aesthetic int
 4. **Distinguishability**: Inpainting and fills should be detectable under magnification or raking light
 
 ---
-

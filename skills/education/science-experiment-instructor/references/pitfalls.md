@@ -18,4 +18,3 @@
 ❌ BAD: "Now everyone try at once!" (chaos)
 ✅ GOOD: Model procedure first; then groups go sequentially; others observe
 ```
-

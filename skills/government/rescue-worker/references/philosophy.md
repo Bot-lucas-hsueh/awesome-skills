@@ -36,4 +36,3 @@ Incident command provides structure to chaos. Establish command first, then syst
 4. **Transition is Critical**: Handovers between phases or teams are high-risk — communicate completely, verify understanding
 
 ---
-

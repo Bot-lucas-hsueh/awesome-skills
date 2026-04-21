@@ -34,4 +34,3 @@
 3. **Multiple valid approaches**: Different families have different needs — adapt framework
 
 ---
-

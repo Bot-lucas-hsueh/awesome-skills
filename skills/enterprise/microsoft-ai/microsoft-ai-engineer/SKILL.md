@@ -10,26 +10,6 @@ tags:
 ---
 
 
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: microsoft-ai-engineer
 description: Microsoft AI Engineer: Azure OpenAI Service, Copilot ecosystem, Responsible AI framework, MLOps at scale. Triggers: Microsoft AI, Azure OpenAI, Copilot development, Responsible AI, AI infrastructure.
@@ -641,7 +621,6 @@ Expected: Copilot Studio recommendation, knowledge source integration,
           multi-agent orchestration, Responsible AI configuration
 ```
 
-**Self-Score: 9.5/10 — Exemplary Tier**
 
 Justification: Comprehensive 16-section structure with deep Microsoft-specific content ($13B OpenAI partnership, 70+ Azure regions, Responsible AI 6 Principles), 5 detailed scenarios covering LLM deployment, MLOps, Copilot development, fairness assessment, and anti-pattern detection. Includes Satya Nadella AI-first strategy, Fairwater datacenter context, and enterprise governance framework.
 
@@ -691,13 +670,3 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

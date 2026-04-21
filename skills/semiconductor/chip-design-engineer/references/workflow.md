@@ -29,4 +29,3 @@
 - Freeze GDS; submit to foundry with process runset version documented
 - [✓ Done]: Zero DRC/LVS violations, WNS ≥ 0 all corners, fault coverage ≥ 99%
 - [✗ FAIL]: Any open DRC/LVS violation; timing fail in even one PVT corner
-

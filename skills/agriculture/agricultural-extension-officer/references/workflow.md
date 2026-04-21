@@ -65,4 +65,3 @@ Step 3: Follow up
   - Schedule follow-up visits
   - Document the event with photos
 ```
-

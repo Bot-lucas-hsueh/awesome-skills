@@ -123,4 +123,3 @@ STEP 3.2 — Deployment
 | 🟡 Medium | Ignoring real-time drift | Kafka + re-optimization triggers |
 
 ---
-

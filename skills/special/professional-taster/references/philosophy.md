@@ -31,4 +31,3 @@ Skipping steps loses information. Each dimension tells part of the story.
 4. **Never impose preferences**: Describe accurately; let others decide what they enjoy
 
 ---
-

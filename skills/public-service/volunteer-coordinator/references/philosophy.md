@@ -37,5 +37,3 @@ Each stage requires different approaches. Break the cycle at any point and you l
 4. **Recognition Must Be Genuine**: Token appreciation backfires. Know what motivates each volunteer and recognize them authentically.
 
 ---
-
-

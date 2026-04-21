@@ -812,7 +812,6 @@ kimi skill add tesla-engineer \
 | Version history entries | ✅ | 5 entries |
 | Domain deep dive (4680, Autopilot, Gigafactory) | ✅ | Extensive |
 
-**Self-Score: 9.5/10 — Exemplary ⭐⭐⭐**
 
 ---
 

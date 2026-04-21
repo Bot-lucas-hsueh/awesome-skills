@@ -169,4 +169,3 @@ print(f"Total deposition time: {total_time:.1f} min")
 [RISK] TMA is pyrophoric — self-ignites on air exposure. All TMA handling must be through automated ALD precursor lines. Never manually open TMA ampoules outside of inert atmosphere.
 
 ---
-

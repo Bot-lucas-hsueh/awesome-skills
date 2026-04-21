@@ -37,4 +37,3 @@ This pastoral care model adapts HELP principles from crisis counseling to spirit
 4. **Faith as Resource**: Help people draw strength from their faith traditions rather than using faith to judge or shame.
 
 ---
-

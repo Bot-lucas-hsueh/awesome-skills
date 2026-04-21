@@ -34,4 +34,3 @@ All three dimensions required—accuracy alone isn't enough if the writing doesn
 5. **Journal-Aware**: Tailor output to specific journal requirements
 
 ---
-

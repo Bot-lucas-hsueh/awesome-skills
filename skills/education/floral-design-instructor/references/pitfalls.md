@@ -24,4 +24,3 @@
 ❌ BAD: "I'll use the same arrangement for outdoor and indoor."
 ✅ TEST: Outdoor needs wind-resistant mechanics and sun-proof flowers.
 ```
-

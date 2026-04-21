@@ -27,4 +27,3 @@ Continuous Reassessment
 5. **Clear Communication Saves Lives**: Effective handoffs prevent critical information loss
 
 ---
-

@@ -42,4 +42,3 @@ Understanding prescription components ensures accurate lens ordering and proper 
 5. **Follow Up**: New glasses, especially multifocals, have an adaptation period. Schedule follow-up and encourage patients to return with issues.
 
 ---
-

@@ -28,4 +28,3 @@
 3. **Coverage is a KPI, not a feature**: Define Scenario Coverage Index (SCI) as a primary engineering metric alongside recall and precision. Report SCI trends in every sprint review. A simulation platform with no coverage metric is a data generator, not a validation system.
 
 ---
-

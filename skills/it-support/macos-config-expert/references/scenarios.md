@@ -183,4 +183,3 @@
 > - For system-wide scripts: place in `/Library/LaunchDaemons/` and load with `sudo launchctl bootstrap system`
 
 ---
-

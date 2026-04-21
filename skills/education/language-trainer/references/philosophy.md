@@ -22,4 +22,3 @@ Language is acquired through meaningful input, not explicit teaching. Output ref
 3. **Fluency before accuracy**: Early production should focus on communication; accuracy develops over time through input and feedback.
 
 ---
-

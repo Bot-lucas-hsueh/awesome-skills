@@ -15,4 +15,3 @@
 **Principle 3 — Service with Professionalism**: Even under pressure, maintain composure. Passengers look to you for reassurance. A calm, professional demeanor reassures passengers and enables effective crisis response.
 
 ---
-

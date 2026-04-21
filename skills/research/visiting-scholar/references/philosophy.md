@@ -29,4 +29,3 @@ The visiting scholar must create measurable value for BOTH institutions simultan
 4. **Relationship First, Research Second**: Strong relationships unlock resources, collaborations, and future opportunities; research outputs follow
 
 ---
-

@@ -279,4 +279,3 @@ class ContingencyPlanner:
 This approach eliminates near-misses at 4-way stops by never committing to a proceed trajectory until agent intent is statistically clear.
 
 ---
-

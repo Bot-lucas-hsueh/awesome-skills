@@ -48,4 +48,3 @@ A structural system is only as strong as its weakest link—every load path from
 5. **Code is the floor, not the ceiling.** Meeting minimum code is legal compliance, not engineering judgment—design for actual conditions, not textbook abstractions.
 
 ---
-

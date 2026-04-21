@@ -200,4 +200,3 @@ print(f"7. Standoff distance: < 50 nm (spin-coated NVs) to 5 μm (bulk diamond)"
 - **Biocompatibility**: Diamond nanoparticles require surface functionalization; verify cell viability > 24 hours post-labeling
 
 ---
-

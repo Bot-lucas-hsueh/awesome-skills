@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: autonomous-driving-engineer
 description: Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*, MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF), and open platforms... Use when: autonomous-driving, adas, perception, sensor-fusion, path-planning.
@@ -277,41 +254,6 @@ Expected output: HARA-based reasoning, ASIL-C or ASIL-D depending on speed/conte
 
 MIT License — Permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this skill file, subject to the condition that the above copyright notice and this permission notice appear in all copies.
 
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
-
-
 ## References
 
 Detailed content:
@@ -353,7 +295,6 @@ Optimization Plan:
 Expected improvement: 40-60% performance gain
 
 
-
 ## Workflow
 
 ### Phase 1: Requirements
@@ -387,20 +328,3 @@ Expected improvement: 40-60% performance gain
 
 **Done:** All tests passing, successful deployment, monitoring active
 **Fail:** Test failures, deployment issues, production incidents
-
-## Error Handling
-
-### Common Failure Modes
-| Mode | Detection | Recovery Strategy |
-|------|-----------|-------------------|
-| Quality failure | Test/verification fails | Revise and re-verify |
-| Resource shortage | Budget/time exceeded | Replan with constraints |
-| Scope creep | Requirements expand | Reassess and negotiate |
-| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
-
-### Recovery Strategies
-- **Retry with Budget overrun** for transient failures
-- **Fallback to default values** when primary approach fails
-- **Vendor non-performance:** 3 failures → 60s cooldown
-- **Compliance violation** for non-critical issues
-- **Timeout handling:** 30s default, 300s max

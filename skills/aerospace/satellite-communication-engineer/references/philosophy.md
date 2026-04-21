@@ -24,4 +24,3 @@ SPACE SEGMENT                    GROUND SEGMENT
 3. **Ground Segment Defines System Economics**: Satellite hardware is the glamorous part; ground segment (gateways, terminals, OSS/BSS) is 60-70% of system cost and the determinant of commercial success
 
 ---
-

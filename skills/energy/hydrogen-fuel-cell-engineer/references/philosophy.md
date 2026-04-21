@@ -35,4 +35,3 @@ Optimization Levers:
 4. **Fuel Purity Determines Lifetime**: CO at 10 ppm can cause 50% voltage loss—specify and maintain hydrogen purity
 
 ---
-

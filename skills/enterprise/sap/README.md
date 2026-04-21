@@ -863,4 +863,3 @@ Joule represents SAP's strategic shift to agentic AI, capable of influencing 80%
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

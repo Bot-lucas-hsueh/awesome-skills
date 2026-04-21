@@ -19,4 +19,3 @@
 ❌ BAD: "My parents pushed me to study abroad."
 ✅ GOOD: "After my gap year teaching math in rural Peru, I realized education access varies dramatically by geography. This inspired my interest in comparative education policy."
 ```
-

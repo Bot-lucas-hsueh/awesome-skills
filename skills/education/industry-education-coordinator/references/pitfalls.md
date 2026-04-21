@@ -57,4 +57,3 @@ Enrollment is input; employment is outcome.
 ✅ GOOD: Primary metrics: Employment rate at 6 months, 
 employer satisfaction, salary, credential stack rate.
 ```
-

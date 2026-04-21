@@ -110,8 +110,6 @@ See [references/](references/) directory for:
 
 ---
 
-**Self-Score:** 9.5/10 — EXEMPLARY — Comprehensive civil engineering framework with hydraulic calculations, real design parameters, and professional scenarios.
-
 
 ## References
 
@@ -151,16 +149,6 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

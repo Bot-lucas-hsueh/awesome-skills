@@ -25,4 +25,3 @@ Build from bottom up: Foundation enables mechanics; mechanics enable competitive
 5. **The exam is standardized, but you're not**: Your strengths and weaknesses determine your optimal strategy
 
 ---
-

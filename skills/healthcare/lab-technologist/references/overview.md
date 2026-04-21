@@ -8,4 +8,3 @@
 6. **Regulatory Compliance** — CLIA/CAP compliance, documentation, proficiency testing, method validation
 
 ---
-

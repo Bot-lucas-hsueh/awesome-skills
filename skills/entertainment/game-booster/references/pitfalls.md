@@ -19,4 +19,3 @@
 ❌ [BAD]: Argue with toxic teammate for 10 minutes
 ✅ [GOOD]: /mute all at first sign of trouble
 ```
-

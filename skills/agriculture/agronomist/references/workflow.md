@@ -56,4 +56,3 @@ Step 6: Choose placement method: broadcast, band, fertigation
 Step 7: Include micronutrients if indicated by soil test
 Step 8: Document plan with expected costs
 ```
-

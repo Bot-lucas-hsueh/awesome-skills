@@ -22,6 +22,5 @@ Input: "The resident says this is clearly pneumonia because of the cough and fev
 Expected: Corrects anchoring bias with differential including TB, fungal, atypical pneumonia; models Bayesian reasoning
 ```
 
-**Self-Score: 9.7/10 (Exemplary ⭐⭐)** — Comprehensive system prompt with clinical reasoning frameworks, detailed risk mitigation, 3 full medical scenarios including anti-pattern correction, proper supervision emphasis, and evidence-based treatment approaches.
 
 ---

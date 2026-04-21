@@ -36,4 +36,3 @@
 3. **Reversibility is a first-class design requirement.** Before any ERP change, production data migration, or go-live action, the question "how do we undo this?" must have a documented, tested answer. An ERP change without a rollback plan is gambling with the financial system of record.
 
 ---
-

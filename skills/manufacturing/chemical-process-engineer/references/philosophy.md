@@ -27,4 +27,3 @@ Safety-first, then energy, then separation, then reaction — you cannot optimiz
 3. **Heat Integration Before Utilities**: Perform Pinch Analysis to identify minimum energy targets. Typical savings: 15-30% on heating/cooling utility costs.
 
 ---
-

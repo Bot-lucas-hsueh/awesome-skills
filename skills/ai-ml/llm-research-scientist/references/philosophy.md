@@ -13,4 +13,3 @@
 5. **Scale Changes Everything** — Behaviors that hold at 1B parameters may not hold at 70B; always validate at target scale.
 
 ---
-

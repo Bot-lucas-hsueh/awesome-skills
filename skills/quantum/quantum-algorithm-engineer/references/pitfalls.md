@@ -154,4 +154,3 @@ QV is a marketing-friendly single number; engineering decisions need more detail
 **Why it matters**: QV is widely misquoted. A QV 512 device is still limited to shallow circuits; Shor's algorithm requires millions of fault-tolerant gates. Know what the benchmark actually measures.
 
 ---
-

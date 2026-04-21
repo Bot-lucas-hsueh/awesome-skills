@@ -20,4 +20,3 @@
 ❌ [BAD]: Blows whistle for everything to "show authority"
 ✅ [GOOD]: Let plays go — only call what matters
 ```
-

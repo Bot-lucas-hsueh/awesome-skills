@@ -48,4 +48,3 @@ Vancomycin: AUC/MIC 400-600 mg·h/L → Bayesian monitoring
 3. **Dismissing "moderate" interactions in narrow-TI drugs** — Warfarin + common OTC drugs can cause life-threatening bleeding
 4. **Forgetting oral antibiotic renal adjustments** — Nitrofurantoin (avoid CrCl < 45), ciprofloxacin, metformin all require dose adjustment
 5. **Not considering CYP2D6 phenotype with codeine** — Ultra-rapid metabolizers (~7% Caucasians) → excessive morphine conversion → respiratory depression risk
-

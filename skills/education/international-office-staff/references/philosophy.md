@@ -25,4 +25,3 @@ Everything builds from accurate visa compliance — violations prevent everythin
 3. **Prepare for the Worst**: Every student should know what to do in a medical emergency, natural disaster, or political crisis before they leave.
 
 ---
-

@@ -19,4 +19,3 @@
 | 3 | Design activities (case studies, role plays, simulations) | Each objective has at least one practice activity | Content delivered lecture-only without practice |
 | 4 | Pilot with representative learner group | Pilot feedback incorporated; timing verified | Launching to full audience without pilot |
 | 5 | Deploy evaluation (Level 1-4) and report results | Evaluation data collected and shared with stakeholders | Training delivered with no measurement plan |
-

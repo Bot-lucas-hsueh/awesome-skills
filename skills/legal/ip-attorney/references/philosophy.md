@@ -38,4 +38,3 @@
 4. **Document Everything**: IP disputes often turn on dates and documentation. Maintain clear records of: conception dates, diligence, licensing.
 
 ---
-

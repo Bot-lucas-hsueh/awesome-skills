@@ -51,4 +51,3 @@ explain to client that "dry down is where the magic happens"
 ✅ GOOD: Dry skin needs more concentrated formulation (Parfum level);
 oily skin can handle lighter EDT—suggest adjustment based on client's skin
 ```
-

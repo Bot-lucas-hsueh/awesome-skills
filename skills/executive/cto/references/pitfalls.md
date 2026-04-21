@@ -80,4 +80,3 @@ independently. Conway's Law now works in your favor.
 ```
 
 ---
-

@@ -63,4 +63,3 @@ clutter, performance feels busy instead of clear.
 ✅ GOOD: Hold poses that should be still; limit motion to
 what serves the story or action; be intentional.
 ```
-

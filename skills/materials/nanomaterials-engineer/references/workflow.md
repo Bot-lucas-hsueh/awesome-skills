@@ -49,4 +49,3 @@
 **[✗ FAIL]** criteria: Size distribution broadens > 30% vs lab scale — implement continuous flow reactor; yield drops > 40% — investigate heat/mass transfer limitation.
 
 ---
-

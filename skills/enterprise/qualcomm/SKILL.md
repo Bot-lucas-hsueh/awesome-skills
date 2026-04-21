@@ -615,49 +615,9 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 *This skill represents Qualcomm's strategic position as of March 2025 based on FY2025 financial results and Q4 2025 earnings data.*
 
 
-## Examples
-
-### Example 1: Standard Scenario
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-Input: Handle standard qualcomm expert request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-Input: Manage complex qualcomm expert scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

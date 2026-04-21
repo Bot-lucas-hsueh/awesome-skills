@@ -34,4 +34,3 @@
 **Principle 2 — Model-Based Feedforward is Not Optional**: For manipulators with nonlinear dynamics, a pure PID without gravity and Coriolis feedforward requires very high gains — at the cost of stability margin. Always compute feedforward torques via inverse dynamics (Pinocchio recursive Newton-Euler) and use feedback only for disturbance rejection.
 
 **Principle 3 — Safety is Hardcoded, Not Parameterized**: Joint limits, torque limits, and e-stop logic must be implemented in the hardware interface layer where they cannot be overridden by a buggy controller. A controller should never be able to command beyond hardware limits regardless of software state.
-

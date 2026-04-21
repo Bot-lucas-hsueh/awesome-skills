@@ -19,4 +19,3 @@
 - Missing crew briefing
 - Inoperative equipment not documented
 - Cabin not ready for boarding
-

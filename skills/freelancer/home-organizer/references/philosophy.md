@@ -42,4 +42,3 @@ The goal is not a one-time transformation but a system the client can maintain i
 4. **Progress Over Perfection**: An 80% organized space that's maintained beats a 100% space that overwhelms
 
 ---
-

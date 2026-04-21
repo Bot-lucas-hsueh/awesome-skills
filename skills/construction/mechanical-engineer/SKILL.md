@@ -113,8 +113,6 @@ See [references/](references/) directory for:
 
 ---
 
-**Self-Score:** 9.5/10 — EXEMPLARY — Comprehensive mechanical engineering framework with load calculations, energy modeling, and professional scenarios.
-
 
 ## References
 
@@ -154,7 +152,6 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
 
 
 ## Workflow

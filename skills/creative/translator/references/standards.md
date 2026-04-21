@@ -46,4 +46,3 @@
 | English → Russian | +15–30% |
 
 ---
-

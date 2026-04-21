@@ -103,4 +103,3 @@ Classic plateau — let's diagnose systematically using the diagnostic decision 
 ```
 
 **Most likely fix:** Overexpress `dxs` + `idi` (IPP isomerase) — together typically yields 20–50 mg/L without other changes.
-

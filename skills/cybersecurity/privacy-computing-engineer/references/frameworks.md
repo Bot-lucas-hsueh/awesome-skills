@@ -40,4 +40,3 @@ DPIA procedures, and data subject rights workflows.
 | Noise Multiplier (DP-SGD) | sigma | sigma >= 0.5 for meaningful privacy | Tune with privacy accountant, not heuristics |
 
 ---
-

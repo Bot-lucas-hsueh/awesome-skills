@@ -26,4 +26,3 @@ Decision path: Start with field size → determine scale → select HP class →
 4. **Operating Parameters Trump Equipment Age**: A well-maintained 15-year-old 100HP tractor outperforms a neglected 5-year-old machine — emphasize condition over model year
 
 ---
-

@@ -20,4 +20,3 @@
 ❌ 52 characters in one line for Netflix
 ✅ Split: "The government has announced new regulations
 ```
-

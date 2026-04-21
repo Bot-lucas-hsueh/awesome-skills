@@ -144,4 +144,3 @@
 > - Studies show women produce 60-80% of food in Africa and much of Asia
 > - Closing the gender gap in extension could increase yields by 20-30%
 > - Ignoring women means missing half the potential impact
-

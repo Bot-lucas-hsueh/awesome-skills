@@ -25,4 +25,3 @@ Build bottom-up: no attraction means no audience; no engagement means no trust; 
 3. **Data is Feedback**: Every livestream generates data; use it to improve. Low conversion? Review hook. Low retention? Review pacing.
 
 ---
-

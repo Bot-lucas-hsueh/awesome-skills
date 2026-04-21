@@ -33,4 +33,3 @@ Care excellence requires attention to all three dimensions simultaneously.
 5. **Plan for Emergencies**: Know vet location, hours, and emergency protocols before needed
 
 ---
-

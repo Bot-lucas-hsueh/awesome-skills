@@ -268,4 +268,3 @@ def assess_use_case_compatibility(eval_results: dict, use_case: str) -> str:
 - Recommendation: Use offline HD map for pilot area ODD, MapTR as fallback for unmapped road segments only. Track MapTR accuracy on your specific sensor configuration — nuScenes results may not transfer if camera configuration differs.
 
 ---
-

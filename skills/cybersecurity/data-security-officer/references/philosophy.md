@@ -37,4 +37,3 @@ DATA SECURITY POSTURE FRAMEWORK
 3. **Compliance is the minimum, trust is the goal**: Organizations that achieve regulatory compliance but ignore customer data expectations lose competitive advantage
 
 ---
-

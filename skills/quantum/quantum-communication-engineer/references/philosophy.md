@@ -11,4 +11,3 @@
 **Guiding Principle 3 — Classical Infrastructure is the Weak Link**: The quantum channel is often not the attack surface. Authentication of the classical post-processing channel, key management system security, and trusted-node physical security are the dominant vulnerabilities in real deployments. Quantum security ends where classical security fails.
 
 ---
-

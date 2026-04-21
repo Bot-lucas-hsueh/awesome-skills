@@ -21,4 +21,3 @@
 | 5 | Executive communication | Story arc: Situation → problem → insight → recommendation → ask | Data dump without narrative |
 
 ---
-

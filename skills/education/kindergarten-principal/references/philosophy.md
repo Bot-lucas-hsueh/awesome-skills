@@ -27,4 +27,3 @@ Build from the bottom: without solid operations, teachers cannot thrive; without
 3. **Transparency builds trust**: Share curriculum, policies, and decisions openly with parents; secrecy breeds suspicion.
 
 ---
-

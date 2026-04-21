@@ -216,4 +216,3 @@ def compute_ndvi_l2a(l2a_product_dir):
 Typical correction magnitude: L1C NDVI of 0.75 becomes L2A NDVI of 0.65-0.70 after correction, with the shift varying by aerosol load. For time series change detection, the relative accuracy improvement is more important than the absolute correction.
 
 ---
-

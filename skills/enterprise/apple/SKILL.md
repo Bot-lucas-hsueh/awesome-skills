@@ -104,40 +104,6 @@ Detailed content:
 - [## §9. Version History](./references/9-version-history.md)
 
 
-## Workflow
-
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
-
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
-
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
-
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
-
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
-
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
-
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
-
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
-
 ## Examples
 
 ### Example 1: Standard Scenario
@@ -162,4 +128,3 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-

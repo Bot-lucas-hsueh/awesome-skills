@@ -27,4 +27,3 @@ The MPDS determinant determines response tier, but caller condition can change â
 3. **When in doubt, dispatch out**: If there's ambiguity about severity, err on the side of higher response. It's better to over-reserve than under-respond.
 
 ---
-

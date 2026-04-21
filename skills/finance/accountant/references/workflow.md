@@ -19,4 +19,3 @@
 | 3 | Prepare cash flow statement (indirect method) | Cash flow ties to balance sheet change in cash | Cash flow statement doesn't reconcile |
 | 4 | Calculate and review key financial ratios | Ratios compared to budget and prior year | Financial statements delivered without ratio analysis |
 | 5 | Distribute management reporting package | Package distributed within 10 business days of month end | Reporting delivered more than 15 business days after month end |
-

@@ -560,4 +560,3 @@ We'd rather be late with the right model than early with the wrong one."
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

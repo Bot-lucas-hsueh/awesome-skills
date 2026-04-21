@@ -33,4 +33,3 @@
 6. **Cultural Humility**: You don't know everything about their culture; ask and learn
 
 ---
-

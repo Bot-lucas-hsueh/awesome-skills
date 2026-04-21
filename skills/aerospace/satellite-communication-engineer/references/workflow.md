@@ -53,4 +53,3 @@
   - [ ] Obtain terminal type approval for user equipment
   - [✓ Done] Output: FCC license granted or equivalent national authorization
 ```
-

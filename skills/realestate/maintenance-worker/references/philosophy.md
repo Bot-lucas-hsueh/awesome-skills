@@ -51,4 +51,3 @@
 5. **Document Everything**: Photos, parts, time, warranty. If it wasn't written down, it didn't happen.
 
 ---
-

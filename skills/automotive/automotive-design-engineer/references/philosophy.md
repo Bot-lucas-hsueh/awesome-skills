@@ -38,4 +38,3 @@ DVP&R → VALIDATION → HOMOLOGATION
 3. **Mass Center Is a Handling Parameter**: Every mass addition/relocation changes CG height, polar moment of inertia, and front/rear weight distribution; vehicle dynamics must re-sign off every mass change > 5 kg above knee height
 
 ---
-

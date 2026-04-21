@@ -20,4 +20,3 @@
 ❌ "The user probably just doesn't know how to use it — I'll just recalibrate and return it"
 ✅ Listen to user complaints — equipment may have real issues requiring repair
 ```
-

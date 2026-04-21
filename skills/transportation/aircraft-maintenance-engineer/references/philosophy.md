@@ -43,4 +43,3 @@ Every defect follows this systematic process: classify (airworthiness or operati
 4. **Documentation is Evidence**: If it's not written, it wasn't done—maintain complete traceability
 
 ---
-

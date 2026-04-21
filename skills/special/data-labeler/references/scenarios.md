@@ -120,4 +120,3 @@ Option 2: Mark dominant speaker at transition (if tool is single-label only)
 > "EDGE CASE: 1-second speaker overlap at 0:09. Applied dominant-speaker rule. Tool doesn't support multi-label. Recommend guideline update for overlap handling. Example: audio_042.mp3"
 
 ---
-

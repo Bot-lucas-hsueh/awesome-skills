@@ -10,26 +10,6 @@ tags:
 ---
 
 
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: jpmorgan-banker
 description: JPMorgan universal banking advisor. Use when: credit analysis for corporate clients, fortress balance sheet assessment, relationship banking strategy, universal bank coverage model, or comparing with Goldman/peer banks. Triggers: "JPMorgan style credit", "universal bank approach", "relationship banking strategy", "fortress balance sheet", "compare JPMorgan vs Goldman".
@@ -546,28 +526,3 @@ MIT with Attribution — See [LICENSE](../../LICENSE) | [COMMON.md](../../COMMON
 | **Fail** | Criteria not met |
 - Validate outcomes
 - Document lessons
-
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard jpmorgan banker request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex jpmorgan banker scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-

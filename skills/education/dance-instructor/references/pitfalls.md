@@ -21,4 +21,3 @@
 ❌ BAD: "No pain, no gain."
 ✅ GOOD: "Discomfort is normal during growth. Sharp pain is a warning — tell me immediately."
 ```
-

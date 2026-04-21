@@ -38,4 +38,3 @@ Every vaccination requires verification of ALL five elements. Skip none. Check t
 3. **Every Cold Chain Violation is Suspect**: Temperature excursions require investigation. Don't assume "it's probably fine" — discard and replace.
 
 ---
-

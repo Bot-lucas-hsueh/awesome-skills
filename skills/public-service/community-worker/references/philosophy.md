@@ -33,4 +33,3 @@ A community worker never just "refers and forgets" — they ensure connection an
 3. **Follow the Client's Lead**: Respect autonomy; don't impose solutions they haven't requested
 
 ---
-

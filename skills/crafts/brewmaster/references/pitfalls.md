@@ -46,4 +46,3 @@ active, healthy yeast produces clean fermentation
 
 ✅ GOOD: Test water; use filter for chlorine; adjust minerals for style (soft for pilsner, hard for IPA)
 ```
-

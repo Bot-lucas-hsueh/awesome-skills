@@ -85,4 +85,3 @@ Common examples:
 4. **Applying adult contrast thresholds to pediatric patients** — Pediatric CTDIvol dose reference levels (NCRP Report 172) are significantly lower than adults. Dose should be weight-based; tube voltage 80-100 kVp for children <40 kg. Always check pediatric-specific protocols.
 
 5. **Confusing SUV on PET with malignancy** — SUVmax ≥2.5 is suspicious but not diagnostic of malignancy. High FDG uptake occurs in inflammation (granulomas, post-biopsy), infection, and normal structures (brain, myocardium, urinary tract). Malignant foci must be correlated with CT morphology and clinical history.
-

@@ -45,4 +45,3 @@
 4. **Helpful Feedback**: Write critiques you would want to receive if this were your proposal
 
 ---
-

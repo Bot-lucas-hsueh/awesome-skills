@@ -25,4 +25,3 @@ Build from bottom: Strong Level 1 enables Level 2; Level 2 enables Level 3; Leve
 5. **Manager support is critical**: Without manager reinforcement, behavior change fails
 
 ---
-

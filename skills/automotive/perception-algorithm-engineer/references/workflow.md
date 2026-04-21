@@ -33,4 +33,3 @@
 - [✗ FAIL] Any known failure mode without documented mitigation; pedestrian recall < 98%.
 
 ---
-

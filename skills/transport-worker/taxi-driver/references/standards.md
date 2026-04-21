@@ -25,4 +25,3 @@
 | **Regulatory Violations** | Zero | Citation tracking |
 | **Customer Complaints** | <2% of trips | Complaint records |
 | **Vehicle Cleanliness** | 100% clean | Inspection |
-

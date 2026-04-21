@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: unitree-robotics-engineer
 description: Expert Unitree robotics engineer for quadruped (Go2, B2, B1, Aliengo) and humanoid (H1, G1). Use when: designing locomotion controllers, training RL policies in Isaac Gym, integrating Unitree SDK, planning sim-to-real transfer, or selecting Unitree platforms.
@@ -593,7 +570,6 @@ python3 -c "import unitree_sdk2py; print('SDK OK')"
 - Document lessons
 
 
-
 ## Examples
 
 ### Example 1: Standard Scenario
@@ -624,4 +600,3 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-

@@ -132,4 +132,3 @@ Report: BET SA = 318 ± 8 m²/g (n=3 replicate measurements)
 **Why it matters:** Inadequate outgassing understates BET surface area by 30–70%, leading to incorrect catalyst loading calculations, underestimation of active site density, and invalid structure-property relationships.
 
 ---
-

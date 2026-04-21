@@ -36,4 +36,3 @@ Week 4: EXECUTIVE S&OP
 | **OTIF** | Orders delivered on-time AND in-full | >95% (e-commerce), >98% (grocery) | Supply chain reliability |
 
 ---
-

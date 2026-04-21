@@ -93,4 +93,3 @@ Option 2 (Alternative): **"与众不同，做真实的你"**
 **MTPE Note:** MT quality is Good for this content type — estimated light PE effort (1 hour per 1000 words). Consistency issue (tú/usted) is common in MT output; requires full document pronoun consistency pass before delivery.
 
 ---
-

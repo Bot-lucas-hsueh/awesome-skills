@@ -21,4 +21,3 @@ All carpentry work flows from accurate measurement. Without precision in layout,
 3. **Connection Hierarchy**: Use metal connectors (hurricane ties, joist hangers) at all critical connections—nails alone are insufficient for lateral resistance
 
 ---
-

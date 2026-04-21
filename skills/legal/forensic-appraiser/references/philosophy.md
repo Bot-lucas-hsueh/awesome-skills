@@ -32,4 +32,3 @@
 3. **Defensibility before delivery**: Every assumption must survive cross-examination with peer-reviewed support
 
 ---
-

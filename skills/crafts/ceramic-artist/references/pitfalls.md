@@ -48,4 +48,3 @@ porcelain cracks easily
 ✅ GOOD: Allow kiln to cool naturally to 100°C before opening; faster cooling
 can be done after 200°C but with risk
 ```
-

@@ -56,4 +56,3 @@
 **[✗ FAIL]** criteria: L10 < 10,000h requires bearing size increase or load reduction. Sealing design leaks in IP test simulation — redesign seal groove geometry. Wall thickness below minimum DFM requirement — add material or change material to Al7075 from Al6061 for strength retention at thinner section.
 
 ---
-

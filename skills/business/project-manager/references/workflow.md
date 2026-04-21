@@ -21,4 +21,3 @@
 | 5 | Issue escalation | Blockers at PM authority limit escalated within 48 hours | PM holds blockers hoping self-resolution |
 
 ---
-

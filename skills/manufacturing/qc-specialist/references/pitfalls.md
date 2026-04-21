@@ -194,4 +194,3 @@ Supplier Data Verification:
 **Why it matters:** Supplier capability is an assertion, not a fact. Verify with incoming inspection and ongoing monitoring.
 
 ---
-

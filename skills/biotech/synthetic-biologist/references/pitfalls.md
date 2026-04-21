@@ -40,4 +40,3 @@
 ❌ **BAD:** Using colistin or meropenem resistance as plasmid selection marker "because they're available in the freezer."
 
 ✅ **GOOD:** Use ampicillin, kanamycin, or chloramphenicol for standard lab work. For industrial strains, use auxotrophic markers (ΔtrpC + trpC plasmid) or non-antibiotic selection (sucrose sensitivity via sacB).
-

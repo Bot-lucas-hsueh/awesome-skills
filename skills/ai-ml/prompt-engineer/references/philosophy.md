@@ -13,4 +13,3 @@
 5. **Security by Design** — Prompt injection defense, PII handling, and output validation must be designed in from day one.
 
 ---
-

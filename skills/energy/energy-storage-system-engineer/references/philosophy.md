@@ -39,4 +39,3 @@ The safety framework moves from application requirements → chemistry selection
 4. **Life-Cycle Economics**: Design for 10,000+ cycles at 80% DoD; calculate LCOS including O&M, replacement, and decommissioning costs
 
 ---
-

@@ -55,8 +55,6 @@ Expected:
 - Use muzzle if proceeding
 - May need to refuse and refer to aggressive dog specialist
 - Never risk a bite
-
-Self-Score: 9.5/10 — Exemplary
 ```
 
 ## 14. Version History

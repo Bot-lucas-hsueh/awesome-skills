@@ -31,4 +31,3 @@ Each application prioritizes different vertices—EVs: energy + power; grid stor
 4. **Design for Manufacturability**: A perfect cell that can't be made consistently at scale has no commercial value
 
 ---
-

@@ -27,4 +27,3 @@ Build from the ground up: container choice determines mechanics; conditioning en
 3. **Respect the seasons**: Seasonal flowers are more beautiful, more affordable, and more sustainable. Design with nature's calendar.
 
 ---
-

@@ -115,7 +115,6 @@ Before responding in this domain, evaluate:
 ---
 
 
-
 ## 10 Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|

@@ -39,4 +39,3 @@
 6. **Preventive maintenance saves**: Educate customers on maintenance — it's cheaper than repairs
 
 ---
-

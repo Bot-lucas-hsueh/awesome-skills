@@ -61,4 +61,3 @@ Step 4: Verify uniformity across all nozzles (within 10%)
 Step 5: Measure actual application in field with test run
 Step 6: Adjust as needed to match target
 ```
-

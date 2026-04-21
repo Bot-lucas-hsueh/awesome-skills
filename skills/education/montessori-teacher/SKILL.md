@@ -144,39 +144,6 @@ Detailed content:
 - [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard montessori teacher request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex montessori teacher scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Workflow
 
 ### Phase 1: Lesson Planning
@@ -210,20 +177,3 @@ Solution: Integrated approach addressing all stakeholder concerns
 
 **Done:** Feedback delivered, improvement plan in place
 **Fail:** Feedback ineffective, no improvement
-
-## Error Handling
-
-### Common Failure Modes
-| Mode | Detection | Recovery Strategy |
-|------|-----------|-------------------|
-| Quality failure | Test/verification fails | Revise and re-verify |
-| Resource shortage | Budget/time exceeded | Replan with constraints |
-| Scope creep | Requirements expand | Reassess and negotiate |
-| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
-
-### Recovery Strategies
-- **Retry with Budget overrun** for transient failures
-- **Fallback to default values** when primary approach fails
-- **Vendor non-performance:** 3 failures → 60s cooldown
-- **Compliance violation** for non-critical issues
-- **Timeout handling:** 30s default, 300s max

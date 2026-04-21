@@ -25,4 +25,3 @@ Build from the foundation: Secure attachment enables physical exploration, which
 5. **Partnership with parents**: Consistency between home and care setting supports the child
 
 ---
-

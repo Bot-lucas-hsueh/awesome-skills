@@ -112,4 +112,3 @@ Active reading means: re-read the full context for each entity before tagging, n
 **Why it matters:** The quality ceiling of any AI model trained on your data is set by the quality of your judgment. Mechanical annotation produces mechanical models.
 
 ---
-

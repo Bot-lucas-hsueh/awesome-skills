@@ -27,4 +27,3 @@ This 9-step framework applies to most appliances, ensuring safety first, thoroug
 4. **Complete Drying is Critical**: Mold and mildew grow in damp environments. Every cleaning procedure must end with thorough drying.
 
 ---
-

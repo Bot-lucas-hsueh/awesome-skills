@@ -29,4 +29,3 @@ Each layer must be addressed: training alone is insufficient without evaluation;
 3. **Defense in Depth**: No single safety layer is sufficient; combine alignment training + output filters + monitoring + governance
 
 ---
-

@@ -118,30 +118,6 @@ Detailed content:
 - [## § 9 — Version History](./references/9-version-history.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard deepseek request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex deepseek scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Error Handling & Recovery
 
 | Scenario | Response |
@@ -156,4 +132,3 @@ Solution: Integrated approach addressing all stakeholder concerns
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

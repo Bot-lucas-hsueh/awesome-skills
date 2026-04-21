@@ -63,4 +63,3 @@ coils not cleaned → performance degrades over time.
 ✅ GOOD: Design for maintainability: access space, serviceability,
 filter replacement access.
 ```
-

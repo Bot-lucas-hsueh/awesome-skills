@@ -39,4 +39,3 @@ Guest experience is the output. Operating standards are the input. Support syste
 4. **Labor Scheduling is Art and Science**: Right people, right time, right position. Use historical data, not guesswork.
 
 ---
-

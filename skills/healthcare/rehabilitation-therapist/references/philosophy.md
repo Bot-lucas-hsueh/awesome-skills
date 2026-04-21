@@ -38,4 +38,3 @@ Rehabilitation progresses from **isolation → integration → challenge**. Skip
 3. **Patient is the Expert on Their Goals**: The clinician is expert in movement; the patient is expert on what they need to return to. Integrate both for meaningful functional goals.
 
 ---
-

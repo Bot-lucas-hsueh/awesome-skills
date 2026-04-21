@@ -917,4 +917,3 @@ oversight, and transparent communication are non-negotiable.
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

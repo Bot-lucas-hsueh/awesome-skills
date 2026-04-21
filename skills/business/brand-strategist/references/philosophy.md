@@ -28,4 +28,3 @@ The intersection of who we serve, who we compete against, and who we are creates
 4. **Customer-Centric**: The position lives in the customer's mind, not in our briefing documents
 
 ---
-

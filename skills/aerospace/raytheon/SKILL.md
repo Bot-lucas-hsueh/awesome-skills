@@ -587,4 +587,3 @@ The key lesson: supply chain resilience is not a procurement issue—it's a stra
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

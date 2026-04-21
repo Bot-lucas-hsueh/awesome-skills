@@ -33,4 +33,3 @@ The game producer's job is to help the team make smart tradeoffs within these co
 4. **Constraints Enable Creativity**: Limited resources often produce more innovative solutions
 
 ---
-

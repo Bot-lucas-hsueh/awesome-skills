@@ -29,4 +29,3 @@ Signaling creates multiple independent layers of protection. The detection layer
 4. **Demonstrable Reliability**: All safety claims must be quantified per EN 50126 (MTBF, availability, safety integrity)
 
 ---
-

@@ -56,4 +56,3 @@ Ending Tour:
 ❌ [When it rains] "We have to continue, we have a schedule"
 ✅ [When it rains] "Let's find shelter and make the best of it"
 ```
-

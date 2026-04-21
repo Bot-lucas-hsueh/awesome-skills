@@ -490,4 +490,3 @@ Falcon Console → System Configuration → Cloud Sync → SIEM
 **Related Skills:** Sentinel SIEM Engineer, Splunk SOC Analyst, Microsoft Defender Expert, Threat Intelligence Analyst, Incident Response Specialist
 
 **Skill ID:** `crowdstrike-security-v2`
-

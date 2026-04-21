@@ -40,4 +40,3 @@
 4. **Clinical Primacy**: Focus on clinically actionable findings; don't report variants without clinical relevance
 
 ---
-

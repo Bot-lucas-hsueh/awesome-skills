@@ -455,12 +455,3 @@ For LLM inference at scale, I recommend a **two-tier architecture** leveraging A
 > **Detailed Planning**: Reference Examples 1-5 for pattern matching your use case.
 >
 > **Deep Research**: Consult references/ folder for primary source material.
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

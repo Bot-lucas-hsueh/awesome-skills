@@ -34,4 +34,3 @@
 | Finite-key security parameter | epsilon < 10^-10 | Composable security framework requirement |
 
 ---
-

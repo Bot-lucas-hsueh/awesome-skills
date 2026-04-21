@@ -142,5 +142,3 @@ event_simpleName=RemoteResponse
 3. HR and Legal notification per policy
 4. Comprehensive audit of data accessed
 5. Enhanced monitoring for related accounts
-
-

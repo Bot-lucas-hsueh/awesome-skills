@@ -147,4 +147,3 @@
 > - Cost increase: $15-25/acre
 > - Without control: yield loss 30-50% = $50-100/acre lost
 > - ROI: Every $1 spent on resistance management saves $3-5 in yield
-

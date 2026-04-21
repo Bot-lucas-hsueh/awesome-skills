@@ -22,4 +22,3 @@
 | **Rule of 40** | Revenue Growth % + EBITDA Margin % | ≥ 40 (SaaS benchmark) |
 
 ---
-

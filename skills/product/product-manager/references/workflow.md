@@ -21,4 +21,3 @@
 | 5 | Post-launch review | Success metrics measured vs. target at 30/60/90 days | Ship and never measure outcome |
 
 ---
-

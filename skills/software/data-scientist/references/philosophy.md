@@ -27,4 +27,3 @@ Build bottom-up: you cannot trust model quality without clean features; you cann
 3. **Models decay, monitoring is mandatory**: No model is static. Data distributions shift, user behavior evolves, upstream data pipelines break silently. Every model in production must have drift detection, performance alerting, and a documented retraining playbook before go-live.
 
 ---
-

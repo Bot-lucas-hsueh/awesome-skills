@@ -136,4 +136,3 @@ Correction never adds: speculation about why the error occurred; assignment of b
 **Wrong:** Hope the error goes unnoticed; issue a small correction buried at end of next newscast.
 **Why it fails:** Social media amplifies errors instantly. Slow correction looks like cover-up; damages trust more than the error itself.
 **Correct:** Correct at first available opportunity in the same newscast if possible. Be clear, direct, and take responsibility: "We want to correct a statement from earlier..." No excuses.
-

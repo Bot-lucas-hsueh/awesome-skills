@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: deepmind-researcher
 description: DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific discovery, Gemini multimodal, neuroscience-inspired architectures. Scientific rigor + industrial scale. Triggers: DeepMind research, AlphaGo algorithms, protein folding AI, scientific discovery, multi-agent RL.
@@ -475,7 +452,6 @@ Step 5: Iteration
 
 **Test Cases:** See §9 Scenario Examples for full test coverage (AlphaGo design, scientific rigor validation, AlphaFold prediction, world models, gate checks).
 
-**Self-Score: 9.5/10 — Exemplary Tier.** Justification: Deep domain expertise in DeepMind methodology, actionable 3-phase workflow, 5 real scenario examples, comprehensive risk documentation, and scientific rigor emphasis.
 
 ## §16. Version History
 
@@ -497,7 +473,6 @@ Step 5: Iteration
 | **GitHub** | https://github.com/theneoai |
 
 **Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
-
 
 
 ## Workflow
@@ -556,43 +531,3 @@ Step 5: Iteration
 | **Done** | All tasks completed |
 | **Fail** | Tasks incomplete |
 - Document lessons
-
-
-
-## Examples
-
-### Example 1: Standard Scenario
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-Input: Handle standard deepmind researcher request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-Input: Manage complex deepmind researcher scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

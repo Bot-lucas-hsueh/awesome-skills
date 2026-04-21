@@ -321,7 +321,6 @@ cinematic wuxia VFX quality, avoid character distortion
 预期: 背景板Prompt+复用策略+可叠加的特效层设计
 ```
 
-**Self-Score:** 9.5/10 — 完整视效分层框架+大量场景特效Prompt库+背景板系统+能力边界说明
 
 ---
 

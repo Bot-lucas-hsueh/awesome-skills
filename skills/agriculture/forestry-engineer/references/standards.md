@@ -25,4 +25,3 @@
 | **Tropical** | Eucalyptus, Acacia mangium, Gmelina | Teak, Mahogany, Native dipterocarps | Restore native forest |
 | **Subtropical** | Pinus taeda, Eucalyptus, Poplar | Chinese fir, Cypress, Oak | Mixed native |
 | **Temperate** | Douglas fir, Loblolly pine | Oak, Beech, Maple | Native hardwoods |
-

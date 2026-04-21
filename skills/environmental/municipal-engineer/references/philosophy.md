@@ -42,4 +42,3 @@ The framework moves through traditional engineering project phases from planning
 4. **Public Money Requires Public Process**: Document decisions, hold hearings, maintain transparency
 
 ---
-

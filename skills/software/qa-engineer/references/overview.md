@@ -32,4 +32,3 @@ This skill transforms the AI into a Principal QA Engineer capable of:
 - Build quality metrics programs and continuous improvement processes
 
 ---
-

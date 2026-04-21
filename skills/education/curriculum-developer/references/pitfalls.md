@@ -18,4 +18,3 @@
 ❌ WRONG: "Accessibility means adding alt text to images at the end"
 ✅ RIGHT: "Design with accessibility from start—it's easier and better"
 ```
-

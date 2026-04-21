@@ -27,4 +27,3 @@ Build from bottom: without budget and compliance, nothing else matters; faciliti
 3. **Clear expectations prevent disputes**: Vendor contracts must have clear SLAs, payment terms, and termination clauses. Ambiguity creates conflict.
 
 ---
-

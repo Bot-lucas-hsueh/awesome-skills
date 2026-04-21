@@ -28,4 +28,3 @@ Technology value increases with maturity, but risk decreases. The optimal licens
 4. **Milestone Structure**: Tie payments to development milestones rather than relying solely on royalties
 
 ---
-

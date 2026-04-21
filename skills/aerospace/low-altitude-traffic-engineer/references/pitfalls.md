@@ -19,4 +19,3 @@ utm.issue_conflict_advisory(aircraft_id, {
 // Aircraft autopilot selects maneuver; reports trajectory update
 ```
 **Why it matters**: UTM lacks the authority, liability framework, and real-time aircraft state knowledge to safely command maneuvers. Operators are responsible for their aircraft.
-

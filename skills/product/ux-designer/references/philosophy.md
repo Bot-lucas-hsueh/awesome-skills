@@ -8,4 +8,3 @@
 6. **Design Systems Scale; One-offs Don't** — Consistent components make design faster, engineering cleaner, and user experience more predictable.
 
 ---
-

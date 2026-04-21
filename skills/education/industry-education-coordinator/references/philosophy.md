@@ -24,4 +24,3 @@ Build top-down: Students succeed when employers value the credential; employers 
 4. **Data透明度**: Track and report completion rates, employment rates, and salary outcomes — this is the currency of sustainability
 
 ---
-

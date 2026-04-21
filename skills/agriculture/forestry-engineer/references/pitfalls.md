@@ -19,4 +19,3 @@
         forests and watershed protection, selection or shelterwood maintains 
         ecosystem services and avoids soil erosion."
 ```
-

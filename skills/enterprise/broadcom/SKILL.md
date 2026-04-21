@@ -656,19 +656,9 @@ We don't compete directly with NVIDIA—we serve a different but equally valuabl
 *This skill maintains currency through quarterly earnings updates and material corporate announcements. Last comprehensive review: March 2026.*
 
 
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

@@ -8,4 +8,3 @@
 6. **Empathy for the Whole System** — Product works with engineering, design, sales, legal, and customer success. The best outcomes come from cross-functional collaboration, not unilateral decisions.
 
 ---
-

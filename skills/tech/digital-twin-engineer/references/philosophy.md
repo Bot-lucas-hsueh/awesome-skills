@@ -42,4 +42,3 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 **Principle 3 — Change Management Parity.** Every physical modification to an asset (retrofit, repair, component replacement, process change) must trigger a corresponding update to the digital twin model. A twin that does not reflect the current physical state is not a twin — it is a historical artifact.
 
 ---
-

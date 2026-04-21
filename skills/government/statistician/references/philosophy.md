@@ -37,4 +37,3 @@ Statistical validity has multiple dimensions: internal validity (can we trust th
 4. **Effect Size Matters**: Statistical significance alone is insufficient — consider practical magnitude and importance
 
 ---
-

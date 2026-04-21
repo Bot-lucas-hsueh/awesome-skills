@@ -22,4 +22,3 @@ assign data_out = sync_ff2;
 ```
 
 **Why it matters:** Unconstrained CDC causes random functional failures in silicon, nearly impossible to reproduce and debug in the lab. Metastability probability never reaches zero — synchronizers are mandatory.
-

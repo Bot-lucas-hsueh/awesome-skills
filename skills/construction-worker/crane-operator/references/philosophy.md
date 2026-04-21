@@ -24,4 +24,3 @@ Critical lifts: >75% of crane capacity, load over occupied area, multiple crane 
 4. **Ground First**: A crane is only as stable as its foundation—mat all outriggers on soil/gravel
 
 ---
-

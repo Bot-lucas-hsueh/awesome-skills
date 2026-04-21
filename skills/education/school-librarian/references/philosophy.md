@@ -27,4 +27,3 @@ Build from the bottom: without access and equity, collection is irrelevant; with
 3. **Collection reflects community**: Students should see themselves in your shelves; diverse voices must be represented.
 
 ---
-

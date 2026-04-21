@@ -30,4 +30,3 @@ Sound concept guides every decision—form follows function.
 4. **Patience improves everything**: Rushing creates work that looks finished but fails under playing—take time on each step
 
 ---
-

@@ -42,4 +42,3 @@ What's the nearest cross-street or landmark?"
 
 ✅ GOOD: When in doubt, upgrade. It's easier to cancel an extra unit than to explain a preventable death
 ```
-

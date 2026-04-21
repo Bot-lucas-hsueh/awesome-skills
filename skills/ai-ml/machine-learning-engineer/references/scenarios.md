@@ -341,4 +341,3 @@
 > **Expected outcome:** Model deployment time from 2 days (manual notebook run + manual deploy) to 45 minutes (automated pipeline + registry + canary). Incident MTTD for model degradation from "months" to < 4 hours.
 
 ---
-

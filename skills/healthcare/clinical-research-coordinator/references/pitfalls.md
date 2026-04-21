@@ -44,4 +44,3 @@ document in writing with justification; update consent if eligibility changes
 ✅ GOOD: 100% SDV for critical data points (primary endpoints, safety); 10-20% 
 SDV for other data per monitoring plan
 ```
-

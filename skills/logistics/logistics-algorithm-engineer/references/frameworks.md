@@ -28,4 +28,3 @@
 | **Solver Runtime** | Wall-clock seconds to produce solution | Batch: <10 min; Tactical: <5 min; Real-time: <1 sec | Log p50/p95/p99; alert on p99 > 3× p50 |
 
 ---
-

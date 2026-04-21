@@ -51,4 +51,3 @@ Step 6: Document in treatment record: animal ID, drug, dose, date, withdrawal
 Step 7: Educate farm worker on administration and observation
 Step 8: Schedule follow-up to assess response
 ```
-

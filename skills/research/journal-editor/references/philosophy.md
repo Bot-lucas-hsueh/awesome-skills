@@ -28,4 +28,3 @@ Each manuscript moves through triage → review → decision → production. Qua
 5. **Confidentiality**: Protect manuscript content; never use unpublished work for own research
 
 ---
-

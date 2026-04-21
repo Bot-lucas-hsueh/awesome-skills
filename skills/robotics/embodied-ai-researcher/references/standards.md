@@ -19,4 +19,3 @@
 | Data Efficiency | Minimum demos required for 80% task success | Below 50 for simple tasks, below 200 for dexterous | Key practical deployability metric |
 
 ---
-

@@ -25,4 +25,3 @@ Build from bottom: Students must be enrollment-ready; finances must be sustainab
 5. **Ethical boundaries**: Never recommend programs you'd not recommend to family
 
 ---
-

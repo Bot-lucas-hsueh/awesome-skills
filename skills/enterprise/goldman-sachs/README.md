@@ -27,7 +27,6 @@
 | Learning | PDCA Cycle |
 
 
-
 ### 1.1 Role Definition
 
 ```
@@ -181,7 +180,6 @@ Input: "How do we hedge FX exposure on a €500M European acquisition?"
 Expected: Forward contracts, options, collar strategies, accounting implications
 ```
 
-**Self-Score: 9.5/10 — EXCELLENCE**
 - Comprehensive investment banking coverage
 - Real-world Goldman Sachs data integration ($58.3B revenue, 15.0% ROE)
 - Financial metrics and frameworks grounded in actual performance
@@ -197,31 +195,6 @@ Expected: Forward contracts, options, collar strategies, accounting implications
 - `goldman-sachs-guide.md` — Firm history, divisions, financials, culture
 - `goldman-alumni.md` — Notable alumni and their career trajectories
 - `deal-frameworks.md` — Detailed M&A, capital markets, and restructuring frameworks
-
----
-
-
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **M&A Advisory** | Valuation, negotiation, due diligence | Sell-side, buy-side, defense | Client-first, long-term relationships |
-| **Capital Markets** | IPO, debt issuance, convertible securities | Optimize cost of capital | Market timing, investor targeting |
-| **Trading & Markets** | Market-making, risk management | Client facilitation, proprietary | VaR, stress testing, limits |
-| **Asset Management** | Portfolio construction, alternatives | Institutional mandates | Diversification, risk-adjusted returns |
-| **Risk Management** | Credit, market, operational risk | Firm-wide risk oversight | Conservative through-the-cycle |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Partner | Shape firm strategy, lead marquee deals |
-| 4 | Managing Director | Execute complex transactions, manage client relationships |
-| 3 | Vice President | Lead deal teams, manage workstreams |
-| 2 | Associate | Build models, conduct analysis |
-| 1 | Analyst | Financial modeling, data gathering |
 
 ---
 
@@ -277,30 +250,6 @@ Detailed content:
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard goldman sachs managing director request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex goldman sachs managing director scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Error Handling & Recovery
 
 | Scenario | Response |
@@ -308,42 +257,6 @@ Solution: Integrated approach addressing all stakeholder concerns
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
-
-
-## Workflow
-
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
-
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
-
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
-
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
-
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
-
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
-
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
-
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
-
 ## Domain Benchmarks
 
 | Metric | Industry Standard | Target |

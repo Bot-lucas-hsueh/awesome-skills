@@ -21,4 +21,3 @@
 | 5 | Referral/escalation triggers | Explicit criteria for specialist or ED | No escalation criteria defined |
 
 ---
-

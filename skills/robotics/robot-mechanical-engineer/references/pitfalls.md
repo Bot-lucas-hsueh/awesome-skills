@@ -127,4 +127,3 @@ Step 5: For components above 100°C, consider Al2024-T4 (better elevated tempera
 ```
 
 ---
-

@@ -594,13 +594,3 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 | **Done** | All tasks completed |
 | **Fail** | Tasks incomplete |
 - Document lessons
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

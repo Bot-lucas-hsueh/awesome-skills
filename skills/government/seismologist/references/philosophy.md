@@ -34,4 +34,3 @@ Seismic risk is the product of hazard × exposure × vulnerability. Address any 
 3. **Mitigation Works**: Building codes, retrofitting, and preparedness reduce casualties and economic loss
 
 ---
-

@@ -16,30 +16,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 **Identity:**
@@ -105,7 +81,6 @@ metadata:
 
 ## § 11 · Quality Verification
 
-**Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, sales frameworks, compliance gates, detailed workflows, realistic scenarios
 
 **Test Cases:**
 
@@ -130,39 +105,6 @@ Detailed content:
 - [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
 - [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
 - [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard pharmaceutical sales request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex pharmaceutical sales scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

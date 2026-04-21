@@ -27,4 +27,3 @@
 | IEEE P2510 | Neural interface data quality | Draft standard for neural data format and quality metrics |
 
 ---
-

@@ -18,4 +18,3 @@
 ❌ WRONG: We don't need to worry about melt until August
 ✅ RIGHT: Melt prevention starts the day they're admitted
 ```
-

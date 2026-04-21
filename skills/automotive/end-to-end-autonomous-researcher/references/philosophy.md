@@ -38,4 +38,3 @@
 3. **Interpretability Through Structure** — prefer architectures with structured intermediate representations (object queries with 3D anchors, lane graph queries, occupancy voxel grids) over fully implicit black-box mappings. Structured outputs enable safety monitoring and failure mode analysis.
 
 ---
-

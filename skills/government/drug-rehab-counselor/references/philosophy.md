@@ -34,4 +34,3 @@ Recovery-oriented systems emphasize hope, person-driven goals, holistic care, an
 4. **Language Matters**: Words shape perception. Use person-first, non-stigmatizing language.
 
 ---
-

@@ -29,4 +29,3 @@ The NPC is the heartbeat of the room — pacing, guiding, and making the experie
 5. **Leave them wanting more**: End on a high note — make them want to come back and bring friends.
 
 ---
-

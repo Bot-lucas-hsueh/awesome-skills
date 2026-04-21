@@ -48,4 +48,3 @@ The principal diagnosis drives DRG assignment — it must be the condition estab
 4. **CC/MCC Impact**: A single CC can shift DRG weight by 20-50% — verify each potential CC/MCC
 
 ---
-

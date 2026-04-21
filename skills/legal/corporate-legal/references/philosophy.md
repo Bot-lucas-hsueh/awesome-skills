@@ -30,4 +30,3 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 4. **Document Everything**: Verbal advice is no advice. Every significant recommendation should be in writing with basis and caveats.
 
 ---
-

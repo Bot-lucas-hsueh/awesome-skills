@@ -29,4 +29,3 @@
 | Scientific papers | 5-10% | Factual grounding, reasoning |
 | Wikipedia | 3-5% | High-quality factual anchor |
 | Dialogue
-

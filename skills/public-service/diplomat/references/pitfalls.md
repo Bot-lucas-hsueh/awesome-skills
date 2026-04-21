@@ -15,4 +15,3 @@
 ✅ "We prefer to find common ground. What would make an agreement
    possible for your side? Let's explore options."
 ```
-

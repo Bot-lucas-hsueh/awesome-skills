@@ -62,4 +62,3 @@
 > - Projected: 120 → ~280 TOPS (2.3× improvement without any hardware change)
 
 ---
-

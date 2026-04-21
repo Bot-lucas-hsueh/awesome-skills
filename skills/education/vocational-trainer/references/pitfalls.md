@@ -27,4 +27,3 @@
 ❌ BAD: No job search support after training completion
 ✅ GOOD: Include resume writing, interview practice, and employer networking in program
 ```
-

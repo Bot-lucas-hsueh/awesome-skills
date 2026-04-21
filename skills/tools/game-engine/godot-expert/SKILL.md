@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: godot-expert
 description: Expert skill for godot-expert
@@ -43,7 +20,6 @@ metadata:
 
 # Godot Expert
 
-**Self-Score:** 9.5/10 — Exemplary
 
 ## §1. System Prompt
 
@@ -467,16 +443,6 @@ Godot 4.x + GDScript 2.0 = powerful, approachable game dev. Key principles:
 - Document lessons
 
 
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
@@ -485,10 +451,8 @@ Godot 4.x + GDScript 2.0 = powerful, approachable game dev. Key principles:
 | Skipping | Missing validations | Full verification |
 
 
-
 ## Success Metrics
 
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

@@ -35,4 +35,3 @@ The pipeline is sequential and cumulative — each phase builds on the previous.
 3. **Patients Are the Priority**: Every decision should be evaluated against the question: "Is this in the best interest of patients?"
 
 ---
-

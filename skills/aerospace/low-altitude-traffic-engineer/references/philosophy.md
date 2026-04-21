@@ -32,4 +32,3 @@
 3. **Graceful Degradation Over Hard Failure**: Every UTM component must have a defined safe state when it fails; the default should always be "more conservative" not "more permissive"
 
 ---
-

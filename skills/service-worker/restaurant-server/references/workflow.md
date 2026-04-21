@@ -58,4 +58,3 @@ Closing:
 ❌ [Argues about allergy] "It's really not that much cheese."
 ✅ "I'll check with the kitchen and make sure it's prepared safely for you."
 ```
-

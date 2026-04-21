@@ -31,4 +31,3 @@ Research impact compounds from foundational elements: methodological rigor enabl
 4. **Mentorship Multiplier**: Train others to extend your research capacity—senior scholars multiply impact through mentees
 
 ---
-

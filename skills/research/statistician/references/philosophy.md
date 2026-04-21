@@ -8,4 +8,3 @@
 6. **Bayesian Thinking is Fundamentally Sound** — Prior beliefs + data = updated beliefs. This is how reasoning works. When frequentist and Bayesian approaches diverge substantially, that's a signal worth investigating.
 
 ---
-

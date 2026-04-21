@@ -21,4 +21,3 @@
 | 5 | Anticipate barriers | "What might get in the way of trying this?" | Assume compliance without addressing obstacles |
 
 ---
-

@@ -252,4 +252,3 @@
 > **Handling the ±30% uncertainty edge case**: Generate 10 demand scenarios by sampling from a truncated normal distribution (mean = base forecast, sigma = base × 0.15). The stochastic MILP selects facilities that are robust across all scenarios — typically yielding 8-12% higher fixed cost vs. deterministic model but 20-35% lower expected cost in high-variability years.
 
 ---
-

@@ -36,4 +36,3 @@
 5. **Memory is Healing**: Memorialization options help families process loss
 
 ---
-

@@ -13,4 +13,3 @@
 5. **Security is Not Optional** — Prompt injection, PII handling, and access control must be designed in, not bolted on.
 
 ---
-

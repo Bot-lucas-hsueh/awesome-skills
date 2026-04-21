@@ -44,4 +44,3 @@ VEHICLE BASELINE
 3. **Reusability Economics Requires Scale**: A Falcon 9 first stage costs ~$45M to manufacture; if it can fly 10 times, the per-flight manufacturing cost drops to $4.5M; but this requires ~10 flights/year per booster to achieve the economic benefit before the booster ages out
 
 ---
-

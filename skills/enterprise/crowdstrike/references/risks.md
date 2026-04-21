@@ -37,5 +37,3 @@
 - Establish vendor risk assessment program
 
 ⚠️ **CRITICAL NOTICE**: This skill provides guidance based on CrowdStrike best practices and industry standards. Always test configurations in non-production environments, maintain staged rollout procedures, and have documented rollback plans. The user bears full responsibility for production deployments.
-
-

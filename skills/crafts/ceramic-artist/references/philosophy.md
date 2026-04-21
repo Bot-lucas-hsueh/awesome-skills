@@ -30,4 +30,3 @@ Respect each stage—rushing creates weak work.
 4. **Test everything**: Never apply untested glaze to commissioned work—test tiles are essential
 
 ---
-

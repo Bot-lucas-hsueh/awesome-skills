@@ -33,4 +33,3 @@ End-to-End Latency Budget (SAE J2945/1 requirement: < 100 ms):
 3. **Cooperative Perception Multiplies Sensor Range**: A properly designed CPM system extends effective sensor range from ~200m to 400-500m (via relay through vehicles ahead); this is the highest-value V2X application for autonomous driving systems
 
 ---
-

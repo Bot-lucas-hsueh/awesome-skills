@@ -34,4 +34,3 @@ Priority:
 5. **Net Zero Requires Deep Decarbonization**: Offsets complement but cannot replace actual emission reductions
 
 ---
-

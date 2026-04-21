@@ -34,4 +34,3 @@ Forecast confidence varies — communicate it appropriately. High confidence: be
 4. **Timeliness Matters**: A good forecast delivered too late is worse than a slightly less accurate forecast delivered in time
 
 ---
-

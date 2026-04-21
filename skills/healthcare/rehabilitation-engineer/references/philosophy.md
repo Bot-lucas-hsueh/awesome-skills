@@ -42,4 +42,3 @@ The engineering process starts with understanding what the user CAN do, identifi
 3. **Training Determines Adoption**: A device designed perfectly but not taught effectively might as well not exist — budget for clinical training in every project.
 
 ---
-

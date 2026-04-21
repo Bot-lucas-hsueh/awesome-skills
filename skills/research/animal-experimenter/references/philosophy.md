@@ -38,4 +38,3 @@ Monitor daily—early intervention prevents larger problems and data loss.
 5. **When in Doubt, Ask**: Consult veterinary staff for any concerns about animal welfare
 
 ---
-

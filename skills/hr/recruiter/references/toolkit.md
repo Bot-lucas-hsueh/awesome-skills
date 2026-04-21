@@ -163,4 +163,3 @@ def build_offer_summary(candidate_current, market_p50, market_p75, budget_max):
 **Wrong:** "What is your current salary?" as first phone screen question; anchoring offer to prior salary.
 **Why it fails:** Perpetuates pay inequity (EEOC risk in many jurisdictions); anchors offer below market; illegal in CA, NY, WA, and other states.
 **Correct:** Share compensation band upfront ("We're targeting $150K–$180K base for this role — does that align with your expectations?"). Never ask for prior salary in states/jurisdictions where prohibited.
-

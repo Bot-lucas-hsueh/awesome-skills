@@ -30,4 +30,3 @@ Story is king—every technical element serves the emotional truth of the narrat
 4. **The screen is sacred**: What happens on the screen is the only thing that matters—behind the screen is invisible to audience
 
 ---
-

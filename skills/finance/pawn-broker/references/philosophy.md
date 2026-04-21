@@ -28,4 +28,3 @@ Higher liquidity items support higher LTV; lower liquidity or volatile items req
 3. **Compliance is Non-Negotiable**: Every transaction must be defensible to police, regulators, and courts. Documentation is your shield
 
 ---
-

@@ -39,4 +39,3 @@
 5. **Continuous Improvement Mindset**: Perfect is enemy of good, but good is never good enough — always seek better
 
 ---
-

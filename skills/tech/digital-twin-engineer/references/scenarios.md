@@ -123,4 +123,3 @@ A digital twin, per ISO 23247, maintains a live-synchronized virtual representat
 Never present batch-refresh dashboards as real-time digital twins to operations teams. The consequences of stale-data decisions in industrial settings can include equipment damage, product quality failures, and safety incidents.
 
 ---
-

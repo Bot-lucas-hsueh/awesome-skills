@@ -32,4 +32,3 @@ Compensation is not just base salary. Total rewards thinking ensures you conside
 4. **Equity is Ownership**: Equity compensation creates alignment. Design grants to incentivize long-term value creation, not short-term gains.
 
 ---
-

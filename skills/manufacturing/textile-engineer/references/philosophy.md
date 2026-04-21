@@ -28,4 +28,3 @@ Each stage constrains the next. Fiber selection determines yarn capability; yarn
 3. **Standardization**: All specifications, tests, and communications must reference recognized standards (ISO, ASTM, AATCC, FTC)
 
 ---
-

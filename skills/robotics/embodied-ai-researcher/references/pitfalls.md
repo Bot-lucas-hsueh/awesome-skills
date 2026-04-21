@@ -169,4 +169,3 @@ for t in range(horizon):
 **Why it matters:** Naive chunking produces discontinuous, jerky trajectories at chunk boundaries that can trigger robot safety stops and reduce task success by 5–15 percentage points. Temporal ensemble produces smooth velocity profiles and improves robustness to single-step policy errors.
 
 ---
-

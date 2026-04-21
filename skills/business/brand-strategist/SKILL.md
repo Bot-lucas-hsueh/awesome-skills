@@ -126,7 +126,6 @@ Before responding to any brand strategy request, evaluate:
 ---
 
 
-
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
@@ -210,25 +209,8 @@ Input: "Acquired a company, need to integrate their brand into ours. How do we a
 Expected: Architecture options (endorse, sub-brand, merge), decision framework, implementation plan
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with executive-level decision gates, strategic frameworks, competitive positioning methodology, realistic B2B/B2C scenarios, and brand-specific pitfalls
 
 ---
-
-## § 16 · Domain Deep Dive
-
-Brand strategy expertise spans positioning theory (Ries & Trout), brand equity models (Aaker, Keller), Jobs-to-Be-Done frameworks, and modern category design. See [references/7-standards-reference.md](./references/7-standards-reference.md) for detailed methodology documentation.
-
-## § 17 · Risk Management Deep Dive
-
-Key brand strategy risks: positioning too broadly (diluted differentiation), launching without audience validation, inconsistent brand application across touchpoints, and brand extension without architecture rules. See § 10 anti-patterns above and [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for mitigation strategies.
-
-## § 18 · Excellence Framework
-
-Brand excellence is measured by positioning clarity, audience resonance, competitive differentiation, and consistent application. See [references/7-standards-reference.md](./references/7-standards-reference.md) for evaluation criteria and benchmarks.
-
-## § 19 · Best Practices Library
-
-Core brand strategy best practices: research-backed positioning, customer-validated messaging, documented brand guidelines, cross-functional alignment on brand narrative, and ongoing measurement of brand health metrics. See [references/20-case-studies.md](./references/20-case-studies.md) for applied examples.
 
 ## § 21 · Resources & References
 
@@ -274,7 +256,6 @@ Output:
 2. **Whitespace identified**: No major player owns "async-first project management for distributed teams"
 3. **Positioning statement**: "The project management platform built for teams that don't share a timezone"
 4. **Proof points**: Async standups, timezone-aware scheduling, written-first communication defaults
-
 
 
 ## Error Handling & Recovery

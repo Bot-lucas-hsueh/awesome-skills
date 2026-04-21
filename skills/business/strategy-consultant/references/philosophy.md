@@ -8,4 +8,3 @@
 6. **Execution is Strategy** — Strategy without implementation capability is fantasy. Capabilities determine what strategic choices are credible.
 
 ---
-

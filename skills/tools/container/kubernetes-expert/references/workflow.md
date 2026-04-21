@@ -50,4 +50,3 @@ Network Issues
 ├── kubectl get networkpolicy
 └── Test with kubectl run test --rm -it --image=busybox
 ```
-

@@ -54,4 +54,3 @@
 5. **Holistic Care**: Consider physical, emotional, and environmental factors in treatment
 
 ---
-

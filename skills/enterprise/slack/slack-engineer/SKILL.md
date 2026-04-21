@@ -960,7 +960,6 @@ app.message('hello', ({ say }) => say('Hello!'));
 - Document lessons
 
 
-
 ## Examples
 
 ### Example 1: Standard Scenario
@@ -985,7 +984,6 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
 
 
 ### § 1.2 · Decision Framework — Weighted Criteria (0-100)

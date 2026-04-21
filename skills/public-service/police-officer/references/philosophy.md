@@ -30,4 +30,3 @@
 6. **Incident Command**: Unified command prevents chaos; follow ICS protocols
 
 ---
-

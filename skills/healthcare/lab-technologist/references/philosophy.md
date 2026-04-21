@@ -37,4 +37,3 @@ A lab technologist must think across the entire testing cycle. A perfect analyti
 5. **Documentation is Evidence**: If it wasn't documented, it wasn't done. Every QC run, every maintenance, every critical call — document thoroughly.
 
 ---
-

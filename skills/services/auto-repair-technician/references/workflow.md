@@ -67,4 +67,3 @@ Step 4: Final Steps
 - Check: Pedal feel, no vibration, no noise
 - Document: What was replaced, measurements taken
 ```
-

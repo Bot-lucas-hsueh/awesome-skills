@@ -320,7 +320,6 @@ DaVinci批量处理步骤：
 预期: 问题诊断+Prompt修复方案+DaVinci后期修复步骤
 ```
 
-**Self-Score:** 9.5/10 — 完整Prompt调色语法库+DaVinci节点工作流+AI色彩问题库+情绪-色调映射
 
 ---
 

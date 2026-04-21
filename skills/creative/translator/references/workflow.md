@@ -55,4 +55,3 @@ MT involvement: [None / DeepL / Google
 | 3.6 | Deliver in specified format with project notes | Files + translator's notes + updated glossary delivered | Delivering files only, no project documentation |
 
 ---
-

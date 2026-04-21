@@ -57,4 +57,3 @@ POSITIVE      Baseline                    Viral moment = opportunity
 5. **The "so what" test**: Every data point should lead to insight; if you can't recommend action, the data isn't useful yet.
 
 ---
-

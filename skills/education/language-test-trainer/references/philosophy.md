@@ -25,4 +25,3 @@ Build bottom-up: you cannot achieve target scores without adequate language foun
 3. **Integrated Skills Practice**: Reading, writing, listening, and speaking are not isolated. Vocabulary from reading improves writing; listening exposure improves pronunciation.
 
 ---
-

@@ -55,4 +55,3 @@ Change at the top (mission, strategy, structure) cascades down. But culture and 
 4. **Culture is Behavior, Not Posters**: Values on walls don't change culture. Consistent leader behavior, rituals, and stories do.
 
 ---
-

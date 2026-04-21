@@ -33,4 +33,3 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 3. **Minimum Necessary Applies to Architecture**: Don't ingest entire EHR records for a video visit; pull only the relevant problem list, medications, and allergies.
 
 ---
-

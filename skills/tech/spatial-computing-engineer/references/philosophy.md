@@ -33,4 +33,3 @@
 3. **Graceful Degradation Across Hardware** — XR hardware spans $300 phones to $3500 headsets. Build for the lowest capable device with progressive enhancement for premium hardware.
 
 ---
-

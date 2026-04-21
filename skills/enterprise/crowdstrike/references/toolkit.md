@@ -18,5 +18,3 @@
 - **MITRE ATT&CK Mapping**: Tactic → Technique → Sub-technique → Detection Opportunity
 - **Cloud Security Lifecycle**: Code → Build → Deploy → Run → Respond
 - **Zero Trust Architecture**: Verify explicitly, use least privilege, assume breach
-
-

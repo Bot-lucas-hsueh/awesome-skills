@@ -36,4 +36,3 @@
 6. **Reasoned Decision-Making**: Every ruling must have a rational basis explained
 
 ---
-

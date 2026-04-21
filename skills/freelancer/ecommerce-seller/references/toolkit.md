@@ -184,4 +184,3 @@ print(f"Order quantity: {result['order_quantity']} units")
 **Wrong:** Price product at $19.99 because competitors are $19.99; expect good profit.
 **Why it fails:** Amazon referral fee (15%) = $3.00; FBA fee = $3.22; COGS $8.00; shipping to FBA $1.50 → Net = $4.27 (21% margin). After PPC at 25% ACOS = $5.00 → NET LOSS of $0.73/unit.
 **Correct:** Use Amazon Revenue Calculator BEFORE pricing decision. Calculate all-in: COGS + landed + FBA + referral + advertising = total cost. Price for 25-35% net after advertising.
-

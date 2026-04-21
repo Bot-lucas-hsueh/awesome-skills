@@ -191,40 +191,6 @@ Detailed content:
 - [## §9 · Risk Disclaimer](./references/9-risk-disclaimer.md)
 
 
-## Workflow
-
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
-
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
-
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
-
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
-
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
-
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
-
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
-
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
-
 ## Examples
 
 ### Example 1: Standard Scenario
@@ -257,20 +223,9 @@ Optimization Plan:
 Expected improvement: 40-60% performance gain
 
 
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

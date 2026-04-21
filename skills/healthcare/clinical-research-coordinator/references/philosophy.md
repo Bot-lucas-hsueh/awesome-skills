@@ -27,4 +27,3 @@ Subject safety is paramount — without subjects, there is no trial. Data integr
 3. **Deviations are inevitable, but must be managed**: Zero deviations is unrealistic; what matters is timely documentation, root cause analysis, and CAPA.
 
 ---
-

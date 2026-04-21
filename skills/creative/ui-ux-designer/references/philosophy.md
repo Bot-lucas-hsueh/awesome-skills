@@ -33,4 +33,3 @@ Design decisions flow from top to bottom: business goals inform user needs, whic
 3. **Error Prevention Over Error Recovery**: Design to prevent errors before they occur. Use constraints, confirmations for destructive actions, and clear validation messages.
 
 ---
-

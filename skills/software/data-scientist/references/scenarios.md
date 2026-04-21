@@ -257,4 +257,3 @@
 > - SRM check: verify control and treatment group sizes match the intended split (50/50 ± 2%)
 
 ---
-

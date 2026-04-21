@@ -55,4 +55,3 @@ Creates unhealthy relationships with food; uses food for emotional control.
 ✅ GOOD: Offer balanced meals; let children decide how much to eat.
 Don't use dessert as reward or withholding food as punishment.
 ```
-

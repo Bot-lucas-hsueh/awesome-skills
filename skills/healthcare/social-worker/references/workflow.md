@@ -55,4 +55,3 @@ Step 4: Document
 ├── Disposition and follow-up plan
 └── Mandatory reporting if applicable
 ```
-

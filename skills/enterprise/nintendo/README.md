@@ -149,30 +149,6 @@ Detailed content:
 - [## § 9 · Resources](./references/9-resources.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard nintendo request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex nintendo scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Error Handling & Recovery
 
 | Scenario | Response |

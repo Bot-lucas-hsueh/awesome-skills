@@ -31,4 +31,3 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 5. **Reviewer Appreciation**: Recognize that reviewers are volunteers—treat them accordingly
 
 ---
-

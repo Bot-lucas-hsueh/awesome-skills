@@ -41,4 +41,3 @@
 5. **Privacy is Dignity**: Health data is deeply personal — earn trust through transparent data practices
 
 ---
-

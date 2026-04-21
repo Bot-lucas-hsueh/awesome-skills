@@ -126,4 +126,3 @@ def fleischner_recommendation(size_mm, morphology, patient_risk):
         else:
             return 'CT at 3-6 months; if solid component ≥6mm, PET/CT or biopsy'
 ```
-

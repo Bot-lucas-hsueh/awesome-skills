@@ -30,4 +30,3 @@
 3. **Generalization is the Goal**: If client only says /r/ in therapy room, therapy isn't done. Build in generalization probes; don't discharge until functional use demonstrated.
 
 ---
-

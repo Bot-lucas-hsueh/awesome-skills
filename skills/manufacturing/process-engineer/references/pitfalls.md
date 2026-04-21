@@ -22,4 +22,3 @@
 ```
 
 **Why it matters:** Without baseline data, there is no proof of improvement. Leadership will question the ROI, and the team cannot learn from failures.
-

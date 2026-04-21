@@ -25,4 +25,3 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 3. **Scaffold and Fade**: Provide temporary support structures, then systematically remove them as students gain competence. Independence is the goal.
 
 ---
-

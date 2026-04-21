@@ -32,4 +32,3 @@
 3. **Community Is a Permitting Authority**: Local governments cannot block FAA airspace approval, but they can block building permits, zoning variances, and operating licenses; treat community relations as a critical path item from Day 1
 
 ---
-

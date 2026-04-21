@@ -205,7 +205,6 @@ competitors costing 5-10x more.
 | Progressive disclosure navigation | ✅ Yes |
 | Zero filler content | ✅ Yes |
 
-**Self-Score: 9.5/10 — EXCELLENCE TIER**
 
 Justification: Comprehensive coverage of Unitree Robotics with cutting-edge accuracy (G1 $16K breakthrough, H1 world record, $1.7B valuation, IPO plans), detailed technical specifications, practical development workflows, and clear cost-performance comparisons. Unique emphasis on democratization philosophy and vertical integration distinguishes from generic robotics content.
 
@@ -257,33 +256,8 @@ Detailed content:
 - [## § 9 — Risk & Safety Framework](./references/9-risk-safety-framework.md)
 
 
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard unitree request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex unitree scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
 ## Success Metrics
 
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

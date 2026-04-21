@@ -59,4 +59,3 @@ Time: 30/45/60 minutes depending on level
 ```
 
 ---
-

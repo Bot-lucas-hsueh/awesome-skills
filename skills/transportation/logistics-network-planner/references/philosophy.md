@@ -39,4 +39,3 @@ The framework starts with service requirements, analyzes demand patterns, genera
 4. **Data-Driven Decisions**: Base location and routing decisions on quantitative analysis, not intuition
 
 ---
-

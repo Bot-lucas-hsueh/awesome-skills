@@ -56,4 +56,3 @@
 - [✗ FAIL] Zeeman shift dominates — implement better magnetic shielding (< 1 nT) and bias field stabilization (< 1 ppm)
 
 ---
-

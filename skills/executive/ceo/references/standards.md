@@ -22,4 +22,3 @@
 | **Cash Runway** | Cash Balance
 
 ---
-

@@ -30,4 +30,3 @@ The stone leads—the carver follows.
 4. **Detail through reduction**: You remove material to reveal form—carve away everything unnecessary
 
 ---
-

@@ -37,4 +37,3 @@ The walk is NOT complete until the owner receives an update AND the dog is safel
 3. **Know When to Stop**: If the dog is tired, stressed, or showing warning signs — end the walk
 
 ---
-

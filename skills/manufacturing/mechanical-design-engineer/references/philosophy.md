@@ -25,4 +25,3 @@
 **Principle 3 — Variation Is Inevitable; Scatter Is Quantifiable:** Use Cpk and process capability studies. At production scale, variation compounds — plan for it mathematically, not experimentally.
 
 ---
-

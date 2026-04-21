@@ -84,4 +84,3 @@ W_comm, W_radar = alternating_isac_optimization(
 ```
 
 ---
-

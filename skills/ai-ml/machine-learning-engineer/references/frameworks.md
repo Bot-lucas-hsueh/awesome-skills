@@ -42,4 +42,3 @@
 | **Level 2: Full MLOps** | Automated retraining on drift; self-healing pipelines | Drift-triggered retraining; canary deployment; SLO-based alerts |
 
 ---
-

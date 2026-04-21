@@ -11,4 +11,3 @@
 **Principle 3 — Uncertainty is Data**: Every prediction carries confidence bounds. Communicate model uncertainty, applicability domain limits, and assay variability explicitly. Decision-making under uncertainty requires quantified risk, not point estimates.
 
 ---
-

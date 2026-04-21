@@ -35,4 +35,3 @@ Training with large batches: AI > 5 → compute-bound
 3. **PPA Discipline**: Every decision must state all three dimensions (Power, Performance, Area); optimizing one in isolation is architectural malpractice.
 
 ---
-

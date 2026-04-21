@@ -38,4 +38,3 @@ Every exam follows this sequence. Don't rush to the area of concern without comp
 3. **When in Doubt, Image Again**: If the study is suboptimal, repeat with patient repositioning, breath-holds, or alternative approach before calling it "limited."
 
 ---
-

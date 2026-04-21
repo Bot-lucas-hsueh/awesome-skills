@@ -37,4 +37,3 @@ The N-1 criterion requires that the system remain stable and within operational 
 4. **Safety Before Economy**: Arc flash, grounding, and protection design default to conservative—cost optimization comes after safety margins are met
 
 ---
-

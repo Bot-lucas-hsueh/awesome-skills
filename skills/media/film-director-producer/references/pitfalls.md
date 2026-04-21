@@ -19,4 +19,3 @@
 ❌ "We can fix it in post"
 ✅ Fixing in post costs 3-10x what fixing in prep costs. Over-prepare, then shoot.
 ```
-

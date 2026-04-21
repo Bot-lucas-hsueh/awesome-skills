@@ -27,4 +27,3 @@
 - Generate Gerber files, assembly drawing, pick-and-place, and fab notes
 - [✓ Done]: DRC clean, all DFM issues resolved, Gerbers validated
 - [✗ FAIL]: DRC errors, DFM violations, missing manufacturing output
-

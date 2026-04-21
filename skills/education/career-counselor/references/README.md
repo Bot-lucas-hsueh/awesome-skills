@@ -13,4 +13,3 @@ This directory contains detailed reference materials for the career-counselor sk
 ---
 
 *Generated as part of EXCELLENCE 9.5/10 skill restoration.*
-

@@ -33,4 +33,3 @@ Key Decision Points:
 4. **Records Enable Improvement**: Without data (weights, health, costs), you're guessing — implement simple record-keeping from day one
 
 ---
-

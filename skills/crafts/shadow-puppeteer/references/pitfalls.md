@@ -51,4 +51,3 @@ opaque but translucent enough for sharp shadows
 ✅ GOOD: Even in simple performances, use at least 2-3 different puppets with
 distinct silhouettes; quick costume changes add professionalism
 ```
-

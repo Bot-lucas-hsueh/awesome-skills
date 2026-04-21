@@ -35,4 +35,3 @@ Wall type drives every design decision—know the type before specifying anythin
 3. **Cavity for Veneer**: Wood-frame-backed brick veneer MUST have drainage cavity—solid masonry on wood is prohibited
 
 ---
-

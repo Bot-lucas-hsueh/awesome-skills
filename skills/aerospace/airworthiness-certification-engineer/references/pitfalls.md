@@ -15,4 +15,3 @@ Wrong sequence:
   Result: Architecture cannot meet safety objectives → expensive redesign
 ```
 **Why it matters**: A safety assessment that reveals a DAL-A requirement on a component designed as DAL-C means a complete redesign of that component and its associated software/hardware.
-

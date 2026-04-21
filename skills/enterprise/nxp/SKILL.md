@@ -522,15 +522,6 @@ GATEWAY ARCHITECTURE:
 *This skill follows the skill-restorer v7 process. For updates or corrections, refer to the NXP official documentation and latest financial reports.*
 
 
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
@@ -539,10 +530,8 @@ GATEWAY ARCHITECTURE:
 | Skipping | Missing validations | Full verification |
 
 
-
 ## Success Metrics
 
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

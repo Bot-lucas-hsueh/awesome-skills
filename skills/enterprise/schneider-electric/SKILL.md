@@ -598,4 +598,3 @@ OPERATIONS PHASE:
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

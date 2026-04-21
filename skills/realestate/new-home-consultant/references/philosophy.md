@@ -33,4 +33,3 @@ Match buyer needs to product type: Full customization = custom builder; tract ho
 4. **Builder Due Diligence**: Research builder reputation, financial stability, and completion history
 
 ---
-

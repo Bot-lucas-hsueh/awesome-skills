@@ -161,7 +161,6 @@ kimi skill add bmw \
 | Version history entries | ✅ | Complete |
 | Domain deep dive (Neue Klasse, i-series, hydrogen) | ✅ | Extensive |
 
-**Self-Score: 9.5/10 — EXCELLENCE ⭐⭐⭐⭐⭐**
 
 ---
 
@@ -203,36 +202,3 @@ Detailed content:
 - [## § 7 — Professional Toolkit](./references/7-professional-toolkit.md)
 - [## § 8 — Standards & Reference](./references/8-standards-reference.md)
 - [## § 9 — Scope & Limitations](./references/9-scope-limitations.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard bmw request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex bmw scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

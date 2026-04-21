@@ -47,4 +47,3 @@ know that different jades need different approaches
 ✅ GOOD: Take time with each grit; ensure complete removal of previous scratches;
 final polish determines first impression
 ```
-

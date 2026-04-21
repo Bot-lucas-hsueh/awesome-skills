@@ -43,4 +43,3 @@
 3. **Spectral Efficiency Must Be Traded Systemically** — achieving >100 bit/s/Hz spectral efficiency requires joint optimization across space (massive MIMO/holographic), frequency (wideband THz), and time (OTFS for Doppler resilience); no single dimension achieves the IMT-2030 target; always analyze the 3D capacity cube.
 
 ---
-

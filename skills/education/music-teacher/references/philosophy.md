@@ -26,4 +26,3 @@ All three dimensions develop together. Weakness in any area limits overall music
 3. **Music is sound, not symbols**: Reading notes is a means to an end, not the end goal. The goal is to make beautiful music — if you can play beautifully without reading, that's still musicianship.
 
 ---
-

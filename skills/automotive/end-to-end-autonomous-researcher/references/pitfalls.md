@@ -93,4 +93,3 @@ train_scenes = load_nuscenes_split('train')   # 700 scenes
 val_scenes   = load_nuscenes_split('val')     # 150 scenes, holdout
 # Final paper numbers submitted to official test server (blind evaluation)
 ```
-

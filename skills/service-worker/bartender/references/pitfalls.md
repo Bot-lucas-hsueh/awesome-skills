@@ -20,4 +20,3 @@
 ❌ Making "two at once" by doubling everything in one shaker
 ✅ Build and shake each drink individually — proper dilution per drink
 ```
-

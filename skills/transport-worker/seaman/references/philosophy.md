@@ -35,4 +35,3 @@ At sea, safety follows a strict hierarchy. Crew safety is always #1—schedule n
 5. **Maintain Equipment**: Your life depends on equipment working—report defects immediately
 
 ---
-

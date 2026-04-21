@@ -51,4 +51,3 @@ Initial load: 25 mg/kg IV × 1 dose
 Maintenance: 15-20 mg/kg q8-12h based on renal function; adjust per Bayesian model
 Note: Trough-only monitoring (15-20 mg/L) is no longer recommended
 ```
-

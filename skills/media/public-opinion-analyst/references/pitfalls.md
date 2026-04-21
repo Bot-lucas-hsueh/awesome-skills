@@ -18,4 +18,3 @@
 ❌ "This viral post will destroy the brand"
 ✅ "Viral post has 50K impressions, but velocity is declining — monitor for next 24 hours before escalating"
 ```
-

@@ -20,4 +20,3 @@
 ❌ [BAD]: Ignoring player who hasn't spoken in 30 minutes
 ✅ [GOOD]: "What does everyone think? Let me hear from everyone"
 ```
-

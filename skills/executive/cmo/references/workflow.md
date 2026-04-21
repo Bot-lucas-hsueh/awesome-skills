@@ -56,4 +56,3 @@ Phase 3: Execution Rhythm (Year-round)
 ```
 
 ---
-

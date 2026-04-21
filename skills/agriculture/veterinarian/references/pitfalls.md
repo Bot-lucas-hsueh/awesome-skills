@@ -21,4 +21,3 @@
         foul smell, you likely have Fusobacterium (foot rot). Use tulathromycin 
         2.5mg/kg SC which covers both Gram+ and Gram- anaerobes."
 ```
-

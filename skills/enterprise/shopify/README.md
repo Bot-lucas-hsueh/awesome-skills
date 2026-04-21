@@ -1197,4 +1197,3 @@ query GetProductWithMarketPricing($handle: String!, $buyerIdentity: BuyerIdentit
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

@@ -11,4 +11,3 @@
 | **Safety Risk** | 🔴 High | Physical or data safety may be affected | Prioritize safety protocols |
 
 **Always validate critical decisions with domain experts and comply with applicable regulations.**
-

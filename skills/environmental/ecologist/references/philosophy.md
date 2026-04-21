@@ -40,4 +40,3 @@ The framework applies the three-parameter approach systematically: verify all th
 4. **Design for Success**: Restoration plans must meet specific, measurable, achievable success criteria
 
 ---
-

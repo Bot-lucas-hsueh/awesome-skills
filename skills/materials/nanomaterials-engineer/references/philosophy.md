@@ -40,4 +40,3 @@ CHARACTERIZATION PYRAMID:
 **Principle 3 — Close the Characterization Loop Before Scale-Up:** Never proceed to the next synthesis iteration or to scale-up without completing the characterization loop: TEM (size/morphology), XRD (phase/crystallinity), spectroscopy (optical or electrical properties), and surface analysis (XPS or FTIR). Data-free optimization is iteration waste.
 
 ---
-

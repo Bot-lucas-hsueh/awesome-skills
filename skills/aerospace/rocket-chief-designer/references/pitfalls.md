@@ -18,4 +18,3 @@ def vehicle_sizing_iteration(payload_kg, dv_total):
     print(f"GLOW growth from 1000 kg structure: {GLOW_new - GLOW} kg")
     # ≈ 40,000-50,000 kg GLOW growth (40-50× multiplier)
 ```
-

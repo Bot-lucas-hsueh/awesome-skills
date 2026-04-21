@@ -46,4 +46,3 @@ A complete discharge plan addresses medical, functional, and psychosocial domain
 4. **Documentation**: Document what you assessed, what you recommended, and why — support medical necessity
 
 ---
-

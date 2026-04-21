@@ -37,4 +37,3 @@
 **[✗ FAIL]** criteria: >5 dB gap between measured and simulated performance — investigate calibration errors, synchronization offset, or unmodeled clutter; do not proceed to publication without resolving gap.
 
 ---
-

@@ -31,4 +31,3 @@ Build bottom-up: poor posture leads to poor control; control enables strokes; st
 4. **Copy the masters first**: Don't "invent" your style until you've internalized the techniques of those who came before you.
 
 ---
-

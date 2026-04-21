@@ -114,4 +114,3 @@
 > **Expected outcome**: From losing days of training → job completion rate >99.5%, MTTF >8 hours per job.
 
 ---
-

@@ -21,17 +21,6 @@ metadata:
 ### § 1.1 · Identity — Professional DNA
 
 
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -256,7 +245,6 @@ Expected: Proactive cancellation strategy, rebooking prioritization (Diamond/Pla
           crew reallocation plan, 24-hour recovery target, customer communication protocol
 ```
 
-**Self-Score: 9.5/10 — EXCELLENCE**
 - ✓ Comprehensive airline operations coverage
 - ✓ Real-world Delta data integration ($63.4B revenue, 100K+ employees, 994 aircraft)
 - ✓ Latest fleet updates: A321neo (189 total), 787-10 (30 from 2031), A330/A350 additions
@@ -282,86 +270,6 @@ Expected: Proactive cancellation strategy, rebooking prioritization (Diamond/Pla
 ---
 
 
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Hub Economics** | Connectivity, scale effects, banking | Network design, schedule optimization | ATL super-hub model (1,000+ daily departures) |
-| **Revenue Management** | Dynamic pricing, inventory control | Seat allocation, overbooking | O&D-based RM systems, RASM optimization |
-| **Fleet Strategy** | Gauge, range, efficiency tradeoffs | Aircraft selection, retirement | A321neo as backbone (189 aircraft), family commonality |
-| **Loyalty Economics** | Mileage sales, redemption liability | Amex partnership ($7.4B+), elite tiers | Breakage optimization, 120M+ member base |
-| **Operational Reliability** | OTP, completion factor, recovery | Irregular operations management | 99%+ CTF, proactive rebooking, APEX platform |
-| **Premium Positioning** | Product differentiation, RASM premium | Delta One, Premium Select, Sky Clubs | 115% RASM premium, 60% diversified revenue |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Shape industry strategy, mentor executives, fleet transformation leadership |
-| 4 | Advanced | Optimize complex networks, lead transformations, 787-10 integration planning |
-| 3 | Competent | Execute route planning, revenue management, loyalty program optimization |
-| 2 | Developing | Apply frameworks with guidance, understand hub economics |
-| 1 | Novice | Learn airline fundamentals, Delta-specific operations |
-
----
-
-
-## § 17 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class (Delta) |
-|-----------|------|-------|---------------------|
-| **Reliability** | 95% OTP | 98% OTP | 99%+ OTP, 99%+ CTF |
-| **Service** | Meets expectations | Exceeds expectations | JD Power #1 Premium Economy (3rd consecutive year) |
-| **Employee** | Industry average pay | Above-average pay | $1.4B profit sharing, 83/100 engagement |
-| **Financial** | Positive margins | Top-quartile margins | $63.4B revenue, 115% RASM premium, $5B profit |
-| **Loyalty** | Basic program | Engaged members | 120M+ members, $7.4B+ Amex partnership |
-| **Fleet** | Standard mix | Efficient aircraft | A321neo backbone, 787-10 future-ready |
-
-### Excellence Cycle
-
-```
-OPERATE → MEASURE → IMPROVE → INNOVATE → SCALE
-   ↑                                      ↓
-   └────────────── CUSTOMER ──────────────┘
-                    ↑
-                    ↓
-   ┌────────────────────────────────────────┐
-   │      DELTA'S CENTENNIAL LEGACY         │
-   │   (100 Years of Operational Excellence) │
-   └────────────────────────────────────────┘
-```
-
----
-
-
-## § 18 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Delta 10-K SEC Filings | Financial | Revenue breakdown, risk factors, SkyMiles deferred revenue ($8B) |
-| DOT T-100 Data | Market | Route-level traffic and fares |
-| JD Power Airline Study | Benchmark | Customer satisfaction rankings (#1 Premium Economy 2023-2025) |
-| Cirium On-Time Performance | Operations | #1 North American airline 2022-2024 |
-| Aviation Week | Industry | Fleet, MRO, operational trends |
-| Delta News Hub (news.delta.com) | Corporate | Press releases, strategy updates, centennial milestones |
-
-### Key External Sources
-- Delta Air Lines Investor Relations: ir.delta.com
-- SkyMiles Program: delta.com/skymiles
-- Delta News Hub: news.delta.com
-- DOT Aviation Consumer Protection: transportation.gov/airconsumer
-
----
-
-*Version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10*
-*Restored: 2026-03-21 by skill-restorer v7*
-*Data Updated: Q4 2025 earnings, fleet as of February 2026, SkyMiles 120M+ members*
-
-
 ## References
 
 Detailed content:
@@ -375,79 +283,6 @@ Detailed content:
 - [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
 
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard delta airlines operations request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex delta airlines operations scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| **Quality** | 30 | Verification against standards | Meet all criteria | Revise and re-verify |
-| **Efficiency** | 25 | Time/resource optimization | Within budget | Optimize process |
-| **Accuracy** | 25 | Precision and correctness | Zero defects | Debug and fix |
-| **Safety** | 20 | Risk assessment | Acceptable risk | Mitigate risks |
-
-**Composite Decision Rule:**
-- Score ≥85: Proceed
-- Score 70-84: Conditional with monitoring  
-- Score <70: Stop and address issues
-
-
-## Workflow
-
-### Phase 1: Board Prep
-- Review agenda items and background materials
-- Assess stakeholder concerns and priorities
-- Prepare briefing documents and analysis
-
-**Done:** Board materials complete, executive alignment achieved
-**Fail:** Incomplete materials, unresolved executive concerns
-
-### Phase 2: Strategy
-- Analyze market conditions and competitive landscape
-- Define strategic objectives and key initiatives
-- Resource allocation and priority setting
-
-**Done:** Strategic plan drafted, board consensus on direction
-**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
-
-### Phase 3: Execution
-- Implement strategic initiatives per plan
-- Monitor KPIs and progress metrics
-- Course correction based on feedback
-
-**Done:** Initiative milestones achieved, KPIs trending positively
-**Fail:** Missed milestones, significant KPI degradation
-
-### Phase 4: Board Review
-- Present results to board
-- Document lessons learned
-- Update strategic plan for next cycle
-
-**Done:** Board approval, documented learnings, updated strategy
-**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

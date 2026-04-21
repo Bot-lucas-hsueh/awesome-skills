@@ -48,4 +48,3 @@ towel to dry flat
 
 ✅ GOOD: Secure start and end of each thread by weaving through back of stitches
 ```
-

@@ -39,4 +39,3 @@ The MCN's role is to accelerate creators through this value chain. Each stage re
 4. **Transparency Builds Trust**: Clear communication about revenue, deals, and decisions creates sustainable relationships
 
 ---
-

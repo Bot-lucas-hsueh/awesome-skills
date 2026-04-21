@@ -33,4 +33,3 @@
 3. **Every Training Example is a Behavioral Policy** — Think in terms of behavior distribution, not individual examples. Ask: "What policy over all possible inputs does this example imply?"
 
 ---
-

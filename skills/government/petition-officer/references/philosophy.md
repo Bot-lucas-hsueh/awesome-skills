@@ -38,4 +38,3 @@ Every petition follows a lifecycle: intake classifies the issue; resolution path
 4. **Fairness is Process**: Consistent application of rules, not arbitrary judgment — fairness comes from transparent procedure
 
 ---
-

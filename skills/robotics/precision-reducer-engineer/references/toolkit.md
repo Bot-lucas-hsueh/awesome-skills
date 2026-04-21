@@ -211,4 +211,3 @@ print(f"Grade 5 tolerances: f_pt={tol['f_pt']}μm, F_alpha={tol['F_alpha']}μm")
 **Wrong:** Specifying "backlash ≤ 1 arcmin" — harmonic drives have zero backlash but non-zero lost-motion.
 **Why it fails:** Harmonic drives have zero mechanical backlash (continuous tooth engagement) but exhibit lost-motion (±0.5–2 arcmin) from elastic hysteresis of flexspline. These are different phenomena requiring different test methods.
 **Correct:** Specify both: backlash (AGMA 2010 test, ±direction reversal) AND lost-motion (ISO 9283 test: deadband at zero load crossing). Typical HD-LW: backlash = 0, lost-motion ≤ ±1 arcmin.
-

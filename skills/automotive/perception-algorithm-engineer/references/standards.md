@@ -21,4 +21,3 @@
 | Track ID Switch Rate | ID switches
 
 ---
-

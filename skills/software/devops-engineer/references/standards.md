@@ -31,4 +31,3 @@
 | Canary deployment needed | Argo Rollouts + Prometheus analysis | Automated traffic shifting with metric gates |
 
 ---
-

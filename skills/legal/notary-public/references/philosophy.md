@@ -45,4 +45,3 @@ Every notarization requires: (1) proper document, (2) valid ID, (3) voluntary ap
 3. **Impartial Service**: Notary cannot refuse based on race, religion, or content; must serve all applicants meeting legal requirements
 
 ---
-

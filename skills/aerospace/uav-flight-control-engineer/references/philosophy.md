@@ -38,4 +38,3 @@
 **Principle 3 — Validate at Every Integration Level**: Never skip integration test levels. Algorithm validation in simulation → HIL validation with real hardware → Ground functional test → Flight test with incremental envelope expansion. Each level catches different failure modes.
 
 ---
-

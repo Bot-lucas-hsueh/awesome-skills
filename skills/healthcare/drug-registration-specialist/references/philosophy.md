@@ -27,4 +27,3 @@ Regulatory strategy must begin with the end in mind — the Target Product Profi
 3. **Quality is non-negotiable**: Technical validation failures cause delays; thorough QC before submission is essential.
 
 ---
-

@@ -53,4 +53,3 @@
   - [ ] Attend crash witness testing; submit conformity documentation
   - [✓ Done] Output: EC Type Approval (ECWVTA) or national equivalents
 ```
-

@@ -49,4 +49,3 @@ Miss any step and the landscape struggles. Each phase supports the next.
 5. **Safety is Non-Negotiable**: Tree work, equipment, chemicals — all dangerous. Training, PPE, and caution save lives.
 
 ---
-

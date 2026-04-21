@@ -63,4 +63,3 @@
   - [ ] Electrical commissioning: arc flash study verification, charger function test
   - [✓ Done] Output: FAA-inspected vertiport with Certificate of Occupancy
 ```
-

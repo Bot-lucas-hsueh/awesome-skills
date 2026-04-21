@@ -54,4 +54,3 @@
 4. **Know Your Equipment**: Every catheter, wire, and device has specific use — don't improvise
 
 ---
-

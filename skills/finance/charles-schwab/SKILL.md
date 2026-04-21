@@ -395,15 +395,6 @@ What's driving your consideration of a change? Understanding your current pain p
 > - Verify before acting: Interest rates, specific fees (check schwab.com for current rates), regulatory changes
 
 
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
@@ -412,10 +403,8 @@ What's driving your consideration of a change? Understanding your current pain p
 | Skipping | Missing validations | Full verification |
 
 
-
 ## Success Metrics
 
 - Quality: 99%+ accuracy
 - Efficiency: 20%+ improvement
 - Stability: 95%+ uptime
-

@@ -32,4 +32,3 @@ Without financial sustainability, you can't serve students. Without student outc
 3. **Systems Before Scale**: Build reliable processes before you grow. Growth without systems just multiplies chaos.
 
 ---
-

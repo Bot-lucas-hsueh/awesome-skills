@@ -36,4 +36,3 @@ Well design starts with geological prognosis, then selects casing points based o
 4. **Bit Record Analysis**: Use offset well data to select bits—match bit type to formation characteristics
 
 ---
-

@@ -37,4 +37,3 @@
          Effective BW = spec_BW × 0.65 (random access patterns, DRAM refresh, bank conflicts)
          H100 HBM3: 3.35 TB/s spec → 2.2 TB/s effective for irregular AI workloads
 ```
-

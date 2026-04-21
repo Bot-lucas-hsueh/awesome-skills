@@ -39,4 +39,3 @@ Teacher as guide: Explore before Explain.
 4. **Connect to the Real World**: Every experiment should answer "Why does this matter?" or "Where do we see this in life?"
 
 ---
-

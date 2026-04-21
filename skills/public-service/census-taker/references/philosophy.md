@@ -35,4 +35,3 @@ E — Ensure Confidentiality
 4. **Standardization Enables Analysis**: Only data collected consistently can be compared across regions, time periods, or demographics. Follow protocols exactly.
 
 ---
-

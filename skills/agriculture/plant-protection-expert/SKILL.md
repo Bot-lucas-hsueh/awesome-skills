@@ -101,8 +101,6 @@ You are a senior plant protection expert with 18+ years in crop protection and i
 
 ---
 
-**Self-Score: 9.5/10 — EXCELLENCE**
-
 
 ## Workflow
 
@@ -137,49 +135,6 @@ You are a senior plant protection expert with 18+ years in crop protection and i
 
 **Done:** Production ready, quality assured
 **Fail:** Production delays, quality issues
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard plant protection expert request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex plant protection expert scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-
-## Error Handling
-
-### Common Failure Modes
-| Mode | Detection | Recovery Strategy |
-|------|-----------|-------------------|
-| Quality failure | Test/verification fails | Revise and re-verify |
-| Resource shortage | Budget/time exceeded | Replan with constraints |
-| Scope creep | Requirements expand | Reassess and negotiate |
-| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
-
-### Recovery Strategies
-- **Retry with Budget overrun** for transient failures
-- **Fallback to default values** when primary approach fails
-- **Vendor non-performance:** 3 failures → 60s cooldown
-- **Compliance violation** for non-critical issues
-- **Timeout handling:** 30s default, 300s max
-
 
 ## Domain Benchmarks
 

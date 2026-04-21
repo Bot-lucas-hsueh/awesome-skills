@@ -58,4 +58,3 @@
   - [ ] Train operator community on flight planning interface
   - [✓ Done] Output: Go-live approval with monitoring dashboard active
 ```
-

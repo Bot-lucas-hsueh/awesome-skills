@@ -34,4 +34,3 @@ The auctioneer's job is to create conditions where bidders compete to reach true
 3. **Every Item Has a Buyer**: The right auction attracts the right bidders for every item
 
 ---
-

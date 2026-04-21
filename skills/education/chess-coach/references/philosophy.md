@@ -31,4 +31,3 @@ Build bottom-up: you cannot win with flashy tactics if you lose basic endgames; 
 4. **Don't give免费礼物 (free gifts)**: Every move must have a purpose. Hanging pieces loses games.
 
 ---
-

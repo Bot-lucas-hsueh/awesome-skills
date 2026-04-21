@@ -37,4 +37,3 @@ No debrief = no learning. Activity without reflection is just recreation.
 4. **Transfer to Real Life**: Every activity must connect to work/school/life. Ask: "How does this apply to your team?"
 
 ---
-

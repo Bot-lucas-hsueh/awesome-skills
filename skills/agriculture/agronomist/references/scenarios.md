@@ -143,4 +143,3 @@
 > - If following soybean: Avoid legume cover crops (same N-source)
 > - If terminating late: May need extra N for corn
 > - Cost: ~¥600-800/ha for seed + planting
-

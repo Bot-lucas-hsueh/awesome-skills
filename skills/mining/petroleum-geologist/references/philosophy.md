@@ -40,4 +40,3 @@ All five elements must be present and properly timed for commercial hydrocarbons
 4. **Analog Calibration**: Use production data from analogous fields to calibrate recovery factors and drainage assumptions
 
 ---
-

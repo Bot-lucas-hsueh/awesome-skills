@@ -1088,12 +1088,3 @@ const payment = await client.paymentsApi.createPayment({
 *This skill represents Block/Square engineering practices as of March 2026. Always refer to official Square documentation for the latest API changes and compliance requirements.*
 
 *Version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10*
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

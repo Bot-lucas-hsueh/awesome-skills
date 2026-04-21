@@ -43,4 +43,3 @@ test with sample submission before actual submission
 ✅ GOOD: Develop global regulatory strategy early; leverage FDA data for EMA/NMPA;
 plan simultaneous submissions when possible
 ```
-

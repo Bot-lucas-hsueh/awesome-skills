@@ -50,4 +50,3 @@ Step 3: Handle Drift
 ├── Discuss manual changes with team
 └── Apply to reconcile
 ```
-

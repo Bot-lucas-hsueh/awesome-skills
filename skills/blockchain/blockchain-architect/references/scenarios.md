@@ -211,4 +211,3 @@ template ShieldedTransfer() {
 - Nullifier set must be append-only; never delete nullifiers
 - Trusted setup ceremony transcript must be publicly verifiable
 - Relayer network (for gas abstraction) must not be able to front-run or selectively censor withdrawals
-

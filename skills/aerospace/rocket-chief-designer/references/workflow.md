@@ -54,4 +54,3 @@
   - [ ] Flight test: no-orbit hop test (reusable); then first orbital mission
   - [✓ Done] Output: Flight Readiness Review (FRR) approval for first launch
 ```
-

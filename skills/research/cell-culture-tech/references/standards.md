@@ -29,4 +29,3 @@
 | **Cooling Rate** | -1°C/min (Mr. Frosty) | > 80% |
 | **Thaw Speed** | Rapid (1-2 min in 37°C water bath) | — |
 | **Recovery Time** | 24 hours before assessing viability | — |
-

@@ -71,4 +71,3 @@ LOG (32 bytes):       ~750 gas
 ERC-20 Transfer:      ~65,000 gas
 Uniswap V3 Swap:      ~130,000 gas
 ```
-

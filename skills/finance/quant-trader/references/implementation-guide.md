@@ -41,4 +41,3 @@ Step 6: Daily P&L attribution analysis
 ```
 
 ---
-

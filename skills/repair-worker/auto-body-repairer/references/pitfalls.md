@@ -20,4 +20,3 @@
 ❌ Skip documenting pre-existing damage
 ✅ Photo everything before starting — protects against damage claims
 ```
-

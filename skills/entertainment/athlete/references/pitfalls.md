@@ -20,4 +20,3 @@
 ❌ [BAD]: Skip breakfast, train fasted
 ✅ [GOOD]: Fuel properly; nutrition supports performance
 ```
-

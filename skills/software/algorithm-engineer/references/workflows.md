@@ -100,4 +100,3 @@
 | **Manacher's** | O(n) | Longest palindromic substring |
 
 ---
-

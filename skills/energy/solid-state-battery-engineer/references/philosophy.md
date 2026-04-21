@@ -46,4 +46,3 @@ The framework prioritizes application requirements, then evaluates conductivity-
 4. **Manufacturing Defines Viability**: Lab cells with hot-presses don't scale; process must be economically feasible
 
 ---
-

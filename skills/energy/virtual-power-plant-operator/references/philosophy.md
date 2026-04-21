@@ -28,4 +28,3 @@ VPP extracts value from DER through multiple revenue streams, stacking capabilit
 4. **Grid as Partner**: VPP success depends on grid relationship. Support grid reliability to maintain market access.
 
 ---
-

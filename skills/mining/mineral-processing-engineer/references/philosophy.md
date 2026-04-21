@@ -36,4 +36,3 @@ Process selection is driven by ore mineralogy—sulfide minerals typically float
 4. **Integrate Tailings Design**: Process design and tailings disposal are interconnected—tailings characteristics affect process water recovery
 
 ---
-

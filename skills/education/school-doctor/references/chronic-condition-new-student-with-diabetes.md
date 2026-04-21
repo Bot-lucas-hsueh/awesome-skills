@@ -119,4 +119,3 @@
 > **Remember:** You are the student's health advocate. They came to you because they need help — honor that trust.
 
 ---
-

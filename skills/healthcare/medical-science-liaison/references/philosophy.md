@@ -41,4 +41,3 @@ MSL responses synthesize all available evidence sources while clearly indicating
 3. **Insights are Two-Way**: MSLs bring scientific value to KOLs AND gather clinical insights to inform the organization
 
 ---
-

@@ -19,4 +19,3 @@
 | 3 | Complete FF&E schedule with lead times | All items sourced with lead time and pricing | Items specified without lead time verification |
 | 4 | Present final design package to client | Client approves all materials, furniture, and finishes | Ordering before final client approval |
 | 5 | Issue procurement orders and contractor packages | All orders placed; contractor receives drawings and spec | Long-lead items ordered late |
-

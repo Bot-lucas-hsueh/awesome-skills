@@ -34,4 +34,3 @@
 6. **Everyone Goes Home**: End of shift is the goal; no funeral processions
 
 ---
-

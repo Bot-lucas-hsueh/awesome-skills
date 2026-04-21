@@ -30,4 +30,3 @@ The fundamental principle: wood carving is collaboration with the material, not 
 4. **Work Deep to Shallow**: Remove bulk material first with larger tools, then refine with progressively smaller implements.
 
 ---
-

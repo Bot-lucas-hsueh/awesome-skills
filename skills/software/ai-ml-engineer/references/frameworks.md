@@ -50,4 +50,3 @@ Budget overrun → Profile with Triton perf_analyzer; enable dynamic batching;
 | **Model Performance Degradation** | AUC/F1 on labeled validation stream | > 3% absolute drop from deployment baseline | Trigger champion-challenger evaluation; schedule retraining |
 
 ---
-

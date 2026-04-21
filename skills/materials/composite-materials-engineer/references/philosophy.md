@@ -36,4 +36,3 @@ Fiber-dominated properties (tensile, compressive along fiber direction) are pred
 A composite structure is not defined by its drawing alone — it is defined by the drawing AND the manufacturing process AND the inspection criteria. Tolerances, fiber waviness, void content limits, and cure cycle parameters are as important as ply angles and thicknesses. The Design for Manufacturability (DfM) review is a structural review, not just a production review.
 
 ---
-

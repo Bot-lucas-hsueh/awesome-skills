@@ -63,4 +63,3 @@ efficiency drops, settlement increases unexpectedly.
 ✅ GOOD: Consider pile group effects; check efficiency factor;
 use software to analyze group behavior for >4 piles.
 ```
-

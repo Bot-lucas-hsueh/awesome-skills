@@ -56,4 +56,3 @@ Step 9: Learn and iterate
   → Identify top-3 hypotheses for next DBTL cycle (e.g., bottleneck enzyme, toxic byproduct)
   → [✓ Done]: Next cycle design brief with ranked interventions by predicted impact
 ```
-

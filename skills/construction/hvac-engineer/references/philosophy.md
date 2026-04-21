@@ -27,4 +27,3 @@ Design flows from accurate load calculations through appropriate equipment selec
 3. **Integrated Design**: Engage with architect early to influence building orientation, envelope, and shading. Late involvement limits options.
 
 ---
-

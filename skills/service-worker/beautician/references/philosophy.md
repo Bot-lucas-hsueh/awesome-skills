@@ -35,4 +35,3 @@
 5. **The client knows their skin best**: Listen to what they've tried, what works, and what causes reactions.
 
 ---
-

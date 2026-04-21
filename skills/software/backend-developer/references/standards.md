@@ -32,4 +32,3 @@
 | Time-series metrics | InfluxDB, TimescaleDB | Time-ordered inserts, downsampling | Complex relational queries |
 
 ---
-

@@ -177,65 +177,6 @@ https://github.com/theneoai/awesome-skills
 
 > See references/standards.md §7.10 for full checklist
 
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Prompt Patterns** | Zero-shot, few-shot, CoT, ReAct, Tree-of-Thought | Task-specific prompt design | Match pattern to task complexity; benchmark each |
-| **RAG Prompting** | Context injection, citation grounding, chunk ranking | Knowledge-grounded QA, document synthesis | Constrain output to retrieved context; add citation instructions |
-| **Agent Design** | Tool-calling schemas, planning loops, error recovery | Autonomous workflows, multi-agent systems | Define clear tool descriptions; add retry and fallback logic |
-| **Evaluation** | LLM-as-judge, rubric design, regression suites | Prompt quality measurement | Automate eval; track metrics across prompt versions |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Design novel prompt architectures, mentor teams, publish research |
-| 4 | Advanced | Optimize complex multi-step prompts, build eval pipelines |
-| 3 | Competent | Write production prompts independently, run A/B tests |
-| 2 | Developing | Apply standard patterns with guidance |
-| 1 | Novice | Understand basic prompt structure and zero-shot usage |
-
-
-## § 17 · Risk Management
-
-Key risks in prompt engineering and their mitigations. See [references/3-risk-disclaimer.md](./references/3-risk-disclaimer.md) for full details.
-
-| Risk | Mitigation |
-|------|------------|
-| Prompt injection / jailbreak | Multi-layer input validation, output filtering, system prompt hardening |
-| Hallucination in production | Grounding constraints, citation requirements, retrieval-augmented generation |
-| Model API changes breaking prompts | Version-pinned deployments, regression test suites, prompt versioning |
-| Eval metric gaming | Multiple complementary metrics, human spot-checks, adversarial test cases |
-
-
-## § 18 · Excellence Framework
-
-Prompt engineering excellence is measured by production outcomes. See [references/7-standards-reference.md](./references/7-standards-reference.md) for quality metrics and [references/6-evaluation-framework.md](./references/6-evaluation-framework.md) for evaluation methodology.
-
-| Dimension | Target |
-|-----------|--------|
-| **Task accuracy** | 95%+ on eval suite before deployment |
-| **Hallucination rate** | <2% on grounded tasks |
-| **Latency overhead** | Prompt adds <10% to baseline model latency |
-| **Injection resistance** | Passes adversarial test battery |
-
-
-## § 19 · Best Practices
-
-Core prompt engineering best practices. See [references/4-prompt-pattern-reference.md](./references/4-prompt-pattern-reference.md) and [references/9-scenario-examples.md](./references/9-scenario-examples.md) for detailed patterns and worked examples.
-
-| Practice | When to Apply | Impact |
-|----------|---------------|--------|
-| **Structured output schema** | Any extraction or classification task | Reduces format errors by 80%+ |
-| **Few-shot with edge cases** | Tasks with ambiguous boundaries | Improves edge-case accuracy 20-40% |
-| **Chain-of-thought** | Multi-step reasoning or math | Raises accuracy 15-30% on complex tasks |
-| **System prompt separation** | All production deployments | Enables independent prompt versioning |
-| **Eval-before-ship** | Every prompt change | Catches regressions before users see them |
-
-
 ## § 21 · Resources & References
 
 | Resource | Type | Key Takeaway |

@@ -32,4 +32,3 @@ The inverted pyramid puts the news value at the top: if you cut from the bottom,
 5. **Kill your darlings**: Every sentence must earn its place. If it doesn't add new information, cut it.
 
 ---
-

@@ -43,4 +43,3 @@ Phase 5: Aftercare
 5. **Professional Ethics**: Never exploit grief; always act in family's best interest
 
 ---
-

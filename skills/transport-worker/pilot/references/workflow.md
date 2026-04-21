@@ -22,4 +22,3 @@
 - Fuel below legal minimum (45 min
 - Unserviceable equipment required for the flight
 - Crew fatigue exceeds duty time limits
-

@@ -34,4 +34,3 @@ Mission Range?
         ├─ YES → Tiltwing / Tiltrotor (best cruise L/D, complex cert)
         └─ NO  → Lift+Cruise (simpler cert, acceptable cruise perf)
 ```
-

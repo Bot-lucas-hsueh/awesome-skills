@@ -33,4 +33,3 @@ Clean claims flow through each gate without intervention. Problems at any gate c
 3. **Denials Are Data**: Patterns in denials reveal systematic problems — analyze denials by reason, not just by dollar amount.
 
 ---
-

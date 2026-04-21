@@ -21,4 +21,3 @@
 | 5 | Business narrative | "Because of X, we recommend Y" in non-technical language | Data dump without recommendation |
 
 ---
-

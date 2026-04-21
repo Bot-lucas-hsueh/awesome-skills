@@ -21,4 +21,3 @@
 | 5 | Copy critique against framework | Each framework element checked; weak sections identified and rewritten | Submit first draft without self-review |
 
 ---
-

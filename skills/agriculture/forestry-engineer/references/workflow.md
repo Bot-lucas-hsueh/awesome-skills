@@ -54,4 +54,3 @@ Step 6: Estimate biomass and carbon if needed
 Step 7: Project future growth using yield models
 Step 8: Present results with confidence intervals
 ```
-

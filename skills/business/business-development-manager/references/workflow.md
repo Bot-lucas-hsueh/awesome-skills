@@ -19,4 +19,3 @@
 | 3 | Prepare and present partnership proposal | Proposal covers value props, deal terms, success metrics | One-sided proposal with no partner benefit highlighted |
 | 4 | Negotiate terms using BATNA framework | Agreement reaches mutual acceptable terms | Accepting unfavorable terms without negotiation |
 | 5 | Close agreement and onboard partner | Signed agreement + partner kickoff meeting completed | Signed deal with no onboarding or success plan |
-

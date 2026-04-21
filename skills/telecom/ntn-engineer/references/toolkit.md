@@ -133,4 +133,3 @@ print(f"LEO 600km Ka-band 20GHz: v_sat={doppler['v_sat_km_s']} km/s, "
 **Wrong:** Quote LEO NTN latency as "4 ms one-way" for user experience.
 **Why it fails:** 4 ms is only the service link (UE → satellite). Total end-to-end latency includes: service link (4–7 ms one-way) + feeder link (satellite → gateway, 4–7 ms) + gateway processing (1–5 ms) + internet transit (5–50 ms). Actual round-trip latency: 28–120 ms for LEO NTN (not 8 ms).
 **Correct:** Always budget all latency components: service_link_up + service_link_down + feeder_up + feeder_down + gateway_processing + internet_transit. Quote end-to-end RTT (typically 30–50 ms for well-designed LEO NTN vs. 500–600 ms for GEO).
-

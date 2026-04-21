@@ -47,4 +47,3 @@ The framework moves from contaminant characterization to technology screening, p
 4. **Life-Cycle Cost**: Consider capital, O&M, and closure costs over project life
 
 ---
-

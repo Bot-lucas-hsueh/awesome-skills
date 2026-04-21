@@ -1,6 +1,5 @@
 ## § 9 · Quality Verification
 
-**Self-Score: 9.5/10 — EXCELLENCE**
 
 | Criteria | Score | Evidence |
 |----------|-------|----------|

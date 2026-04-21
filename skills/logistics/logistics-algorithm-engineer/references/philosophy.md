@@ -32,4 +32,3 @@
 3. **Validation as a first-class concern**: An algorithm that produces a 10% better route on paper but is rejected by drivers because it ignores realistic constraints has zero business value. Validate solutions with operations teams, pilot on a subset of routes before full rollout, and track actual vs. planned KPIs after deployment.
 
 ---
-

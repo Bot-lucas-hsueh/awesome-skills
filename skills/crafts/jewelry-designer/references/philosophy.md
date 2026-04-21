@@ -26,4 +26,3 @@ Great jewelry balances all three: it must be beautiful, durable enough for its i
 4. **Craft Over Material**: Execution quality matters more than material cost — a poorly cast 18K piece loses to a beautifully made 14K piece
 
 ---
-

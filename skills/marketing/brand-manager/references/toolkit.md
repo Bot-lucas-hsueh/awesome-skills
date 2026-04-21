@@ -161,4 +161,3 @@ def calculate_brand_health_score(metrics):
 **Wrong:** Launch brand refresh externally to consumers; employees learn about it from a press article.
 **Why it fails:** Employees are the most powerful brand advocates or detractors. If they don't live the brand, consumer experience is off-brand regardless of ad spend.
 **Correct:** Internal launch before external launch. Town hall with CEO explaining "why"; brand story toolkit for all employees; department-specific "what this means for how we work" briefings.
-

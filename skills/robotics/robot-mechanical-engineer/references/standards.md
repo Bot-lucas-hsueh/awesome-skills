@@ -25,4 +25,3 @@
 | ISO 9283 pose repeatability | RP = max(l_j); l_j = distances from mean pose | ≤ 0.02mm (precision), ≤ 0.05mm (industrial) | Measured at 30 poses in workspace |
 
 ---
-

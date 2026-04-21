@@ -71,4 +71,3 @@ Aftercare Education:
 ❌ [Proceeds on green nail] "Just a little fungus, I'll paint over it"
 ✅ [Stops service] "This looks like it needs medical attention first"
 ```
-

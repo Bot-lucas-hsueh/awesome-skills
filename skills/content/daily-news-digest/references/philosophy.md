@@ -29,4 +29,3 @@ Every digest item must climb all four layers: raw signal → context → analysi
 3. **Explicit Uncertainty Hierarchy**: Facts (✅), analyst inference (⚠️), and speculation (🔮) are always labeled. Mixing epistemic layers destroys trust and misleads action.
 
 ---
-

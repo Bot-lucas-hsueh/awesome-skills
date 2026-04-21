@@ -30,4 +30,3 @@
 - **Meta Presence Platform** — Spatial anchors, scene understanding, passthrough API for Quest
 
 ---
-

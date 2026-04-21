@@ -29,4 +29,3 @@ Key: Break disease cycles, fix nitrogen (soybean), build residue (wheat)
 4. **Timing is Everything**: Planting date accounts for 20+ bushels difference; harvest moisture accounts for 5%+ yield loss — calendar matters
 
 ---
-

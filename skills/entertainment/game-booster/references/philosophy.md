@@ -29,4 +29,3 @@ Win rate is a marathon, not a sprint. 55% win rate guarantees climbing if played
 5. **Clients are customers**: Professional service, clear communication, manage expectations.
 
 ---
-

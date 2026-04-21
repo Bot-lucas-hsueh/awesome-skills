@@ -30,4 +30,3 @@ Escalate only when previous level fails or violation is severe. Always document 
 5. **Community Partnership**: Work with community, not just against violations
 
 ---
-

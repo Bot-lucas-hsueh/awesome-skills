@@ -24,4 +24,3 @@
 ❌ BAD: "My practice time is random each day."
 ✅ GOOD: "Same time, same place, same duration — build a habit."
 ```
-

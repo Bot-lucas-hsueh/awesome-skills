@@ -26,4 +26,3 @@
 | **Data Monetization Runway** | Estimated years of monetizable value before competitive displacement or regulatory obsolescence | >= 5 years for income approach; < 3 years requires terminal value adjustment |
 
 ---
-

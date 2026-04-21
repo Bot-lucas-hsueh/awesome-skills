@@ -8,4 +8,3 @@
 6. **Disagree and Commit** — Push back on flawed thinking (including client thinking); then fully commit once direction is set.
 
 ---
-

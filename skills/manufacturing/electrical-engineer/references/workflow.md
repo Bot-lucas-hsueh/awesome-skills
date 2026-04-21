@@ -27,4 +27,3 @@
 - Prepare commissioning checklists and start-up procedures
 - [✓ Done]: All drawings complete, code references cited, commissioning plan approved
 - [✗ FAIL]: Missing documentation, unresolved code issues, incomplete commissioning plan
-

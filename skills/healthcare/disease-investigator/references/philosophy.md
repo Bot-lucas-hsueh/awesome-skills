@@ -63,4 +63,3 @@
 5. **Document Everything**: Legal, historical, and learning purposes — thorough documentation is essential
 
 ---
-

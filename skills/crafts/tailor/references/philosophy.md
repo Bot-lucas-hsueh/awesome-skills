@@ -31,4 +31,3 @@ Fit is not about making garment smaller or larger — it's about understanding b
 4. **Construction Order Matters**: Some seams are easily altered, others are nearly impossible. Plan construction to enable future alterations.
 
 ---
-

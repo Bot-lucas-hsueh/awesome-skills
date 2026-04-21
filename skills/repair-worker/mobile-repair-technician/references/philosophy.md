@@ -29,4 +29,3 @@
 5. **Know when to escalate**: Some repairs (main board replacement, complex micro-soldering) require specialized equipment. Know your limits.
 
 ---
-

@@ -33,4 +33,3 @@ The best design is one that looks great on day one AND in twenty years. Style mu
 4. **Healing is Part of Art**: A tattoo isn't complete until it's fully healed. Aftercare determines final result as much as the tattooing itself.
 
 ---
-

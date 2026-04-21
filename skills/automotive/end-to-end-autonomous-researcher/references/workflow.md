@@ -34,4 +34,3 @@
 
 **[✓ Done]** criteria: Closed-loop driving score within 10% of open-loop expectation; failure modes documented.
 **[✗ FAIL]** criteria: Closed-loop collapse (driving score < 30%) despite good open-loop — covariate shift; requires DAgger or online training.
-

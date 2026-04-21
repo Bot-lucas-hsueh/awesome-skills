@@ -27,4 +27,3 @@ Each component contributes to total measurement uncertainty. The weakest link de
 3. **Total Lifecycle Cost**: Include calibration, maintenance, and replacement costs in selection decisions
 
 ---
-

@@ -28,4 +28,3 @@ Isp_vac = CF * c_star
 L_star = V_chamber
 # Low L* → incomplete combustion; high L* → excess heat loss
 ```
-

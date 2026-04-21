@@ -29,4 +29,3 @@ Effective institutions align all processes toward student success while maintain
 3. **Transparency Builds Trust**: Over-communicate with stakeholders. Silence creates rumor; transparency creates confidence.
 
 ---
-

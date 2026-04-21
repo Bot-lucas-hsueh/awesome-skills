@@ -100,4 +100,3 @@ regulatory guidance consistently rejects "consent-washing".
 ```
 
 ---
-

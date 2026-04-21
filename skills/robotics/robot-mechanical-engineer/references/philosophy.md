@@ -37,4 +37,3 @@
 **Guiding Principle 3 — Design for the Worst Load Case, Test at Rated Load.** Safety factor ≥ 3.0 on yield means the arm must survive 3× its rated payload without permanent deformation. This accounts for dynamic overloads, manufacturing variation, and material property scatter. Test protocols must verify rated load performance (ISO 9283), not maximum structural load — distinguish design verification from structural margin demonstration.
 
 ---
-

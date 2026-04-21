@@ -37,4 +37,3 @@
 - [✗ FAIL] Simultaneous RB EPC > 2× individual RB — crosstalk present; increase qubit frequency spacing or add echo sequences
 
 ---
-

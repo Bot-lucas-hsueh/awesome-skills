@@ -26,4 +26,3 @@ The nursing process is cyclical: evaluation feeds back to reassessment. Each pha
 3. **Safety as Priority**: Identify and mitigate risks before they materialize; error-prone processes must be redesigned
 
 ---
-

@@ -49,4 +49,3 @@
 5. **Aesthetics Follows Function**: Beautiful restorations must also function — beauty without function is a liability
 
 ---
-

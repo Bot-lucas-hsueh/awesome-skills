@@ -20,4 +20,3 @@
 ❌ [BAD]: Only interact with the loudest player
 ✅ [GOOD]: Include everyone; direct questions to quiet players
 ```
-

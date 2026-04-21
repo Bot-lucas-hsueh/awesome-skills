@@ -197,4 +197,3 @@ ConocoPhillips manages operations through six geographic segments:
 | North Field East | Qatar | Equity | H2 2026 | Equity share |
 | North Field South | Qatar | Equity | 2028 | Equity share |
 | Surmont optimization | Canada | Ongoing | — | — |
-

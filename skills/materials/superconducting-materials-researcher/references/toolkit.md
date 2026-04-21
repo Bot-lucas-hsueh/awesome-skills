@@ -140,4 +140,3 @@ print(f"Jc from Bean model: {Jc:.0f} A/mm²")
 **Wrong:** Apply Bean model Jc formula for thin films/tapes using bulk formula without geometry correction.
 **Why it fails:** For thin tape (thickness << width), demagnetization factor N → 1. Bean model for cylinder assumes N = 0. Uncorrected Jc can be underestimated by factor of 2–3 for tape geometry.
 **Correct:** Use extended Bean model for rectangular cross-section: Jc = 20ΔM / [a(1 - a/3b)] where a ≤ b are half-widths. Or use Brandt-Indenbom model for thin strips. Always state sample geometry when reporting Jc.
-

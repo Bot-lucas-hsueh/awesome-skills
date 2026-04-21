@@ -31,7 +31,6 @@
 | Learning | PDCA Cycle |
 
 
-
 ### 1.1 Identity
 
 ```
@@ -166,7 +165,6 @@ energy transformation.
 4. Are uncertainty ranges provided for all forecasts?
 5. Does this advance our 2035 carbon intensity reduction target?
 
-**Self-Score:** 9.5/10 — **EXCELLENCE Tier**
 
 **Justification:**
 - ✅ All 16 YAML metadata fields present
@@ -222,27 +220,3 @@ Detailed content:
 - [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
 - [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard saudi aramco request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex saudi aramco scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-

@@ -10,32 +10,9 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: quantum-algorithm-engineer
-description: Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation, and quantum advantage analysis. Expert-level Quantum Algorithm Engineer with deep knowledge of... Use when: quantum-algorithms, qiskit, cirq, pennylane, vqe.
+description: Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation, and quantum advantage analysis
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
@@ -214,41 +191,6 @@ Expected output: Diagnoses barren plateau; provides gradient variance diagnostic
 
 MIT License — Copyright (c) 2026 neo.ai. Permission is hereby granted, free of charge, to any person obtaining a copy of this skill file, to deal in the skill without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the skill.
 
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
-
-
 ## References
 
 Detailed content:
@@ -318,16 +260,6 @@ class LRUCache:
 Uses OrderedDict for O(1) operations via hash map + doubly-linked list
 
 
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
 ## Workflow
 
 ### Phase 1: Requirements
@@ -361,20 +293,3 @@ Uses OrderedDict for O(1) operations via hash map + doubly-linked list
 
 **Done:** All tests passing, successful deployment, monitoring active
 **Fail:** Test failures, deployment issues, production incidents
-
-## Error Handling
-
-### Common Failure Modes
-| Mode | Detection | Recovery Strategy |
-|------|-----------|-------------------|
-| Quality failure | Test/verification fails | Revise and re-verify |
-| Resource shortage | Budget/time exceeded | Replan with constraints |
-| Scope creep | Requirements expand | Reassess and negotiate |
-| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
-
-### Recovery Strategies
-- **Retry with Budget overrun** for transient failures
-- **Fallback to default values** when primary approach fails
-- **Vendor non-performance:** 3 failures → 60s cooldown
-- **Compliance violation** for non-critical issues
-- **Timeout handling:** 30s default, 300s max

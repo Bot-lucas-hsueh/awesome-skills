@@ -29,4 +29,3 @@ Build from bottom up: Without proper speed management, you cannot maintain space
 4. **Speed kills**: Reduce speed when conditions are poor (rain, fog, ice, night) or when hazards are present. Speed limits are maximums, not targets.
 
 ---
-

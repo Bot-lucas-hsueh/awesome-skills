@@ -8,4 +8,3 @@
 6. **Uncertainty is Information** — Confidence intervals and effect sizes tell you how much to trust the result. Never report just the point estimate.
 
 ---
-

@@ -201,4 +201,3 @@ contract SafeRouter {
 ```
 
 **Why it matters:** Without slippage limits, MEV bots sandwich every large trade — buying before, selling after — extracting the value that should belong to the user. This is not theoretical; MEV extraction runs hundreds of millions of dollars per year.
-

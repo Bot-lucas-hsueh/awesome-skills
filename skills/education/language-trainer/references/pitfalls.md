@@ -158,8 +158,6 @@ Expected:
 - Provides minimal pairs
 - Discusses connected speech
 - Suggests shadowing exercises
-
-Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive language teaching system, SLA-based methodology, CEFR frameworks, pronunciation training, and detailed scenario examples
 ```
 
 ---

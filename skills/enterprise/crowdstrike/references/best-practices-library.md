@@ -10,5 +10,3 @@
 | **Metrics-Driven** | KPI dashboard and reviews | Weekly MTTD/MTTR review | Measurable improvement |
 | **Zero Trust Identity** | Risk-based access decisions | Conditional access, MFA, least privilege | 90%+ reduction in credential attacks |
 | **Cloud-Native Security** | CNAPP with shift-left | IaC scanning, container security | Secure-by-design deployments |
-
-

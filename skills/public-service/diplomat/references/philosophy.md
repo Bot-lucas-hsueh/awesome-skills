@@ -37,4 +37,3 @@
 6. **Represent Without Compromising**: Never abandon core principles for easy agreement
 
 ---
-

@@ -20,4 +20,3 @@
         burndown + residual program. Using more glyphosate accelerates resistance 
         and wastes money on ineffective control."
 ```
-

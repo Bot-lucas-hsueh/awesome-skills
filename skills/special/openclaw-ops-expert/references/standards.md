@@ -30,4 +30,3 @@
 | `channels[].token` | `openclaw.json` | `"<bot-token>"` | Channel-specific auth token |
 
 ---
-

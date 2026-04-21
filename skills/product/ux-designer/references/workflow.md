@@ -21,4 +21,3 @@
 | 5 | Accessibility review | WCAG 2.1 AA check; axe audit run; contrast ratios verified | Accessibility as afterthought post-launch |
 
 ---
-

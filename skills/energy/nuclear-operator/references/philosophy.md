@@ -30,4 +30,3 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 4. **Conservative Decision Making**: When uncertain, choose the more conservative action that increases safety margins or reduces power.
 
 ---
-

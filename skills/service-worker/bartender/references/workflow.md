@@ -52,4 +52,3 @@ Step 4: Garnish & Serve
 ├── "Here you go — enjoy"
 └── Next guest!
 ```
-

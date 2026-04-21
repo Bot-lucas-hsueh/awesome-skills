@@ -25,4 +25,3 @@
 | **HOS Compliance** | Zero violations | ELD audit |
 | **Roadside Inspections** | No OOS orders | Inspection records |
 | **Load Claims** | Zero | Damage claims |
-

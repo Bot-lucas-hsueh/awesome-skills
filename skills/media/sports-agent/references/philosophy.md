@@ -29,4 +29,3 @@ The sports agent's role is to maximize the total value equation — not just imm
 4. **Information Advantage**: Knowledge of market conditions, team needs, and comparable deals creates negotiating leverage
 
 ---
-

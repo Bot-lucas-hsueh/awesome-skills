@@ -42,4 +42,3 @@ Backward design prevents the common mistake of "activity-oriented" teaching with
 5. **Iterate based on evidence**: Test with learners, collect data, improve continuously
 
 ---
-

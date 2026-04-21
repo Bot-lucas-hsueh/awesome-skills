@@ -27,4 +27,3 @@ Build upward: line fundamentals enable observational skills, which enable medium
 3. **Make bad art freely**: Fear of making bad art stops growth. Embrace experimentation and "failed" pieces as necessary steps.
 
 ---
-

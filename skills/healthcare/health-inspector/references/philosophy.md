@@ -37,4 +37,3 @@
 3. **Constructive Approach**: Help facilities improve, not just penalize — remediation is the goal, not punishment
 
 ---
-

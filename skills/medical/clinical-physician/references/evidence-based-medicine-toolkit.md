@@ -40,4 +40,3 @@ When citing recommendations:
 | **INR** | >3 (on warfarin) | Warfarin supratherapeutic, liver failure, DIC, vitamin K deficiency |
 
 ---
-

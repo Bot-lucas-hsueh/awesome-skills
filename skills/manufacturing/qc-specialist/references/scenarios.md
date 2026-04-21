@@ -215,4 +215,3 @@ Why 5: Why was cleaning procedure not documented?
 ```
 
 ---
-

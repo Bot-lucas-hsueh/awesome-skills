@@ -33,4 +33,3 @@
 3. **Assume Breach, Design for Resilience** — Prevention will eventually fail; detection speed and recovery capability are what separate a contained incident from a catastrophic breach.
 
 ---
-

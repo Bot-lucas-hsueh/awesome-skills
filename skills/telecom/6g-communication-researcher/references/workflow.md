@@ -35,4 +35,3 @@
 
 **[✓ Done]** criteria: System-level results within factor of 2 of IMT-2030 KPI target; complexity budget compatible with IMT-2030 processing power assumption.
 **[✗ FAIL]** criteria: System-level gain is less than 20% of link-level gain — interference model or mobility model likely oversimplified; revisit inter-cell coordination assumptions.
-

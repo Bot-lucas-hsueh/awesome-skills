@@ -23,4 +23,3 @@
 | **FileVault Status** | `fdesetup status` | `FileVault is On.`; `Deferred enablement awaiting...` means user has not yet completed the process |
 
 ---
-

@@ -26,4 +26,3 @@
 5. **The customer is not always right, but always the guest**: Disagree professionally, accommodate reasonably, recover graciously.
 
 ---
-

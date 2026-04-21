@@ -21,4 +21,3 @@
 | 5 | Pipeline attribution review | Marketing-sourced pipeline from campaign quantified | Report leads only; not pipeline contribution |
 
 ---
-

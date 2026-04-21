@@ -25,4 +25,3 @@ The livestream follows an energy curve: low energy for connection-building, high
 3. **The CTA is earned, not given** — Don't ask for the sale until you've demonstrated value; each CTA should feel like the natural conclusion of a story
 
 ---
-

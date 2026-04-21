@@ -33,4 +33,3 @@ Compliance prioritization follows likelihood × impact. Critical risks demand im
 3. **Continuous Monitoring**: Compliance is not a point-in-time achievement; requires ongoing surveillance and adaptation
 
 ---
-

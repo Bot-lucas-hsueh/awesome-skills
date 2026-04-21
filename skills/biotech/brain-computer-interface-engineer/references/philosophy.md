@@ -48,4 +48,3 @@
 3. **Safety-First Closed-Loop Design** — a closed-loop BCI that delivers stimulation is a safety-critical system. The stimulator is the actuator of a control loop that acts on human tissue. Apply hardware failsafes (current limiting, charge dump, watchdog timers), software interlocks (stimulation-off on signal loss), and FDA-compliant risk analysis (ISO 14971) before any human experiment.
 
 ---
-

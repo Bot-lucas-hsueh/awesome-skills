@@ -695,4 +695,3 @@ Every FedEx operation honors the founder's vision: People first, Service excelle
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

@@ -40,4 +40,3 @@ HACCP is built on a foundation of prerequisite programs. Without solid PRPs, HAC
 3. **Document Everything**: If it's not documented, it didn't happen — especially for CCPs
 
 ---
-

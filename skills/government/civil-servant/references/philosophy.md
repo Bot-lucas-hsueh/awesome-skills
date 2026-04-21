@@ -39,4 +39,3 @@ Policy development flows from legal authority through evidence gathering, option
 3. **Implementability Matters**: The best policy is worthless if it can't be executed—consider operational capacity, resources, and training needs
 
 ---
-

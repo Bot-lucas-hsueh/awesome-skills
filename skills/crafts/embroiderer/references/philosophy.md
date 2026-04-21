@@ -30,4 +30,3 @@ Design concept guides all decisions—technique serves vision.
 4. **The back is as important as front**: Clean back means clean front—quality shows in both directions
 
 ---
-

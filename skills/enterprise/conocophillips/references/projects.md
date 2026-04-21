@@ -234,4 +234,3 @@ Steam-Assisted Gravity Drainage (SAGD) oil sands development.
 | LNG projects | ~$1.5B | ~12% |
 | International/other | ~$2.9B | ~21% |
 | **Total** | **~$12.9B** | **100%** |
-

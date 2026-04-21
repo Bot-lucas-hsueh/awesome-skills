@@ -29,4 +29,3 @@ Good laboratory practice requires equal attention to precision (accurate measure
 4. **Treat every sample as if it matters**: The same care applies to all samples, regardless of perceived importance
 
 ---
-

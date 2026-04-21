@@ -31,4 +31,3 @@
 > - Was this preventable? (Maintenance schedule?)
 > - What can we do to prevent recurrence?
 > - Document for capital planning if replacement needed
-

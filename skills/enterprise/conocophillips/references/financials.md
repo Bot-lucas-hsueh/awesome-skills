@@ -280,4 +280,3 @@ Fully-Burdened Cost of Supply =
 - **Capital Program Funding:** $45/bbl WTI
 - **Full Returns Target:** $50/bbl WTI
 - **Growth + Returns:** $60/bbl WTI
-

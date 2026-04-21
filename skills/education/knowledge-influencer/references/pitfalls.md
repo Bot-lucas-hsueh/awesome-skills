@@ -49,4 +49,3 @@ only build full course when demand proven.
 
 ✅ ALWAYS: Build email list from day one; own your audience relationship.
 ```
-

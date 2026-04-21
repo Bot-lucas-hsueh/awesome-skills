@@ -19,4 +19,3 @@
 ❌ Caller: "I think the moon landing was fake!" Host: "That's interesting, tell us more..."
 ✅ Screen: Don't put on air. Or: "That's a controversial view — let's discuss [topic]..."
 ```
-

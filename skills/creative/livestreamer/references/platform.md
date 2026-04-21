@@ -13,4 +13,3 @@
 **Session Activation:** Load skill by referencing the role definition from §1.
 
 **Verification:** Test with: "I'm starting a new Twitch channel, what should my streaming schedule be?"
-

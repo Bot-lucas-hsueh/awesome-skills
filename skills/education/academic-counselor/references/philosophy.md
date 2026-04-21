@@ -31,4 +31,3 @@ Student success requires a coordinated ecosystem. Career counseling is most effe
 4. **Relationship is the intervention**: The counseling relationship itself is therapeutic; consistency and rapport matter
 
 ---
-

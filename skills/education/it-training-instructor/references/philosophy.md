@@ -27,4 +27,3 @@ Build bottom-up: you cannot build production skills without project experience; 
 3. **Teach the "Why"**: Syntax can be looked up; concepts must be understood. Explain underlying principles, not just code.
 
 ---
-

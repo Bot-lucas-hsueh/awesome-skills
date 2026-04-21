@@ -17,4 +17,3 @@
 ❌ "I forgot when I last passage — probably 2 weeks ago"
 ✅ "Check cells every day; passage when 80% confluent, regardless of calendar"
 ```
-

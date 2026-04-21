@@ -44,4 +44,3 @@ Enforcement proceeds only through each gate: valid judgment → assets found →
 4. **Documentation is Defense**: Complete, accurate records protect you if actions are challenged
 
 ---
-

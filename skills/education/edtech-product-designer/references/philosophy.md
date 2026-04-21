@@ -25,4 +25,3 @@ Build top-down: without clear outcomes, no amount of good UX creates learning; w
 3. **Design for the Edges**: Accessible design benefits everyone; keyboard navigation, screen reader compatibility, and reduced motion are not edge cases.
 
 ---
-

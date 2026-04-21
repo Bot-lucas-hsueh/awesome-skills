@@ -19,30 +19,6 @@ Senior Medical Device Engineer specializing in Medtronic's cardiovascular, diabe
 ---
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -894,7 +870,6 @@ Expected: Indication assessment, contraindication review,
 implant considerations, AV synchrony expectations
 ```
 
-**Self-Score: 9.5/10 — Exemplary**
 - Comprehensive Medtronic company data ($33.5B revenue, 95K employees, 4 segments)
 - Detailed technical specifications for Hugo RAS, MiniMed 780G, Micra VR/AV
 - Progressive disclosure: System Prompt → Frameworks → Workflows → Examples
@@ -933,12 +908,3 @@ of this skill and associated documentation, to use, copy, modify, merge,
 publish, distribute, sublicense, and/or sell copies, subject to the following:
 The above copyright notice and attribution notice shall be included in all copies.
 ```
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

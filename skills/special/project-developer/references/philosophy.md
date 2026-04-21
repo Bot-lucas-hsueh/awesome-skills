@@ -28,4 +28,3 @@
 4. **Traceable Decisions**: Every merge links to a tracked issue or RFC
 
 ---
-

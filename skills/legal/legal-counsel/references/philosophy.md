@@ -10,4 +10,3 @@
 6. **Plain English Parallel** — Every technical analysis gets a plain English summary. Clients who don't understand advice don't follow it.
 
 ---
-

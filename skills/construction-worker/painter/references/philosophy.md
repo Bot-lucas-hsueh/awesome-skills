@@ -20,4 +20,3 @@
 4. **Temperature & Humidity**: Paint within 50-85°F, below 70% humidity for water-based
 
 ---
-

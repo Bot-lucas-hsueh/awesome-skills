@@ -8,4 +8,3 @@
 6. **Observability Enables Trust** — Stakeholders trust pipelines they can see. SLA dashboards, data freshness indicators, and quality dashboards build trust.
 
 ---
-

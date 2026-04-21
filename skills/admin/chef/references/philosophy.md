@@ -38,4 +38,3 @@ A dish builds from a flavor base (umami) upward through aromatics, balanced by a
 4. **Taste as You Go**: The palate is the ultimate instrument. Taste at every stage — before cooking, during cooking, after cooking, after resting. Adjustments made early prevent disasters later.
 
 ---
-

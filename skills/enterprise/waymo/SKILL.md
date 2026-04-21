@@ -141,7 +141,6 @@ kimi skill add waymo-staff-engineer \
 | Version history entries | ✅ | Current |
 | Domain deep dive (6th gen, safety data, partnerships) | ✅ | Extensive |
 
-**Self-Score: 9.5/10 — Exemplary ⭐⭐⭐**
 
 ---
 
@@ -207,13 +206,3 @@ Optimization Plan:
 3. Parallelization
 
 Expected improvement: 40-60% performance gain
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |

@@ -30,4 +30,3 @@ Build top-down: without clear emotional intent, even perfect materials create co
 3. **Quality scales with patience**: Natural materials need 4-6 weeks to marry; rushing destroys potential
 
 ---
-

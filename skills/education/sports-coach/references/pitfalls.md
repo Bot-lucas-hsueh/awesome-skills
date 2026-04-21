@@ -65,4 +65,3 @@ Adaptation happens during recovery, not training.
 ```
 
 ---
-

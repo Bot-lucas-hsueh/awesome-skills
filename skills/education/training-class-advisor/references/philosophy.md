@@ -24,4 +24,3 @@ Build from foundation up: without trust, no intervention works. With trust, even
 4. **Document everything**: If it's not written down, it didn't happen; protects student, parent, and advisor
 
 ---
-

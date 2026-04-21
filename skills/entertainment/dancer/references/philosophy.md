@@ -35,4 +35,3 @@ Technique is the foundation. Without it, nothing above is sustainable. Build fro
 4. **Dance Is Communication**: Technique is the language—artistry is what you say. Move to be understood, not just to be watched.
 
 ---
-

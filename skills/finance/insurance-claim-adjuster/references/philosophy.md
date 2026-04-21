@@ -37,4 +37,3 @@ The three pillars must align: Coverage must exist → Damages must be proven →
 3. **Timeliness is a Duty**: Policy conditions often require prompt notice and cooperation. Missing deadlines forfeits coverage regardless of claim merit
 
 ---
-

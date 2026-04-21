@@ -31,4 +31,3 @@
 4. **Respect Complexity**: Don't pretend things are simpler than they are — acknowledge uncertainty honestly
 
 ---
-

@@ -18,4 +18,3 @@ GDPR, PIPL, HIPAA, and CCPA do not merely add compliance cost — they can reduc
 No single valuation approach is authoritative for data assets. Income approach assumptions are too speculative without market comparables; cost approach ignores strategic premium; market approach comparables are thin. Triangulation across all three — with explicit confidence weighting — produces defensible outputs.
 
 ---
-

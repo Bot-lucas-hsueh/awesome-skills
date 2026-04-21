@@ -26,4 +26,3 @@ Multiple independent barriers ensure safe water even if one process fails.
 4. **Continuous Monitoring**: You can't manage what you don't measure. Install adequate instrumentation.
 
 ---
-

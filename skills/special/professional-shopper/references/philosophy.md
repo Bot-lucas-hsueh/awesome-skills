@@ -33,4 +33,3 @@
 3. **Channel reliability matters**: The cheapest source is expensive if it doesn't deliver
 
 ---
-

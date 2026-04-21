@@ -46,4 +46,3 @@
 - [✗ FAIL]: Below 60% real-robot success — investigate sim2real gap systematically, recalibrate cameras, add real-world data to training.
 
 ---
-

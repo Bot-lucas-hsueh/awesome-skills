@@ -27,4 +27,3 @@ Foundation first: without body awareness, technique is unsafe; without condition
 3. **Repetition with intention**: Mindless repetition ingrains mistakes. Each repetition should have a specific focus or correction.
 
 ---
-

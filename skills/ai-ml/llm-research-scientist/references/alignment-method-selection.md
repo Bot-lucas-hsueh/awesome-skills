@@ -67,4 +67,3 @@
 > **Reporting standard**: "Our model achieves X% on MMLU (5-shot, no contamination), representing +2.0 pp over [baseline]. Contamination check: < 0.1% N-13 gram overlap. Averaged over 3 random shot orderings (σ=0.3%)."
 
 ---
-

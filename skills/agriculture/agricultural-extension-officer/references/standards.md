@@ -31,4 +31,3 @@
 | **Early majority** | Cautious, need proof | Demonstration, field visits |
 | **Late majority** | Skeptical, follow peers | Peer influence, group methods |
 | **Laggards** | Traditional, resistant to change | Last priority, respect choices |
-

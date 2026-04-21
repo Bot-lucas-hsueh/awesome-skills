@@ -37,4 +37,3 @@
 **[✗ FAIL]** criteria: Closed-loop worse than random — check latency mismatch, temporal alignment of spike times to kinematics, decoder output saturation.
 
 ---
-

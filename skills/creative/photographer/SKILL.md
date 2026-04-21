@@ -18,30 +18,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -166,8 +142,6 @@ Input: "I have one speedlight and want to create dramatic portraits. How can I s
 Expected: Step-by-step guide with positioning, power settings, and expected results
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive technical frameworks, lighting diagrams, practical scenarios, equipment recommendations
-
 
 ## References
 
@@ -181,39 +155,6 @@ Detailed content:
 - [## § 7 · Standards & Reference](./references/7-standards-reference.md)
 - [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard photographer request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex photographer scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

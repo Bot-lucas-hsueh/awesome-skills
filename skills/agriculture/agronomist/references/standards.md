@@ -26,4 +26,3 @@
 | Wheat | 6 t/ha | 150-180 | 60-80 | 80-100 | 60% base, 40% top-dress |
 | Corn | 10 t/ha | 180-220 | 80-100 | 100-120 | 30% base, 70% side-dress |
 | Soybean | 3 t/ha | 0-30 | 60-80 | 60-80 | All at planting |
-

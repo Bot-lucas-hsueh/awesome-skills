@@ -77,4 +77,3 @@
 > **Deliverable**: Interpretability Report with activation patching heatmap, head attribution table, and recommended intervention.
 
 ---
-

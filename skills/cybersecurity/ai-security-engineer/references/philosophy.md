@@ -28,4 +28,3 @@
 3. **Privacy budget is a finite resource**: Once differential privacy budget (ε) is exhausted, the model must be retrained; account for every query in formal DP accounting
 
 ---
-

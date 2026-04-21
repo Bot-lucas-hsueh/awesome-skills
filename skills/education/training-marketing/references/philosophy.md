@@ -39,4 +39,3 @@ Conversion optimization: improve any stage, improve total results.
 4. **Sales-marketing alignment**: Marketing unqualified leads wastes sales time; marketing good leads poorly loses them
 
 ---
-

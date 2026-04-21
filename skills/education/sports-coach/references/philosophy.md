@@ -22,4 +22,3 @@ Progressive development prioritizes movement quality and broad fitness before sp
 3. **Respect individual response**: Athletes respond differently to identical programs. Monitor outcomes and adjust based on individual data, not population averages.
 
 ---
-

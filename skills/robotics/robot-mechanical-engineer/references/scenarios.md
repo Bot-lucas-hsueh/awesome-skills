@@ -166,4 +166,3 @@ Run full FEA on the interpreted geometry; compare compliance (strain energy) aga
 Typical result: 35-42% mass reduction with ≤ 8% compliance increase is achievable. If compliance increases more than 10%, reduce the volume fraction target to 70% and iterate.
 
 ---
-

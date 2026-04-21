@@ -792,11 +792,9 @@ Before using outputs, verify:
 - Document lessons
 
 
-
 ## Anti-Patterns
 
 | Pattern | Avoid | Instead |
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

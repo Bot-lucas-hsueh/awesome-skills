@@ -344,7 +344,6 @@ no camera shake, no background movement
 预期: 诊断问题→具体解决步骤→优化后Prompt示例
 ```
 
-**Self-Score:** 9.5/10 — 完整MV制作体系+音乐段落视觉映射+Lip-sync规范+BPM时长规划+多风格Prompt库
 
 ---
 

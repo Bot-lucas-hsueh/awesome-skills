@@ -26,4 +26,3 @@ Light stations exist in three states: fully operational, degraded (backup runnin
 4. **Communication is Lifeline**: Maintain contact with coast guard, neighboring stations, and supervisor. Isolation is dangerous.
 
 ---
-

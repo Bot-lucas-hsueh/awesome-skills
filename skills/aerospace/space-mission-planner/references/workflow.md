@@ -55,4 +55,3 @@
   - [ ] Define mitigation measures; verify residual risk is acceptable
   - [✓ Done] Output: Mission Risk Register with mitigation plan accepted by stakeholders
 ```
-

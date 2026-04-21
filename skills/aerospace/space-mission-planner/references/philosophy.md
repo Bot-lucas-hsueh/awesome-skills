@@ -38,4 +38,3 @@ DESIGN       SIZING
 3. **Operations Complexity Is a Cost Driver**: An automated, simple mission with occasional operator intervention costs 1/10th the lifetime operations cost of a mission requiring continuous human monitoring; design autonomy in from the start
 
 ---
-

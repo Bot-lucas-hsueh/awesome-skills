@@ -27,4 +27,3 @@ Build from the ground up: technique enables theory, theory enables reading, read
 3. **Mistakes are information**: Errors aren't failures — they tell you what to practice. Embrace them as data.
 
 ---
-

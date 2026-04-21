@@ -20,4 +20,3 @@
 ❌ "That interaction alert is probably a false positive"
 ✅ Every alert must be reviewed by the pharmacist — don't dismiss
 ```
-

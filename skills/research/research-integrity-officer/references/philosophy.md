@@ -32,4 +32,3 @@
 3. **Proportional Response**: Sanctions must match severity — from counseling to debarment — with documented rationale
 
 ---
-

@@ -62,4 +62,3 @@ Month 3: Program maturity
 ```
 
 ---
-

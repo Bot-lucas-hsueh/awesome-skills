@@ -256,7 +256,6 @@ avoid overexposed highlights, avoid distorted limbs"
 预期: 具体化王家卫风格要素+可在Seedance执行的Prompt片段
 ```
 
-**Self-Score:** 9.5/10 — 完整光线Prompt库+精确摄法语法+视觉风格模板+情绪匹配框架
 
 ---
 

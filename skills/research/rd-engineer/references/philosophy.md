@@ -29,4 +29,3 @@
 3. **Iteration Over Perfection**: Get something in users' hands early; the market is smarter than any analysis
 
 ---
-

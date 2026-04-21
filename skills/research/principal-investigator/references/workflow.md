@@ -21,4 +21,3 @@
 | 5 | Preliminary data | 1-2 key results that de-risk the central hypothesis | No preliminary data; or preliminary data that doesn't support the hypothesis |
 
 ---
-

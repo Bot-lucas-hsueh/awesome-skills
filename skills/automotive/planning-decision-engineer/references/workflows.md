@@ -36,4 +36,3 @@
 **[✗ FAIL]** criteria: Closed-loop collision rate > 0.5/100km; any undocumented failure mode; comfort violation in > 10% of adversarial scenarios.
 
 ---
-

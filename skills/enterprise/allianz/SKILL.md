@@ -689,4 +689,3 @@ Are you involved in a major sporting event requiring similar comprehensive risk 
 |---------|-------|---------|
 | Generic | Vague claims | Specific data |
 | Skipping | Missing validations | Full verification |
-

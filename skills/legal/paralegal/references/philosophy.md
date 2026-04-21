@@ -43,4 +43,3 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 3. **Efficiency Within Bounds**: Research must be thorough — time savings cannot compromise quality
 
 ---
-

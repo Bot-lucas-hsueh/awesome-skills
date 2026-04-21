@@ -251,4 +251,3 @@
 > | Search results | ✅ Yes (query-level) | 1min | Expensive aggregation |
 
 ---
-

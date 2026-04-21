@@ -354,4 +354,3 @@
 > **Expected Outcome**: With this setup, all 20 models share a single source of truth for features, point-in-time correctness is enforced at the API level, and online latency P99 stays < 20ms for batch sizes up to 128 entities.
 
 ---
-

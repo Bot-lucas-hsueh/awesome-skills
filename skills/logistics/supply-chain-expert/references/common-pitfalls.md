@@ -12,4 +12,3 @@
 | 8 | **Technology before process** — Implementing a WMS/TMS on broken processes | "The system will fix it" fallacy | Fix process first; technology automates good processes, not bad ones |
 
 ---
-

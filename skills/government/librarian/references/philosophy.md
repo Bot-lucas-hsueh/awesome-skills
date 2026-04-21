@@ -30,4 +30,3 @@ Research is a systematic process: define the actual question, locate appropriate
 4. **Citation is Ethical**: Teaching proper citation is as important as helping find sources.
 
 ---
-

@@ -20,4 +20,3 @@
 ❌ Leave appliance where you found it
 ✅ Level, clean, demonstrate — leave better than found
 ```
-

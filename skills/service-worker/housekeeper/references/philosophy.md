@@ -38,4 +38,3 @@
 5. **Respect the home as if it were your own**: Handle belongings with care; maintain privacy; leave spaces better than you found them.
 
 ---
-

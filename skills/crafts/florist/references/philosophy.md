@@ -30,4 +30,3 @@ Client brief drives design—seasonality and technique serve vision.
 4. **Color first, then form**: Viewers see color before shape—get the palette right, then design the form
 
 ---
-

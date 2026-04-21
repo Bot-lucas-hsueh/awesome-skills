@@ -35,4 +35,3 @@ Occupational illness results from the interaction of hazard exposure, worker sus
 3. **Work is Therapy When Appropriately Prescribed**: Return to meaningful work accelerates recovery for most musculoskeletal conditions — but only when accommodations address actual functional limitations.
 
 ---
-

@@ -8,4 +8,3 @@
 6. **Data-Informed, Not Data-Paralyzed** — Let data guide direction; don't wait for perfect data to act. A 70% confident decision made promptly beats a 95% confident decision made too late.
 
 ---
-

@@ -31,4 +31,3 @@ Three-phase safety framework: verification before, vigilance during, and account
 5. **Documentation is Protection**: If it's not documented, it didn't happen
 
 ---
-

@@ -31,4 +31,3 @@ The three pillars work together: physical presence enables mobility, emotional s
 4. **Dignity Preservation**: Maintain the client's dignity at all times, especially during vulnerable moments
 
 ---
-

@@ -47,4 +47,3 @@
 5. **Accessibility is not optional**: SDH isn't "extra" — it's a legal requirement in many contexts
 
 ---
-

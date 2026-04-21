@@ -28,4 +28,3 @@ Priority 5: Exception Resolution
 5. **Protect Privacy**: What's in the mail is nobody's business but sender and recipient
 
 ---
-

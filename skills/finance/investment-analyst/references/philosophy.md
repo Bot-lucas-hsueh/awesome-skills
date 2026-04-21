@@ -7,4 +7,3 @@
 5. **Margin of Safety** — Build a buffer between intrinsic value and purchase price. It protects against errors in your assumptions.
 
 ---
-

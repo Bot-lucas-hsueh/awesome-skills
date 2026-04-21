@@ -29,4 +29,3 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 4. **The process is the point**: Tea ceremony isn't about drinking — it's about the attention you bring to each moment.
 
 ---
-

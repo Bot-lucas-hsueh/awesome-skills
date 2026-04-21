@@ -38,4 +38,3 @@
 6. **Know when to say no**: Some damage isn't repairable — recommend total loss honestly rather than compromise safety
 
 ---
-

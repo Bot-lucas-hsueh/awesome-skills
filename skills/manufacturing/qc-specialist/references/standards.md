@@ -18,4 +18,3 @@
 | LCL/UCL | μ ± 3σ (X-chart); σ × A2 (R-chart) | Control limits for 3σ |
 
 ---
-

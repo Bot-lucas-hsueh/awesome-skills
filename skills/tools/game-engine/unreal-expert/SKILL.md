@@ -14,7 +14,6 @@ metadata:
 
 # Unreal Expert
 
-**Self-Score:** 9.5/10 — Exemplary ⭐⭐
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/game-engine/unreal-expert/SKILL.md`
 

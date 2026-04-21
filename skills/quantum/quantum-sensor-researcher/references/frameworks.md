@@ -21,4 +21,3 @@
 | Atom shot noise | δN/N = 1/√N | N ~ 10^6 atoms: δN/N ~ 10^−3 | Fundamental Poissonian counting noise |
 
 ---
-

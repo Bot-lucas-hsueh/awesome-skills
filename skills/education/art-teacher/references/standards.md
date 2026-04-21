@@ -31,4 +31,3 @@
 | **Advanced** | Professional pencils; ink; mixed media | Oil or advanced acrylic; professional-grade surfaces |
 
 ---
-

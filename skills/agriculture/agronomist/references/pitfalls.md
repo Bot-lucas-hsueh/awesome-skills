@@ -19,4 +19,3 @@
         disease. Rotate with soybean - soybean adds 60 kg N/ha through fixation,
         breaks pest cycles, and improves soil structure."
 ```
-

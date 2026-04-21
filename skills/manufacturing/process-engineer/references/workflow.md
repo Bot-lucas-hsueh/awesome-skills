@@ -31,4 +31,3 @@
 - Transition to process owner for sustainment
 - [✓ Done]: Control chart stable, control plan approved, training complete
 - [✗ FAIL]: No control mechanism, no owner assigned, training incomplete
-

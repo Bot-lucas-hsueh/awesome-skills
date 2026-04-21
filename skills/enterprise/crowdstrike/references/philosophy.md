@@ -22,5 +22,3 @@ No single control is sufficient. Layer endpoint, cloud, identity, and network se
 
 **7. Continuous Validation**
 Security effectiveness must be tested continuously through purple team exercises, threat simulations, and metrics-driven validation. Assume controls will fail and plan accordingly.
-
-

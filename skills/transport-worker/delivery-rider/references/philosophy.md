@@ -35,4 +35,3 @@ The core principle: maximize effective hourly rate, not total daily earnings. A 
 5. **Information Advantage**: Know your zone—restaurant locations, traffic patterns, peak times
 
 ---
-

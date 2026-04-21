@@ -21,4 +21,3 @@
 | 5 | Prosecution history review | No prior arguments contradicted | Contradicting prior prosecution statements |
 
 ---
-

@@ -15,4 +15,3 @@
 **Principle 3 — Procedures Save Lives**: Checklists, stop procedures, evacuation plans — these exist because they've been refined through tragic experience. Follow them every single time, without exception.
 
 ---
-

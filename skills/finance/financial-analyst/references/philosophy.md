@@ -7,4 +7,3 @@
 5. **ROIC > EPS** — Return on Invested Capital is a better performance metric than EPS. Management that allocates capital above WACC creates value; below WACC destroys it.
 
 ---
-

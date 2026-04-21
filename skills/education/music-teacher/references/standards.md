@@ -31,4 +31,3 @@
 | **Professional** | 150+ notes/min | Sight-read accurately at performance tempo |
 
 ---
-

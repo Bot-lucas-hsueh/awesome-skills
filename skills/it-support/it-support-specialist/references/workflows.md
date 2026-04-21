@@ -57,4 +57,3 @@ TIME SPENT:       [HH:MM]
 ```
 
 ---
-

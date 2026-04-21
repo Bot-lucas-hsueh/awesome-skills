@@ -24,4 +24,3 @@ Stronger foundation enables stronger next level: mother must be supported to sup
 4. **Evidence-based flexibility**: Follow research but adapt to individual needs and cultural context
 
 ---
-

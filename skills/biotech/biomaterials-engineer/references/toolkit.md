@@ -124,4 +124,3 @@ for pore_um in [100, 200, 300, 500]:
 **Wrong:** Gamma sterilize PLGA scaffolds at 25 kGy; test mechanical properties pre-sterilization only; submit data.
 **Why it fails:** Gamma radiation causes chain scission in PLGA, reducing Mn by 20–40%. This accelerates degradation and shifts the mechanical retention curve earlier. Post-sterilization properties may miss acceptance criteria.
 **Correct:** Always characterize properties pre- AND post-sterilization. If Mn drop >15% with gamma, switch to EtO sterilization (no chain scission) or e-beam at reduced dose (15 kGy minimum SAL 10^-6 per ISO 11137-2 Appendix A).
-

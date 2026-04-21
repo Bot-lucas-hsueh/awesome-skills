@@ -19,4 +19,3 @@
 | 3 | Accessibility and brand compliance check | WCAG 4.5:1 contrast met; brand guidelines followed | Inaccessible contrast or off-brand elements |
 | 4 | Pre-flight for print or technical QA for digital | No errors in preflight; all specs met | Production errors discovered after delivery |
 | 5 | Package and deliver final files with usage guide | All formats delivered; usage instructions provided | Delivering files without format documentation |
-

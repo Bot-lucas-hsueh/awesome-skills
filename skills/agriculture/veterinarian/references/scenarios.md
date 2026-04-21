@@ -103,4 +103,3 @@
 > - Re-check quarter at drying off
 >
 > **Next I need:** What does the milk look like? Is the cow showing systemic signs?
-

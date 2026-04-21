@@ -25,4 +25,3 @@ Technical accuracy is table stakes — the differentiator is professional judgme
 3. **The Exam is a Performance**: Knowing the material isn't enough. You need test-taking strategy, time management, and stress management.
 
 ---
-

@@ -98,4 +98,3 @@ See [references/pitfalls.md](./references/pitfalls.md) for detailed anti-pattern
 | 🟡 Medium | **No feedback loop** — persistent failures | Post-training eval → failure mode → targeted data |
 
 ---
-

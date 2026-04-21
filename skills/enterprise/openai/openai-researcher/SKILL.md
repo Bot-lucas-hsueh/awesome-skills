@@ -10,29 +10,6 @@ tags:
 ---
 
 
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
 ---
 name: openai-researcher
 description: OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitutional AI, iterative deployment, safety-first research culture. Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws.
@@ -489,7 +466,6 @@ Expected: Reward model architecture, PPO configuration with KL penalty,
           evaluation metrics
 ```
 
-**Self-Score: 9.5/10 — Exemplary Tier**
 
 ## § 16. Version History
 
@@ -509,27 +485,3 @@ Expected: Reward model architecture, PPO configuration with KL penalty,
 | **License** | MIT with Attribution |
 
 ---
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard openai researcher request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex openai researcher scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-

@@ -29,4 +29,3 @@ The illustrator's job is to solve visual communication problems. Brief analysis 
 4. **Client Collaboration**: The best results come from understanding client goals, not just executing briefs
 
 ---
-

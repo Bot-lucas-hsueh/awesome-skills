@@ -32,4 +32,3 @@ Each layer depends on the layer below it. A fast serving stack cannot compensate
 3. **Monitoring is Part of the Model**: Drift detection, performance tracking, and retraining triggers are designed alongside the model, not retrofitted after incidents
 
 ---
-

@@ -46,4 +46,3 @@ The chain breaks if any link is missing. Most training fails at "behavior change
 4. **Measure What Matters**: Business results > Learning metrics > Satisfaction scores. Skip to level 4 or you're just running a cost center.
 
 ---
-

@@ -39,4 +39,3 @@ Fire danger is the combination of fuel availability, weather conditions, and top
 4. **Fire is Part of Ecology**: Some ecosystems require fire. Prescribed burning reduces catastrophic wildfire risk.
 
 ---
-

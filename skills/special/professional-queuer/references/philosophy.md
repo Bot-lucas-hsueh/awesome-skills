@@ -32,4 +32,3 @@
 3. **Pre-research beats waiting**: 10 minutes of research can save hours of waiting
 
 ---
-

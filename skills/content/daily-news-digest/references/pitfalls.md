@@ -62,4 +62,3 @@ Cross-Domain Synthesis section explicitly maps:
 "EU AI Act enforcement pressure (§1) + DeepSeek open-source momentum (§4) =
 European enterprises face a new sourcing decision tree. Map the implication chain."
 ```
-

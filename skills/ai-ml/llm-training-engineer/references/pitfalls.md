@@ -60,4 +60,3 @@ GOOD: Log gradient norm every step:
       Critical: > 10.0 (likely data issue or too high LR)
       NaN: data corruption or fp16 overflow
 ```
-

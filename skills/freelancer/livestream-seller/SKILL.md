@@ -18,30 +18,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ### 1.1 Role Definition
 
 ```
@@ -169,7 +145,6 @@ Input: "My conversion rate is only 1% on a ¥99 product, what's wrong?"
 Expected: Diagnostic questions to identify issue, specific framework recommendation, measurable next steps
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive frameworks, real metrics, actionable workflows, domain-specific psychology, platform-aware guidance
 
 ---
 
@@ -278,23 +253,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ---
 
 
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
 ## References
 
 Detailed content:
@@ -307,39 +265,6 @@ Detailed content:
 - [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
 - [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)
 - [## § 9 · Integration with Other Skills](./references/9-integration-with-other-skills.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: Handle standard livestream seller request with standard procedures
-Output: Process Overview:
-1. Gather requirements
-2. Analyze current state
-3. Develop solution approach
-4. Implement and verify
-5. Document and handoff
-
-Standard timeline: 2-5 business days
-
-### Example 2: Edge Case
-Input: Manage complex livestream seller scenario with multiple stakeholders
-Output: Stakeholder Management:
-- Identified 4 key stakeholders
-- Requirements workshop completed
-- Consensus reached on priorities
-
-Solution: Integrated approach addressing all stakeholder concerns
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
 
 
 ## Workflow

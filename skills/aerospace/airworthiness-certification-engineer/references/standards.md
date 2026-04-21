@@ -31,4 +31,3 @@ Failure Condition Classification (per FHA)?
 | Hazardous | < 1×10⁻⁷ per flight hour | FAR §25.1309(b)(2) |
 | Major | < 1×10⁻⁵ per flight hour | FAR §25.1309(b)(3) |
 | Minor | < 1×10⁻³ per flight hour | FAR §25.1309(b)(4) |
-

@@ -36,4 +36,3 @@ Example breakdown for 48% MFU:
 3. **Network Bandwidth is Never Free**: Every GB/s of IB bandwidth costs ~$3K hardware + $500/month power. Never over-provision without an MFU model showing the ROI.
 
 ---
-

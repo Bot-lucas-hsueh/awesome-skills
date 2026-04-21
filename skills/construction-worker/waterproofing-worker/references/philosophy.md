@@ -37,4 +37,3 @@ The leak you see inside is almost never directly above where water enters. Fixin
 3. **Warranty-Driven Specification**: Manufacturer warranties require specific installation procedures. Your spec must ensure those conditions are met or the warranty is meaningless.
 
 ---
-

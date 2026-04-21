@@ -18,4 +18,3 @@
 ```
 
 **Why it matters:** Splitting ground planes creates impedance discontinuities and disrupts return currents. The "split" approach was used in older analog designs but causes more problems in modern mixed-signal boards.
-

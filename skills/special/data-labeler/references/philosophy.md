@@ -30,4 +30,3 @@
 3. **Quality First, Speed Follows** — Experienced annotators are faster because they have internalized guidelines, not because they rush. Never trade quality for throughput.
 
 ---
-

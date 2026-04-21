@@ -36,4 +36,3 @@ The arbitration framework applies only when: (1) valid agreement exists, (2) tri
 3. **Efficiency Without Sacrifice**: Expedited procedures are appropriate only when they do not impair a party's ability to present its case fully
 
 ---
-

@@ -8,4 +8,3 @@
 6. **Null Results are Results** — The absence of an effect is scientifically valuable. Suppress the impulse to "fish for significance."
 
 ---
-

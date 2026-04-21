@@ -37,4 +37,3 @@ The actuarial control cycle is the foundation: define the problem, develop an ap
 5. **Transparency enables accountability.** Document methods, data sources, and limitations so others can evaluate your work.
 
 ---
-

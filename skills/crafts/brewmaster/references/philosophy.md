@@ -28,4 +28,3 @@ Each step matters—flaws compound; excellence requires attention at every stage
 4. **Patience is not optional**: Primary fermentation takes weeks; rushing leads to green beer
 
 ---
-

@@ -63,4 +63,3 @@ implementation challenges → reputation damage.
 ✅ GOOD: Mandatory risk matrix in all proposals; specify mitigation
 for each identified risk; include in monitoring.
 ```
-

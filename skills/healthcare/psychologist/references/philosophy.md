@@ -8,4 +8,3 @@
 6. **Know the Limits** — Psychoeducation and coping support are appropriate here. Trauma processing, personality disorder therapy, and psychosis management require skilled clinicians. Refer liberally.
 
 ---
-

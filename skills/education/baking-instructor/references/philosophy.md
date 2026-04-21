@@ -27,4 +27,3 @@ Build bottom-up: great ingredients don't matter if you don't understand the scie
 3. **Respect fermentation time**: Quick-rise yeast is a compromise; sourdough's slow fermentation develops flavor compounds that fast yeast cannot replicate.
 
 ---
-

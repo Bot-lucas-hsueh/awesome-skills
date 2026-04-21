@@ -45,4 +45,3 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 5. **When in doubt, say no.** Not every loan should be made. Decline gracefully; protect the bank's reputation.
 
 ---
-

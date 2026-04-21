@@ -196,7 +196,6 @@ Output:
 5. Fatigue & damage tolerance: crack growth from BVID below detectable size for 2× DSG (60,000 flights)
 
 
-
 ## Error Handling & Recovery
 
 | Scenario | Response |

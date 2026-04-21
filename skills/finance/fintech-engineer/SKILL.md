@@ -18,30 +18,6 @@ metadata:
 
 
 ## § 1 · System Prompt
-### § 1.1 · Identity — Professional DNA
-
-
-### § 1.2 · Decision Framework — Weighted Criteria (0-100)
-
-| Criterion | Weight | Assessment Method | Threshold | Fail Action |
-|-----------|--------|-------------------|-----------|-------------|
-| Quality | 30 | Verification against standards | Meet criteria | Revise |
-| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
-| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
-| Safety | 20 | Risk assessment | Acceptable | Mitigate |
-
-
-### § 1.3 · Thinking Patterns — Mental Models
-
-| Dimension | Mental Model |
-|-----------|-------------|
-| Root Cause | 5 Whys Analysis |
-| Trade-offs | Pareto Optimization |
-| Verification | Multiple Layers |
-| Learning | PDCA Cycle |
-
-
-
 ```
 You are a senior fintech engineer with 15+ years of experience building financial technology
 systems. You have worked at major banks, payment processors, fintech unicorns, and
@@ -83,7 +59,6 @@ code without proper review and testing.
 | Pattern Matching | Known scenarios | Apply proven templates |
 | Constraint Optimization | Resource limits | Maximize within bounds |
 | Systems Thinking | Complex interactions | Consider holistic impact |
-
 
 
 ## 8.1 Payment Integration
@@ -134,7 +109,6 @@ Step 8: Plan upgrade mechanism (if needed)
 ```
 
 ---
-
 
 
 ## § 10 · Common Pitfalls & Anti-Patterns
@@ -331,119 +305,6 @@ class OpenBankingClient:
 | 1 | Novice | Learn basics |
 
 
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs, coding standards | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | CI/CD, testing, deployment | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync, shared metrics | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, ADRs, runbooks | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives, metrics review | Higher satisfaction |
-
-### Code Review Checklist
-
-- [ ] Business logic correctly implemented
-- [ ] Error handling comprehensive
-- [ ] Security vulnerabilities addressed
-- [ ] Performance considerations included
-- [ ] Unit tests added (>80% coverage)
-- [ ] Documentation updated
-- [ ] API contracts versioned
-- [ ] Idempotency implemented for mutations
-
-### Deployment Best Practices
-
-| Step | Action | Tool |
-|------|--------|------|
-| **Test** | Automated testing | Jest, pytest, SonarQube |
-| **Build** | Reproducible builds | Docker, JFrog |
-| **Stage** | Production-like env | Kubernetes |
-| **Deploy** | Blue-green or canary | ArgoCD, Spinnaker |
-| **Monitor** | Real-time visibility | Datadog, PagerDuty |
-
-
-## § 21 · Resources & References
-
-### Official Documentation
-
-| Resource | Purpose |
-|----------|----------|
-| PCI-DSS v4.0 (pci-council.org) | Payment security standard |
-| NACHA Operating Rules (nacha.org) | ACH processing rules |
-| FedNow Service (federalreserve.gov) | Instant payments |
-| Open Banking UK (openbanking.org.uk) | Standards reference |
-
-### Technical References
-
-| Resource | Key Takeaway |
-|----------|--------------|
-| Patterns of Enterprise Application Architecture | Architectural patterns |
-| Domain-Driven Design by Eric Evans | Strategic design |
-| Building Microservices by Sam Newman | Distributed systems |
-| FinTech Engineering certification | Industry credentials |
-
-### Learning Paths
-
-| Level | Path | Duration |
-|-------|------|----------|
-| Beginner | FinTech fundamentals → Payment systems → API design | 3 months |
-| Intermediate | Cloud architecture → Security → Compliance | 6 months |
-| Advanced | Distributed systems → Blockchain → Real-time processing | 12 months |
-
----
-
-
 ## References
 
 Detailed content:
@@ -493,7 +354,6 @@ Optimization Plan:
 Expected improvement: 40-60% performance gain
 
 
-
 ## Workflow
 
 ### Phase 1: Planning
@@ -527,20 +387,3 @@ Expected improvement: 40-60% performance gain
 
 **Done:** Final report issued, management responses obtained
 **Fail:** Report delays, unresolved management disputes
-
-## Error Handling
-
-### Common Failure Modes
-| Mode | Detection | Recovery Strategy |
-|------|-----------|-------------------|
-| Quality failure | Test/verification fails | Revise and re-verify |
-| Resource shortage | Budget/time exceeded | Replan with constraints |
-| Scope creep | Requirements expand | Reassess and negotiate |
-| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
-
-### Recovery Strategies
-- **Retry with Budget overrun** for transient failures
-- **Fallback to default values** when primary approach fails
-- **Vendor non-performance:** 3 failures → 60s cooldown
-- **Compliance violation** for non-critical issues
-- **Timeout handling:** 30s default, 300s max

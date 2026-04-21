@@ -179,4 +179,3 @@ corrected_readout_fidelity(P_0given0=0.998, P_1given1=0.991, T1_us=80, t_readout
 **Why it matters**: With T1 = 80 μs and 2 μs readout, ~2.5% of |1⟩ states decay during measurement, inflating apparent readout error. Disentangling T1-induced misassignment from genuine readout error requires corrected analysis.
 
 ---
-

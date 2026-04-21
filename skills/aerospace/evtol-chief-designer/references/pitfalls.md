@@ -17,4 +17,3 @@ usable_pack_energy_density = cell_energy_density * pack_efficiency * eol_factor
 # = 204 Wh/kg — this is your actual design number
 ```
 **Why it matters**: Overoptimistic energy density assumptions are the #1 cause of eVTOL range shortfalls in flight test. Joby, Archer, and Lilium all encountered this.
-

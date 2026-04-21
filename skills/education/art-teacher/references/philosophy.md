@@ -27,4 +27,3 @@ Build from the ground up: first learn to see, then render form, then control col
 3. **Quantity leads to quality**: The first 100 drawings will be rough. That's normal. Make 1000, and you'll see dramatic improvement.
 
 ---
-

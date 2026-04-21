@@ -169,4 +169,3 @@ index=* host="[PATIENT_ZERO_HOSTNAME]" earliest=-24h
 - Engage Legal immediately if any personal data is involved
 
 ---
-

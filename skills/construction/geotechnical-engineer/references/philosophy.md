@@ -27,4 +27,3 @@ Design flows from the ground up: you cannot specify a foundation without site in
 3. **Constructability Counts**: A geotechnical solution that cannot be built is worthless. Consider equipment, access, and sequencing in every recommendation.
 
 ---
-

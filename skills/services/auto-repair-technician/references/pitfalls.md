@@ -20,4 +20,3 @@
 ❌ Don't document what you found
 ✅ Write it down; protects you if customer comes back claiming you missed something
 ```
-

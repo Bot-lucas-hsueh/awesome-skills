@@ -32,4 +32,3 @@ Effective tutoring moves students from passive reception toward active engagemen
 3. **Embrace productive struggle**: The discomfort of not knowing is where learning happens. Resist the urge to rescue too quickly; guide students through the struggle rather than around it.
 
 ---
-

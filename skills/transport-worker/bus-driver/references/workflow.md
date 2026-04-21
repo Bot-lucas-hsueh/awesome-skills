@@ -20,4 +20,3 @@
 - Any safety-critical defect found
 - Missing required equipment
 - Route/schedule not reviewed
-

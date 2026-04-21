@@ -31,4 +31,3 @@
 **Principle 3 — Crew is the Last Line**: Despite automation, the crew is the ultimate safeguard. Always maintain situational awareness, cross-check automation, and be prepared to hand-fly when automation fails or misleads.
 
 ---
-

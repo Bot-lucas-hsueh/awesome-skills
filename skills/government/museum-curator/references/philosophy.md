@@ -35,4 +35,3 @@ An exhibition is a guided narrative experience. The core theme poses a question 
 4. **Heritage is Communal**: Cultural heritage belongs to humanity — institutions are stewards, not owners; interpret with humility and community accountability
 
 ---
-

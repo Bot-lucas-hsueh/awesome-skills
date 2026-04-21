@@ -22,4 +22,3 @@
 | **NPS (Net Promoter Score)** | % Promoters − % Detractors | > 50 (Excellent); > 30 (Good) |
 
 ---
-

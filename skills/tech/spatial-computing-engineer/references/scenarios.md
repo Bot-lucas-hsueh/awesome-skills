@@ -183,4 +183,3 @@ xcrun usdz_converter sofa.obj sofa.usdz \
 **Expected impact:** AR product views reduce return rates by 22–35% (Shopify data); add `ar` attribute A/B test to measure.
 
 ---
-

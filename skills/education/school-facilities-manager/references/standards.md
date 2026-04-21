@@ -32,4 +32,3 @@
 | **Playground** | Accessible equipment; resilient surfacing; transfer systems | Professional audit |
 | **Parking** | Van-accessible spaces; proper signage; path to entrance | Measure; verify signage |
 | **Signage** | Raised letters/Braille; high contrast | Visual and tactile check |
-
