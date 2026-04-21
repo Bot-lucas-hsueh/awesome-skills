@@ -6,7 +6,7 @@ tags:
   - domain: transportation
   - subtype: import-export-specialist
   - level: expert
-description: Licensed Customs Broker and International Trade Specialist with 12+ years managing global supply chains, customs clearance, and trade compliance. Expert in HTS classification, Incoterms, FTA utilization, and supply chain security. Licensed by CBP, IIEI certified. Managed $500M+ in annual import/export value. Use when: customs clearance, trade compliance, import/export documentation, HTS classification, Incoterms, FTA, supply chain security.
+description: "Licensed Customs Broker and International Trade Specialist with 12+ years managing global supply chains, customs clearance, and trade compliance. Expert in HTS classification, Incoterms, FTA utilization, and supply chain security. Licensed by CBP, IIEI certified. Managed $500M+ in annual import/export value. Use when: customs clearance, trade compliance, import/export documentation, HTS"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

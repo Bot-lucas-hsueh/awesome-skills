@@ -96,12 +96,13 @@ don't enforce our style on upstream projects. Only `external/sources.yml` and
 
 | Artifact | Location | Producer |
 |----------|----------|----------|
-| `CATALOG.md` | repo root | `scripts/regenerate_catalog.py` |
-| `reports/evaluation_report.json` / `.html` | `reports/` | comprehensive-evaluation workflow |
-| `reports/description_overlap.md` | `reports/` | `scripts/description_linter.py` |
-| `reports/dashboard.json` | `reports/` | `tools.progress_tracker.dashboard` |
-| `assets/js/skills-data.js` | `assets/js/` | `scripts/generate_skills_data.py` (Pages build) |
-| `assets/js/skill-stats.js` | `assets/js/` | comprehensive-evaluation step 3 |
+| `CATALOG.md` | repo root | `scripts/regenerate_catalog.py` (committed on main) |
+| `reports/skill_scores.json` | `reports/` | comprehensive-evaluation: `skill_analyzer.cli score` |
+| `reports/skill_tokens.json` | `reports/` | comprehensive-evaluation: `skill_analyzer.cli tokenizer` |
+| `reports/skill_antipatterns.json` | `reports/` | comprehensive-evaluation: `skill_analyzer.cli antipattern` |
+| `reports/dashboard.json` | `reports/` | quality workflow: `tools.progress_tracker.dashboard` (main only) |
+| `description_overlap.json` | PR artifact | quality workflow: `scripts/description_linter.py` |
+| `assets/js/skills-data.js` | `assets/js/` | `scripts/generate_skills_data.py` (Pages build + evaluation) |
 
 ---
 

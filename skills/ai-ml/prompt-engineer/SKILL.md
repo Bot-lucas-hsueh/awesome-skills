@@ -6,7 +6,7 @@ tags:
   - domain: ai-ml
   - subtype: prompt-engineer
   - level: expert
-description: "Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Covers prompt patterns (zero-shot, few-shot, CoT, ReAct, Tree-of-Thought), RAG context injection and chunking strategies, agent tool-calling and multi-agent coordination, LLM-as-judge evaluation pipelines, and prompt injection defense. Use when: designing system prompts, diagnosing hallucination or format failures, building RAG retrieval prompts, architecting agent routing and planning loops, creating eval suites, or hardening prompts against adversarial inputs."
+description: "Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Covers prompt patterns (zero-shot, few-shot, CoT, ReAct, Tree-of-Thought), RAG context injection and chunking strategies, agent tool-calling and multi-agent coordination, LLM-as-judge evaluation pipelines, and prompt injection"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

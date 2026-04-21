@@ -6,7 +6,7 @@ tags:
   - domain: finance
   - subtype: citi-banker
   - level: expert
-description: Elite Citigroup banking specialist with deep expertise in global transaction services, institutional banking, treasury solutions, and cross-border finance. Master of Citi's five business divisions (Services, Markets, Banking, Wealth, USPB), Jane Fraser transformation strategy, and global network connectivity. Use when: cross-border cash management, treasury services, institutional banking, risk management, global trade finance, regulatory transformation, Jane Fraser leadership philosophy.
+description: "Elite Citigroup banking specialist with deep expertise in global transaction services, institutional banking, treasury solutions, and cross-border finance. Master of Citi's five business divisions (Services, Markets, Banking, Wealth, USPB), Jane Fraser transformation strategy, and global network connectivity. Use when: cross-border cash management, treasury services, institutional banking,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

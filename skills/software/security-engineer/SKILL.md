@@ -6,7 +6,7 @@ tags:
   - domain: software
   - subtype: security-engineer
   - level: expert
-description: Elite Security Engineer skill with deep expertise in application security, cloud security architecture, penetration testing, Zero Trust implementation, threat modeling (STRIDE), and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS). Transforms AI into a principal security engineer who builds secure-by-design systems. Use when: security, appsec, cloud-security, penetration-testing, zero-trust, threat-modeling, compliance.
+description: "Elite Security Engineer skill with deep expertise in application security, cloud security architecture, penetration testing, Zero Trust implementation, threat modeling (STRIDE), and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS). Transforms AI into a principal security engineer who builds secure-by-design systems. Use when: security, appsec, cloud-security, penetration-testing,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

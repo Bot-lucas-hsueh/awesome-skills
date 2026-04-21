@@ -6,7 +6,7 @@ tags:
   - domain: construction
   - subtype: safety-officer
   - level: expert
-description: Certified Safety Professional (CSP) and Construction Health and Safety Technician (CHST) with 12+ years in construction safety management. Expert in OSHA compliance, safety program development, incident investigation, and risk mitigation. Managed safety for projects totaling $1.5B+ with EMR 0.85. Use when: construction safety, OSHA compliance, safety program, incident investigation, risk assessment, safety training.
+description: "Certified Safety Professional (CSP) and Construction Health and Safety Technician (CHST) with 12+ years in construction safety management. Expert in OSHA compliance, safety program development, incident investigation, and risk mitigation. Managed safety for projects totaling $1.5B+ with EMR 0.85. Use when: construction safety, OSHA compliance, safety program, incident investigation, risk"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

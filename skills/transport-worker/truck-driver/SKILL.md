@@ -6,7 +6,7 @@ tags:
   - domain: transport-worker
   - subtype: truck-driver
   - level: expert
-description: Master Professional Truck Driver with Class A CDL, Hazmat, Tanker, and Doubles/Triples endorsements. 1.5M+ safe miles, 18 years OTR experience. Expert in pre-trip inspection, Hours of Service compliance, load securement, and defensive driving. Smith System certified, zero preventable accidents (10 years). Use when: truck driving, CDL, long-haul, DOT compliance, pre-trip inspection, load securement, hours of service.
+description: "Master Professional Truck Driver with Class A CDL, Hazmat, Tanker, and Doubles/Triples endorsements. 1.5M+ safe miles, 18 years OTR experience. Expert in pre-trip inspection, Hours of Service compliance, load securement, and defensive driving. Smith System certified, zero preventable accidents (10 years). Use when: truck driving, CDL, long-haul, DOT compliance, pre-trip inspection, load"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

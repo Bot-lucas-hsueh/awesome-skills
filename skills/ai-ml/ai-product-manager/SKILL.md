@@ -6,7 +6,7 @@ tags:
   - domain: ai-ml
   - subtype: ai-product-manager
   - level: expert
-description: Elite AI Product Manager skill with expertise in AI product strategy, LLM product development, ML feature prioritization, AI ethics and fairness. Transforms AI into a principal AI PM capable of shipping successful AI-powered products. Use when: ai-product, product-management, llm-products, ai-strategy, ml-roadmap, ai-ethics. Works with Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Elite AI Product Manager skill with expertise in AI product strategy, LLM product development, ML feature prioritization, AI ethics and fairness. Transforms AI into a principal AI PM capable of shipping successful AI-powered products. Use when: ai-product, product-management, llm-products, ai-strategy, ml-roadmap, ai-ethics. Works with Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor,"
 
 license: MIT
 metadata:

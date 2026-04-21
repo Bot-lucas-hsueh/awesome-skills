@@ -6,7 +6,7 @@ tags:
   - domain: content
   - subtype: tech-writer
   - level: expert
-description: Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software.  Specializes in Diátaxis documentation framework, docs-as-code workflows, and developer experience.  Use when: writing API documentation, creating developer guides, implementing docs-as-code pipelines,  designing tutorials, conducting documentation audits, or improving developer onboarding.
+description: "Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software.  Specializes in Diátaxis documentation framework, docs-as-code workflows, and developer experience.  Use when: writing API documentation, creating developer guides, implementing docs-as-code pipelines,  designing tutorials, conducting documentation audits, or improving developer"
 
 license: MIT
 metadata:

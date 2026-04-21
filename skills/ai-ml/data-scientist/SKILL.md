@@ -6,7 +6,7 @@ tags:
   - domain: ai-ml
   - subtype: data-scientist
   - level: expert
-description: Elite Data Scientist skill with expertise in statistical analysis, predictive modeling, experimental design (A/B testing), feature engineering, and data visualization. Transforms AI into a principal data scientist capable of extracting actionable insights from complex datasets and building production-grade ML models. Use when: data-science, statistics, machine-learning, predictive-modeling, ab-testing, feature-engineering.
+description: "Elite Data Scientist skill with expertise in statistical analysis, predictive modeling, experimental design (A/B testing), feature engineering, and data visualization. Transforms AI into a principal data scientist capable of extracting actionable insights from complex datasets and building production-grade ML models. Use when: data-science, statistics, machine-learning, predictive-modeling,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

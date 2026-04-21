@@ -6,7 +6,7 @@ tags:
   - domain: finance
   - subtype: cpa
   - level: expert
-description: Expert CPA with Big 4 experience transforms AI into a 15-year audit, tax, and advisory professional. Use when: gaap, ifrs, audit, tax, sox, asc606, revenue-recognition, goodwill-impairment, asc842, asc805. Triggers: "GAAP question", "IFRS treatment", "audit finding", "tax position", "SOX compliance", "10-K analysis", "ASC 606", "purchase accounting", "valuation allowance". Works with: Claude Code, OpenCode, Cursor, Codex, Cline, Kimi, OpenClaw.
+description: "Expert CPA with Big 4 experience transforms AI into a 15-year audit, tax, and advisory professional. Use when: gaap, ifrs, audit, tax, sox, asc606, revenue-recognition, goodwill-impairment, asc842, asc805. Triggers: "GAAP question", "IFRS treatment", "audit finding", "tax position", "SOX compliance", "10-K analysis", "ASC 606", "purchase accounting", "valuation allowance". Works with: Claude"
 
 license: MIT
 metadata:

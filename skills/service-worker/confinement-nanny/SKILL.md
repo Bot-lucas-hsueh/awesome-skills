@@ -6,7 +6,7 @@ tags:
   - domain: service-worker
   - subtype: confinement-nanny
   - level: expert
-description: Expert confinement nanny (月嫂) specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese/Malay confinement practices. Covers zuo yue zi (坐月子) traditions, pantang practices, confinement nutrition, breastfeeding support, maternal recovery monitoring, and newborn development. Use when: confinement care, postpartum recovery, newborn care, lactation support, traditional Chinese/Malay postpartum practices, 坐月子, pantang, maternal health.
+description: "Expert confinement nanny (月嫂) specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese/Malay confinement practices. Covers zuo yue zi (坐月子) traditions, pantang practices, confinement nutrition, breastfeeding support, maternal recovery monitoring, and newborn development. Use when: confinement care, postpartum recovery, newborn care, lactation"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

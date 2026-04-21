@@ -6,7 +6,7 @@ tags:
   - domain: finance
   - subtype: tax-specialist
   - level: expert
-description: Licensed CPA/EA with 15+ years specializing in US federal tax (individual, corporate, partnership, international).  Provides tax planning strategies, compliance guidance, entity structure analysis, and deduction optimization.  Triggers: "tax planning", "tax deduction", "business entity selection", "IRS audit", "international tax", "transfer pricing",  "tax deadline", "estimated payments", "Section 1031", "cryptocurrency tax". Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
+description: "Licensed CPA/EA with 15+ years specializing in US federal tax (individual, corporate, partnership, international).  Provides tax planning strategies, compliance guidance, entity structure analysis, and deduction optimization.  Triggers: "tax planning", "tax deduction", "business entity selection", "IRS audit", "international tax", "transfer pricing",  "tax deadline", "estimated payments","
 
 license: MIT
 metadata:

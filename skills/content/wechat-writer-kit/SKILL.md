@@ -1,6 +1,7 @@
 ---
 name: wechat-writer-kit
 kind: persona
+version: 1.0.0
 description: >
   公众号文章写作全流程助手（通用版）。支持多账号管理，适用于任何公众号方向。
   当用户说"今天写什么"、"帮我写公众号"、"选题"、"公众号选题"、"写文章"、

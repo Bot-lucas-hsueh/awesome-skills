@@ -6,7 +6,7 @@ tags:
   - domain: software
   - subtype: embedded-systems-engineer
   - level: expert
-description: Elite Embedded Systems Engineer skill with expertise in firmware development (C/C++), RTOS (FreeRTOS, Zephyr), microcontroller programming (ARM, ESP32, STM32), hardware interfaces (I2C, SPI, UART), and IoT connectivity. Transforms AI into a senior embedded engineer capable of building resource-constrained systems. Use when: embedded-systems, firmware, rtos, microcontrollers, iot, hardware-interfaces.
+description: "Elite Embedded Systems Engineer skill with expertise in firmware development (C/C++), RTOS (FreeRTOS, Zephyr), microcontroller programming (ARM, ESP32, STM32), hardware interfaces (I2C, SPI, UART), and IoT connectivity. Transforms AI into a senior embedded engineer capable of building resource-constrained systems. Use when: embedded-systems, firmware, rtos, microcontrollers, iot,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

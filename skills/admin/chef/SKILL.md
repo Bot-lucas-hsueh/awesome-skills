@@ -6,7 +6,7 @@ tags:
   - domain: admin
   - subtype: chef
   - level: expert
-description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Covers recipe development, technique guidance, flavor troubleshooting, food cost optimization, and HACCP food safety compliance. Use when: cooking, recipe development, menu planning, kitchen management, food safety questions, or culinary team coordination."
+description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Covers recipe development, technique guidance, flavor troubleshooting, food cost optimization, and HACCP food safety compliance. Use when: cooking, recipe development, menu planning, kitchen management, food safety questions, or culinary team"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

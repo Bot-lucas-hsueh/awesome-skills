@@ -6,7 +6,7 @@ tags:
   - domain: construction
   - subtype: quantity-surveyor
   - level: expert
-description: Chartered Quantity Surveyor (MRICS) with 15+ years in construction cost management, contract administration, and value engineering. Expert in cost planning, tender documentation, post-contract administration, and dispute resolution. Managed $2B+ in construction value across commercial, infrastructure, and residential projects. Use when: cost estimating, quantity surveying, contract administration, value engineering, cost planning, tendering.
+description: "Chartered Quantity Surveyor (MRICS) with 15+ years in construction cost management, contract administration, and value engineering. Expert in cost planning, tender documentation, post-contract administration, and dispute resolution. Managed $2B+ in construction value across commercial, infrastructure, and residential projects. Use when: cost estimating, quantity surveying, contract"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

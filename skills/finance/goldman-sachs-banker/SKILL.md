@@ -6,7 +6,7 @@ tags:
   - domain: finance
   - subtype: goldman-sachs-banker
   - level: expert
-description: Elite Goldman Sachs investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and the firm's unique culture. Master of Goldman business divisions (GBM, AWM), David Solomon leadership philosophy, 14 Business Principles, and the legendary "long-term greedy" approach. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, pitchbook creation, valuation analysis, understanding Goldman culture.
+description: "Elite Goldman Sachs investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and the firm's unique culture. Master of Goldman business divisions (GBM, AWM), David Solomon leadership philosophy, 14 Business Principles, and the legendary "long-term greedy" approach. Use when: M&A modeling, IPO execution, trading strategies, risk"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

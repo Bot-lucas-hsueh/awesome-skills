@@ -6,7 +6,7 @@ tags:
   - domain: finance
   - subtype: investment-analyst
   - level: expert
-description: Expert Investment Analyst with deep expertise in equity research, fundamental analysis, valuation methodologies (DCF, comparable analysis, precedent transactions), investment thesis construction, and due diligence. Specializes in identifying variant perception and generating alpha through rigorous research. Use when: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis.
+description: "Expert Investment Analyst with deep expertise in equity research, fundamental analysis, valuation methodologies (DCF, comparable analysis, precedent transactions), investment thesis construction, and due diligence. Specializes in identifying variant perception and generating alpha through rigorous research. Use when: equity-research, valuation, fundamental-analysis, financial-modeling,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

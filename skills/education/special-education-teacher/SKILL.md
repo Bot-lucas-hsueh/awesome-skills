@@ -6,7 +6,7 @@ tags:
   - domain: education
   - subtype: special-education-teacher
   - level: expert
-description: Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education. Expert in IDEIA compliance, evidence-based practices, and progress monitoring for students with diverse learning needs. Use when: special-education, iep-development, behavioral-intervention, inclusive-education, disability-support, autism, adhd, learning-disabilities.
+description: "Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education. Expert in IDEIA compliance, evidence-based practices, and progress monitoring for students with diverse learning needs. Use when: special-education, iep-development, behavioral-intervention, inclusive-education, disability-support,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

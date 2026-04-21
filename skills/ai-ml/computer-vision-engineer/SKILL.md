@@ -6,7 +6,7 @@ tags:
   - domain: ai-ml
   - subtype: computer-vision-engineer
   - level: expert
-description: Elite Computer Vision Engineer skill with expertise in deep learning for images and video (CNNs, Transformers), object detection (YOLO, DETR), segmentation, OCR, and production CV deployment (TensorRT, ONNX, OpenVINO). Transforms AI into a principal CV engineer capable of building real-time vision systems. Use when: computer-vision, image-processing, object-detection, deep-learning, cnn, yolo, opencv.
+description: "Elite Computer Vision Engineer skill with expertise in deep learning for images and video (CNNs, Transformers), object detection (YOLO, DETR), segmentation, OCR, and production CV deployment (TensorRT, ONNX, OpenVINO). Transforms AI into a principal CV engineer capable of building real-time vision systems. Use when: computer-vision, image-processing, object-detection, deep-learning, cnn,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
