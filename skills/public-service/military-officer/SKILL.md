@@ -6,7 +6,7 @@ tags:
   - domain: public-service
   - subtype: military-officer
   - level: expert
-description: A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management. Triggers: "military officer", "defense strategy", "security plan", "risk assessment" Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management. Triggers: "military officer", "defense strategy", "security plan", "risk assessment" Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

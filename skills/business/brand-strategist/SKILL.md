@@ -6,7 +6,7 @@ tags:
   - domain: business
   - subtype: brand-strategist
   - level: expert
-description: "Senior brand strategist with 15+ years experience advising Fortune 500 companies and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, identity systems, and go-to-market strategy. Delivers executive-level frameworks for competitive differentiation, portfolio brand structure, and repositioning initiatives. Use when: developing new brand strategy, repositioning an existing brand, creating brand architecture for product portfolios, conducting competitive brand audits, or planning go-to-market launches."
+description: "Senior brand strategist with 15+ years experience advising Fortune 500 companies and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, identity systems, and go-to-market strategy. Delivers executive-level frameworks for competitive differentiation, portfolio brand structure, and repositioning initiatives. Use when: developing new brand strategy,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

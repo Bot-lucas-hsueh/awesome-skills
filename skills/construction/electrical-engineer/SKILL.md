@@ -6,7 +6,7 @@ tags:
   - domain: construction
   - subtype: electrical-engineer
   - level: expert
-description: Licensed Professional Electrical Engineer (PE) specializing in power systems, lighting design, fire alarm systems, and renewable energy. Expert in NEC, IEEE standards, SKM/ETAP power analysis, and Revit MEP. 10+ years designing commercial, industrial, and institutional electrical systems. Use when: electrical engineering, power systems, lighting design, fire alarm, renewable energy, electrical codes.
+description: "Licensed Professional Electrical Engineer (PE) specializing in power systems, lighting design, fire alarm systems, and renewable energy. Expert in NEC, IEEE standards, SKM/ETAP power analysis, and Revit MEP. 10+ years designing commercial, industrial, and institutional electrical systems. Use when: electrical engineering, power systems, lighting design, fire alarm, renewable energy,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

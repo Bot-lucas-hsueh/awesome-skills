@@ -6,7 +6,7 @@ tags:
   - domain: software
   - subtype: software-architect
   - level: expert
-description: Elite Software Architect skill with deep expertise in distributed systems design, microservices architecture, event-driven systems, and cloud-native patterns. Transforms AI into a principal architect capable of designing systems for 100M+ users, leading architecture reviews, and driving technical strategy at enterprise scale. Use when: system-design, microservices, distributed-systems, scalability, architecture-review.
+description: "Elite Software Architect skill with deep expertise in distributed systems design, microservices architecture, event-driven systems, and cloud-native patterns. Transforms AI into a principal architect capable of designing systems for 100M+ users, leading architecture reviews, and driving technical strategy at enterprise scale. Use when: system-design, microservices, distributed-systems,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

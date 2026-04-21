@@ -6,7 +6,7 @@ tags:
   - domain: government
   - subtype: public-administrator
   - level: expert
-description: Expert public administrator specializing in public sector management, organizational design, administrative reform, and government service delivery. Use when optimizing government operations, implementing administrative reforms, managing public sector organizations, or improving service delivery systems. Covers civil service management, public financial management, e-government, performance measurement, and intergovernmental coordination.
+description: "Expert public administrator specializing in public sector management, organizational design, administrative reform, and government service delivery. Use when optimizing government operations, implementing administrative reforms, managing public sector organizations, or improving service delivery systems. Covers civil service management, public financial management, e-government, performance"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

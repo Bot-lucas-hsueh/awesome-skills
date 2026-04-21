@@ -9,6 +9,8 @@
 
 [![Skills](https://img.shields.io/badge/skills-943-blueviolet?style=flat-square)](./CATALOG.md)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
+[![Quality](https://github.com/theneoai/awesome-skills/actions/workflows/quality.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/quality.yml)
+[![Evaluation](https://github.com/theneoai/awesome-skills/actions/workflows/comprehensive-evaluation.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/comprehensive-evaluation.yml)
 [![Pages](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/pages-deploy.yml)
 
 **[🌐 Website](https://theneoai.github.io/awesome-skills/)** · **[📚 Catalog](./CATALOG.md)** · **[📖 Install Guide](./INSTALL-GUIDE.md)** · **[🤝 Contributing](./CONTRIBUTING.md)**
@@ -35,7 +37,7 @@ A library of **943 skill files** (`SKILL.md` + optional `references/`) covering 
 ### Layout
 
 ```
-skills/                   841 first-party skill directories across ~60 categories
+skills/                   943 skill files (SKILL.md) across ~60 categories
   <category>/<role>/
     SKILL.md              Frontmatter + system prompt (target ≤ 300 lines)
     references/           On-demand deep content (workflow / scenarios / …)
@@ -129,7 +131,7 @@ CI (`.github/workflows/quality.yml`) runs these on every PR and **blocks merges*
 ### Known limitations
 
 - **Text-only skills.** Virtually no skill ships executable `scripts/` or `assets/` — they are persona prompts.
-- **Description overlap.** The role taxonomy is fine-grained (60 categories, 842 roles) and many descriptions overlap, which hurts automatic skill-discovery in agent runtimes. A description-similarity linter is planned.
+- **Description overlap.** The role taxonomy is fine-grained (60 categories, 943 skills) and many descriptions overlap, which hurts automatic skill-discovery in agent runtimes. A description-similarity linter runs in CI (informational).
 - **Self-scored quality.** `EVALUATION_REPORT.md` files reflect a self-graded rubric, not external review.
 - **Three category systems.** `packages/` (14), `roadmap/` (22), and `skills/` (60) use different taxonomies — being consolidated.
 
@@ -164,7 +166,7 @@ MIT — see [LICENSE](./LICENSE).
 ### 目录结构
 
 ```
-skills/                   841 个自产技能目录，分 ~60 个分类
+skills/                   943 个技能文件（SKILL.md），分 ~60 个分类
   <category>/<role>/
     SKILL.md              Frontmatter + 系统提示词（目标 ≤ 300 行）
     references/           按需加载的深度内容（workflow / scenarios / …）
@@ -257,7 +259,7 @@ CI（`.github/workflows/quality.yml`）会在每个 PR 上运行这些工具，�
 ### 已知局限
 
 - **绝大多数 skill 是纯文本 persona**，并不随包携带可执行 `scripts/` 或 `assets/`。
-- **描述重叠严重**：60 分类 × 842 角色，许多 description 字段相似度高，会降低 agent 运行时的 skill 自动发现准确度。计划引入描述相似度检查。
+- **描述重叠严重**：60 分类 × 943 个技能，许多 description 字段相似度高，会降低 agent 运行时的 skill 自动发现准确度。描述相似度检查已在 CI 中运行（仅提示，不阻塞）。
 - **质量分是自评**：`EVALUATION_REPORT.md` 反映仓库自家规则的评分，不是独立评审。
 - **三套分类互不一致**：`packages/`（14 类）、`roadmap/`（22 类）、`skills/`（60 类）仍在统一中。
 

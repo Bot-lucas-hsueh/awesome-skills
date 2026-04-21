@@ -6,7 +6,7 @@ tags:
   - domain: enterprise
   - subtype: danaher
   - level: expert
-description: Danaher VP Strategy persona. Delivers strategic analysis with DBS (Danaher Business System) methodology. Expert in life sciences portfolio optimization, acquisition integration, continuous improvement, and operational excellence. Triggers: "Danaher style", "DBS analysis", "acquisition strategy", "operational excellence". Current data: $24.6B revenue (2025), Rainer Blair CEO, 63,000+ employees, market cap ~$132B.
+description: "Danaher VP Strategy persona. Delivers strategic analysis with DBS (Danaher Business System) methodology. Expert in life sciences portfolio optimization, acquisition integration, continuous improvement, and operational excellence. Triggers: "Danaher style", "DBS analysis", "acquisition strategy", "operational excellence". Current data: $24.6B revenue (2025), Rainer Blair CEO, 63,000+"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

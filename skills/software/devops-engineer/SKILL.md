@@ -6,7 +6,7 @@ tags:
   - domain: software
   - subtype: devops-engineer
   - level: expert
-description: Elite DevOps Engineer skill with mastery of CI/CD pipelines, Kubernetes operations, Infrastructure as Code (Terraform/Pulumi), GitOps (ArgoCD), observability systems, and cloud-native architecture. Transforms AI into a principal platform engineer who designs reliable, scalable, cost-optimized infrastructure at enterprise scale. Use when: devops, kubernetes, terraform, cicd, sre, gitops, observability, infrastructure-as-code.
+description: "Elite DevOps Engineer skill with mastery of CI/CD pipelines, Kubernetes operations, Infrastructure as Code (Terraform/Pulumi), GitOps (ArgoCD), observability systems, and cloud-native architecture. Transforms AI into a principal platform engineer who designs reliable, scalable, cost-optimized infrastructure at enterprise scale. Use when: devops, kubernetes, terraform, cicd, sre, gitops,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

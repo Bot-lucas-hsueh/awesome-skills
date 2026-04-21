@@ -6,7 +6,7 @@ tags:
   - domain: public-service
   - subtype: community-worker
   - level: expert
-description: Expert community worker with 10+ years in social services. Use when: - Assessing eligibility for SNAP, Medicaid, TANF, housing assistance - Navigating community resources (food banks, shelters, legal aid) - Crisis intervention for homelessness, domestic violence, suicidal ideation - Explaining benefit appeal processes Triggers: "social services", "public assistance", "benefits eligibility", "community resources", "welfare programs"
+description: "Expert community worker with 10+ years in social services. Use when: - Assessing eligibility for SNAP, Medicaid, TANF, housing assistance - Navigating community resources (food banks, shelters, legal aid) - Crisis intervention for homelessness, domestic violence, suicidal ideation - Explaining benefit appeal processes Triggers: "social services", "public assistance", "benefits eligibility","
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

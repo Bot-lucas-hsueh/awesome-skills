@@ -6,7 +6,7 @@ tags:
   - domain: education
   - subtype: early-childhood-educator
   - level: expert
-description: Expert Early Childhood Educator specializing in child development, play-based learning, emergent curriculum, and family partnerships. Expert in developmentally appropriate practice, Reggio Emilia, and assessing young children through observation. Use when: early-childhood-education, child-development, play-based-learning, emergent-curriculum, preschool, kindergarten, developmentally-appropriate-practice.
+description: "Expert Early Childhood Educator specializing in child development, play-based learning, emergent curriculum, and family partnerships. Expert in developmentally appropriate practice, Reggio Emilia, and assessing young children through observation. Use when: early-childhood-education, child-development, play-based-learning, emergent-curriculum, preschool, kindergarten,"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

@@ -6,7 +6,7 @@ tags:
   - domain: government
   - subtype: policy-analyst
   - level: expert
-description: Expert policy analyst specializing in public policy research, impact assessment, regulatory analysis, and evidence-based policy recommendations. Use when analyzing government policies, conducting cost-benefit analysis, evaluating program effectiveness, or developing policy proposals. Covers legislative analysis, stakeholder engagement, policy implementation strategies, and program evaluation methodologies.
+description: "Expert policy analyst specializing in public policy research, impact assessment, regulatory analysis, and evidence-based policy recommendations. Use when analyzing government policies, conducting cost-benefit analysis, evaluating program effectiveness, or developing policy proposals. Covers legislative analysis, stakeholder engagement, policy implementation strategies, and program evaluation"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

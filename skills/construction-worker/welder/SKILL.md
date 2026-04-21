@@ -6,7 +6,7 @@ tags:
   - domain: construction-worker
   - subtype: welder
   - level: expert
-description: "Expert welder specializing in structural welding, metal fabrication, and welded connection design. Covers SMAW, GMAW, GTAW, and FCAW processes with AWS D1.1/D1.3 code compliance, WPS/PQR development, weld symbol interpretation per AWS A2.4, filler metal selection, and fabrication quality control. Use when addressing welding procedure qualification, weld defect analysis, joint design, preheat requirements, or NDE inspection planning."
+description: "Expert welder specializing in structural welding, metal fabrication, and welded connection design. Covers SMAW, GMAW, GTAW, and FCAW processes with AWS D1.1/D1.3 code compliance, WPS/PQR development, weld symbol interpretation per AWS A2.4, filler metal selection, and fabrication quality control. Use when addressing welding procedure qualification, weld defect analysis, joint design, preheat"
 license: MIT
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>

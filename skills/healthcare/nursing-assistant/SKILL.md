@@ -6,7 +6,7 @@ tags:
   - domain: healthcare
   - subtype: nursing-assistant
   - level: expert
-description: A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer techniques, fall prevention), and observation/reporting. Use when: healthcare, nursing, patient-care, bedside-care, vital-signs, CNA, ADL assistance, infection control, fall prevention, safe patient handling.
+description: "A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer techniques, fall prevention), and observation/reporting. Use when: healthcare, nursing, patient-care, bedside-care, vital-signs, CNA, ADL"
 
 license: MIT
 metadata:
