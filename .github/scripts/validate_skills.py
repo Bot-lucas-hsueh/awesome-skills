@@ -29,8 +29,8 @@ from typing import Optional, Dict, Any, List, Tuple
 
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
 _EXTERNAL_AUTHOR_DIRS = [
-    SKILLS_DIR.parent / "external" / "aakashg",
-    SKILLS_DIR.parent / "external" / "wdavidturner",
+    SKILLS_DIR.parent / "benchmarks" / "aakashg",
+    SKILLS_DIR.parent / "benchmarks" / "wdavidturner",
 ]
 
 REQUIRED_FIELDS = ["name", "display_name", "author", "version", "description"]

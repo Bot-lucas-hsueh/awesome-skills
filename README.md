@@ -126,7 +126,7 @@ python -m tools.skill_analyzer.cli tokenizer    # Token budget + API cost
 python -m tools.skill_analyzer.cli antipattern  # Common mistakes scanner
 ```
 
-CI (`.github/workflows/quality.yml`) runs these on every PR and **blocks merges** whose changed `SKILL.md` files fall below score/token/description thresholds.
+CI (`.github/workflows/quality.yml`) runs these on any PR that touches `skills/`, `tools/`, or `.github/scripts/`, and **blocks merges** whose changed `SKILL.md` files fall below score/token/description thresholds.
 
 ### Known limitations
 
@@ -254,7 +254,7 @@ python -m tools.skill_analyzer.cli tokenizer    # Token 预算与 API 成本
 python -m tools.skill_analyzer.cli antipattern  # 反模式扫描
 ```
 
-CI（`.github/workflows/quality.yml`）会在每个 PR 上运行这些工具，若新改动的 `SKILL.md` 达不到阈值则**阻塞合并**。
+CI（`.github/workflows/quality.yml`）会在修改了 `skills/`、`tools/` 或 `.github/scripts/` 的 PR 上运行这些工具，若新改动的 `SKILL.md` 达不到阈值则**阻塞合并**。
 
 ### 已知局限
 

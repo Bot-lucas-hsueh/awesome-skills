@@ -8,8 +8,8 @@ GitHub Actions workflows and project configuration for **awesome-skills**.
 
 | Workflow | File | Trigger | What it does |
 |----------|------|---------|-------------|
-| **Skill Quality Check** | `.github/workflows/quality.yml` | push + PR on `skills/**`, `tools/**`, `.github/**` | Lint, structure validation, quality scoring, quality gate (blocking). |
-| **Comprehensive Evaluation** | `.github/workflows/comprehensive-evaluation.yml` | daily cron (04:00 UTC) + push to main + manual | Full scoring run, generates JSON/HTML evaluation reports, syncs badge counts. |
+| **Skill Quality Check** | `.github/workflows/quality.yml` | push + PR on `skills/**`, `tools/**`, `.github/scripts/**`; push on `.github/workflows/quality.yml` | Lint, structure validation, quality scoring, quality gate (blocking). |
+| **Comprehensive Evaluation** | `.github/workflows/comprehensive-evaluation.yml` | daily cron (04:00 UTC) + push to main + manual | Full scoring run, generates JSON evaluation reports, syncs skill counts in README/index.html. |
 | **Pages Deploy** | `.github/workflows/pages-deploy.yml` | after evaluation completes, push to main, manual | Regenerates `assets/js/skills-data.js`, uploads site to GitHub Pages. |
 
 ---
