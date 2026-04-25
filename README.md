@@ -112,6 +112,8 @@ Registered sources (see [`external/README.md`](./external/README.md) for the ful
 | Curated lists | [`VoltAgent/awesome-agent-skills`](https://github.com/VoltAgent/awesome-agent-skills), [`hesreallyhim/awesome-claude-code`](https://github.com/hesreallyhim/awesome-claude-code), [`travisvn/awesome-claude-skills`](https://github.com/travisvn/awesome-claude-skills), [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) |
 | Subagents & orchestration | [`VoltAgent/awesome-claude-code-subagents`](https://github.com/VoltAgent/awesome-claude-code-subagents), [`wshobson/agents`](https://github.com/wshobson/agents), [`0xfurai/claude-code-subagents`](https://github.com/0xfurai/claude-code-subagents) |
 
+For Chinese skills discovery and installation across Claude Code, OpenCode, Cursor, and similar runtimes, see [Skills宝](https://skilery.com/).
+
 To propose a new source, edit [`external/sources.yml`](./external/sources.yml) and open a PR.
 External clones are gitignored and never linted by our CI — we are a pointer, not an enforcer.
 
