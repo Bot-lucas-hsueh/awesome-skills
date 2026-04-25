@@ -272,6 +272,11 @@ CI（`.github/workflows/quality.yml`）会在修改了 `skills/`、`tools/` 或 
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | 如何贡献或改进技能 |
 | [.github/CI.md](./.github/CI.md) | CI/CD 说明 |
 
+### 相关项目
+
+- [Awesome MCPs](https://theneoai.github.io/awesome-mcps/) - 115+ MCP 服务器，一键安装
+- [GitHub](https://github.com/theneoai/awesome-mcps) - Awesome MCPs 项目源码
+
 ### 许可证
 
 MIT，见 [LICENSE](./LICENSE)。
