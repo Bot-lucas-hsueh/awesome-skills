@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
 """
-Skill Scorer - 8-Dimension Quality Scoring Engine
+Skill Scorer - 9-Dimension Quality Scoring Engine
 
 Based on skill-writer/references/standards.md §7.1 Quality Rubric
 
 Scoring Dimensions:
-- System Prompt Depth (18%)
-- Domain Knowledge Density (22%)
-- Workflow Actionability (13%)
-- Risk Documentation (9%)
-- Example Quality (17%)
+- System Prompt Depth (16%)
+- Domain Knowledge Density (20%)
+- Workflow Actionability (12%)
+- Risk Documentation (8%)
+- Example Quality (15%)
 - Metadata Completeness (8%)
-- Content Efficiency (8%)       [NEW] 内容效率：信噪比、去重、结构清晰度
-- Token Cost Efficiency (5%)    [NEW] Token成本效率：描述/正文 token 预算达标率
+- Content Efficiency (8%)         内容效率：信噪比、去重、结构清晰度
+- Token Cost Efficiency (5%)      Token成本效率：描述/正文 token 预算达标率
+- Behavioral Coherence (8%)  [NEW] 行为一致性：角色身份、价值观、决策风格一致性
+                                   (per CharacterBench 11-dimension framework)
 """
 
 import json
@@ -24,18 +26,27 @@ from typing import Dict, List, Optional, Tuple, Any
 # Add parent to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+try:
+    from tools.skill_analyzer.yaml_utils import parse_frontmatter
+except ImportError:
+    try:
+        from skill_analyzer.yaml_utils import parse_frontmatter  # type: ignore[no-redef]
+    except ImportError:
+        from yaml_utils import parse_frontmatter  # type: ignore[no-redef]
+
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
 
-# Scoring weights from standards.md §7.1 (updated to include new dimensions)
+# Scoring weights from standards.md §7.1 (updated to 9 dimensions)
 WEIGHTS = {
-    "system_prompt": 0.18,
-    "domain_knowledge": 0.22,
-    "workflow": 0.13,
-    "risk_documentation": 0.09,
-    "example_quality": 0.17,
+    "system_prompt": 0.16,
+    "domain_knowledge": 0.20,
+    "workflow": 0.12,
+    "risk_documentation": 0.08,
+    "example_quality": 0.15,
     "metadata": 0.08,
-    "content_efficiency": 0.08,  # 内容效率：信噪比 / 去重 / 结构清晰度
-    "token_cost_efficiency": 0.05,  # Token成本效率：description+body 预算达标率
+    "content_efficiency": 0.08,
+    "token_cost_efficiency": 0.05,
+    "behavioral_coherence": 0.08,  # CharacterBench: identity/values/style consistency
 }
 
 # 16 standard sections
@@ -57,29 +68,6 @@ STANDARD_SECTIONS = [
     "Version History",
     "License & Author",
 ]
-
-
-def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, str]], str]:
-    """Extract YAML frontmatter and body from markdown content."""
-    if not content.startswith("---"):
-        return None, content
-
-    parts = content.split("---", 2)
-    if len(parts) < 3:
-        return None, content
-
-    fm_raw = parts[1]
-    body = parts[2]
-    fm = {}
-
-    for line in fm_raw.splitlines():
-        line = line.strip()
-        if ":" in line and not line.startswith("#"):
-            key, _, val = line.partition(":")
-            val = val.strip().strip('"').strip("'")
-            fm[key.strip()] = val
-
-    return fm, body
 
 
 def count_h2_sections(body: str) -> int:
@@ -486,6 +474,87 @@ def analyze_token_cost_efficiency(
     return round(max(0.0, min(10.0, score)), 2)
 
 
+def analyze_behavioral_coherence(fm: Optional[Dict[str, Any]], body: str) -> float:
+    """Score Behavioral Coherence (0–10).
+
+    Based on CharacterBench 11-dimension framework. Measures whether the
+    persona maintains a consistent identity, values, communication style,
+    and decision-making approach throughout the document.
+
+    Key signals:
+    - Distinct first-person identity statement in the System Prompt
+    - Consistent tone markers (formal/informal, technical/accessible)
+    - Value-laden language that distinguishes this expert from a generic LLM
+    - Decision style anchors (e.g. "I always prioritize X over Y")
+    - No contradictions in scope claims vs. actual content
+    - PRISM finding: overclaiming expertise signals low coherence
+    """
+    score = 3.0  # baseline (most skills are mediocre on this dimension)
+
+    # ── 1. Identity anchoring in System Prompt ────────────────────────────────
+    sp_match = re.search(
+        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+\s*[·.—]\s*)?\s*System Prompt.*?\n(.*?)(?=^##\s|\Z)",
+        body,
+        re.MULTILINE | re.DOTALL,
+    )
+    if sp_match:
+        sp = sp_match.group(1)
+        # Strong identity: "You are [specific title] at [context] with [years/trait]"
+        if re.search(r"You are (?:a |an )?[A-Z][^.]{10,}", sp):
+            score += 1.5
+        # Value anchors: explicit principles in the persona
+        if re.search(
+            r"(?:I believe|My philosophy|I prioritize|I always|I never|commitment to)",
+            sp,
+            re.IGNORECASE,
+        ):
+            score += 1.0
+        # Communication style explicitly defined
+        if re.search(
+            r"(?:communication style|tone|voice|manner|speak|address)",
+            sp,
+            re.IGNORECASE,
+        ):
+            score += 0.5
+
+    # ── 2. Persona-specific language throughout the document ──────────────────
+    # Count persona-marker phrases that distinguish the skill from generic content
+    markers = re.findall(
+        r"\b(?:as (?:a|an|the) [a-z]+ (?:expert|professional|specialist|engineer|analyst|manager))\b",
+        body,
+        re.IGNORECASE,
+    )
+    if len(markers) >= 5:
+        score += 1.5
+    elif len(markers) >= 2:
+        score += 0.75
+
+    # ── 3. Consistency check: title in frontmatter vs. body ───────────────────
+    if fm:
+        fm_name = str(fm.get("display_name", fm.get("name", ""))).lower()
+        # Look for the role mentioned in the body
+        if fm_name and any(part in body.lower() for part in fm_name.split() if len(part) > 4):
+            score += 0.5
+
+    # ── 4. Overclaiming penalty (PRISM finding) ───────────────────────────────
+    # Overclaiming broad expertise signals low coherence and hurts factual tasks
+    overclaim_patterns = [
+        r"expert in all",
+        r"covers? (?:all|every)",
+        r"handles? (?:all|everything|any) (?:type|kind|aspect)",
+        r"(?:comprehensive|complete|full) (?:coverage|solution|suite)",
+    ]
+    for pat in overclaim_patterns:
+        if re.search(pat, body, re.IGNORECASE):
+            score -= 0.75
+
+    # ── 5. Scope boundary clarity ─────────────────────────────────────────────
+    if re.search(r"(?:out of scope|not in scope|I (?:don't|do not) handle|beyond my)", body, re.IGNORECASE):
+        score += 0.5
+
+    return round(max(0.0, min(10.0, score)), 2)
+
+
 def calculate_weighted_score(scores: Dict[str, float]) -> float:
     """Calculate weighted average score."""
     total = 0
@@ -543,6 +612,10 @@ def get_gaps(scores: Dict[str, float]) -> List[Dict[str, Any]]:
             "threshold": 6,
             "suggestion": "Keep description within char budget (<263 chars), body under 500 lines, offload large reference content to references/ folder",
         },
+        "behavioral_coherence": {
+            "threshold": 6,
+            "suggestion": "Add explicit identity statement, value anchors, and communication style in System Prompt; define scope boundaries; avoid overclaiming broad expertise",
+        },
     }
 
     for dimension, data in gap_suggestions.items():
@@ -577,6 +650,7 @@ def score_skill(file_path: Path) -> Dict[str, Any]:
         "metadata": analyze_metadata(fm, body),
         "content_efficiency": analyze_content_efficiency(body),
         "token_cost_efficiency": analyze_token_cost_efficiency(fm, body),
+        "behavioral_coherence": analyze_behavioral_coherence(fm, body),
     }
 
     weighted_avg = calculate_weighted_score(scores)

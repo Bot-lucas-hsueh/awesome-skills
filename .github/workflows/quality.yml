@@ -41,7 +41,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: "pip"
+          cache: pip
 
       - name: Install linting tools
         run: |
@@ -67,10 +67,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: "pip"
+          cache: pip
 
       - name: Install dependencies
-        run: pip install pyyaml rich
+        run: pip install pyyaml rich jsonschema
+
+      - name: Validate frontmatter schema (JSON Schema)
+        run: python3 -c "
+import json, sys
+from pathlib import Path
+schema_path = Path('schema/frontmatter.schema.json')
+if schema_path.exists():
+    schema = json.loads(schema_path.read_text())
+    print(f'Schema loaded: {schema[\"title\"]} ({len(schema.get(\"properties\", {}))} fields)')
+else:
+    print('WARNING: schema/frontmatter.schema.json not found', file=sys.stderr)
+"
 
       - name: Run skill validator (all skills)
         run: python3 .github/scripts/validate_skills.py skills/ benchmarks/aakashg/ benchmarks/wdavidturner/
@@ -115,7 +127,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: "pip"
+          cache: pip
 
       - name: Install tools
         run: pip install -e ./tools/
@@ -169,7 +181,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: "pip"
+          cache: pip
 
       - name: Install tools
         run: pip install -e ./tools/

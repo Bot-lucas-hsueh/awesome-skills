@@ -25,6 +25,28 @@ import argparse
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
 
+try:
+    import json as _json
+    _SCHEMA_PATH = Path(__file__).parent.parent.parent / "schema" / "frontmatter.schema.json"
+    _FRONTMATTER_SCHEMA: Optional[Dict[str, Any]] = None
+    if _SCHEMA_PATH.exists():
+        with open(_SCHEMA_PATH) as _f:
+            _FRONTMATTER_SCHEMA = _json.load(_f)
+    try:
+        import jsonschema as _jsonschema
+        _JSONSCHEMA_AVAILABLE = True
+    except ImportError:
+        _JSONSCHEMA_AVAILABLE = False
+except Exception:
+    _FRONTMATTER_SCHEMA = None
+    _JSONSCHEMA_AVAILABLE = False
+
+try:
+    import yaml as _yaml
+    _YAML_AVAILABLE = True
+except ImportError:
+    _YAML_AVAILABLE = False
+
 # ── Constants ────────────────────────────────────────────────────────────────
 
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
@@ -108,7 +130,11 @@ EXPERT_MIN_SECTIONS = 16
 
 
 def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, Any]], str]:
-    """Extract YAML frontmatter and body from markdown content."""
+    """Extract YAML frontmatter and body from markdown content.
+
+    Uses pyyaml.safe_load when available for correct handling of lists,
+    nested mappings, and multi-line values. Falls back to a simple parser.
+    """
     if not content.startswith("---"):
         return None, content
 
@@ -118,8 +144,15 @@ def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, Any]], str]:
 
     fm_raw = parts[1]
     body = parts[2]
-    fm = {}
 
+    if _YAML_AVAILABLE:
+        try:
+            fm = _yaml.safe_load(fm_raw) or {}
+            return fm, body
+        except _yaml.YAMLError:
+            pass  # fall through to simple parser
+
+    fm: Dict[str, Any] = {}
     for line in fm_raw.splitlines():
         line = line.strip()
         if ":" in line and not line.startswith("#"):
@@ -128,6 +161,21 @@ def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, Any]], str]:
             fm[key.strip()] = val
 
     return fm, body
+
+
+def validate_frontmatter_schema(fm: Dict[str, Any]) -> List[str]:
+    """Validate frontmatter dict against JSON Schema. Returns list of error strings."""
+    if not _JSONSCHEMA_AVAILABLE or _FRONTMATTER_SCHEMA is None:
+        return []
+    errors = []
+    try:
+        validator = _jsonschema.Draft202012Validator(_FRONTMATTER_SCHEMA)
+        for error in sorted(validator.iter_errors(fm), key=lambda e: e.path):
+            path = ".".join(str(p) for p in error.path) or "(root)"
+            errors.append(f"  [schema] {path}: {error.message}")
+    except Exception as e:
+        errors.append(f"  [schema] Validation error: {e}")
+    return errors
 
 
 def count_h2_sections(body: str) -> int:
@@ -239,6 +287,10 @@ def validate_file(path: Path, strict: bool = False) -> list[str]:
             errors.append(
                 f"  Invalid version: {fm['version']!r}. Must be semver (e.g. 1.0.0)"
             )
+
+    # ── 5b. JSON Schema validation (when jsonschema + schema file available) ──
+    if _JSONSCHEMA_AVAILABLE and _FRONTMATTER_SCHEMA is not None and fm:
+        errors.extend(validate_frontmatter_schema(fm))
 
     # ── 6. HTML comment injection in frontmatter (P0-3 Bug) ─────────────────
     errors.extend(check_html_comment_injection(raw))

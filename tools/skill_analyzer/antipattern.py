@@ -2,18 +2,27 @@
 """
 Anti-Pattern Scanner
 
-Based on skill-writer/references/anti-patterns.md
+Based on skill-writer/references/anti-patterns.md and 2024-2026 research:
+  - SkillReducer (arXiv 2603.29919): 60%+ of skill body content is non-actionable
+  - PRISM (arXiv 2603.18507): expert personas hurt factual tasks when overclaiming
+  - OWASP Agentic Skills Top 10 (Dec 2025): hallucination risk & safety patterns
+  - CharacterBench (AAAI 2025): behavioral coherence dimensions
 
-Detects 9 common anti-patterns:
-- Scope Sprawl (跨领域)
-- Shallow Depth (通用列表)
-- Self-Inconsistency (自相矛盾)
-- Token Waste (冗余内容)
-- Generic Risk (通用风险)
-- HTML in YAML
-- Platform Coverage (平台覆盖)
-- Literal Translation (字面翻译)
-- Prose Wall (长段落)
+Detects 12 anti-patterns (9 original + 3 new):
+Original:
+  - Scope Sprawl (跨领域)
+  - Shallow Depth (通用列表)
+  - Self-Inconsistency (自相矛盾)
+  - Token Waste (冗余内容)
+  - Generic Risk (通用风险)
+  - HTML in YAML
+  - Platform Coverage (平台覆盖)
+  - Literal Translation (字面翻译)
+  - Prose Wall (长段落)
+New (2025-2026 research):
+  - Hallucination Risk (虚假专业知识 — unverifiable claims, fake citations)
+  - Capability Overclaiming (过度宣称能力 — PRISM finding: hurts factual tasks)
+  - Missing Uncertainty Communication (缺少不确定性表达 — HELM calibration metric)
 """
 
 import re
@@ -22,6 +31,14 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
 
 SKILLS_DIR = Path(__file__).parent.parent.parent / "skills"
+
+try:
+    from tools.skill_analyzer.yaml_utils import parse_frontmatter
+except ImportError:
+    try:
+        from skill_analyzer.yaml_utils import parse_frontmatter  # type: ignore[no-redef]
+    except ImportError:
+        from yaml_utils import parse_frontmatter  # type: ignore[no-redef]
 
 # Anti-pattern definitions
 ANTIPATTERNS = {
@@ -103,29 +120,6 @@ ANTIPATTERNS = {
         ],
     },
 }
-
-
-def parse_frontmatter(content: str) -> Tuple[Optional[Dict[str, str]], str]:
-    """Extract YAML frontmatter and body from markdown content."""
-    if not content.startswith("---"):
-        return None, content
-
-    parts = content.split("---", 2)
-    if len(parts) < 3:
-        return None, content
-
-    fm_raw = parts[1]
-    body = parts[2]
-    fm = {}
-
-    for line in fm_raw.splitlines():
-        line = line.strip()
-        if ":" in line and not line.startswith("#"):
-            key, _, val = line.partition(":")
-            val = val.strip().strip('"').strip("'")
-            fm[key.strip()] = val
-
-    return fm, body
 
 
 def check_scope_sprawl(body: str) -> List[Dict[str, Any]]:
@@ -359,6 +353,180 @@ def check_prose_wall(body: str) -> List[Dict[str, Any]]:
     return issues
 
 
+def check_hallucination_risk(body: str) -> List[Dict[str, Any]]:
+    """Check for hallucination risk patterns.
+
+    Based on OWASP Agentic Skills Top 10 (Dec 2025) and 'Towards Secure Agent
+    Skills' (arXiv 2604.02837). Flags unverifiable authoritative claims,
+    fabricated citations, and false precision in numerical claims.
+    """
+    issues = []
+
+    # Pattern 1: Authoritative statistics without citation
+    # e.g. "studies show 94% of developers...", "research proves that..."
+    unverified_stats = re.findall(
+        r"(?:studies? (?:show|prove|find|indicate)|research (?:shows?|proves?)|"
+        r"according to (?:experts?|research)|statistics show)\s+\d",
+        body,
+        re.IGNORECASE,
+    )
+    if unverified_stats:
+        issues.append(
+            {
+                "type": "hallucination_risk",
+                "severity": "high",
+                "message": f"Unverified authoritative statistics ({len(unverified_stats)} instances) — cite sources or qualify with 'typically'",
+                "suggestion": "Replace bare statistics with cited sources or qualified estimates (e.g. 'typically', 'in practice')",
+            }
+        )
+
+    # Pattern 2: Fabricated tool/library references that may not exist
+    # e.g. "use the XYZ-Pro library version 4.2.1"
+    specific_version_refs = re.findall(
+        r"\b(?:version|v)\s*\d+\.\d+(?:\.\d+)?\s+of\s+\w+",
+        body,
+        re.IGNORECASE,
+    )
+    if len(specific_version_refs) > 5:
+        issues.append(
+            {
+                "type": "hallucination_risk",
+                "severity": "medium",
+                "message": f"Many specific version references ({len(specific_version_refs)}) may become stale or incorrect",
+                "suggestion": "Use version ranges or link to official docs instead of pinning exact versions",
+            }
+        )
+
+    # Pattern 3: False precision — exact percentages without context
+    exact_pcts = re.findall(r"\b(?:exactly|precisely)\s+\d+(?:\.\d+)?%", body, re.IGNORECASE)
+    if exact_pcts:
+        issues.append(
+            {
+                "type": "hallucination_risk",
+                "severity": "medium",
+                "message": f"False precision ({len(exact_pcts)} instances of 'exactly X%') — without experimental context these mislead users",
+                "suggestion": "Use approximate language ('roughly', 'approximately') or cite the study source",
+            }
+        )
+
+    return issues
+
+
+def check_capability_overclaiming(body: str, fm: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+    """Check for capability overclaiming.
+
+    Based on PRISM (arXiv 2603.18507): expert persona prompting hurts
+    factual tasks when the persona overclaims. Skills should be honest
+    about their scope and constraints.
+    """
+    issues = []
+
+    # Pattern 1: Claims to handle "all" or "every" type of problem
+    all_claims = re.findall(
+        r"\b(?:handles?|covers?|solves?|addresses?|manages?)\s+(?:all|every|any)\s+\w+",
+        body,
+        re.IGNORECASE,
+    )
+    if len(all_claims) >= 2:
+        issues.append(
+            {
+                "type": "capability_overclaiming",
+                "severity": "high",
+                "message": f"Claims to handle 'all/every/any' scenarios ({len(all_claims)} instances) — per PRISM research this degrades factual accuracy",
+                "suggestion": "Replace 'handles all X' with specific scope: 'handles X in context Y, escalates for Z'",
+            }
+        )
+
+    # Pattern 2: Claims to be the best/most/only
+    superlative_claims = re.findall(
+        r"\b(?:best|most (?:powerful|advanced|comprehensive|complete)|only|#1|number (?:one|1))\b",
+        body,
+        re.IGNORECASE,
+    )
+    if len(superlative_claims) >= 3:
+        issues.append(
+            {
+                "type": "capability_overclaiming",
+                "severity": "medium",
+                "message": f"Superlative capability claims ({len(superlative_claims)} instances) undermine credibility",
+                "suggestion": "Replace superlatives with specific, verifiable claims",
+            }
+        )
+
+    # Pattern 3: Missing Scope & Limitations section despite broad claims
+    has_scope_section = bool(re.search(r"^##\s+.*(?:Scope|Limitations?|Constraints?)", body, re.MULTILINE | re.IGNORECASE))
+    broad_scope = bool(re.search(r"\b(?:full[- ]?stack|end[- ]?to[- ]?end|complete solution)", body, re.IGNORECASE))
+    if broad_scope and not has_scope_section:
+        issues.append(
+            {
+                "type": "capability_overclaiming",
+                "severity": "medium",
+                "message": "Claims broad 'full-stack' or 'end-to-end' scope but has no Scope & Limitations section",
+                "suggestion": "Add a '## Scope & Limitations' section defining what this skill doesn't handle",
+            }
+        )
+
+    return issues
+
+
+def check_missing_uncertainty(body: str) -> List[Dict[str, Any]]:
+    """Check for missing uncertainty communication.
+
+    Based on HELM calibration metric and OWASP Agentic Skills Top 10.
+    AI agents should express appropriate uncertainty on high-stakes decisions
+    rather than presenting all outputs with equal confidence.
+    """
+    issues = []
+
+    # Check for high-stakes domains that need uncertainty language
+    HIGH_STAKES_DOMAINS = {
+        "legal": ["legal advice", "contract", "liability", "lawsuit", "court", "attorney"],
+        "medical": ["diagnos", "treatment", "medication", "symptom", "prognosis", "clinical"],
+        "financial": ["invest", "portfolio", "trading", "financial advice", "tax advice"],
+        "security": ["vulnerabilit", "exploit", "malware", "penetration", "breach"],
+    }
+
+    detected_domains = []
+    for domain, keywords in HIGH_STAKES_DOMAINS.items():
+        for kw in keywords:
+            if re.search(rf"\b{re.escape(kw)}", body, re.IGNORECASE):
+                detected_domains.append(domain)
+                break
+
+    if not detected_domains:
+        return issues
+
+    # Check for uncertainty language
+    uncertainty_markers = re.findall(
+        r"\b(?:consult (?:a |an )?(?:professional|expert|specialist|attorney|doctor|advisor)|"
+        r"this is not (?:legal|medical|financial) advice|"
+        r"I (?:cannot|can't) guarantee|"
+        r"results? (?:may|might|can) vary|"
+        r"should be verified|"
+        r"not a substitute for|"
+        r"uncertainty|"
+        r"confident(?:ly|ce)|"
+        r"approximate|"
+        r"typically|"
+        r"in most cases|"
+        r"may not apply)\b",
+        body,
+        re.IGNORECASE,
+    )
+
+    if len(uncertainty_markers) < 2:
+        issues.append(
+            {
+                "type": "missing_uncertainty",
+                "severity": "high",
+                "message": f"High-stakes domain ({', '.join(detected_domains)}) with insufficient uncertainty communication ({len(uncertainty_markers)} markers)",
+                "suggestion": "Add explicit uncertainty markers: 'results may vary', 'consult a professional for X', 'this is not [legal/medical/financial] advice'",
+            }
+        )
+
+    return issues
+
+
 def scan_antipatterns(file_path: Path) -> Dict[str, Any]:
     """Scan a single skill for anti-patterns."""
     try:
@@ -377,6 +545,10 @@ def scan_antipatterns(file_path: Path) -> Dict[str, Any]:
     all_issues.extend(check_generic_risk(body))
     all_issues.extend(check_platform_coverage(body))
     all_issues.extend(check_prose_wall(body))
+    # New patterns (2025-2026 research)
+    all_issues.extend(check_hallucination_risk(body))
+    all_issues.extend(check_capability_overclaiming(body, fm))
+    all_issues.extend(check_missing_uncertainty(body))
 
     # Count by severity
     severity_counts = {"high": 0, "medium": 0, "low": 0}

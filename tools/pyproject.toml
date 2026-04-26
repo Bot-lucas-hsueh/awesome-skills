@@ -9,6 +9,8 @@ authors = [
 dependencies = [
     "pyyaml>=6.0",
     "rich>=13.0",
+    "anthropic>=0.40",
+    "jsonschema>=4.0",
 ]
 
 [project.optional-dependencies]

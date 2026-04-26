@@ -235,6 +235,161 @@ def cmd_gate(args):
         sys.argv = old_argv
 
 
+def cmd_search(args):
+    """Search skills using TF-IDF semantic search."""
+    import sys
+    from pathlib import Path
+
+    tools_dir = Path(__file__).parent.parent
+    sys.path.insert(0, str(tools_dir))
+
+    from skill_analyzer import semantic_search
+
+    idx = semantic_search.SkillSearchIndex()
+    idx.build()
+
+    results = idx.search(
+        args.query,
+        top_k=args.top_k,
+        category_filter=args.category or None,
+    )
+
+    if args.output == "json":
+        import json
+        print(json.dumps(results, indent=2))
+    else:
+        try:
+            from rich.console import Console
+            from rich.table import Table
+
+            console = Console()
+            stats = idx.stats()
+            console.print(f"\n[bold]Search: '{args.query}'[/bold] ({stats['total_skills']} skills indexed)")
+
+            if not results:
+                console.print("[yellow]No results found.[/yellow]")
+                return
+
+            table = Table(show_header=True)
+            table.add_column("Rank")
+            table.add_column("Skill")
+            table.add_column("Category")
+            table.add_column("Score")
+            table.add_column("Description")
+
+            for i, r in enumerate(results, 1):
+                table.add_row(
+                    str(i),
+                    r["skill"],
+                    r["category"],
+                    f"{r['score']:.4f}",
+                    r["description"][:60],
+                )
+
+            console.print(table)
+        except ImportError:
+            for i, r in enumerate(results, 1):
+                print(f"{i}. {r['category']}/{r['skill']} (score={r['score']:.4f})")
+
+
+def cmd_budget(args):
+    """Run context window budget analysis."""
+    import sys
+    from pathlib import Path
+
+    tools_dir = Path(__file__).parent.parent
+    sys.path.insert(0, str(tools_dir))
+
+    from skill_analyzer.context_budget import ContextBudgetCalculator
+
+    calc = ContextBudgetCalculator()
+
+    if args.output == "json":
+        import json
+        if args.phase == "catalog":
+            print(json.dumps(calc.catalog_budget(), indent=2))
+        elif args.phase == "execution":
+            print(json.dumps(calc.execution_budget(), indent=2))
+        else:
+            result = calc.fit_analysis(
+                model=args.model,
+                user_budget_tokens=args.budget_tokens,
+            )
+            print(json.dumps(result, indent=2))
+    else:
+        if args.phase in (None, "all"):
+            print(calc.report(model=args.model, user_budget_tokens=args.budget_tokens))
+        elif args.phase == "catalog":
+            data = calc.catalog_budget()
+            print(f"Catalog phase: {data['total_skills']} skills, {data['catalog_tokens_total']:,} tokens total")
+        else:
+            data = calc.execution_budget()
+            heavy = sorted(data["skills"], key=lambda x: x["total_tokens"], reverse=True)
+            print("Top 10 heaviest skills:")
+            for s in heavy[:10]:
+                print(f"  {s['skill']:30s} {s['total_tokens']:6,} tokens")
+
+
+def cmd_graph(args):
+    """Extract and display skill dependency graph."""
+    import sys
+    from pathlib import Path
+
+    tools_dir = Path(__file__).parent.parent
+    sys.path.insert(0, str(tools_dir))
+
+    from skill_analyzer.skill_graph import SkillGraph
+
+    g = SkillGraph()
+    g.build()
+
+    if args.output == "json":
+        import json
+        print(json.dumps(g.to_dict(), indent=2))
+    else:
+        g.print_summary()
+
+
+def cmd_llm_eval(args):
+    """Run LLM-as-Judge evaluation using Claude API."""
+    import sys
+    from pathlib import Path
+
+    tools_dir = Path(__file__).parent.parent
+    sys.path.insert(0, str(tools_dir))
+
+    from skill_analyzer.llm_evaluator import evaluate_skill, evaluate_all_skills, print_eval_summary
+
+    if args.path:
+        result = evaluate_skill(Path(args.path))
+        if args.output == "json":
+            import json
+            print(json.dumps(result, indent=2))
+        else:
+            if result.get("skipped"):
+                print(f"Skipped: {result.get('reason')}")
+            elif result.get("error"):
+                print(f"Error: {result.get('error')}")
+            else:
+                print(f"\nSkill: {result.get('skill')} ({result.get('category')})")
+                print(f"Score: {result.get('weighted_avg', 0):.2f}/10 ({result.get('tier')})")
+                print(f"Summary: {result.get('one_line_summary', '')}")
+                scores = result.get("scores", {})
+                print("\nDimension Scores:")
+                for dim, score in scores.items():
+                    print(f"  {dim}: {score}/10")
+                cache_read = result.get("cache_read_tokens", 0)
+                if cache_read:
+                    print(f"\nCache read tokens: {cache_read:,} (cached rubric = cost savings)")
+    else:
+        results = evaluate_all_skills(limit=args.limit)
+        if args.output == "json":
+            import json
+            print(json.dumps(results, indent=2))
+        else:
+            print_eval_summary(results)
+
+
 def cmd_all(args):
     """Run all analyzers."""
     import sys
@@ -368,6 +523,38 @@ def main():
     gate_parser.add_argument("--total-skills", type=int, default=40, help="Total installed skills (default: 40)")
     gate_parser.add_argument("--output", "-o", choices=["text", "json"], default="text")
     gate_parser.set_defaults(func=cmd_gate)
+
+    # Search command
+    search_parser = subparsers.add_parser("search", help="Semantic skill search (TF-IDF)")
+    search_parser.add_argument("query", help="Search query")
+    search_parser.add_argument("--top-k", "-k", type=int, default=10, help="Number of results (default: 10)")
+    search_parser.add_argument("--category", "-c", help="Filter by category")
+    search_parser.add_argument("--output", "-o", choices=["json", "text"], default="text")
+    search_parser.set_defaults(func=cmd_search)
+
+    # Budget command
+    budget_parser = subparsers.add_parser("budget", help="Context window budget analysis")
+    budget_parser.add_argument("--model", "-m", default="claude-sonnet-4-6",
+                               choices=["claude-opus-4-7", "claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5"],
+                               help="Target model (default: claude-sonnet-4-6)")
+    budget_parser.add_argument("--phase", choices=["catalog", "execution", "all"], default="all",
+                               help="Which phase to report (default: all)")
+    budget_parser.add_argument("--budget-tokens", type=int, default=None,
+                               help="Override available token budget")
+    budget_parser.add_argument("--output", "-o", choices=["json", "text"], default="text")
+    budget_parser.set_defaults(func=cmd_budget)
+
+    # Graph command
+    graph_parser = subparsers.add_parser("graph", help="Skill dependency graph")
+    graph_parser.add_argument("--output", "-o", choices=["json", "text"], default="text")
+    graph_parser.set_defaults(func=cmd_graph)
+
+    # LLM eval command
+    llm_eval_parser = subparsers.add_parser("llm-eval", help="LLM-as-Judge evaluation (requires ANTHROPIC_API_KEY)")
+    llm_eval_parser.add_argument("--path", "-p", help="Specific skill path to evaluate")
+    llm_eval_parser.add_argument("--limit", "-n", type=int, default=None, help="Max skills to evaluate (all=no limit)")
+    llm_eval_parser.add_argument("--output", "-o", choices=["json", "text"], default="text")
+    llm_eval_parser.set_defaults(func=cmd_llm_eval)
 
     # All command
     all_parser = subparsers.add_parser("all", help="Run all analyzers")

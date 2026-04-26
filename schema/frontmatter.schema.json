@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/theneoai/awesome-skills/schema/frontmatter.schema.json",
+  "title": "SkillFrontmatter",
+  "description": "JSON Schema for SKILL.md YAML frontmatter. All fields except required ones are optional but recommended.",
+  "type": "object",
+  "required": ["name", "version", "description"],
+  "additionalProperties": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Unique kebab-case identifier for the skill",
+      "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$",
+      "minLength": 3,
+      "maxLength": 64
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Human-readable skill name",
+      "minLength": 3,
+      "maxLength": 80
+    },
+    "kind": {
+      "type": "string",
+      "description": "Skill type",
+      "enum": ["persona", "workflow", "tool", "template", "composite"]
+    },
+    "version": {
+      "type": "string",
+      "description": "SemVer version string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "One-line description with trigger context. Keep under 263 chars.",
+      "minLength": 20,
+      "maxLength": 400
+    },
+    "author": {
+      "type": "string",
+      "description": "Author name (optionally with <email>)",
+      "minLength": 2
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier",
+      "enum": ["MIT", "Apache-2.0", "CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0"]
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Target user experience level",
+      "enum": ["beginner", "intermediate", "expert"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Top-level taxonomy category (kebab-case)",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "tags": {
+      "description": "Structured tag list for discovery and routing",
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {
+                "type": "object",
+                "properties": {
+                  "domain": {"type": "string"},
+                  "subtype": {"type": "string"},
+                  "level": {"type": "string", "enum": ["beginner", "intermediate", "expert"]},
+                  "industry": {"type": "string"},
+                  "methodology": {"type": "string"}
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        },
+        {"type": "string"}
+      ]
+    },
+    "platforms": {
+      "description": "Supported agent platforms",
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["opencode", "openclaw", "claude", "cursor", "codex", "cline", "kimi", "all"]
+          }
+        },
+        {"type": "string"}
+      ]
+    },
+    "quality": {
+      "type": "string",
+      "description": "Quality tier assigned by maintainer",
+      "enum": ["basic", "community", "expert", "exemplary"]
+    },
+    "capabilities": {
+      "type": "array",
+      "description": "Machine-readable capability tags for agent routing (new in v2)",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_:/-]*$"
+      },
+      "examples": [
+        ["code/backend", "api/rest", "db/postgres"],
+        ["finance/analysis", "report/excel"],
+        ["legal/contract", "legal/ip"]
+      ]
+    },
+    "requires": {
+      "type": "array",
+      "description": "Other skill names this skill depends on or pairs well with",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      }
+    },
+    "safety_level": {
+      "type": "string",
+      "description": "Risk classification for automated routing decisions",
+      "enum": ["safe", "low-risk", "medium-risk", "high-risk", "restricted"]
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Arbitrary metadata bag for tooling use",
+      "properties": {
+        "author": {"type": "string"},
+        "reviewed_by": {"type": "string"},
+        "last_reviewed": {"type": "string", "format": "date"},
+        "benchmark_score": {"type": "number", "minimum": 0, "maximum": 10}
+      },
+      "additionalProperties": true
+    }
+  }
+}
