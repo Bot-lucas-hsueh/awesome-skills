@@ -44,6 +44,14 @@ sources:
     home: https://github.com/anthropics/knowledge-work-plugins
 
   # ── Community curated lists ────────────────────────────────────────────
+  - slug: sickn33-antigravity-awesome-skills
+    url: https://github.com/sickn33/antigravity-awesome-skills.git
+    license: MIT
+    category: curated-list
+    description: "1,400+ installable agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity; includes installer CLI, bundles, and official/community collections."
+    tags: [multi-platform, large-scale, installer-cli, bundles, curated]
+    home: https://github.com/sickn33/antigravity-awesome-skills
+
   - slug: voltagent-awesome-agent-skills
     url: https://github.com/VoltAgent/awesome-agent-skills.git
     license: MIT
@@ -76,6 +84,46 @@ sources:
     tags: [automation, workflow, curated]
     home: https://github.com/ComposioHQ/awesome-claude-skills
 
+  - slug: rohitg00-awesome-claude-code-toolkit
+    url: https://github.com/rohitg00/awesome-claude-code-toolkit.git
+    license: MIT
+    category: curated-list
+    description: "Comprehensive toolkit: 135 agents, 35 curated skills (+400k via SkillKit), 42 commands, 176+ plugins, 20 hooks, 15 rules, 14 MCP configs, and 26 companion apps."
+    tags: [toolkit, plugins, hooks, commands, agents, mcp, curated]
+    home: https://github.com/rohitg00/awesome-claude-code-toolkit
+
+  - slug: prat011-awesome-llm-skills
+    url: https://github.com/Prat011/awesome-llm-skills.git
+    license: MIT
+    category: curated-list
+    description: Curated LLM and AI Agent Skills compatible with Claude Code, Codex, Gemini CLI, and custom agents; includes skill-creator tooling.
+    tags: [multi-platform, llm, curated, skill-creator]
+    home: https://github.com/Prat011/awesome-llm-skills
+
+  - slug: davepoon-buildwithclaude
+    url: https://github.com/davepoon/buildwithclaude.git
+    license: MIT
+    category: curated-list
+    description: Single hub for Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections across Claude Code, Claude Desktop, Agent SDK, and OpenClaw.
+    tags: [hub, commands, hooks, plugins, marketplace, curated]
+    home: https://github.com/davepoon/buildwithclaude
+
+  - slug: karanb192-awesome-claude-skills
+    url: https://github.com/karanb192/awesome-claude-skills.git
+    license: MIT
+    category: curated-list
+    description: "50+ verified Claude Skills covering TDD, debugging, git workflows, and document processing for Claude Code, Claude.ai, and API."
+    tags: [verified, tdd, debugging, git, community]
+    home: https://github.com/karanb192/awesome-claude-skills
+
+  - slug: mxyhi-ok-skills
+    url: https://github.com/mxyhi/ok-skills.git
+    license: MIT
+    category: curated-list
+    description: Curated AI coding agent skills and AGENTS.md playbooks for Codex, Claude Code, Cursor, OpenClaw, and other SKILL.md-compatible tools.
+    tags: [agents-md, coding-agents, multi-platform, curated]
+    home: https://github.com/mxyhi/ok-skills
+
   # ── Subagent & orchestration collections ───────────────────────────────
   - slug: voltagent-awesome-claude-code-subagents
     url: https://github.com/VoltAgent/awesome-claude-code-subagents.git
@@ -100,3 +148,77 @@ sources:
     description: 100+ production-ready development subagents, domain-expert oriented.
     tags: [subagents, production]
     home: https://github.com/0xfurai/claude-code-subagents
+
+  - slug: zippoxer-subtask
+    url: https://github.com/zippoxer/subtask.git
+    license: MIT
+    category: subagent-collection
+    description: Claude Skill that runs tasks using subagents in isolated Git worktrees for safe parallel execution.
+    tags: [subagents, git-worktrees, parallel, isolation]
+    home: https://github.com/zippoxer/subtask
+
+  # ── Specialized domain skills ───────────────────────────────────────────
+  - slug: agriculci-daniel-claude-seo
+    url: https://github.com/AgriciDaniel/claude-seo.git
+    license: MIT
+    category: specialized-skill
+    description: "Universal SEO skill for Claude Code: 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana); covers technical SEO, E-E-A-T, schema, GEO/AEO, and PDF/Excel reporting."
+    tags: [seo, marketing, subagents, reporting, specialized]
+    home: https://github.com/AgriciDaniel/claude-seo
+
+  - slug: zubair-trabzada-ai-marketing-claude
+    url: https://github.com/zubair-trabzada/ai-marketing-claude.git
+    license: MIT
+    category: specialized-skill
+    description: "AI Marketing Suite for Claude Code: 15 marketing skills with parallel subagents — website audit, copy, email sequences, ad campaigns, content calendars, competitive intelligence, and PDF reports."
+    tags: [marketing, copywriting, seo, subagents, specialized]
+    home: https://github.com/zubair-trabzada/ai-marketing-claude
+
+  - slug: agents365-drawio-skill
+    url: https://github.com/Agents365-ai/drawio-skill.git
+    license: MIT
+    category: specialized-skill
+    description: Agent Skill that generates professional draw.io diagrams from natural language and exports to PNG/SVG/PDF; works with Claude Code, Codex, and OpenClaw.
+    tags: [diagrams, drawio, visualization, multi-platform, specialized]
+    home: https://github.com/Agents365-ai/drawio-skill
+
+  - slug: arpitg1304-robotics-agent-skills
+    url: https://github.com/arpitg1304/robotics-agent-skills.git
+    license: MIT
+    category: specialized-skill
+    description: Agent skills for production-grade robotics software with ROS1/ROS2, design patterns, SOLID principles, and testing; compatible with Claude Code, Cursor, and Copilot.
+    tags: [robotics, ros, ros2, specialized, engineering]
+    home: https://github.com/arpitg1304/robotics-agent-skills
+
+  - slug: eyadkelleh-awesome-claude-skills-security
+    url: https://github.com/Eyadkelleh/awesome-claude-skills-security.git
+    license: MIT
+    category: specialized-skill
+    description: Security testing toolkit for Claude Code — curated SecLists wordlists, injection payloads, and expert agents for authorized pentesting, CTFs, and bug bounties.
+    tags: [security, pentesting, ctf, seclists, specialized]
+    home: https://github.com/Eyadkelleh/awesome-claude-skills-security
+
+  # ── Skill toolkits & frameworks ────────────────────────────────────────
+  - slug: gotalab-cc-sdd
+    url: https://github.com/gotalab/cc-sdd.git
+    license: MIT
+    category: skill-toolkit
+    description: Spec-Driven Development harness with Agent Skills — turns approved specs into long-running autonomous implementations; supports Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, and Gemini CLI.
+    tags: [spec-driven-development, autonomous, multi-platform, harness]
+    home: https://github.com/gotalab/cc-sdd
+
+  - slug: francyjg-agent-skill-creator
+    url: https://github.com/FrancyJGLisboa/agent-skill-creator.git
+    license: MIT
+    category: skill-toolkit
+    description: "Turn any workflow into reusable AI agent skills that install on 14+ tools — Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and more. One SKILL.md, every platform."
+    tags: [skill-creator, multi-platform, workflow, tooling]
+    home: https://github.com/FrancyJGLisboa/agent-skill-creator
+
+  - slug: zhu1090093659-spec-driven-develop
+    url: https://github.com/zhu1090093659/spec_driven_develop.git
+    license: MIT
+    category: skill-toolkit
+    description: Cross-platform skill that turns migration or rewrite requests into a disciplined document-driven workflow — analyze, decompose, track, execute. Works with Claude Code, Codex, and Cursor.
+    tags: [spec-driven-development, migration, multi-platform, workflow]
+    home: https://github.com/zhu1090093659/spec_driven_develop
