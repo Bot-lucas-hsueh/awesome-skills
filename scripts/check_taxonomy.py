@@ -46,10 +46,31 @@ def load_taxonomy() -> dict:
         return yaml.safe_load(f)
 
 
+# Top-level containers that separate skills by kind. Their children are listed
+# as "<container>/<subdir>" paths rather than bare names.
+_KIND_CONTAINERS = {"persona", "tool", "workflow"}
+
+
 def list_skills_subdirs() -> set[str]:
+    """Return paths relative to skills/ for every skill domain/subcategory.
+
+    For kind containers (persona/, tool/, workflow/) the function descends one
+    level and returns "<kind>/<subdir>" strings. Other top-level dirs are
+    returned as bare names (e.g. "_common").
+    """
     if not SKILLS_DIR.is_dir():
         return set()
-    return {p.name for p in SKILLS_DIR.iterdir() if p.is_dir()}
+    result: set[str] = set()
+    for p in SKILLS_DIR.iterdir():
+        if not p.is_dir():
+            continue
+        if p.name in _KIND_CONTAINERS:
+            for sub in p.iterdir():
+                if sub.is_dir():
+                    result.add(f"{p.name}/{sub.name}")
+        else:
+            result.add(p.name)
+    return result
 
 
 def list_dir_files(directory: Path, suffix: str = ".md") -> set[str]:

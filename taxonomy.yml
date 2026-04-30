@@ -60,150 +60,156 @@ categories:
   - id: executive
     name: Executive & Leadership
     description: CEO, CTO, CFO, COO, board governance, strategy, HR, people ops, general business admin
-    aliases: [executive, business, hr, admin]
-    skills_dir: skills/executive/
+    aliases: [persona/executive, persona/business, persona/hr, persona/admin]
+    skills_dir: skills/persona/executive/
     package: packages/executive.md
     roadmap: roadmap/executive-leadership.md
 
   - id: software
     name: Software Engineering
     description: Backend, frontend, full-stack, DevOps, QA, architecture, IT support, enterprise systems, telecom/networking
-    aliases: [software, tech, it-support, enterprise, telecom]
-    skills_dir: skills/software/
+    aliases: [persona/software, persona/tech, persona/it-support, persona/enterprise, persona/telecom]
+    skills_dir: skills/persona/software/
     package: packages/software.md
     roadmap: roadmap/software-engineering.md
 
   - id: ai-ml
     name: AI & Machine Learning
     description: ML engineering, research, MLOps, CV, NLP, prompt engineering, quantum computing
-    aliases: [ai-ml, quantum]
-    skills_dir: skills/ai-ml/
+    aliases: [persona/ai-ml, persona/quantum]
+    skills_dir: skills/persona/ai-ml/
     package: packages/ai-ml.md
     roadmap: roadmap/ai-ml.md
 
   - id: data
     name: Data & Analytics
     description: Data engineering, analytics, BI, data science, warehousing, pipelines
-    aliases: [data]
-    skills_dir: skills/data/
+    aliases: [persona/data]
+    skills_dir: skills/persona/data/
     roadmap: roadmap/data.md
 
   - id: product
     name: Product & Design
     description: Product management, UX, UI, product design, design systems
-    aliases: [product]
-    skills_dir: skills/product/
+    aliases: [persona/product]
+    skills_dir: skills/persona/product/
     roadmap: roadmap/product-design.md
 
   - id: creative
     name: Creative & Media
     description: Writing, content, film, music, design, entertainment, crafts, traditional and digital creative work
-    aliases: [creative, content, media, entertainment, crafts]
-    skills_dir: skills/creative/
+    aliases: [persona/creative, persona/content, persona/media, persona/entertainment, persona/crafts]
+    skills_dir: skills/persona/creative/
     package: packages/creative.md
     roadmap: roadmap/creative-media.md
 
   - id: marketing
     name: Marketing & Sales
     description: Marketing, growth, sales, ecommerce, retail, brand
-    aliases: [marketing, ecommerce, retail]
-    skills_dir: skills/marketing/
+    aliases: [persona/marketing, persona/ecommerce, persona/retail]
+    skills_dir: skills/persona/marketing/
     roadmap: roadmap/marketing-sales.md
 
   - id: finance
     name: Finance & Fintech
     description: Banking, investing, accounting, fintech, real estate, insurance
-    aliases: [finance, fintech, realestate]
-    skills_dir: skills/finance/
+    aliases: [persona/finance, persona/fintech, persona/realestate]
+    skills_dir: skills/persona/finance/
     package: packages/finance.md
     roadmap: roadmap/finance.md
 
   - id: healthcare
     name: Healthcare & Life Sciences
     description: Medicine, nursing, public health, biotech, pharma, clinical work
-    aliases: [healthcare, medical, biotech]
-    skills_dir: skills/healthcare/
+    aliases: [persona/healthcare, persona/medical, persona/biotech]
+    skills_dir: skills/persona/healthcare/
     package: packages/healthcare.md
     roadmap: roadmap/healthcare.md
 
   - id: legal
     name: Legal
     description: Law, compliance, regulatory, contracts, IP, litigation
-    aliases: [legal]
-    skills_dir: skills/legal/
+    aliases: [persona/legal]
+    skills_dir: skills/persona/legal/
     package: packages/legal.md
     roadmap: roadmap/legal.md
 
   - id: education
     name: Education & Research
     description: Teaching, curriculum, academia, scientific research, librarianship
-    aliases: [education, research]
-    skills_dir: skills/education/
+    aliases: [persona/education, persona/research]
+    skills_dir: skills/persona/education/
     package: packages/education.md
     roadmap: roadmap/education.md
 
   - id: government
     name: Government & Public Service
     description: Government, policy, public service, international affairs/diplomacy, military/defense, and other specialized public-sector roles
-    aliases: [government, public-service, international, special]
-    skills_dir: skills/government/
+    aliases: [persona/government, persona/public-service, persona/international, persona/special]
+    skills_dir: skills/persona/government/
     package: packages/government.md
     roadmap: roadmap/government-public-service.md
 
   - id: manufacturing
     name: Manufacturing & Industry
     description: Factory work, materials science, mining, semiconductors, robotics, industrial engineering
-    aliases: [manufacturing, materials, factory-worker, mining, semiconductor, robotics]
-    skills_dir: skills/manufacturing/
+    aliases: [persona/manufacturing, persona/materials, persona/factory-worker, persona/mining, persona/semiconductor, persona/robotics]
+    skills_dir: skills/persona/manufacturing/
     roadmap: roadmap/manufacturing-engineering.md
 
   - id: construction
     name: Construction & Trades
     description: Construction, skilled trades, repair, maintenance, tools and equipment
-    aliases: [construction, construction-worker, repair-worker, tools]
-    skills_dir: skills/construction/
+    aliases: [persona/construction, persona/construction-worker, persona/repair-worker]
+    skills_dir: skills/persona/construction/
     roadmap: roadmap/construction.md
 
   - id: transportation
     name: Transportation & Logistics
     description: Automotive, aerospace, shipping, logistics, supply chain, transport operators
-    aliases: [transportation, transport-worker, logistics, automotive, aerospace]
-    skills_dir: skills/transportation/
+    aliases: [persona/transportation, persona/transport-worker, persona/logistics, persona/automotive, persona/aerospace]
+    skills_dir: skills/persona/transportation/
     package: packages/automotive.md
     roadmap: roadmap/aerospace-transportation.md
 
   - id: energy
     name: Energy, Environment & Agriculture
     description: Energy (oil, gas, renewables, utilities), environmental science, sustainability, agriculture, farming
-    aliases: [energy, environmental, agriculture, farmer]
-    skills_dir: skills/energy/
+    aliases: [persona/energy, persona/environmental, persona/agriculture, persona/farmer]
+    skills_dir: skills/persona/energy/
     package: packages/energy.md
     roadmap: roadmap/energy-environment.md
 
   - id: services
     name: Services & Hospitality
     description: Hospitality, food service, personal services, freelance/independent work, general service-sector roles
-    aliases: [services, service-worker, hospitality, freelancer]
-    skills_dir: skills/services/
+    aliases: [persona/services, persona/service-worker, persona/hospitality, persona/freelancer]
+    skills_dir: skills/persona/services/
 
   - id: cybersecurity
     name: Cybersecurity & Trust
     description: Security engineering, infosec, cryptography, blockchain, trust and safety
-    aliases: [cybersecurity, blockchain]
-    skills_dir: skills/cybersecurity/
+    aliases: [persona/cybersecurity, persona/blockchain]
+    skills_dir: skills/persona/cybersecurity/
     roadmap: roadmap/cybersecurity.md
+
+  - id: tools
+    name: Tools & Platforms
+    description: "Tool-specific expert skills (kind: tool): cloud platforms, databases, DevOps toolchains, observability stacks, ML frameworks, design tools, and more. Unlike persona skills, these teach operating a specific technology rather than adopting a professional role."
+    aliases: [tool/ai-ml, tool/analytics, tool/cad, tool/cicd, tool/cloud, tool/cn-cloud, tool/container, tool/data-platform, tool/database, tool/design, tool/engineering, tool/engineering-simulation, tool/enterprise, tool/game-engine, tool/iac, tool/media, tool/observability, tool/productivity, tool/scientific, tool/security]
+    skills_dir: skills/tool/
 
   - id: engineering
     name: Engineering Workflows
     description: "Actionable, process-driven workflow skills for software engineers: TDD, structured debugging, codebase navigation, architecture review, issue triage, and PRD authoring. These are kind:workflow skills — they define what the agent DOES, not what persona it adopts. Inspired by mattpocock/skills."
-    aliases: [engineering]
-    skills_dir: skills/engineering/
+    aliases: [workflow/engineering]
+    skills_dir: skills/workflow/engineering/
 
   - id: meta
     name: Meta & Agent Productivity
     description: "Skills about skills: authoring high-quality SKILL.md files, token compression (caveman mode), and other agent-productivity utilities that apply across all domains."
-    aliases: [meta]
-    skills_dir: skills/meta/
+    aliases: [workflow/meta]
+    skills_dir: skills/workflow/meta/
 
 # Consulting/business-consulting roadmap is intentionally mapped below
 # under the `executive` category as an ancillary roadmap reference. Because

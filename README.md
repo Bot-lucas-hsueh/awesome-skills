@@ -60,7 +60,7 @@ scripts/                  Maintenance scripts (catalog regen, external sync, tax
 The simplest way to install a skill is to have your agent read its `SKILL.md` URL:
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install as a skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/persona/executive/ceo/SKILL.md and install as a skill
 ```
 
 Platform-specific instructions (OpenCode native command, Claude Code, Cursor, Cline, Codex, Kimi) are in **[INSTALL-GUIDE.md](./INSTALL-GUIDE.md)**.
@@ -83,13 +83,13 @@ Role skills modelled after the methodology of specific companies (15 shown out o
 
 | Skill | Company | Methodology |
 |-------|---------|------------|
-| [amazon-engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) | Amazon | 14 LPs, Working Backwards, 6-page memos |
-| [tesla-engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) | Tesla | First principles, five-step algorithm |
-| [spacex-engineer](./skills/enterprise/spacex/spacex-engineer/SKILL.md) | SpaceX | Rapid iteration, cost innovation |
-| [nvidia-ml-engineer](./skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA | CUDA optimisation, GPU platforms |
-| [mckinsey-consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) | McKinsey | MECE, issue trees, pyramid principle |
-| [toyota-engineer](./skills/enterprise/toyota/toyota-engineer/SKILL.md) | Toyota | TPS, JIT, Kaizen, Jidoka |
-| [anthropic-researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI, interpretability |
+| [amazon-engineer](./skills/persona/enterprise/amazon/amazon-engineer/SKILL.md) | Amazon | 14 LPs, Working Backwards, 6-page memos |
+| [tesla-engineer](./skills/persona/enterprise/tesla/tesla-engineer/SKILL.md) | Tesla | First principles, five-step algorithm |
+| [spacex-engineer](./skills/persona/enterprise/spacex/spacex-engineer/SKILL.md) | SpaceX | Rapid iteration, cost innovation |
+| [nvidia-ml-engineer](./skills/persona/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA | CUDA optimisation, GPU platforms |
+| [mckinsey-consultant](./skills/persona/enterprise/mckinsey/mckinsey-consultant/SKILL.md) | McKinsey | MECE, issue trees, pyramid principle |
+| [toyota-engineer](./skills/persona/enterprise/toyota/toyota-engineer/SKILL.md) | Toyota | TPS, JIT, Kaizen, Jidoka |
+| [anthropic-researcher](./skills/persona/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI, interpretability |
 
 Full list in [CATALOG.md](./CATALOG.md).
 
@@ -189,7 +189,7 @@ scripts/                  维护脚本（catalog 重生成、external 同步、t
 最通用的安装方式是让 agent 读 SKILL.md 的 URL：
 
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md 并安装为 skill
+Read https://github.com/theneoai/awesome-skills/blob/main/skills/persona/executive/ceo/SKILL.md 并安装为 skill
 ```
 
 各平台（OpenCode 原生命令、Claude Code、Cursor、Cline、Codex、Kimi）详细步骤见 **[INSTALL-GUIDE.md](./INSTALL-GUIDE.md)**。
@@ -212,13 +212,13 @@ Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/S
 
 | Skill | 公司 | 方法论 |
 |-------|------|--------|
-| [amazon-engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) | Amazon | 14 条领导力准则、Working Backwards、6 页备忘录 |
-| [tesla-engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) | Tesla | 第一性原理、五步算法 |
-| [spacex-engineer](./skills/enterprise/spacex/spacex-engineer/SKILL.md) | SpaceX | 快速迭代、成本创新 |
-| [nvidia-ml-engineer](./skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA | CUDA 优化、GPU 平台 |
-| [mckinsey-consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) | McKinsey | MECE、Issue Tree、金字塔原理 |
-| [toyota-engineer](./skills/enterprise/toyota/toyota-engineer/SKILL.md) | Toyota | TPS、JIT、改善、自働化 |
-| [anthropic-researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI、可解释性 |
+| [amazon-engineer](./skills/persona/enterprise/amazon/amazon-engineer/SKILL.md) | Amazon | 14 条领导力准则、Working Backwards、6 页备忘录 |
+| [tesla-engineer](./skills/persona/enterprise/tesla/tesla-engineer/SKILL.md) | Tesla | 第一性原理、五步算法 |
+| [spacex-engineer](./skills/persona/enterprise/spacex/spacex-engineer/SKILL.md) | SpaceX | 快速迭代、成本创新 |
+| [nvidia-ml-engineer](./skills/persona/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) | NVIDIA | CUDA 优化、GPU 平台 |
+| [mckinsey-consultant](./skills/persona/enterprise/mckinsey/mckinsey-consultant/SKILL.md) | McKinsey | MECE、Issue Tree、金字塔原理 |
+| [toyota-engineer](./skills/persona/enterprise/toyota/toyota-engineer/SKILL.md) | Toyota | TPS、JIT、改善、自働化 |
+| [anthropic-researcher](./skills/persona/enterprise/anthropic/anthropic-researcher/SKILL.md) | Anthropic | Constitutional AI、可解释性 |
 
 完整列表见 [CATALOG.md](./CATALOG.md)。
 
