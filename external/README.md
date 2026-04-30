@@ -35,6 +35,12 @@ working copy, not a committed mirror.
 
 ## Registered sources
 
+### Individual author skill packs
+
+| Slug | Repo | License | What it is |
+|------|------|---------|-----------|
+| `mattpocock-skills` | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | Matt Pocock's opinionated engineering workflow skills: `/tdd`, `/diagnose`, `/zoom-out`, `/grill-with-docs`, `/triage`, `/improve-codebase-architecture`, `/caveman`. Built around the principle "build a reliable feedback loop first." Install: `npx skills@latest add mattpocock/skills`. |
+
 ### Official (Anthropic)
 
 | Slug | Repo | License | What it is |

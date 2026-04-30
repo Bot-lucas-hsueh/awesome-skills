@@ -43,6 +43,15 @@ sources:
     tags: [anthropic, official, knowledge-work, cowork]
     home: https://github.com/anthropics/knowledge-work-plugins
 
+  # ── Individual author skill packs ─────────────────────────────────────
+  - slug: mattpocock-skills
+    url: https://github.com/mattpocock/skills.git
+    license: MIT
+    category: individual-skill-pack
+    description: "Matt Pocock's opinionated engineering workflow skills: /tdd (vertical-slice TDD), /diagnose (feedback-loop debugging), /zoom-out (codebase navigation), /grill-with-docs (domain-driven design interviews), /triage (issue state machine), /improve-codebase-architecture, /caveman (token compression). Paired with CONTEXT.md + ADR patterns for domain language grounding."
+    tags: [engineering-workflow, tdd, debugging, architecture, issue-management, token-efficiency, feedback-loops]
+    home: https://github.com/mattpocock/skills
+
   # ── Community curated lists ────────────────────────────────────────────
   - slug: sickn33-antigravity-awesome-skills
     url: https://github.com/sickn33/antigravity-awesome-skills.git

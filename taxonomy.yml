@@ -193,6 +193,18 @@ categories:
     skills_dir: skills/cybersecurity/
     roadmap: roadmap/cybersecurity.md
 
+  - id: engineering
+    name: Engineering Workflows
+    description: "Actionable, process-driven workflow skills for software engineers: TDD, structured debugging, codebase navigation, architecture review, issue triage, and PRD authoring. These are kind:workflow skills — they define what the agent DOES, not what persona it adopts. Inspired by mattpocock/skills."
+    aliases: [engineering]
+    skills_dir: skills/engineering/
+
+  - id: meta
+    name: Meta & Agent Productivity
+    description: "Skills about skills: authoring high-quality SKILL.md files, token compression (caveman mode), and other agent-productivity utilities that apply across all domains."
+    aliases: [meta]
+    skills_dir: skills/meta/
+
 # Consulting/business-consulting roadmap is intentionally mapped below
 # under the `executive` category as an ancillary roadmap reference. Because
 # the check script expects exactly one roadmap: field per category, we
