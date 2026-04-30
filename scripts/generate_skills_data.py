@@ -24,6 +24,27 @@ OUTPUT_FILE = PROJECT_ROOT / 'assets/js/skills-data.js'
 
 # Category icons mapping
 CATEGORY_ICONS = {
+    # Kind-level icons (for workflow/tool kinds and their subcategories)
+    'workflow': '⚡',
+    'engineering': '⚙️',
+    'meta': '🧠',
+    'tool': '🔧',
+    # Tool subcategories
+    'container': '🐳',
+    'cicd': '🔄',
+    'cloud': '☁️',
+    'cn-cloud': '🌐',
+    'observability': '👁️',
+    'iac': '🏗️',
+    'data-platform': '🗄️',
+    'analytics': '📊',
+    'game-engine': '🎮',
+    'engineering-simulation': '🔬',
+    'scientific': '🧪',
+    'cad': '📐',
+    'media': '📺',
+    'productivity': '⚡',
+    # Persona domain icons
     'executive': '👔',
     'software': '💻',
     'technology': '🔧',
@@ -1021,18 +1042,35 @@ def parse_skill_file(skill_path: Path) -> Optional[Dict]:
         
         # Extract skill info
         skill_name = skill_path.parent.name
+
+        # Kind containers: skills/ is now split into persona/, tool/, workflow/.
+        # For paths like skills/persona/executive/ceo/SKILL.md:
+        #   parts[0] = 'persona' (kind), parts[1] = 'executive' (domain/category)
+        # For external benchmark paths that don't start with a kind container,
+        # fall back to parts[0] as before.
+        _KIND_CONTAINERS = {'persona', 'tool', 'workflow'}
+
+        # Derive kind and category from the file path
+        try:
+            rel_path = skill_path.relative_to(SKILLS_DIR)
+            if rel_path.parts[0] in _KIND_CONTAINERS and len(rel_path.parts) >= 2:
+                path_kind = rel_path.parts[0]
+                path_category = rel_path.parts[1]
+            else:
+                path_kind = 'persona'
+                path_category = rel_path.parts[0]
+        except ValueError:
+            path_kind = 'persona'
+            path_category = 'other'
+
+        # Kind: prefer YAML frontmatter, fall back to path-derived
+        kind = metadata.get('kind') or path_kind
+
         # Category: prefer YAML metadata (works for both internal and external skills),
-        # fall back to first directory segment under skills/.
+        # fall back to path-derived domain.
         yaml_meta = metadata.get('metadata') or {}
         yaml_category = metadata.get('category') or yaml_meta.get('category')
-        if yaml_category:
-            category = str(yaml_category)
-        else:
-            try:
-                rel_path = skill_path.relative_to(SKILLS_DIR)
-                category = rel_path.parts[0]
-            except ValueError:
-                category = 'other'
+        category = str(yaml_category) if yaml_category else path_category
         
         # Get description
         description = metadata.get('description', '')
@@ -1123,10 +1161,18 @@ def parse_skill_file(skill_path: Path) -> Optional[Dict]:
         # Generate Chinese name (placeholder - can be enhanced with translation)
         name_zh = metadata.get('display_name_zh', display_name)
         
+        _KIND_LABELS = {
+            'persona': 'Persona',
+            'tool': 'Tool',
+            'workflow': 'Workflow',
+        }
+
         return {
             'id': skill_name,
             'name': display_name,
             'nameZh': name_zh,
+            'kind': kind,
+            'kindLabel': _KIND_LABELS.get(kind, kind.title()),
             'category': category,
             'icon': icon,
             'shortDesc': short_description,

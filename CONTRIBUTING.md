@@ -16,9 +16,8 @@ Thank you for considering contributing to Awesome Skills!
 Create a new skill for a domain not yet covered:
 
 1. Check existing skills to avoid duplication
-2. Use the [TEMPLATE.md](./skills/meta/skill-writer/assets/TEMPLATE.md)
-3. Follow the [Skill Development Guide](#skill-development-guide)
-4. Submit a Pull Request
+2. Follow the [Skill Development Guide](#skill-development-guide)
+3. Submit a Pull Request
 
 ### 2. Improve Existing Skills
 
@@ -34,41 +33,51 @@ Open an issue with a clear title, detailed description, and suggested solution.
 
 ## Skill Development Guide
 
-### Skill Structure
+### Directory Structure
+
+Skills are organised by **kind** first, then by domain:
 
 ```
 skills/
-└── [category]/
-    └── [skill-name]/
-        ├── SKILL.md           # Main skill file
-        └── references/        # Reference docs (optional)
-            ├── frameworks.md
-            ├── workflows.md
-            └── examples.md
+├── persona/              ← Role-based professional personas
+│   └── [domain]/
+│       └── [skill-name]/
+│           ├── SKILL.md           # Main skill file (required)
+│           └── references/        # Deep-dive reference docs (optional)
+│
+├── tool/                 ← Technology-specific expert skills
+│   └── [technology-area]/
+│       └── [skill-name]/
+│           └── SKILL.md
+│
+└── workflow/             ← Process-driven action skills
+    └── [workflow-area]/
+        └── [skill-name]/
+            └── SKILL.md
 ```
 
-### Required Sections
+**Which `kind` should I use?**
 
-Every skill must include all 16 standard H2 sections in the correct order. See [TEMPLATE.md](./skills/meta/skill-writer/assets/TEMPLATE.md).
+| Kind | Use when the skill… | Example |
+|------|---------------------|---------|
+| `persona` | Gives the agent a professional identity and methodology | `ceo`, `backend-developer` |
+| `tool` | Teaches expert operation of a specific technology | `kubernetes-expert`, `aws-expert` |
+| `workflow` | Defines a step-by-step process the agent executes | `tdd-workflow`, `debug-diagnose` |
 
 ### YAML Frontmatter
-
-Skills follow the [agentskills open format specification](https://github.com/agentskills/agentskills):
 
 ```yaml
 ---
 name: skill-name           # Required. Must match directory name. Lowercase, hyphens only.
-description: >             # Required. Max 1024 chars. What it does and when to use it.
+kind: persona              # Required. One of: persona | tool | workflow | template | composite
+version: 1.0.0             # Required. SemVer.
+description: >             # Required. Max 400 chars. State capability + "Use when: ..." triggers.
   A world-class expert in [domain]. Use when [triggers].
-license: MIT               # Optional.
-compatibility: ...         # Optional. Environment requirements.
-metadata:                  # Optional. Arbitrary key-value pairs.
-  author: neo.ai
-  version: 1.0.0
-  tags: tag1, tag2, tag3
-  category: category-name
-  difficulty: expert|intermediate|beginner
-  quality: exemplary
+license: MIT
+tags:
+  - domain: [domain]
+  - subtype: [skill-name]
+  - level: expert
 ---
 ```
 
@@ -77,15 +86,21 @@ metadata:                  # Optional. Arbitrary key-value pairs.
 - Must match the parent directory name
 - No consecutive hyphens (`--`), no leading/trailing hyphens
 
+**`description` is the most important field.** It is the agent's only signal for deciding whether to load this skill. A vague description means the skill never loads. Use the `write-skill` workflow skill for guidance:
+
+```
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/workflow/meta/write-skill/SKILL.md and install write-skill
+```
+
 ### Quality Criteria
 
 | Criterion | Requirement |
 |-----------|-------------|
 | **Accuracy** | Content is factually correct |
-| **Completeness** | All 16 H2 sections in correct order |
+| **Description** | Specific triggers using "Use when:" language |
 | **Clarity** | Easy to understand; tables over prose |
 | **Practicality** | Actionable advice with frameworks and examples |
-| **Safety** | Domain-specific risk warnings with severity ratings |
+| **Safety** | Domain-specific risk warnings where appropriate |
 
 ## Pull Request Process
 
@@ -100,8 +115,17 @@ git checkout -b add-skill-name
 ### 2. Add Your Skill
 
 ```bash
-mkdir -p skills/[category]/[skill-name]
-# Edit skills/[category]/[skill-name]/SKILL.md
+# For a persona skill:
+mkdir -p skills/persona/[domain]/[skill-name]
+# Edit skills/persona/[domain]/[skill-name]/SKILL.md
+
+# For a tool skill:
+mkdir -p skills/tool/[technology]/[skill-name]
+# Edit skills/tool/[technology]/[skill-name]/SKILL.md
+
+# For a workflow skill:
+mkdir -p skills/workflow/[area]/[skill-name]
+# Edit skills/workflow/[area]/[skill-name]/SKILL.md
 ```
 
 ### 3. Test Your Skill
@@ -128,10 +152,10 @@ git push origin add-skill-name
 python3 .github/scripts/validate_skills.py skills/
 
 # Validate a single file
-python3 .github/scripts/validate_skills.py skills/software/backend-developer/SKILL.md
+python3 .github/scripts/validate_skills.py skills/persona/software/backend-developer/SKILL.md
 
-# Strict mode (16 sections required)
-python3 .github/scripts/validate_skills.py --strict skills/executive/
+# Strict mode (16 sections required for Expert Verified skills)
+python3 .github/scripts/validate_skills.py --strict skills/persona/executive/
 ```
 
 ### What the Validator Checks
@@ -139,9 +163,9 @@ python3 .github/scripts/validate_skills.py --strict skills/executive/
 | Check | Required For | Blocks Merge |
 |-------|-------------|-------------|
 | YAML frontmatter present | All skills | Yes |
-| Required fields: `name`, `description` | All skills | Yes |
+| Required fields: `name`, `version`, `description` | All skills | Yes |
 | `name` matches directory name | All skills | Yes |
-| ≥16 H2 sections | Expert skills (strict mode) | Yes |
+| `kind` is a valid enum value | All skills | Yes |
 
 ## Style Guidelines
 

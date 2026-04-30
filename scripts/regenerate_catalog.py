@@ -6,12 +6,18 @@ Structure of the generated catalog:
     # Catalog
     <N total skills auto-generated on <date>. ...>
 
-    ## tool-skills (<K>)
-    | Skill | Category | Description |
+    ## Personas (<M>) — role-based professional skills
+    ### <domain> (<count>)
+    | Skill | Description |
     ...
 
-    ## personas (<M>)
-    ### <category> (<count>)
+    ## Tools (<K>) — technology-specific expert skills
+    ### <technology> (<count>)
+    | Skill | Description |
+    ...
+
+    ## Workflows (<W>) — process-driven action skills
+    ### <area> (<count>)
     | Skill | Description |
     ...
 
@@ -112,16 +118,26 @@ def parse_frontmatter(text: str) -> dict | None:
     return data
 
 
-def category_for(skill_md: Path) -> str:
-    """Derive category from path relative to skills/.
+_KIND_CONTAINERS = {"persona", "tool", "workflow"}
 
-    - skills/<cat>/<name>/SKILL.md                         -> <cat>
-    - skills/<cat>/<sub>/<name>/SKILL.md                   -> <cat>/<sub>
-    - skills/<cat>/<sub>/<subsub>/<name>/SKILL.md          -> <cat>/<sub>/<subsub>
+
+def category_for(skill_md: Path) -> str:
+    """Derive domain/category from path relative to skills/.
+
+    New 3-tier structure:
+    - skills/<kind>/<domain>/<name>/SKILL.md  -> <domain>
+    - skills/<kind>/<domain>/<sub>/<name>/SKILL.md -> <domain>/<sub>
+
+    Legacy flat structure (fallback):
+    - skills/<cat>/<name>/SKILL.md -> <cat>
     """
     rel = skill_md.relative_to(SKILLS_ROOT)
-    parts = rel.parts  # e.g. ('enterprise', 'amazon', 'amazon-engineer', 'SKILL.md')
-    # Drop the filename and the skill's own directory name
+    parts = rel.parts
+    if parts and parts[0] in _KIND_CONTAINERS and len(parts) >= 3:
+        # New: kind / domain / [sub...] / name / SKILL.md
+        category_parts = parts[1:-2]
+        return "/".join(category_parts) if category_parts else "(root)"
+    # Legacy: category_parts are everything except the last two (name + SKILL.md)
     category_parts = parts[:-2]
     return "/".join(category_parts) if category_parts else "(root)"
 
@@ -184,42 +200,27 @@ def collect_skills() -> list[dict]:
     return records
 
 
-def build_catalog(records: list[dict], today: str) -> str:
-    total = len(records)
-    tool_skills = [r for r in records if r["kind"] == "tool-skill"]
-    personas = [r for r in records if r["kind"] != "tool-skill"]
+_KIND_SECTION = {
+    "persona": "Personas",
+    "tool": "Tools",
+    "workflow": "Workflows",
+}
 
-    lines: list[str] = []
-    lines.append("# Catalog")
-    lines.append("")
-    lines.append(
-        f"<{total} total skills auto-generated on {today}. "
-        f"To regenerate: `python3 scripts/regenerate_catalog.py`>"
-    )
-    lines.append("")
 
-    # Tool-skills section
-    lines.append(f"## tool-skills ({len(tool_skills)})")
+def _section_for_kind(kind: str) -> str:
+    return _KIND_SECTION.get(kind, kind.title() + "s")
+
+
+def _build_kind_section(title: str, records: list[dict], lines: list[str]) -> None:
+    lines.append(f"## {title} ({len(records)})")
     lines.append("")
-    if tool_skills:
-        lines.append("| Skill | Category | Description |")
-        lines.append("|-------|----------|-------------|")
-        for r in sorted(tool_skills, key=lambda x: (x["category"], x["name"].lower())):
-            lines.append(
-                f"| [{md_escape_cell(r['name'])}]({r['link']}) "
-                f"| {md_escape_cell(r['category'])} "
-                f"| {md_escape_cell(r['description'])} |"
-            )
-    else:
+    if not records:
         lines.append("_None._")
-    lines.append("")
-
-    # Personas section, grouped by category
-    lines.append(f"## personas ({len(personas)})")
-    lines.append("")
+        lines.append("")
+        return
 
     by_cat: dict[str, list[dict]] = {}
-    for r in personas:
+    for r in records:
         by_cat.setdefault(r["category"], []).append(r)
 
     for cat in sorted(by_cat.keys()):
@@ -234,6 +235,31 @@ def build_catalog(records: list[dict], today: str) -> str:
                 f"| {md_escape_cell(r['description'])} |"
             )
         lines.append("")
+
+
+def build_catalog(records: list[dict], today: str) -> str:
+    total = len(records)
+
+    personas = [r for r in records if r["kind"] == "persona"]
+    tools = [r for r in records if r["kind"] == "tool"]
+    workflows = [r for r in records if r["kind"] == "workflow"]
+    others = [r for r in records if r["kind"] not in ("persona", "tool", "workflow")]
+
+    lines: list[str] = []
+    lines.append("# Catalog")
+    lines.append("")
+    lines.append(
+        f"<{total} total skills auto-generated on {today}. "
+        f"To regenerate: `python3 scripts/regenerate_catalog.py`>"
+    )
+    lines.append("")
+
+    _build_kind_section("Personas", personas, lines)
+    _build_kind_section("Tools", tools, lines)
+    _build_kind_section("Workflows", workflows, lines)
+
+    if others:
+        _build_kind_section("Other", others, lines)
 
     return "\n".join(lines).rstrip() + "\n"
 

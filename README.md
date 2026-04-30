@@ -7,7 +7,7 @@
 
 **A curated library of role-based AI skills, organised by professional domain.**
 
-[![Skills](https://img.shields.io/badge/skills-943-blueviolet?style=flat-square)](./CATALOG.md)
+[![Skills](https://img.shields.io/badge/skills-956-blueviolet?style=flat-square)](./CATALOG.md)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![Quality](https://github.com/theneoai/awesome-skills/actions/workflows/quality.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/quality.yml)
 [![Evaluation](https://github.com/theneoai/awesome-skills/actions/workflows/comprehensive-evaluation.yml/badge.svg)](https://github.com/theneoai/awesome-skills/actions/workflows/comprehensive-evaluation.yml)
@@ -26,7 +26,7 @@
 
 ### What this is
 
-A library of **943 skill files** (`SKILL.md` + optional `references/`) covering 60 professional domains. Each skill is a role-based prompt pack — an instruction set plus reference material — designed to load into Claude Code, OpenCode, Cursor, or similar agent runtimes to give an LLM a consistent professional persona and working methodology.
+A library of **956 skill files** (`SKILL.md` + optional `references/`) covering 3 kinds (persona / tool / workflow) across 60+ domains. Each skill is a prompt pack — an instruction set plus reference material — designed to load into Claude Code, OpenCode, Cursor, or similar agent runtimes to give an LLM a consistent professional persona, tool expertise, or engineering workflow methodology.
 
 ### What this is NOT
 
@@ -37,19 +37,29 @@ A library of **943 skill files** (`SKILL.md` + optional `references/`) covering 
 ### Layout
 
 ```
-skills/                   943 skill files (SKILL.md) across ~60 categories
-  <category>/<role>/
-    SKILL.md              Frontmatter + system prompt (target ≤ 300 lines)
-    references/           On-demand deep content (workflow / scenarios / …)
-    EVALUATION_REPORT.md  Optional self-scored quality report
+skills/                   956 skill files organised by kind
+  persona/                827 role-based professional persona skills
+    <domain>/<role>/
+      SKILL.md            Frontmatter + system prompt (target ≤ 300 lines)
+      references/         On-demand deep content (workflow / scenarios / …)
+      EVALUATION_REPORT.md  Optional self-scored quality report
 
-external/                 Registry of 10 curated third-party skill repos
-                          (anthropics/skills, VoltAgent, awesome-claude-code, …).
+  tool/                   116 technology-specific expert skills (kind: tool)
+    <technology>/
+      <skill-name>/SKILL.md
+
+  workflow/               8 process-driven action skills (kind: workflow)
+    engineering/          TDD, debug-diagnose, zoom-out, architecture-review,
+                          issue-triage, to-prd
+    meta/                 write-skill, caveman
+
+external/                 Registry of curated third-party skill repos
+                          (anthropics/skills, mattpocock/skills, VoltAgent, …).
                           Pulled on demand via scripts/sync_external.py — not vendored.
 benchmarks/               Evaluation dataset + scoring script for comparison
 packages/                 Curated skill bundles by domain
 roadmap/                  Career-path documents (independent of skills/)
-taxonomy.yml              Single source of truth mapping skills/packages/roadmap → 18 top-level categories
+taxonomy.yml              Single source of truth: 21 categories, 80 aliases
 tools/                    Python package for skill analysis (scoring, tokens, anti-patterns)
 scripts/                  Maintenance scripts (catalog regen, external sync, taxonomy check, …)
 .github/                  CI workflows + scripts, CI/CD docs
@@ -131,7 +141,7 @@ CI (`.github/workflows/quality.yml`) runs these on any PR that touches `skills/`
 ### Known limitations
 
 - **Text-only skills.** Virtually no skill ships executable `scripts/` or `assets/` — they are persona prompts.
-- **Description overlap.** The role taxonomy is fine-grained (60 categories, 943 skills) and many descriptions overlap, which hurts automatic skill-discovery in agent runtimes. A description-similarity linter runs in CI (informational).
+- **Description overlap.** The role taxonomy spans 60+ domains and 956 skills and many descriptions overlap, which hurts automatic skill-discovery in agent runtimes. A description-similarity linter runs in CI (informational).
 - **Self-scored quality.** `EVALUATION_REPORT.md` files reflect a self-graded rubric, not external review.
 - **Three category systems.** `packages/` (14), `roadmap/` (22), and `skills/` (60) use different taxonomies — being consolidated.
 
@@ -155,7 +165,7 @@ MIT — see [LICENSE](./LICENSE).
 
 ### 项目定位
 
-按专业领域组织的 **AI Skill 库**，共 **943 个技能**，覆盖 60 个领域。每个技能是一份 `SKILL.md`（+ 可选 `references/`），本质是**角色化的提示词包**——一套系统指令加参考资料，用于在 Claude Code / OpenCode / Cursor 等 agent 运行时里给 LLM 加载稳定的专业身份和工作方法。
+按专业领域组织的 **AI Skill 库**，共 **956 个技能**，按 3 种类型（persona / tool / workflow）覆盖 60+ 领域。每个技能是一份 `SKILL.md`（+ 可选 `references/`），本质是**角色化的提示词包**——一套系统指令加参考资料，用于在 Claude Code / OpenCode / Cursor 等 agent 运行时里给 LLM 加载稳定的专业身份、工具专长或工程工作流方法论。
 
 ### 不是什么
 
@@ -166,19 +176,29 @@ MIT — see [LICENSE](./LICENSE).
 ### 目录结构
 
 ```
-skills/                   943 个技能文件（SKILL.md），分 ~60 个分类
-  <category>/<role>/
-    SKILL.md              Frontmatter + 系统提示词（目标 ≤ 300 行）
-    references/           按需加载的深度内容（workflow / scenarios / …）
-    EVALUATION_REPORT.md  可选：自评质量报告
+skills/                   956 个技能文件，按 kind 分层组织
+  persona/                827 个角色 persona 技能
+    <domain>/<role>/
+      SKILL.md            Frontmatter + 系统提示词（目标 ≤ 300 行）
+      references/         按需加载的深度内容（workflow / scenarios / …）
+      EVALUATION_REPORT.md  可选：自评质量报告
 
-external/                 10 个精选第三方 skill 仓库的注册表
-                          （anthropics/skills、VoltAgent、awesome-claude-code 等）
+  tool/                   116 个技术工具专家技能（kind: tool）
+    <technology>/
+      <skill-name>/SKILL.md
+
+  workflow/               8 个流程驱动工作流技能（kind: workflow）
+    engineering/          TDD、debug-diagnose、zoom-out、architecture-review、
+                          issue-triage、to-prd
+    meta/                 write-skill、caveman
+
+external/                 精选第三方 skill 仓库的注册表
+                          （anthropics/skills、mattpocock/skills、VoltAgent 等）
                           通过 scripts/sync_external.py 按需拉取，不随仓库 vendored
 benchmarks/               评估数据集 + 评分脚本
 packages/                 按领域打包的 skill 合集
 roadmap/                  职业路径文档（独立于 skills/）
-taxonomy.yml              skills/packages/roadmap → 18 顶层分类 的唯一真源
+taxonomy.yml              21 个分类、80 个别名的唯一真源
 tools/                    Skill 分析工具 Python 包（评分、token、反模式）
 scripts/                  维护脚本（catalog 重生成、external 同步、taxonomy 检查等）
 .github/                  CI 工作流与脚本、CI/CD 文档
@@ -259,7 +279,7 @@ CI（`.github/workflows/quality.yml`）会在修改了 `skills/`、`tools/` 或 
 ### 已知局限
 
 - **绝大多数 skill 是纯文本 persona**，并不随包携带可执行 `scripts/` 或 `assets/`。
-- **描述重叠严重**：60 分类 × 943 个技能，许多 description 字段相似度高，会降低 agent 运行时的 skill 自动发现准确度。描述相似度检查已在 CI 中运行（仅提示，不阻塞）。
+- **描述重叠严重**：60+ 分类 × 956 个技能，许多 description 字段相似度高，会降低 agent 运行时的 skill 自动发现准确度。描述相似度检查已在 CI 中运行（仅提示，不阻塞）。
 - **质量分是自评**：`EVALUATION_REPORT.md` 反映仓库自家规则的评分，不是独立评审。
 - **三套分类互不一致**：`packages/`（14 类）、`roadmap/`（22 类）、`skills/`（60 类）仍在统一中。
 

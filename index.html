@@ -1034,11 +1034,11 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>Awesome Skills</h1>
-        <p data-i18n="heroSubtitle">943 expert skills. One command away.</p>
+        <p data-i18n="heroSubtitle">956 expert skills. One command away.</p>
 
         <div class="stats">
             <div class="stat-card">
-                <div class="stat-value" id="skillCount">943</div>
+                <div class="stat-value" id="skillCount">956</div>
                 <div class="stat-label" data-i18n="statSkills">Skills</div>
             </div>
             <div class="stat-card">
@@ -1057,11 +1057,21 @@
                 <span class="featured-text" data-i18n="featuredLabel"><strong>Recommended</strong> for new users</span>
             </div>
             <div class="pills-row">
-                <button class="pill pill-highlight" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/meta/skill-manager/SKILL.md and install skill-manager', this)">
+                <button class="pill pill-highlight" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/workflow/meta/write-skill/SKILL.md and install write-skill', this)">
                     <span class="pill-glow"></span>
-                    <span class="pill-icon">🛠️</span>
-                    <span class="pill-text" data-i18n="skillManager">Skill Manager</span>
-                    <span class="pill-badge" data-i18n="badgeHot">🔥 HOT</span>
+                    <span class="pill-icon">✍️</span>
+                    <span class="pill-text" data-i18n="skillManager">Write a Skill</span>
+                    <span class="pill-badge" data-i18n="badgeHot">🔥 NEW</span>
+                </button>
+                <button class="pill" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/workflow/engineering/debug-diagnose/SKILL.md and install debug-diagnose', this)">
+                    <span class="pill-glow"></span>
+                    <span class="pill-icon">🔍</span>
+                    <span class="pill-text">Debug & Diagnose</span>
+                </button>
+                <button class="pill" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/workflow/engineering/tdd-workflow/SKILL.md and install tdd-workflow', this)">
+                    <span class="pill-glow"></span>
+                    <span class="pill-icon">✅</span>
+                    <span class="pill-text">TDD Workflow</span>
                 </button>
             </div>
         </div>
@@ -1341,7 +1351,7 @@
             <span class="version-badge">v2.0.0</span>
             <span class="version-date" data-i18n="footerDate">Released March 22, 2026</span>
         </div>
-        <p data-i18n="footerText">943 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License</p>
+        <p data-i18n="footerText">956 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License</p>
         <p style="margin-top: 0.5rem;">
             <a href="./CATALOG.md">Catalog</a> &bull;
             <a href="./INSTALL-GUIDE.md">Install Guide</a> &bull;
@@ -1380,6 +1390,7 @@
     <script>
         // Mock data
         const categories = {
+            // ── Persona: professional roles ──────────────────────────────────
             software: 'Software',
             'ai-ml': 'AI & ML',
             creative: 'Creative',
@@ -1394,16 +1405,13 @@
             marketing: 'Marketing',
             product: 'Product',
             data: 'Data',
-            engineering: 'Engineering',
             enterprise: 'Enterprise',
-            tools: 'Tools',
             government: 'Government',
             aerospace: 'Aerospace',
             crafts: 'Crafts',
             'public-service': 'Public Service',
-            'service-worker': 'Service Service',
+            'service-worker': 'Service Worker',
             manufacturing: 'Manufacturing',
-            media: 'Media',
             energy: 'Energy',
             entertainment: 'Entertainment',
             realestate: 'Real Estate',
@@ -1435,12 +1443,32 @@
             logistics: 'Logistics',
             services: 'Services',
             ecommerce: 'E-Commerce',
-            meta: 'Meta',
             semiconductor: 'Semiconductor',
             blockchain: 'Blockchain',
             medical: 'Medical',
             international: 'International',
-            special: 'Special'
+            special: 'Special',
+            // ── Tool: technology-specific expert skills ───────────────────────
+            container: 'Container & K8s',
+            cloud: 'Cloud Platforms',
+            'cn-cloud': 'Chinese Cloud',
+            cicd: 'CI/CD',
+            database: 'Databases',
+            observability: 'Observability',
+            iac: 'Infrastructure as Code',
+            'data-platform': 'Data Platforms',
+            'game-engine': 'Game Engines',
+            'engineering-simulation': 'Engineering Simulation',
+            scientific: 'Scientific Computing',
+            cad: 'CAD / Design',
+            productivity: 'Productivity Tools',
+            security: 'Security Tools',
+            // ── Workflow: process-driven skills ──────────────────────────────
+            engineering: 'Engineering Workflows',
+            meta: 'Skill Authoring',
+            analytics: 'Analytics',
+            media: 'Media',
+            design: 'Design Tools',
         };
         
         const categoriesZh = {
@@ -1458,16 +1486,14 @@
             marketing: '市场营销',
             product: '产品管理',
             data: '数据分析',
-            engineering: '工程技术',
+            // Persona 类别
             enterprise: '企业技能',
-            tools: '工具软件',
             government: '政府公务',
             aerospace: '航空航天',
             crafts: '手工艺',
             'public-service': '公共服务',
             'service-worker': '服务业',
             manufacturing: '制造业',
-            media: '媒体传播',
             energy: '能源产业',
             entertainment: '娱乐产业',
             realestate: '房地产',
@@ -1499,19 +1525,39 @@
             logistics: '物流仓储',
             services: '商业服务',
             ecommerce: '电子商务',
-            meta: '元宇宙',
             semiconductor: '半导体',
             blockchain: '区块链',
             medical: '医疗技术',
             international: '国际贸易',
-            special: '特殊技能'
+            special: '特殊技能',
+            // Tool 类别（技术工具专家）
+            container: '容器与K8s',
+            cloud: '云平台',
+            'cn-cloud': '国内云服务',
+            cicd: 'CI/CD流水线',
+            database: '数据库',
+            observability: '可观测性',
+            iac: '基础设施即代码',
+            'data-platform': '数据平台',
+            'game-engine': '游戏引擎',
+            'engineering-simulation': '工程仿真',
+            scientific: '科学计算',
+            cad: 'CAD/设计工具',
+            productivity: '生产力工具',
+            security: '安全工具',
+            // Workflow 类别（流程驱动技能）
+            engineering: '工程工作流',
+            meta: '技能写作',
+            analytics: '数据分析工具',
+            media: '媒体工具',
+            design: '设计工具',
         };
         
         // 翻译数据
         const i18n = {
             zh: {
                 heroTitle: 'Awesome Skills',
-                heroSubtitle: '943 专家技能，一键安装。',
+                heroSubtitle: '956 专家技能，一键安装。',
                 browseBtn: '浏览技能',
                 starBtn: 'GitHub 星标',
                 statSkills: '技能',
@@ -1569,7 +1615,7 @@
             },
             en: {
                 heroTitle: 'Awesome Skills',
-                heroSubtitle: '943 expert skills. One command away.',
+                heroSubtitle: '956 expert skills. One command away.',
                 browseBtn: 'Browse Skills',
                 starBtn: 'Star on GitHub',
                 statSkills: 'Skills',
@@ -1908,6 +1954,7 @@
                             <span>⭐ ${skill.rating}</span>
                             <span>📥 ${skill.installs}</span>
                             <span>🏷️ ${catNames[skill.category] || skill.category}</span>
+                            <span style="opacity:0.7">${skill.kindLabel || skill.kind || ''}</span>
                         </div>
                     </div>
                 </div>
@@ -1955,8 +2002,8 @@
         
         function generateCommand() {
             const selected = allSkills.filter(s => selectedSkills.has(s.id));
-            const commands = selected.map(s => s.command || 
-                `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/${s.category}/${s.id}/SKILL.md and install ${s.id} skill`
+            const commands = selected.map(s => s.command ||
+                `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/${s.kind || 'persona'}/${s.category}/${s.id}/SKILL.md and install ${s.id} skill`
             ).join('\n\n');
             
             document.getElementById('modalContent').textContent = commands || 'No skills selected';
