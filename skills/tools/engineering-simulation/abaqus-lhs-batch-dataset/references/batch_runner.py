@@ -125,14 +125,24 @@ def cleanup_locks(case_dir: Path) -> None:
 
 
 def run_one_case(case_dir: Path, solver_script: Path, timeout_s: float) -> Tuple[int, float, str]:
+    """
+    Submit a single Abaqus job inside ``case_dir`` and wait for completion.
+
+    The command is built as an argv list with ``shell=False`` so that:
+      (a) the path to ``solver_script`` is passed directly to ``execvp`` and
+          cannot be re-parsed by a shell (no command-injection surface), and
+      (b) on ``TimeoutExpired`` the OS signal targets the actual ``abaqus``
+          process group rather than a wrapping shell that would leak the
+          FEA child and its license token.
+    """
     cleanup_locks(case_dir)
-    cmd = f'abaqus cae noGUI="{solver_script}"'
+    argv = ["abaqus", "cae", f"noGUI={solver_script}"]
     t0 = time.perf_counter()
     try:
         proc = subprocess.run(
-            cmd,
+            argv,
             cwd=str(case_dir),
-            shell=True,
+            shell=False,
             text=True,
             capture_output=True,
             timeout=timeout_s,
@@ -143,6 +153,8 @@ def run_one_case(case_dir: Path, solver_script: Path, timeout_s: float) -> Tuple
         return proc.returncode, elapsed, ""
     except subprocess.TimeoutExpired:
         return 124, time.perf_counter() - t0, "timeout"
+    except FileNotFoundError:
+        return 127, time.perf_counter() - t0, "abaqus executable not found on PATH"
     except Exception as err:  # noqa: BLE001
         return 1, time.perf_counter() - t0, str(err)
 
