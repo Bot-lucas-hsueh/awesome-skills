@@ -1,8 +1,8 @@
 # Catalog
 
-<951 total skills auto-generated on 2026-04-30. To regenerate: `python3 scripts/regenerate_catalog.py`>
+<955 total skills auto-generated on 2026-05-18. To regenerate: `python3 scripts/regenerate_catalog.py`>
 
-## Personas (827)
+## Personas (830)
 
 ### admin (9)
 
@@ -1503,6 +1503,14 @@
 | [isac-engineer](./skills/persona/telecom/isac-engineer/SKILL.md) | Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function rada... |
 | [ntn-engineer](./skills/persona/telecom/ntn-engineer/SKILL.md) | A world-class NTN (Non-Terrestrial Network) engineer specializing in 3GPP 5G-NR NTN integration (Rel... |
 
+### tools/engineering-simulation (3)
+
+| Skill | Description |
+|-------|-------------|
+| [abaqus-lhs-batch-dataset](./skills/tools/engineering-simulation/abaqus-lhs-batch-dataset/SKILL.md) | Generate an Abaqus FEA training dataset for surrogate / ML models. Latin Hypercube Sampling (or spar... |
+| [abaqus-odb-to-grid-csv](./skills/tools/engineering-simulation/abaqus-odb-to-grid-csv/SKILL.md) | Convert per-case Abaqus FEA outputs into ML-ready (X, Y) wide-table CSVs. Pivots irregular FEA mesh... |
+| [abaqus-surrogate-fea-validation](./skills/tools/engineering-simulation/abaqus-surrogate-fea-validation/SKILL.md) | Closed-loop inverse-design validation. Given a target deformation field, solve the inverse problem o... |
+
 ### transport-worker (7)
 
 | Skill | Description |
@@ -1526,7 +1534,7 @@
 | [logistics-network-planner](./skills/persona/transportation/logistics-network-planner/SKILL.md) | Senior logistics network planner specializing in network design, route optimization, warehouse posit... |
 | [railway-signal-engineer](./skills/persona/transportation/railway-signal-engineer/SKILL.md) | Senior railway signal engineer with expertise in signaling systems, train control, safety interlocki... |
 
-## Tools (116)
+## Tools (117)
 
 ### ai-ml (11)
 
@@ -1636,7 +1644,7 @@
 | [istio-servicemesh-expert](./skills/tool/container/istio-servicemesh-expert/SKILL.md) | Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh securit... |
 | [kubernetes-expert](./skills/tool/container/kubernetes-expert/SKILL.md) | Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying t... |
 
-### data-platform (6)
+### data-platform (7)
 
 | Skill | Description |
 |-------|-------------|
@@ -1646,6 +1654,7 @@
 | [kafka-expert](./skills/tool/data-platform/kafka-expert/SKILL.md) | Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, sche... |
 | [lakehouse-expert](./skills/tool/data-platform/lakehouse-expert/SKILL.md) | Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table forma... |
 | [spark-expert](./skills/tool/data-platform/spark-expert/SKILL.md) | Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE,... |
+| [xquik-expert](./skills/tool/data-platform/xquik-expert/SKILL.md) | Xquik expert for X/Twitter data. Use for tweet search, user lookup, follower export, media download,... |
 
 ### database (7)
 
