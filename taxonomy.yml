@@ -196,7 +196,7 @@ categories:
   - id: tools
     name: Tools & Platforms
     description: "Tool-specific expert skills (kind: tool): cloud platforms, databases, DevOps toolchains, observability stacks, ML frameworks, design tools, and more. Unlike persona skills, these teach operating a specific technology rather than adopting a professional role."
-    aliases: [tool/ai-ml, tool/analytics, tool/cad, tool/cicd, tool/cloud, tool/cn-cloud, tool/container, tool/data-platform, tool/database, tool/design, tool/engineering, tool/engineering-simulation, tool/enterprise, tool/game-engine, tool/iac, tool/media, tool/observability, tool/productivity, tool/scientific, tool/security]
+    aliases: [tool/ai-ml, tool/analytics, tool/cad, tool/cicd, tool/cloud, tool/cn-cloud, tool/container, tool/data-platform, tool/database, tool/design, tool/engineering, tool/engineering-simulation, tool/enterprise, tool/game-engine, tool/iac, tool/media, tool/observability, tool/productivity, tool/scientific, tool/security, tools]
     skills_dir: skills/tool/
 
   - id: engineering
